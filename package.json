@@ -8,6 +8,7 @@
   "dependencies": {
     "lodash": "4.12.0",
     "jquery": "2.2.3",
+    "react-images": "0.3.2",
     "react-photo-gallery": "4.2.4"
   },
   "peerDependencies": {
