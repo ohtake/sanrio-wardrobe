@@ -9,7 +9,7 @@ You can find clothings of Sanrio characters.
 
 Install [Node.js and npm](https://nodejs.org/en/download/). Execute `npm install` to install dependencies.
 
-Open two terminals, and run `npm run-script watch` and `npm start` individually. Now you can visit http://localhost:8080/ to view the application.
+Run `npm start`. Now you can visit http://localhost:8080/ to view the application.
 
 ## Publish
 
