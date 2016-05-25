@@ -4,13 +4,13 @@
       outerOffset: 20,
       flexibleWidth: "100%"
   });
-  $.getJSON("https://ohtake.github.io/sanrio-wardrobe/" + "kt-kitty.json")
+  $.get("kt-kitty.yaml")
   .done(function(data) {
+    data = jsyaml.load(data)
     var container = $("#container");
     container.empty();
     for (var i=0; i<data.length; i++) {
       var item = data[i];
-      console.log(item);
       var li = $("<li></li>", {"data-filter-class": JSON.stringify(item.tags)});
       var image = $("<img>", {src: item.image});
       var desc = $("<p></p>", {text: item.title});
