@@ -1,741 +1,1285 @@
 ---
   - 
-    title: "5D3Q8112"
-    tags: []
+    title: "ARIGATO EVERYONE"
     image: "https://farm6.staticflickr.com/5604/15605014039_3aa65f125e.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15605014039"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:purple", "color:pink"]
+    notes:
+      - ピューロランドパレード『ARIGATO EVERYONE!』
+      - 外部イベント『ハローキティとHUGして"ぎゅっ"』
+      - タイニーチャム、熊、水玉、ハート
   - 
     title: "5D3S3568"
-    tags: []
     image: "https://farm9.staticflickr.com/8568/15988250619_4f88143019.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15988250619"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:purple", "color:pink"]
+    notes:
+      - 『ARIGATO EVERYONE!』のアレンジで、タイニーチャムがクリスマス帽をかぶっている
   - 
-    title: "5D3W2238"
-    tags: ["color:pink", "color:purple", "attachment:rose", "attachment:hat"]
+    title: "OMOIYARI TO YOU"
     image: "https://farm6.staticflickr.com/5758/22390481194_beeb8e7677.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/22390481194/in/album-72157661207740725/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:purple"]
+    notes:
+      - ピューロランドパレード『OMOIYARI TO YOU』
+      - バラ、帽子
   - 
-    title: "5D3X1058"
-    tags: ["attachment:strawberry", "attachment:cake"]
+    title: "Miracle Gift Parade"
     image: "https://farm2.staticflickr.com/1623/24326364382_2a00bf3387.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/24326364382/in/album-72157662933449949/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red"]
+    notes:
+      - ピューロランドパレード『Miracle Gift Parade』
+      - いちご、ドーナツ、ケーキ
   - 
     title: "5D3X1099"
-    tags: []
     image: "https://farm2.staticflickr.com/1667/24408434416_c1b0a69c4d.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/24408434416/in/album-72157662933449949/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:purple"]
+    notes:
+      - 『Miracle Gift Parade』の光らないバージョン
   - 
-    title: "5D3U0498"
-    tags: []
+    title: "Believe"
     image: "https://farm8.staticflickr.com/7635/16152535014_db056d3679.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16152535014/in/album-72157651268862061/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink"]
+    notes:
+      - ピューロランドパレード『Believe』
+      - ピューロビレッジ『ミラクリュージョン★』
   - 
     title: "5D3O9793"
-    tags: []
     image: "https://farm4.staticflickr.com/3882/14650521100_36330b54b2.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14650521100"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink"]
+    notes:
+      - 『Believe』の光っているバージョン
+      - ピューロビレッジ『ミラクリュージョン★』
   - 
     title: "5D3R6215"
-    tags: []
     image: "https://farm8.staticflickr.com/7563/15889076825_35fcbdb4a6.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15889076825"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:gold"]
+    notes:
+      - 『Believe』のアレンジで、胸に金色の装飾が追加された光っていないバージョン
+      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』
   - 
     title: "5D3Q8284"
-    tags: []
     image: "https://farm6.staticflickr.com/5612/15605658267_e3a155d4a5.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15605658267"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:gold"]
+    notes:
+      - 『Believe』のアレンジで、胸に金色の装飾が追加された光っているバージョン
+      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』
   - 
     title: "5D3V4554"
-    tags: ["color:pink"]
     image: "https://farm1.staticflickr.com/682/21251679969_1cb7701265.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/21251679969/in/album-72157658244141940/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink"]
+    notes:
+      - 『ミラクリュージョン★スターライトドリーム』
+      - バラ、和服ドレス
   - 
     title: "5D3F4676"
-    tags: []
     image: "https://farm4.staticflickr.com/3765/9054261550_ca8c5cccba.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9054261550/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:blue", "color:red", "color:black", "color:white"]
+    notes:
+      - メルヘンシアター『不思議の国のハローキティ』通常服
+      - 時計、アリス
   - 
     title: "5D3D8863 (1280x1920)"
-    tags: []
     image: "https://lh4.googleusercontent.com/-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA/s500/5D3D8863%2520%25281280x1920%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/Jv33BfYcpxTPIRZJZwYscdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1280, height_o: 1920, max_len: 500 }
+    tags: ["color:blue", "color:red", "color:black", "color:white"]
+    notes:
+      - 『不思議の国のハローキティ』通常服の別バージョンで、チャーミーキティが追加され、背中のリボンに模様がない
+      - 時計、アリス、チャーミーキティ、ウサギ
   - 
     title: "5D3F3722"
-    tags: []
     image: "https://farm3.staticflickr.com/2864/8991669805_367de01085.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/8991669805/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:gold"]
+    notes:
+      - メルヘンシアター『不思議の国のハローキティ』配達人
+      - コート、帽子、Delivery Door to Door
   - 
     title: "5D3M0910"
-    tags: []
     image: "https://farm8.staticflickr.com/7333/13318653623_cd0908f69b.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/13318653623"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:black"]
+    notes:
+      - メルヘンシアター『不思議の国のハローキティ』レビュー1着目
+      - バラ、ズボン、帽子、男装
   - 
     title: "5D3N4376"
-    tags: []
     image: "https://farm4.staticflickr.com/3789/14288613646_45ff311cc3.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14288613646"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:white", "color:black"]
+    notes:
+      - メルヘンシアター『不思議の国のハローキティ』レビュー2着目
+      - 羽、ズボン、帽子、男装
   - 
     title: "5D3W8092"
-    tags: []
     image: "https://farm6.staticflickr.com/5708/23585887112_7b2c1b6867.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23585887112/in/album-72157662135932422/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:silver"]
+    notes:
+      - 水玉
   - 
     title: "5D3T2102"
-    tags: []
     image: "https://farm8.staticflickr.com/7561/16276525461_4d051db864.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16276525461/in/album-72157650223864056/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:yellow", "color:red", "color:green"]
+    notes:
+      - 着物、和服、梅
   - 
-    title: "5D3W7820"
-    tags: []
+    title: "水戸黄門"
     image: "https://farm6.staticflickr.com/5795/23398779300_6d953002ac.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23398779300/in/album-72157662135932422/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:yellow"]
+    notes:
+      - 水戸黄門
+      - 和服、杖
   - 
     title: "5D3W6467"
-    tags: []
     image: "https://farm6.staticflickr.com/5750/23456116821_7b5bae9b58.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23456116821/in/album-72157661343457589/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:blue", "color:pink"]
+    notes:
+      - キティズパラダイス『Chu!』
+      - デニム、ベルト
   - 
     title: "5D3W8665"
-    tags: []
     image: "https://farm6.staticflickr.com/5709/23066254004_7b8ca114a6.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23066254004/in/album-72157662135932422/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white", "color:black", "color:pink"]
+    notes:
+      - 外部イベント『ハローキティ＆ダニエルのありがとうマイフレンズ』のリボン簡略版
+      - ストライプ
   - 
     title: "5D3S3700"
-    tags: []
     image: "https://farm8.staticflickr.com/7468/16172425441_a677ec703c.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16172425441"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white", "color:black", "color:pink", "color:gold"]
+    notes:
+      - 外部イベント『ハローキティ＆ダニエルのありがとうマイフレンズ』のアレンジで金色の線やリボンとなっている
+      - ストライプ
   - 
     title: "5D3V9047"
-    tags: []
     image: "https://farm6.staticflickr.com/5630/22449655257_84f1e98efe.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/22449655257/in/album-72157660218064839/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:purple", "color:green", "color:pink", "color:white"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル』
+      - リボン
   - 
     title: "5D3V8866"
-    tags: []
     image: "https://farm1.staticflickr.com/614/22879124551_c4393def6e.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/22879124551/in/album-72157660218064839/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:purple", "color:orange", "color:white", "color:black"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
+      - ジャック・オー・ランタン、ハロウィン
   - 
     title: "5D3W0943"
-    tags: []
     image: "https://farm1.staticflickr.com/695/22876791176_d20a2639a3.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/22876791176/in/album-72157658695606453/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:purple", "color:pink", "color:orange"]
+    notes:
+      - ジャック・オー・ランタン、ハロウィン、ストライプ
   - 
     title: "5D3V9742"
-    tags: []
     image: "https://farm6.staticflickr.com/5738/22484232818_9c919e0275.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/22484232818/in/album-72157658695606453/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - バラ
   - 
     title: "5D3T3514"
-    tags: []
     image: "https://farm8.staticflickr.com/7547/15675951834_e6b92307fb.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15675951834/in/album-72157650338232505/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - 袴、和服、梅
   - 
     title: "5D3U3163"
-    tags: []
     image: "https://farm9.staticflickr.com/8712/16740467770_e7b7089789.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16740467770/in/album-72157649226344584/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:red"]
+    notes:
+      - メルヘンシアター『ハローキティのくるみ割り人形』
+      - カーディガン、ポケット、バーバリーチェック
   - 
     title: "5D3V3127"
-    tags: []
     image: "https://farm1.staticflickr.com/662/20596249563_dd6cfa10ef.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/20596249563/in/album-72157658281730422/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:silver", "color:black"]
+    notes:
   - 
     title: "5D3W5185"
-    tags: []
     image: "https://farm1.staticflickr.com/757/23494226695_6c6da37519.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23494226695/in/album-72157661832407521/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:purple", "color:silver", "color:orange"]
+    notes:
+      - マント、ジャック・オー・ランタン、ハロウィン
   - 
     title: "5D3P7460"
-    tags: []
     image: "https://farm6.staticflickr.com/5559/15179431542_312ffe3004.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15179431542"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:purple", "color:silver"]
+    notes:
+      - マントやジャック・オー・ランタンがない簡略版
+      - ハロウィン
   - 
     title: "5D3X2427"
-    tags: []
     image: "https://farm2.staticflickr.com/1625/23961057343_eb9bca524f.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23961057343/in/album-72157661566433054/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:green", "color:white", "color:gold"]
+    notes:
+      - 館のレストラン『Join!☆Kitty クリスマス』2014年版
+      - クリスマス、柊、ベル
   - 
     title: "5D3W4837"
-    tags: []
     image: "https://farm1.staticflickr.com/654/23493200475_10e6acb435.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23493200475/in/album-72157659639353723/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:green", "color:white"]
+    notes:
+      - 外部イベント『ハローキティ＆シュガーバニーズのきっとうまくいくよ!』
+      - 外部イベント『キティズパラダイス』
+      - エプロン
   - 
     title: "5D3X1794"
-    tags: []
     image: "https://farm2.staticflickr.com/1514/24498508811_ac10cb6d5a.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/24498508811/in/album-72157663833100816/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white"]
+    notes:
+      - 外部イベント『ハローキティの HAPPY GIFT CHRISTMAS』
+      - クリスマス
   - 
     title: "5D3X1999"
-    tags: []
     image: "https://farm2.staticflickr.com/1632/23953971253_b48e6e23d8.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23953971253/in/album-72157663833100816/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:red", "color:gold"]
+    notes:
+      - クリスマス、真珠
   - 
     title: "5D3V3953"
-    tags: []
     image: "https://farm1.staticflickr.com/608/21222917226_4b9f03bc64.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/21222917226/in/album-72157657943616430/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:white", "color:gold"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー 2』レビューパート
   - 
     title: "5D3M2676"
-    tags: []
     image: "https://farm8.staticflickr.com/7087/13653961905_a5035b430c.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/13653961905"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - チェック、リボン
   - 
     title: "5D3Q8342"
-    tags: []
     image: "https://farm8.staticflickr.com/7513/15608954220_5127e88cd6.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15608954220"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - 一日駅長
+      - チェック、リボン
   - 
     title: "5D3U3576"
-    tags: []
     image: "https://farm9.staticflickr.com/8782/16418272393_3faf2d79ef.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16418272393/in/album-72157651769681095/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:blue"]
+    notes:
+      - 銀座柳まつり
+      - 袴、和服、梅
   - 
     title: "5D3W9470"
-    tags: []
     image: "https://farm1.staticflickr.com/738/23354447529_e36af9f8c4.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23354447529/in/album-72157661775391760/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:yellow"]
+    notes:
+      - 着物、和服、桜
   - 
     title: "5D3W9762"
-    tags: []
     image: "https://farm6.staticflickr.com/5834/23863299425_d7d3450101.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23863299425/in/album-72157662537797516/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:pink", "color:white"]
+    notes:
+      - 眼鏡、パリミキ、チェック、まつげ
   - 
     title: "5D3U9204"
-    tags: []
     image: "https://farm6.staticflickr.com/5587/18812535015_e4f3cd6a63.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/18812535015/in/album-72157654554353802/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:yello"]
+    notes:
+      - Drusillas Park Hello Kitty Secret Garden
+      - ハート、真珠
   - 
     title: "5D3V1854"
-    tags: []
     image: "https://farm6.staticflickr.com/5818/20465408173_e827fc7ef9.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/20465408173/in/album-72157655756847054/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - イギリス版で作りが異なる
+      - バラ
   - 
     title: "5D3V1382"
-    tags: []
     image: "https://farm4.staticflickr.com/3803/19797691795_35affc81df.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/19797691795/in/album-72157653707285983/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:green", "color:yellow", "color:white"]
+    notes:
+      - ミラノ国際博覧会2015
+      - 和服、着物、桜
   - 
     title: "5D3V8314"
-    tags: []
     image: "https://farm1.staticflickr.com/642/22446743828_43477f157e.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/22446743828/in/album-72157660545762460/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:silver", "color:pink"]
+    notes:
+      - エバー航空、宇宙飛行士、ヒューストン
   - 
     title: "5D3V8345"
-    tags: []
     image: "https://farm6.staticflickr.com/5709/22865085985_a2a97e55bf.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/22865085985/in/album-72157660545762460/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:green", "color:gray", "color:pink"]
+    notes:
+      - エバー航空、キャビンアテンダント
   - 
     title: "5D3S2796"
-    tags: []
     image: "https://farm9.staticflickr.com/8572/15985858637_afa8289c1a.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15985858637"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:green", "color:black", "color:white"]
+    notes:
+      - ピューロランドパレード『星空の Happy Party Christmas』
+      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
+      - クリスマス
   - 
     title: "5D3G2135"
-    tags: []
     image: "https://farm4.staticflickr.com/3763/9329266957_9e5527ea07.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9329266957/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red"]
+    notes:
+      - レディキティハウス「ローズ」
+      - バラ、バッグ、手袋
   - 
     title: "5D3L3629"
-    tags: []
     image: "https://farm4.staticflickr.com/3710/12323200923_c9f488bfa3.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/12323200923"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red"]
+    notes:
+      - レディキティハウス「ローズ」のバッグなし版
+      - バラ、手袋
   - 
     title: "5D3N2940"
-    tags: []
     image: "https://farm6.staticflickr.com/5236/14034879050_84dae9df38.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14034879050"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:yello", "color:black", "color:white"]
+    notes:
+      - レディキティハウス「パステルローズ」
+      - バラ、ストライプ
   - 
     title: "5D3N2928"
-    tags: []
     image: "https://farm6.staticflickr.com/5114/14221485795_c81a250444.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14221485795"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:blue", "color:white"]
+    notes:
+      - レディキティハウス「トリコロール」
   - 
     title: "5D3L8935"
-    tags: []
     image: "https://farm4.staticflickr.com/3782/13190141424_ab06d7b0dd.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/13190141424"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:pink"]
+    notes:
+      - キティズハウス
+      - バラ
   - 
     title: "5D3P1366"
-    tags: []
     image: "https://farm4.staticflickr.com/3885/14907564545_5a8afc9226.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14907564545"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:blue"]
+    notes:
+      - ピューロランドパレード『夏フェス☆マーチングパレード』
+      - 浴衣ドレス、和服、夏、バラ
   - 
     title: "5D3Q2035"
-    tags: []
     image: "https://farm3.staticflickr.com/2945/15360373912_c7000ef8be.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15360373912"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:orange", "color:purple", "color:black"]
+    notes:
+      - ピューロランドパレード『ハロウィンマーチングパレード』パンプキン
+      - ハロウィン
   - 
     title: "5D3Q5246"
-    tags: []
     image: "https://farm6.staticflickr.com/5616/15431071427_f200f2cccb.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15431071427"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white", "color:red"]
+    notes:
+      - ピューロランドパレード『ハロウィンマーチングパレード』ゴースト
+      - ハロウィン
   - 
     title: "5D3W6010"
-    tags: []
     image: "https://farm1.staticflickr.com/572/23165223009_ee24c392b6.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23165223009/in/album-72157659707199853/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white", "color:pink"]
+    notes:
+      - ピューロランドパレード『ハロウィンマーチングパレード』ゴーストのリボンがピンク版
+      - ハロウィン
   - 
     title: "5D3C0478 (1440x960)"
-    tags: []
     image: "https://lh3.googleusercontent.com/-bd2HnhfNIn0/UN-5Ds2ZKUI/AAAAAAAAHX0/4HPt1XGjsqo/s500/5D3C0478%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/ccB9ykxR4xO-44GTNwPKw9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:red", "color:white"]
+    notes:
+      - 着物、和服、梅、ショール
   - 
     title: "5D3L2709"
-    tags: []
     image: "https://farm3.staticflickr.com/2809/12146418334_30de40cc73.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/12146418334"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red"]
+    notes:
+      - ショールなしバージョン
+      - 着物、和服、梅
   - 
     title: "5D3S4357"
-    tags: []
     image: "https://farm8.staticflickr.com/7498/16174592385_961df294a3.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16174592385"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:purple", "color:red"]
+    notes:
+      - 着物、和服、桜
   - 
     title: "5D3O4702"
-    tags: []
     image: "https://farm6.staticflickr.com/5596/14703705663_265b4973c8.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14703705663"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red"]
+    notes:
+      - 映画『舞妓はレディ』
+      - 着物、和服、桜、梅、もみじ
   - 
-    title: "5D3R5870"
-    tags: []
+    title: "yoshikitty"
     image: "https://farm8.staticflickr.com/7479/15701789090_dd6a369dc7.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15701789090"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:black", "color:red"]
+    notes:
+      - yoshikitty、X JAPAN、男装、十字架、頭髪
   - 
     title: "5D3L5532"
-    tags: []
     image: "https://farm6.staticflickr.com/5537/12634158924_4574a8f866.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/12634158924"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:pink", "color:white", "color:yellow"]
+    notes:
+      - いちご
   - 
     title: "5D3O3583"
-    tags: []
     image: "https://farm4.staticflickr.com/3844/14397308379_ab418a1f8f.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14397308379"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:red", "color:yellow", "color:white"]
+    notes:
+      - 知恵の木ステージ『ブルーズクルーズショー ~Blueのプレゼント~』のベース衣装
+      - キティ
   - 
-    title: "5D3P5397"
-    tags: []
+    title: "フコク生命"
     image: "https://farm4.staticflickr.com/3870/15013760875_e0a6984dc2.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15013760875"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:gray", "color:black", "color:red"]
+    notes:
+      - フコク生命のOL
+      - OL
   - 
     title: "5D3Q7657"
-    tags: []
     image: "https://farm9.staticflickr.com/8256/15792411712_c1e06d8c35.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15792411712"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink"]
+    notes:
+      - プードル、ハート
   - 
     title: "5D3Q9813"
-    tags: []
     image: "https://farm8.staticflickr.com/7540/15803652225_3e52e9aef8.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15803652225"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:gold", "color:red"]
+    notes:
+      - ハーモニーランドパレード『パレード・ノア』
+      - ステッキ、冠
   - 
     title: "5D3R0787"
-    tags: []
     image: "https://farm8.staticflickr.com/7478/15183286324_d1c483c094.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15183286324"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - 宝石、冠、ヘッドフォン
   - 
     title: "5D3R2633"
-    tags: []
     image: "https://farm9.staticflickr.com/8656/15642133338_c15a0b22c9.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15642133338"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white", "color:red", "color:gold"]
+    notes:
+      - 多段フリル、ハート
   - 
     title: "5D3R3713"
-    tags: []
     image: "https://farm8.staticflickr.com/7545/15661536288_dc94e810a9.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15661536288"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:white", "color:pink", "color:yellow", "color:green", "color:purple"]
+    notes:
+      - プラザステージ『キティズ♥ドリームファクトリー』
+      - 多段フリル
   - 
     title: "5D3R1347"
-    tags: []
     image: "https://farm8.staticflickr.com/7481/15827633305_09b36159c3.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15827633305"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:white", "color:gold"]
+    notes:
+      - ピューロランドパレード『スターライトパレード』
+      - 『ハローキティのすてきなパーティ』
+      - 多段フリル、水玉、ボール
   - 
     title: "5D3R3232"
-    tags: []
     image: "https://farm8.staticflickr.com/7484/15663055889_7029142a90.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15663055889"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:white", "color:red", "color:green"]
+    notes:
+      - クリスマス
   - 
     title: "5D3R3424"
-    tags: []
     image: "https://farm9.staticflickr.com/8590/15229409723_b0fd558373.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15229409723"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:white"]
+    notes:
+      - クリスマス
   - 
     title: "5D3R1086"
-    tags: []
     image: "https://farm8.staticflickr.com/7469/15825759001_2f20fbdb46.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15825759001"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:pink", "color:blue", "color:white"]
+    notes:
+      - 雨合羽、ハート
   - 
     title: "5D3S9402"
-    tags: []
     image: "https://farm8.staticflickr.com/7520/16213961442_207a60361a.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16213961442"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:green", "color:pink", "color:white", "color:gold"]
+    notes:
+      - ユニバーサルスタジオジャパン『サンタのトイ・マーチ』
+      - クリスマスツリー、クリスマス、音符
   - 
     title: "5D3S9860"
-    tags: []
     image: "https://farm8.staticflickr.com/7529/16028627509_e0105b64ec.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16028627509"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red"]
+    notes:
+      - ユニバーサルスタジオジャパン『ハローキティのリボン・コレクション』
+      - スパンコール
   - 
     title: "5D3S9358"
-    tags: []
     image: "https://farm8.staticflickr.com/7540/15594912253_7b26bc7462.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15594912253"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white", "color:gold", "color:red", "color:purple"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - バラ、バッグ
   - 
     title: "5D3S9264"
-    tags: []
     image: "https://farm8.staticflickr.com/7473/15594917033_8d04349bd9.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15594917033"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:red"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - バラ
   - 
     title: "5D3N1625"
-    tags: []
     image: "https://farm3.staticflickr.com/2906/13982308649_f528a622d1.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/13982308649"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:white", "color:pink"]
+    notes:
+      - ストライプ
   - 
     title: "5D3O3259"
-    tags: []
     image: "https://farm6.staticflickr.com/5552/14560072296_6c89d1f1d0.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14560072296"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:white", "color:pink"]
+    notes:
+      - 日焼け、帽子、ハイビスカス
   - 
     title: "5D3P6743"
-    tags: []
     image: "https://farm6.staticflickr.com/5552/14892779477_61c3ecd5f5.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14892779477"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:yellow"]
+    notes:
+      - チェック、ハート
   - 
     title: "5D3P6871"
-    tags: []
     image: "https://farm6.staticflickr.com/5566/15056316106_ec76faef26.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15056316106"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:yellow", "color:white"]
+    notes:
+      - 浴衣、和服、キティ
   - 
     title: "5D3Q3974"
-    tags: []
     image: "https://farm4.staticflickr.com/3929/15553714641_5bdcc5b4b4.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15553714641"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:orange", "color:yellow", "color:green", "color:blue"]
+    notes:
+      - 知恵の木ステージ『ハローキティの魔法使い大行進』
+      - キティズパラダイス『マジックマーチ』
+      - 帽子、星、月
   - 
     title: "5D3M1186"
-    tags: []
     image: "https://farm3.staticflickr.com/2836/13349531445_72a16b1149.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/13349531445"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:blue"]
+    notes:
+      - 高尾山ロケ
+      - タータンチェック、GP
   - 
     title: "5D3M2437"
-    tags: []
     image: "https://farm4.staticflickr.com/3775/13654324154_97e704cd64.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/13654324154"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:blue", "color:yellow", "color:brown"]
+    notes:
+      - 外部イベント『ECC Presents イングリッシュライブショー「サンリオキャラクターとあそぼう!」』
+      - バッグ、クローバー
   - 
     title: "5D3R4236"
-    tags: []
     image: "https://farm8.staticflickr.com/7527/15668993259_9228bc8d66.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15668993259"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:green", "color:pink", "color:yellow", "color:purple"]
+    notes:
+      - 外部イベント『マイメロディのハッピーキャラバン!』
+      - 多段フリル、ボール
   - 
     title: "5D3Q4756"
-    tags: []
     image: "https://farm4.staticflickr.com/3932/15575599446_6e933b58fd.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15575599446"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:black", "color:pink", "color:silver"]
+    notes:
+      - DJ、ヘッドフォン
   - 
     title: "5D3M8815"
-    tags: []
     image: "https://farm8.staticflickr.com/7320/14097205631_f148c3b6f4.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14097205631"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:black", "color:pink", "color:silver"]
+    notes:
+      - 浜崎あゆみ『Feel the love』プロモーションビデオ
+      - DJ、ヘッドフォン、ゴーグル、フード
   - 
     title: "5D3D9692 (1280x1920)"
-    tags: []
     image: "https://lh6.googleusercontent.com/-1N1g29eo1VA/UWLEOR4GjkI/AAAAAAAAUeQ/ItCivPXK9s4/s500/5D3D9692%2520%25281280x1920%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/VwFz6fXwxw_UeZrLi12WGNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1280, height_o: 1920, max_len: 500 }
+    tags: ["color:white", "color:red", "color:pink"]
+    notes:
+      - キティズハウス
+      - リボン
   - 
     title: "5D3P4626"
-    tags: []
     image: "https://farm4.staticflickr.com/3856/14955289881_990ccf5d0e.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14955289881"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:white", "color:red", "color:pink"]
+    notes:
+      - キティズハウスの簡略版
+      - リボン
   - 
     title: "5D3S3426"
-    tags: []
     image: "https://farm8.staticflickr.com/7548/16173568672_7fd6a748a2.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16173568672"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:white", "color:red", "color:pink"]
+    notes:
+      - キティズハウスの豪華版
+      - リボン、羽毛
   - 
     title: "5D3M9551"
-    tags: []
     image: "https://farm8.staticflickr.com/7388/13926328199_8398680f52.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/13926328199"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:red", "color:yellow", "color:green", "color:purple", "color:white"]
+    notes:
+      - ハローキティ35周年
+      - スパンコール、リボン、ピアス、指輪、キティ
   - 
     title: "5D3N1851"
-    tags: []
     image: "https://farm3.staticflickr.com/2921/14206128675_a8bd791941.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14206128675"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:orange", "color:yellow", "color:green", "color:blue"]
+    notes:
+      - チア
   - 
     title: "5D3N1955"
-    tags: []
     image: "https://farm3.staticflickr.com/2915/14202779751_b39080e1a2.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14202779751"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:red", "color:green", "color:white"]
+    notes:
+      - 外部イベント『ハローキティのスーパーアドベンチャー西遊記』
+      - ハート、ストライプ
   - 
     title: "5D3N2239"
-    tags: []
     image: "https://farm6.staticflickr.com/5511/14210036752_a59285e4b3.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14210036752"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:yellow", "color:blue"]
+    notes:
+      - JRA、ジョッキー、ゴーグル、帽子
   - 
     title: "5D3N4490"
-    tags: []
     image: "https://farm3.staticflickr.com/2898/14125538507_60b08c7d8e.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14125538507"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:green", "color:yellow", "color:white"]
+    notes:
+      - JRA、ジョッキー、ゴーグル、帽子
   - 
     title: "5D3P8419"
-    tags: []
     image: "https://farm4.staticflickr.com/3874/15033341350_1cce4444c5.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15033341350"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white", "color:red", "color:purple"]
+    notes:
+      - 外部イベント『キティ&ミミィのハッピーフレンドクリスマス!』
+      - 雪、クリスマス
   - 
     title: "5D3S2843"
-    tags: []
     image: "https://farm8.staticflickr.com/7485/16145846516_6d181ee298.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16145846516"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:white"]
+    notes:
+      - クリスマス、バラ
   - 
     title: "5D3M9653"
-    tags: []
     image: "https://farm6.staticflickr.com/5514/13926406798_0551b9bfa9.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/13926406798"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:red", "color:white"]
+    notes:
+      - チェック、多段フリル
   - 
     title: "5D3M9810"
-    tags: []
     image: "https://farm8.staticflickr.com/7436/13926372509_18b4730bdf.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/13926372509"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:gold"]
+    notes:
+      - メルヘンシアター『ハローキティの妖精フローレンス』レビューパートの衣装から頭上の飾りをなくした版
+      - バラ、多段フリル
   - 
     title: "5D3Q4934"
-    tags: []
     image: "https://farm4.staticflickr.com/3936/14979534204_ac25ff6ba4.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14979534204"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:yellow"]
+    notes:
+      - 映画『くるみ割り人形』クララ
+      - まつげ、頭髪
   - 
     title: "5D3J1596"
-    tags: []
     image: "https://farm3.staticflickr.com/2870/10776773186_68d44f887d.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/10776773186/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:blue", "color:white"]
+    notes:
+      - 知恵の木ステージ『ジュエルペットのマジカルマーチ』
+      - ネクタイ
   - 
-    title: "5D3F2980 (1280x1920)"
-    tags: []
+    title: "イチゴマン"
     image: "https://lh4.googleusercontent.com/-IErfXhUokWk/UbP0aa6nQMI/AAAAAAAATYQ/-cratJNEg7w/s500/5D3F2980%2520%25281280x1920%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/y-l8PZz_5TJPfahMe9q8-dMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1280, height_o: 1920, max_len: 500 }
+    tags: ["color:red", "color:green", "color:white"]
+    notes:
+      - エンターテイメントホール『パワー・ザ・キティ』
+      - いちご、手袋
   - 
     title: "5D3C8084 (960x1440)"
-    tags: []
     image: "https://lh5.googleusercontent.com/-nKnj7PxNDUw/URj6JuYOzNI/AAAAAAAAKJk/zB4jBsKFFro/s500/5D3C8084%2520%2528960x1440%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/EQrODMpKzTvHC6zQ2xXJftMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 960, height_o: 1440, max_len: 500 }
+    tags: ["color:blue", "color:yellow", "color:white", "color:red"]
+    notes:
+      - 知恵の木ステージ『PURO★アイドル★コレクション』KIT
+      - 多段フリル
   - 
     title: "5D3G0625"
-    tags: []
     image: "https://farm6.staticflickr.com/5550/9286109572_c765d7057a.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9286109572/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:pink", "color:white"]
+    notes:
+      - 館のレストラン『Join!☆Kitty』
+      - ハート、多段フリル、ボール
   - 
     title: "5D3W9217"
-    tags: []
     image: "https://farm6.staticflickr.com/5681/23404950760_c252f28205.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23404950760/in/album-72157662146498602/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:pink", "color:white"]
+    notes:
+      - 『Join!☆Kitty』の別バージョンでボールがなくなり色も全体的に異なる
+      - ハート、多段フリル
   - 
     title: "5D3C2291 (960x1440)"
-    tags: []
     image: "https://lh5.googleusercontent.com/-nvxrAfr6kDw/UOQdF55pghI/AAAAAAAAIDw/TRCziQ6yj3M/s500/5D3C2291%2520%2528960x1440%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/8QDf7ChAhXlcyIKBqRniZNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 960, height_o: 1440, max_len: 500 }
+    tags: ["color:red", "color:gold"]
+    notes:
+      - キティズハウス
+      - バラ
   - 
     title: "5D3D4777 (1920x1280)"
-    tags: []
     image: "https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s500/5D3D4777%2520%25281920x1280%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/0PFa4BsUBZFjugZvBmr8QNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1920, height_o: 1280, max_len: 500 }
+    tags: ["color:red", "color:brown", "color:white"]
+    notes:
+      - キティズハウス
+      - 熊
   - 
     title: "5D3F0805"
-    tags: []
     image: "https://farm4.staticflickr.com/3807/8826145024_50c0fe0101.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/8826145024/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:red"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー 1』
+      - タータンチェック
   - 
     title: "5D3D0766 (1440x960)"
-    tags: []
     image: "https://lh5.googleusercontent.com/-PPePiZd9FU8/UTI8cY0599I/AAAAAAAAK7I/1_lAfiKpeQ0/s500/5D3D0766%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/PhVzKqKfKHZHwO566xaYqNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:yellow", "color:green"]
+    notes:
+      - メルヘンシアター『ハローキティの妖精フローレンス』
+      - チューリップ
   - 
     title: "5D3G3106"
-    tags: []
     image: "https://farm6.staticflickr.com/5474/9382750550_8d4dfb2879.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9382750550/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:blue", "color:orange", "color:white", "color:red"]
+    notes:
+      - 浴衣、和服、キティ
   - 
     title: "5D3G0698"
-    tags: []
     image: "https://farm6.staticflickr.com/5495/9286105178_5d215b9c94.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9286105178/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:blue", "color:yellow"]
+    notes:
+      - 浴衣、和服、花火
   - 
     title: "5D3H0367"
-    tags: []
     image: "https://farm8.staticflickr.com/7300/9582808717_e4f54748e3.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9582808717/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white", "color:pink", "color:red", "color:yellow"]
+    notes:
+      - 浴衣、和服
   - 
     title: "5D3H4551"
-    tags: []
     image: "https://farm8.staticflickr.com/7426/9741887827_90be731ede.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9741887827/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:black", "color:purple", "color:red", "color:white", "color:silver"]
+    notes:
+      - ピューロランドパレード『ハロウィンマーチングパレード』バンパイア
+      - ハロウィン、マント、コウモリ、ストライプ、蝶ネクタイ
   - 
     title: "5D3D2846 (1440x960)"
-    tags: []
     image: "https://lh3.googleusercontent.com/-_yPx6yNvzE4/UTiac8NDbwI/AAAAAAAALxg/A8glaIroFvw/s500/5D3D2846%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/toLc9rbQd6Tv-Pa8mTaPt9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:red", "color:blue"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』通常服
+      - デニム、バッグ
   - 
     title: "5D3D1216 (1440x960)"
-    tags: []
     image: "https://lh3.googleusercontent.com/-R4Utmi7l5Js/UTI9RVW3mCI/AAAAAAAALGU/Xvta7ry2UNk/s500/5D3D1216%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/-yE7zHAYXfkytpFS3A75OdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:white", "color:black", "color:red"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』レビューパート1
+      - 男装、帽子
   - 
     title: "5D3B1719 (1440x960)"
-    tags: []
     image: "https://lh4.googleusercontent.com/-Jm0Vrxvhdas/UHoHpaJEd_I/AAAAAAAAD0U/Cd8AX3hI6fk/s500/5D3B1719%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/8Q2_Tu7RPHFCXuHI23fNAdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:red", "color:white"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』レビューパート2
+      - 男装
   - 
     title: "5D3E5671 (1280x1920)"
-    tags: []
     image: "https://lh5.googleusercontent.com/-bXtvMl5BSmY/UXUbqlXp5II/AAAAAAAAQkU/kxI2W7t1WBo/s500/5D3E5671%2520%25281280x1920%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/PpPSSMC33k6uKnCmZ0fDfdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1280, height_o: 1920, max_len: 500 }
+    tags: ["color:red", "color:white"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』レビューパート2の羽がない版
+      - 男装
   - 
     title: "5D3E5827 (1280x1920)"
-    tags: []
     image: "https://lh5.googleusercontent.com/-g9Jt1fs2foU/UXUcDmkVDhI/AAAAAAAAQo0/ntTttG-i6aQ/s500/5D3E5827%2520%25281280x1920%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/TXouq-8ZCSbT4Yb-mDHdpNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1280, height_o: 1920, max_len: 500 }
+    tags: ["color:red", "color:black", "color:white"]
+    notes:
+      - 神田うのデザインドレス
+      - 多段フリル、水玉
   - 
     title: "5D3F5548"
-    tags: []
     image: "https://farm4.staticflickr.com/3782/9067235198_4aaa3bc50a.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9067235198/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:red"]
+    notes:
+      - 『ブルーズクルーズショー ~Blueのプレゼント~』にタスキ追加
+      - 多段フリル、チェック、水玉、ストライプ
   - 
-    title: "5D3G1750"
-    tags: []
+    title: "燕尾服"
     image: "https://farm6.staticflickr.com/5522/9332074182_535db16dfe.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9332074182/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:black", "color:white"]
+    notes:
+      - 燕尾服、リボン、ハート
   - 
     title: "5D3K4491"
-    tags: []
     image: "https://farm3.staticflickr.com/2868/11486537885_bb4b43f8c5.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11486537885/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:black", "color:white"]
+    notes:
+      - 燕尾服にクリスマスのベルを追加した版
+      - 燕尾服、リボン、ハート、クリスマス、ベル
   - 
     title: "5D3J4060"
-    tags: []
     image: "https://farm6.staticflickr.com/5538/10836893815_4c0bf9a9d5.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/10836893815/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - 水玉、熊、多段フリル、ヘッドドレス
   - 
-    title: "5D3J4219"
-    tags: []
+    title: "オーバーオール"
     image: "https://farm3.staticflickr.com/2816/10836880765_c1ba5e2447.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/10836880765/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:red", "color:white"]
+    notes:
+      - 『ハローキティのすてきなパーティ』
+      - 『ハローキティの恐竜島探検』
+      - オーバーオール、尻尾
   - 
     title: "5D3R4470"
-    tags: []
     image: "https://farm9.staticflickr.com/8565/15237404254_0e0593ef9d.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15237404254"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:red", "color:white"]
+    notes:
+      - オーバーオールの靴を履いていないバージョン
   - 
     title: "5D3K4361"
-    tags: []
     image: "https://farm8.staticflickr.com/7371/11486544915_ab7cc6af96.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11486544915/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:blue", "color:white", "color:red"]
+    notes:
+      - ピューロランドパレード『クリスマス ILLUMINANT』
+      - 館のレストラン『Join!☆Kitty クリスマス』2015年版
+      - クリスマス、星、マント
   - 
     title: "5D3K4676"
-    tags: []
     image: "https://farm4.staticflickr.com/3696/11486648763_e555001d6f.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11486648763/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:gold", "color:white"]
+    notes:
+      - 館のレストラン『ロマンティックセレナーデ』
   - 
     title: "5D3Q7404"
-    tags: []
     image: "https://farm6.staticflickr.com/5615/15789141422_1914a165f4.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15789141422"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:silver"]
+    notes:
+      - 『ロマンティックセレナーデ』から腰ひもとリストを削除しジャケットを追加
   - 
     title: "5D3S3818"
-    tags: []
     image: "https://farm9.staticflickr.com/8592/15986971610_8e29381845.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15986971610"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:silver"]
+    notes:
+      - 『ロマンティックセレナーデ』から腰ひもとリストを削除しジャケットとクリスマス装飾を追加
+      - クリスマス
   - 
     title: "5D3K4816"
-    tags: []
     image: "https://farm4.staticflickr.com/3802/11486523755_55c792967e.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11486523755/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:white", "color:gold"]
+    notes:
+      - ピューロランドパレード『Believe in Christmas』
+      - クリスマス
   - 
     title: "5D3I3419"
-    tags: []
     image: "https://farm8.staticflickr.com/7397/10114607714_f024e2df52.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/10114607714/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:black", "color:orange", "color:red"]
+    notes:
+      - ハロウィン、ジャック・オー・ランタン、マント、帽子
   - 
     title: "5D3K0313"
-    tags: []
     image: "https://farm8.staticflickr.com/7418/11152934336_5439ea3b85.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11152934336/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:white", "color:silver"]
+    notes:
+      - クリスマス
   - 
     title: "5D3J8586"
-    tags: []
     image: "https://farm4.staticflickr.com/3792/11026276214_ea160b0f5a.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11026276214/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:yellow", "color:red"]
+    notes:
+      - Kawaii Paradise のクリスマス用ケープ追加バージョン
+      - パッチワーク、クリスマス
   - 
     title: "5D3E6015 (1920x1280)"
-    tags: []
     image: "https://lh4.googleusercontent.com/-mIMD0HrnEMo/UX5Hs4SObHI/AAAAAAAAQ4M/0PfE0n3pwiQ/s500/5D3E6015%2520%25281920x1280%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/sWHvcGs0GMEr1xzdSihHg9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1920, height_o: 1280, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:yellow"]
+    notes:
+      - 外部イベント『ハローキティとプリンのみんなでスマイル』
   - 
     title: "5D3C6840 (1440x960)"
-    tags: []
     image: "https://lh4.googleusercontent.com/-81L8w09_d30/UREcEHT-l_I/AAAAAAAAJpw/uUD3fYTm2SQ/s500/5D3C6840%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/vOte4gCeq92JvkjCVT06LNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:pink", "color:yellow", "color:green"]
+    notes:
+      - 外部イベント『ハローキティのハッピーキャラバン!』
+      - チア
   - 
     title: "5D3C6876 (1440x960)"
-    tags: []
     image: "https://lh3.googleusercontent.com/-mm6TfngD1fk/UREcMYJAMUI/AAAAAAAAJrE/kaB5xYqD-oU/s500/5D3C6876%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/XTneiWGB4usTSJZzS7IMENMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:blue", "color:white", "color:pink"]
+    notes:
+      - 外部イベント『ハローキティのハッピーキャラバン!』
+      - チア
   - 
     title: "5D3K5507"
-    tags: []
     image: "https://farm8.staticflickr.com/7345/11494229915_bcd4a9fc29.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11494229915/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:pink", "color:white", "color:gold"]
+    notes:
+      - 外部イベント『キティ&ミミィのハッピーフレンドクリスマス!』
+      - クリスマス
   - 
     title: "5D3J8226"
-    tags: []
     image: "https://farm4.staticflickr.com/3798/11009201923_d618a27eec.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11009201923/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:white", "color:silver"]
+    notes:
+      - 外部イベント『サンリオクリスマスレビューショー』
+      - クリスマス、柊、コート
   - 
     title: "5D3H3135"
-    tags: []
     image: "https://farm4.staticflickr.com/3820/9687347403_d4f8cf9193.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9687347403/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:green", "color:white", "color:gold"]
+    notes:
+      - 外部イベント『サンリオクリスマスレビューショー』
+      - クリスマス、柊
   - 
     title: "5D3J8101"
-    tags: []
     image: "https://farm4.staticflickr.com/3809/11009211033_f4efd01e20.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11009211033/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:white", "color:gold"]
+    notes:
+      - 外部イベント『サンリオクリスマスレビューショー』
+      - クリスマス、サンタクロース、帽子
   - 
     title: "5D3H3184"
-    tags: []
     image: "https://farm3.staticflickr.com/2841/9690585032_11e8335cc2.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9690585032/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:white"]
+    notes:
+      - 外部イベント『サンリオクリスマスレビューショー』
   - 
     title: "5D3B1556 (1440x960)"
-    tags: []
     image: "https://lh5.googleusercontent.com/-QhbUVH7CKQw/UHoHfzNzxdI/AAAAAAAAD0U/Axmxl6F79v0/s500/5D3B1556%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/iAz0opXz_JcOBXdCHWlcKdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - パリでのロケ
+      - 外部イベント『ハローキティ&マイメロディ&ぼんぼんりぼんのミラクルパーティ』
+      - 宝石、リボン
   - 
-    title: "5D3C0014 (960x1440)"
-    tags: []
+    title: "ユニオンジャック"
     image: "https://lh6.googleusercontent.com/-Yuuprg1aaIw/UNf0EhVoeaI/AAAAAAAAHNk/d_aIYD3lHdA/s500/5D3C0014%2520%2528960x1440%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/zmaLwLKKgLawr_lzLCDUUtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 960, height_o: 1440, max_len: 500 }
+    tags: ["color:blue", "color:red", "color:white"]
+    notes:
+      - ユニオンジャック、熊、ハート
   - 
     title: "5D3B6041 (1440x960)"
-    tags: []
     image: "https://lh6.googleusercontent.com/-UrISsZ20Gt8/UMKhXkrJGtI/AAAAAAAAFz4/diKlmPt0POs/s500/5D3B6041%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/5n5aXQzjrnOhvowydY7fXtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:blue", "color:white", "color:black", "color:red"]
+    notes:
+      - アリス、トランプ、うさぎ、エプロン
   - 
     title: "5D3B6034 (960x1440)"
-    tags: []
     image: "https://lh5.googleusercontent.com/-JLmrp9-ckgA/UMKhWy5ThXI/AAAAAAAAFzY/79jMS4SO3JU/s500/5D3B6034%2520%2528960x1440%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/Z2K_XT_xiuD33KXn_ar1VNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 960, height_o: 1440, max_len: 500 }
+    tags: ["color:white", "color:silver", "color:gold"]
+    notes:
+      - クリスマス、雪、星、柊
   - 
     title: "5D3R8243"
-    tags: []
     image: "https://farm8.staticflickr.com/7547/15781072349_efbff21331.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15781072349"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:white", "color:silver", "color:gold", "color:red"]
+    notes:
+      - 雪のドレスでリボンの色が変更になった版
   - 
     title: "5D3B3961 (1440x960)"
-    tags: []
     image: "https://lh5.googleusercontent.com/-UHVJ_BFr3Ts/UKhZXnDmi7I/AAAAAAAAEXs/FFcE_rJVOfM/s500/5D3B3961%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/fgFCJqEw9YkdZFOG8Z6HEtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:brown", "color:green"]
+    notes:
+      - エンターテイメントホール『パワー・ザ・キティ』
+      - チェック
   - 
     title: "5D3B6032 (1440x960)"
-    tags: []
     image: "https://lh3.googleusercontent.com/-nTxhxepje68/UMKhWrR-7KI/AAAAAAAAFzc/rHorQEHT63s/s500/5D3B6032%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/RJqS2BauNK_kQThi23GQntMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:red"]
+    notes:
+      - ピンクリボン、子宮がん、真珠
   - 
     title: "5D3C1554 (1440x960)"
-    tags: []
     image: "https://lh6.googleusercontent.com/-WML8pecBjCM/UOLfXjcN30I/AAAAAAAAHvY/-J_8F4dh0O4/s500/5D3C1554%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/9r-AHxL9qXBEWtgFVLY2ldMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:red"]
+    notes:
+      - スパンコール、手袋
   - 
     title: "5D3B8156 (1440x960)"
-    tags: []
     image: "https://lh3.googleusercontent.com/-bd6Vor8HNJ0/UMy2evB8mnI/AAAAAAAAGoE/OQyt3ZYBlpw/s500/5D3B8156%2520%25281440x960%2529.jpg"
     source: "https://picasaweb.google.com/lh/photo/zhLImJHiY6gQtcCu1hh_-dMTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    tags: ["color:pink", "color:gold", "color:red"]
+    notes:
+      - 外部イベント『ハローキティの HAPPY GIFT CHRISTMAS』
+      - クリスマス
