@@ -12,10 +12,12 @@
     for (var i=0; i<data.length; i++) {
       var item = data[i];
       var li = $("<li></li>", {"data-filter-class": JSON.stringify(item.tags)});
+      var a = $("<a></a>", {href: item.source, target: "_blank"});
       var image = $("<img>", {src: item.image});
       var desc = $("<p></p>", {text: item.title});
-      li.append(image);
-      li.append(desc);
+      a.append(image);
+      a.append(desc);
+      li.append(a);
       container.append(li);
     }
     imagesLoaded(container, function() {
