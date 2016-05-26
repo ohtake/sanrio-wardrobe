@@ -6,7 +6,6 @@
   "license": "",
   "main": "app.js",
   "dependencies": {
-    "lodash": "4.12.0",
     "js-yaml": "3.6.1",
     "jquery": "2.2.3",
     "react-images": "0.3.2",

@@ -3,35 +3,17 @@ import ReactDOM from 'react-dom';
 import Lightbox from 'react-images';
 import Gallery from 'react-photo-gallery';
 import $ from 'jquery';
-import _ from 'lodash';
 import yaml from 'js-yaml'
 
 class App extends React.Component{
     constructor(){
         super();
-        this.state = {photos:null, pageNum:1, totalPages:1, loadedAll: false};
-
-        this.handleScroll = this.handleScroll.bind(this);
-        this.loadMorePhotos = this.loadMorePhotos.bind(this);
+        this.state = {photos:null};
     }
     componentDidMount() {
         this.loadMorePhotos();
-        this.loadMorePhotos = _.debounce(this.loadMorePhotos, 200);
-        window.addEventListener('scroll', this.handleScroll);
     }
-    handleScroll(){
-        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 50)) {
-            this.loadMorePhotos();
-        }
-    }
-    loadMorePhotos(e){
-        if (e){
-            e.preventDefault();
-        }
-        if (this.state.pageNum > this.state.totalPages){
-            this.setState({loadedAll: true});
-            return;
-        }
+    loadMorePhotos(){
         $.ajax({
           url: 'kt-kitty.yaml',
           dataType: 'text',
@@ -49,9 +31,7 @@ class App extends React.Component{
                 };
             });
             this.setState({
-                photos: this.state.photos ? this.state.photos.concat(photos) : photos,
-                pageNum: this.state.pageNum + 1,
-                totalPages: 1
+                photos: photos
             });
           }.bind(this),
           error: function(xhr, status, err) {
@@ -66,18 +46,11 @@ class App extends React.Component{
     }
     render(){
         // no loading sign if its all loaded
-        if (this.state.photos && this.state.loadedAll){
+        if (this.state.photos){
             return(
                 <div className="App">
                     {this.renderGallery()}
                 </div>
-            );
-        } else if (this.state.photos) {
-             return(
-                 <div className="App">
-                     {this.renderGallery()}
-                     <div className="loading-msg" id="msg-loading-more">Loading</div>
-                 </div>
             );
         } else {
             return(
