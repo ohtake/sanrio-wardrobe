@@ -83,7 +83,7 @@
     title: "5D3V4554"
     image: "https://farm1.staticflickr.com/682/21251679969_1cb7701265.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/21251679969/in/album-72157658244141940/"
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
     tags: ["color:pink"]
     notes:
       - 『ミラクリュージョン★スターライトドリーム』
@@ -361,7 +361,7 @@
     image: "https://farm6.staticflickr.com/5587/18812535015_e4f3cd6a63.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/18812535015/in/album-72157654554353802/"
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:pink", "color:white", "color:yello"]
+    tags: ["color:pink", "color:white", "color:yellow"]
     notes:
       - Drusillas Park Hello Kitty Secret Garden
       - ハート、真珠
@@ -432,7 +432,7 @@
     image: "https://farm6.staticflickr.com/5236/14034879050_84dae9df38.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/14034879050"
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:yello", "color:black", "color:white"]
+    tags: ["color:yellow", "color:black", "color:white"]
     notes:
       - レディキティハウス「パステルローズ」
       - バラ、ストライプ
@@ -552,7 +552,7 @@
     title: "フコク生命"
     image: "https://farm4.staticflickr.com/3870/15013760875_e0a6984dc2.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15013760875"
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
     tags: ["color:gray", "color:black", "color:red"]
     notes:
       - フコク生命のOL
@@ -586,7 +586,7 @@
     title: "5D3R2633"
     image: "https://farm9.staticflickr.com/8656/15642133338_c15a0b22c9.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15642133338"
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
     tags: ["color:white", "color:red", "color:gold"]
     notes:
       - 多段フリル、ハート
@@ -777,7 +777,7 @@
     title: "5D3S3426"
     image: "https://farm8.staticflickr.com/7548/16173568672_7fd6a748a2.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/16173568672"
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
     tags: ["color:white", "color:red", "color:pink"]
     notes:
       - キティズハウスの豪華版
@@ -1108,7 +1108,7 @@
     title: "5D3S3818"
     image: "https://farm9.staticflickr.com/8592/15986971610_8e29381845.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15986971610"
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
     tags: ["color:pink", "color:white", "color:silver"]
     notes:
       - 『ロマンティックセレナーデ』から腰ひもとリストを削除しジャケットとクリスマス装飾を追加
@@ -1117,7 +1117,7 @@
     title: "5D3K4816"
     image: "https://farm4.staticflickr.com/3802/11486523755_55c792967e.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11486523755/"
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
     tags: ["color:red", "color:white", "color:gold"]
     notes:
       - ピューロランドパレード『Believe in Christmas』
@@ -1142,7 +1142,7 @@
     title: "5D3J8586"
     image: "https://farm4.staticflickr.com/3792/11026276214_ea160b0f5a.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/11026276214/"
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
     tags: ["color:pink", "color:white", "color:yellow", "color:red"]
     notes:
       - Kawaii Paradise のクリスマス用ケープ追加バージョン
