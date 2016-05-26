@@ -22,12 +22,20 @@ class App extends React.Component{
             data = yaml.load(data)
             let photos = data.map(function(obj,i){
                 let aspectRatio = 1.0 * obj.size.width_o / obj.size.height_o;
+                let notes = obj.notes.map( n => {
+                  return <li>{n}</li>
+                })
                 return {
                     src: obj.image,
                     width: obj.size.width_o,
                     height: obj.size.height_o,
                     aspectRatio: aspectRatio,
-                    lightboxImage:{src: obj.image, caption: obj.title}
+                    lightboxImage:{src: obj.image, caption: (
+                      <div>
+                        <a href={obj.source} target="_blank">{obj.title}</a>
+                        <ul>{notes}</ul>
+                      </div>
+                    )}
                 };
             });
             this.setState({

@@ -252,7 +252,7 @@
     source: "https://www.flickr.com/photos/ohtake_tomohiro/20596249563/in/album-72157658281730422/"
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     tags: ["color:red", "color:silver", "color:black"]
-    notes:
+    notes: []
   - 
     title: "5D3W5185"
     image: "https://farm1.staticflickr.com/757/23494226695_6c6da37519.jpg"
