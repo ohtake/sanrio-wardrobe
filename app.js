@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Lightbox from 'react-image-lightbox';
 import JustifiedLayout from 'react-justified-layout';
 import Promise from 'es6-promise'; // For older browsers http://caniuse.com/#feat=promises
 import fetch from 'whatwg-fetch';
@@ -72,21 +73,52 @@ class App extends React.Component{
             <div className="App">
                 {this.state.message ? <div>{this.state.message}</div> : null}
                 {this.state.photos ? this.renderGallery() : null}
+                {this.state.isOpen ? this.renderLightbox() : null }
             </div>
         );
     }
     renderGallery() {
         let imgStyle = { width: "100%", height: "100%"};
-        let imgs = this.state.photos.map(p => {
+        let imgs = this.state.photos.map((p,i) => {
             return (
               <div aspectRatio={p.aspectRatio}>
-                <a href={p.source} target="_blank">
+                <a href="#" onClick={this.openLightbox.bind(this, i)}>
                   <img src={p.src} style={imgStyle} />
                 </a>
               </div>
             );
         });
         return <JustifiedLayout targetRowHeight="80" containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
+    }
+
+    renderLightbox() {
+        let index = this.state.index;
+        let len = this.state.photos.length;
+        let main = this.state.photos[index];
+        let next = this.state.photos[(index + 1)%len];
+        let prev = this.state.photos[(index + len - 1) % len];
+        return <Lightbox
+            mainSrc={main.src}
+            nextSrc={next.src}
+            prevSrc={prev.src}
+            onCloseRequest={this.closeLightbox.bind(this)}
+            onMovePrevRequest={this.movePrev.bind(this)}
+            onMoveNextRequest={this.moveNext.bind(this)}
+            imageTitle={main.lightboxImage.caption}
+        />;
+    }
+    openLightbox(i, e) {
+        e.preventDefault();
+        this.setState({ isOpen: true, index: i });
+    }
+    closeLightbox() {
+        this.setState({ isOpen: false });
+    }
+    moveNext() {
+        this.setState({ index: (this.state.index + 1) % this.state.photos.length });
+    }
+    movePrev() {
+        this.setState({ index: (this.state.index + this.state.photos.length - 1) % this.state.photos.length });
     }
 };
 
