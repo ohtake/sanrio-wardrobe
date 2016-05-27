@@ -9,9 +9,23 @@ class App extends React.Component{
     constructor(){
         super();
         this.state = {photos:null, message:"Loading"};
+        this.handleResizeHandler = this.handleResize.bind(this)
     }
     componentDidMount() {
+        this.setState({containerWidth: Math.floor(ReactDOM.findDOMNode(this).clientWidth)});
+        window.addEventListener('resize', this.handleResizeHandler);
         this.loadPhotos('kt-kitty');
+    }
+    componentDidUpdate(){
+        if (ReactDOM.findDOMNode(this).clientWidth !== this.state.containerWidth){
+            this.setState({containerWidth: Math.floor(ReactDOM.findDOMNode(this).clientWidth)});
+        }
+    }
+    componentWillUnmount(){
+        window.removeEventListener('resize', this.handleResizeHandler, false);
+    }
+    handleResize(e){
+        this.setState({containerWidth: Math.floor(ReactDOM.findDOMNode(this).clientWidth)});
     }
     loadPhotos(file){
         window.fetch(file + '.yaml').then( res => {
@@ -72,7 +86,7 @@ class App extends React.Component{
               </div>
             );
         });
-        return <JustifiedLayout targetRowHeight="80">{imgs}</JustifiedLayout>;
+        return <JustifiedLayout targetRowHeight="80" containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
     }
 };
 
