@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Lightbox from 'react-images';
 import Gallery from 'react-photo-gallery';
 import Promise from 'es6-promise'; // For older browsers http://caniuse.com/#feat=promises
 import fetch from 'whatwg-fetch';
-import yaml from 'js-yaml'
+import yaml from 'js-yaml';
 
 class App extends React.Component{
     constructor(){
@@ -12,10 +11,10 @@ class App extends React.Component{
         this.state = {photos:null, message:"Loading"};
     }
     componentDidMount() {
-        this.loadMorePhotos();
+        this.loadPhotos('kt-kitty');
     }
-    loadMorePhotos(){
-        window.fetch('kt-kitty.yaml').then( res => {
+    loadPhotos(file){
+        window.fetch(file + '.yaml').then( res => {
             if (res.ok) {
                 return res.text();
             } else {
@@ -24,34 +23,33 @@ class App extends React.Component{
                 throw error;
             }
         }).then(text => {
-            let data = yaml.load(text);
-            let photos = data.map(function(obj,i){
-                let aspectRatio = 1.0 * obj.size.width_o / obj.size.height_o;
-                let notes = obj.notes.map( n => {
-                  return <li>{n}</li>
-                })
-                return {
-                    src: obj.image,
-                    width: obj.size.width_o,
-                    height: obj.size.height_o,
-                    aspectRatio: aspectRatio,
-                    lightboxImage:{src: obj.image, caption: (
-                      <div>
-                        <a href={obj.source} target="_blank">{obj.title}</a>
-                        <ul>{notes}</ul>
-                      </div>
-                    )}
-                };
-            });
-            this.setState({
-                photos: photos,
-                message: null
-            });
+            this.setPhotos(yaml.load(text))
         }).catch(ex => {
             this.setState({
                 photos: null,
                 message: ex.toString()
             });
+        });
+    }
+    setPhotos(data) {
+        let photos = data.map(obj => {
+            let aspectRatio = 1.0 * obj.size.width_o / obj.size.height_o;
+            return {
+                src: obj.image,
+                width: obj.size.width_o,
+                height: obj.size.height_o,
+                aspectRatio: aspectRatio,
+                lightboxImage: { src: obj.image, caption: (
+                  <div>
+                    <a href={obj.source} target="_blank">{obj.title}</a>
+                    <ul>{obj.notes.map( n => { return <li>{n}</li> })}</ul>
+                  </div>
+                )}
+            };
+        });
+        this.setState({
+            photos: photos,
+            message: null
         });
     }
     render(){
