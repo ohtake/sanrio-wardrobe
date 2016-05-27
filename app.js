@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Lightbox from 'react-images';
 import Gallery from 'react-photo-gallery';
+import Promise from 'es6-promise'; // For older browsers http://caniuse.com/#feat=promises
 import fetch from 'whatwg-fetch';
 import yaml from 'js-yaml'
 
