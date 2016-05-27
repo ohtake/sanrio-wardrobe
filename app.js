@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Gallery from 'react-photo-gallery';
+import Gallery from './gallery.js';
 import Promise from 'es6-promise'; // For older browsers http://caniuse.com/#feat=promises
 import fetch from 'whatwg-fetch';
 import yaml from 'js-yaml';
