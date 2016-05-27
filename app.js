@@ -8,7 +8,7 @@ import yaml from 'js-yaml'
 class App extends React.Component{
     constructor(){
         super();
-        this.state = {photos:null};
+        this.state = {photos:null, message:"Loading"};
     }
     componentDidMount() {
         this.loadMorePhotos();
@@ -43,32 +43,23 @@ class App extends React.Component{
                 };
             });
             this.setState({
-                photos: photos
+                photos: photos,
+                message: null
             });
         }).catch(ex => {
-            console.error(ex);
+            this.setState({
+                photos: null,
+                message: ex.toString()
+            });
         });
     }
-    renderGallery(){
-        return(
-            <Gallery photos={this.state.photos} />
-        );
-    }
     render(){
-        // no loading sign if its all loaded
-        if (this.state.photos){
-            return(
-                <div className="App">
-                    {this.renderGallery()}
-                </div>
-            );
-        } else {
-            return(
-                <div className="App">
-                     <div id="msg-app-loading" className="loading-msg">Loading</div>
-                </div>
-            );
-        }
+        return(
+            <div className="App">
+                {this.state.message ? <div>{this.state.message}</div> : null}
+                {this.state.photos ? <Gallery photos={this.state.photos} /> : null}
+            </div>
+        );
     }
 };
 
