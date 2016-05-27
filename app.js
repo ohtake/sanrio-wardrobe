@@ -58,7 +58,7 @@ class App extends React.Component{
                 lightboxImage: { src: obj.image, caption: (
                   <div>
                     <a href={obj.source} target="_blank">{obj.title}</a>
-                    <ul>{obj.notes.map( n => { return <li>{n}</li> })}</ul>
+                    <ul style={{whiteSpace:"normal", lineHeight:"1em"}}>{obj.notes.map( n => { return <li>{n}</li> })}</ul>
                   </div>
                 )}
             };
