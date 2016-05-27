@@ -7,7 +7,6 @@
   "main": "app.js",
   "dependencies": {
     "js-yaml": "3.6.1",
-    "jquery": "2.2.3",
     "react-images": "0.3.2",
     "react-photo-gallery": "4.2.4"
   },

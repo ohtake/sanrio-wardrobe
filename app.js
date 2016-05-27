@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Lightbox from 'react-images';
 import Gallery from 'react-photo-gallery';
-import $ from 'jquery';
+import fetch from 'whatwg-fetch';
 import yaml from 'js-yaml'
 
 class App extends React.Component{
@@ -14,12 +14,16 @@ class App extends React.Component{
         this.loadMorePhotos();
     }
     loadMorePhotos(){
-        $.ajax({
-          url: 'kt-kitty.yaml',
-          dataType: 'text',
-          cache: false,
-          success: function(data) {
-            data = yaml.load(data)
+        window.fetch('kt-kitty.yaml').then( res => {
+            if (res.ok) {
+                return res.text();
+            } else {
+                let error = new Error(res.statusText);
+                error.response = res;
+                throw error;
+            }
+        }).then(text => {
+            let data = yaml.load(text);
             let photos = data.map(function(obj,i){
                 let aspectRatio = 1.0 * obj.size.width_o / obj.size.height_o;
                 let notes = obj.notes.map( n => {
@@ -41,10 +45,8 @@ class App extends React.Component{
             this.setState({
                 photos: photos
             });
-          }.bind(this),
-          error: function(xhr, status, err) {
-              console.error(status, err.toString());
-          }.bind(this)
+        }).catch(ex => {
+            console.error(ex);
         });
     }
     renderGallery(){
