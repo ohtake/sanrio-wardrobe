@@ -7,27 +7,47 @@ import Promise from 'es6-promise'; // For older browsers http://caniuse.com/#fea
 import fetch from 'whatwg-fetch';
 import yaml from 'js-yaml';
 
+class Photo {
+    constructor(data) {
+        this.data = data;
+    }
+    getAspectRatio() {
+        return 1.0 * this.data.size.width_o / this.data.size.height_o
+    }
+    toDescriptionElement() {
+        return (
+          <div>
+            <a href={this.data.source} target="_blank">{this.data.title}</a>
+            <ul style={{whiteSpace:"normal", lineHeight:"1em"}}>
+              {this.data.notes.map( n => { return <li>{n}</li> })}
+            </ul>
+          </div>
+        );
+    }
+}
+
 class App extends React.Component{
     constructor(){
         super();
         this.state = {photos:null, message:"Loading"};
-        this.handleResizeHandler = this.handleResize.bind(this)
+        this.handleResize = this.updateContainerWidth.bind(this)
     }
     componentDidMount() {
-        this.setState({containerWidth: Math.floor(ReactDOM.findDOMNode(this).clientWidth)});
-        window.addEventListener('resize', this.handleResizeHandler);
+        this.updateContainerWidth();
+        window.addEventListener('resize', this.handleResize);
         this.loadPhotos('kt-kitty');
     }
     componentDidUpdate(){
-        if (ReactDOM.findDOMNode(this).clientWidth !== this.state.containerWidth){
-            this.setState({containerWidth: Math.floor(ReactDOM.findDOMNode(this).clientWidth)});
-        }
+        this.updateContainerWidth();
     }
     componentWillUnmount(){
-        window.removeEventListener('resize', this.handleResizeHandler, false);
+        window.removeEventListener('resize', this.handleResize, false);
     }
-    handleResize(e){
-        this.setState({containerWidth: Math.floor(ReactDOM.findDOMNode(this).clientWidth)});
+    updateContainerWidth(){
+        let newWidth = ReactDOM.findDOMNode(this).clientWidth;
+        if (newWidth !== this.state.containerWidth){
+            this.setState({containerWidth: newWidth});
+        }
     }
     loadPhotos(file){
         window.fetch(file + '.yaml').then( res => {
@@ -39,34 +59,18 @@ class App extends React.Component{
                 throw error;
             }
         }).then(text => {
-            this.setPhotos(yaml.load(text))
+            let data = yaml.load(text);
+            let photos = data.map(obj => {return new Photo(obj)});
+            this.setState({
+                allPhotos: photos,
+                photos: photos.slice(0),
+                message: null
+            });
         }).catch(ex => {
             this.setState({
                 photos: null,
                 message: ex.toString()
             });
-        });
-    }
-    setPhotos(data) {
-        let photos = data.map(obj => {
-            let aspectRatio = 1.0 * obj.size.width_o / obj.size.height_o;
-            return {
-                source: obj.source,
-                src: obj.image,
-                width: obj.size.width_o,
-                height: obj.size.height_o,
-                aspectRatio: aspectRatio,
-                lightboxImage: { src: obj.image, caption: (
-                  <div>
-                    <a href={obj.source} target="_blank">{obj.title}</a>
-                    <ul style={{whiteSpace:"normal", lineHeight:"1em"}}>{obj.notes.map( n => { return <li>{n}</li> })}</ul>
-                  </div>
-                )}
-            };
-        });
-        this.setState({
-            photos: photos,
-            message: null
         });
     }
     render(){
@@ -82,10 +86,10 @@ class App extends React.Component{
         let imgStyle = { width: "100%", height: "100%"};
         let imgs = this.state.photos.map((p,i) => {
             return (
-              <div aspectRatio={p.aspectRatio} style={{backgroundColor: "silver"}}>
+              <div aspectRatio={p.getAspectRatio()} style={{backgroundColor: "silver"}}>
                 <a href="#" onClick={this.openLightbox.bind(this, i)}>
                   <LazyLoad offset="200">
-                    <img src={p.src} style={imgStyle} />
+                    <img src={p.data.image} style={imgStyle} />
                   </LazyLoad>
                 </a>
               </div>
@@ -101,13 +105,13 @@ class App extends React.Component{
         let next = this.state.photos[(index + 1)%len];
         let prev = this.state.photos[(index + len - 1) % len];
         return <Lightbox
-            mainSrc={main.src}
-            nextSrc={next.src}
-            prevSrc={prev.src}
+            mainSrc={main.data.image}
+            nextSrc={next.data.image}
+            prevSrc={prev.data.image}
             onCloseRequest={this.closeLightbox.bind(this)}
             onMovePrevRequest={this.movePrev.bind(this)}
             onMoveNextRequest={this.moveNext.bind(this)}
-            imageTitle={main.lightboxImage.caption}
+            imageTitle={main.toDescriptionElement()}
         />;
     }
     openLightbox(i, e) {
