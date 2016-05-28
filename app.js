@@ -24,6 +24,16 @@ class Photo {
           </div>
         );
     }
+    inferLargeImage() {
+        let url = this.data.image;
+        if (url.indexOf(".staticflickr.com/") >= 0) {
+            return url.replace(".jpg", "_b.jpg"); // b => 1024
+        } else if (url.indexOf(".googleusercontent.com/") >= 0) {
+            return url.replace("/s500/", "/s1024/");
+        } else {
+            return url;
+        }
+    }
 }
 
 class App extends React.Component{
@@ -105,9 +115,12 @@ class App extends React.Component{
         let next = this.state.photos[(index + 1)%len];
         let prev = this.state.photos[(index + len - 1) % len];
         return <Lightbox
-            mainSrc={main.data.image}
-            nextSrc={next.data.image}
-            prevSrc={prev.data.image}
+            mainSrc={main.inferLargeImage()}
+            nextSrc={next.inferLargeImage()}
+            prevSrc={prev.inferLargeImage()}
+            mainSrcThumbnail={main.data.image}
+            nextSrcThumbnail={next.data.image}
+            prevSrcThumbnail={prev.data.image}
             onCloseRequest={this.closeLightbox.bind(this)}
             onMovePrevRequest={this.movePrev.bind(this)}
             onMoveNextRequest={this.moveNext.bind(this)}
