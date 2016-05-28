@@ -95,7 +95,7 @@ class App extends React.Component{
               </div>
             );
         });
-        return <JustifiedLayout targetRowHeight="80" containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
+        return <JustifiedLayout targetRowHeight={72} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
     }
 
     renderLightbox() {
