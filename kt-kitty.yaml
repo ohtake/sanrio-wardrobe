@@ -396,7 +396,7 @@
     image: "https://farm6.staticflickr.com/5709/22865085985_a2a97e55bf.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/22865085985/in/album-72157660545762460/"
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:green", "color:gray", "color:pink"]
+    tags: ["color:green", "color:grey", "color:pink"]
     notes:
       - エバー航空、キャビンアテンダント
   - 
@@ -553,7 +553,7 @@
     image: "https://farm4.staticflickr.com/3870/15013760875_e0a6984dc2.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15013760875"
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:gray", "color:black", "color:red"]
+    tags: ["color:grey", "color:black", "color:red"]
     notes:
       - フコク生命のOL
       - OL
