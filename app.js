@@ -88,7 +88,7 @@ class App extends React.Component{
             return (
               <div aspectRatio={p.getAspectRatio()} style={{backgroundColor: "silver"}}>
                 <a href="#" onClick={this.openLightbox.bind(this, i)}>
-                  <LazyLoad offset="200">
+                  <LazyLoad offset={200}>
                     <img src={p.data.image} style={imgStyle} />
                   </LazyLoad>
                 </a>
