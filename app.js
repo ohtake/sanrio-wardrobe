@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LazyLoad from 'react-lazy-load';
 import Lightbox from 'react-image-lightbox';
 import JustifiedLayout from 'react-justified-layout';
 import Promise from 'es6-promise'; // For older browsers http://caniuse.com/#feat=promises
@@ -81,9 +82,11 @@ class App extends React.Component{
         let imgStyle = { width: "100%", height: "100%"};
         let imgs = this.state.photos.map((p,i) => {
             return (
-              <div aspectRatio={p.aspectRatio}>
+              <div aspectRatio={p.aspectRatio} style={{backgroundColor: "silver"}}>
                 <a href="#" onClick={this.openLightbox.bind(this, i)}>
-                  <img src={p.src} style={imgStyle} />
+                  <LazyLoad offset="200">
+                    <img src={p.src} style={imgStyle} />
+                  </LazyLoad>
                 </a>
               </div>
             );
