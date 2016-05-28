@@ -14,16 +14,6 @@ class Photo {
     getAspectRatio() {
         return 1.0 * this.data.size.width_o / this.data.size.height_o
     }
-    toDescriptionElement() {
-        return (
-          <div>
-            <a href={this.data.source} target="_blank">{this.data.title}</a>
-            <ul style={{whiteSpace:"normal", lineHeight:"1em"}}>
-              {this.data.notes.map( n => { return <li>{n}</li> })}
-            </ul>
-          </div>
-        );
-    }
     inferLargeImage() {
         let url = this.data.image;
         if (url.indexOf(".staticflickr.com/") >= 0) {
@@ -114,6 +104,16 @@ class App extends React.Component{
         let main = this.state.photos[index];
         let next = this.state.photos[(index + 1)%len];
         let prev = this.state.photos[(index + len - 1) % len];
+        let description = (
+          <div>
+            <span>{main.data.title}</span>
+            {this.state.showDescription ?
+              <ul style={{whiteSpace:"normal", lineHeight:"1em"}}>
+                {main.data.notes.map( n => { return <li>{n}</li> })}
+              </ul>
+              : null}
+          </div>
+        );
         return <Lightbox
             mainSrc={main.inferLargeImage()}
             nextSrc={next.inferLargeImage()}
@@ -124,7 +124,11 @@ class App extends React.Component{
             onCloseRequest={this.closeLightbox.bind(this)}
             onMovePrevRequest={this.movePrev.bind(this)}
             onMoveNextRequest={this.moveNext.bind(this)}
-            imageTitle={main.toDescriptionElement()}
+            toolbarButtons={[
+              <a href={main.data.source} target="_blank">Web</a>,
+              <a href="#" onClick={this.toggleDescription.bind(this)}>Desc</a>
+            ]}
+            imageTitle={description}
         />;
     }
     openLightbox(i, e) {
@@ -139,6 +143,11 @@ class App extends React.Component{
     }
     movePrev() {
         this.setState({ index: (this.state.index + this.state.photos.length - 1) % this.state.photos.length });
+    }
+    toggleDescription(e) {
+        e.preventDefault();
+        let val = this.state.showDescription;
+        this.setState({ showDescription: !val });
     }
 };
 
