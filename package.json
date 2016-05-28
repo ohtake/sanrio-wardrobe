@@ -8,8 +8,10 @@
   "dependencies": {
     "es6-promise": "3.2.1",
     "js-yaml": "3.6.1",
-    "react-images": "0.3.2",
-    "react-photo-gallery": "4.2.4"
+    "react": "15.1.0",
+    "react-dom": "15.1.0",
+    "react-image-lightbox": "2.1.0",
+    "react-justified-layout": "0.0.1"
   },
   "peerDependencies": {
   },
