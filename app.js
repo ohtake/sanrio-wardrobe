@@ -6,6 +6,7 @@ import JustifiedLayout from 'react-justified-layout';
 import Promise from 'es6-promise'; // For older browsers http://caniuse.com/#feat=promises
 import fetch from 'whatwg-fetch';
 import yaml from 'js-yaml';
+import icons from './icons'
 
 class Photo {
     constructor(data) {
@@ -219,6 +220,20 @@ class App extends React.Component{
               : null}
           </div>
         );
+        let buttonStyle = {
+            verticalAlign: 'middle',
+            width: '40px',
+            height: '35px',
+            cursor: 'pointer',
+            border: 'none',
+            opacity: 0.7,
+            ':hover': {
+                opacity: 1,
+            },
+            ':active': {
+                outline: 'none',
+            },
+        };
         return <Lightbox
             mainSrc={main.inferLargeImage()}
             nextSrc={next.inferLargeImage()}
@@ -230,8 +245,8 @@ class App extends React.Component{
             onMovePrevRequest={this.movePrev.bind(this)}
             onMoveNextRequest={this.moveNext.bind(this)}
             toolbarButtons={[
-              <a href={main.data.source} target="_blank">Web</a>,
-              <a href="#" onClick={this.toggleDescription.bind(this)}>Desc</a>
+              <a key="open" href={main.data.source} target="_blank" title="Open source" style={[buttonStyle,{display: "inline-block", background: icons.OpenNewWindow + " no-repeat center"}]}></a>,
+              <button key="notes" title="Toggle notes" onClick={this.toggleDescription.bind(this)} style={[buttonStyle, { background: icons.Info + " no-repeat center"}]} type="button"/>,
             ]}
             imageTitle={description}
         />;
