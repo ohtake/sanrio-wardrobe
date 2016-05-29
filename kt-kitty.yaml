@@ -4,7 +4,7 @@
     image: "https://farm6.staticflickr.com/5604/15605014039_3aa65f125e.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15605014039"
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:purple", "color:pink"]
+    tags: ["color:purple", "color:pink", "color:white"]
     notes:
       - ピューロランドパレード『ARIGATO EVERYONE!』
       - 外部イベント『ハローキティとHUGして"ぎゅっ"』
@@ -89,14 +89,14 @@
       - 『ミラクリュージョン★スターライトドリーム』
       - バラ、和服ドレス
   - 
-    title: "5D3F4676"
+    title: "タイムエプロン"
     image: "https://farm4.staticflickr.com/3765/9054261550_ca8c5cccba.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/9054261550/"
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     tags: ["color:blue", "color:red", "color:black", "color:white"]
     notes:
       - メルヘンシアター『不思議の国のハローキティ』通常服
-      - 時計、アリス
+      - 時計、エプロン、アリス
   - 
     title: "5D3D8863 (1280x1920)"
     image: "https://lh4.googleusercontent.com/-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA/s500/5D3D8863%2520%25281280x1920%2529.jpg"
@@ -132,7 +132,7 @@
     tags: ["color:red", "color:white", "color:black"]
     notes:
       - メルヘンシアター『不思議の国のハローキティ』レビュー2着目
-      - 羽、ズボン、帽子、男装
+      - 羽、ズボン、帽子、シャンシャン、男装
   - 
     title: "5D3W8092"
     image: "https://farm6.staticflickr.com/5708/23585887112_7b2c1b6867.jpg"
@@ -163,7 +163,7 @@
     image: "https://farm6.staticflickr.com/5750/23456116821_7b5bae9b58.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/23456116821/in/album-72157661343457589/"
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:blue", "color:pink"]
+    tags: ["color:blue", "color:pink", "color:brown", "color:white"]
     notes:
       - キティズパラダイス『Chu!』
       - デニム、ベルト
@@ -212,7 +212,7 @@
     tags: ["color:purple", "color:orange", "color:white", "color:black"]
     notes:
       - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
-      - ジャック・オー・ランタン、ハロウィン
+      - ジャック・オー・ランタン、ハロウィン、水玉、ストライプ
   - 
     title: "5D3W0943"
     image: "https://farm1.staticflickr.com/695/22876791176_d20a2639a3.jpg"
@@ -278,7 +278,7 @@
     tags: ["color:red", "color:green", "color:white", "color:gold"]
     notes:
       - 館のレストラン『Join!☆Kitty クリスマス』2014年版
-      - クリスマス、柊、ベル
+      - クリスマス、柊、ベル、ストライプ
   - 
     title: "5D3W4837"
     image: "https://farm1.staticflickr.com/654/23493200475_10e6acb435.jpg"
@@ -452,6 +452,7 @@
     tags: ["color:red", "color:pink"]
     notes:
       - キティズハウス
+      - フェアリーランドシアター『アニバーサリータイム』
       - バラ
   - 
     title: "5D3P1366"
@@ -461,6 +462,7 @@
     tags: ["color:red", "color:blue"]
     notes:
       - ピューロランドパレード『夏フェス☆マーチングパレード』
+      - ピューロランドパレード『夏祭りマーチングパレード』
       - 浴衣ドレス、和服、夏、バラ
   - 
     title: "5D3Q2035"
@@ -700,6 +702,7 @@
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     tags: ["color:pink", "color:yellow", "color:white"]
     notes:
+      - 同じ浴衣をミミィが着ていることもある
       - 浴衣、和服、キティ
   - 
     title: "5D3Q3974"
@@ -947,6 +950,7 @@
     tags: ["color:pink", "color:white", "color:yellow", "color:green"]
     notes:
       - メルヘンシアター『ハローキティの妖精フローレンス』
+      - フェアリーランドシアター『アニバーサリータイム』
       - チューリップ
   - 
     title: "5D3G3106"
@@ -963,6 +967,7 @@
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     tags: ["color:red", "color:blue", "color:yellow"]
     notes:
+      - エンターテイメントホール『ハローキティ40周年記念 ARIGATO HUG YOU 花火ショー』
       - 浴衣、和服、花火
   - 
     title: "5D3H0367"
@@ -1065,7 +1070,7 @@
     image: "https://farm3.staticflickr.com/2816/10836880765_c1ba5e2447.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/10836880765/"
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:blue", "color:red", "color:white"]
+    tags: ["color:blue", "color:red", "color:white", "color:yellow"]
     notes:
       - 『ハローキティのすてきなパーティ』
       - 『ハローキティの恐竜島探検』
@@ -1075,7 +1080,7 @@
     image: "https://farm9.staticflickr.com/8565/15237404254_0e0593ef9d.jpg"
     source: "https://www.flickr.com/photos/ohtake_tomohiro/15237404254"
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:blue", "color:red", "color:white"]
+    tags: ["color:blue", "color:red", "color:white", "color:yellow"]
     notes:
       - オーバーオールの靴を履いていないバージョン
   - 

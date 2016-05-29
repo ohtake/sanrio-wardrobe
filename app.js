@@ -27,6 +27,45 @@ class Photo {
     }
 }
 
+class CharacterItem {
+    constructor(filename, name) {
+        this.filename = filename;
+        this.name = name;
+    }
+}
+class CharacterSelector extends React.Component {
+    constructor(props) {
+        super()
+        this.status = {charas: props.charas};
+    }
+    handleChange(e) {
+        this.props.onChanged(e.target.value);
+    }
+    selected() {
+        return this.refs.select.value;
+    }
+    render() {
+        return <div>Character
+            <select ref="select" defaultValue={this.props.defaultChara} onChange={this.handleChange.bind(this)}>
+              {this.status.charas.map(c => {return <option value={c.filename}>{c.name}</option>;})}
+            </select>
+        </div>
+    }
+}
+CharacterSelector.propTypes = {
+    charas: React.PropTypes.arrayOf(React.PropTypes.instanceOf(CharacterItem)),
+    defaultChara: React.PropTypes.string,
+    onChanged: React.PropTypes.func,
+}
+CharacterSelector.defaultProps = {
+    charas: [
+        new CharacterItem("kt-kitty", "KT キティ"),
+        new CharacterItem("kt-mimmy", "KT ミミィ"),
+    ],
+    defaultChara: "kt-kitty",
+    onChanged: function(sender){},
+}
+
 class ColorItem {
     constructor(id, name, strong, weak) {
         this.id = id
@@ -120,13 +159,14 @@ ColorSelector.defaultProps = {
 class App extends React.Component{
     constructor(){
         super();
-        this.state = {photos:null, message:"Loading"};
+        this.state = {photos:null, message:"Initializing"};
         this.handleResize = this.updateContainerWidth.bind(this)
     }
     componentDidMount() {
         this.updateContainerWidth();
         window.addEventListener('resize', this.handleResize);
-        this.loadPhotos('kt-kitty');
+        // Some browsers restore selected value after reload. Needs timeout.
+        window.setTimeout(()=>{this.loadPhotos(this.refs.chara.selected());}, 100);
     }
     componentDidUpdate(){
         this.updateContainerWidth();
@@ -141,6 +181,10 @@ class App extends React.Component{
         }
     }
     loadPhotos(file){
+        this.setState({
+            photos: null,
+            message: "Loading " + file,
+        });
         window.fetch(file + '.yaml').then( res => {
             if (res.ok) {
                 return res.text();
@@ -152,8 +196,8 @@ class App extends React.Component{
         }).then(text => {
             let data = yaml.load(text);
             let photos = data.map(obj => {return new Photo(obj)});
+            this.allPhotos = photos;
             this.setState({
-                allPhotos: photos,
                 photos: photos.slice(0),
                 message: null
             });
@@ -164,12 +208,16 @@ class App extends React.Component{
             });
         });
     }
+    characterChanged(filename) {
+        this.loadPhotos(filename);
+        this.refs.color.clear();
+    }
     colorChanged(sender) {
         let colors = sender.listActiveIds();
         if (colors.length == 0 ){
-            this.setState({photos: this.state.allPhotos});
+            this.setState({photos: this.allPhotos});
         } else {
-            let photos = this.state.allPhotos.filter(p => {
+            let photos = this.allPhotos.filter(p => {
                 for (let c of colors) {
                     if (p.data.tags.indexOf("color:"+c) < 0) return false;
                 }
@@ -181,7 +229,8 @@ class App extends React.Component{
     render(){
         return(
             <div className="App">
-                <ColorSelector onChanged={this.colorChanged.bind(this)} />
+                <CharacterSelector ref="chara" onChanged={this.characterChanged.bind(this)} />
+                <ColorSelector ref="color" onChanged={this.colorChanged.bind(this)} />
                 {this.state.message ? <div>{this.state.message}</div> : null}
                 {this.state.photos ? this.renderGallery() : null}
                 {this.state.isOpen ? this.renderLightbox() : null }
