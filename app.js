@@ -159,14 +159,17 @@ ColorSelector.defaultProps = {
 class App extends React.Component{
     constructor(){
         super();
-        this.state = {photos:null, message:"Initializing"};
+        this.state = {photos:null, message:"Initializing", thumbnailHeight: 72};
         this.handleResize = this.updateContainerWidth.bind(this)
     }
     componentDidMount() {
         this.updateContainerWidth();
         window.addEventListener('resize', this.handleResize);
         // Some browsers restore selected value after reload. Needs timeout.
-        window.setTimeout(()=>{this.loadPhotos(this.refs.chara.selected());}, 100);
+        window.setTimeout(()=>{
+            this.setState({thumbnailHeight: parseInt(this.refs.size.value)});
+            this.loadPhotos(this.refs.chara.selected());
+        }, 100);
     }
     componentDidUpdate(){
         this.updateContainerWidth();
@@ -208,6 +211,9 @@ class App extends React.Component{
             });
         });
     }
+    thumbnailSizeChanged(e) {
+        this.setState({thumbnailHeight: parseInt(e.target.value)});
+    }
     characterChanged(filename) {
         this.loadPhotos(filename);
         this.refs.color.clear();
@@ -229,6 +235,9 @@ class App extends React.Component{
     render(){
         return(
             <div className="App">
+                <div>
+                  Thumbnail size <input ref="size" type="range" defaultValue={this.state.thumbnailHeight} min="36" max="288" onChange={this.thumbnailSizeChanged.bind(this)}/>
+                </div>
                 <CharacterSelector ref="chara" onChanged={this.characterChanged.bind(this)} />
                 <ColorSelector ref="color" onChanged={this.colorChanged.bind(this)} />
                 {this.state.message ? <div>{this.state.message}</div> : null}
@@ -243,14 +252,14 @@ class App extends React.Component{
             return (
               <div aspectRatio={p.getAspectRatio()} style={{backgroundColor: "silver"}}>
                 <a href="#" onClick={this.openLightbox.bind(this, i)}>
-                  <LazyLoad offset={200}>
+                  <LazyLoad offset={this.state.thumbnailHeight}>
                     <img src={p.data.image} style={imgStyle} />
                   </LazyLoad>
                 </a>
               </div>
             );
         });
-        return <JustifiedLayout targetRowHeight={72} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
+        return <JustifiedLayout targetRowHeight={this.state.thumbnailHeight} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
     }
 
     renderLightbox() {
