@@ -904,7 +904,7 @@
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     tags: ["color:blue", "color:pink", "color:white"]
     notes:
-      - 館のレストラン『Join!☆Kitty』
+      - 館のレストラン『Join!☆Kitty』2015年以前
       - ハート、多段フリル、ボール
   - 
     title: "5D3W9217"
@@ -1083,6 +1083,7 @@
     tags: ["color:blue", "color:red", "color:white", "color:yellow"]
     notes:
       - オーバーオールの靴を履いていないバージョン
+      - 館のレストラン『Join!☆Kitty』2016年以降
   - 
     title: "5D3K4361"
     image: "https://farm8.staticflickr.com/7371/11486544915_ab7cc6af96.jpg"
@@ -1298,3 +1299,62 @@
     notes:
       - 外部イベント『ハローキティの HAPPY GIFT CHRISTMAS』
       - クリスマス
+  - 
+    title: "5D3X8457"
+    image: "https://c5.staticflickr.com/2/1517/26040408356_8808d4a76f.jpg"
+    source: "https://www.flickr.com/photos/ohtake_tomohiro/26040408356/in/album-72157665895267400/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:yellow", "color:red", "color:blue", "color:pink", "color:silver"]
+    notes:
+      - 『ハローキティとあそぼう BRAVO!!』
+      - リボン、星、ハート
+  - 
+    title: "5D3X8528"
+    image: "https://c3.staticflickr.com/2/1634/25793490290_2c863c6fa1.jpg"
+    source: "https://www.flickr.com/photos/ohtake_tomohiro/25793490290/in/album-72157665895267400/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:white", "color:blue", "color:red"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー 1』ピアノコンクール
+  - 
+    title: "5D3X9886"
+    image: "https://c8.staticflickr.com/2/1456/26117133231_24de6de19d.jpg"
+    source: "https://www.flickr.com/photos/ohtake_tomohiro/26117133231/in/album-72157666557126411/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:pink", "color:silver", "color:white"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - 水玉
+  - 
+    title: "5D3X9815"
+    image: "https://c7.staticflickr.com/2/1464/25910604310_6c08294fea.jpg"
+    source: "https://www.flickr.com/photos/ohtake_tomohiro/25910604310/in/album-72157666557126411/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:green", "color:yellow"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - イースター、ウサミミ
+  - 
+    title: "5D3Y0207"
+    image: "https://c2.staticflickr.com/2/1685/26117123361_eb8c5aa6af.jpg"
+    source: "https://www.flickr.com/photos/ohtake_tomohiro/26117123361/in/album-72157666557126411/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:red", "color:gold"]
+    notes:
+      - ユニバーサルスタジオジャパン『ユニバーサル・RE-BOOOOOOOORN・パレード』
+  - 
+    title: "5D3Y2706"
+    image: "https://c7.staticflickr.com/8/7187/26867823230_80a731d149.jpg"
+    source: "https://www.flickr.com/photos/ohtake_tomohiro/26867823230/in/album-72157668672898635/"
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:pink", "color:yellow", "color:blue", "color:red"]
+    notes:
+      - ハート、双葉
+  - 
+    title: "5D3Y4940"
+    image: "https://c2.staticflickr.com/8/7497/26541341393_3b0e656080.jpg"
+    source: "https://www.flickr.com/photos/ohtake_tomohiro/26541341393/in/album-72157667931946160/"
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:gold", "color:black"]
+    notes:
+      - チャイナ服
