@@ -271,11 +271,8 @@ class App extends React.Component{
         let description = (
           <div>
             <span>{main.data.title}</span>
-            {this.state.showDescription ?
-              <ul style={{whiteSpace:"normal", lineHeight:"1em"}}>
-                {main.data.notes.map( n => { return <li>{n}</li> })}
-              </ul>
-              : null}
+            {this.state.showDescription ? this.createNotesElement(main) : null }
+            {this.createCreditElement(main)}
           </div>
         );
         let buttonStyle = {
@@ -303,8 +300,7 @@ class App extends React.Component{
             onMovePrevRequest={this.movePrev.bind(this)}
             onMoveNextRequest={this.moveNext.bind(this)}
             toolbarButtons={[
-              <a key="open" href={main.data.source} target="_blank" title="Open source" style={[buttonStyle,{display: "inline-block", background: icons.OpenNewWindow + " no-repeat center"}]}></a>,
-              <button key="notes" title="Toggle notes" onClick={this.toggleDescription.bind(this)} style={[buttonStyle, { background: icons.Info + " no-repeat center"}]} type="button"/>,
+              <button title="Toggle notes" onClick={this.toggleDescription.bind(this)} style={[buttonStyle, { background: icons.Info + " no-repeat center"}]} type="button"/>,
             ]}
             imageTitle={description}
         />;
@@ -326,6 +322,25 @@ class App extends React.Component{
         e.preventDefault();
         let val = this.state.showDescription;
         this.setState({ showDescription: !val });
+    }
+    createNotesElement(photo) {
+        return (
+          <div style={{position: "fixed", top: "50px", left: 0, width: "100%", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
+            <ul style={{whiteSpace:"normal", lineHeight:"1em", fontSize: "80%"}}>
+              {photo.data.notes.map( n => { return <li>{n}</li> })}
+            </ul>
+          </div>);
+    }
+    createCreditElement(photo) {
+        let texts = [];
+        if (photo.data.source.author) texts.push(`by ${photo.data.source.author}`);
+        if (photo.data.source.license) texts.push(`under ${photo.data.source.license}`);
+        return (
+          <div style={{position: "fixed", bottom: 0, right: 0 }}>
+            <a href={photo.data.source.url} target="_blank" style={{backgroundColor: "rgba(0, 0, 0, 0.5)", color: "white", padding: "0.4em", display: "inline-block", lineHeight: "1em", fontSize: "80%", textDecoration: "none"}}>
+              {texts.join(" ") || "no credit info"}
+            </a>
+          </div>);
     }
 };
 
