@@ -25,6 +25,7 @@
     tags: ["color:pink", "color:purple"]
     notes:
       - ピューロランドパレード『OMOIYARI TO YOU』
+      - 外部イベント『ハローキティのドリームトラベラー』
       - バラ、帽子
   - 
     title: "Miracle Gift Parade"
@@ -214,13 +215,31 @@
       - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
       - ジャック・オー・ランタン、ハロウィン、水玉、ストライプ
   - 
+    title: "DSC_0494"
+    image: "https://c2.staticflickr.com/2/1452/23429762473_4e19afb8b3.jpg"
+    source: { author: "にゃむ", license: "", url: "https://www.flickr.com/photos/124913439@N07/23429762473/in/faves-127702660@N06/"}
+    size: { width_o: 4000, height_o: 6016, max_len: 500 }
+    tags: ["color:purple", "color:gold", "color:silver", "color:white"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
+      - クリスマス、帽子
+  - 
+    title: "IMGD9520"
+    image: "https://c4.staticflickr.com/2/1473/26204409931_26f7bc5793.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26204409931/in/faves-127702660@N06/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:green", "color:purple", "color:pink", "color:yellow"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル イースター ver.』
+      - イースター、イースターエッグ
+  - 
     title: "5D3W0943"
     image: "https://farm1.staticflickr.com/695/22876791176_d20a2639a3.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22876791176/in/album-72157658695606453/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     tags: ["color:purple", "color:pink", "color:orange"]
     notes:
-      - ジャック・オー・ランタン、ハロウィン、ストライプ
+      - ジャック・オー・ランタン、ハロウィン、帽子、ストライプ
   - 
     title: "5D3V9742"
     image: "https://farm6.staticflickr.com/5738/22484232818_9c919e0275.jpg"
@@ -228,6 +247,23 @@
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     tags: ["color:pink", "color:white"]
     notes:
+      - バラ
+  - 
+    title: "5D3V8498"
+    image: "https://c8.staticflickr.com/1/738/22446707727_1604c25c79.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22446707727/in/album-72157660545762460/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - バラ、やまなし観光ナビゲーター
+  - 
+    title: "5D3V1854"
+    image: "https://farm6.staticflickr.com/5818/20465408173_e827fc7ef9.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20465408173/in/album-72157655756847054/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:white"]
+    notes:
+      - イギリス版で作りが異なる
       - バラ
   - 
     title: "5D3T3514"
@@ -357,15 +393,7 @@
     notes:
       - Drusillas Park Hello Kitty Secret Garden
       - ハート、真珠
-  - 
-    title: "5D3V1854"
-    image: "https://farm6.staticflickr.com/5818/20465408173_e827fc7ef9.jpg"
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20465408173/in/album-72157655756847054/"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:pink", "color:white"]
-    notes:
-      - イギリス版で作りが異なる
-      - バラ
+
   - 
     title: "5D3V1382"
     image: "https://farm4.staticflickr.com/3803/19797691795_35affc81df.jpg"
@@ -612,12 +640,21 @@
     notes:
       - クリスマス
   - 
+    title: "IMG_0587"
+    image: "https://c6.staticflickr.com/8/7524/15263480373_1bf134689c.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/15263480373/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:red", "color:silver"]
+    notes:
+      - クリスマス
+  - 
     title: "5D3R3424"
     image: "https://farm9.staticflickr.com/8590/15229409723_b0fd558373.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15229409723"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:red", "color:white"]
+    tags: ["color:red", "color:silver"]
     notes:
+      - リボンが汎用品になっている
       - クリスマス
   - 
     title: "5D3R1086"
@@ -645,6 +682,24 @@
     notes:
       - ユニバーサルスタジオジャパン『ハローキティのリボン・コレクション』
       - スパンコール
+  - 
+    title: "16138389231"
+    image: "https://c8.staticflickr.com/8/7524/16138389231_2e6b04527f.jpg"
+    source: { author: "hanegaeru", license: "", url: "https://www.flickr.com/photos/hanegaeru/16138389231/in/faves-127702660@N06/"}
+    size: { width_o: 1536, height_o: 2048, max_len: 500 }
+    tags: ["color:red"]
+    notes:
+      - 『ハローキティのリボン・コレクション』のイースター版
+      - スパンコール、イースター、ウサミミ
+  - 
+    title: "IMGD6643"
+    image: "https://c7.staticflickr.com/1/655/22009561390_848d31215b.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/22009561390/in/faves-127702660@N06/"}
+    size: { width_o: 3675, height_o: 5512, max_len: 500 }
+    tags: ["color:red", "color:purple"]
+    notes:
+      - 『ハローキティのリボン・コレクション』のハロウィン版
+      - スパンコール、ハロウィン、飴
   - 
     title: "5D3S9358"
     image: "https://farm8.staticflickr.com/7540/15594912253_7b26bc7462.jpg"
@@ -767,6 +822,7 @@
     tags: ["color:white", "color:red", "color:pink"]
     notes:
       - キティズハウスの簡略版
+      - 外部イベント『ハローキティ&プリンのハートフルタイム』
       - リボン
   - 
     title: "5D3S3426"
@@ -1125,8 +1181,17 @@
     image: "https://farm8.staticflickr.com/7397/10114607714_f024e2df52.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10114607714/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    tags: ["color:black", "color:orange", "color:red", "color:gold"]
+    notes:
+      - ハロウィン、ジャック・オー・ランタン、マント、帽子
+  - 
+    title: "DSC08003"
+    image: "https://c2.staticflickr.com/1/675/21469538785_2612a4473d.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/21469538785/in/faves-127702660@N06/"}
+    size: { width_o: 3648, height_o: 5472, max_len: 500 }
     tags: ["color:black", "color:orange", "color:red"]
     notes:
+      - 靴や胸の飾りがないバージョン
       - ハロウィン、ジャック・オー・ランタン、マント、帽子
   - 
     title: "5D3K0313"
@@ -1318,6 +1383,24 @@
       - ユニバーサルスタジオジャパン
       - 水玉
   - 
+    title: "IMGD3534"
+    image: "https://c8.staticflickr.com/6/5712/20251820343_59f09331f9.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/20251820343/in/faves-127702660@N06/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:pink", "color:silver", "color:white"]
+    notes:
+      - ユニバーサルスタジオジャパンのケープなしバージョン
+      - 水玉
+  - 
+    title: "IMGD7032"
+    image: "https://c3.staticflickr.com/6/5667/22226559482_6a8fc71a1d.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/22226559482/in/faves-127702660@N06/"}
+    size: { width_o: 3687, height_o: 5531, max_len: 500 }
+    tags: ["color:red", "color:pink", "color:white", "color:purple", "color:orange"]
+    notes:
+      - ユニバーサルスタジオジャパンのハロウィンバージョン
+      - 水玉、ハロウィン
+  - 
     title: "5D3X9815"
     image: "https://c7.staticflickr.com/2/1464/25910604310_6c08294fea.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25910604310/in/album-72157666557126411/"}
@@ -1350,3 +1433,370 @@
     tags: ["color:red", "color:gold", "color:black"]
     notes:
       - チャイナ服
+  - 
+    title: "IMG_4581"
+    image: "https://c2.staticflickr.com/8/7149/6532241161_c58e1261cd.jpg"
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/6532241161/in/faves-127702660@N06/"}
+    size: { width_o: 2304, height_o: 3456, max_len: 500 }
+    tags: ["color:white", "color:silver", "color:gold", "red"]
+    notes:
+      - クリスマス
+  - 
+    title: "IMG_5828"
+    image: "https://c4.staticflickr.com/6/5096/5418535011_b87fc9fe13.jpg"
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/5418535011/in/faves-127702660@N06/"}
+    size: { width_o: 683, height_o: 1024, max_len: 500 }
+    tags: ["color:red", "color:purple", "color:gold", "black"]
+    notes:
+      - 着物、和服
+  - 
+    title: "IMG_2560"
+    image: "https://c6.staticflickr.com/7/6018/5948226909_439c362d7d.jpg"
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/5948226909/in/faves-127702660@N06/"}
+    size: { width_o: 2304, height_o: 3456, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:blue"]
+    notes:
+      - 知恵の木ステージ『おねがいマイメロディ天使の大行進』
+      - 天使、羽、ハート
+  - 
+    title: "ILLUMINANT"
+    image: "https://c8.staticflickr.com/1/249/447013927_dd945787c1.jpg"
+    source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/447013927/in/album-72157594326009158/"}
+    size: { width_o: 682, height_o: 1024, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:blue"]
+    notes:
+      - ピューロランドパレード『ILLUMINANT』
+      - 天使、羽、ハート
+  - 
+    title: "Hello-Kitty-Forever-21-Shibuya-2011-058"
+    image: "https://c5.staticflickr.com/7/6056/6334847372_de8ea35340.jpg"
+    source: { author: "iamchubbybunny", license: "", url: "https://www.flickr.com/photos/41765811@N00/6334847372/in/album-72157627972817047/"}
+    size: { width_o: 600, height_o: 765, max_len: 500 }
+    tags: ["color:black", "color:white"]
+    notes:
+      - 眼鏡、チェック、水玉
+  - 
+    title: "IMG_0479"
+    image: "https://c7.staticflickr.com/9/8575/15695437398_45aaebd8bc.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/15695437398/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:red", "color:green", "color:white"]
+    notes:
+      - クリスマス
+  - 
+    title: "IMG_8976"
+    image: "https://c6.staticflickr.com/4/3838/15163758557_f10e1aa6d5.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/15163758557/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:orange", "color:black", "color:purple", "color:pink"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - ハロウィン
+  - 
+    title: "IMG_7908"
+    image: "https://c7.staticflickr.com/4/3916/14725262286_d9a8e2bf9f.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14725262286/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:pink", "color:blue"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - ハート
+  - 
+    title: "IMG_7858"
+    image: "https://c8.staticflickr.com/3/2926/14561660127_4382d6af8d.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14561660127/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:blue", "color:black", "color:white", "color:pink"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - ピアノ、音符、チェック、ストライプ
+  - 
+    title: "IMG_6769"
+    image: "https://c5.staticflickr.com/4/3916/14392131100_f396a4cd88.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14392131100/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:red", "color:black", "color:white"]
+    notes:
+      - ユニバーサルスタジオジャパン
+  - 
+    title: "IMG_6790"
+    image: "https://c4.staticflickr.com/4/3911/14578824675_261e6b00fb.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14578824675/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:blue", "color:red", "color:yellow", "color:pink"]
+    notes:
+      - ユニバーサルスタジオジャパン『ウォーター･サプライズ･パーティ』
+  - 
+    title: "IMG_5926"
+    image: "https://c1.staticflickr.com/6/5595/14434928184_45e61a51ee.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14434928184/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:blue", "color:pink", "color:black"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - 帽子
+  - 
+    title: "IMG_3931"
+    image: "https://c6.staticflickr.com/8/7365/13951120237_ce9b51e960.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/13951120237/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:blue", "color:silver", "color:red"]
+    notes:
+      - ハーモニーランドパレード『パレード・アクア』
+      - 王冠
+  - 
+    title: "IMG_1458"
+    image: "https://c4.staticflickr.com/8/7289/12926152955_b64b6eb46a.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/12926152955/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:red", "color:blue", "color:yellow"]
+    notes:
+      - 三菱自動車
+      - オーバーオール
+  - 
+    title: "IMG_0138"
+    image: "https://c2.staticflickr.com/4/3677/11302253523_92788bc855.jpg"
+    source: { author: "タチバナ", license: "", url: "https://www.flickr.com/photos/tcbn/11302253523/in/faves-127702660@N06/"}
+    size: { width_o: 2304, height_o: 3456, max_len: 500 }
+    tags: ["color:green", "color:white", "color:pink", "color:black", "color:blue"]
+    notes:
+      - ユニバーサルスタジオジャパン『ハローキティのミックス・ザ・ワールド・ツアー』
+      - 帽子、Check the Border . com
+  - 
+    title: "IMG_0276"
+    image: "https://c2.staticflickr.com/4/3700/11302193633_4aed3b09f6.jpg"
+    source: { author: "タチバナ", license: "", url: "https://www.flickr.com/photos/tcbn/11302193633/in/faves-127702660@N06/"}
+    size: { width_o: 2304, height_o: 3456, max_len: 500 }
+    tags: ["color:blue", "color:yellow", "color:green"]
+    notes:
+      - ユニバーサルスタジオジャパン『ハローキティのミックス・ザ・ワールド・ツアー』
+  - 
+    title: "IMG_0435"
+    image: "https://c2.staticflickr.com/4/3745/11302138263_6386329fe6.jpg"
+    source: { author: "タチバナ", license: "", url: "https://www.flickr.com/photos/tcbn/11302138263/in/faves-127702660@N06/"}
+    size: { width_o: 2304, height_o: 3456, max_len: 500 }
+    tags: ["color:white", "color:gold", "color:red"]
+    notes:
+      - ユニバーサルスタジオジャパン『ハローキティのミックス・ザ・ワールド・ツアー』
+      - ご祝儀袋
+  - 
+    title: "DSC_0417"
+    image: "https://c8.staticflickr.com/3/2904/14812038991_7544ecdeb0.jpg"
+    source: { author: "Maru", license: "", url: "https://www.flickr.com/photos/124656223@N07/14812038991/in/faves-127702660@N06/"}
+    size: { width_o: 4000, height_o: 6000, max_len: 500 }
+    tags: ["color:black", "color:pink", "color:yellow", "color:red"]
+    notes:
+      - 浴衣、和服
+  - 
+    title: "DSC_1124"
+    image: "https://c1.staticflickr.com/4/3906/14714723744_2635640aa6.jpg"
+    source: { author: "Maru", license: "", url: "https://www.flickr.com/photos/124656223@N07/14714723744/in/faves-127702660@N06/"}
+    size: { width_o: 4000, height_o: 6000, max_len: 500 }
+    tags: ["color:red", "color:yellow", "color:white", "color:blue"]
+    notes:
+      - 浴衣、和服、キティ
+  - 
+    title: "Halloween HK"
+    image: "https://c3.staticflickr.com/4/3524/4063363410_48c50d468b.jpg"
+    source: { author: "Shimmergirl", license: "", url: "https://www.flickr.com/photos/shimmerychick/4063363410/in/faves-127702660@N06/"}
+    size: { width_o: 800, height_o: 600, max_len: 500 }
+    tags: ["color:black", "color:pink"]
+    notes:
+      - ハート
+  - 
+    title: "IMG_2719"
+    image: "https://c1.staticflickr.com/8/7345/16375900856_da95e13d5d.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16375900856/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:red", "color:blue", "color:yellow"]
+    notes: []
+  - 
+    title: "IMG_9268"
+    image: "https://c8.staticflickr.com/9/8646/16650829855_240f23ce39.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/16650829855/in/album-72157651040211071/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:pink", "color:gold"]
+    notes:
+      - 星
+  - 
+    title: "DSC06032"
+    image: "https://c5.staticflickr.com/9/8577/16615333756_6523a28eea.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/16615333756/in/album-72157650614668360/"}
+    size: { width_o: 3648, height_o: 5472, max_len: 500 }
+    tags: ["color:silver", "color:red", "color:white"]
+    notes:
+      - スパンコール
+  - 
+    title: "IMG_9423"
+    image: "https://c1.staticflickr.com/9/8718/16807820440_3d260e7353.jpg"
+    source: { author: "asuka_xp", license: "", url: "https://www.flickr.com/photos/asuka_xp/16807820440/in/faves-127702660@N06/"}
+    size: { width_o: 2432, height_o: 3648, max_len: 500 }
+    tags: ["color:red", "color:pink", "color:yellow", "color:white"]
+    notes:
+      - キティズパラダイスPeace、一日駅長
+  - 
+    title: "P2231073"
+    image: "https://c1.staticflickr.com/9/8598/16031290664_96a3e17307.jpg"
+    source: { author: "pla", license: "", url: "https://www.flickr.com/photos/129462122@N02/16031290664/in/faves-127702660@N06/"}
+    size: { width_o: 2976, height_o: 3968, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:green", "color:red"]
+    notes:
+      - ハート、羽、チェック
+  - 
+    title: "IMG_5859"
+    image: "https://c5.staticflickr.com/8/7650/16474493484_6f2ffd2927.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16474493484/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:yellow", "color:black", "color:pink", "color:blue"]
+    notes:
+      - ミツバチ、てんとう虫
+  - 
+    title: "IMG_3357"
+    image: "https://c2.staticflickr.com/1/415/18022070153_d73ed78d43.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/18022070153/in/faves-127702660@N06/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:red", "color:pink", "color:yellow", "color:green", "color:blue", "color:purple", "color:white"]
+    notes:
+      - 虹
+  - 
+    title: "IMGD2566"
+    image: "https://c8.staticflickr.com/4/3710/19017593103_9de62c617c.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/19017593103/in/faves-127702660@N06/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:red", "color:yellow", "color:blue"]
+    notes:
+      - ユニバーサルスタジオジャパン『ポップアップパーティ』
+  - 
+    title: "CiaToy"
+    image: "https://c3.staticflickr.com/1/542/19142619778_819b8fff43.jpg"
+    source: { author: "Taguatinga Shopping", license: "", url: "https://www.flickr.com/photos/taguatingashopping/19142619778/in/faves-127702660@N06/"}
+    size: { width_o: 1631, height_o: 2451, max_len: 500 }
+    tags: ["color:black", "color:red"]
+    notes: []
+  - 
+    title: "DSC08596"
+    image: "https://c5.staticflickr.com/8/7371/15819993564_dd6509761a.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/15819993564/in/album-72157650627504291/"}
+    size: { width_o: 3648, height_o: 5472, max_len: 500 }
+    tags: ["color:yellow", "color:pink", "color:white"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - 水玉
+  - 
+    title: "IMGD4426"
+    image: "https://c7.staticflickr.com/1/741/20197968934_76d8aab5bf.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/20197968934/in/faves-127702660@N06/"}
+    size: { width_o: 3641, height_o: 5461, max_len: 500 }
+    tags: ["color:pink", "color:white", "color:green"]
+    notes:
+      - ハローキティ35周年公募衣装
+      - いちご、生クリーム、リボン
+  - 
+    title: "IMGD6542"
+    image: "https://c8.staticflickr.com/1/360/20178791791_bcf8f9f3b2.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/20178791791/in/faves-127702660@N06/"}
+    size: { width_o: 3534, height_o: 5638, max_len: 500 }
+    tags: ["color:yellow", "color:blue", "color:red", "color:purple", "color:green"]
+    notes:
+      - 伊東
+      - 浴衣、和服
+  - 
+    title: "IMGD3298"
+    image: "https://c3.staticflickr.com/1/414/20095220970_0d2c370b05.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/20095220970/in/faves-127702660@N06/"}
+    size: { width_o: 3427, height_o: 5140, max_len: 500 }
+    tags: ["color:blue", "color:pink", "color:red", "color:yellow", "color:green"]
+    notes:
+      - 浴衣、和服
+  - 
+    title: "IMGD3298"
+    image: "https://c2.staticflickr.com/4/3515/3950045313_60bc72986f.jpg"
+    source: { author: "USJ Walker", license: "", url: "https://www.flickr.com/photos/usjwalker/3950045313/in/faves-127702660@N06/"}
+    size: { width_o: 2000, height_o: 1329, max_len: 500 }
+    tags: ["color:red", "color:black"]
+    notes:
+      - ユニバーサルスタジオジャパン『ハッピー・ハーモニー・セレブレーション』
+  - 
+    title: "DSC_0602"
+    image: "https://c7.staticflickr.com/6/5735/20685640230_527b7a72e5.jpg"
+    source: { author: "にゃむ", license: "", url: "https://www.flickr.com/photos/124913439@N07/20685640230/in/faves-127702660@N06/"}
+    size: { width_o: 4000, height_o: 6016, max_len: 500 }
+    tags: ["color:blue", "color:white", "color:red"]
+    notes:
+      - ハート
+  - 
+    title: "DSC_0010"
+    image: "https://c4.staticflickr.com/6/5669/20521152923_5f7621116f.jpg"
+    source: { author: "にゃむ", license: "", url: "https://www.flickr.com/photos/124913439@N07/20521152923/in/faves-127702660@N06/"}
+    size: { width_o: 4000, height_o: 6016, max_len: 500 }
+    tags: ["color:red"]
+    notes: []
+  - 
+    title: "DSC_0868"
+    image: "https://c8.staticflickr.com/6/5651/20739272423_8597a3aed8.jpg"
+    source: { author: "にゃむ", license: "", url: "https://www.flickr.com/photos/124913439@N07/20739272423/in/faves-127702660@N06/"}
+    size: { width_o: 4000, height_o: 6016, max_len: 500 }
+    tags: ["color:red", "color:gold", "color:silver", "color:white", "color:green"]
+    notes:
+      - 着物、和服
+  - 
+    title: "IMGD6145"
+    image: "https://c1.staticflickr.com/6/5654/21574633464_57aeb53c66.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/21574633464/in/faves-127702660@N06/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:purple", "color:white"]
+    notes:
+      - ユニバーサルスタジオジャパン『パレードデカーニバル』
+      - バラ、仮面
+  - 
+    title: "IMG_2857"
+    image: "https://c4.staticflickr.com/6/5624/22302652979_bdb7efcc07.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/22302652979/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:pink", "color:blue", "color:grey", "color:red"]
+    notes:
+      - 外部イベント『ハローキティ&プリンのハートフルタイム』
+      - タータンチェック
+  - 
+    title: "25717484733"
+    image: "https://c6.staticflickr.com/2/1453/25717484733_335e219042.jpg"
+    source: { author: "PrincessTori96", license: "", url: "https://www.flickr.com/photos/princesstori96/25717484733/in/faves-127702660@N06/"}
+    size: { width_o: 3456, height_o: 5184, max_len: 500 }
+    tags: ["color:pink", "color:blue"]
+    notes:
+      - いちご、飴
+  - 
+    title: "IMGD9558"
+    image: "https://c5.staticflickr.com/2/1537/26178222212_792d464a9f.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26178222212/in/faves-127702660@N06/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:purple", "color:red"]
+    notes:
+      - ハーモニーランド25周年
+      - ハート
+  - 
+    title: "IMGD1568"
+    image: "https://c6.staticflickr.com/2/1701/26406755701_84f0cc73df.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26406755701/in/faves-127702660@N06/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:blue", "color:red", "color:black", "color:white", "color:pink", "color:green", "color:purple"]
+    notes:
+      - プラザステージ『「お・も・て・な・し」のキティカフェ』
+      - いちご、帽子
+  - 
+    title: "DSC01163"
+    image: "https://c6.staticflickr.com/4/3852/14713163341_cca4cd781e.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/14713163341/in/album-72157652873299903/"}
+    size: { width_o: 3648, height_o: 5472, max_len: 500 }
+    tags: ["color:black", "color:silver", "color:pink"]
+    notes:
+      - ハート
+  - 
+    title: "IMGD7242"
+    image: "https://c4.staticflickr.com/1/600/22052580579_49f63d888e.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/22052580579/in/album-72157652873299903/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    tags: ["color:pink", "color:orange", "color:black"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - ハロウィン
