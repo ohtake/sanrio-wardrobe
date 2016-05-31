@@ -2,13 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import LazyLoad from 'react-lazy-load';
 import JustifiedLayout from 'react-justified-layout';
-import yaml from 'js-yaml';
-
-/* eslint-disable no-unused-vars */
-// Polyfills are not used but required
-import Promise from 'es6-promise'; // For older browsers http://caniuse.com/#feat=promises
-import fetch from 'whatwg-fetch';
-/* eslint-enable */
 
 import Photo from './photo.js';
 import CharacterSelector from './character_selector.jsx';
@@ -53,28 +46,19 @@ class App extends React.Component {
       photos: null,
       message: `Loading ${file}`,
     });
-    window.fetch(`data/${file}.yaml`).then(res => {
-      if (res.ok) {
-        return res.text();
+    Photo.loadPhotos(file, (ok, result) => {
+      if (ok) {
+        this.allPhotos = result;
+        this.setState({
+          photos: result.slice(0),
+          message: null,
+        });
+      } else {
+        this.setState({
+          photos: null,
+          message: result.toString(),
+        });
       }
-      const error = new Error(res.statusText);
-      error.response = res;
-      throw error;
-    })
-    .then(text => {
-      const data = yaml.load(text);
-      const photos = data.map(obj => new Photo(obj));
-      this.allPhotos = photos;
-      this.setState({
-        photos: photos.slice(0),
-        message: null,
-      });
-    })
-    .catch(ex => {
-      this.setState({
-        photos: null,
-        message: ex.toString(),
-      });
     });
   }
   thumbnailSizeChanged(e) {
