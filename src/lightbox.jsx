@@ -1,22 +1,42 @@
 import React from 'react';
 import RLightbox from 'react-image-lightbox';
+import Styles from 'react-image-lightbox/lib/Styles.js';
 import icons from './icons';
 
 import Photo from './photo.js';
 
-const buttonStyle = {
-  verticalAlign: 'middle',
-  width: '40px',
-  height: '35px',
-  cursor: 'pointer',
-  border: 'none',
-  opacity: 0.7,
-  ':hover': {
-    opacity: 1,
+const myStyles = {
+  creditContainer: {
+    position: 'fixed',
+    bottom: 0,
+    right: 0,
   },
-  ':active': {
-    outline: 'none',
+  creditAnchor: {
+    display: 'inline-block',
+    padding: '0.4em',
+    backgroundColor: Styles.toolbar.backgroundColor,
+    color: Styles.toolbarItem.color,
+    lineHeight: '1em',
+    fontSize: '80%',
+    textDecoration: 'none',
   },
+  notesContainer: {
+    position: 'fixed',
+    top: Styles.toolbar.height,
+    left: 0,
+    width: '100%',
+    backgroundColor: Styles.toolbar.backgroundColor,
+  },
+  notesList: {
+    whiteSpace: 'normal',
+    lineHeight: '1em',
+    fontSize: '80%',
+  },
+  buttonNotes: [
+    Styles.toolbarItemChild,
+    Styles.builtinButton,
+    { background: `${icons.Info} no-repeat center` },
+  ],
 };
 
 export default class Lightbox2 extends React.Component {
@@ -41,8 +61,8 @@ export default class Lightbox2 extends React.Component {
   }
   createNotesElement(photo) {
     return (
-      <div style={{ position: 'fixed', top: '50px', left: 0, width: '100%', backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
-        <ul style={{ whiteSpace: 'normal', lineHeight: '1em', fontSize: '80%' }}>
+      <div style={myStyles.notesContainer}>
+        <ul style={myStyles.notesList}>
           {photo.data.notes.map(n => <li>{n}</li>)}
         </ul>
       </div>);
@@ -52,8 +72,8 @@ export default class Lightbox2 extends React.Component {
     if (photo.data.source.author) texts.push(`by ${photo.data.source.author}`);
     if (photo.data.source.license) texts.push(`under ${photo.data.source.license}`);
     return (
-      <div style={{ position: 'fixed', bottom: 0, right: 0 }}>
-        <a href={photo.data.source.url} target="_blank" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', color: 'white', padding: '0.4em', display: 'inline-block', lineHeight: '1em', fontSize: '80%', textDecoration: 'none' }}>
+      <div style={myStyles.creditContainer}>
+        <a href={photo.data.source.url} target="_blank" style={myStyles.creditAnchor}>
           {texts.join(' ') || 'no credit info'}
         </a>
       </div>
@@ -83,7 +103,7 @@ export default class Lightbox2 extends React.Component {
       onMovePrevRequest={this.movePrev}
       onMoveNextRequest={this.moveNext}
       toolbarButtons={[
-        <button title="Toggle notes" onClick={this.toggleDescription} style={[buttonStyle, { background: `${icons.Info} no-repeat center` }]} type="button" />,
+        <button title="Toggle notes" onClick={this.toggleDescription} style={myStyles.buttonNotes} />,
       ]}
       imageTitle={description}
     />);
@@ -94,4 +114,3 @@ Lightbox2.propTypes = {
   index: React.PropTypes.number.isRequired,
   closeLightbox: React.PropTypes.func.isRequired,
 };
-
