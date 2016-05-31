@@ -17,6 +17,7 @@
   "peerDependencies": {
   },
   "devDependencies": {
+    "lodash": "4.13.1",
     "webpack": "1.13.1",
     "babel-loader": "6.2.4",
     "babel-core": "6.9.0",
@@ -26,7 +27,7 @@
     "http-server": "0.9.0"
   },
   "scripts": {
-    "build": "webpack --progress --colors --optimize-minimize --optimize-occurrence-order --optimize-dedupe",
+    "build": "webpack --config webpack.config.production.js --progress --colors",
     "start": "webpack-dev-server --progress --colors",
     "server": "http-server"
   }
