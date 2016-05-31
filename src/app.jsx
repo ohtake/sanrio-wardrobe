@@ -75,7 +75,7 @@ class App extends React.Component {
     } else {
       const photos = this.allPhotos.filter(p => {
         for (let i = 0; i < colors.length; i++) {
-          if (p.data.tags.indexOf(`color:${colors[i]}`) < 0) return false;
+          if (p.data.colors.indexOf(colors[i]) < 0) return false;
         }
         return true;
       });

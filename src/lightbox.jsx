@@ -68,7 +68,7 @@ export default class Lightbox2 extends React.Component {
   }
   createColorSample(photo) {
     return (
-      <li>{photo.data.tags.map(t => t.replace('color:', '')).map(c => {
+      <li>{photo.data.colors.map(c => {
         const color = Colors.findById(c);
         return <span style={[myStyles.colorSample, { backgroundColor: color.value }]} title={color.name}></span>;
       })}</li>
