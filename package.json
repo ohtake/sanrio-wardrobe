@@ -4,7 +4,7 @@
   "description": "",
   "author": "",
   "license": "",
-  "main": "app.js",
+  "main": "src/app.jsx",
   "dependencies": {
     "es6-promise": "3.2.1",
     "js-yaml": "3.6.1",
@@ -17,16 +17,24 @@
   "peerDependencies": {
   },
   "devDependencies": {
+    "lodash": "4.13.1",
     "webpack": "1.13.1",
     "babel-loader": "6.2.4",
     "babel-core": "6.9.0",
     "babel-preset-es2015": "6.9.0",
     "babel-preset-react": "6.5.0",
+    "eslint-loader": "1.3.0",
+    "eslint": "2.11.1",
+    "eslint-plugin-import": "1.8.1",
+    "eslint-plugin-react": "5.1.1",
+    "eslint-plugin-jsx-a11y": "1.2.2",
+    "eslint-config-airbnb": "9.0.1",
     "webpack-dev-server": "1.14.1",
     "http-server": "0.9.0"
   },
   "scripts": {
-    "build": "webpack --progress --colors --optimize-minimize --optimize-occurrence-order --optimize-dedupe",
+    "lint": "eslint webpack.*.js src/* --color",
+    "build": "webpack --config webpack.config.production.js --progress --colors",
     "start": "webpack-dev-server --progress --colors",
     "server": "http-server"
   }
