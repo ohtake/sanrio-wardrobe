@@ -2,7 +2,7 @@ import React from 'react';
 import RLightbox from 'react-image-lightbox';
 import Styles from 'react-image-lightbox/lib/Styles.js';
 import icons from './icons';
-
+import Colors from './colors.js';
 import Photo from './photo.js';
 
 const myStyles = {
@@ -37,6 +37,13 @@ const myStyles = {
     Styles.builtinButton,
     { background: `${icons.Info} no-repeat center` },
   ],
+  colorSample: {
+    display: 'inline-block',
+    width: '0.8em',
+    height: '0.8em',
+    margin: '0 0.2em 0',
+    border: 'grey 1px solid',
+  },
 };
 
 export default class Lightbox2 extends React.Component {
@@ -59,10 +66,19 @@ export default class Lightbox2 extends React.Component {
     e.preventDefault();
     this.setState({ showDescription: ! this.state.showDescription });
   }
+  createColorSample(photo) {
+    return (
+      <li>{photo.data.tags.map(t => t.replace('color:', '')).map(c => {
+        const color = Colors.findById(c);
+        return <span style={[myStyles.colorSample, { backgroundColor: color.value }]} title={color.name}></span>;
+      })}</li>
+    );
+  }
   createNotesElement(photo) {
     return (
       <div style={myStyles.notesContainer}>
         <ul style={myStyles.notesList}>
+          {this.createColorSample(photo)}
           {photo.data.notes.map(n => <li>{n}</li>)}
         </ul>
       </div>);

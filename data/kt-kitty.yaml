@@ -49,7 +49,7 @@
     image: "https://farm8.staticflickr.com/7635/16152535014_db056d3679.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16152535014"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:pink"]
+    tags: ["color:pink", "color:silver", "color:gold", "color:red"]
     notes:
       - ピューロランドパレード『Believe』
       - ピューロビレッジ『ミラクリュージョン★』
@@ -58,7 +58,7 @@
     image: "https://farm4.staticflickr.com/3882/14650521100_36330b54b2.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14650521100"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:pink"]
+    tags: ["color:pink", "color:silver", "color:gold", "color:red"]
     notes:
       - 『Believe』の光っているバージョン
       - ピューロビレッジ『ミラクリュージョン★』
@@ -67,7 +67,7 @@
     image: "https://farm8.staticflickr.com/7563/15889076825_35fcbdb4a6.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15889076825"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:pink", "color:gold"]
+    tags: ["color:pink", "color:silver", "color:gold", "color:red"]
     notes:
       - 『Believe』のアレンジで、胸に金色の装飾が追加された光っていないバージョン
       - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』
@@ -76,7 +76,7 @@
     image: "https://farm6.staticflickr.com/5612/15605658267_e3a155d4a5.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605658267"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:pink", "color:gold"]
+    tags: ["color:pink", "color:silver", "color:gold", "color:red"]
     notes:
       - 『Believe』のアレンジで、胸に金色の装飾が追加された光っているバージョン
       - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』
@@ -85,7 +85,7 @@
     image: "https://farm1.staticflickr.com/682/21251679969_1cb7701265.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21251679969"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:pink"]
+    tags: ["color:pink", "color:yellow"]
     notes:
       - 『ミラクリュージョン★スターライトドリーム』
       - バラ、和服ドレス
@@ -112,7 +112,7 @@
     image: "https://farm3.staticflickr.com/2864/8991669805_367de01085.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8991669805/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:pink", "color:gold"]
+    tags: ["color:pink", "color:brown"]
     notes:
       - メルヘンシアター『不思議の国のハローキティ』配達人
       - コート、帽子、Delivery Door to Door
@@ -173,7 +173,7 @@
     image: "https://lh4.googleusercontent.com/-L2HOSpJPM9M/UXUbLPgi7oI/AAAAAAAAQfE/WRuxVvCAUfw/s500/5D3E5348%2520%25281280x1920%2529.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/plZkpqfY9GmxR6h-vykdE9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1280, height_o: 1920, max_len: 500 }
-    tags: ["color:white", "color:black", "color:pink"]
+    tags: ["color:white", "color:black", "color:pink", "color:red"]
     notes:
       - 外部イベント『ハローキティ＆ダニエルのありがとうマイフレンズ』
       - 知恵の木ステージ『PURO★アイドル★コレクション』KITTY5
@@ -183,7 +183,7 @@
     image: "https://farm6.staticflickr.com/5709/23066254004_7b8ca114a6.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23066254004"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:white", "color:black", "color:pink"]
+    tags: ["color:white", "color:black", "color:pink", "color:red"]
     notes:
       - 外部イベント『ハローキティ＆ダニエルのありがとうマイフレンズ』のリボン簡略版
       - ストライプ
@@ -192,7 +192,7 @@
     image: "https://farm8.staticflickr.com/7468/16172425441_a677ec703c.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16172425441"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:white", "color:black", "color:pink", "color:gold"]
+    tags: ["color:white", "color:black", "color:pink", , "color:red", "color:gold"]
     notes:
       - 外部イベント『ハローキティ＆ダニエルのありがとうマイフレンズ』のアレンジで金色の線やリボンとなっている
       - ストライプ
@@ -201,7 +201,7 @@
     image: "https://farm6.staticflickr.com/5630/22449655257_84f1e98efe.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22449655257"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:purple", "color:green", "color:pink", "color:white"]
+    tags: ["color:purple", "color:green", "color:pink", "color:white", "color:yellow", "color:blue"]
     notes:
       - ハーモニーランドパレード『パレードパラレル』
       - リボン
@@ -270,7 +270,7 @@
     image: "https://farm8.staticflickr.com/7547/15675951834_e6b92307fb.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15675951834"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    tags: ["color:pink", "color:white"]
+    tags: ["color:pink", "color:white", "color:yellow"]
     notes:
       - 袴、和服、梅
   - 
@@ -601,7 +601,7 @@
     image: "https://farm8.staticflickr.com/7478/15183286324_d1c483c094.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15183286324"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    tags: ["color:pink", "color:white"]
+    tags: ["color:pink", "color:white", "color:silver"]
     notes:
       - 宝石、冠、ヘッドフォン
   - 

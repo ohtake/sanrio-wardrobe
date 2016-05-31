@@ -1,5 +1,5 @@
 import React from 'react';
-import * as Colors from 'material-ui/styles/colors.js';
+import Colors from './colors.js';
 
 class ColorItem {
   constructor(id, name, strong, weak) {
@@ -85,20 +85,6 @@ ColorSelector.propTypes = {
   onChanged: React.PropTypes.func,
 };
 ColorSelector.defaultProps = {
-  colors: [
-    new ColorItem('red', 'Red', Colors.red500, Colors.red200),
-    new ColorItem('pink', 'Pink', Colors.red500, Colors.pink200),
-    new ColorItem('orange', 'Orange', Colors.orange500, Colors.orange200),
-    new ColorItem('yellow', 'Yellow', Colors.yellow500, Colors.yellow200),
-    new ColorItem('green', 'Green', Colors.green500, Colors.green200),
-    new ColorItem('blue', 'Blue', Colors.blue500, Colors.blue200),
-    new ColorItem('purple', 'Purple', Colors.purple500, Colors.purple200),
-    new ColorItem('brown', 'Brown', Colors.brown500, Colors.brown200),
-    new ColorItem('black', 'Black', Colors.grey500, Colors.grey200),
-    new ColorItem('grey', 'Grey', Colors.grey500, Colors.grey200),
-    new ColorItem('silver', 'Silver', Colors.grey500, Colors.grey200),
-    new ColorItem('white', 'White', Colors.grey500, Colors.grey200),
-    new ColorItem('gold', 'Gold', Colors.amber500, Colors.amber200),
-  ],
+  colors: Colors.all.map(c => new ColorItem(c.id, c.name, c.standard, c.light)),
   onChanged: null,
 };
