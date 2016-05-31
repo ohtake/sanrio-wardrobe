@@ -16,7 +16,7 @@ Run `npm start`. Now you can visit http://localhost:8080/ to view the applicatio
 ```bash
 git checkout -B gh-pages
 npm run-script build
-git add -f build.js
+git add -f assets
 git commit -m "Build"
 git push origin gh-pages -f
 git checkout -

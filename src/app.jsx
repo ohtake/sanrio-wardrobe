@@ -188,7 +188,7 @@ class App extends React.Component{
             photos: null,
             message: "Loading " + file,
         });
-        window.fetch(file + '.yaml').then( res => {
+        window.fetch(`data/${file}.yaml`).then( res => {
             if (res.ok) {
                 return res.text();
             } else {

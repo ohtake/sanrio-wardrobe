@@ -4,7 +4,7 @@
   "description": "",
   "author": "",
   "license": "",
-  "main": "app.js",
+  "main": "src/app.jsx",
   "dependencies": {
     "es6-promise": "3.2.1",
     "js-yaml": "3.6.1",
