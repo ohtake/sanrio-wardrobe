@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import LazyLoad from 'react-lazy-load';
-import Lightbox from 'react-image-lightbox';
 import JustifiedLayout from 'react-justified-layout';
 import yaml from 'js-yaml';
-import icons from './icons';
 
 /* eslint-disable no-unused-vars */
 // Polyfills are not used but required
@@ -15,6 +13,7 @@ import fetch from 'whatwg-fetch';
 import Photo from './photo.js';
 import CharacterSelector from './character_selector.jsx';
 import ColorSelector from './color_selector.jsx';
+import Lightbox from './lightbox.jsx';
 
 class App extends React.Component {
   constructor() {
@@ -27,9 +26,6 @@ class App extends React.Component {
     this.colorChanged = this.colorChanged.bind(this);
     this.openLightbox = this.openLightbox.bind(this);
     this.closeLightbox = this.closeLightbox.bind(this);
-    this.moveNext = this.moveNext.bind(this);
-    this.movePrev = this.movePrev.bind(this);
-    this.toggleDescription = this.toggleDescription.bind(this);
   }
   componentDidMount() {
     this.updateContainerWidth();
@@ -111,36 +107,7 @@ class App extends React.Component {
   closeLightbox() {
     this.setState({ isOpen: false });
   }
-  moveNext() {
-    this.setState({ index: (this.state.index + 1) % this.state.photos.length });
-  }
-  movePrev() {
-    this.setState({ index: (this.state.index + this.state.photos.length - 1) % this.state.photos.length });
-  }
-  toggleDescription(e) {
-    e.preventDefault();
-    this.setState({ showDescription: ! this.state.showDescription });
-  }
-  createNotesElement(photo) {
-    return (
-      <div style={{ position: 'fixed', top: '50px', left: 0, width: '100%', backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
-        <ul style={{ whiteSpace: 'normal', lineHeight: '1em', fontSize: '80%' }}>
-          {photo.data.notes.map(n => <li>{n}</li>)}
-        </ul>
-      </div>);
-  }
-  createCreditElement(photo) {
-    const texts = [];
-    if (photo.data.source.author) texts.push(`by ${photo.data.source.author}`);
-    if (photo.data.source.license) texts.push(`under ${photo.data.source.license}`);
-    return (
-      <div style={{ position: 'fixed', bottom: 0, right: 0 }}>
-        <a href={photo.data.source.url} target="_blank" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', color: 'white', padding: '0.4em', display: 'inline-block', lineHeight: '1em', fontSize: '80%', textDecoration: 'none' }}>
-          {texts.join(' ') || 'no credit info'}
-        </a>
-      </div>
-    );
-  }
+
   renderGallery() {
     let imgStyle = { width: '100%', height: '100%' };
     let imgs = this.state.photos.map((p, i) => (
@@ -154,49 +121,6 @@ class App extends React.Component {
     ));
     return <JustifiedLayout targetRowHeight={this.state.thumbnailHeight} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
   }
-  renderLightbox() {
-    const index = this.state.index;
-    const len = this.state.photos.length;
-    const main = this.state.photos[index];
-    const next = this.state.photos[(index + 1) % len];
-    const prev = this.state.photos[(index + len - 1) % len];
-    const description = (
-      <div>
-        <span>{main.data.title}</span>
-        {this.state.showDescription ? this.createNotesElement(main) : null}
-        {this.createCreditElement(main)}
-      </div>
-    );
-    const buttonStyle = {
-      verticalAlign: 'middle',
-      width: '40px',
-      height: '35px',
-      cursor: 'pointer',
-      border: 'none',
-      opacity: 0.7,
-      ':hover': {
-        opacity: 1,
-      },
-      ':active': {
-        outline: 'none',
-      },
-    };
-    return (<Lightbox
-      mainSrc={main.inferLargeImage()}
-      nextSrc={next.inferLargeImage()}
-      prevSrc={prev.inferLargeImage()}
-      mainSrcThumbnail={main.data.image}
-      nextSrcThumbnail={next.data.image}
-      prevSrcThumbnail={prev.data.image}
-      onCloseRequest={this.closeLightbox}
-      onMovePrevRequest={this.movePrev}
-      onMoveNextRequest={this.moveNext}
-      toolbarButtons={[
-        <button title="Toggle notes" onClick={this.toggleDescription} style={[buttonStyle, { background: `${icons.Info} no-repeat center` }]} type="button" />,
-      ]}
-      imageTitle={description}
-    />);
-  }
   render() {
     return (
       <div className="App">
@@ -207,7 +131,7 @@ class App extends React.Component {
         <ColorSelector ref="color" onChanged={this.colorChanged} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         {this.state.photos ? this.renderGallery() : null}
-        {this.state.isOpen ? this.renderLightbox() : null}
+        {this.state.isOpen ? <Lightbox index={this.state.index} photos={this.state.photos} closeLightbox={this.closeLightbox} /> : null}
       </div>
     );
   }
