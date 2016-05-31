@@ -1,0 +1,7 @@
+---
+  env: 
+    browser: true
+  extends: ["airbnb"]
+  rules:
+    max-len: 0
+    react/no-multi-comp: 1
