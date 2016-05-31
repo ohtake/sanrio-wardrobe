@@ -27,7 +27,8 @@ export default class ColorSelector extends React.Component {
     if (f) f(this);
   }
   getColorById(id) {
-    for (const c of this.state.colors) {
+    for (let i = 0; i < this.state.colors.length; i++) {
+      const c = this.state.colors[i];
       if (c.id === id) return c;
     }
     return null;
@@ -59,8 +60,8 @@ export default class ColorSelector extends React.Component {
   }
   clear(e) {
     if (e) e.preventDefault();
-    for (const c of this.state.colors) {
-      c.active = false;
+    for (let i = 0; i < this.state.colors.length; i++) {
+      this.state.colors[i].active = false;
     }
     this.onChanged();
     this.setState({ colors: this.state.colors });
