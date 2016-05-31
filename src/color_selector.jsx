@@ -1,4 +1,5 @@
 import React from 'react';
+import * as Colors from 'material-ui/styles/colors.js';
 
 class ColorItem {
   constructor(id, name, strong, weak) {
@@ -84,21 +85,19 @@ ColorSelector.propTypes = {
 };
 ColorSelector.defaultProps = {
   colors: [
-        // Color values are taken from http://www.google.com/design/spec/style/color.html#color-color-palette
-        // strong=500, weak=200
-    new ColorItem('red', 'Red', '#f44336', '#ef9a9a'),
-    new ColorItem('pink', 'Pink', '#e91e63', '#f48fb1'),
-    new ColorItem('orange', 'Orange', '#ff9800', '#ffcc80'),
-    new ColorItem('yellow', 'Yellow', '#ffeb3b', '#fff59d'),
-    new ColorItem('green', 'Green', '#4caf50', '#a5d6a7'),
-    new ColorItem('blue', 'Blue', '#2196f3', '#90caf9'),
-    new ColorItem('purple', 'Purple', '#9c27b0', '#ce93d8'),
-    new ColorItem('brown', 'Brown', '#795548', '#bcaaa4'),
-    new ColorItem('black', 'Black', '#9e9e9e', '#eeeeee'),
-    new ColorItem('grey', 'Grey', '#9e9e9e', '#eeeeee'),
-    new ColorItem('silver', 'Silver', '#9e9e9e', '#eeeeee'),
-    new ColorItem('white', 'White', '#9e9e9e', '#eeeeee'),
-    new ColorItem('gold', 'Gold', '#ffc107', '#ffe082'),
+    new ColorItem('red', 'Red', Colors.red500, Colors.red200),
+    new ColorItem('pink', 'Pink', Colors.red500, Colors.pink200),
+    new ColorItem('orange', 'Orange', Colors.orange500, Colors.orange200),
+    new ColorItem('yellow', 'Yellow', Colors.yellow500, Colors.yellow200),
+    new ColorItem('green', 'Green', Colors.green500, Colors.green200),
+    new ColorItem('blue', 'Blue', Colors.blue500, Colors.blue200),
+    new ColorItem('purple', 'Purple', Colors.purple500, Colors.purple200),
+    new ColorItem('brown', 'Brown', Colors.brown500, Colors.brown200),
+    new ColorItem('black', 'Black', Colors.grey500, Colors.grey200),
+    new ColorItem('grey', 'Grey', Colors.grey500, Colors.grey200),
+    new ColorItem('silver', 'Silver', Colors.grey500, Colors.grey200),
+    new ColorItem('white', 'White', Colors.grey500, Colors.grey200),
+    new ColorItem('gold', 'Gold', Colors.amber500, Colors.amber200),
   ],
   onChanged: null,
 };
