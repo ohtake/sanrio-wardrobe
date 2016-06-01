@@ -1226,6 +1226,7 @@
     colors: ["pink", "yellow", "green"]
     notes:
       - 外部イベント『ハローキティのハッピーキャラバン!』
+      - 外部イベント『キティズパラダイス』
       - チア
   - 
     title: "5D3C6876 (1440x960)"
@@ -1263,6 +1264,15 @@
     notes:
       - 外部イベント『サンリオクリスマスレビューショー』
       - クリスマス、柊
+  - 
+    title: "IMGD5149"
+    image: "https://c8.staticflickr.com/8/7059/26900374991_cccf60ac02.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26900374991/"}
+    size: { width_o: 3738, height_o: 5607, max_len: 500 }
+    colors: ["red", "green", "white", "gold"]
+    notes:
+      - 上半身の配色、リボン、帽子、靴が異なる
+      - クリスマス、柊、帽子
   - 
     title: "5D3J8101"
     image: "https://farm4.staticflickr.com/3809/11009211033_f4efd01e20.jpg"
@@ -1740,10 +1750,10 @@
     notes:
       - 着物、和服
   - 
-    title: "IMGD6145"
-    image: "https://c1.staticflickr.com/6/5654/21574633464_57aeb53c66.jpg"
-    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/21574633464"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    title: "IMG_9030"
+    image: "https://c6.staticflickr.com/3/2941/15163768269_6976bfc33a.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/15163768269/"}
+    size: { width_o: 5184, height_o: 3456, max_len: 500 }
     colors: ["purple", "white"]
     notes:
       - ユニバーサルスタジオジャパン『パレードデカーニバル』
@@ -1800,3 +1810,37 @@
     notes:
       - ユニバーサルスタジオジャパン
       - ハロウィン
+  - 
+    title: "IMGD4858"
+    image: "https://c7.staticflickr.com/8/7384/26741954774_9ae226cea3.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26741954774"}
+    size: { width_o: 3427, height_o: 5140, max_len: 500 }
+    colors: ["blue", "white", "orange", "pink", "gold"]
+    notes:
+      - バラ
+  - 
+    title: "IMG_9175"
+    image: "https://c8.staticflickr.com/1/563/20629047839_c53a029cd2.jpg"
+    source: { author: "yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/20629047839/"}
+    size: { width_o: 3156, height_o: 5184, max_len: 500 }
+    colors: ["pink", "yellow"]
+    notes:
+      - 浴衣、和服、桜
+  - 
+    title: "IMG_3084"
+    image: "https://c3.staticflickr.com/6/5696/22682440826_4148712338.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/22682440826/"}
+    size: { width_o: 5184, height_o: 3456, max_len: 500 }
+    colors: ["white", "black", "gold", "red"]
+    notes:
+      - 外部イベント『ハローキティ&ルビーの魔法のクリスマス』
+      - リボン
+  - 
+    title: "IMG_3095"
+    image: "https://c8.staticflickr.com/6/5726/22719631991_75325501b1.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/22719631991/"}
+    size: { width_o: 5184, height_o: 3456, max_len: 500 }
+    colors: ["red", "gold", "white", "green"]
+    notes:
+      - 外部イベント『ハローキティ&ルビーの魔法のクリスマス』
+      - ストライプ
