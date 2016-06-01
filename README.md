@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/ohtake/sanrio-wardrobe.svg?branch=master)](https://travis-ci.org/ohtake/sanrio-wardrobe)
 
+[![Dependency Status](https://david-dm.org/ohtake/sanrio-wardrobe.svg)](https://david-dm.org/ohtake/sanrio-wardrobe)
+[![devDependency Status](https://david-dm.org/ohtake/sanrio-wardrobe/dev-status.svg)](https://david-dm.org/ohtake/sanrio-wardrobe#info=devDependencies)
+[![peerDependency Status](https://david-dm.org/ohtake/sanrio-wardrobe/peer-status.svg)](https://david-dm.org/ohtake/sanrio-wardrobe#info=peerDependencies)
+
 You can find clothings of Sanrio characters.
 
 * Source: <https://github.com/ohtake/sanrio-wardrobe/>
