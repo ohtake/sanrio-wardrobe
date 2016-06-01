@@ -9,6 +9,7 @@ module.exports = {
     path: 'assets',
     filename: 'bundle.js',
   },
+  devtool: 'source-map',
   plugins: [
   ],
   module: {
