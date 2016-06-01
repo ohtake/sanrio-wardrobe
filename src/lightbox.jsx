@@ -32,6 +32,9 @@ const myStyles = {
     lineHeight: '1em',
     fontSize: '80%',
   },
+  report: {
+    color: Styles.toolbarItem.color,
+  },
   buttonNotes: [
     Styles.toolbarItemChild,
     Styles.builtinButton,
@@ -50,7 +53,7 @@ export default class Lightbox2 extends React.Component {
   constructor(props) {
     super();
 
-    this.state = { photos: props.photos, index: props.index };
+    this.state = { photos: props.photos, index: props.index, showDescription: true };
 
     this.moveNext = this.moveNext.bind(this);
     this.movePrev = this.movePrev.bind(this);
@@ -75,11 +78,14 @@ export default class Lightbox2 extends React.Component {
     );
   }
   createNotesElement(photo) {
+    const prefilledTitle = `${photo.data.title} ${photo.data.source.url}`;
+    const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(prefilledTitle)}&entry.111224920`;
     return (
       <div style={myStyles.notesContainer}>
         <ul style={myStyles.notesList}>
           {this.createColorSample(photo)}
           {photo.data.notes.map(n => <li>{n}</li>)}
+          <li><a href={formUrl} target="_blank" style={myStyles.report}>記述内容についての修正などを報告</a></li>
         </ul>
       </div>);
   }
