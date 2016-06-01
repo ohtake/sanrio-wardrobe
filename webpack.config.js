@@ -1,7 +1,5 @@
 module.exports = {
   entry: [
-    'babel-polyfill',
-    'whatwg-fetch',
     './src/app.jsx',
   ],
   output: {

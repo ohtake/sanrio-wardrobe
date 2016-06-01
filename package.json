@@ -6,7 +6,6 @@
   "license": "",
   "main": "src/app.jsx",
   "dependencies": {
-    "babel-polyfill": "6.9.1",
     "js-yaml": "3.6.1",
     "react": "15.1.0",
     "react-dom": "15.1.0",
