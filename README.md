@@ -1,5 +1,7 @@
 # Sanrio Wardrobe
 
+[![Build Status](https://travis-ci.org/ohtake/sanrio-wardrobe.svg?branch=master)](https://travis-ci.org/ohtake/sanrio-wardrobe)
+
 You can find clothings of Sanrio characters.
 
 * Source: <https://github.com/ohtake/sanrio-wardrobe/>
