@@ -1,11 +1,5 @@
 import yaml from 'js-yaml';
 
-/* eslint-disable no-unused-vars */
-// Polyfills are not used but required
-import Promise from 'es6-promise'; // For older browsers http://caniuse.com/#feat=promises
-import fetch from 'whatwg-fetch';
-/* eslint-enable */
-
 export default class Photo {
   constructor(data) {
     this.data = data;

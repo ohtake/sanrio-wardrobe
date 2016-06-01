@@ -1,5 +1,9 @@
 module.exports = {
-  entry: ['./src/app.jsx'],
+  entry: [
+    'babel-polyfill',
+    'whatwg-fetch',
+    './src/app.jsx',
+  ],
   output: {
     publicPath: 'assets',
     path: 'assets',
