@@ -18,7 +18,6 @@ const myStyles = {
     color: Styles.toolbarItem.color,
     lineHeight: '1em',
     fontSize: '80%',
-    textDecoration: 'none',
   },
   notesContainer: {
     position: 'fixed',
