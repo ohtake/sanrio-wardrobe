@@ -76,7 +76,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
+      <div>
         <CharacterSelector ref="chara" onChanged={this.characterChanged} />
         <ColorSelector ref="color" onChanged={this.colorChanged} />
         {this.state.message ? <div>{this.state.message}</div> : null}

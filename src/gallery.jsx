@@ -15,7 +15,6 @@ export default class Gallery extends React.Component {
 
     this.thumbnailSizeChanged = this.thumbnailSizeChanged.bind(this);
     this.openLightbox = this.openLightbox.bind(this);
-    this.closeLightbox = this.closeLightbox.bind(this);
   }
   componentDidMount() {
     this.updateContainerWidth();
@@ -40,10 +39,7 @@ export default class Gallery extends React.Component {
   openLightbox(e) {
     e.preventDefault();
     const index = parseInt(e.currentTarget.getAttribute('data-index'), 10);
-    this.setState({ isOpen: true, index });
-  }
-  closeLightbox() {
-    this.setState({ isOpen: false });
+    this.refs.lightbox.open(this.props.photos, index);
   }
 
   renderGallery() {
@@ -66,7 +62,7 @@ export default class Gallery extends React.Component {
           Thumbnail size <input ref="size" type="range" defaultValue={this.state.thumbnailHeight} min="36" max="288" onChange={this.thumbnailSizeChanged} />
         </div>
         {this.props.photos ? this.renderGallery() : null}
-        {this.state.isOpen ? <Lightbox index={this.state.index} photos={this.props.photos} closeLightbox={this.closeLightbox} /> : null}
+        <Lightbox ref="lightbox" />
       </div>
     );
   }

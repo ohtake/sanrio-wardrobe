@@ -3,7 +3,6 @@ import RLightbox from 'react-image-lightbox';
 import Styles from 'react-image-lightbox/lib/Styles.js';
 import icons from './icons';
 import Colors from './colors.js';
-import Photo from './photo.js';
 
 const myStyles = {
   creditContainer: {
@@ -49,14 +48,21 @@ const myStyles = {
 };
 
 export default class Lightbox2 extends React.Component {
-  constructor(props) {
+  constructor() {
     super();
 
-    this.state = { photos: props.photos, index: props.index, showDescription: true };
+    this.state = { showDescription: true };
 
     this.moveNext = this.moveNext.bind(this);
     this.movePrev = this.movePrev.bind(this);
     this.toggleDescription = this.toggleDescription.bind(this);
+    this.closeLightbox = this.closeLightbox.bind(this);
+  }
+  open(photos, index) {
+    this.setState({ photos, index });
+  }
+  closeLightbox() {
+    this.setState({ photos: null });
   }
   moveNext() {
     this.setState({ index: (this.state.index + 1) % this.state.photos.length });
@@ -101,6 +107,9 @@ export default class Lightbox2 extends React.Component {
     );
   }
   render() {
+    if (this.state.photos == null) {
+      return null;
+    }
     const index = this.state.index;
     const len = this.state.photos.length;
     const main = this.state.photos[index];
@@ -120,7 +129,7 @@ export default class Lightbox2 extends React.Component {
       mainSrcThumbnail={main.data.image}
       nextSrcThumbnail={next.data.image}
       prevSrcThumbnail={prev.data.image}
-      onCloseRequest={this.props.closeLightbox}
+      onCloseRequest={this.closeLightbox}
       onMovePrevRequest={this.movePrev}
       onMoveNextRequest={this.moveNext}
       toolbarButtons={[
@@ -130,8 +139,3 @@ export default class Lightbox2 extends React.Component {
     />);
   }
 }
-Lightbox2.propTypes = {
-  photos: React.PropTypes.arrayOf(React.PropTypes.instanceOf(Photo)).isRequired,
-  index: React.PropTypes.number.isRequired,
-  closeLightbox: React.PropTypes.func.isRequired,
-};
