@@ -33,6 +33,7 @@
     "http-server": "0.9.0"
   },
   "scripts": {
+    "clean": "rm -rf assets/",
     "lint": "eslint webpack.*.js src/* --color",
     "build": "webpack --config webpack.config.production.js --progress --colors",
     "start": "webpack-dev-server --progress --colors",

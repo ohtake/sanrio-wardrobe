@@ -6,3 +6,5 @@ cache:
     - node_modules
 script:
   - ./scripts/run-travis-tests.sh
+after_success:
+  - ./scripts/is-release-branch.sh && npm run clean && npm run build && ./scripts/deploy-to-gh-pages.sh
