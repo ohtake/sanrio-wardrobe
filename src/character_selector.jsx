@@ -1,4 +1,5 @@
 import React from 'react';
+import DataFile from './data_file.js';
 
 class CharacterItem {
   constructor(filename, name) {
@@ -37,10 +38,7 @@ CharacterSelector.propTypes = {
 };
 
 CharacterSelector.defaultProps = {
-  charas: [
-    new CharacterItem('kt-kitty', 'KT キティ'),
-    new CharacterItem('kt-mimmy', 'KT ミミィ'),
-  ],
-  defaultChara: 'kt-kitty',
+  charas: DataFile.all.map(df => new CharacterItem(df.name, df.getDisplayName())),
+  defaultChara: DataFile.ktKitty.name,
   onChanged: null,
 };

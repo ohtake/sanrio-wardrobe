@@ -1,21 +1,22 @@
-import yaml from 'js-yaml';
-
 export default class Photo {
   constructor(data) {
     this.data = data;
   }
 
   static loadPhotos(file, callback) {
-    window.fetch(`data/${file}.yaml`).then(res => {
+    /* eslint-disable global-require */
+    const actualFilename = require(`file?name=[name]-[hash:6].json!yaml!./../data/${file}.yaml`);
+    /* eslint-enable */
+
+    window.fetch(actualFilename).then(res => {
       if (res.ok) {
-        return res.text();
+        return res.json();
       }
       const error = new Error(res.statusText);
       error.response = res;
       throw error;
     })
-    .then(text => {
-      const arr = yaml.load(text);
+    .then(arr => {
       const photos = arr.map(obj => new Photo(obj));
       callback(true, photos);
     })

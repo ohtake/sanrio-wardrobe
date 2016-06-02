@@ -1,10 +1,12 @@
-module.exports = {
+const DataFile = require('./src/data_file.js');
+
+const js = {
   entry: [
     './src/app.jsx',
   ],
   output: {
-    publicPath: 'assets',
-    path: 'assets',
+    publicPath: 'assets/',
+    path: 'assets/',
     filename: 'bundle.js',
   },
   devtool: 'source-map',
@@ -31,3 +33,26 @@ module.exports = {
     ],
   },
 };
+
+const yamlEntries = {};
+DataFile.all.forEach(f => {
+  yamlEntries[f.name] = `./data/${f.name}.yaml`;
+});
+const yaml = {
+  entry: yamlEntries,
+  output: {
+    publicPath: 'assets/',
+    path: 'assets/',
+    filename: '[name].json.js',
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.yaml$/,
+        loader: 'yaml',
+      },
+    ],
+  },
+};
+
+module.exports = [js, yaml];
