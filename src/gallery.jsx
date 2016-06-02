@@ -20,6 +20,15 @@ export default class Gallery extends React.Component {
     this.updateContainerWidth();
     window.addEventListener('resize', this.handleResize);
   }
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.containerWidth !== prevState.containerWidth) {
+      // Visibility change of scrollbar may trigger this event.
+      // If this handler changes container width, it may change scrollbar visibility.
+      // There is a condition of infinite flippings of scrollbar visibility.
+      return;
+    }
+    this.updateContainerWidth();
+  }
   componentWillUnmount() {
     window.removeEventListener('resize', this.handleResize, false);
   }
