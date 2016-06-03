@@ -13,7 +13,7 @@ export default class Home extends React.Component {
       <div>
         <p>You can find clothings of Sanrio characters.</p>
         <h2>Characters</h2>
-        <CharacterSelector />
+        <CharacterSelector mode="large" />
         <h2>Trademarks</h2>
         <p>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></p>
         <h2>Bundled open source software</h2>

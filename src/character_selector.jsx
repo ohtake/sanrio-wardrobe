@@ -3,34 +3,66 @@ import { Link } from 'react-router';
 
 import DataFile from './data_file.js';
 
-class CharacterItem {
-  constructor(filename, name) {
-    this.filename = filename;
-    this.name = name;
-  }
-}
-
 export default class CharacterSelector extends React.Component {
   constructor(props) {
     super();
     this.status = { charas: props.charas };
   }
-  render() {
+  renderSmall() {
+    const styleLi = {
+      float: 'left',
+      margin: '0.2em',
+      listStyleType: 'none',
+    };
+    const styleActive = {
+      backgroundColor: 'silver',
+    };
     return (
       <div>
         <ul>
-          {this.status.charas.map(c => <li><Link to={`chara/${c.filename}`} activeStyle={{ backgroundColor: 'silver' }}>{c.name}</Link></li>)}
+          {this.status.charas.map(c => <li style={styleLi}><Link to={`chara/${c.name}`} activeStyle={styleActive}>
+            <img src={c.picUrl} width="24" height="24" alt="*" /> {c.getDisplayName()}
+          </Link></li>)}
         </ul>
+        <div style={{ clear: 'both' }}></div>
       </div>);
+  }
+  renderLarge() {
+    const styleLi = {
+      float: 'left',
+      textAlign: 'center',
+      margin: '0.5em',
+      listStyleType: 'none',
+    };
+    return (
+      <div>
+        <ul>
+          {this.status.charas.map(c => <li style={styleLi}><Link to={`chara/${c.name}`}>
+            <img src={c.picUrl} width="150" height="150" alt="*" /><br />
+            {c.getDisplayName()}
+          </Link></li>)}
+        </ul>
+        <div style={{ clear: 'both' }}></div>
+      </div>);
+  }
+  render() {
+    switch (this.props.mode) {
+      case 'large':
+        return this.renderLarge();
+      default:
+        return this.renderSmall();
+    }
   }
 }
 
 CharacterSelector.propTypes = {
-  charas: React.PropTypes.arrayOf(React.PropTypes.instanceOf(CharacterItem)),
+  charas: React.PropTypes.arrayOf(React.PropTypes.instanceOf(DataFile)),
   defaultChara: React.PropTypes.string,
+  mode: React.PropTypes.string,
 };
 
 CharacterSelector.defaultProps = {
-  charas: DataFile.all.map(df => new CharacterItem(df.name, df.getDisplayName())),
+  charas: DataFile.all,
   defaultChara: DataFile.ktKitty.name,
+  mode: '',
 };
