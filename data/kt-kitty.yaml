@@ -32,7 +32,7 @@
     image: "https://farm2.staticflickr.com/1623/24326364382_2a00bf3387.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24326364382"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    colors: ["red"]
+    colors: ["red", "green", "pink", "yellow", "purple", "brown"]
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
       - いちご、ドーナツ、ケーキ
@@ -41,7 +41,7 @@
     image: "https://farm2.staticflickr.com/1667/24408434416_c1b0a69c4d.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24408434416"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    colors: ["pink", "purple"]
+    colors: ["red", "green", "pink", "yellow", "purple", "brown"]
     notes:
       - 『Miracle Gift Parade』の光らないバージョン
   - 
@@ -1492,10 +1492,10 @@
     image: "https://c8.staticflickr.com/1/249/447013927_dd945787c1.jpg"
     source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/447013927"}
     size: { width_o: 682, height_o: 1024, max_len: 500 }
-    colors: ["pink", "white", "blue"]
+    colors: ["gold"]
     notes:
       - ピューロランドパレード『ILLUMINANT』
-      - 天使、羽、ハート
+      - 星、冠
   - 
     title: "Hello-Kitty-Forever-21-Shibuya-2011-058"
     image: "https://c5.staticflickr.com/7/6056/6334847372_de8ea35340.jpg"
@@ -1890,3 +1890,100 @@
     notes:
       - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Heartful Journey』
       - チェック、法被
+  - 
+    title: "President 2012"
+    image: "https://c8.staticflickr.com/9/8347/8159215735_5db3f1cbb4.jpg"
+    source: { author: "Christian Lau", license: "CC BY 2.0", url: "https://www.flickr.com/photos/christianmlau/8159215735/"}
+    size: { width_o: 2448, height_o: 3264, max_len: 500 }
+    colors: ["blue", "red", "white"]
+    notes:
+      - アメリカ Hello KItty for President 2012
+      - 星条旗、帽子
+  - 
+    title: "Los Angeles Dodgers"
+    image: "https://c8.staticflickr.com/7/6196/6161247847_40b9e6de20.jpg"
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/6161247847/"}
+    size: { width_o: 1024, height_o: 680, max_len: 500 }
+    colors: ["white", "red", "blue"]
+    notes:
+      - アメリカ Los Angeles Dodgers
+      - 野球、帽子
+  - 
+    title: "San Francisco Giants"
+    image: "https://c5.staticflickr.com/4/3897/14386608612_673295a4bf.jpg"
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/14386608612/"}
+    size: { width_o: 2048, height_o: 1360, max_len: 500 }
+    colors: ["white", "black", "orange"]
+    notes:
+      - アメリカ San Francisco Giants
+      - 野球、帽子
+  - 
+    title: "Vans"
+    image: "https://c7.staticflickr.com/8/7227/7356490630_cabee89b0d.jpg"
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/7356490630/"}
+    size: { width_o: 1360, height_o: 2048, max_len: 500 }
+    colors: ["red", "black", "white"]
+    notes:
+      - アメリカ Vans
+      - リュックサック、キティ
+  - 
+    title: "7488439354"
+    image: "https://c3.staticflickr.com/9/8014/7488439354_e81a3cde47.jpg"
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/7488439354/"}
+    size: { width_o: 2048, height_o: 1360, max_len: 500 }
+    colors: ["pink", "green"]
+    notes:
+      - アメリカ
+      - 和服
+  - 
+    title: "18821205425"
+    image: "https://c2.staticflickr.com/6/5572/18821205425_913cfbbf5f.jpg"
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
+    size: { width_o: 2048, height_o: 1536, max_len: 500 }
+    colors: ["blue", "red", "white"]
+    notes:
+      - アメリカ『Hello Kitty Supercute Friendship Festival』
+      - ストライプ
+  - 
+    title: "18200562823"
+    image: "https://c8.staticflickr.com/6/5347/18200562823_e0d55992d7.jpg"
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18200562823/"}
+    size: { width_o: 2048, height_o: 1536, max_len: 500 }
+    colors: ["white", "red"]
+    notes:
+      - アメリカ『Hello Kitty Supercute Friendship Festival』
+  - 
+    title: "8284242817"
+    image: "https://c2.staticflickr.com/9/8068/8284242817_66cdca752d.jpg"
+    source: { author: "Christian Lau", license: "CC BY 2.0", url: "https://www.flickr.com/photos/christianmlau/8284242817/"}
+    size: { width_o: 2448, height_o: 2448, max_len: 500 }
+    colors: ["black", "brown"]
+    notes:
+      - アメリカ
+  - 
+    title: "6806854792"
+    image: "https://c1.staticflickr.com/8/7036/6806854792_4918ab1fa5.jpg"
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/6806854792/"}
+    size: { width_o: 612, height_o: 612, max_len: 500 }
+    colors: ["pink", "white"]
+    notes:
+      - アメリカ
+      - チェック
+  - 
+    title: "6990958659"
+    image: "https://c4.staticflickr.com/8/7203/6990958659_1dce19f2db.jpg"
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/6990958659/"}
+    size: { width_o: 612, height_o: 612, max_len: 500 }
+    colors: ["yellow", "pink", "white"]
+    notes:
+      - アメリカ
+      - ストライプ、眼鏡、ハート
+  - 
+    title: "7416554696"
+    image: "https://c1.staticflickr.com/9/8153/7416554696_dc53f4e8df.jpg"
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/7416554696/"}
+    size: { width_o: 612, height_o: 612, max_len: 500 }
+    colors: ["white", "red", "black"]
+    notes:
+      - アメリカ
+      - タータンチェック、眼鏡
