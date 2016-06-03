@@ -16,74 +16,31 @@ if (window.React === undefined) {
 }
 /* eslint-enable */
 
-import Photo from './photo.js';
-import CharacterSelector from './character_selector.jsx';
-import ColorSelector from './color_selector.jsx';
-import Gallery from './gallery.jsx';
+import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
+
+import Home from './home.jsx';
+import Character from './character.jsx';
+import * as utils from './utils.js';
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = { photos: null, message: 'Initializing' };
-
-    this.characterChanged = this.characterChanged.bind(this);
-    this.colorChanged = this.colorChanged.bind(this);
-  }
   componentDidMount() {
-    // Some browsers restore selected value after reload. Needs timeout.
-    window.setTimeout(() => {
-      this.refs.gallery.applyThumbnailSize();
-      this.loadPhotos(this.refs.chara.selected());
-    }, 100);
-  }
-  loadPhotos(file) {
-    this.setState({
-      photos: null,
-      message: `Loading ${file}`,
-    });
-    Photo.loadPhotos(file, (ok, result) => {
-      if (ok) {
-        this.allPhotos = result;
-        this.setState({
-          photos: result.slice(0),
-          message: null,
-        });
-      } else {
-        this.setState({
-          photos: null,
-          message: result.toString(),
-        });
-      }
-    });
-  }
-  characterChanged(filename) {
-    this.loadPhotos(filename);
-    this.refs.color.clear();
-  }
-  colorChanged(sender) {
-    const colors = sender.listActiveIds();
-    if (colors.length === 0) {
-      this.setState({ photos: this.allPhotos });
-    } else {
-      const photos = this.allPhotos.filter(p => {
-        for (const c of colors) {
-          if (p.data.colors.indexOf(c) < 0) return false;
-        }
-        return true;
-      });
-      this.setState({ photos });
-    }
   }
   render() {
     return (
       <div>
-        <CharacterSelector ref="chara" onChanged={this.characterChanged} />
-        <ColorSelector ref="color" onChanged={this.colorChanged} />
-        {this.state.message ? <div>{this.state.message}</div> : null}
-        <Gallery ref="gallery" photos={this.state.photos} />
+        <h1><Link to="/">Sanrio Wardrobe</Link></h1>
+        {this.props.children}
       </div>
     );
   }
 }
+App.propTypes = utils.propTypesRoute;
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render((
+  <Router history={hashHistory}>
+    <Route path="/" component={App}>
+      <IndexRoute component={Home} />
+      <Route path="chara/:chara" component={Character} />
+    </Route>
+  </Router>
+), document.getElementById('app'));

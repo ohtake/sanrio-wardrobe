@@ -1,44 +1,68 @@
 import React from 'react';
-import DataFile from './data_file.js';
+import { Link } from 'react-router';
 
-class CharacterItem {
-  constructor(filename, name) {
-    this.filename = filename;
-    this.name = name;
-  }
-}
+import DataFile from './data_file.js';
 
 export default class CharacterSelector extends React.Component {
   constructor(props) {
     super();
     this.status = { charas: props.charas };
-    this.handleChange = this.handleChange.bind(this);
   }
-  handleChange(e) {
-    const f = this.props.onChanged;
-    if (f) f(e.target.value);
+  renderSmall() {
+    const styleLi = {
+      float: 'left',
+      margin: '0.2em',
+      listStyleType: 'none',
+    };
+    const styleActive = {
+      backgroundColor: 'silver',
+    };
+    return (
+      <div>
+        <ul>
+          {this.status.charas.map(c => <li style={styleLi}><Link to={`chara/${c.name}`} activeStyle={styleActive}>
+            <img src={c.picUrl} width="24" height="24" alt="*" /> {c.getDisplayName()}
+          </Link></li>)}
+        </ul>
+        <div style={{ clear: 'both' }}></div>
+      </div>);
   }
-  selected() {
-    return this.refs.select.value;
+  renderLarge() {
+    const styleLi = {
+      float: 'left',
+      textAlign: 'center',
+      margin: '0.5em',
+      listStyleType: 'none',
+    };
+    return (
+      <div>
+        <ul>
+          {this.status.charas.map(c => <li style={styleLi}><Link to={`chara/${c.name}`}>
+            <img src={c.picUrl} width="150" height="150" alt="*" /><br />
+            {c.getDisplayName()}
+          </Link></li>)}
+        </ul>
+        <div style={{ clear: 'both' }}></div>
+      </div>);
   }
   render() {
-    return (
-      <div>Character
-        <select ref="select" defaultValue={this.props.defaultChara} onChange={this.handleChange}>
-          {this.status.charas.map(c => <option value={c.filename}>{c.name}</option>)}
-        </select>
-      </div>);
+    switch (this.props.mode) {
+      case 'large':
+        return this.renderLarge();
+      default:
+        return this.renderSmall();
+    }
   }
 }
 
 CharacterSelector.propTypes = {
-  charas: React.PropTypes.arrayOf(React.PropTypes.instanceOf(CharacterItem)),
+  charas: React.PropTypes.arrayOf(React.PropTypes.instanceOf(DataFile)),
   defaultChara: React.PropTypes.string,
-  onChanged: React.PropTypes.func,
+  mode: React.PropTypes.string,
 };
 
 CharacterSelector.defaultProps = {
-  charas: DataFile.all.map(df => new CharacterItem(df.name, df.getDisplayName())),
+  charas: DataFile.all,
   defaultChara: DataFile.ktKitty.name,
-  onChanged: null,
+  mode: '',
 };
