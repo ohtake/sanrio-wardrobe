@@ -19,7 +19,6 @@ export default class Character extends React.Component {
     // Some browsers restore selected value after reload. Needs timeout.
     window.setTimeout(() => {
       this.refs.gallery.applyThumbnailSize();
-      this.loadPhotos(this.refs.chara.selected());
     }, 100);
   }
   componentWillReceiveProps(nextProps) {

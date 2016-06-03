@@ -58,12 +58,10 @@ export default class CharacterSelector extends React.Component {
 
 CharacterSelector.propTypes = {
   charas: React.PropTypes.arrayOf(React.PropTypes.instanceOf(DataFile)),
-  defaultChara: React.PropTypes.string,
   mode: React.PropTypes.string,
 };
 
 CharacterSelector.defaultProps = {
   charas: DataFile.all,
-  defaultChara: DataFile.ktKitty.name,
   mode: '',
 };
