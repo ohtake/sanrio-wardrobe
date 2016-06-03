@@ -19,7 +19,7 @@ export default class CharacterSelector extends React.Component {
     };
     return (
       <div>
-        <ul>
+        <ul style={{ margin: 0, padding: 0 }}>
           {this.status.charas.map(c => <li style={styleLi}><Link to={`chara/${c.name}`} activeStyle={styleActive}>
             <img src={c.picUrl} width="24" height="24" alt="*" /> {c.getDisplayName()}
           </Link></li>)}
@@ -30,13 +30,14 @@ export default class CharacterSelector extends React.Component {
   renderLarge() {
     const styleLi = {
       float: 'left',
+      width: '150px',
       textAlign: 'center',
       margin: '0.5em',
       listStyleType: 'none',
     };
     return (
       <div>
-        <ul>
+        <ul style={{ margin: 0, padding: 0 }}>
           {this.status.charas.map(c => <li style={styleLi}><Link to={`chara/${c.name}`}>
             <img src={c.picUrl} width="150" height="150" alt="*" /><br />
             {c.getDisplayName()}
