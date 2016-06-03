@@ -169,6 +169,15 @@
       - キティズパラダイス『Chu!』
       - デニム、ベルト
   - 
+    title: "8315134202"
+    image: "https://c1.staticflickr.com/9/8215/8315134202_2f6f904e04.jpg"
+    source: { author: "xterlim", license: "", url: "https://www.flickr.com/photos/xterlim/8315134202/"}
+    size: { width_o: 1600, height_o: 1070, max_len: 500 }
+    colors: ["blue", "pink", "brown", "white"]
+    notes:
+      - マレーシア Puteri Harbour Hello Kitty Town『Happy Carnival Parade』
+      - デニム、ベルト、帽子
+  - 
     title: "5D3E5348 (1280x1920)"
     image: "https://lh4.googleusercontent.com/-L2HOSpJPM9M/UXUbLPgi7oI/AAAAAAAAQfE/WRuxVvCAUfw/s500/5D3E5348%2520%25281280x1920%2529.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/plZkpqfY9GmxR6h-vykdE9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
@@ -391,9 +400,8 @@
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["pink", "white", "yellow"]
     notes:
-      - Drusillas Park Hello Kitty Secret Garden
+      - イギリス Drusillas Park Hello Kitty Secret Garden
       - ハート、真珠
-
   - 
     title: "5D3V1382"
     image: "https://farm4.staticflickr.com/3803/19797691795_35affc81df.jpg"
@@ -469,10 +477,20 @@
     image: "https://farm4.staticflickr.com/3782/13190141424_ab06d7b0dd.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13190141424"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    colors: ["red", "pink"]
+    colors: ["red", "pink", "white"]
     notes:
       - キティズハウス
       - フェアリーランドシアター『アニバーサリータイム』
+      - バラ
+  - 
+    title: "24883516545"
+    image: "https://c2.staticflickr.com/2/1573/24883516545_73076c6c14.jpg"
+    source: { author: "jj lai", license: "", url: "https://www.flickr.com/photos/laijj/24883516545/"}
+    size: { width_o: 404, height_o: 538, max_len: 500 }
+    colors: ["red", "pink", "white"]
+    notes:
+      - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Heartful Journey』
+      - キティズハウスとは模様が異なる
       - バラ
   - 
     title: "5D3P1366"
@@ -823,6 +841,7 @@
     notes:
       - キティズハウスの簡略版
       - 外部イベント『ハローキティ&プリンのハートフルタイム』
+      - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Starlight Sing-A-Long』
       - リボン
   - 
     title: "5D3S3426"
@@ -1553,7 +1572,7 @@
     colors: ["blue", "silver", "red"]
     notes:
       - ハーモニーランドパレード『パレード・アクア』
-      - 王冠
+      - 冠
   - 
     title: "IMG_1458"
     image: "https://c4.staticflickr.com/8/7289/12926152955_b64b6eb46a.jpg"
@@ -1844,3 +1863,30 @@
     notes:
       - 外部イベント『ハローキティ&ルビーの魔法のクリスマス』
       - ストライプ
+  - 
+    title: "8315288912"
+    image: "https://c1.staticflickr.com/9/8360/8315288912_6cab62a95d.jpg"
+    source: { author: "xterlim", license: "", url: "https://www.flickr.com/photos/xterlim/8315288912/"}
+    size: { width_o: 1600, height_o: 1070, max_len: 500 }
+    colors: ["gold", "red", "orange", "yellow", "green", "blue", "purple"]
+    notes:
+      - マレーシア Puteri Harbour Hello Kitty Town『Happy Carnival Parade』
+      - 多段フリル、冠
+  - 
+    title: "24214891894"
+    image: "https://c7.staticflickr.com/2/1457/24214891894_fb5e07fc69.jpg"
+    source: { author: "jj lai", license: "", url: "https://www.flickr.com/photos/laijj/24214891894/"}
+    size: { width_o: 538, height_o: 404, max_len: 500 }
+    colors: ["pink", "white", "orange", "yellow"]
+    notes:
+      - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Heartful Journey』
+      - チェック
+  - 
+    title: "24476230539"
+    image: "https://c4.staticflickr.com/2/1601/24476230539_b2e3be872b.jpg"
+    source: { author: "jj lai", license: "", url: "https://www.flickr.com/photos/laijj/24476230539/"}
+    size: { width_o: 538, height_o: 404, max_len: 500 }
+    colors: ["pink", "white", "orange", "yellow", "blue"]
+    notes:
+      - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Heartful Journey』
+      - チェック、法被
