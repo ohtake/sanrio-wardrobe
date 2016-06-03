@@ -36,7 +36,7 @@ const myStyles = {
   buttonNotes: [
     Styles.toolbarItemChild,
     Styles.builtinButton,
-    { background: `${icons.Info} no-repeat center` },
+    { fill: 'white' },
   ],
   colorSample: {
     display: 'inline-block',
@@ -133,7 +133,9 @@ export default class Lightbox2 extends React.Component {
       onMovePrevRequest={this.movePrev}
       onMoveNextRequest={this.moveNext}
       toolbarButtons={[
-        <button title="Toggle notes" onClick={this.toggleDescription} style={myStyles.buttonNotes} />,
+        <svg viewBox="-4 -4 32 32" title="Toggle notes" onClick={this.toggleDescription} style={myStyles.buttonNotes}>
+          <path d={icons.InfoOutline} />
+        </svg>,
       ]}
       imageTitle={description}
     />);
