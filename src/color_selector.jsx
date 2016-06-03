@@ -72,7 +72,7 @@ export default class ColorSelector extends React.Component {
     return (<div>
       <span style={this.styleBase()}>Color filter</span>
       {this.state.colors.map(c =>
-        <a href="#" style={this.styleColor(c)} onClick={this.toggle} data={c.id}>
+        <a key={c.name} href="#" style={this.styleColor(c)} onClick={this.toggle} data={c.id}>
           {c.name}
         </a>)}
       <a href="#" onClick={this.clear} style={this.styleBase()}>CLEAR</a>

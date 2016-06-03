@@ -78,7 +78,7 @@ export default class Home extends React.Component {
         <h2>Bundled open source software</h2>
         <ul>
           {software.map(s => (
-            <li>
+            <li key={s.name}>
               <a href={s.url}>{s.name}</a> made by <a href={s.author_url}>{s.author}</a> is licensed by <a href={s.license_url}>{s.license}</a>
             </li>
           ))}

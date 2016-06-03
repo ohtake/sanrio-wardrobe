@@ -54,7 +54,7 @@ export default class Gallery extends React.Component {
   renderGallery() {
     let imgStyle = { width: '100%', height: '100%' };
     let imgs = this.props.photos.map((p, i) => (
-      <div aspectRatio={p.getAspectRatio()} style={{ backgroundColor: 'silver' }}>
+      <div key={p.data.title} aspectRatio={p.getAspectRatio()} style={{ backgroundColor: 'silver' }}>
         <a href="#" onClick={this.openLightbox} data-index={i}>
           <LazyLoad offset={this.state.thumbnailHeight}>
             <img alt={p.data.title} src={p.data.image} style={imgStyle} />
