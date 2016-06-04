@@ -584,9 +584,10 @@
     image: "https://farm4.staticflickr.com/3844/14397308379_ab418a1f8f.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14397308379"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
-    colors: ["blue", "red", "yellow", "white"]
+    colors: ["blue", "red", "yellow", "white", "pink"]
     notes:
       - 知恵の木ステージ『ブルーズクルーズショー ~Blueのプレゼント~』のベース衣装
+      - 『サンリオキャラクターヒルズ』のデモ動画
       - キティ
   - 
     title: "フコク生命"
