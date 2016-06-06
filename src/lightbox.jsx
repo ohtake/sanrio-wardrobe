@@ -59,8 +59,12 @@ export default class Lightbox2 extends React.Component {
     this.closeLightbox = this.closeLightbox.bind(this);
   }
   closeLightbox() {
-    this.context.router.goBack();
-    this.context.router.replace(`/chara/${this.props.chara}`);
+    if (window.history.length > 1) {
+      this.context.router.goBack();
+    } else {
+      // User opened lightbox url directly
+      this.context.router.replace(`/chara/${this.props.chara}`);
+    }
   }
   moveToIndex(index) {
     const photo = this.state.photos[index];
