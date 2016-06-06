@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from 'react-router';
 
 import Photo from './photo.js';
 
 import LazyLoad from 'react-lazy-load';
 import JustifiedLayout from 'react-justified-layout';
-import Lightbox from './lightbox.jsx';
 
 export default class Gallery extends React.Component {
   constructor() {
@@ -14,7 +14,6 @@ export default class Gallery extends React.Component {
     this.handleResize = this.updateContainerWidth.bind(this);
 
     this.thumbnailSizeChanged = this.thumbnailSizeChanged.bind(this);
-    this.openLightbox = this.openLightbox.bind(this);
   }
   componentDidMount() {
     this.updateContainerWidth();
@@ -45,21 +44,15 @@ export default class Gallery extends React.Component {
     this.applyThumbnailSize();
   }
 
-  openLightbox(e) {
-    e.preventDefault();
-    const index = parseInt(e.currentTarget.getAttribute('data-index'), 10);
-    this.refs.lightbox.open(this.props.photos, index);
-  }
-
   renderGallery() {
     let imgStyle = { width: '100%', height: '100%' };
-    let imgs = this.props.photos.map((p, i) => (
+    let imgs = this.props.photos.map((p) => (
       <div key={p.data.title} aspectRatio={p.getAspectRatio()} style={{ backgroundColor: 'silver' }}>
-        <a href="#" onClick={this.openLightbox} data-index={i}>
+        <Link to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`}>
           <LazyLoad offset={this.state.thumbnailHeight}>
             <img alt={p.data.title} src={p.data.image} style={imgStyle} />
           </LazyLoad>
-        </a>
+        </Link>
       </div>
     ));
     return <JustifiedLayout targetRowHeight={this.state.thumbnailHeight} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
@@ -71,11 +64,11 @@ export default class Gallery extends React.Component {
           Thumbnail size <input ref="size" type="range" defaultValue={this.state.thumbnailHeight} min="36" max="288" onChange={this.thumbnailSizeChanged} />
         </div>
         {this.props.photos ? this.renderGallery() : null}
-        <Lightbox ref="lightbox" />
       </div>
     );
   }
 }
 Gallery.propTypes = {
   photos: React.PropTypes.arrayOf(React.PropTypes.instanceOf(Photo)),
+  chara: React.PropTypes.string.isRequired,
 };

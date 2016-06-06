@@ -58,17 +58,19 @@ export default class Lightbox2 extends React.Component {
     this.toggleDescription = this.toggleDescription.bind(this);
     this.closeLightbox = this.closeLightbox.bind(this);
   }
-  open(photos, index) {
-    this.setState({ photos, index });
-  }
   closeLightbox() {
-    this.setState({ photos: null });
+    this.context.router.goBack();
+    this.context.router.replace(`/chara/${this.props.chara}`);
+  }
+  moveToIndex(index) {
+    const photo = this.state.photos[index];
+    this.context.router.replace(`/chara/${this.props.chara}/${window.encodeURIComponent(photo.data.title)}`);
   }
   moveNext() {
-    this.setState({ index: (this.state.index + 1) % this.state.photos.length });
+    this.moveToIndex((this.state.index + 1) % this.state.photos.length);
   }
   movePrev() {
-    this.setState({ index: (this.state.index + this.state.photos.length - 1) % this.state.photos.length });
+    this.moveToIndex((this.state.index + this.state.photos.length - 1) % this.state.photos.length);
   }
   toggleDescription(e) {
     e.preventDefault();
@@ -141,3 +143,9 @@ export default class Lightbox2 extends React.Component {
     />);
   }
 }
+Lightbox2.propTypes = {
+  chara: React.PropTypes.string.isRequired,
+};
+Lightbox2.contextTypes = {
+  router: React.PropTypes.object,
+};
