@@ -20,7 +20,7 @@ export default class CharacterSelector extends React.Component {
     return (
       <div>
         <ul style={{ margin: 0, padding: 0 }}>
-          {this.status.charas.map(c => <li key={c.name} style={styleLi}><Link to={`chara/${c.name}`} activeStyle={styleActive}>
+          {this.status.charas.map(c => <li key={c.name} style={styleLi}><Link to={`/chara/${c.name}`} activeStyle={styleActive}>
             <img src={c.picUrl} width="24" height="24" alt="*" /> {c.getDisplayName()}
           </Link></li>)}
         </ul>
@@ -38,7 +38,7 @@ export default class CharacterSelector extends React.Component {
     return (
       <div>
         <ul style={{ margin: 0, padding: 0 }}>
-          {this.status.charas.map(c => <li key={c.name} style={styleLi}><Link to={`chara/${c.name}`}>
+          {this.status.charas.map(c => <li key={c.name} style={styleLi}><Link to={`/chara/${c.name}`}>
             <img src={c.picUrl} width="150" height="150" alt="*" /><br />
             {c.getDisplayName()}
           </Link></li>)}
