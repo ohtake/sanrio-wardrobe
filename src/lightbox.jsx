@@ -7,21 +7,21 @@ import Colors from './colors.js';
 const myStyles = {
   creditContainer: {
     position: 'fixed',
-    bottom: 0,
-    right: 0,
-  },
-  creditAnchor: {
-    display: 'inline-block',
-    padding: '0.4em',
-    backgroundColor: Styles.toolbar.backgroundColor,
-    color: Styles.toolbarItem.color,
+    top: Styles.toolbar.height,
+    left: 0,
+    padding: `0 0.4em 0.4em ${Styles.toolbarLeftSide.paddingLeft}`,
     lineHeight: '1em',
     fontSize: '80%',
+    backgroundColor: Styles.toolbar.backgroundColor,
+  },
+  creditAnchor: {
+    color: Styles.toolbarItem.color,
   },
   notesContainer: {
     position: 'fixed',
-    top: Styles.toolbar.height,
+    bottom: 0,
     left: 0,
+    padding: '0.4em 0',
     width: '100%',
     backgroundColor: Styles.toolbar.backgroundColor,
   },
