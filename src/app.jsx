@@ -10,6 +10,7 @@ injectTapEventPlugin();
 
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import * as Colors from 'material-ui/styles/colors.js';
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
 import Drawer from 'material-ui/Drawer';
@@ -101,8 +102,16 @@ App.contextTypes = {
   muiTheme: React.PropTypes.object.isRequired,
 };
 
+const theme = getMuiTheme({
+  palette: {
+    primary1Color: Colors.indigo500,
+    primary2Color: Colors.indigo700,
+    pickerHeaderColor: Colors.indigo500,
+  },
+});
+
 ReactDOM.render((
-  <MuiThemeProvider muiTheme={getMuiTheme()}>
+  <MuiThemeProvider muiTheme={theme}>
     <Router history={hashHistory}>
       <Route path="/" component={App}>
         <IndexRoute component={Home} />
