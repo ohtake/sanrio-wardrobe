@@ -6,6 +6,14 @@ import CharacterSelector from './character_selector.jsx';
 
 const software = [
   {
+    name: 'React',
+    url: 'https://facebook.github.io/react/',
+    author: 'Facebook',
+    author_url: 'https://github.com/facebook',
+    license: 'The MIT License',
+    license_url: 'https://opensource.org/licenses/MIT',
+  },
+  {
     name: 'React Router',
     url: 'https://github.com/reactjs/react-router',
     author: 'React Community',

@@ -1,21 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-/* eslint-disable no-console */
-if (window.React === undefined) {
-  console.warn('No React instance in global var. It won\'t work in production mode since React is in externals.');
-} else if (React !== window.React) {
-  console.info('Two React instances are loaded. No problem in development mode, as instance in global var will not be used.)');
-  console.debug(`React version used: ${React.version}`);
-  console.debug(`React version in global var: ${window.React.version}`);
-  if (React.version !== window.React.version) {
-    console.warn('React versions mismatch. Check package.json and index.html.');
-  }
-} else {
-  // Only one React instance is loaded in global var. It might be in production mode.
-}
-/* eslint-enable */
-
 import { Router, Route, IndexRoute, Link, IndexLink, hashHistory } from 'react-router';
 
 // Needed for onTouchTap
