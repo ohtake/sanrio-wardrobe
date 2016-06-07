@@ -21,6 +21,9 @@ DataFile.all = [
   DataFile.ktMimmy = new DataFile('kt-mimmy', 'KT', 'ミミィ', 'Mimmy',
     // https://www.flickr.com/photos/ohtake_tomohiro/12611815833/
     'https://c2.staticflickr.com/4/3669/12611815833_3b5df2b753_q.jpg'),
+  DataFile.xoBadtzmaru = new DataFile('xo-badtzmaru', 'XO', 'ばつ丸', 'Badtz-Maru',
+    // https://www.flickr.com/photos/ohtake_tomohiro/11150739286/
+    'https://c2.staticflickr.com/6/5477/11150739286_bc5251bf3d_q.jpg'),
 ];
 
 const map = {};

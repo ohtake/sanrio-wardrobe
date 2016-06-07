@@ -84,6 +84,7 @@ export default class Lightbox2 extends React.Component {
     this.setState({ showDescription: ! this.state.showDescription });
   }
   createColorSample(photo) {
+    if (photo.data.colors.length === 0) return null;
     return (
       <li>{photo.data.colors.map(c => {
         const color = Colors.findById(c);
