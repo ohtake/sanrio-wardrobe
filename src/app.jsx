@@ -38,6 +38,12 @@ class App extends React.Component {
     this.handleMenuClose = this.handleMenuClose.bind(this);
     this.menuWidth = 250;
   }
+  getTitleFromParams() {
+    const chara = this.props.params.chara;
+    if (! chara) return 'Sanrio Wardrobe';
+    const df = DataFile.findByName(chara);
+    return df.getDisplayName();
+  }
   handleAppMenu(/* e */) {
     this.setState({ menuOpened: !this.state.menuOpened });
   }
@@ -62,7 +68,7 @@ class App extends React.Component {
     };
     return (<div style={{ marginLeft: this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0 }}>
       <AppBar
-        title="Sanrio Wardrobe"
+        title={this.getTitleFromParams()}
         onLeftIconButtonTouchTap={this.handleAppMenu}
       />
       <Drawer open={this.state.menuOpened} docked={this.state.menuDocked} onRequestChange={this.handleMenuChange} containerClassName="appMenu" width={this.menuWidth}>
