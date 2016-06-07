@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
+import ResizeSensor from 'css-element-queries/src/ResizeSensor';
+
 import Photo from './photo.js';
 
 import LazyLoad from 'react-lazy-load';
@@ -17,7 +19,7 @@ export default class Gallery extends React.Component {
   }
   componentDidMount() {
     this.updateContainerWidth();
-    window.addEventListener('resize', this.handleResize);
+    this.resizeSensor = new ResizeSensor(this.refs.gallery, this.handleResize);
   }
   componentDidUpdate(prevProps, prevState) {
     if (this.state.containerWidth !== prevState.containerWidth) {
@@ -29,7 +31,7 @@ export default class Gallery extends React.Component {
     this.updateContainerWidth();
   }
   componentWillUnmount() {
-    window.removeEventListener('resize', this.handleResize, false);
+    ResizeSensor.detach(this.refs.gallery);
   }
   updateContainerWidth() {
     const newWidth = ReactDOM.findDOMNode(this).clientWidth;
@@ -59,7 +61,7 @@ export default class Gallery extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div ref="gallery">
         <div>
           Thumbnail size <input ref="size" type="range" defaultValue={this.state.thumbnailHeight} min="36" max="288" onChange={this.thumbnailSizeChanged} />
         </div>

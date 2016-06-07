@@ -46,6 +46,14 @@ const software = [
     license_url: 'https://opensource.org/licenses/MIT',
   },
   {
+    name: 'CSS Element Queries',
+    url: 'https://github.com/marcj/css-element-queries',
+    author: 'Marc J. Schmidt',
+    author_url: 'https://github.com/marcj',
+    license: 'The MIT License',
+    license_url: 'https://opensource.org/licenses/MIT',
+  },
+  {
     name: 'Material UI',
     url: 'https://github.com/callemall/material-ui',
     author: 'Call-Em-All',
