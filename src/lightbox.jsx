@@ -7,21 +7,21 @@ import Colors from './colors.js';
 const myStyles = {
   creditContainer: {
     position: 'fixed',
-    bottom: 0,
-    right: 0,
-  },
-  creditAnchor: {
-    display: 'inline-block',
-    padding: '0.4em',
-    backgroundColor: Styles.toolbar.backgroundColor,
-    color: Styles.toolbarItem.color,
+    top: Styles.toolbar.height,
+    left: 0,
+    padding: `0 0.4em 0.4em ${Styles.toolbarLeftSide.paddingLeft}`,
     lineHeight: '1em',
     fontSize: '80%',
+    backgroundColor: Styles.toolbar.backgroundColor,
+  },
+  creditAnchor: {
+    color: Styles.toolbarItem.color,
   },
   notesContainer: {
     position: 'fixed',
-    top: Styles.toolbar.height,
+    bottom: 0,
     left: 0,
+    padding: '0.4em 0',
     width: '100%',
     backgroundColor: Styles.toolbar.backgroundColor,
   },
@@ -58,17 +58,23 @@ export default class Lightbox2 extends React.Component {
     this.toggleDescription = this.toggleDescription.bind(this);
     this.closeLightbox = this.closeLightbox.bind(this);
   }
-  open(photos, index) {
-    this.setState({ photos, index });
-  }
   closeLightbox() {
-    this.setState({ photos: null });
+    if (window.history.length > 1) {
+      this.context.router.goBack();
+    } else {
+      // User opened lightbox url directly
+      this.context.router.replace(`/chara/${this.props.chara}`);
+    }
+  }
+  moveToIndex(index) {
+    const photo = this.state.photos[index];
+    this.context.router.replace(`/chara/${this.props.chara}/${window.encodeURIComponent(photo.data.title)}`);
   }
   moveNext() {
-    this.setState({ index: (this.state.index + 1) % this.state.photos.length });
+    this.moveToIndex((this.state.index + 1) % this.state.photos.length);
   }
   movePrev() {
-    this.setState({ index: (this.state.index + this.state.photos.length - 1) % this.state.photos.length });
+    this.moveToIndex((this.state.index + this.state.photos.length - 1) % this.state.photos.length);
   }
   toggleDescription(e) {
     e.preventDefault();
@@ -141,3 +147,9 @@ export default class Lightbox2 extends React.Component {
     />);
   }
 }
+Lightbox2.propTypes = {
+  chara: React.PropTypes.string.isRequired,
+};
+Lightbox2.contextTypes = {
+  router: React.PropTypes.object,
+};

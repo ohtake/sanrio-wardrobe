@@ -1523,6 +1523,25 @@
       - ユニバーサルスタジオジャパン
       - ハロウィン
   - 
+    title: "IMGD5575"
+    image: "https://c5.staticflickr.com/6/5811/22009123260_7b18bd7937.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/22009123260"}
+    size: { width_o: 3555, height_o: 5332, max_len: 500 }
+    colors: ["orange", "black", "purple", "pink"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - 胸のリボンがないパターン
+      - ハロウィン
+  - 
+    title: "IMGD5614"
+    image: "https://c7.staticflickr.com/1/563/22009135310_e10c36e8dd.jpg"
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/22009135310"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["pink", "black", "purple", "orange"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - ハロウィン
+  - 
     title: "IMG_7908"
     image: "https://c7.staticflickr.com/4/3916/14725262286_d9a8e2bf9f.jpg"
     source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14725262286"}
@@ -1563,7 +1582,7 @@
     size: { width_o: 3456, height_o: 5184, max_len: 500 }
     colors: ["blue", "pink", "black"]
     notes:
-      - ユニバーサルスタジオジャパン
+      - ユニバーサルスタジオジャパン『ユニバーサル・RE-BOOOOOOOORN・パーティ』
       - 帽子
   - 
     title: "IMG_3931"
@@ -1794,6 +1813,7 @@
     size: { width_o: 3456, height_o: 5184, max_len: 500 }
     colors: ["pink", "blue"]
     notes:
+      - アメリカ Universal Studios Florida
       - いちご、飴
   - 
     title: "IMGD9558"
@@ -1968,7 +1988,7 @@
     size: { width_o: 679, height_o: 1024, max_len: 500 }
     colors: ["pink", "white"]
     notes:
-      - アメリカ、イギリス
+      - アメリカ、ヨーロッパ
       - チェック
   - 
     title: "6990958659"

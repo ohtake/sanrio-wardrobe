@@ -4,6 +4,7 @@ import Photo from './photo.js';
 import CharacterSelector from './character_selector.jsx';
 import ColorSelector from './color_selector.jsx';
 import Gallery from './gallery.jsx';
+import Lightbox from './lightbox.jsx';
 import * as utils from './utils.js';
 
 export default class Character extends React.Component {
@@ -22,10 +23,11 @@ export default class Character extends React.Component {
     }, 100);
   }
   componentWillReceiveProps(nextProps) {
-    if (nextProps.params.chara !== this.props.chara) {
+    if (nextProps.params.chara !== this.props.params.chara) {
       this.loadPhotos(nextProps.params.chara);
       this.refs.color.clear();
     }
+    this.updateLightbox(nextProps);
   }
   loadPhotos(file) {
     this.setState({
@@ -39,6 +41,7 @@ export default class Character extends React.Component {
           photos: result.slice(0),
           message: null,
         });
+        this.updateLightbox(this.props);
       } else {
         this.setState({
           photos: null,
@@ -46,6 +49,18 @@ export default class Character extends React.Component {
         });
       }
     });
+  }
+  updateLightbox(props) {
+    const title = props.params.title;
+    if (title) {
+      const index = this.state.photos.findIndex(p => title === p.data.title);
+      if (index >= 0) {
+        this.refs.lightbox.setState({ photos: this.state.photos, index });
+        return;
+      }
+      this.context.router.replace(`/chara/${this.props.params.chara}`);
+    }
+    this.refs.lightbox.setState({ photos: null, index: 0 });
   }
   colorChanged(sender) {
     const colors = sender.listActiveIds();
@@ -67,9 +82,13 @@ export default class Character extends React.Component {
         <CharacterSelector />
         <ColorSelector ref="color" onChanged={this.colorChanged} />
         {this.state.message ? <div>{this.state.message}</div> : null}
-        <Gallery ref="gallery" photos={this.state.photos} />
+        <Gallery ref="gallery" photos={this.state.photos} chara={this.props.params.chara} />
+        <Lightbox ref="lightbox" chara={this.props.params.chara} />
       </div>
     );
   }
 }
 Character.propTypes = utils.propTypesRoute;
+Character.contextTypes = {
+  router: React.PropTypes.object,
+};
