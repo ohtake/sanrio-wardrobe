@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="description" content="You can find clothings of Sanrio characters" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .appMenu a {
+        text-decoration: none;
+    }
+    </style>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <h1>Sanrio Wardrobe</h1>
+        <p>Loading files...</p>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.9.1/polyfill.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
     <script src="assets/bundle.js"></script>
 </body>

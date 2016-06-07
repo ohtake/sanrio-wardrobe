@@ -4,6 +4,9 @@ import Styles from 'react-image-lightbox/lib/Styles.js';
 import icons from './icons';
 import Colors from './colors.js';
 
+// Drawer of Material-UI has 1300 zIndex
+Styles.outer.zIndex = 1400;
+
 const myStyles = {
   creditContainer: {
     position: 'fixed',

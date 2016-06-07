@@ -6,6 +6,14 @@ import CharacterSelector from './character_selector.jsx';
 
 const software = [
   {
+    name: 'React',
+    url: 'https://facebook.github.io/react/',
+    author: 'Facebook',
+    author_url: 'https://github.com/facebook',
+    license: 'The MIT License',
+    license_url: 'https://opensource.org/licenses/MIT',
+  },
+  {
     name: 'React Router',
     url: 'https://github.com/reactjs/react-router',
     author: 'React Community',
@@ -42,6 +50,14 @@ const software = [
     url: 'https://github.com/loktar00/react-lazy-load',
     author: 'Jason',
     author_url: 'https://github.com/loktar00',
+    license: 'The MIT License',
+    license_url: 'https://opensource.org/licenses/MIT',
+  },
+  {
+    name: 'CSS Element Queries',
+    url: 'https://github.com/marcj/css-element-queries',
+    author: 'Marc J. Schmidt',
+    author_url: 'https://github.com/marcj',
     license: 'The MIT License',
     license_url: 'https://opensource.org/licenses/MIT',
   },
