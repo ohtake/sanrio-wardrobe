@@ -201,7 +201,7 @@
     image: "https://farm8.staticflickr.com/7468/16172425441_a677ec703c.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16172425441"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    colors: ["white", "black", "pink", , "red", "gold"]
+    colors: ["white", "black", "pink", "red", "gold"]
     notes:
       - 外部イベント『ハローキティ＆ダニエルのありがとうマイフレンズ』のアレンジで金色の線やリボンとなっている
       - ストライプ
