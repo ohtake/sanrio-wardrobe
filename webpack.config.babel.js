@@ -1,5 +1,3 @@
-import DataFile from './src/data_file.js';
-
 const js = {
   entry: [
     './src/app.jsx',
@@ -37,23 +35,6 @@ const js = {
           presets: ['react', 'es2015'],
         },
       },
-    ],
-  },
-};
-
-const yamlEntries = {};
-DataFile.all.forEach(f => {
-  yamlEntries[f.name] = `./data/${f.name}.yaml`;
-});
-const yaml = {
-  entry: yamlEntries,
-  output: {
-    publicPath: 'assets/',
-    path: 'assets/',
-    filename: '[name].json.js',
-  },
-  module: {
-    loaders: [
       {
         test: /\.yaml$/,
         loader: 'yaml',
@@ -62,4 +43,4 @@ const yaml = {
   },
 };
 
-export default [js, yaml];
+export default [js];
