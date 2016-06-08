@@ -1,0 +1,22 @@
+---
+  -
+    name: kt-kitty
+    seriesSymbol: KT
+    nameJa: キティ
+    nameEn: Kitty
+    # https://www.flickr.com/photos/ohtake_tomohiro/16492066909/
+    picUrl: "https://c1.staticflickr.com/9/8575/16492066909_3fcda0e4e4_q.jpg"
+  -
+    name: kt-mimmy
+    seriesSymbol: KT
+    nameJa: ミミィ
+    nameEn: Mimmy
+    # https://www.flickr.com/photos/ohtake_tomohiro/12611815833/
+    picUrl: "https://c2.staticflickr.com/4/3669/12611815833_3b5df2b753_q.jpg"
+  -
+    name: xo-badtzmaru
+    seriesSymbol: KT
+    nameJa: ばつ丸
+    nameEn: Badtz-Maru
+    # https://www.flickr.com/photos/ohtake_tomohiro/11150739286/
+    picUrl: "https://c2.staticflickr.com/6/5477/11150739286_bc5251bf3d_q.jpg"

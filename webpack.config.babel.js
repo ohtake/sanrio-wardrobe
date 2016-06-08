@@ -1,4 +1,5 @@
-import DataFile from './src/data_file.js';
+import fs from 'fs';
+import yaml from 'js-yaml';
 
 const js = {
   entry: [
@@ -37,15 +38,20 @@ const js = {
           presets: ['react', 'es2015'],
         },
       },
+      {
+        test: /index\.yml$/, // To make loader selection happy, use yml instead of yaml
+        loader: 'json!yaml',
+      },
     ],
   },
 };
 
+const dataFiles = yaml.safeLoad(fs.readFileSync('./data/index.yml'));
 const yamlEntries = {};
-DataFile.all.forEach(f => {
+dataFiles.forEach(f => {
   yamlEntries[f.name] = `./data/${f.name}.yaml`;
 });
-const yaml = {
+const yaml2jsonfile = {
   entry: yamlEntries,
   output: {
     publicPath: 'assets/',
@@ -62,4 +68,4 @@ const yaml = {
   },
 };
 
-export default [js, yaml];
+export default [js, yaml2jsonfile];
