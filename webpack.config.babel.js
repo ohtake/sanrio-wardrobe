@@ -1,3 +1,5 @@
+import path from 'path';
+
 const js = {
   entry: [
     './src/app.jsx',
@@ -14,14 +16,14 @@ const js = {
     preLoaders: [
       {
         test: /\.jsx?$/,
-        exclude: /node_modules/,
+        include: path.resolve('src'),
         loader: 'eslint',
       },
     ],
     loaders: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        include: path.resolve('src'),
         loader: 'babel',
         query: {
           presets: ['es2015'],
@@ -29,7 +31,7 @@ const js = {
       },
       {
         test: /\.jsx$/,
-        exclude: /node_modules/,
+        include: path.resolve('src'),
         loader: 'babel',
         query: {
           presets: ['react', 'es2015'],
@@ -37,6 +39,7 @@ const js = {
       },
       {
         test: /\.yaml$/,
+        include: path.resolve('data'),
         loader: 'yaml',
       },
     ],
