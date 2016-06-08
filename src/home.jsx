@@ -1,8 +1,6 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
-// import { Router, Route, IndexRoute, hashHistory } from 'react-router';
-
-import CharacterSelector from './character_selector.jsx';
+import { Link } from 'react-router';
+import DataFile from './data_file.js';
 
 const software = [
   {
@@ -84,11 +82,26 @@ export default class Home extends React.Component {
     // nop
   }
   render() {
+    const styleLi = {
+      float: 'left',
+      width: '150px',
+      textAlign: 'center',
+      margin: '0.5em',
+      listStyleType: 'none',
+    };
     return (
       <div>
         <p>You can find clothings of Sanrio characters.</p>
         <h2>Characters</h2>
-        <CharacterSelector mode="large" />
+        <div>
+          <ul style={{ margin: 0, padding: 0 }}>
+            {DataFile.all.map(c => <li key={c.name} style={styleLi}><Link to={`/chara/${c.name}`}>
+              <img src={c.picUrl} width="150" height="150" alt="*" /><br />
+              {c.getDisplayName()}
+            </Link></li>)}
+          </ul>
+        </div>
+        <div style={{ clear: 'both' }}></div>
         <h2>Trademarks</h2>
         <p>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></p>
         <h2>Bundled open source software</h2>
