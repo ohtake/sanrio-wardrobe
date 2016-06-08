@@ -1,0 +1,17 @@
+{
+  "name": "sw-stat-color-loader",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "",
+  "main": "sw-stat-color-loader.js",
+  "dependencies": {
+    "js-yaml": "3.6.1"
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}

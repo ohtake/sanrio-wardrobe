@@ -68,4 +68,21 @@ const yaml2jsonfile = {
   },
 };
 
-export default [js, yaml2jsonfile];
+const statColor = {
+  entry: { color: './data/dummy_stat_color.dummy' },
+  output: {
+    publicPath: 'assets/',
+    path: 'assets/',
+    filename: 'stat-[name].json.js',
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.dummy$/,
+        loader: 'sw-stat-color',
+      },
+    ],
+  },
+};
+
+export default [js, yaml2jsonfile, statColor];

@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 import DataFile from './data_file.js';
+/* eslint-disable import/no-unresolved */
+const x = require('file?name=color-[hash:6].json!sw-stat-color!./../data/dummy_stat_color.dummy');
+/* eslint-enable */
 
 const software = [
   {
@@ -78,7 +81,8 @@ const software = [
 ];
 
 export default class Home extends React.Component {
-  componentDidUpdate() {
+  componentDidMount() {
+    console.log(x);
     // nop
   }
   render() {
@@ -91,6 +95,7 @@ export default class Home extends React.Component {
     };
     return (
       <div>
+        {x.toString()}
         <p>You can find clothings of Sanrio characters.</p>
         <h2>Characters</h2>
         <div>
