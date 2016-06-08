@@ -1,7 +1,4 @@
-// This file is required by webpack.config.js.
-// Do not use ECMAScript 6 syntax, e.g. for-of, export default, ...
-
-class DataFile {
+export default class DataFile {
   constructor(name, seriesSymbol, nameJa, nameEn, picUrl) {
     this.name = name;
     this.seriesSymbol = seriesSymbol;
@@ -27,10 +24,7 @@ DataFile.all = [
 ];
 
 const map = {};
-for (let i = 0; i < DataFile.all.length; i++) {
-  const df = DataFile.all[i];
+for (const df of DataFile.all) {
   map[df.name] = df;
 }
 DataFile.findByName = (name) => map[name];
-
-module.exports = DataFile;

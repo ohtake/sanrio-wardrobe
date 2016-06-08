@@ -40,7 +40,7 @@
   "scripts": {
     "clean": "rm -rf assets/",
     "lint": "eslint webpack.*.js src/* --color",
-    "build": "webpack --config webpack.config.production.js --progress --colors",
+    "build": "webpack --config webpack.config.production.babel.js --progress --colors",
     "start": "webpack-dev-server --progress --colors",
     "server": "http-server"
   }

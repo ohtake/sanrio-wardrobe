@@ -1,4 +1,4 @@
-const DataFile = require('./src/data_file.js');
+import DataFile from './src/data_file.js';
 
 const js = {
   entry: [
@@ -62,4 +62,4 @@ const yaml = {
   },
 };
 
-module.exports = [js, yaml];
+export default [js, yaml];
