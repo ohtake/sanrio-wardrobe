@@ -1,5 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
+import JustifiedLayout from 'react-justified-layout';
+import ResizeSensor from 'css-element-queries/src/ResizeSensor';
 import DataFile from './data_file.js';
 
 const software = [
@@ -77,31 +80,82 @@ const software = [
   },
 ];
 
+const styleSymbol = {
+  position: 'absolute',
+  top: 0,
+  left: 0,
+  padding: '0.2em',
+  backgroundColor: 'rgba(0, 0, 0, 0.4)',
+  color: 'white',
+};
+const styleTitleOuter = {
+  position: 'absolute',
+  bottom: 0,
+  left: 0,
+  width: '100%',
+  backgroundColor: 'rgba(0, 0, 0, 0.4)',
+  color: 'white',
+};
+const styleTitleInner = {
+  padding: '0.2em',
+};
+const styleImg = {
+  width: '100%',
+  height: '100%',
+};
+
 export default class Home extends React.Component {
-  componentDidUpdate() {
-    // nop
+  constructor() {
+    super();
+    this.state = {};
+    this.handleResize = this.updateContainerWidth.bind(this);
+  }
+  componentDidMount() {
+    this.updateContainerWidth();
+    this.resizeSensor = new ResizeSensor(this.refs.grid, this.handleResize);
+  }
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.containerWidth !== prevState.containerWidth) {
+      // Visibility change of scrollbar may trigger this event.
+      // If this handler changes container width, it may change scrollbar visibility.
+      // There is a condition of infinite flippings of scrollbar visibility.
+      return;
+    }
+    this.updateContainerWidth();
+  }
+  componentWillUnmount() {
+    this.resizeSensor.detach();
+  }
+  updateContainerWidth() {
+    const newWidth = ReactDOM.findDOMNode(this.refs.grid).clientWidth;
+    if (newWidth !== this.state.containerWidth) {
+      this.setState({ containerWidth: newWidth });
+    }
+  }
+  renderTile(c) {
+    return (
+      <Link to={`/chara/${c.name}`} aspectRatio={1}>
+        <div>
+          <div style={styleSymbol}>{c.seriesSymbol}</div>
+          <div style={styleTitleOuter}>
+            <div style={styleTitleInner}>{c.nameJa}</div>
+            <div style={styleTitleInner}>{c.nameEn}</div>
+          </div>
+          <img src={c.picUrl} alt="*" style={styleImg} />
+        </div>
+      </Link>
+    );
   }
   render() {
-    const styleLi = {
-      float: 'left',
-      width: '150px',
-      textAlign: 'center',
-      margin: '0.5em',
-      listStyleType: 'none',
-    };
     return (
       <div>
         <p>You can find clothings of Sanrio characters.</p>
         <h2>Characters</h2>
-        <div>
-          <ul style={{ margin: 0, padding: 0 }}>
-            {DataFile.all.map(c => <li key={c.name} style={styleLi}><Link to={`/chara/${c.name}`}>
-              <img src={c.picUrl} width="150" height="150" alt="*" /><br />
-              {c.getDisplayName()}
-            </Link></li>)}
-          </ul>
+        <div ref="grid">
+          <JustifiedLayout targetRowHeight={150} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>
+            {DataFile.all.map(c => this.renderTile(c))}
+          </JustifiedLayout>
         </div>
-        <div style={{ clear: 'both' }}></div>
         <h2>Trademarks</h2>
         <p>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></p>
         <h2>Bundled open source software</h2>

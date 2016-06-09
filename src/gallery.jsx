@@ -31,7 +31,7 @@ export default class Gallery extends React.Component {
     this.updateContainerWidth();
   }
   componentWillUnmount() {
-    ResizeSensor.detach(this.refs.gallery);
+    this.resizeSensor.detach();
   }
   updateContainerWidth() {
     const newWidth = ReactDOM.findDOMNode(this).clientWidth;
