@@ -7,7 +7,23 @@ import Colors from './colors.js';
 // Drawer of Material-UI has 1300 zIndex
 Styles.outer.zIndex = 1400;
 
+// Do not wrap toolbar buttons in small screen
+Styles.toolbarSide.maxWidth = null;
+
 const myStyles = {
+  titleContainer: {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: Styles.toolbar.height,
+  },
+  titleInner: {
+    margin: `0 ${4 * 40 + 20}px 0 ${Styles.toolbarLeftSide.paddingLeft}`,
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    verticalAlign: 'middle',
+  },
   creditContainer: {
     position: 'fixed',
     top: Styles.toolbar.height,
@@ -127,7 +143,9 @@ export default class Lightbox2 extends React.Component {
     const prev = this.state.photos[(index + len - 1) % len];
     const description = (
       <div>
-        <span>{main.data.title}</span>
+        <div style={myStyles.titleContainer}>
+          <div style={myStyles.titleInner}>{main.data.title}</div>
+        </div>
         {this.state.showDescription ? this.createNotesElement(main) : null}
         {this.createCreditElement(main)}
       </div>
