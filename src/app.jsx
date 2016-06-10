@@ -62,6 +62,11 @@ class App extends React.Component {
   }
   render() {
     const theme = this.context.muiTheme;
+    const containerStyle = {
+      color: theme.palette.textColor,
+      backgroundColor: theme.palette.canvasColor,
+      padding: theme.spacing.desktopGutterMini,
+    };
     const activeStyle = {
       display: 'block',
       borderLeft: `8px solid ${theme.palette.primary1Color}`,
@@ -98,7 +103,7 @@ class App extends React.Component {
             </Link>)}
         </List>
       </Drawer>
-      <div style={{ padding: '8px' }}>
+      <div style={containerStyle}>
         {this.props.children}
       </div>
     </div>);

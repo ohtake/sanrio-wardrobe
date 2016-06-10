@@ -21,11 +21,11 @@ RepresentiveColors.all = [
   RepresentiveColors.Blue = new ColorData('blue', 'Blue', Colors.blue500, Colors.blue500, Colors.blue200),
   RepresentiveColors.Purple = new ColorData('purple', 'Purple', Colors.purple500, Colors.purple500, Colors.purple200),
   RepresentiveColors.Brown = new ColorData('brown', 'Brown', Colors.brown500, Colors.brown500, Colors.brown200),
-  RepresentiveColors.Black = new ColorData('black', 'Black', Colors.black, Colors.grey500, Colors.grey200),
-  RepresentiveColors.Grey = new ColorData('grey', 'Grey', Colors.grey700, Colors.grey500, Colors.grey200),
-  RepresentiveColors.White = new ColorData('white', 'White', Colors.white, Colors.grey500, Colors.grey200),
+  RepresentiveColors.Black = new ColorData('black', 'Black', Colors.black, Colors.grey500, Colors.grey300),
+  RepresentiveColors.Grey = new ColorData('grey', 'Grey', Colors.grey700, Colors.grey500, Colors.grey300),
+  RepresentiveColors.White = new ColorData('white', 'White', Colors.white, Colors.grey500, Colors.grey300),
   RepresentiveColors.Gold = new ColorData('gold', 'Gold', Colors.amber300, Colors.amber500, Colors.amber200),
-  RepresentiveColors.Silver = new ColorData('silver', 'Silver', Colors.grey400, Colors.grey500, Colors.grey200),
+  RepresentiveColors.Silver = new ColorData('silver', 'Silver', Colors.grey400, Colors.grey500, Colors.grey300),
 ];
 
 const map = {};

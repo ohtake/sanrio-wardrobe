@@ -47,9 +47,10 @@ export default class Gallery extends React.Component {
   }
 
   renderGallery() {
+    const theme = this.context.muiTheme;
     let imgStyle = { width: '100%', height: '100%' };
     let imgs = this.props.photos.map((p) => (
-      <div key={p.data.title} aspectRatio={p.getAspectRatio()} style={{ backgroundColor: 'silver' }}>
+      <div key={p.data.title} aspectRatio={p.getAspectRatio()} style={{ backgroundColor: theme.palette.borderColor }}>
         <Link to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`}>
           <LazyLoad offset={this.state.thumbnailHeight}>
             <img alt={p.data.title} src={p.data.image} style={imgStyle} />
@@ -73,4 +74,7 @@ export default class Gallery extends React.Component {
 Gallery.propTypes = {
   photos: React.PropTypes.arrayOf(React.PropTypes.instanceOf(Photo)),
   chara: React.PropTypes.string.isRequired,
+};
+Gallery.contextTypes = {
+  muiTheme: React.PropTypes.object.isRequired,
 };

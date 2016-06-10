@@ -38,12 +38,13 @@ export default class ColorSelector extends React.Component {
       margin: '0.2em 0',
       padding: '0.2em 0.5em',
       textDecoration: 'none',
-      color: 'black',
+      color: this.context.muiTheme.palette.textColor,
       borderWidth: '0 0 0.25em',
     };
   }
   styleColor(c) {
     const style = this.styleBase();
+    if (c.active) style.color = this.context.muiTheme.palette.alternateTextColor;
     style.borderStyle = 'solid';
     style.borderColor = c.active ? c.strong : c.weak;
     style.backgroundColor = c.active ? c.weak : 'transparent';
@@ -86,4 +87,7 @@ ColorSelector.propTypes = {
 ColorSelector.defaultProps = {
   colors: Colors.all.map(c => new ColorItem(c.id, c.name, c.standard, c.light)),
   onChanged: null,
+};
+ColorSelector.contextTypes = {
+  muiTheme: React.PropTypes.object.isRequired,
 };
