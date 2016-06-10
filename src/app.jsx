@@ -70,6 +70,7 @@ class App extends React.Component {
       <AppBar
         title={this.getTitleFromParams()}
         onLeftIconButtonTouchTap={this.handleAppMenu}
+        showMenuIconButton={!this.state.menuOpened || !this.state.menuDocked}
       />
       <Drawer open={this.state.menuOpened} docked={this.state.menuDocked} onRequestChange={this.handleMenuChange} containerClassName="appMenu" width={this.menuWidth}>
         <Toolbar>
