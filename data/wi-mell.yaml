@@ -1,0 +1,145 @@
+---
+  - 
+    title: "全裸バッグ"
+    image: "https://c8.staticflickr.com/3/2942/15328646911_40b3615c32.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15328646911/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    colors: ["red"]
+    notes:
+      - 初期衣装
+      - 郵便、配達、バッグ
+  - 
+    title: "花粉症マスク"
+    image: "https://c6.staticflickr.com/3/2373/13189994893_567f98eb95.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13189994893/"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["pink"]
+    notes:
+      - 花粉症の時にはマスクが追加
+      - マスク、ハート
+  - 
+    title: "リボン増し増し"
+    image: "https://c7.staticflickr.com/6/5523/14598006006_2e529b84b8.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14598006006/"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["pink", "purple", "blue", "white"]
+    notes:
+      - ケープの種類によらずにリボンが追加されることがある
+      - リボン
+  - 
+    title: "折れ耳"
+    image: "https://c8.staticflickr.com/4/3862/14697440551_380ea655a3.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14697440551/"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: []
+    notes:
+      - ケープの種類によらずに耳が折れていることがある
+      - 折れているときはリボンが増やされていることが多いが、必ずしも連動しているわけではない
+  - 
+    title: "サーズディ"
+    image: "https://c3.staticflickr.com/9/8649/16037444866_19e4172ca2.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16037444866/"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["green"]
+    notes:
+      - 小鳥の男の子のサーズディ
+  - 
+    title: "サンディ"
+    image: "https://c3.staticflickr.com/9/8613/16712908946_d17e3c214c.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16712908946/"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["pink"]
+    notes:
+      - 小鳥の女の子のサンディ
+  - 
+    title: "クリスマスケープ"
+    image: "https://c4.staticflickr.com/6/5542/10963792763_481a1055dc.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10963792763/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    colors: ["pink", "white", "yellow", "purple", "blue"]
+    notes:
+      - 主にクリスマスで使われるケープで足の輪も付く
+      - クリスマス、リボン、ウサミミ
+  - 
+    title: "クリスマスケープのリリーボンボンズ版"
+    image: "https://c5.staticflickr.com/3/2877/12634130964_0d42f03b22.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12634130964/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    colors: ["pink", "white"]
+    notes:
+      - クリスマスケープであるがリボンの種類が『リリーボンボンズのマーチングパレード』となっている
+      - 足の輪がなくなる
+      - ハート、リボン、ウサミミ
+  - 
+    title: "Angelic Pretty 1"
+    image: "https://lh3.googleusercontent.com/-0jnZvDv9G7s/UREcP1bWhCI/AAAAAAAAwZA/84nM_ydfZHUY3L0m4VU1gJmnfjx_ZRBYwCCo/s500/5D3C6893%2B%2528960x1440%2529.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/sDsdsNJFtPn3mGlaJ_TICdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 960, height_o: 1440, max_len: 500 }
+    colors: ["blue", "pink", "yellow", "purple"]
+    notes:
+      - Angelic Pretty のジャンパースカートその1
+      - Angelic Pretty、ロリータ、リボン
+  - 
+    title: "Angelic Pretty 2"
+    image: "https://c3.staticflickr.com/4/3836/15033457738_a0424938ea.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15033457738/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    colors: ["purple", "pink"]
+    notes:
+      - Angelic Pretty のジャンパースカートその2
+      - Angelic Pretty、ロリータ、リボン、ウサミミ
+  - 
+    title: "ハロウィンケープ"
+    image: "https://c3.staticflickr.com/4/3799/10249162114_2a846327df.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10249162114/"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["blue", "purple", "orange", "black", "white"]
+    notes:
+      - ピューロランドパレード『ハロウィンマーチングパレード』
+      - ジャック・オー・ランタン、ハロウィン
+  - 
+    title: "ハロウィンケープのリボン追加版"
+    image: "https://c8.staticflickr.com/1/584/22875872479_0c7af0251d.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22875872479/"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["blue", "purple", "orange", "black", "white"]
+    notes:
+      - ハロウィンケープに頭上のリボンが追加
+      - ジャック・オー・ランタン、ハロウィン、リボン
+  - 
+    title: "リリーボンボンズのマーチングパレード"
+    image: "https://c5.staticflickr.com/4/3849/14549304532_2ff5a7c8e2.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14549304532/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    colors: ["pink", "blue", "purple", "brown"]
+    notes:
+      - ピューロランドパレード『リリーボンボンズのマーチングパレード』
+      - リボン、ハート、お茶
+  - 
+    title: "バイト"
+    image: "https://c3.staticflickr.com/3/2902/14142689498_8ea585aac6.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14142689498/"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["blue", "white", "red"]
+    notes:
+      - フェスティバルプラザのショップ店員やサービススタッフと同じデザインのエプロン
+      - キティ、リボン
+  - 
+    title: "OMOIYARI TO YOU"
+    image: "https://c7.staticflickr.com/6/5749/21718588622_0fc03fc95b.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21718588622/"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["blue", "white", "pink", "orange", "yellow", "green", "purple"]
+    notes:
+      - ピューロランドパレード『OMOIYARI TO YOU』
+      - 公募衣装
+      - 水玉、リボン、フリル
+  - 
+    title: "Miracle Gift Parade"
+    image: "https://c5.staticflickr.com/8/7515/26537823044_1cf65ac326.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26537823044/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    colors: ["red", "blue", "green", "pink", "yellow", "purple", "orange"]
+    notes:
+      - ピューロランドパレード『Miracle Gift Parade』
+      - いちご、星、ハート
