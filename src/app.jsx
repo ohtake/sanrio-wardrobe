@@ -9,7 +9,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import * as Colors from 'material-ui/styles/colors.js';
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
@@ -20,23 +20,59 @@ import Subheader from 'material-ui/Subheader';
 import * as svgIcons from 'material-ui/svg-icons';
 import IconButton from 'material-ui/IconButton';
 import { Toolbar, ToolbarGroup } from 'material-ui/Toolbar';
+import Toggle from 'material-ui/Toggle';
 
 import DataFile from './data_file.js';
 import Home from './home.jsx';
 import Character from './character.jsx';
 import * as utils from './utils.js';
 
+const themeLight = getMuiTheme({
+  palette: {
+    primary1Color: Colors.indigo500,
+    primary2Color: Colors.indigo700,
+    pickerHeaderColor: Colors.indigo500,
+  },
+});
+const themeDark = getMuiTheme(darkBaseTheme, {
+  palette: {
+    primary1Color: Colors.indigo700,
+    primary2Color: Colors.indigo700,
+    pickerHeaderColor: Colors.indigo500,
+  },
+});
+
+let elStyle = null;
+function applyThemeToBody(theme) {
+  document.body.style.color = theme.palette.textColor;
+  document.body.style.backgroundColor = theme.palette.canvasColor;
+  if (elStyle != null) {
+    document.head.removeChild(elStyle);
+  }
+  elStyle = document.createElement('style');
+  document.head.appendChild(elStyle);
+  const stylesheet = elStyle.sheet;
+  stylesheet.insertRule(`a { color: ${theme.palette.primary2Color}; }`, stylesheet.cssRules.length);
+}
+applyThemeToBody(themeLight);
+
 class App extends React.Component {
   constructor() {
     super();
-    this.state = { menuOpened: false, menuDocked: false };
+    this.state = { menuOpened: false, menuDocked: false, theme: themeLight };
 
     this.handleAppMenu = this.handleAppMenu.bind(this);
     this.handleMenuChange = this.handleMenuChange.bind(this);
     this.handleMenuClick = this.handleMenuClick.bind(this);
     this.handleMenuPinned = this.handleMenuPinned.bind(this);
     this.handleMenuClose = this.handleMenuClose.bind(this);
+    this.handleThemeToggle = this.handleThemeToggle.bind(this);
     this.menuWidth = 250;
+  }
+  getChildContext() {
+    return {
+      muiTheme: this.state.theme,
+    };
   }
   getTitleFromParams() {
     const chara = this.props.params.chara;
@@ -60,8 +96,13 @@ class App extends React.Component {
     if (this.state.menuDocked) return;
     window.setTimeout(() => this.setState({ menuOpened: false }), 200);
   }
+  handleThemeToggle() {
+    const newTheme = this.refs.theme.state.switched ? themeLight : themeDark;
+    applyThemeToBody(newTheme);
+    this.setState({ theme: newTheme });
+  }
   render() {
-    const theme = this.context.muiTheme;
+    const theme = this.state.theme;
     const containerStyle = {
       color: theme.palette.textColor,
       backgroundColor: theme.palette.canvasColor,
@@ -101,6 +142,11 @@ class App extends React.Component {
             <Link key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle}>
               <ListItem primaryText={c.getDisplayName()} leftAvatar={<Avatar src={c.picUrl} />} />
             </Link>)}
+          <Divider />
+          <Subheader>Settings</Subheader>
+          <ListItem>
+            <Toggle ref="theme" label="Dark theme" onToggle={this.handleThemeToggle} />
+          </ListItem>
         </List>
       </Drawer>
       <div style={containerStyle}>
@@ -110,25 +156,15 @@ class App extends React.Component {
   }
 }
 App.propTypes = utils.propTypesRoute;
-App.contextTypes = {
-  muiTheme: React.PropTypes.object.isRequired,
+App.childContextTypes = {
+  muiTheme: React.PropTypes.object,
 };
 
-const theme = getMuiTheme({
-  palette: {
-    primary1Color: Colors.indigo500,
-    primary2Color: Colors.indigo700,
-    pickerHeaderColor: Colors.indigo500,
-  },
-});
-
 ReactDOM.render((
-  <MuiThemeProvider muiTheme={theme}>
-    <Router history={hashHistory}>
-      <Route path="/" component={App}>
-        <IndexRoute component={Home} />
-        <Route path="chara/:chara(/:title)" component={Character} ref="chara" />
-      </Route>
-    </Router>
-  </MuiThemeProvider>
+  <Router history={hashHistory}>
+    <Route path="/" component={App}>
+      <IndexRoute component={Home} />
+      <Route path="chara/:chara(/:title)" component={Character} ref="chara" />
+    </Route>
+  </Router>
 ), document.getElementById('app'));
