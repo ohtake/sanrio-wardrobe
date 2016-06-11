@@ -1222,11 +1222,20 @@
     notes:
       - クリスマス
   - 
-    title: "5D3J8586"
+    title: "Kawaii Paradise"
+    image: "https://c8.staticflickr.com/8/7413/27522423671_71cdaedeb2.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27522423671/"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    colors: ["pink", "yellow", "white", "brown", "red"]
+    notes:
+      - Kawaii Paradise
+      - パッチワーク
+  - 
+    title: "Kawaii Paradise クリスマス"
     image: "https://farm4.staticflickr.com/3792/11026276214_ea160b0f5a.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11026276214/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    colors: ["pink", "white", "yellow", "red"]
+    colors: ["pink", "yellow", "white", "brown", "red"]
     notes:
       - Kawaii Paradise のクリスマス用ケープ追加バージョン
       - パッチワーク、クリスマス
