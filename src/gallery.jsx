@@ -8,6 +8,7 @@ import Photo from './photo.js';
 
 import LazyLoad from 'react-lazy-load';
 import JustifiedLayout from 'react-justified-layout';
+import Slider from 'material-ui/Slider';
 
 export default class Gallery extends React.Component {
   constructor() {
@@ -40,7 +41,7 @@ export default class Gallery extends React.Component {
     }
   }
   applyThumbnailSize() {
-    this.setState({ thumbnailHeight: parseInt(this.refs.size.value, 10) });
+    this.setState({ thumbnailHeight: this.refs.size.state.value });
   }
   thumbnailSizeChanged() {
     this.applyThumbnailSize();
@@ -63,9 +64,7 @@ export default class Gallery extends React.Component {
   render() {
     return (
       <div ref="gallery">
-        <div>
-          Thumbnail size <input ref="size" type="range" defaultValue={this.state.thumbnailHeight} min="36" max="288" onChange={this.thumbnailSizeChanged} />
-        </div>
+        <Slider ref="size" defaultValue={this.state.thumbnailHeight} min={36} max={288} step={1} description={`Thumbnail size: ${this.state.thumbnailHeight}`} onChange={this.thumbnailSizeChanged} style={{ width: '18em' }} />
         {this.props.photos ? this.renderGallery() : null}
       </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import Colors from './colors.js';
+import FlatButton from 'material-ui/FlatButton';
 
 class ColorItem {
   constructor(id, name, strong, weak) {
@@ -34,12 +35,10 @@ export default class ColorSelector extends React.Component {
   }
   styleBase() {
     return {
-      display: 'inline-block',
       margin: '0.2em 0',
       padding: '0.2em 0.5em',
-      textDecoration: 'none',
-      color: this.context.muiTheme.palette.textColor,
       borderWidth: '0 0 0.25em',
+      minWidth: 0,
     };
   }
   styleColor(c) {
@@ -47,7 +46,7 @@ export default class ColorSelector extends React.Component {
     if (c.active) style.color = this.context.muiTheme.palette.alternateTextColor;
     style.borderStyle = 'solid';
     style.borderColor = c.active ? c.strong : c.weak;
-    style.backgroundColor = c.active ? c.weak : 'transparent';
+    if (c.active) style.backgroundColor = c.weak;
     return style;
   }
   toggle(e) {
@@ -69,14 +68,19 @@ export default class ColorSelector extends React.Component {
   listActiveIds() {
     return this.state.colors.filter(c => c.active).map(c => c.id);
   }
+  isFilterEnabled() {
+    return this.state.colors.some(c => c.active);
+  }
   render() {
     return (<div>
-      <span style={this.styleBase()}>Color filter</span>
+      <span>Color filter</span>
       {this.state.colors.map(c =>
-        <a key={c.name} href="#" style={this.styleColor(c)} onClick={this.toggle} data={c.id}>
-          {c.name}
+        <a key={c.name} href="#" onClick={this.toggle} data={c.id}>
+          <FlatButton label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />
         </a>)}
-      <a href="#" onClick={this.clear} style={this.styleBase()}>CLEAR</a>
+      <a href="#" onClick={this.clear}>
+        <FlatButton label="CLEAR" style={this.styleBase()} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={! this.isFilterEnabled()} />
+      </a>
     </div>);
   }
 }
