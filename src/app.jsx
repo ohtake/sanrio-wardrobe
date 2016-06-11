@@ -46,6 +46,7 @@ let elStyle = null;
 function applyThemeToBody(theme) {
   document.body.style.color = theme.palette.textColor;
   document.body.style.backgroundColor = theme.palette.canvasColor;
+  document.body.style.fontFamily = theme.fontFamily;
   if (elStyle != null) {
     document.head.removeChild(elStyle);
   }
