@@ -60,12 +60,18 @@ function applyThemeToBody(theme) {
   const stylesheet = elStyle.sheet;
   stylesheet.insertRule(`a { color: ${theme.palette.primary2Color}; }`, stylesheet.cssRules.length);
 }
-applyThemeToBody(themeLight);
+function getInitialTheme() {
+  const h = new Date().getHours();
+  const isDaytime = h >= 6 && h < 18;
+  return isDaytime ? themeLight : themeDark;
+}
+const themeInitial = getInitialTheme();
+applyThemeToBody(themeInitial);
 
 class App extends React.Component {
   constructor() {
     super();
-    this.state = { menuOpened: false, menuDocked: false, theme: themeLight };
+    this.state = { menuOpened: false, menuDocked: false, theme: themeInitial };
 
     this.handleAppMenu = this.handleAppMenu.bind(this);
     this.handleMenuChange = this.handleMenuChange.bind(this);
@@ -151,7 +157,7 @@ class App extends React.Component {
           <Divider />
           <Subheader>Settings</Subheader>
           <ListItem>
-            <Toggle ref="theme" label="Dark theme" onToggle={this.handleThemeToggle} />
+            <Toggle ref="theme" label="Dark theme" onToggle={this.handleThemeToggle} defaultToggled={themeInitial === themeDark} />
           </ListItem>
         </List>
       </Drawer>
