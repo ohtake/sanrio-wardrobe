@@ -27,6 +27,7 @@ import Home from './home.jsx';
 import Character from './character.jsx';
 import * as utils from './utils.js';
 
+// See https://github.com/callemall/material-ui/tree/master/src/styles for theme definition
 const themeLight = getMuiTheme({
   palette: {
     primary1Color: Colors.indigo500,
@@ -36,9 +37,13 @@ const themeLight = getMuiTheme({
 });
 const themeDark = getMuiTheme(darkBaseTheme, {
   palette: {
-    primary1Color: Colors.indigo700,
-    primary2Color: Colors.indigo700,
+    primary1Color: Colors.indigo500,
+    primary2Color: Colors.indigo300,
+    accent2Color: Colors.grey700,
     pickerHeaderColor: Colors.indigo500,
+  },
+  appBar: {
+    textColor: Colors.fullWhite,
   },
 });
 
@@ -126,10 +131,10 @@ class App extends React.Component {
           </ToolbarGroup>
           <ToolbarGroup>
             <IconButton onClick={this.handleMenuPinned}>
-              {this.state.menuDocked ? <svgIcons.ActionTurnedIn /> : <svgIcons.ActionTurnedInNot />}
+              {this.state.menuDocked ? <svgIcons.ActionTurnedIn color={theme.palette.textColor} /> : <svgIcons.ActionTurnedInNot color={theme.palette.textColor} />}
             </IconButton>
             <IconButton onClick={this.handleMenuClose}>
-              <svgIcons.NavigationClose />
+              <svgIcons.NavigationClose color={theme.palette.textColor} />
             </IconButton>
           </ToolbarGroup>
         </Toolbar>

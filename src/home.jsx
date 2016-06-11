@@ -97,7 +97,7 @@ const styleTitleOuter = {
   color: 'white',
 };
 const styleTitleInner = {
-  padding: '0.2em',
+  margin: '0.2em',
 };
 const styleImg = {
   width: '100%',

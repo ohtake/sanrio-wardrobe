@@ -43,7 +43,7 @@ export default class ColorSelector extends React.Component {
   }
   styleColor(c) {
     const style = this.styleBase();
-    if (c.active) style.color = this.context.muiTheme.palette.alternateTextColor;
+    if (c.active) style.color = 'black';
     style.borderStyle = 'solid';
     style.borderColor = c.active ? c.strong : c.weak;
     if (c.active) style.backgroundColor = c.weak;
