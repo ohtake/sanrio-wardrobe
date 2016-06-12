@@ -88,6 +88,7 @@ export default class Lightbox2 extends React.Component {
   moveToIndex(index) {
     const photo = this.state.photos[index];
     this.context.router.replace(`/chara/${this.props.chara}/${window.encodeURIComponent(photo.data.title)}`);
+    this.sendGoogleAnalyticsEvent('navigate', `${this.props.chara} ${photo.data.title}`);
   }
   moveNext() {
     this.moveToIndex((this.state.index + 1) % this.state.photos.length);
@@ -98,6 +99,11 @@ export default class Lightbox2 extends React.Component {
   toggleDescription(e) {
     e.preventDefault();
     this.setState({ showDescription: ! this.state.showDescription });
+  }
+  sendGoogleAnalyticsEvent(action, label) {
+    if (window.ga) {
+      window.ga('send', 'event', 'lightbox', action, label);
+    }
   }
   createColorSample(photo) {
     if (photo.data.colors.length === 0) return null;

@@ -151,7 +151,7 @@ class App extends React.Component {
           <Divider />
           <Subheader>Characters</Subheader>
           {DataFile.all.map(c =>
-            <Link key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle}>
+            <Link key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-event-category="chara" data-event-action="appMenu" data-event-label={c.name}>
               <ListItem primaryText={c.getDisplayName()} leftAvatar={<Avatar src={c.picUrl} />} />
             </Link>)}
           <Divider />
