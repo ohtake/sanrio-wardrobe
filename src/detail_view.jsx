@@ -125,21 +125,22 @@ export default class DetailView extends React.Component {
         open openSecondary docked={false}
         onRequestChange={this.closeDetailView}
         width={menuWidth}
+        containerStyle={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}
       >
         <div style={{ position: 'relative', height: '100%', overflow: 'hidden' }}>
           {this.state.showInfo ?
             <AppBar
-              style={{ height: '90px' }}
+              style={{ height: '72px' }}
               titleStyle={{ height: '100px' }}
               iconElementLeft={<IconButton onTouchTap={this.closeDetailView}><svgIcons.NavigationArrowBack /></IconButton>}
               title={
                 <div>
                   <div style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>{main.data.title}</div>
-                  <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', margin: '-32px 0 0', fontSize: '80%' }}>{this.createCreditElement(main)}</div>
+                  <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', margin: '-40px 0 0', fontSize: '60%' }}>{this.createCreditElement(main)}</div>
                 </div>}
             />
             : null}
-          <div style={{ position: 'absolute', top: (this.state.showInfo ? '90px' : 0), bottom: 0, width: '100%', backgroundColor: 'black' }} onTouchTap={this.toggleInfo}>
+          <div style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, width: '100%' }} onTouchTap={this.toggleInfo}>
             <img style={{ width: '100%', height: '100%' }} className="image-fit" src={main.inferLargeImage()} alt="*" />
             <img style={{ display: 'none' }} src={prev.inferLargeImage()} alt="*" />
             <img style={{ display: 'none' }} src={next.inferLargeImage()} alt="*" />
@@ -157,6 +158,10 @@ export default class DetailView extends React.Component {
           <div style={{ position: 'absolute', bottom: 0, right: 0 }}>
             <IconButton onTouchTap={this.moveNext} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationChevronRight /></IconButton>
           </div>
+          {this.state.showInfo ? null :
+            <div style={{ position: 'absolute', top: 0, left: 0 }}>
+              <IconButton onTouchTap={this.closeDetailView} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationArrowBack /></IconButton>
+            </div>}
         </div>
       </Drawer>
     );
