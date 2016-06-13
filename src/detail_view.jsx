@@ -1,5 +1,6 @@
 import React from 'react';
 import Colors from './colors.js';
+import verge from 'verge';
 
 import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
@@ -7,7 +8,6 @@ import IconButton from 'material-ui/IconButton';
 import * as svgIcons from 'material-ui/svg-icons';
 
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
-// import objectFitImages from 'object-fit-images';
 import objectFitImages from 'object-fit-images';
 objectFitImages(null, { watchMQ: true });
 
@@ -31,8 +31,8 @@ export default class DetailView extends React.Component {
     window.removeEventListener('resize', this.handleResize, false);
   }
   updateMenuWidth() {
-    // Use window.innerWidth because we can hide vertical scrollbar by AppBar.docked=false
-    const newWidth = window.innerWidth;
+    // Use vierport width because we can hide vertical scrollbar by AppBar.docked=false
+    const newWidth = verge.viewportW();
     if (newWidth !== this.state.menuWidth) {
       this.setState({ menuWidth: newWidth });
     }

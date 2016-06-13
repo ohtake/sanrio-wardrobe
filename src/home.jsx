@@ -55,6 +55,14 @@ const software = [
     license_url: 'https://opensource.org/licenses/MIT',
   },
   {
+    name: 'verge',
+    url: 'http://verge.airve.com/',
+    author: 'Ryan Van Etten',
+    author_url: 'http://ryanve.com/',
+    license: 'The MIT License',
+    license_url: 'https://opensource.org/licenses/MIT',
+  },
+  {
     name: 'CSS Element Queries',
     url: 'https://github.com/marcj/css-element-queries',
     author: 'Marc J. Schmidt',
