@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 import JustifiedLayout from 'react-justified-layout';
-import ResizeSensor from 'css-element-queries/src/ResizeSensor';
 import DataFile from './data_file.js';
+import * as utils from './utils.js';
 
 const software = [
   {
@@ -108,29 +107,16 @@ export default class Home extends React.Component {
   constructor() {
     super();
     this.state = {};
-    this.handleResize = this.updateContainerWidth.bind(this);
+    this.widthListener = new utils.ContainerClientWidthListener(this, 'grid', 'containerWidth');
   }
   componentDidMount() {
-    this.updateContainerWidth();
-    this.resizeSensor = new ResizeSensor(this.refs.grid, this.handleResize);
+    this.widthListener.componentDidMount();
   }
   componentDidUpdate(prevProps, prevState) {
-    if (this.state.containerWidth !== prevState.containerWidth) {
-      // Visibility change of scrollbar may trigger this event.
-      // If this handler changes container width, it may change scrollbar visibility.
-      // There is a condition of infinite flippings of scrollbar visibility.
-      return;
-    }
-    this.updateContainerWidth();
+    this.widthListener.componentDidUpdate(prevProps, prevState);
   }
   componentWillUnmount() {
-    this.resizeSensor.detach();
-  }
-  updateContainerWidth() {
-    const newWidth = ReactDOM.findDOMNode(this.refs.grid).clientWidth;
-    if (newWidth !== this.state.containerWidth) {
-      this.setState({ containerWidth: newWidth });
-    }
+    this.widthListener.componentWillUnmount();
   }
   renderTile(c) {
     return (

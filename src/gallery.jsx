@@ -1,44 +1,28 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
-
-import ResizeSensor from 'css-element-queries/src/ResizeSensor';
-
-import Photo from './photo.js';
 
 import LazyLoad from 'react-lazy-load';
 import JustifiedLayout from 'react-justified-layout';
 import Slider from 'material-ui/Slider';
 
+import Photo from './photo.js';
+import * as utils from './utils.js';
+
 export default class Gallery extends React.Component {
   constructor() {
     super();
     this.state = { thumbnailHeight: 72 };
-    this.handleResize = this.updateContainerWidth.bind(this);
-
     this.thumbnailSizeChanged = this.thumbnailSizeChanged.bind(this);
+    this.widthListener = new utils.ContainerClientWidthListener(this, 'gallery', 'containerWidth');
   }
   componentDidMount() {
-    this.updateContainerWidth();
-    this.resizeSensor = new ResizeSensor(this.refs.gallery, this.handleResize);
+    this.widthListener.componentDidMount();
   }
   componentDidUpdate(prevProps, prevState) {
-    if (this.state.containerWidth !== prevState.containerWidth) {
-      // Visibility change of scrollbar may trigger this event.
-      // If this handler changes container width, it may change scrollbar visibility.
-      // There is a condition of infinite flippings of scrollbar visibility.
-      return;
-    }
-    this.updateContainerWidth();
+    this.widthListener.componentDidUpdate(prevProps, prevState);
   }
   componentWillUnmount() {
-    this.resizeSensor.detach();
-  }
-  updateContainerWidth() {
-    const newWidth = ReactDOM.findDOMNode(this).clientWidth;
-    if (newWidth !== this.state.containerWidth) {
-      this.setState({ containerWidth: newWidth });
-    }
+    this.widthListener.componentWillUnmount();
   }
   applyThumbnailSize() {
     this.setState({ thumbnailHeight: this.refs.size.state.value });
