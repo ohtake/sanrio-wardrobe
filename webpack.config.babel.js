@@ -46,4 +46,4 @@ const js = {
   },
 };
 
-export default [js];
+export default js;

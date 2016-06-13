@@ -8,8 +8,7 @@
 
 You can find clothings of Sanrio characters.
 
-* Source: <https://github.com/ohtake/sanrio-wardrobe/>
-* Demo: <https://ohtake.github.io/sanrio-wardrobe/>
+Demo: <https://ohtake.github.io/sanrio-wardrobe/>
 
 ## Develop
 
@@ -19,11 +18,4 @@ Run `npm start`. Now you can visit http://localhost:8080/ to view the applicatio
 
 ## Publish
 
-```bash
-git checkout -B gh-pages
-npm run-script build
-git add -f assets
-git commit -m "Build"
-git push origin gh-pages -f
-git checkout -
-```
+See `scripts/deploy-to-gh-pages.sh`.

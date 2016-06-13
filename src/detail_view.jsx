@@ -9,7 +9,7 @@ import * as svgIcons from 'material-ui/svg-icons';
 
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
 import objectFitImages from 'object-fit-images';
-objectFitImages(null, { watchMQ: true });
+objectFitImages();
 
 export default class DetailView extends React.Component {
   constructor() {
@@ -123,7 +123,6 @@ export default class DetailView extends React.Component {
     );
   }
   render() {
-    const menuWidth = this.state.menuWidth;
     if (this.state.photos == null) {
       return <Drawer open={false} openSecondary />;
     }
@@ -140,7 +139,7 @@ export default class DetailView extends React.Component {
       <Drawer
         open openSecondary docked={false}
         onRequestChange={this.closeDetailView}
-        width={menuWidth}
+        width={this.state.menuWidth}
         containerStyle={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}
       >
         <div style={{ position: 'relative', height: '100%', overflow: 'hidden' }}>
