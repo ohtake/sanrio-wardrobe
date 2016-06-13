@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, Link, IndexLink, hashHistory } from 'react-router';
+import { Router, Route, IndexRoute, Link, IndexLink, useRouterHistory } from 'react-router';
+import { createHashHistory } from 'history';
 
 // Needed for onTouchTap
 // Check this repo:
@@ -175,7 +176,7 @@ App.childContextTypes = {
 };
 
 ReactDOM.render((
-  <Router history={hashHistory}>
+  <Router history={useRouterHistory(createHashHistory)({ queryKey: false })}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="chara/:chara(/:title)" component={Character} ref="chara" />
