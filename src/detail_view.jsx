@@ -89,13 +89,11 @@ export default class DetailView extends React.Component {
   createNotesElement(photo) {
     const prefilledTitle = `${photo.data.title} ${photo.data.source.url}`;
     const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(prefilledTitle)}&entry.111224920`;
-    return (
-      <ul style={{ margin: '0.25em 0', color: 'white' }}>
-        {this.createColorSample(photo)}
-        {photo.data.notes.map(n => <li>{n}</li>)}
-        <li><a href={formUrl} target="_blank" style={{ color: 'white' }}>記述内容についての修正などを報告</a></li>
-        <li><a href="#" onClick={this.movePrev}>Prev</a> <a href="#" onClick={this.moveNext}>Next</a></li>
-      </ul>);
+    return [
+      this.createColorSample(photo),
+      ...photo.data.notes.map(n => <li>{n}</li>),
+      <li><a href={formUrl} target="_blank" style={{ color: 'white' }}>記述内容の修正などを報告</a></li>,
+    ];
   }
   createCreditElement(photo) {
     const texts = [];
@@ -115,6 +113,10 @@ export default class DetailView extends React.Component {
     }
     const index = this.state.index;
     const main = this.state.photos[index];
+    const navSize = 24;
+    const navPadding = 12;
+    const navIconStyle = { width: navSize, height: navSize, fill: 'white' };
+    const navButtonStyle = { width: navSize + 2 * navPadding, height: navSize + 2 * navPadding, padding: navPadding };
     return (
       <Drawer
         open openSecondary docked={false}
@@ -138,10 +140,18 @@ export default class DetailView extends React.Component {
             <img style={{ width: '100%', height: '100%' }} className="image-fit" src={main.inferLargeImage()} alt="*" />
           </div>
           {this.state.showInfo ?
-            <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
-              {this.createNotesElement(main)}
+            <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
+              <ul style={{ margin: `0.25em ${navButtonStyle.width}px`, padding: `0 0 0 ${navPadding}px`, color: 'white' }}>
+                {this.createNotesElement(main)}
+              </ul>
             </div>
             : null}
+          <div style={{ position: 'absolute', bottom: 0, left: 0 }}>
+            <IconButton onTouchTap={this.movePrev} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationChevronLeft /></IconButton>
+          </div>
+          <div style={{ position: 'absolute', bottom: 0, right: 0 }}>
+            <IconButton onTouchTap={this.moveNext} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationChevronRight /></IconButton>
+          </div>
         </div>
       </Drawer>
     );
