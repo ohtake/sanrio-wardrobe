@@ -112,7 +112,10 @@ export default class DetailView extends React.Component {
       return <Drawer open={false} openSecondary />;
     }
     const index = this.state.index;
+    const len = this.state.photos.length;
     const main = this.state.photos[index];
+    const next = this.state.photos[(index + 1) % len];
+    const prev = this.state.photos[(index + len - 1) % len];
     const navSize = 24;
     const navPadding = 12;
     const navIconStyle = { width: navSize, height: navSize, fill: 'white' };
@@ -138,6 +141,8 @@ export default class DetailView extends React.Component {
             : null}
           <div style={{ position: 'absolute', top: (this.state.showInfo ? '90px' : 0), bottom: 0, width: '100%', backgroundColor: 'black' }} onTouchTap={this.toggleInfo}>
             <img style={{ width: '100%', height: '100%' }} className="image-fit" src={main.inferLargeImage()} alt="*" />
+            <img style={{ display: 'none' }} src={prev.inferLargeImage()} alt="*" />
+            <img style={{ display: 'none' }} src={next.inferLargeImage()} alt="*" />
           </div>
           {this.state.showInfo ?
             <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
