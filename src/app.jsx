@@ -119,6 +119,7 @@ class App extends React.Component {
       color: theme.palette.textColor,
       backgroundColor: theme.palette.canvasColor,
       padding: theme.spacing.desktopGutterMini,
+      marginTop: theme.appBar.height,
     };
     const activeStyle = {
       display: 'block',
@@ -129,6 +130,7 @@ class App extends React.Component {
         title={this.getTitleFromParams()}
         onLeftIconButtonTouchTap={this.handleAppMenu}
         showMenuIconButton={!this.state.menuOpened || !this.state.menuDocked}
+        style={{ position: 'fixed', top: 0 }}
       />
       <Drawer open={this.state.menuOpened} docked={this.state.menuDocked} onRequestChange={this.handleMenuChange} containerClassName="appMenu" width={this.menuWidth}>
         <Toolbar>

@@ -13,7 +13,7 @@
     "react-tap-event-plugin": "1.0.0",
     "react-lazy-load": "3.0.10",
     "css-element-queries": "0.3.2",
-    "react-image-lightbox": "2.1.0",
+    "object-fit-images": "2.5.3",
     "react-justified-layout": "0.0.1"
   },
   "peerDependencies": {
