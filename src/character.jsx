@@ -3,7 +3,7 @@ import React from 'react';
 import Photo from './photo.js';
 import ColorSelector from './color_selector.jsx';
 import Gallery from './gallery.jsx';
-import Lightbox from './lightbox.jsx';
+import DetailView from './detail_view.jsx';
 import * as utils from './utils.js';
 
 export default class Character extends React.Component {
@@ -81,7 +81,7 @@ export default class Character extends React.Component {
         <ColorSelector ref="color" onChanged={this.colorChanged} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         <Gallery ref="gallery" photos={this.state.photos} chara={this.props.params.chara} />
-        <Lightbox ref="lightbox" chara={this.props.params.chara} />
+        <DetailView ref="lightbox" chara={this.props.params.chara} />
       </div>
     );
   }

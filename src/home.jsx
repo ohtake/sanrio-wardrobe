@@ -39,10 +39,10 @@ const software = [
     license_url: 'http://www.isc.org/downloads/software-support-policy/isc-license/',
   },
   {
-    name: 'React Image Lightbox',
-    url: 'https://fritz-c.github.io/react-image-lightbox/',
-    author: 'Chris Fritz',
-    author_url: 'https://github.com/fritz-c',
+    name: 'object-fit-images',
+    url: 'https://github.com/bfred-it/object-fit-images',
+    author: 'Federico Brigante',
+    author_url: 'https://github.com/bfred-it',
     license: 'The MIT License',
     license_url: 'https://opensource.org/licenses/MIT',
   },
@@ -69,14 +69,6 @@ const software = [
     author_url: 'https://github.com/callemall',
     license: 'The MIT License',
     license_url: 'https://opensource.org/licenses/MIT',
-  },
-  {
-    name: 'Material icons',
-    url: 'https://design.google.com/icons/',
-    author: 'Google',
-    author_url: 'https://www.google.com/',
-    license: 'CC BY 4.0',
-    license_url: 'https://creativecommons.org/licenses/by/4.0/',
   },
 ];
 
