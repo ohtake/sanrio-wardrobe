@@ -22,13 +22,16 @@ export default class DetailView extends React.Component {
     this.toggleInfo = this.toggleInfo.bind(this);
     this.moveNext = this.moveNext.bind(this);
     this.movePrev = this.movePrev.bind(this);
+    this.handleKeyDown = this.handleKeyDown.bind(this);
   }
   componentDidMount() {
     this.updateMenuWidth();
     window.addEventListener('resize', this.handleResize);
+    window.addEventListener('keydown', this.handleKeyDown);
   }
   componentWillUnmount() {
     window.removeEventListener('resize', this.handleResize, false);
+    window.removeEventListener('keydown', this.handleKeyDown, false);
   }
   updateMenuWidth() {
     // Use vierport width because we can hide vertical scrollbar by AppBar.docked=false
@@ -61,6 +64,19 @@ export default class DetailView extends React.Component {
   movePrev(e) {
     e.preventDefault();
     this.moveToIndex((this.state.index + this.state.photos.length - 1) % this.state.photos.length);
+  }
+  handleKeyDown(e) {
+    if (e.altKey || e.ctrlKey || e.shiftKey) return; // Don't handle keyboard shortcuts
+    switch (e.keyCode) {
+      case 37: // left
+        this.movePrev(e);
+        break;
+      case 39: // right
+        this.moveNext(e);
+        break;
+      default:
+        break;
+    }
   }
   sendGoogleAnalyticsEvent(action, label) {
     if (window.ga) {
