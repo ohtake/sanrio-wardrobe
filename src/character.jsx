@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Photo from './photo.js';
+import TextField from 'material-ui/TextField';
 import ColorSelector from './color_selector.jsx';
 import Gallery from './gallery.jsx';
 import DetailView from './detail_view.jsx';
@@ -12,6 +13,7 @@ export default class Character extends React.Component {
     this.state = { filename: props.params.chara, message: 'Initializing' };
 
     this.colorChanged = this.colorChanged.bind(this);
+    this.handleSearchTextChanged = this.handleSearchTextChanged.bind(this);
   }
   componentDidMount() {
     this.loadPhotos(this.props.params.chara);
@@ -61,6 +63,20 @@ export default class Character extends React.Component {
     }
     this.refs.lightbox.setState({ photos: null, index: 0 });
   }
+  handleSearchTextChanged() {
+    const textbox = this.refs.text;
+    const text = textbox.getValue();
+    const terms = text.split(/[ \u3000]/).filter(t => t.length > 0); // U+3000 = full width space
+    const termsEscaped = terms.map(t => t.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'));
+    const res = termsEscaped.map(te => new RegExp(te));
+    // TODO combination of text and colors does not work for now
+    if (res.length === 0) {
+      this.setState({ photos: this.allPhotos });
+    } else {
+      const photos = this.allPhotos.filter(p => res.every(re => p.match(re)));
+      this.setState({ photos });
+    }
+  }
   colorChanged(sender) {
     const colors = sender.listActiveIds();
     if (colors.length === 0) {
@@ -78,6 +94,7 @@ export default class Character extends React.Component {
   render() {
     return (
       <div>
+        <TextField ref="text" hintText="Search text" onChange={this.handleSearchTextChanged} />
         <ColorSelector ref="color" onChanged={this.colorChanged} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         <Gallery ref="gallery" photos={this.state.photos} chara={this.props.params.chara} />

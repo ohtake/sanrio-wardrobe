@@ -37,4 +37,12 @@ export default class Photo {
     }
     return url;
   }
+  match(re) {
+    if (this.data.title.match(re)) return true;
+    if (this.data.source.author.match(re)) return true;
+    for (const note of this.data.notes) {
+      if (note.match(re)) return true;
+    }
+    return false;
+  }
 }
