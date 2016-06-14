@@ -1,5 +1,6 @@
 import React from 'react';
 
+import _ from 'lodash';
 import Photo from './photo.js';
 import TextField from 'material-ui/TextField';
 import ColorSelector from './color_selector.jsx';
@@ -38,7 +39,7 @@ export default class Character extends React.Component {
     this.searchParams = new SearchParams();
 
     this.colorChanged = this.colorChanged.bind(this);
-    this.handleSearchTextChanged = this.handleSearchTextChanged.bind(this);
+    this.handleSearchTextChanged = _.throttle(this.handleSearchTextChanged.bind(this), 500);
   }
   componentDidMount() {
     this.clearSearch();
