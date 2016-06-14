@@ -40,3 +40,9 @@ export class ContainerClientWidthListener {
     }
   }
 }
+
+export function sendGoogleAnalyticsEvent(category, action, label) {
+  if (window.ga) {
+    window.ga('send', 'event', category, action, label);
+  }
+}

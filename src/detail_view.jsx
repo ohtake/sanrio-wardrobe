@@ -7,6 +7,7 @@ import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import * as svgIcons from 'material-ui/svg-icons';
 import { fade } from 'material-ui/utils/colorManipulator';
+import * as utils from './utils.js';
 
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
 import objectFitImages from 'object-fit-images';
@@ -56,7 +57,7 @@ export default class DetailView extends React.Component {
   moveToIndex(index) {
     const photo = this.state.photos[index];
     this.context.router.replace(`/chara/${this.props.chara}/${window.encodeURIComponent(photo.data.title)}`);
-    this.sendGoogleAnalyticsEvent('navigate', `${this.props.chara} ${photo.data.title}`);
+    utils.sendGoogleAnalyticsEvent('lightbox', 'navigate', `${this.props.chara} ${photo.data.title}`);
   }
   moveNext(e) {
     e.preventDefault();
@@ -78,11 +79,6 @@ export default class DetailView extends React.Component {
         break;
       default:
         break;
-    }
-  }
-  sendGoogleAnalyticsEvent(action, label) {
-    if (window.ga) {
-      window.ga('send', 'event', 'lightbox', action, label);
     }
   }
   createColorSampleStyle(colorValue) {

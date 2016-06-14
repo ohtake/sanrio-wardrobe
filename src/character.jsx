@@ -40,6 +40,7 @@ export default class Character extends React.Component {
 
     this.colorChanged = this.colorChanged.bind(this);
     this.handleSearchTextChanged = _.throttle(this.handleSearchTextChanged.bind(this), 500);
+    this.handleSearchTextBlur = this.handleSearchTextBlur.bind(this);
   }
   componentDidMount() {
     this.clearSearch();
@@ -112,6 +113,12 @@ export default class Character extends React.Component {
     this.searchParams.regexps = res;
     this.execSearch();
   }
+  handleSearchTextBlur() {
+    const text = this.refs.text.getValue().trim();
+    if (text) {
+      utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${this.props.params.chara} ${text}`);
+    }
+  }
   colorChanged(sender) {
     const colors = sender.listActiveIds();
     this.searchParams.colorIds = colors;
@@ -120,7 +127,7 @@ export default class Character extends React.Component {
   render() {
     return (
       <div>
-        <TextField ref="text" hintText="Search text" onChange={this.handleSearchTextChanged} />
+        <TextField ref="text" hintText="Search text" onChange={this.handleSearchTextChanged} onBlur={this.handleSearchTextBlur} />
         <ColorSelector ref="color" onChanged={this.colorChanged} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         <Gallery ref="gallery" photos={this.state.photos} chara={this.props.params.chara} />
