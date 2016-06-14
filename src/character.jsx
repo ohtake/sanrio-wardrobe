@@ -107,7 +107,7 @@ export default class Character extends React.Component {
     const text = textbox.getValue();
     const terms = text.split(/[ \u3000]/).filter(t => t.length > 0); // U+3000 = full width space
     const termsEscaped = terms.map(t => t.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'));
-    const res = termsEscaped.map(te => new RegExp(te));
+    const res = termsEscaped.map(te => new RegExp(te, 'i'));
     this.searchParams.regexps = res;
     this.execSearch();
   }
