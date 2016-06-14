@@ -7,15 +7,41 @@ import Gallery from './gallery.jsx';
 import DetailView from './detail_view.jsx';
 import * as utils from './utils.js';
 
+class SearchParams {
+  constructor() {
+    this.clear();
+  }
+  isEmpty() {
+    if (this.regexps.length) return false;
+    if (this.colorIds.length) return false;
+    return true;
+  }
+  clear() {
+    this.regexps = [];
+    this.colorIds = [];
+  }
+  match(photo) {
+    if (this.regexps.length && ! this.regexps.every(re => photo.match(re))) return false;
+    if (this.colorIds.length) {
+      for (const c of this.colorIds) {
+        if (photo.data.colors.indexOf(c) < 0) return false;
+      }
+    }
+    return true;
+  }
+}
+
 export default class Character extends React.Component {
   constructor(props) {
     super();
     this.state = { filename: props.params.chara, message: 'Initializing' };
+    this.searchParams = new SearchParams();
 
     this.colorChanged = this.colorChanged.bind(this);
     this.handleSearchTextChanged = this.handleSearchTextChanged.bind(this);
   }
   componentDidMount() {
+    this.clearSearch();
     this.loadPhotos(this.props.params.chara);
 
     // Some browsers restore selected value after reload. Needs timeout.
@@ -25,8 +51,8 @@ export default class Character extends React.Component {
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.params.chara !== this.props.params.chara) {
+      this.clearSearch();
       this.loadPhotos(nextProps.params.chara);
-      this.refs.color.clear();
     }
     this.updateLightbox(nextProps);
   }
@@ -63,33 +89,32 @@ export default class Character extends React.Component {
     }
     this.refs.lightbox.setState({ photos: null, index: 0 });
   }
+  execSearch() {
+    if (this.searchParams.isEmpty()) {
+      this.setState({ photos: this.allPhotos });
+    } else {
+      const photos = this.allPhotos.filter(p => this.searchParams.match(p));
+      this.setState({ photos });
+    }
+  }
+  clearSearch() {
+    this.searchParams.clear();
+    this.refs.text.input.value = '';
+    this.refs.color.clear();
+  }
   handleSearchTextChanged() {
     const textbox = this.refs.text;
     const text = textbox.getValue();
     const terms = text.split(/[ \u3000]/).filter(t => t.length > 0); // U+3000 = full width space
     const termsEscaped = terms.map(t => t.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'));
     const res = termsEscaped.map(te => new RegExp(te));
-    // TODO combination of text and colors does not work for now
-    if (res.length === 0) {
-      this.setState({ photos: this.allPhotos });
-    } else {
-      const photos = this.allPhotos.filter(p => res.every(re => p.match(re)));
-      this.setState({ photos });
-    }
+    this.searchParams.regexps = res;
+    this.execSearch();
   }
   colorChanged(sender) {
     const colors = sender.listActiveIds();
-    if (colors.length === 0) {
-      this.setState({ photos: this.allPhotos });
-    } else {
-      const photos = this.allPhotos.filter(p => {
-        for (const c of colors) {
-          if (p.data.colors.indexOf(c) < 0) return false;
-        }
-        return true;
-      });
-      this.setState({ photos });
-    }
+    this.searchParams.colorIds = colors;
+    this.execSearch();
   }
   render() {
     return (
