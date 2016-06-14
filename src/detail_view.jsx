@@ -6,6 +6,7 @@ import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import * as svgIcons from 'material-ui/svg-icons';
+import { fade } from 'material-ui/utils/colorManipulator';
 
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
 import objectFitImages from 'object-fit-images';
@@ -84,12 +85,13 @@ export default class DetailView extends React.Component {
     }
   }
   createColorSampleStyle(colorValue) {
+    const theme = this.context.muiTheme;
     return {
       display: 'inline-block',
       width: '0.8em',
       height: '0.8em',
       margin: '0 0.2em 0',
-      border: 'grey 1px solid',
+      border: `${theme.palette.borderColor} 1px solid`,
       backgroundColor: colorValue,
     };
   }
@@ -103,12 +105,13 @@ export default class DetailView extends React.Component {
     );
   }
   createNotesElement(photo) {
+    const theme = this.context.muiTheme;
     const prefilledTitle = `${photo.data.title} ${photo.data.source.url}`;
     const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(prefilledTitle)}&entry.111224920`;
     return [
       this.createColorSample(photo),
       ...photo.data.notes.map(n => <li>{n}</li>),
-      <li><a href={formUrl} target="_blank" style={{ color: 'white' }}>記述内容の修正などを報告</a></li>,
+      <li><a href={formUrl} target="_blank" style={{ color: theme.palette.textColor }}>記述内容の修正などを報告</a></li>,
     ];
   }
   createCreditElement(photo) {
@@ -131,16 +134,17 @@ export default class DetailView extends React.Component {
     const main = this.state.photos[index];
     const next = this.state.photos[(index + 1) % len];
     const prev = this.state.photos[(index + len - 1) % len];
+    const theme = this.context.muiTheme;
     const navSize = 24;
     const navPadding = 12;
-    const navIconStyle = { width: navSize, height: navSize, fill: 'white' };
+    const navIconStyle = { width: navSize, height: navSize, fill: theme.palette.textColor };
     const navButtonStyle = { width: navSize + 2 * navPadding, height: navSize + 2 * navPadding, padding: navPadding };
     return (
       <Drawer
         open openSecondary docked={false}
         onRequestChange={this.closeDetailView}
         width={this.state.menuWidth}
-        containerStyle={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}
+        containerStyle={{ backgroundColor: fade(theme.palette.canvasColor, 0.8) }}
       >
         <div style={{ position: 'relative', height: '100%', overflow: 'hidden' }}>
           {this.state.showInfo ?
@@ -161,8 +165,8 @@ export default class DetailView extends React.Component {
             <img style={{ display: 'none' }} src={next.inferLargeImage()} alt="*" />
           </div>
           {this.state.showInfo ?
-            <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
-              <ul style={{ margin: `0.25em ${navButtonStyle.width}px`, padding: `0 0 0 ${navPadding}px`, color: 'white' }}>
+            <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4) }}>
+              <ul style={{ margin: `0.25em ${navButtonStyle.width}px`, padding: `0 0 0 ${navPadding}px`, color: theme.palette.textColor }}>
                 {this.createNotesElement(main)}
               </ul>
             </div>
