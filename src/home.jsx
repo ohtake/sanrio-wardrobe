@@ -77,6 +77,14 @@ const software = [
     license: 'The MIT License',
     license_url: 'https://opensource.org/licenses/MIT',
   },
+  {
+    name: 'lodash',
+    url: 'https://lodash.com/',
+    author: 'jQuery Foundation and other contributors',
+    author_url: 'https://jquery.org/',
+    license: 'The MIT License',
+    license_url: 'https://opensource.org/licenses/MIT',
+  },
 ];
 
 const styleSymbol = {

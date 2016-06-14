@@ -67,6 +67,7 @@ export default class DetailView extends React.Component {
     this.moveToIndex((this.state.index + this.state.photos.length - 1) % this.state.photos.length);
   }
   handleKeyDown(e) {
+    if (this.state.photos == null) return; // Don't handle any unless opened
     if (e.altKey || e.ctrlKey || e.shiftKey) return; // Don't handle keyboard shortcuts
     switch (e.keyCode) {
       case 37: // left
