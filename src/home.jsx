@@ -10,8 +10,8 @@ const software = [
     url: 'https://facebook.github.io/react/',
     author: 'Facebook',
     author_url: 'https://github.com/facebook',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
+    license: 'The BSD 3-Clause License',
+    license_url: 'https://opensource.org/licenses/BSD-3-Clause',
   },
   {
     name: 'React Router',
