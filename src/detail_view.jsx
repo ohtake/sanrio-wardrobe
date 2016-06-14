@@ -151,7 +151,7 @@ export default class DetailView extends React.Component {
             <AppBar
               style={{ height: '72px' }}
               titleStyle={{ height: '100px' }}
-              iconElementLeft={<IconButton onTouchTap={this.closeDetailView}><svgIcons.NavigationArrowBack /></IconButton>}
+              iconElementLeft={<IconButton onTouchTap={this.closeDetailView}><svgIcons.NavigationClose /></IconButton>}
               title={
                 <div>
                   <div style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>{main.data.title}</div>
@@ -179,7 +179,7 @@ export default class DetailView extends React.Component {
           </div>
           {this.state.showInfo ? null :
             <div style={{ position: 'absolute', top: 0, left: 0 }}>
-              <IconButton onTouchTap={this.closeDetailView} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationArrowBack /></IconButton>
+              <IconButton onTouchTap={this.closeDetailView} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationClose /></IconButton>
             </div>}
         </div>
       </Drawer>
