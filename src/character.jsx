@@ -3,6 +3,7 @@ import React from 'react';
 import _ from 'lodash';
 import Photo from './photo.js';
 import TextField from 'material-ui/TextField';
+import * as svgIcons from 'material-ui/svg-icons';
 import ColorSelector from './color_selector.jsx';
 import Gallery from './gallery.jsx';
 import DetailView from './detail_view.jsx';
@@ -39,6 +40,7 @@ export default class Character extends React.Component {
     this.searchParams = new SearchParams();
 
     this.colorChanged = this.colorChanged.bind(this);
+    this.handleSearchIconClick = this.handleSearchIconClick.bind(this);
     this.handleSearchTextChanged = _.throttle(this.handleSearchTextChanged.bind(this), 500);
     this.handleSearchTextKeyDown = this.handleSearchTextKeyDown.bind(this);
     this.handleSearchTextBlur = this.handleSearchTextBlur.bind(this);
@@ -100,6 +102,9 @@ export default class Character extends React.Component {
     this.refs.text.input.value = '';
     this.refs.color.clear();
   }
+  handleSearchIconClick() {
+    this.refs.text.input.focus();
+  }
   handleSearchTextChanged() {
     const textbox = this.refs.text;
     const text = textbox.getValue();
@@ -131,9 +136,11 @@ export default class Character extends React.Component {
     this.execSearch();
   }
   render() {
+    const theme = this.context.muiTheme;
     return (
       <div>
         <ColorSelector ref="color" onChanged={this.colorChanged} />
+        <svgIcons.ActionSearch color={theme.palette.textColor} style={{ margin: '0 8 0 12' }} onClick={this.handleSearchIconClick} />
         <TextField ref="text" hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         <Gallery ref="gallery" photos={this.state.photos} chara={this.props.params.chara} />
@@ -144,5 +151,6 @@ export default class Character extends React.Component {
 }
 Character.propTypes = utils.propTypesRoute;
 Character.contextTypes = {
+  muiTheme: React.PropTypes.object.isRequired,
   router: React.PropTypes.object,
 };
