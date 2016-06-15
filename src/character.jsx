@@ -91,10 +91,10 @@ export default class Character extends React.Component {
   }
   execSearch() {
     if (this.searchParams.isEmpty()) {
-      this.setState({ photos: this.allPhotos });
+      this.setState({ photos: this.allPhotos, message: null });
     } else {
       const photos = this.allPhotos.filter(p => this.searchParams.match(p));
-      this.setState({ photos });
+      this.setState({ photos, message: `Displaying ${photos.length} of ${this.allPhotos.length} items` });
     }
   }
   clearSearch() {
