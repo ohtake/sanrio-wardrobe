@@ -40,6 +40,7 @@ export default class Character extends React.Component {
 
     this.colorChanged = this.colorChanged.bind(this);
     this.handleSearchTextChanged = _.throttle(this.handleSearchTextChanged.bind(this), 500);
+    this.handleSearchTextKeyDown = this.handleSearchTextKeyDown.bind(this);
     this.handleSearchTextBlur = this.handleSearchTextBlur.bind(this);
   }
   componentDidMount() {
@@ -108,6 +109,16 @@ export default class Character extends React.Component {
     this.searchParams.regexps = res;
     this.execSearch();
   }
+  handleSearchTextKeyDown(e) {
+    switch (e.keyCode) {
+      case 13: // Enter
+        this.refs.text.input.blur(); // To hide keyboard on mobile phones
+        e.preventDefault();
+        return;
+      default:
+        return;
+    }
+  }
   handleSearchTextBlur() {
     const text = this.refs.text.getValue().trim();
     if (text) {
@@ -122,8 +133,8 @@ export default class Character extends React.Component {
   render() {
     return (
       <div>
-        <TextField ref="text" hintText="Search text" onChange={this.handleSearchTextChanged} onBlur={this.handleSearchTextBlur} />
         <ColorSelector ref="color" onChanged={this.colorChanged} />
+        <TextField ref="text" hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         <Gallery ref="gallery" photos={this.state.photos} chara={this.props.params.chara} />
         <DetailView ref="lightbox" chara={this.props.params.chara} />
