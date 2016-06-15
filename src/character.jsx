@@ -45,11 +45,6 @@ export default class Character extends React.Component {
   componentDidMount() {
     this.clearSearch();
     this.loadPhotos(this.props.params.chara);
-
-    // Some browsers restore selected value after reload. Needs timeout.
-    window.setTimeout(() => {
-      this.refs.gallery.applyThumbnailSize();
-    }, 100);
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.params.chara !== this.props.params.chara) {

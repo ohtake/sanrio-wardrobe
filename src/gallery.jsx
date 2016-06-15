@@ -3,7 +3,6 @@ import { Link } from 'react-router';
 
 import LazyLoad from 'react-lazy-load';
 import JustifiedLayout from 'react-justified-layout';
-import Slider from 'material-ui/Slider';
 
 import Photo from './photo.js';
 import * as utils from './utils.js';
@@ -12,23 +11,21 @@ export default class Gallery extends React.Component {
   constructor() {
     super();
     this.state = { thumbnailHeight: 72 };
-    this.thumbnailSizeChanged = this.thumbnailSizeChanged.bind(this);
     this.widthListener = new utils.ContainerClientWidthListener(this, 'gallery', 'containerWidth');
   }
   componentDidMount() {
     this.widthListener.componentDidMount();
+  }
+  componentWillReceiveProps(nextProps, nextContext) {
+    if (nextContext.thumbnailSize) {
+      this.setState({ thumbnailHeight: nextContext.thumbnailSize });
+    }
   }
   componentDidUpdate(prevProps, prevState) {
     this.widthListener.componentDidUpdate(prevProps, prevState);
   }
   componentWillUnmount() {
     this.widthListener.componentWillUnmount();
-  }
-  applyThumbnailSize() {
-    this.setState({ thumbnailHeight: this.refs.size.state.value });
-  }
-  thumbnailSizeChanged() {
-    this.applyThumbnailSize();
   }
 
   renderGallery() {
@@ -48,7 +45,6 @@ export default class Gallery extends React.Component {
   render() {
     return (
       <div ref="gallery">
-        <Slider ref="size" defaultValue={this.state.thumbnailHeight} min={36} max={288} step={1} description={`Thumbnail size: ${this.state.thumbnailHeight}`} onChange={this.thumbnailSizeChanged} style={{ width: '18em' }} />
         {this.props.photos ? this.renderGallery() : null}
       </div>
     );
@@ -60,4 +56,5 @@ Gallery.propTypes = {
 };
 Gallery.contextTypes = {
   muiTheme: React.PropTypes.object.isRequired,
+  thumbnailSize: React.PropTypes.number,
 };

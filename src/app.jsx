@@ -22,6 +22,7 @@ import * as svgIcons from 'material-ui/svg-icons';
 import IconButton from 'material-ui/IconButton';
 import { Toolbar, ToolbarGroup } from 'material-ui/Toolbar';
 import Toggle from 'material-ui/Toggle';
+import Slider from 'material-ui/Slider';
 
 import DataFile from './data_file.js';
 import Home from './home.jsx';
@@ -72,7 +73,7 @@ applyThemeToBody(themeInitial);
 class App extends React.Component {
   constructor() {
     super();
-    this.state = { menuOpened: false, menuDocked: false, theme: themeInitial };
+    this.state = { menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 72 };
 
     this.handleAppMenu = this.handleAppMenu.bind(this);
     this.handleMenuChange = this.handleMenuChange.bind(this);
@@ -80,11 +81,13 @@ class App extends React.Component {
     this.handleMenuPinned = this.handleMenuPinned.bind(this);
     this.handleMenuClose = this.handleMenuClose.bind(this);
     this.handleThemeToggle = this.handleThemeToggle.bind(this);
+    this.handleThumbnailSizeChange = this.handleThumbnailSizeChange.bind(this);
     this.menuWidth = 250;
   }
   getChildContext() {
     return {
       muiTheme: this.state.theme,
+      thumbnailSize: this.state.thumbnailSize,
     };
   }
   getTitleFromParams() {
@@ -113,6 +116,9 @@ class App extends React.Component {
     const newTheme = this.refs.theme.state.switched ? themeLight : themeDark;
     applyThemeToBody(newTheme);
     this.setState({ theme: newTheme });
+  }
+  handleThumbnailSizeChange() {
+    this.setState({ thumbnailSize: this.refs.thumbnailSize.state.value });
   }
   render() {
     const theme = this.state.theme;
@@ -162,6 +168,9 @@ class App extends React.Component {
           <ListItem>
             <Toggle ref="theme" label="Dark theme" onToggle={this.handleThemeToggle} defaultToggled={themeInitial === themeDark} />
           </ListItem>
+          <ListItem>
+            <Slider ref="thumbnailSize" description={`Thumbnail size: ${this.state.thumbnailSize}`} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
+          </ListItem>
         </List>
       </Drawer>
       <div style={containerStyle}>
@@ -173,6 +182,7 @@ class App extends React.Component {
 App.propTypes = utils.propTypesRoute;
 App.childContextTypes = {
   muiTheme: React.PropTypes.object,
+  thumbnailSize: React.PropTypes.number,
 };
 
 ReactDOM.render((
