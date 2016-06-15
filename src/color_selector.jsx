@@ -1,6 +1,7 @@
 import React from 'react';
 import Colors from './colors.js';
 import FlatButton from 'material-ui/FlatButton';
+import * as svgIcons from 'material-ui/svg-icons';
 
 class ColorItem {
   constructor(id, name, strong, weak) {
@@ -18,8 +19,9 @@ class ColorItem {
 export default class ColorSelector extends React.Component {
   constructor(props) {
     super();
-    this.state = { colors: props.colors };
+    this.state = { colors: props.colors, enabled: false };
 
+    this.start = this.start.bind(this);
     this.toggle = this.toggle.bind(this);
     this.clear = this.clear.bind(this);
   }
@@ -49,6 +51,11 @@ export default class ColorSelector extends React.Component {
     if (c.active) style.backgroundColor = c.weak;
     return style;
   }
+  start() {
+    this.state.enabled = !this.state.enabled;
+    this.onChanged();
+    this.setState({ enabled: this.state.enabled });
+  }
   toggle(e) {
     e.preventDefault();
     const id = e.currentTarget.getAttribute('data');
@@ -66,21 +73,27 @@ export default class ColorSelector extends React.Component {
     this.setState({ colors: this.state.colors });
   }
   listActiveIds() {
+    if (! this.state.enabled) return [];
     return this.state.colors.filter(c => c.active).map(c => c.id);
   }
   isFilterEnabled() {
-    return this.state.colors.some(c => c.active);
+    return this.state.enabled && this.state.colors.some(c => c.active);
+  }
+  listButtons() {
+    return [
+      ...this.state.colors.map(c =>
+        <a key={c.name} href="#" onClick={this.toggle} data={c.id}>
+          <FlatButton label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />
+        </a>),
+      <a key="clear" href="#" onClick={this.clear}>
+        <FlatButton label="CLEAR" style={this.styleBase()} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={! this.isFilterEnabled()} />
+      </a>,
+    ];
   }
   render() {
     return (<div>
-      <span>Color filter</span>
-      {this.state.colors.map(c =>
-        <a key={c.name} href="#" onClick={this.toggle} data={c.id}>
-          <FlatButton label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />
-        </a>)}
-      <a href="#" onClick={this.clear}>
-        <FlatButton label="CLEAR" style={this.styleBase()} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={! this.isFilterEnabled()} />
-      </a>
+      <FlatButton label="Color filter" labelStyle={{ textTransform: 'none' }} icon={<svgIcons.ContentFilterList />} onClick={this.start} />
+      {this.state.enabled ? this.listButtons() : null}
     </div>);
   }
 }
