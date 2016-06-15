@@ -140,7 +140,7 @@ export default class Character extends React.Component {
     return (
       <div>
         <ColorSelector ref="color" onChanged={this.colorChanged} />
-        <svgIcons.ActionSearch color={theme.palette.textColor} style={{ margin: '0 8 0 12' }} onClick={this.handleSearchIconClick} />
+        <svgIcons.ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
         <TextField ref="text" hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         <Gallery ref="gallery" photos={this.state.photos} chara={this.props.params.chara} />
