@@ -8,6 +8,7 @@ import IconButton from 'material-ui/IconButton';
 import * as svgIcons from 'material-ui/svg-icons';
 import { fade } from 'material-ui/utils/colorManipulator';
 import * as utils from './utils.js';
+import AutoLockScrolling from 'material-ui/internal/AutoLockScrolling';
 import Swipeable from 'react-swipeable';
 
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
@@ -159,6 +160,7 @@ export default class DetailView extends React.Component {
         width={this.state.menuWidth}
         containerStyle={{ backgroundColor: fade(theme.palette.canvasColor, 0.8) }}
       >
+        <AutoLockScrolling lock />
         <div style={{ position: 'relative', height: '100%', overflow: 'hidden' }}>
           {this.state.showInfo ?
             <AppBar
