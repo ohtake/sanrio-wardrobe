@@ -1,5 +1,6 @@
 import React from 'react';
 import Colors from './colors.js';
+import _ from 'lodash';
 import verge from 'verge';
 
 import AppBar from 'material-ui/AppBar';
@@ -8,18 +9,24 @@ import IconButton from 'material-ui/IconButton';
 import * as svgIcons from 'material-ui/svg-icons';
 import { fade } from 'material-ui/utils/colorManipulator';
 import * as utils from './utils.js';
+import AutoLockScrolling from 'material-ui/internal/AutoLockScrolling';
+import Swipeable from 'react-swipeable';
 
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
 import objectFitImages from 'object-fit-images';
 objectFitImages();
 
+const swipingRatioThreshold = 0.3;
+
 export default class DetailView extends React.Component {
   constructor() {
     super();
 
-    this.state = { showInfo: true };
+    this.state = { showInfo: true, swipingRatio: 0 };
 
     this.handleResize = this.updateMenuWidth.bind(this);
+    this.handleSwiping = this.handleSwiping.bind(this);
+    this.handleSwiped = this.handleSwiped.bind(this);
     this.closeDetailView = this.closeDetailView.bind(this);
     this.toggleInfo = this.toggleInfo.bind(this);
     this.moveNext = this.moveNext.bind(this);
@@ -36,7 +43,6 @@ export default class DetailView extends React.Component {
     window.removeEventListener('keydown', this.handleKeyDown, false);
   }
   updateMenuWidth() {
-    // Use vierport width because we can hide vertical scrollbar by AppBar.docked=false
     const newWidth = verge.viewportW();
     if (newWidth !== this.state.menuWidth) {
       this.setState({ menuWidth: newWidth });
@@ -66,6 +72,18 @@ export default class DetailView extends React.Component {
   movePrev(e) {
     e.preventDefault();
     this.moveToIndex((this.state.index + this.state.photos.length - 1) % this.state.photos.length);
+  }
+  handleSwiping(e, deltaX/* , deltaY, absX, absY, velocity*/) {
+    const swipingRatio = deltaX / this.state.menuWidth;
+    this.setState({ swipingRatio });
+  }
+  handleSwiped(e/* , deltaX, deltaY, isFlick*/) {
+    if (this.state.swipingRatio > swipingRatioThreshold) {
+      this.moveNext(e);
+    } else if (this.state.swipingRatio < -swipingRatioThreshold) {
+      this.movePrev(e);
+    }
+    this.setState({ swipingRatio: 0 });
   }
   handleKeyDown(e) {
     if (this.state.photos == null) return; // Don't handle any unless opened
@@ -124,7 +142,7 @@ export default class DetailView extends React.Component {
   }
   render() {
     if (this.state.photos == null) {
-      return <Drawer open={false} openSecondary />;
+      return <Drawer open={false} openSecondary docked />;
     }
     const index = this.state.index;
     const len = this.state.photos.length;
@@ -136,13 +154,20 @@ export default class DetailView extends React.Component {
     const navPadding = 12;
     const navIconStyle = { width: navSize, height: navSize, fill: theme.palette.textColor };
     const navButtonStyle = { width: navSize + 2 * navPadding, height: navSize + 2 * navPadding, padding: navPadding };
+    const imgBaseStyle = { position: 'absolute', width: '100%', height: '100%' };
+    const imgMainStyle = _.assign(_.clone(imgBaseStyle), { opacity: (Math.abs(this.state.swipingRatio) <= swipingRatioThreshold) ? 1 : 0.5 });
+    const imgPosition = this.state.menuWidth + theme.spacing.desktopGutterMini;
+    // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
+    const imgPrevStyle = _.assign(_.clone(imgBaseStyle), { left: -imgPosition, objectPosition: '100% 50%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
+    const imgNextStyle = _.assign(_.clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
     return (
       <Drawer
-        open openSecondary docked={false}
+        open openSecondary docked
         onRequestChange={this.closeDetailView}
         width={this.state.menuWidth}
         containerStyle={{ backgroundColor: fade(theme.palette.canvasColor, 0.8) }}
       >
+        <AutoLockScrolling lock />
         <div style={{ position: 'relative', height: '100%', overflow: 'hidden' }}>
           {this.state.showInfo ?
             <AppBar
@@ -156,11 +181,14 @@ export default class DetailView extends React.Component {
                 </div>}
             />
             : null}
-          <div style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, width: '100%' }} onTouchTap={this.toggleInfo}>
-            <img style={{ width: '100%', height: '100%' }} className="image-fit" src={main.inferLargeImage()} alt="*" />
-            <img style={{ display: 'none' }} src={prev.inferLargeImage()} alt="*" />
-            <img style={{ display: 'none' }} src={next.inferLargeImage()} alt="*" />
-          </div>
+          <Swipeable
+            style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, left: (-this.state.swipingRatio * this.state.menuWidth), width: '100%' }}
+            onTouchTap={this.toggleInfo} onSwiping={this.handleSwiping} onSwiped={this.handleSwiped}
+          >
+            <img style={imgMainStyle} className="image-fit" src={main.inferLargeImage()} alt="*" />
+            <img style={imgPrevStyle} className="image-fit" src={prev.inferLargeImage()} alt="*" />
+            <img style={imgNextStyle} className="image-fit" src={next.inferLargeImage()} alt="*" />
+          </Swipeable>
           {this.state.showInfo ?
             <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4) }}>
               <ul style={{ margin: `0.25em ${navButtonStyle.width}px`, padding: `0 0 0 ${navPadding}px`, color: theme.palette.textColor }}>

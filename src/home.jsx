@@ -46,6 +46,14 @@ const software = [
     license_url: 'http://www.isc.org/downloads/software-support-policy/isc-license/',
   },
   {
+    name: 'Swipeable',
+    url: 'https://github.com/dogfessional/react-swipeable',
+    author: 'Dogfessional',
+    author_url: 'https://github.com/dogfessional',
+    license: 'The MIT License',
+    license_url: 'https://opensource.org/licenses/MIT',
+  },
+  {
     name: 'verge',
     url: 'http://verge.airve.com/',
     author: 'Ryan Van Etten',
