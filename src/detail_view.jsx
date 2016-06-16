@@ -1,5 +1,6 @@
 import React from 'react';
 import Colors from './colors.js';
+import _ from 'lodash';
 import verge from 'verge';
 
 import AppBar from 'material-ui/AppBar';
@@ -153,6 +154,11 @@ export default class DetailView extends React.Component {
     const navPadding = 12;
     const navIconStyle = { width: navSize, height: navSize, fill: theme.palette.textColor };
     const navButtonStyle = { width: navSize + 2 * navPadding, height: navSize + 2 * navPadding, padding: navPadding };
+    const imgBaseStyle = { position: 'absolute', width: '100%', height: '100%' };
+    const imgMainStyle = _.assign(_.clone(imgBaseStyle), { opacity: (Math.abs(this.state.swipingRatio) < swipingRatioThreshold) ? 1 : 0.5 });
+    // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
+    const imgPrevStyle = _.assign(_.clone(imgBaseStyle), { left: -this.state.menuWidth, objectPosition: '90% 50%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
+    const imgNextStyle = _.assign(_.clone(imgBaseStyle), { left: +this.state.menuWidth, objectPosition: '10% 50%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
     return (
       <Drawer
         open openSecondary docked
@@ -176,13 +182,11 @@ export default class DetailView extends React.Component {
             : null}
           <Swipeable
             style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, left: (-this.state.swipingRatio * this.state.menuWidth), width: '100%' }}
-            onTouchTap={this.toggleInfo}
-            onSwiping={this.handleSwiping}
-            onSwiped={this.handleSwiped}
+            onTouchTap={this.toggleInfo} onSwiping={this.handleSwiping} onSwiped={this.handleSwiped}
           >
-            <img style={{ position: 'absolute', width: '100%', height: '100%', opacity: (Math.abs(this.state.swipingRatio) < swipingRatioThreshold) ? 1 : 0.5 }} className="image-fit" src={main.inferLargeImage()} alt="*" />
-            <img style={{ position: 'absolute', objectPosition: '90% 50%', left: -this.state.menuWidth, width: '100%', height: '100%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 }} className="image-fit" src={prev.inferLargeImage()} alt="*" />
-            <img style={{ position: 'absolute', objectPosition: '10% 50%', left: +this.state.menuWidth, width: '100%', height: '100%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 }} className="image-fit" src={next.inferLargeImage()} alt="*" />
+            <img style={imgMainStyle} className="image-fit" src={main.inferLargeImage()} alt="*" />
+            <img style={imgPrevStyle} className="image-fit" src={prev.inferLargeImage()} alt="*" />
+            <img style={imgNextStyle} className="image-fit" src={next.inferLargeImage()} alt="*" />
           </Swipeable>
           {this.state.showInfo ?
             <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4) }}>
