@@ -8,6 +8,7 @@ import IconButton from 'material-ui/IconButton';
 import * as svgIcons from 'material-ui/svg-icons';
 import { fade } from 'material-ui/utils/colorManipulator';
 import * as utils from './utils.js';
+import Swipeable from 'react-swipeable';
 
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
 import objectFitImages from 'object-fit-images';
@@ -20,6 +21,8 @@ export default class DetailView extends React.Component {
     this.state = { showInfo: true };
 
     this.handleResize = this.updateMenuWidth.bind(this);
+    this.handleSwipedLeft = this.handleSwipedLeft.bind(this);
+    this.handleSwipedRight = this.handleSwipedRight.bind(this);
     this.closeDetailView = this.closeDetailView.bind(this);
     this.toggleInfo = this.toggleInfo.bind(this);
     this.moveNext = this.moveNext.bind(this);
@@ -36,7 +39,6 @@ export default class DetailView extends React.Component {
     window.removeEventListener('keydown', this.handleKeyDown, false);
   }
   updateMenuWidth() {
-    // Use vierport width because we can hide vertical scrollbar by AppBar.docked=false
     const newWidth = verge.viewportW();
     if (newWidth !== this.state.menuWidth) {
       this.setState({ menuWidth: newWidth });
@@ -66,6 +68,12 @@ export default class DetailView extends React.Component {
   movePrev(e) {
     e.preventDefault();
     this.moveToIndex((this.state.index + this.state.photos.length - 1) % this.state.photos.length);
+  }
+  handleSwipedLeft(e, deltaX, isFlick) {
+    if (isFlick) this.moveNext(e);
+  }
+  handleSwipedRight(e, deltaX, isFlick) {
+    if (isFlick) this.movePrev(e);
   }
   handleKeyDown(e) {
     if (this.state.photos == null) return; // Don't handle any unless opened
@@ -124,7 +132,7 @@ export default class DetailView extends React.Component {
   }
   render() {
     if (this.state.photos == null) {
-      return <Drawer open={false} openSecondary />;
+      return <Drawer open={false} openSecondary docked />;
     }
     const index = this.state.index;
     const len = this.state.photos.length;
@@ -138,7 +146,7 @@ export default class DetailView extends React.Component {
     const navButtonStyle = { width: navSize + 2 * navPadding, height: navSize + 2 * navPadding, padding: navPadding };
     return (
       <Drawer
-        open openSecondary docked={false}
+        open openSecondary docked
         onRequestChange={this.closeDetailView}
         width={this.state.menuWidth}
         containerStyle={{ backgroundColor: fade(theme.palette.canvasColor, 0.8) }}
@@ -156,11 +164,16 @@ export default class DetailView extends React.Component {
                 </div>}
             />
             : null}
-          <div style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, width: '100%' }} onTouchTap={this.toggleInfo}>
+          <Swipeable
+            style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, width: '100%' }}
+            onTouchTap={this.toggleInfo}
+            onSwipedLeft={this.handleSwipedLeft}
+            onSwipedRight={this.handleSwipedRight}
+          >
             <img style={{ width: '100%', height: '100%' }} className="image-fit" src={main.inferLargeImage()} alt="*" />
             <img style={{ display: 'none' }} src={prev.inferLargeImage()} alt="*" />
             <img style={{ display: 'none' }} src={next.inferLargeImage()} alt="*" />
-          </div>
+          </Swipeable>
           {this.state.showInfo ?
             <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4) }}>
               <ul style={{ margin: `0.25em ${navButtonStyle.width}px`, padding: `0 0 0 ${navPadding}px`, color: theme.palette.textColor }}>

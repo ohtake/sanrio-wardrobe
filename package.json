@@ -13,6 +13,7 @@
     "material-ui": "0.15.0",
     "react-tap-event-plugin": "1.0.0",
     "react-justified-layout": "0.0.1",
+    "react-swipeable": "3.5.0",
     "verge": "1.9.1",
     "css-element-queries": "0.3.2",
     "object-fit-images": "2.5.3",
