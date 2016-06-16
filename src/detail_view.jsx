@@ -14,15 +14,17 @@ import Swipeable from 'react-swipeable';
 import objectFitImages from 'object-fit-images';
 objectFitImages();
 
+const swipingRatioThreshold = 0.3;
+
 export default class DetailView extends React.Component {
   constructor() {
     super();
 
-    this.state = { showInfo: true };
+    this.state = { showInfo: true, swipingRatio: 0 };
 
     this.handleResize = this.updateMenuWidth.bind(this);
-    this.handleSwipedLeft = this.handleSwipedLeft.bind(this);
-    this.handleSwipedRight = this.handleSwipedRight.bind(this);
+    this.handleSwiping = this.handleSwiping.bind(this);
+    this.handleSwiped = this.handleSwiped.bind(this);
     this.closeDetailView = this.closeDetailView.bind(this);
     this.toggleInfo = this.toggleInfo.bind(this);
     this.moveNext = this.moveNext.bind(this);
@@ -69,11 +71,17 @@ export default class DetailView extends React.Component {
     e.preventDefault();
     this.moveToIndex((this.state.index + this.state.photos.length - 1) % this.state.photos.length);
   }
-  handleSwipedLeft(e, deltaX, isFlick) {
-    if (isFlick) this.moveNext(e);
+  handleSwiping(e, deltaX/* , deltaY, absX, absY, velocity*/) {
+    const swipingRatio = deltaX / this.state.menuWidth;
+    this.setState({ swipingRatio });
   }
-  handleSwipedRight(e, deltaX, isFlick) {
-    if (isFlick) this.movePrev(e);
+  handleSwiped(e/* , deltaX, deltaY, isFlick*/) {
+    if (this.state.swipingRatio > swipingRatioThreshold) {
+      this.moveNext(e);
+    } else if (this.state.swipingRatio < -swipingRatioThreshold) {
+      this.movePrev(e);
+    }
+    this.setState({ swipingRatio: 0 });
   }
   handleKeyDown(e) {
     if (this.state.photos == null) return; // Don't handle any unless opened
@@ -165,14 +173,14 @@ export default class DetailView extends React.Component {
             />
             : null}
           <Swipeable
-            style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, width: '100%' }}
+            style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, left: (-this.state.swipingRatio * this.state.menuWidth), width: '100%' }}
             onTouchTap={this.toggleInfo}
-            onSwipedLeft={this.handleSwipedLeft}
-            onSwipedRight={this.handleSwipedRight}
+            onSwiping={this.handleSwiping}
+            onSwiped={this.handleSwiped}
           >
-            <img style={{ width: '100%', height: '100%' }} className="image-fit" src={main.inferLargeImage()} alt="*" />
-            <img style={{ display: 'none' }} src={prev.inferLargeImage()} alt="*" />
-            <img style={{ display: 'none' }} src={next.inferLargeImage()} alt="*" />
+            <img style={{ position: 'absolute', width: '100%', height: '100%', opacity: (Math.abs(this.state.swipingRatio) < swipingRatioThreshold) ? 1 : 0.5 }} className="image-fit" src={main.inferLargeImage()} alt="*" />
+            <img style={{ position: 'absolute', objectPosition: '90% 50%', left: -this.state.menuWidth, width: '100%', height: '100%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 }} className="image-fit" src={prev.inferLargeImage()} alt="*" />
+            <img style={{ position: 'absolute', objectPosition: '10% 50%', left: +this.state.menuWidth, width: '100%', height: '100%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 }} className="image-fit" src={next.inferLargeImage()} alt="*" />
           </Swipeable>
           {this.state.showInfo ?
             <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4) }}>
