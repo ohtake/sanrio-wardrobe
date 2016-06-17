@@ -19,6 +19,7 @@ import { List, ListItem } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import Subheader from 'material-ui/Subheader';
 import * as svgIcons from 'material-ui/svg-icons';
+import IconMenu from 'material-ui/IconMenu';
 import IconButton from 'material-ui/IconButton';
 import { Toolbar, ToolbarGroup } from 'material-ui/Toolbar';
 import Toggle from 'material-ui/Toggle';
@@ -82,6 +83,7 @@ class App extends React.Component {
     this.handleMenuClose = this.handleMenuClose.bind(this);
     this.handleThemeToggle = this.handleThemeToggle.bind(this);
     this.handleThumbnailSizeChange = this.handleThumbnailSizeChange.bind(this);
+    this.handleFeedback = this.handleFeedback.bind(this);
     this.menuWidth = 250;
   }
   getChildContext() {
@@ -120,6 +122,10 @@ class App extends React.Component {
   handleThumbnailSizeChange() {
     this.setState({ thumbnailSize: this.refs.thumbnailSize.state.value });
   }
+  handleFeedback() {
+    const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(window.location.href)}&entry.111224920`;
+    window.open(formUrl);
+  }
   render() {
     const theme = this.state.theme;
     const containerStyle = {
@@ -137,7 +143,21 @@ class App extends React.Component {
         title={this.getTitleFromParams()}
         onLeftIconButtonTouchTap={this.handleAppMenu}
         showMenuIconButton={!this.state.menuOpened || !this.state.menuDocked}
-        style={{ position: 'fixed', top: 0 }}
+        style={{ position: 'fixed', top: 0, left: (this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0), right: 0, width: null }}
+        iconElementRight={
+          <IconMenu iconButtonElement={<IconButton><svgIcons.ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
+            <List>
+              <ListItem leftIcon={<svgIcons.ImageColorLens />} onTouchTap={this.handleThemeToggle}>
+                <Toggle ref="theme" label="Dark theme" defaultToggled={this.state.theme === themeDark} />
+              </ListItem>
+              <ListItem leftIcon={<svgIcons.ImagePhotoSizeSelectLarge />}>
+                <Slider ref="thumbnailSize" description={`Thumbnail size: ${this.state.thumbnailSize}`} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
+              </ListItem>
+              <Divider />
+              <ListItem primaryText="Feedback" leftIcon={<svgIcons.ActionFeedback />} onTouchTap={this.handleFeedback} />
+            </List>
+          </IconMenu>
+        }
       />
       <Drawer open={this.state.menuOpened} docked={this.state.menuDocked} onRequestChange={this.handleMenuChange} containerClassName="appMenu" width={this.menuWidth}>
         <Toolbar>
@@ -163,14 +183,6 @@ class App extends React.Component {
             <Link key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-event-category="chara" data-event-action="appMenu" data-event-label={c.name}>
               <ListItem primaryText={c.getDisplayName()} leftAvatar={<Avatar src={c.picUrl} />} />
             </Link>)}
-          <Divider />
-          <Subheader>Settings</Subheader>
-          <ListItem>
-            <Toggle ref="theme" label="Dark theme" onToggle={this.handleThemeToggle} defaultToggled={themeInitial === themeDark} />
-          </ListItem>
-          <ListItem>
-            <Slider ref="thumbnailSize" description={`Thumbnail size: ${this.state.thumbnailSize}`} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
-          </ListItem>
         </List>
       </Drawer>
       <div style={containerStyle}>
