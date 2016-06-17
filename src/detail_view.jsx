@@ -4,8 +4,11 @@ import _ from 'lodash';
 import verge from 'verge';
 
 import AppBar from 'material-ui/AppBar';
+import Divider from 'material-ui/Divider';
 import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
+import IconMenu from 'material-ui/IconMenu';
+import { List, ListItem } from 'material-ui/List';
 import * as svgIcons from 'material-ui/svg-icons';
 import { fade } from 'material-ui/utils/colorManipulator';
 import * as utils from './utils.js';
@@ -28,6 +31,8 @@ export default class DetailView extends React.Component {
     this.handleSwiping = this.handleSwiping.bind(this);
     this.handleSwiped = this.handleSwiped.bind(this);
     this.closeDetailView = this.closeDetailView.bind(this);
+    this.openImageSource = this.openImageSource.bind(this);
+    this.openFeedback = this.openFeedback.bind(this);
     this.toggleInfo = this.toggleInfo.bind(this);
     this.moveNext = this.moveNext.bind(this);
     this.movePrev = this.movePrev.bind(this);
@@ -72,6 +77,14 @@ export default class DetailView extends React.Component {
   movePrev(e) {
     e.preventDefault();
     this.moveToIndex((this.state.index + this.state.photos.length - 1) % this.state.photos.length);
+  }
+  openImageSource() {
+    const photo = this.state.photos[this.state.index];
+    window.open(photo.data.source.url);
+  }
+  openFeedback() {
+    const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(window.location.href)}&entry.111224920`;
+    window.open(formUrl);
   }
   handleSwiping(e, deltaX/* , deltaY, absX, absY, velocity*/) {
     const swipingRatio = deltaX / this.state.menuWidth;
@@ -120,13 +133,9 @@ export default class DetailView extends React.Component {
     );
   }
   createNotesElement(photo) {
-    const theme = this.context.muiTheme;
-    const prefilledTitle = `${photo.data.title} ${photo.data.source.url}`;
-    const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(prefilledTitle)}&entry.111224920`;
     return [
       this.createColorSample(photo),
       ...photo.data.notes.map(n => <li>{n}</li>),
-      <li><a href={formUrl} target="_blank" style={{ color: theme.palette.textColor }}>記述内容の修正などを報告</a></li>,
     ];
   }
   createCreditElement(photo) {
@@ -150,10 +159,6 @@ export default class DetailView extends React.Component {
     const next = this.state.photos[(index + 1) % len];
     const prev = this.state.photos[(index + len - 1) % len];
     const theme = this.context.muiTheme;
-    const navSize = 24;
-    const navPadding = 12;
-    const navIconStyle = { width: navSize, height: navSize, fill: theme.palette.textColor };
-    const navButtonStyle = { width: navSize + 2 * navPadding, height: navSize + 2 * navPadding, padding: navPadding };
     const imgBaseStyle = { position: 'absolute', width: '100%', height: '100%' };
     const imgMainStyle = _.assign(_.clone(imgBaseStyle), { opacity: (Math.abs(this.state.swipingRatio) <= swipingRatioThreshold) ? 1 : 0.5 });
     const imgPosition = this.state.menuWidth + theme.spacing.desktopGutterMini;
@@ -179,6 +184,18 @@ export default class DetailView extends React.Component {
                   <div style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>{main.data.title}</div>
                   <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', margin: '-40px 0 0', fontSize: '60%' }}>{this.createCreditElement(main)}</div>
                 </div>}
+              iconElementRight={
+                <IconMenu iconButtonElement={<IconButton><svgIcons.NavigationMoreVert /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
+                  <List>
+                    <ListItem primaryText="Open image source" leftIcon={<svgIcons.ActionOpenInBrowser />} secondaryText="Tap the credit" onTouchTap={this.openImageSource} />
+                    <ListItem primaryText="Fullscreen" leftIcon={<svgIcons.NavigationFullscreen />} secondaryText="Tap the image" onTouchTap={this.toggleInfo} />
+                    <ListItem primaryText="Move Previous" leftIcon={<svgIcons.NavigationChevronLeft />} secondaryText="Swipe right / Left key" onTouchTap={this.movePrev} />
+                    <ListItem primaryText="Move Next" leftIcon={<svgIcons.NavigationChevronRight />} secondaryText="Swipe left / Right key" onTouchTap={this.moveNext} />
+                    <Divider />
+                    <ListItem primaryText="Feedback" leftIcon={<svgIcons.ActionFeedback />} onTouchTap={this.openFeedback} />
+                  </List>
+                </IconMenu>
+              }
             />
             : null}
           <Swipeable
@@ -191,21 +208,11 @@ export default class DetailView extends React.Component {
           </Swipeable>
           {this.state.showInfo ?
             <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4) }}>
-              <ul style={{ margin: `0.25em ${navButtonStyle.width}px`, padding: `0 0 0 ${navPadding}px`, color: theme.palette.textColor }}>
+              <ul style={{ margin: theme.spacing.desktopGutterMini, padding: '0 0 0 1.5em' }}>
                 {this.createNotesElement(main)}
               </ul>
             </div>
             : null}
-          <div style={{ position: 'absolute', bottom: 0, left: 0 }}>
-            <IconButton onTouchTap={this.movePrev} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationChevronLeft /></IconButton>
-          </div>
-          <div style={{ position: 'absolute', bottom: 0, right: 0 }}>
-            <IconButton onTouchTap={this.moveNext} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationChevronRight /></IconButton>
-          </div>
-          {this.state.showInfo ? null :
-            <div style={{ position: 'absolute', top: 0, left: 0 }}>
-              <IconButton onTouchTap={this.closeDetailView} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationArrowBack /></IconButton>
-            </div>}
         </div>
       </Drawer>
     );
