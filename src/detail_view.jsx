@@ -28,7 +28,7 @@ export default class DetailView extends React.Component {
     this.state = { showInfo: true, swipingRatio: 0 };
 
     this.handleResize = this.updateMenuWidth.bind(this);
-    this.handleSwiping = this.handleSwiping.bind(this);
+    this.handleSwiping = _.throttle(this.handleSwiping.bind(this), 50);
     this.handleSwiped = this.handleSwiped.bind(this);
     this.closeDetailView = this.closeDetailView.bind(this);
     this.openImageSource = this.openImageSource.bind(this);
@@ -91,6 +91,7 @@ export default class DetailView extends React.Component {
     this.setState({ swipingRatio });
   }
   handleSwiped(e/* , deltaX, deltaY, isFlick*/) {
+    this.handleSwiping.flush();
     if (this.state.swipingRatio > swipingRatioThreshold) {
       this.moveNext(e);
     } else if (this.state.swipingRatio < -swipingRatioThreshold) {
