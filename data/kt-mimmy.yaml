@@ -212,7 +212,7 @@
     image: "https://lh3.googleusercontent.com/-71M5MoKUBoc/UOQcSs8om2I/AAAAAAAAH9Y/UH6CLGjBG24EzLyYfDtLkoEWQPks7PUGgCCo/s500/5D3C1972%2B%2528960x1440%2529.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/KWq2J5iERL6I-qosUI9iZdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440, max_len: 500 }
-    colors: ["red", "white"]
+    colors: ["yellow", "red", "green", "black", "white"]
     notes:
       - 着物、和服、梅
   - 

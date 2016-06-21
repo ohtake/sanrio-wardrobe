@@ -141,7 +141,7 @@
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["pink", "white", "silver"]
     notes:
-      - 水玉
+      - 星の水玉
   - 
     title: "5D3T2102"
     image: "https://farm8.staticflickr.com/7561/16276525461_4d051db864.jpg"
@@ -254,8 +254,28 @@
     image: "https://farm6.staticflickr.com/5738/22484232818_9c919e0275.jpg"
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22484232818"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
-    colors: ["pink", "white"]
+    colors: ["pink", "red", "green", "white"]
     notes:
+      - 赤バラバージョン
+      - バラ
+  - 
+    title: "5D3O6590"
+    image: "https://c7.staticflickr.com/6/5570/14569103238_da000b2b96.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14569103238"}
+    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    colors: ["pink", "purple", "green", "white"]
+    notes:
+      - メルヘンシアター『ハローキティの妖精フローレンス』レビューパート1着目
+      - 紫バラバージョン
+      - バラ
+  - 
+    title: "5D3V6450"
+    image: "https://c8.staticflickr.com/1/570/21125356943_766e736ccf.jpg"
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21125356943"}
+    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    colors: ["pink", "purple", "green", "white"]
+    notes:
+      - 紫バラバージョンで袖がレースではなくメッシュ
       - バラ
   - 
     title: "5D3V8498"
@@ -927,7 +947,7 @@
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["pink", "white", "gold"]
     notes:
-      - メルヘンシアター『ハローキティの妖精フローレンス』レビューパートの衣装から頭上の飾りをなくした版
+      - メルヘンシアター『ハローキティの妖精フローレンス』レビューパート3着目の衣装から頭上の飾りをなくした版
       - バラ、多段フリル
   - 
     title: "5D3Q4934"
@@ -1017,7 +1037,7 @@
     size: { width_o: 1440, height_o: 960, max_len: 500 }
     colors: ["pink", "white", "yellow", "green"]
     notes:
-      - メルヘンシアター『ハローキティの妖精フローレンス』
+      - メルヘンシアター『ハローキティの妖精フローレンス』の胸の花が異なるバージョン
       - フェアリーランドシアター『アニバーサリータイム』
       - チューリップ
   - 
@@ -1745,7 +1765,7 @@
     image: "https://c7.staticflickr.com/1/741/20197968934_76d8aab5bf.jpg"
     source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/20197968934"}
     size: { width_o: 3641, height_o: 5461, max_len: 500 }
-    colors: ["pink", "white", "green"]
+    colors: ["red", "pink", "white", "green"]
     notes:
       - ハローキティ35周年公募衣装
       - いちご、生クリーム、リボン
@@ -1806,6 +1826,23 @@
     notes:
       - ユニバーサルスタジオジャパン『パレードデカーニバル』
       - バラ、仮面
+  - 
+    title: "DSC_0757"
+    image: "https://c5.staticflickr.com/8/7139/26758135604_72fa8d9557.jpg"
+    source: { author: "にゃむ", license: "", url: "https://www.flickr.com/photos/124913439@N07/26758135604"}
+    size: { width_o: 4000, height_o: 6016, max_len: 500 }
+    colors: ["blue", "white", "yellow"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - ストライプ
+  - 
+    title: "IMG_1405"
+    image: "https://c3.staticflickr.com/9/8580/16006679578_5d88ca803d.jpg"
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16006679578"}
+    size: { width_o: 5184, height_o: 3456, max_len: 500 }
+    colors: ["black", "red", "white", "pink"]
+    notes:
+      - 水玉、スパンコール、ベルト
   - 
     title: "IMG_2857"
     image: "https://c4.staticflickr.com/6/5624/22302652979_bdb7efcc07.jpg"
