@@ -45,7 +45,7 @@
   },
   "scripts": {
     "clean": "rm -rf assets/",
-    "lint": "eslint webpack.*.js src/* --color",
+    "lint": "eslint webpack.*.js src/* test/* --color",
     "test": "cross-env NODE_ENV=test babel-node test/index.spec.js",
     "build": "cross-env NODE_ENV=production webpack --progress --colors",
     "start": "cross-env NODE_ENV=development webpack-dev-server --progress --colors",

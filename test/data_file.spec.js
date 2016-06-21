@@ -4,7 +4,7 @@ import DataFile from '../src/data_file.js';
 import fs from 'fs';
 import yaml from 'js-yaml';
 
-/* eslint-disable prefer-arrow-callback, func-names, no-unused-expressions */
+/* eslint-disable no-unused-expressions */
 
 function assertUniqueStringArray(array) {
   expect(array).to.be.an('array');
@@ -15,6 +15,8 @@ function assertUniqueStringArray(array) {
     expect(i, `non-unique ${s}`).to.equal(lastIndex);
   });
 }
+
+/* eslint-disable prefer-arrow-callback, func-names */
 
 describe('DataFile', function () {
   describe('.all', function () {
