@@ -22,6 +22,7 @@
   "peerDependencies": {
   },
   "devDependencies": {
+    "cross-env": "1.0.8",
     "webpack": "1.13.1",
     "babel-loader": "6.2.4",
     "babel-core": "6.9.1",
@@ -42,8 +43,8 @@
   "scripts": {
     "clean": "rm -rf assets/",
     "lint": "eslint webpack.*.js src/* --color",
-    "build": "webpack --config webpack.config.production.babel.js --progress --colors",
-    "start": "webpack-dev-server --progress --colors",
+    "build": "cross-env NODE_ENV=production webpack --progress --colors",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --progress --colors",
     "server": "http-server"
   }
 }
