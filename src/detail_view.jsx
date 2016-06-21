@@ -160,6 +160,10 @@ export default class DetailView extends React.Component {
     const next = this.state.photos[(index + 1) % len];
     const prev = this.state.photos[(index + len - 1) % len];
     const theme = this.context.muiTheme;
+    const navSize = 24;
+    const navPadding = 12;
+    const navIconStyle = { width: navSize, height: navSize, fill: theme.palette.textColor };
+    const navButtonStyle = { width: navSize + 2 * navPadding, height: navSize + 2 * navPadding, padding: navPadding };
     const imgBaseStyle = { position: 'absolute', width: '100%', height: '100%' };
     const imgMainStyle = _.assign(_.clone(imgBaseStyle), { opacity: (Math.abs(this.state.swipingRatio) <= swipingRatioThreshold) ? 1 : 0.5 });
     const imgPosition = this.state.menuWidth + theme.spacing.desktopGutterMini;
@@ -209,11 +213,21 @@ export default class DetailView extends React.Component {
           </Swipeable>
           {this.state.showInfo ?
             <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4) }}>
-              <ul style={{ margin: theme.spacing.desktopGutterMini, padding: '0 0 0 1.5em' }}>
+              <ul style={{ margin: `${theme.spacing.desktopGutterMini}px ${navButtonStyle.width}px`, padding: '0 0 0 1.5em' }}>
                 {this.createNotesElement(main)}
               </ul>
             </div>
             : null}
+          <div style={{ position: 'absolute', bottom: 0, left: 0 }}>
+            <IconButton onTouchTap={this.movePrev} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationChevronLeft /></IconButton>
+          </div>
+          <div style={{ position: 'absolute', bottom: 0, right: 0 }}>
+            <IconButton onTouchTap={this.moveNext} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationChevronRight /></IconButton>
+          </div>
+          {this.state.showInfo ? null :
+            <div style={{ position: 'absolute', top: 0, left: 0 }}>
+              <IconButton onTouchTap={this.closeDetailView} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationArrowBack /></IconButton>
+            </div>}
         </div>
       </Drawer>
     );
