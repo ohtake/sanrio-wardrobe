@@ -61,6 +61,7 @@ export default class DetailView extends React.Component {
       // User opened lightbox url directly
       this.context.router.replace(`/chara/${this.props.chara}`);
     }
+    this.state.showInfo = true;
   }
   toggleInfo() {
     this.setState({ showInfo: !this.state.showInfo });
