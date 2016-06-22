@@ -5,7 +5,7 @@ export default class Photo {
 
   static loadPhotos(file, callback) {
     /* eslint-disable global-require */
-    const actualFilename = require(`file?name=[name]-[hash:6].json!./../data/${file}.yaml`);
+    const actualFilename = require(`file?name=[name].json!./../data/${file}.yaml`);
     /* eslint-enable */
 
     window.fetch(actualFilename).then(res => {
