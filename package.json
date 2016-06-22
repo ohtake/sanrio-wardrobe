@@ -25,7 +25,7 @@
     "cross-env": "1.0.8",
     "mocha": "2.5.3",
     "chai": "3.5.0",
-    "babel-cli": "6.10.1",
+    "babel-register": "6.9.0",
     "webpack": "1.13.1",
     "babel-loader": "6.2.4",
     "babel-core": "6.9.1",
@@ -46,7 +46,8 @@
   "scripts": {
     "clean": "rm -rf assets/",
     "lint": "eslint webpack.*.js src/* test/* --color",
-    "test": "cross-env NODE_ENV=test babel-node test/index.spec.js",
+    "test": "cross-env NODE_ENV=test mocha --colors --compilers js:babel-register",
+    "test:watch": "npm run test -- --reporter dot --watch",
     "build": "cross-env NODE_ENV=production webpack --progress --colors",
     "start": "cross-env NODE_ENV=development webpack-dev-server --progress --colors",
     "server": "http-server"
