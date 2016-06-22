@@ -115,4 +115,25 @@ describe('Photo', function () {
       expect(photo.getSrcSet()).to.equal('https://placehold.it/600x400 600w, https://placehold.it/900x600 900w, https://placehold.it/1200x800 1200w');
     });
   });
+  describe('#prepareSize', function () {
+    it('should fill all of width, height, or max', function () {
+      const photoL = new Photo(photoSrcsetLandscape);
+      let r;
+      r = photoL.prepareSize(photoL.data.images[0]);
+      expect(r).to.have.property('url');
+      expect(r).to.have.property('width', 600);
+      expect(r).to.have.property('height', 400);
+      expect(r).to.have.property('max', 600);
+      r = photoL.prepareSize(photoL.data.images[1]);
+      expect(r).to.have.property('url');
+      expect(r).to.have.property('width', 900);
+      expect(r).to.have.property('height', 600);
+      expect(r).to.have.property('max', 900);
+      r = photoL.prepareSize(photoL.data.images[2]);
+      expect(r).to.have.property('url');
+      expect(r).to.have.property('width', 1200);
+      expect(r).to.have.property('height', 800);
+      expect(r).to.have.property('max', 1200);
+    });
+  });
 });

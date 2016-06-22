@@ -25,6 +25,22 @@ export default class Photo {
     });
   }
 
+  prepareSize(image) {
+    const ret = { url: image.url };
+    ret.width = this.calcWidth(image);
+    ret.height = this.calcHeight(image);
+    ret.max = Math.max(ret.width, ret.height);
+    return ret;
+  }
+  calcHeight(image) {
+    if (image.height) return image.height;
+    if (image.width) return Math.round(1.0 * this.data.size.height_o * image.width / this.data.size.width_o);
+    if (image.max) {
+      if (this.data.size.height_o >= this.data.size.width_o) return image.max;
+      return Math.round(1.0 * this.data.size.height_o * image.max / this.data.size.width_o);
+    }
+    throw new Error('Cannot calc image height');
+  }
   calcWidth(image) {
     if (image.width) return image.width;
     if (image.height) return Math.round(1.0 * this.data.size.width_o * image.height / this.data.size.height_o);
