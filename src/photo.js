@@ -25,6 +25,29 @@ export default class Photo {
     });
   }
 
+  calcWidth(image) {
+    if (image.width) return image.width;
+    if (image.height) return Math.round(1.0 * this.data.size.width_o * image.height / this.data.size.height_o);
+    if (image.max) {
+      if (this.data.size.width_o >= this.data.size.height_o) return image.max;
+      return Math.round(1.0 * this.data.size.width_o * image.max / this.data.size.height_o);
+    }
+    throw new Error('Cannot calc image width');
+  }
+  getSrcSet() {
+    let srcset;
+    if (this.data.images) {
+      srcset = this.data.images.map(i => `${i.url} ${this.calcWidth(i)}w`);
+    } else {
+      srcset = [`${this.data.image} ${this.data.size.max_len}w`];
+      const largeUrl = this.inferLargeImage();
+      if (largeUrl !== this.data.image) {
+        const largeDummy = { max: 1024 };
+        srcset.push(`${largeUrl} ${this.calcWidth(largeDummy)}w`);
+      }
+    }
+    return srcset.join(', ');
+  }
   getAspectRatio() {
     return 1.0 * this.data.size.width_o / this.data.size.height_o;
   }
