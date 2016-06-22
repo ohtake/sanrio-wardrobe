@@ -136,4 +136,14 @@ describe('Photo', function () {
       expect(r).to.have.property('max', 1200);
     });
   });
+  describe('#getLargestImageAtMost', function () {
+    it('should return the most suitable one', function () {
+      const photoL = new Photo(photoSrcsetLandscape);
+      expect(photoL.getLargestImageAtMost(500)).to.have.property('url', 'https://placehold.it/600x400');
+      expect(photoL.getLargestImageAtMost(600)).to.have.property('url', 'https://placehold.it/600x400');
+      expect(photoL.getLargestImageAtMost(899)).to.have.property('url', 'https://placehold.it/600x400');
+      expect(photoL.getLargestImageAtMost(900)).to.have.property('url', 'https://placehold.it/900x600');
+      expect(photoL.getLargestImageAtMost(2000)).to.have.property('url', 'https://placehold.it/1200x800');
+    });
+  });
 });
