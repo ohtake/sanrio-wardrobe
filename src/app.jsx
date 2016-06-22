@@ -9,9 +9,6 @@ import { createHashHistory } from 'history';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
-import * as Colors from 'material-ui/styles/colors.js';
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
 import Drawer from 'material-ui/Drawer';
@@ -29,51 +26,15 @@ import DataFile from './data_file.js';
 import Home from './home.jsx';
 import Character from './character.jsx';
 import * as utils from './utils.js';
-
-// See https://github.com/callemall/material-ui/tree/master/src/styles for theme definition
-const themeLight = getMuiTheme({
-  palette: {
-    primary1Color: Colors.indigo500,
-    primary2Color: Colors.indigo700,
-    pickerHeaderColor: Colors.indigo500,
-  },
-});
-const themeDark = getMuiTheme(darkBaseTheme, {
-  palette: {
-    primary1Color: Colors.indigo500,
-    primary2Color: Colors.indigo300,
-    accent2Color: Colors.grey700,
-    pickerHeaderColor: Colors.indigo500,
-  },
-  appBar: {
-    textColor: Colors.fullWhite,
-  },
-});
-
-let elStyle = null;
-function applyThemeToBody(theme) {
-  document.body.style.color = theme.palette.textColor;
-  document.body.style.backgroundColor = theme.palette.canvasColor;
-  document.body.style.fontFamily = theme.fontFamily;
-  if (elStyle != null) {
-    document.head.removeChild(elStyle);
-  }
-  elStyle = document.createElement('style');
-  document.head.appendChild(elStyle);
-  const stylesheet = elStyle.sheet;
-  stylesheet.insertRule(`a { color: ${theme.palette.primary2Color}; }`, stylesheet.cssRules.length);
-}
-function getInitialTheme() {
-  const h = new Date().getHours();
-  const isDaytime = h >= 6 && h < 18;
-  return isDaytime ? themeLight : themeDark;
-}
-const themeInitial = getInitialTheme();
-applyThemeToBody(themeInitial);
+import * as themes from './themes.js';
 
 class App extends React.Component {
   constructor() {
     super();
+
+    const themeInitial = themes.getInitialTheme();
+    themes.applyThemeToBody(themeInitial);
+
     this.state = { menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 72 };
 
     this.handleAppMenu = this.handleAppMenu.bind(this);
@@ -115,8 +76,8 @@ class App extends React.Component {
     window.setTimeout(() => this.setState({ menuOpened: false }), 200);
   }
   handleThemeToggle() {
-    const newTheme = this.refs.theme.state.switched ? themeLight : themeDark;
-    applyThemeToBody(newTheme);
+    const newTheme = this.refs.theme.state.switched ? themes.themeLight : themes.themeDark;
+    themes.applyThemeToBody(newTheme);
     this.setState({ theme: newTheme });
   }
   handleThumbnailSizeChange() {
@@ -148,7 +109,7 @@ class App extends React.Component {
           <IconMenu iconButtonElement={<IconButton><svgIcons.ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
             <List>
               <ListItem leftIcon={<svgIcons.ImageColorLens />} onTouchTap={this.handleThemeToggle}>
-                <Toggle ref="theme" label="Dark theme" defaultToggled={this.state.theme === themeDark} />
+                <Toggle ref="theme" label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
               </ListItem>
               <ListItem leftIcon={<svgIcons.ImagePhotoSizeSelectLarge />}>
                 <Slider ref="thumbnailSize" description={`Thumbnail size: ${this.state.thumbnailSize}`} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
