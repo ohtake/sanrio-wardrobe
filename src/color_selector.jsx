@@ -1,7 +1,7 @@
 import React from 'react';
 import Colors from './colors.js';
 import FlatButton from 'material-ui/FlatButton';
-import * as svgIcons from 'material-ui/svg-icons';
+import ContentFilterList from 'material-ui/svg-icons/content/filter-list';
 
 class ColorItem {
   constructor(id, name, strong, weak) {
@@ -92,7 +92,7 @@ export default class ColorSelector extends React.Component {
   }
   render() {
     return (<div>
-      <FlatButton label="Color filter" labelStyle={{ textTransform: 'none' }} icon={<svgIcons.ContentFilterList />} onClick={this.start} />
+      <FlatButton label="Color filter" labelStyle={{ textTransform: 'none' }} icon={<ContentFilterList />} onClick={this.start} />
       {this.state.enabled ? this.listButtons() : null}
     </div>);
   }

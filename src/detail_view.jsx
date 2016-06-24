@@ -9,11 +9,17 @@ import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import IconMenu from 'material-ui/IconMenu';
 import { List, ListItem } from 'material-ui/List';
-import * as svgIcons from 'material-ui/svg-icons';
 import { fade } from 'material-ui/utils/colorManipulator';
 import * as utils from './utils.js';
 import AutoLockScrolling from 'material-ui/internal/AutoLockScrolling';
 import Swipeable from 'react-swipeable';
+import ActionFeedback from 'material-ui/svg-icons/action/feedback';
+import ActionOpenInBrowser from 'material-ui/svg-icons/action/open-in-browser';
+import NavigationArrowBack from 'material-ui/svg-icons/navigation/arrow-back';
+import NavigationChevronLeft from 'material-ui/svg-icons/navigation/chevron-left';
+import NavigationChevronRight from 'material-ui/svg-icons/navigation/chevron-right';
+import NavigationFullscreen from 'material-ui/svg-icons/navigation/fullscreen';
+import NavigationMoreVert from 'material-ui/svg-icons/navigation/more-vert';
 
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
 import objectFitImages from 'object-fit-images';
@@ -184,21 +190,21 @@ export default class DetailView extends React.Component {
             <AppBar
               style={{ height: '72px' }}
               titleStyle={{ height: '100px' }}
-              iconElementLeft={<IconButton onTouchTap={this.closeDetailView}><svgIcons.NavigationArrowBack /></IconButton>}
+              iconElementLeft={<IconButton onTouchTap={this.closeDetailView}><NavigationArrowBack /></IconButton>}
               title={
                 <div>
                   <div style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>{main.data.title}</div>
                   <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', margin: '-40px 0 0', fontSize: '60%' }}>{this.createCreditElement(main)}</div>
                 </div>}
               iconElementRight={
-                <IconMenu iconButtonElement={<IconButton><svgIcons.NavigationMoreVert /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
+                <IconMenu iconButtonElement={<IconButton><NavigationMoreVert /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
                   <List>
-                    <ListItem primaryText="Open image source" leftIcon={<svgIcons.ActionOpenInBrowser />} secondaryText="Tap the credit" onTouchTap={this.openImageSource} />
-                    <ListItem primaryText="Fullscreen" leftIcon={<svgIcons.NavigationFullscreen />} secondaryText="Tap the image" onTouchTap={this.toggleInfo} />
-                    <ListItem primaryText="Move Previous" leftIcon={<svgIcons.NavigationChevronLeft />} secondaryText="Swipe right / Left key" onTouchTap={this.movePrev} />
-                    <ListItem primaryText="Move Next" leftIcon={<svgIcons.NavigationChevronRight />} secondaryText="Swipe left / Right key" onTouchTap={this.moveNext} />
+                    <ListItem primaryText="Open image source" leftIcon={<ActionOpenInBrowser />} secondaryText="Tap the credit" onTouchTap={this.openImageSource} />
+                    <ListItem primaryText="Fullscreen" leftIcon={<NavigationFullscreen />} secondaryText="Tap the image" onTouchTap={this.toggleInfo} />
+                    <ListItem primaryText="Move Previous" leftIcon={<NavigationChevronLeft />} secondaryText="Swipe right / Left key" onTouchTap={this.movePrev} />
+                    <ListItem primaryText="Move Next" leftIcon={<NavigationChevronRight />} secondaryText="Swipe left / Right key" onTouchTap={this.moveNext} />
                     <Divider />
-                    <ListItem primaryText="Feedback" leftIcon={<svgIcons.ActionFeedback />} onTouchTap={this.openFeedback} />
+                    <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onTouchTap={this.openFeedback} />
                   </List>
                 </IconMenu>
               }
@@ -220,14 +226,14 @@ export default class DetailView extends React.Component {
             </div>
             : null}
           <div style={{ position: 'absolute', bottom: 0, left: 0 }}>
-            <IconButton onTouchTap={this.movePrev} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationChevronLeft /></IconButton>
+            <IconButton onTouchTap={this.movePrev} iconStyle={navIconStyle} style={navButtonStyle}><NavigationChevronLeft /></IconButton>
           </div>
           <div style={{ position: 'absolute', bottom: 0, right: 0 }}>
-            <IconButton onTouchTap={this.moveNext} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationChevronRight /></IconButton>
+            <IconButton onTouchTap={this.moveNext} iconStyle={navIconStyle} style={navButtonStyle}><NavigationChevronRight /></IconButton>
           </div>
           {this.state.showInfo ? null :
             <div style={{ position: 'absolute', top: 0, left: 0 }}>
-              <IconButton onTouchTap={this.closeDetailView} iconStyle={navIconStyle} style={navButtonStyle}><svgIcons.NavigationArrowBack /></IconButton>
+              <IconButton onTouchTap={this.closeDetailView} iconStyle={navIconStyle} style={navButtonStyle}><NavigationArrowBack /></IconButton>
             </div>}
         </div>
       </Drawer>

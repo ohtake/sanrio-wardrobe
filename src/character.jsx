@@ -3,11 +3,12 @@ import React from 'react';
 import _ from 'lodash';
 import Photo from './photo.js';
 import TextField from 'material-ui/TextField';
-import * as svgIcons from 'material-ui/svg-icons';
 import ColorSelector from './color_selector.jsx';
 import Gallery from './gallery.jsx';
 import DetailView from './detail_view.jsx';
 import * as utils from './utils.js';
+
+import ActionSearch from 'material-ui/svg-icons/action/search';
 
 class SearchParams {
   constructor() {
@@ -140,7 +141,7 @@ export default class Character extends React.Component {
     return (
       <div>
         <ColorSelector ref="color" onChanged={this.colorChanged} />
-        <svgIcons.ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
+        <ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
         <TextField ref="text" hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         <Gallery ref="gallery" photos={this.state.photos} chara={this.props.params.chara} />

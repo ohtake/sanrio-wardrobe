@@ -15,12 +15,19 @@ import Drawer from 'material-ui/Drawer';
 import { List, ListItem } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import Subheader from 'material-ui/Subheader';
-import * as svgIcons from 'material-ui/svg-icons';
 import IconMenu from 'material-ui/IconMenu';
 import IconButton from 'material-ui/IconButton';
 import { Toolbar, ToolbarGroup } from 'material-ui/Toolbar';
 import Toggle from 'material-ui/Toggle';
 import Slider from 'material-ui/Slider';
+import ActionFeedback from 'material-ui/svg-icons/action/feedback';
+import ActionHome from 'material-ui/svg-icons/action/home';
+import ActionSettings from 'material-ui/svg-icons/action/settings';
+import ActionTurnedIn from 'material-ui/svg-icons/action/turned-in';
+import ActionTurnedInNot from 'material-ui/svg-icons/action/turned-in-not';
+import ImageColorLens from 'material-ui/svg-icons/image/color-lens';
+import ImagePhotoSizeSelectLarge from 'material-ui/svg-icons/image/photo-size-select-large';
+import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
 import DataFile from './data_file.js';
 import Home from './home.jsx';
@@ -106,16 +113,16 @@ class App extends React.Component {
         showMenuIconButton={!this.state.menuOpened || !this.state.menuDocked}
         style={{ position: 'fixed', top: 0, left: (this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0), right: 0, width: null }}
         iconElementRight={
-          <IconMenu iconButtonElement={<IconButton><svgIcons.ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
+          <IconMenu iconButtonElement={<IconButton><ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
             <List>
-              <ListItem leftIcon={<svgIcons.ImageColorLens />} onTouchTap={this.handleThemeToggle}>
+              <ListItem leftIcon={<ImageColorLens />} onTouchTap={this.handleThemeToggle}>
                 <Toggle ref="theme" label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
               </ListItem>
-              <ListItem leftIcon={<svgIcons.ImagePhotoSizeSelectLarge />}>
+              <ListItem leftIcon={<ImagePhotoSizeSelectLarge />}>
                 <Slider ref="thumbnailSize" description={`Thumbnail size: ${this.state.thumbnailSize}`} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
               </ListItem>
               <Divider />
-              <ListItem primaryText="Feedback" leftIcon={<svgIcons.ActionFeedback />} onTouchTap={this.handleFeedback} />
+              <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onTouchTap={this.handleFeedback} />
             </List>
           </IconMenu>
         }
@@ -127,16 +134,16 @@ class App extends React.Component {
           </ToolbarGroup>
           <ToolbarGroup>
             <IconButton onClick={this.handleMenuPinned}>
-              {this.state.menuDocked ? <svgIcons.ActionTurnedIn color={theme.palette.textColor} /> : <svgIcons.ActionTurnedInNot color={theme.palette.textColor} />}
+              {this.state.menuDocked ? <ActionTurnedIn color={theme.palette.textColor} /> : <ActionTurnedInNot color={theme.palette.textColor} />}
             </IconButton>
             <IconButton onClick={this.handleMenuClose}>
-              <svgIcons.NavigationClose color={theme.palette.textColor} />
+              <NavigationClose color={theme.palette.textColor} />
             </IconButton>
           </ToolbarGroup>
         </Toolbar>
         <List>
           <IndexLink to="/" onClick={this.handleMenuClick} activeStyle={activeStyle}>
-            <ListItem primaryText="Home" leftIcon={<svgIcons.ActionHome />} />
+            <ListItem primaryText="Home" leftIcon={<ActionHome />} />
           </IndexLink>
           <Divider />
           <Subheader>Characters</Subheader>
