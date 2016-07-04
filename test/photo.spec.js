@@ -139,11 +139,14 @@ describe('Photo', function () {
   describe('#getLargestImageAtMost', function () {
     it('should return the most suitable one', function () {
       const photoL = new Photo(photoSrcsetLandscape);
-      expect(photoL.getLargestImageAtMost(500)).to.have.property('url', 'https://placehold.it/600x400');
-      expect(photoL.getLargestImageAtMost(600)).to.have.property('url', 'https://placehold.it/600x400');
-      expect(photoL.getLargestImageAtMost(899)).to.have.property('url', 'https://placehold.it/600x400');
-      expect(photoL.getLargestImageAtMost(900)).to.have.property('url', 'https://placehold.it/900x600');
-      expect(photoL.getLargestImageAtMost(2000)).to.have.property('url', 'https://placehold.it/1200x800');
+      expect(photoL.getLargestImageAtMost(100, 100)).to.have.property('url', 'https://placehold.it/600x400');
+      expect(photoL.getLargestImageAtMost(600, 400)).to.have.property('url', 'https://placehold.it/600x400');
+      expect(photoL.getLargestImageAtMost(10000, 400)).to.have.property('url', 'https://placehold.it/600x400');
+      expect(photoL.getLargestImageAtMost(600, 10000)).to.have.property('url', 'https://placehold.it/600x400');
+      expect(photoL.getLargestImageAtMost(900, 599)).to.have.property('url', 'https://placehold.it/600x400');
+      expect(photoL.getLargestImageAtMost(899, 600)).to.have.property('url', 'https://placehold.it/600x400');
+      expect(photoL.getLargestImageAtMost(900, 600)).to.have.property('url', 'https://placehold.it/900x600');
+      expect(photoL.getLargestImageAtMost(10000, 10000)).to.have.property('url', 'https://placehold.it/1200x800');
     });
   });
 });

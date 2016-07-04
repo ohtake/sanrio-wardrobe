@@ -25,7 +25,7 @@ export default class Photo {
     });
   }
 
-  getLargestImageAtMost(upperMax) {
+  getLargestImageAtMost(upperWidth, upperHeight) {
     let images;
     if (this.data.images) {
       images = this.data.images.map(i => this.prepareSize(i));
@@ -40,7 +40,7 @@ export default class Photo {
     images.sort((a, b) => a.max - b.max);
     for (let j = images.length - 1; j >= 0; j--) {
       const img = images[j];
-      if (img.max <= upperMax) return img;
+      if (img.width <= upperWidth && img.height <= upperHeight) return img;
     }
     // Nothing matches. Return smallest one.
     return images[0];
