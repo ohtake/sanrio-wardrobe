@@ -83,12 +83,12 @@ export default class Character extends React.Component {
     if (title) {
       const index = this.state.photos.findIndex(p => title === p.data.title);
       if (index >= 0) {
-        this.refs.lightbox.setState({ photos: this.state.photos, index });
+        this.lightbox.setState({ photos: this.state.photos, index });
         return;
       }
       this.context.router.replace(`/chara/${this.props.params.chara}`);
     }
-    this.refs.lightbox.setState({ photos: null, index: 0 });
+    this.lightbox.setState({ photos: null, index: 0 });
   }
   execSearch() {
     if (this.searchParams.isEmpty()) {
@@ -100,14 +100,14 @@ export default class Character extends React.Component {
   }
   clearSearch() {
     this.searchParams.clear();
-    this.refs.text.input.value = '';
-    this.refs.color.clear();
+    this.text.input.value = '';
+    this.color.clear();
   }
   handleSearchIconClick() {
-    this.refs.text.input.focus();
+    this.text.input.focus();
   }
   handleSearchTextChanged() {
-    const textbox = this.refs.text;
+    const textbox = this.text;
     const text = textbox.getValue();
     const terms = text.split(/[ \u3000]/).filter(t => t.length > 0); // U+3000 = full width space
     const termsEscaped = terms.map(t => t.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'));
@@ -118,7 +118,7 @@ export default class Character extends React.Component {
   handleSearchTextKeyDown(e) {
     switch (e.keyCode) {
       case 13: // Enter
-        this.refs.text.input.blur(); // To hide keyboard on mobile phones
+        this.text.input.blur(); // To hide keyboard on mobile phones
         e.preventDefault();
         return;
       default:
@@ -126,7 +126,7 @@ export default class Character extends React.Component {
     }
   }
   handleSearchTextBlur() {
-    const text = this.refs.text.getValue().trim();
+    const text = this.text.getValue().trim();
     if (text) {
       utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${this.props.params.chara} ${text}`);
     }
@@ -140,12 +140,12 @@ export default class Character extends React.Component {
     const theme = this.context.muiTheme;
     return (
       <div>
-        <ColorSelector ref="color" onChanged={this.colorChanged} />
+        <ColorSelector ref={c => { this.color = c; }} onChanged={this.colorChanged} />
         <ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
-        <TextField ref="text" hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
+        <TextField ref={c => { this.text = c; }} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
-        <Gallery ref="gallery" photos={this.state.photos} chara={this.props.params.chara} />
-        <DetailView ref="lightbox" chara={this.props.params.chara} />
+        <Gallery ref={c => { this.gallery = c; }} photos={this.state.photos} chara={this.props.params.chara} />
+        <DetailView ref={c => { this.lightbox = c; }} chara={this.props.params.chara} />
       </div>
     );
   }

@@ -9,15 +9,15 @@ export const propTypesRoute = {
 };
 
 export class ContainerClientWidthListener {
-  constructor(owner, containerRefName, statusName) {
+  constructor(owner, containerGetter, statusName) {
     this.owner = owner;
-    this.containerRefName = containerRefName;
+    this.containerGetter = containerGetter;
     this.statusName = statusName;
     this.handleResize = this.updateContainerWidth.bind(this);
   }
   componentDidMount() {
     this.updateContainerWidth();
-    this.resizeSensor = new ResizeSensor(this.owner.refs[this.containerRefName], this.handleResize);
+    this.resizeSensor = new ResizeSensor(this.containerGetter(), this.handleResize);
   }
   componentDidUpdate(prevProps, prevState) {
     if (this.owner.state[this.statusName] !== prevState[this.statusName]) {
@@ -32,7 +32,7 @@ export class ContainerClientWidthListener {
     this.resizeSensor.detach();
   }
   updateContainerWidth() {
-    const newWidth = ReactDOM.findDOMNode(this.owner.refs[this.containerRefName]).clientWidth;
+    const newWidth = ReactDOM.findDOMNode(this.containerGetter()).clientWidth;
     if (newWidth !== this.owner.state.containerWidth) {
       const status = {};
       status[this.statusName] = newWidth;

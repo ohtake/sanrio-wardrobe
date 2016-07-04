@@ -83,12 +83,12 @@ class App extends React.Component {
     window.setTimeout(() => this.setState({ menuOpened: false }), 200);
   }
   handleThemeToggle() {
-    const newTheme = this.refs.theme.state.switched ? themes.themeLight : themes.themeDark;
+    const newTheme = this.theme.state.switched ? themes.themeLight : themes.themeDark;
     themes.applyThemeToBody(newTheme);
     this.setState({ theme: newTheme });
   }
   handleThumbnailSizeChange() {
-    this.setState({ thumbnailSize: this.refs.thumbnailSize.state.value });
+    this.setState({ thumbnailSize: this.thumbnailSize.state.value });
   }
   handleFeedback() {
     const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(window.location.href)}&entry.111224920`;
@@ -116,10 +116,10 @@ class App extends React.Component {
           <IconMenu iconButtonElement={<IconButton><ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
             <List>
               <ListItem leftIcon={<ImageColorLens />} onTouchTap={this.handleThemeToggle}>
-                <Toggle ref="theme" label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
+                <Toggle ref={c => { this.theme = c; }} label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
               </ListItem>
               <ListItem leftIcon={<ImagePhotoSizeSelectLarge />}>
-                <Slider ref="thumbnailSize" description={`Thumbnail size: ${this.state.thumbnailSize}`} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
+                <Slider ref={c => { this.thumbnailSize = c; }} description={`Thumbnail size: ${this.state.thumbnailSize}`} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
               </ListItem>
               <Divider />
               <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onTouchTap={this.handleFeedback} />
@@ -169,7 +169,7 @@ ReactDOM.render((
   <Router history={useRouterHistory(createHashHistory)({ queryKey: false })}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
-      <Route path="chara/:chara(/:title)" component={Character} ref="chara" />
+      <Route path="chara/:chara(/:title)" component={Character} />
     </Route>
   </Router>
 ), document.getElementById('app'));

@@ -11,7 +11,7 @@ export default class Gallery extends React.Component {
   constructor() {
     super();
     this.state = { thumbnailHeight: 72 };
-    this.widthListener = new utils.ContainerClientWidthListener(this, 'gallery', 'containerWidth');
+    this.widthListener = new utils.ContainerClientWidthListener(this, () => this.gallery, 'containerWidth');
   }
   componentDidMount() {
     this.widthListener.componentDidMount();
@@ -44,7 +44,7 @@ export default class Gallery extends React.Component {
   }
   render() {
     return (
-      <div ref="gallery">
+      <div ref={c => { this.gallery = c; }}>
         {this.props.photos ? this.renderGallery() : null}
       </div>
     );
