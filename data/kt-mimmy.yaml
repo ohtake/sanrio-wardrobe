@@ -1,7 +1,7 @@
 ---
   - 
     title: "5D3D2772 (960x1440)"
-    image: "https://lh3.googleusercontent.com/-aAOgQeBRaJQ/UTiaYfRcitI/AAAAAAAALwk/FgujlM6C-iojBF0Z6LMIu9KSh_f54kMUACCo/s500/5D3D2772%2B%2528960x1440%2529.jpg"
+    images_picasa: { lh: 3, dirs: "-aAOgQeBRaJQ/UTiaYfRcitI/AAAAAAAALwk/FgujlM6C-iojBF0Z6LMIu9KSh_f54kMUACCo", file: "5D3D2772%2B%2528960x1440%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/djHWC3teOZZCn4bcG2r8stMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440, max_len: 500 }
     colors: ["yellow", "blue", "red"]
@@ -10,7 +10,7 @@
       - デニム、バッグ
   - 
     title: "5D3B2495 (1440x960)"
-    image: "https://lh3.googleusercontent.com/-YhbPOFsDQ2o/UItljs6Nx8I/AAAAAAAAECQ/KHFS0lW1XYcE-piCDn6rlieYWr0i5_6KACCo/s500/5D3B2495%2B%25281440x960%2529.jpg"
+    images_picasa: { lh: 3, dirs: "-YhbPOFsDQ2o/UItljs6Nx8I/AAAAAAAAECQ/KHFS0lW1XYcE-piCDn6rlieYWr0i5_6KACCo", file: "5D3B2495%2B%25281440x960%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/dML9bXb2gCSa2H8dxQVrA9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960, max_len: 500 }
     colors: ["orange"]
@@ -19,7 +19,7 @@
       - 多段フリル
   - 
     title: "5D3A9486 (1280x853)"
-    image: "https://lh3.googleusercontent.com/-uNLtiz7quc4/UFxYb8YZSeI/AAAAAAAAC1M/_6a0Pwy5vIcei0Z3T-cCJFMfsxmfqdcWACCo/s500/5D3A9486%2B%25281280x853%2529.jpg"
+    images_picasa: { lh: 3, dirs: "-uNLtiz7quc4/UFxYb8YZSeI/AAAAAAAAC1M/_6a0Pwy5vIcei0Z3T-cCJFMfsxmfqdcWACCo", file: "5D3A9486%2B%25281280x853%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/X5ikjxLda9RxB89CQgUD0NMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960, max_len: 500 }
     colors: ["orange", "white"]
@@ -28,7 +28,7 @@
       - 多段フリル、羽
   - 
     title: "5D3C1560 (1440x960)"
-    image: "https://lh3.googleusercontent.com/-woFVi5444pw/UOLfaKeRZ6I/AAAAAAAAHvw/PX0Lhpqgjvs7EWxA9GczftCDCtrck-CjQCCo/s500/5D3C1560%2B%25281440x960%2529.jpg"
+    images_picasa: { lh: 3, dirs: "-woFVi5444pw/UOLfaKeRZ6I/AAAAAAAAHvw/PX0Lhpqgjvs7EWxA9GczftCDCtrck-CjQCCo", file: "5D3C1560%2B%25281440x960%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/cv3WBzgtKC7iTpLd8Yrk1tMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960, max_len: 500 }
     colors: ["yellow", "orange", "white", "silver"]
@@ -55,7 +55,7 @@
       - バラ
   - 
     title: "5D3E1923 (1280x1920)"
-    image: "https://lh3.googleusercontent.com/-54kA3rJMzU8/UXINDgs5DiI/AAAAAAAAQPQ/4pFv2U54VgoEr1yURUjoW8ISfZWAQHF7QCCo/s500/5D3E1923%2B%25281280x1920%2529.jpg"
+    images_picasa: { lh: 3, dirs: "-54kA3rJMzU8/UXINDgs5DiI/AAAAAAAAQPQ/4pFv2U54VgoEr1yURUjoW8ISfZWAQHF7QCCo", file: "5D3E1923%2B%25281280x1920%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/v3xxIHfEuCWcJLbByN7wytMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1280, height_o: 1920, max_len: 500 }
     colors: ["red", "black", "gold"]
@@ -201,7 +201,7 @@
       - タータンチェック
   - 
     title: "5D3B7283 (960x1440)"
-    image: "https://lh3.googleusercontent.com/-wn1qVuRi3tM/UMyBthKeYcI/AAAAAAAAGQM/QPZpPoJrqas-Vf0oScv2bZM54SePBT_jACCo/s500/5D3B7283%2B%2528960x1440%2529.jpg"
+    images_picasa: { lh: 3, dirs: "-wn1qVuRi3tM/UMyBthKeYcI/AAAAAAAAGQM/QPZpPoJrqas-Vf0oScv2bZM54SePBT_jACCo", file: "5D3B7283%2B%2528960x1440%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/OAPQTf5iunwNteelYzG-k9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440, max_len: 500 }
     colors: ["yellow", "green", "white", "gold"]
@@ -209,7 +209,7 @@
       - クリスマス、柊、ベル、ストライプ
   - 
     title: "5D3C1972 (960x1440)"
-    image: "https://lh3.googleusercontent.com/-71M5MoKUBoc/UOQcSs8om2I/AAAAAAAAH9Y/UH6CLGjBG24EzLyYfDtLkoEWQPks7PUGgCCo/s500/5D3C1972%2B%2528960x1440%2529.jpg"
+    images_picasa: { lh: 3, dirs: "-71M5MoKUBoc/UOQcSs8om2I/AAAAAAAAH9Y/UH6CLGjBG24EzLyYfDtLkoEWQPks7PUGgCCo", file: "5D3C1972%2B%2528960x1440%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/KWq2J5iERL6I-qosUI9iZdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440, max_len: 500 }
     colors: ["yellow", "red", "green", "black", "white"]
