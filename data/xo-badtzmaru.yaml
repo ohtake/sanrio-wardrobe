@@ -1,7 +1,7 @@
 ---
   - 
     title: "全裸"
-    image: "https://c7.staticflickr.com/3/2823/11888893646_e8305bd945.jpg"
+    images_flickr: { photo: "11888893646", farm: 3, server: 2823, secret: "e8305bd945", secret_h: "956f503249", secret_k: "d5470fd6c0", secret_o: "4218602a9d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11888893646/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: []
@@ -10,7 +10,7 @@
       - 全裸
   - 
     title: "GOOD LUCK 抽選会"
-    image: "https://c5.staticflickr.com/8/7322/14092263612_b34f0ce1d4.jpg"
+    images_flickr: { photo: "14092263612", farm: 8, server: 7322, secret: "b34f0ce1d4", secret_h: "97475407a3", secret_k: "e63daeda8f", secret_o: "9d004a6bd4", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14092263612/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["purple", "yellow", "gold"]
@@ -19,7 +19,7 @@
       - 帽子、蝶ネクタイ
   - 
     title: "めーよ店長"
-    image: "https://c8.staticflickr.com/8/7342/14045688271_291a269a30.jpg"
+    images_flickr: { photo: "14045688271", farm: 8, server: 7342, secret: "291a269a30", secret_h: "1c038f65bd", secret_k: "df8cbf9606", secret_o: "16450f3926", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14045688271/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["purple", "yellow", "gold"]
@@ -28,7 +28,7 @@
       - 帽子、蝶ネクタイ、店長
   - 
     title: "Believe"
-    image: "https://c5.staticflickr.com/4/3891/15360400732_a4c5c9da78.jpg"
+    images_flickr: { photo: "15360400732", farm: 4, server: 3891, secret: "a4c5c9da78", secret_h: "17635a02aa", secret_k: "aca76ffd56", secret_o: "ce91775575", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15360400732/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["purple", "red", "white", "black", "silver"]
@@ -70,7 +70,7 @@
       - 宝石
   - 
     title: "5D3K9027"
-    image: "https://c6.staticflickr.com/4/3777/11709917213_676fe3c0cd.jpg"
+    images_flickr: { photo: "11709917213", farm: 4, server: 3777, secret: "676fe3c0cd", secret_h: "0aa1ae1570", secret_k: "a30ea819fc", secret_o: "284bac4e09", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11709917213/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["blue", "red", "white", "silver", "gold"]
@@ -95,7 +95,7 @@
       - スパンコール
   - 
     title: "5D3G4222"
-    image: "https://c1.staticflickr.com/3/2854/9433764040_e8c182f7d6.jpg"
+    images_flickr: { photo: "9433764040", farm: 3, server: 2854, secret: "e8c182f7d6", secret_h: "6a515aaebf", secret_k: "7e885aad9a", secret_o: "6ff453fd82", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9433764040/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["white", "blue", "gold", "red", "purple"]
@@ -103,7 +103,7 @@
       - 浴衣、和服、鉢巻
   - 
     title: "5D3K3379"
-    image: "https://c3.staticflickr.com/4/3817/11377240874_0aa13e75aa.jpg"
+    images_flickr: { photo: "11377240874", farm: 4, server: 3817, secret: "0aa13e75aa", secret_h: "b3c6f8655f", secret_k: "f3379d91db", secret_o: "9a259f7f9a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11377240874/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["blue", "red", "white", "yellow", "pink", "brown", "green"]
@@ -111,14 +111,14 @@
       - パイナップル
   - 
     title: "5D3M2923"
-    image: "https://c1.staticflickr.com/3/2856/13666299024_cb4c3103f7.jpg"
+    images_flickr: { photo: "13666299024", farm: 3, server: 2856, secret: "cb4c3103f7", secret_h: "33f187df5e", secret_k: "1cd860199e", secret_o: "005e1b3c00", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13666299024/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["green", "red", "orange", "white"]
     notes: []
   - 
     title: "レディジュエル"
-    image: "https://c4.staticflickr.com/3/2937/14720868643_b7fe7cabd3.jpg"
+    images_flickr: { photo: "14720868643", farm: 3, server: 2937, secret: "b7fe7cabd3", secret_h: "b97b148b93", secret_k: "fee3ea1490", secret_o: "fd967bc38c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14720868643/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["gold", "black", "red"]
@@ -127,7 +127,7 @@
       - ドルマーク
   - 
     title: "夏フェス"
-    image: "https://c6.staticflickr.com/4/3921/14817646853_30fa5ecaa3.jpg"
+    images_flickr: { photo: "14817646853", farm: 4, server: 3921, secret: "30fa5ecaa3", secret_h: "01fa8c87b0", secret_k: "83ed95b283", secret_o: "ef82019647", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14817646853/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["blue", "purple", "white"]
@@ -137,7 +137,7 @@
       - 法被、和服、鉢巻、花火
   - 
     title: "5D3W4889"
-    image: "https://c3.staticflickr.com/6/5681/22864884314_372ba2ccc9.jpg"
+    images_flickr: { photo: "22864884314", farm: 6, server: 5681, secret: "372ba2ccc9", secret_h: "3f3b0abec0", secret_k: "b7e2964989", secret_o: "7aea91f56b", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22864884314/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["purple", "yellow", "white", "grey"]
@@ -145,7 +145,7 @@
       - 外部イベント『キティズパラダイス』
   - 
     title: "パレード・ノア"
-    image: "https://c4.staticflickr.com/8/7492/15825733931_e44305ce98.jpg"
+    images_flickr: { photo: "15825733931", farm: 8, server: 7492, secret: "e44305ce98", secret_h: "d1683edfde", secret_k: "688343b9a6", secret_o: "4c760814c9", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15825733931/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["red", "white", "yellow", "silver", "gold"]
@@ -154,7 +154,7 @@
       - 星
   - 
     title: "ドリームファクトリー"
-    image: "https://c1.staticflickr.com/6/5613/15642765520_5c09f81f17.jpg"
+    images_flickr: { photo: "15642765520", farm: 6, server: 5613, secret: "5c09f81f17", secret_h: "aab7468903", secret_k: "251baf97a5", secret_o: "fecdd2d653", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15642765520/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["white", "red", "black", "pink", "orange", "green"]
@@ -163,7 +163,7 @@
       - リボン、宝石
   - 
     title: "5D3R2701"
-    image: "https://c3.staticflickr.com/8/7484/15642120858_3749af3feb.jpg"
+    images_flickr: { photo: "15642120858", farm: 8, server: 7484, secret: "3749af3feb", secret_h: "3312d51379", secret_k: "dc831d103f", secret_o: "f3ea98086c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15642120858/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["yellow", "green", "white", "gold"]
@@ -171,7 +171,7 @@
       - 鎖
   - 
     title: "5D3R3269"
-    image: "https://c4.staticflickr.com/8/7477/15663304867_15f6639239.jpg"
+    images_flickr: { photo: "15663304867", farm: 8, server: 7477, secret: "15f6639239", secret_h: "74e5935553", secret_k: "1b1b67c534", secret_o: "f6f30754d0", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15663304867/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["red", "white", "black"]
@@ -179,7 +179,7 @@
       - クリスマス、サンタクロース、帽子、ヒゲ、ベルト
   - 
     title: "5D3W1447"
-    image: "https://c1.staticflickr.com/1/580/22386262264_02c102c517.jpg"
+    images_flickr: { photo: "22386262264", farm: 1, server: 580, secret: "02c102c517", secret_h: "721ed0b191", secret_k: "5b0fd7aa42", secret_o: "9efda302e2", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22386262264/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["blue", "red", "gold", "white"]
