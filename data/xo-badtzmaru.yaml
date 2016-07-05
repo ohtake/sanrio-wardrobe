@@ -3,7 +3,7 @@
     title: "全裸"
     images_flickr: { photo: "11888893646", farm: 3, server: 2823, secret: "e8305bd945", secret_h: "956f503249", secret_k: "d5470fd6c0", secret_o: "4218602a9d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11888893646/"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760 }
     colors: []
     notes:
       - エンターテイメントホール『ハローキティ40周年記念 ARIGATO HUG YOU 花火ショー』映像出演
@@ -12,7 +12,7 @@
     title: "GOOD LUCK 抽選会"
     images_flickr: { photo: "14092263612", farm: 8, server: 7322, secret: "b34f0ce1d4", secret_h: "97475407a3", secret_k: "e63daeda8f", secret_o: "9d004a6bd4", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14092263612/"}
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840 }
     colors: ["purple", "yellow", "gold"]
     notes:
       - 知恵の木ステージ『ばつ丸＆プリンの GOOD LUCK 抽選会』
@@ -21,7 +21,7 @@
     title: "めーよ店長"
     images_flickr: { photo: "14045688271", farm: 8, server: 7342, secret: "291a269a30", secret_h: "1c038f65bd", secret_k: "df8cbf9606", secret_o: "16450f3926", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14045688271/"}
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840 }
     colors: ["purple", "yellow", "gold"]
     notes:
       - 『ばつ丸＆プリンの GOOD LUCK 抽選会』にタスキ追加
@@ -30,7 +30,7 @@
     title: "Believe"
     images_flickr: { photo: "15360400732", farm: 4, server: 3891, secret: "a4c5c9da78", secret_h: "17635a02aa", secret_k: "aca76ffd56", secret_o: "ce91775575", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15360400732/"}
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840 }
     colors: ["purple", "red", "white", "black", "silver"]
     notes:
       - ピューロランドパレード『Believe』
@@ -39,7 +39,7 @@
     title: "5D3B4286 (960x1440)"
     images_picasa: { lh: 3, dirs: "-8rT-u_Q8hi8/UKhZv-G783I/AAAAAAAAEeI/fNzwUd_VyWEZnxxmIQAwm9oRIMRwMFMRACCo", file: "5D3B4286%2B%2528960x1440%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/4G9_yabl94fK0M8joQzbp9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 960, height_o: 1440, max_len: 500 }
+    size: { width_o: 960, height_o: 1440 }
     colors: ["red", "white", "green", "gold"]
     notes:
       - ピューロランドパレード『星空の Happy Party Christmas』
@@ -48,7 +48,7 @@
     title: "5D3A8710 (1280x853)"
     images_picasa: { lh: 3, dirs: "-U9dJMyLhhYk/UE5puqMYZvI/AAAAAAAACdw/xjN8JJ0BBHMLIcBsU2nFz_yk6P9kwKmDACCo", file: "5D3A8710%2B%25281280x853%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/3cy-dG9L82IRX4x2XGcdEtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1280, height_o: 853, max_len: 500 }
+    size: { width_o: 1280, height_o: 853 }
     colors: ["red", "green", "black"]
     notes:
       - いちご
@@ -56,7 +56,7 @@
     title: "5D3D7670 (1920x1280)"
     images_picasa: { lh: 3, dirs: "-LarZLt7LwpU/UWAY_TFwbGI/AAAAAAAAOiE/g9QSRyVYkg8xk8D6fxspsrb_8YBFgNjHgCCo", file: "5D3D7670%2B%25281920x1280%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/pSV1Oholv5_GPHZMx-yn29MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1920, height_o: 1280, max_len: 500 }
+    size: { width_o: 1920, height_o: 1280 }
     colors: ["gold", "red", "black"]
     notes:
       - 蝶ネクタイ、鎖
@@ -64,7 +64,7 @@
     title: "5D3B5465 (960x1440)"
     images_picasa: { lh: 3, dirs: "-VVY-ry_re88/ULsGOl112YI/AAAAAAAAFms/NsMzEYe0XN4RKeXU3srB62BGPRSl5lvzgCCo", file: "5D3B5465%2B%2528960x1440%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/YnK1ODVGwIOBU9BNpC7AsdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 960, height_o: 1440, max_len: 500 }
+    size: { width_o: 960, height_o: 1440 }
     colors: ["green", "red", "purple", "white", "gold"]
     notes:
       - 宝石
@@ -72,7 +72,7 @@
     title: "5D3K9027"
     images_flickr: { photo: "11709917213", farm: 4, server: 3777, secret: "676fe3c0cd", secret_h: "0aa1ae1570", secret_k: "a30ea819fc", secret_o: "284bac4e09", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11709917213/"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "red", "white", "silver", "gold"]
     notes:
       - 袴、和服、雲
@@ -80,7 +80,7 @@
     title: "5D3C5954 (1440x960)"
     images_picasa: { lh: 3, dirs: "-5VtCgk-9oes/UQUOM7CzU2I/AAAAAAAAJSo/HcB8II0wZuQEp2nYgCmSlDsZJ3bpC5FqQCCo", file: "5D3C5954%2B%25281440x960%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/_7cTi0Va0qu3qEB6lQop9dMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1440, height_o: 960, max_len: 500 }
+    size: { width_o: 1440, height_o: 960 }
     colors: ["blue", "red", "green", "yellow", "black", "purple"]
     notes:
       - 『バラエティ→でいこう!』
@@ -89,7 +89,7 @@
     title: "5D3D9560 (1280x1920)"
     images_picasa: { lh: 3, dirs: "-jOBrjgLVeIg/UWLD4HsqWCI/AAAAAAAAPIs/jYWKBrR0KEArMS6eL3x9ei5LBG0YJwlQgCCo", file: "5D3D9560%2B%25281280x1920%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/eMLni_kcS43uxHJ2CIunhdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1280, height_o: 1920, max_len: 500 }
+    size: { width_o: 1280, height_o: 1920 }
     colors: ["gold", "white", "orange", "red", "pink", "green", "blue", "purple"]
     notes:
       - スパンコール
@@ -97,7 +97,7 @@
     title: "5D3G4222"
     images_flickr: { photo: "9433764040", farm: 3, server: 2854, secret: "e8c182f7d6", secret_h: "6a515aaebf", secret_k: "7e885aad9a", secret_o: "6ff453fd82", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9433764040/"}
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "blue", "gold", "red", "purple"]
     notes:
       - 浴衣、和服、鉢巻
@@ -105,7 +105,7 @@
     title: "5D3K3379"
     images_flickr: { photo: "11377240874", farm: 4, server: 3817, secret: "0aa13e75aa", secret_h: "b3c6f8655f", secret_k: "f3379d91db", secret_o: "9a259f7f9a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11377240874/"}
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "red", "white", "yellow", "pink", "brown", "green"]
     notes:
       - パイナップル
@@ -113,14 +113,14 @@
     title: "5D3M2923"
     images_flickr: { photo: "13666299024", farm: 3, server: 2856, secret: "cb4c3103f7", secret_h: "33f187df5e", secret_k: "1cd860199e", secret_o: "005e1b3c00", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13666299024/"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "red", "orange", "white"]
     notes: []
   - 
     title: "レディジュエル"
     images_flickr: { photo: "14720868643", farm: 3, server: 2937, secret: "b7fe7cabd3", secret_h: "b97b148b93", secret_k: "fee3ea1490", secret_o: "fd967bc38c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14720868643/"}
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840 }
     colors: ["gold", "black", "red"]
     notes:
       - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』
@@ -129,7 +129,7 @@
     title: "夏フェス"
     images_flickr: { photo: "14817646853", farm: 4, server: 3921, secret: "30fa5ecaa3", secret_h: "01fa8c87b0", secret_k: "83ed95b283", secret_o: "ef82019647", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14817646853/"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "purple", "white"]
     notes:
       - ピューロランドパレード『夏フェス☆マーチングパレード』
@@ -139,7 +139,7 @@
     title: "5D3W4889"
     images_flickr: { photo: "22864884314", farm: 6, server: 5681, secret: "372ba2ccc9", secret_h: "3f3b0abec0", secret_k: "b7e2964989", secret_o: "7aea91f56b", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22864884314/"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["purple", "yellow", "white", "grey"]
     notes:
       - 外部イベント『キティズパラダイス』
@@ -147,7 +147,7 @@
     title: "パレード・ノア"
     images_flickr: { photo: "15825733931", farm: 8, server: 7492, secret: "e44305ce98", secret_h: "d1683edfde", secret_k: "688343b9a6", secret_o: "4c760814c9", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15825733931/"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "white", "yellow", "silver", "gold"]
     notes:
       - ハーモニーランドパレード『パレード・ノア』
@@ -156,7 +156,7 @@
     title: "ドリームファクトリー"
     images_flickr: { photo: "15642765520", farm: 6, server: 5613, secret: "5c09f81f17", secret_h: "aab7468903", secret_k: "251baf97a5", secret_o: "fecdd2d653", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15642765520/"}
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "red", "black", "pink", "orange", "green"]
     notes:
       - プラザステージ『キティズ♥ドリームファクトリー』
@@ -165,7 +165,7 @@
     title: "5D3R2701"
     images_flickr: { photo: "15642120858", farm: 8, server: 7484, secret: "3749af3feb", secret_h: "3312d51379", secret_k: "dc831d103f", secret_o: "f3ea98086c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15642120858/"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["yellow", "green", "white", "gold"]
     notes:
       - 鎖
@@ -173,7 +173,7 @@
     title: "5D3R3269"
     images_flickr: { photo: "15663304867", farm: 8, server: 7477, secret: "15f6639239", secret_h: "74e5935553", secret_k: "1b1b67c534", secret_o: "f6f30754d0", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15663304867/"}
-    size: { width_o: 3840, height_o: 5760, max_len: 500 }
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "white", "black"]
     notes:
       - クリスマス、サンタクロース、帽子、ヒゲ、ベルト
@@ -181,7 +181,7 @@
     title: "5D3W1447"
     images_flickr: { photo: "22386262264", farm: 1, server: 580, secret: "02c102c517", secret_h: "721ed0b191", secret_k: "5b0fd7aa42", secret_o: "9efda302e2", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22386262264/"}
-    size: { width_o: 5760, height_o: 3840, max_len: 500 }
+    size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "red", "gold", "white"]
     notes:
       - 宝石
