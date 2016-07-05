@@ -1,7 +1,7 @@
 ---
   - 
     title: "全裸バッグ"
-    image: "https://c8.staticflickr.com/3/2942/15328646911_40b3615c32.jpg"
+    images_flickr: { photo: "15328646911", farm: 3, server: 2942, secret: "40b3615c32", secret_h: "6fedd0a527", secret_k: "f60bfdf1c1", secret_o: "63fe8fe96f", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15328646911/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["red"]
@@ -10,7 +10,7 @@
       - 郵便、配達、バッグ
   - 
     title: "花粉症マスク"
-    image: "https://c6.staticflickr.com/3/2373/13189994893_567f98eb95.jpg"
+    images_flickr: { photo: "13189994893", farm: 3, server: 2373, secret: "567f98eb95", secret_h: "3e4c79e5b4", secret_k: "2782e28923", secret_o: "84b6791743", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13189994893/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["pink"]
@@ -19,7 +19,7 @@
       - マスク、ハート
   - 
     title: "リボン増し増し"
-    image: "https://c7.staticflickr.com/6/5523/14598006006_2e529b84b8.jpg"
+    images_flickr: { photo: "14598006006", farm: 6, server: 5523, secret: "2e529b84b8", secret_h: "a442c27149", secret_k: "02eff33011", secret_o: "26164192d0", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14598006006/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["pink", "purple", "blue", "white"]
@@ -28,7 +28,7 @@
       - リボン
   - 
     title: "折れ耳"
-    image: "https://c8.staticflickr.com/4/3862/14697440551_380ea655a3.jpg"
+    images_flickr: { photo: "14697440551", farm: 4, server: 3862, secret: "380ea655a3", secret_h: "04ea8c93ef", secret_k: "5ff73c87f4", secret_o: "0e3f2ea6de", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14697440551/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: []
@@ -37,7 +37,7 @@
       - 折れているときはリボンが増やされていることが多いが、必ずしも連動しているわけではない
   - 
     title: "サーズディ"
-    image: "https://c3.staticflickr.com/9/8649/16037444866_19e4172ca2.jpg"
+    images_flickr: { photo: "16037444866", farm: 9, server: 8649, secret: "19e4172ca2", secret_h: "0fdc4761fb", secret_k: "fe0182844b", secret_o: "6d0d2792bd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16037444866/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["green"]
@@ -45,7 +45,7 @@
       - 小鳥の男の子のサーズディ
   - 
     title: "サンディ"
-    image: "https://c3.staticflickr.com/9/8613/16712908946_d17e3c214c.jpg"
+    images_flickr: { photo: "16712908946", farm: 9, server: 8613, secret: "d17e3c214c", secret_h: "cf4ff061de", secret_k: "f7231df5f9", secret_o: "22e5835d7e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16712908946/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["pink"]
@@ -53,7 +53,7 @@
       - 小鳥の女の子のサンディ
   - 
     title: "クリスマスケープ"
-    image: "https://c4.staticflickr.com/6/5542/10963792763_481a1055dc.jpg"
+    images_flickr: { photo: "10963792763", farm: 6, server: 5542, secret: "481a1055dc", secret_h: "6aa4ad743b", secret_k: "541af26d0d", secret_o: "7550ec722e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10963792763/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["pink", "white", "yellow", "purple", "blue"]
@@ -62,7 +62,7 @@
       - クリスマス、リボン、ウサミミ
   - 
     title: "クリスマスケープのリリーボンボンズ版"
-    image: "https://c5.staticflickr.com/3/2877/12634130964_0d42f03b22.jpg"
+    images_flickr: { photo: "12634130964", farm: 3, server: 2877, secret: "0d42f03b22", secret_h: "9338ee0112", secret_k: "533097b153", secret_o: "0bd7013aa4", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12634130964/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["pink", "white"]
@@ -81,7 +81,7 @@
       - Angelic Pretty、ロリータ、リボン
   - 
     title: "Angelic Pretty 2"
-    image: "https://c3.staticflickr.com/4/3836/15033457738_a0424938ea.jpg"
+    images_flickr: { photo: "15033457738", farm: 4, server: 3836, secret: "a0424938ea", secret_h: "3ac3d20b78", secret_k: "89cd5f8f08", secret_o: "6fe25dbfcd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15033457738/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["purple", "pink"]
@@ -90,7 +90,7 @@
       - Angelic Pretty、ロリータ、リボン、ウサミミ
   - 
     title: "ハロウィンケープ"
-    image: "https://c3.staticflickr.com/4/3799/10249162114_2a846327df.jpg"
+    images_flickr: { photo: "10249162114", farm: 4, server: 3799, secret: "2a846327df", secret_h: "dfcfe81680", secret_k: "760839d1d9", secret_o: "cbde55db73", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10249162114/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["blue", "purple", "orange", "black", "white"]
@@ -99,7 +99,7 @@
       - ジャック・オー・ランタン、ハロウィン
   - 
     title: "ハロウィンケープのリボン追加版"
-    image: "https://c8.staticflickr.com/1/584/22875872479_0c7af0251d.jpg"
+    images_flickr: { photo: "22875872479", farm: 1, server: 584, secret: "0c7af0251d", secret_h: "b5b59d3450", secret_k: "7aa7f0a385", secret_o: "cfa83cb81b", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22875872479/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["blue", "purple", "orange", "black", "white"]
@@ -108,7 +108,7 @@
       - ジャック・オー・ランタン、ハロウィン、リボン
   - 
     title: "リリーボンボンズのマーチングパレード"
-    image: "https://c5.staticflickr.com/4/3849/14549304532_2ff5a7c8e2.jpg"
+    images_flickr: { photo: "14549304532", farm: 4, server: 3849, secret: "2ff5a7c8e2", secret_h: "87facac7f0", secret_k: "8988b4bfae", secret_o: "81c47cccac", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14549304532/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["pink", "blue", "purple", "brown"]
@@ -117,7 +117,7 @@
       - リボン、ハート、お茶
   - 
     title: "バイト"
-    image: "https://c3.staticflickr.com/3/2902/14142689498_8ea585aac6.jpg"
+    images_flickr: { photo: "14142689498", farm: 3, server: 2902, secret: "8ea585aac6", secret_h: "57266eaeae", secret_k: "9307bc4815", secret_o: "db4a7ed685", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14142689498/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["blue", "white", "red"]
@@ -126,7 +126,7 @@
       - キティ、リボン
   - 
     title: "OMOIYARI TO YOU"
-    image: "https://c7.staticflickr.com/6/5749/21718588622_0fc03fc95b.jpg"
+    images_flickr: { photo: "21718588622", farm: 6, server: 5749, secret: "0fc03fc95b", secret_h: "a06cc10bc0", secret_k: "bd3e1a7397", secret_o: "8b92c0ccdb", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21718588622/"}
     size: { width_o: 5760, height_o: 3840, max_len: 500 }
     colors: ["blue", "white", "pink", "orange", "yellow", "green", "purple"]
@@ -136,7 +136,7 @@
       - 水玉、リボン、フリル
   - 
     title: "Miracle Gift Parade"
-    image: "https://c5.staticflickr.com/8/7515/26537823044_1cf65ac326.jpg"
+    images_flickr: { photo: "26537823044", farm: 8, server: 7515, secret: "1cf65ac326", secret_h: "6f5cf8955c", secret_k: "bcde7edbc9", secret_o: "0698e9f006", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26537823044/"}
     size: { width_o: 3840, height_o: 5760, max_len: 500 }
     colors: ["red", "blue", "green", "pink", "yellow", "purple", "orange"]
