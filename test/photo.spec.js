@@ -79,6 +79,14 @@ const photoFlickrTooSmall = {
   colors: [],
   notes: [],
 };
+const photoPicasa = {
+  title: '5D3D4777 (1920x1280)',
+  images_picasa: { lh: 5, dirs: '-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk', file: '5D3D4777%2520%25281920x1280%2529.jpg' },
+  source: { author: 'ohtake', license: 'CC BY-SA 2.0', url: 'https://picasaweb.google.com/lh/photo/0PFa4BsUBZFjugZvBmr8QNMTjNZETYmyPJy0liipFm0?feat=embedwebsite' },
+  size: { width_o: 1920, height_o: 1280 },
+  colors: [],
+  notes: [],
+};
 
 /* eslint-disable no-unused-expressions */
 /* eslint-disable prefer-arrow-callback, func-names */
@@ -174,6 +182,20 @@ describe('Photo', function () {
         'https://farm2.staticflickr.com/1457/24214891894_fb5e07fc69_n.jpg 320w',
         'https://farm2.staticflickr.com/1457/24214891894_fb5e07fc69.jpg 500w',
         'https://farm2.staticflickr.com/1457/24214891894_fb5e07fc69_z.jpg 538w',
+      ].join(', '));
+    });
+    it('should return for picasa', function () {
+      const photo = new Photo(photoPicasa);
+      expect(photo.getSrcSet()).to.equal([
+        'https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s100/5D3D4777%2520%25281920x1280%2529.jpg 100w',
+        'https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s240/5D3D4777%2520%25281920x1280%2529.jpg 240w',
+        'https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s320/5D3D4777%2520%25281920x1280%2529.jpg 320w',
+        'https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s500/5D3D4777%2520%25281920x1280%2529.jpg 500w',
+        'https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s640/5D3D4777%2520%25281920x1280%2529.jpg 640w',
+        'https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s800/5D3D4777%2520%25281920x1280%2529.jpg 800w',
+        'https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s1024/5D3D4777%2520%25281920x1280%2529.jpg 1024w',
+        'https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s1600/5D3D4777%2520%25281920x1280%2529.jpg 1600w',
+        'https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s1920/5D3D4777%2520%25281920x1280%2529.jpg 1920w',
       ].join(', '));
     });
   });

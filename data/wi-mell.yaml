@@ -72,7 +72,7 @@
       - ハート、リボン、ウサミミ
   - 
     title: "Angelic Pretty 1"
-    image: "https://lh3.googleusercontent.com/-0jnZvDv9G7s/UREcP1bWhCI/AAAAAAAAwZA/84nM_ydfZHUY3L0m4VU1gJmnfjx_ZRBYwCCo/s500/5D3C6893%2B%2528960x1440%2529.jpg"
+    images_picasa: { lh: 3, dirs: "-0jnZvDv9G7s/UREcP1bWhCI/AAAAAAAAwZA/84nM_ydfZHUY3L0m4VU1gJmnfjx_ZRBYwCCo", file: "5D3C6893%2B%2528960x1440%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/sDsdsNJFtPn3mGlaJ_TICdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440, max_len: 500 }
     colors: ["blue", "pink", "yellow", "purple"]
