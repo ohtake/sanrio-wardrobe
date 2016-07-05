@@ -135,12 +135,7 @@ export default class Photo {
     } else if (this.data.images_picasa) {
       images = PicasaSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
     } else {
-      images = [this.prepareSize({ url: this.data.image, max: this.data.size.max_len })];
-      const largeUrl = this.inferLargeImage();
-      if (largeUrl !== this.data.image) {
-        const largeDummy = { url: largeUrl, max: 1024 };
-        images.push(this.prepareSize(largeDummy));
-      }
+      throw new Error('images not specified');
     }
     return images;
   }
@@ -184,15 +179,6 @@ export default class Photo {
   }
   getAspectRatio() {
     return 1.0 * this.data.size.width_o / this.data.size.height_o;
-  }
-  inferLargeImage() {
-    const url = this.data.image;
-    if (url.indexOf('.staticflickr.com/') >= 0) {
-      return url.replace('.jpg', '_b.jpg'); // b => 1024
-    } else if (url.indexOf('.googleusercontent.com/') >= 0) {
-      return url.replace('/s500/', '/s1024/');
-    }
-    return url;
   }
   match(re) {
     if (this.data.title.match(re)) return true;
