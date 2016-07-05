@@ -35,7 +35,7 @@ export default class Gallery extends React.Component {
       <div key={p.data.title} aspectRatio={p.getAspectRatio()} style={{ backgroundColor: theme.palette.borderColor }}>
         <Link to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-event-category="lightbox" data-event-action="open" data-event-label={`${this.props.chara} ${p.data.title}`}>
           <LazyLoad offset={this.state.thumbnailHeight}>
-            <img alt={p.data.title} src={p.getLargestImageAtMost(500, 500).url} style={imgStyle} />
+            <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={imgStyle} />
           </LazyLoad>
         </Link>
       </div>

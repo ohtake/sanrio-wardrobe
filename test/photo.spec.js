@@ -2,23 +2,6 @@ import { describe, it } from 'mocha';
 import { expect } from 'chai';
 import Photo from '../src/photo.js';
 
-const photoLegacy = {
-  title: 'legacy',
-  image: 'https://placehold.it/300x200',
-  source: { author: 'brent', license: '', url: 'https://placehold.it/' },
-  size: { width_o: 600, height_o: 400, max_len: 300 },
-  colors: ['red'],
-  notes: ['note1', 'note2'],
-};
-const photoLegacyFlickr = {
-  title: 'legacy flickr',
-  image: 'https://farm6.staticflickr.com/5604/15605014039_3aa65f125e.jpg',
-  source: { author: 'ohtake', license: 'CC BY-SA 2.0', url: 'https://www.flickr.com/photos/ohtake_tomohiro/15605014039' },
-  size: { width_o: 5760, height_o: 3840, max_len: 500 },
-  colors: [],
-  notes: [],
-};
-
 const photoSrcsetLandscape = {
   title: 'srcset landscape',
   images: [
@@ -28,8 +11,8 @@ const photoSrcsetLandscape = {
   ],
   source: { author: 'brent', license: '', url: 'https://placehold.it/' },
   size: { width_o: 1200, height_o: 800 },
-  colors: [],
-  notes: [],
+  colors: ['red'],
+  notes: ['note1', 'note2'],
 };
 const photoSrcsetPortrait = {
   title: 'srcset portrait',
@@ -94,14 +77,14 @@ const photoPicasa = {
 describe('Photo', function () {
   describe('#getAspectRatio', function () {
     it('should return a number more than 1 for landscape photos', function () {
-      const photo = new Photo(photoLegacy);
+      const photo = new Photo(photoSrcsetLandscape);
       expect(photo.getAspectRatio()).to.equal(1.5);
     });
   });
   describe('#match', function () {
-    const photo = new Photo(photoLegacy);
+    const photo = new Photo(photoSrcsetLandscape);
     it('should match title', function () {
-      expect(photo.match(/legacy/)).to.be.true;
+      expect(photo.match(/landscape/)).to.be.true;
     });
     it('should not match url', function () {
       expect(photo.match(/placehold/)).to.be.false;
@@ -134,14 +117,6 @@ describe('Photo', function () {
     });
   });
   describe('#getSrcSet', function () {
-    it('should return for legacy', function () {
-      const photo = new Photo(photoLegacy);
-      expect(photo.getSrcSet()).to.equal('https://placehold.it/300x200 300w');
-    });
-    it('should return for legacy flickr', function () {
-      const photo = new Photo(photoLegacyFlickr);
-      expect(photo.getSrcSet()).to.equal('https://farm6.staticflickr.com/5604/15605014039_3aa65f125e.jpg 500w, https://farm6.staticflickr.com/5604/15605014039_3aa65f125e_b.jpg 1024w');
-    });
     it('should return for srcset', function () {
       const photo = new Photo(photoSrcsetLandscape);
       expect(photo.getSrcSet()).to.equal('https://placehold.it/600x400 600w, https://placehold.it/900x600 900w, https://placehold.it/1200x800 1200w');
