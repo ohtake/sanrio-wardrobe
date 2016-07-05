@@ -68,6 +68,37 @@ class FlickrSrcsetProvider {
   }
 }
 
+const picasaSizes = flickrSizes.map(s => s.longest);
+/*
+Example:
+images_picasa: { lh: 4, dirs: "-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA", file: "5D3D8863%2520%25281280x1920%2529.jpg" }
+
+Parameters:
+  lh: number required
+  dirs: string required
+  file: string required
+*/
+class PicasaSrcsetProvider {
+  static createUrl(lh, dirs, file, size) {
+    return `https://lh${lh}.googleusercontent.com/${dirs}/s${size}/${file}`;
+  }
+  static getImages(photo) {
+    const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
+    const imgsP = photo.data.images_picasa;
+    const result = [];
+    for (const size of picasaSizes) {
+      if (size >= maxO) {
+        const url = PicasaSrcsetProvider.createUrl(imgsP.lh, imgsP.dirs, imgsP.file, maxO);
+        result.push({ url, max: maxO });
+        break;
+      }
+      const url = PicasaSrcsetProvider.createUrl(imgsP.lh, imgsP.dirs, imgsP.file, size);
+      result.push({ url, max: size });
+    }
+    return result;
+  }
+}
+
 export default class Photo {
   constructor(data) {
     this.data = data;
@@ -101,6 +132,8 @@ export default class Photo {
       images = this.data.images.map(i => this.prepareSize(i));
     } else if (this.data.images_flickr) {
       images = FlickrSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
+    } else if (this.data.images_picasa) {
+      images = PicasaSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
     } else {
       images = [this.prepareSize({ url: this.data.image, max: this.data.size.max_len })];
       const largeUrl = this.inferLargeImage();
