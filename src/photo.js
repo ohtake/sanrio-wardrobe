@@ -25,7 +25,7 @@ export default class Photo {
     });
   }
 
-  getLargestImageAtMost(upperWidth, upperHeight) {
+  getSrcsetModel() {
     let images;
     if (this.data.images) {
       images = this.data.images.map(i => this.prepareSize(i));
@@ -37,6 +37,10 @@ export default class Photo {
         images.push(this.prepareSize(largeDummy));
       }
     }
+    return images;
+  }
+  getLargestImageAtMost(upperWidth, upperHeight) {
+    const images = this.getSrcsetModel().slice(0);
     images.sort((a, b) => a.max - b.max);
     for (let j = images.length - 1; j >= 0; j--) {
       const img = images[j];
@@ -71,18 +75,7 @@ export default class Photo {
     throw new Error('Cannot calc image width');
   }
   getSrcSet() {
-    let srcset;
-    if (this.data.images) {
-      srcset = this.data.images.map(i => `${i.url} ${this.calcWidth(i)}w`);
-    } else {
-      srcset = [`${this.data.image} ${this.data.size.max_len}w`];
-      const largeUrl = this.inferLargeImage();
-      if (largeUrl !== this.data.image) {
-        const largeDummy = { max: 1024 };
-        srcset.push(`${largeUrl} ${this.calcWidth(largeDummy)}w`);
-      }
-    }
-    return srcset.join(', ');
+    return this.getSrcsetModel().map(i => `${i.url} ${i.width}w`).join(', ');
   }
   getAspectRatio() {
     return 1.0 * this.data.size.width_o / this.data.size.height_o;
