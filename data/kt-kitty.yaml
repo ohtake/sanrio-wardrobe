@@ -1705,6 +1705,14 @@
     notes:
       - スパンコール
   - 
+    title: "1N0A3311"
+    images_flickr: { photo: "28002987681", farm: 8, server: 7486, secret: "40c0c2a15e", secret_h: "d3d665772e", secret_k: "ce7301bc2d", secret_o: "8701120f8b", format_o: "jpg" }
+    source: { author: "yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/28002987681"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "pink", "yellow", "white"]
+    notes:
+      - キティズパラダイスPeace
+  - 
     title: "IMG_9423"
     images_flickr: { photo: "16807820440", farm: 9, server: 8718, secret: "3d260e7353", secret_h: "d87c6a0d47", secret_k: "1e41f40dae", secret_o: "a4f852a02d", format_o: "jpg" }
     source: { author: "asuka_xp", license: "", url: "https://www.flickr.com/photos/asuka_xp/16807820440"}
