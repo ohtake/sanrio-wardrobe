@@ -10,6 +10,10 @@ describe('themes', function () {
     after(function () {
       themes.setTimeProviderForTest(null);
     });
+    it('should return theme', function () {
+      const theme = themes.getInitialTheme();
+      expect(theme).to.have.property('palette');
+    });
     it('should return theme based on time', function () {
       const dataset = [
         { time: new Date(2000, 1, 1, 0, 1), theme: themes.themeDark },

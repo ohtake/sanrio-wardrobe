@@ -53,5 +53,10 @@ describe('DataFile', function () {
       expect(DataFile.ktKitty.nameEn).to.be.a('string');
       expect(DataFile.ktKitty.picUrl).to.be.a('string');
     });
+    describe('#getDiplayName', function () {
+      it('should return both english and japanese', function () {
+        expect(DataFile.ktKitty.getDisplayName()).to.equal('KT キティ (Kitty)');
+      });
+    });
   });
 });
