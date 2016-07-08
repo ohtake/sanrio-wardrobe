@@ -1,6 +1,7 @@
 # Sanrio Wardrobe
 
 [![Build Status](https://travis-ci.org/ohtake/sanrio-wardrobe.svg?branch=master)](https://travis-ci.org/ohtake/sanrio-wardrobe)
+[![Code Climate](https://codeclimate.com/github/ohtake/sanrio-wardrobe/badges/gpa.svg)](https://codeclimate.com/github/ohtake/sanrio-wardrobe)
 
 [![Dependency Status](https://david-dm.org/ohtake/sanrio-wardrobe.svg)](https://david-dm.org/ohtake/sanrio-wardrobe)
 [![devDependency Status](https://david-dm.org/ohtake/sanrio-wardrobe/dev-status.svg)](https://david-dm.org/ohtake/sanrio-wardrobe#info=devDependencies)
