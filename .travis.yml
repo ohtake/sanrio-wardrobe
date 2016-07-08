@@ -7,4 +7,6 @@ cache:
 script:
   - ./scripts/run-travis-tests.sh
 after_success:
-  - ./scripts/is-release-branch.sh && npm run clean && npm run build && ./scripts/deploy-to-gh-pages.sh
+  - bash <(curl -s https://codecov.io/bash) # CODECOV_TOKEN is not required for Travis to test public repositories
+  - ./node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info # Needs CODECLIMATE_REPO_TOKEN env variable
+  - ./scripts/is-release-branch.sh && npm run clean && npm run build && ./scripts/deploy-to-gh-pages.sh # Needs GIT_REMOTE_URL_WITH_AUTH
