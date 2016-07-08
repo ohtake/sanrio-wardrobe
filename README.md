@@ -12,12 +12,32 @@ You can find clothings of Sanrio characters.
 
 Demo: <https://ohtake.github.io/sanrio-wardrobe/>
 
-## Develop
+## Requirement
 
-Install [Node.js and npm](https://nodejs.org/en/download/). Execute `npm install` to install dependencies.
+* [Node.js and npm](https://nodejs.org/en/download/current)
 
-Run `npm start`. Now you can visit http://localhost:8080/ to view the application.
+```
+npm install
+```
 
-## Publish
+## Development
 
-See `scripts/deploy-to-gh-pages.sh`.
+```
+npm start
+```
+
+Now you can visit http://localhost:8080/ to view the application.
+
+## Test
+
+```
+npm test
+```
+
+## Production
+
+```
+npm run clean
+npm run build
+npm run server
+```
