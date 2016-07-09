@@ -158,19 +158,19 @@ export default class Photo {
   }
   calcHeight(image) {
     if (image.height) return image.height;
-    if (image.width) return Math.round(1.0 * this.data.size.height_o * image.width / this.data.size.width_o);
+    if (image.width) return Math.round(image.width / this.getAspectRatio());
     if (image.max) {
       if (this.data.size.height_o >= this.data.size.width_o) return image.max;
-      return Math.round(1.0 * this.data.size.height_o * image.max / this.data.size.width_o);
+      return Math.round(image.max / this.getAspectRatio());
     }
     throw new Error('Cannot calc image height');
   }
   calcWidth(image) {
     if (image.width) return image.width;
-    if (image.height) return Math.round(1.0 * this.data.size.width_o * image.height / this.data.size.height_o);
+    if (image.height) return Math.round(image.height * this.getAspectRatio());
     if (image.max) {
       if (this.data.size.width_o >= this.data.size.height_o) return image.max;
-      return Math.round(1.0 * this.data.size.width_o * image.max / this.data.size.height_o);
+      return Math.round(image.max * this.getAspectRatio());
     }
     throw new Error('Cannot calc image width');
   }

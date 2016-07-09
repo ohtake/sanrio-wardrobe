@@ -1,6 +1,7 @@
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 import Photo from '../src/photo.js';
+import _ from 'lodash';
 
 const photoSrcsetLandscape = {
   title: 'srcset landscape',
@@ -117,6 +118,12 @@ describe('Photo', function () {
     });
   });
   describe('#getSrcSet', function () {
+    it('should not modify original data', function () {
+      const original = _.cloneDeep(photoSrcsetLandscape);
+      const photo = new Photo(photoSrcsetLandscape);
+      photo.getSrcSet();
+      expect(photo.data).to.deep.equal(original);
+    });
     it('should return for srcset', function () {
       const photo = new Photo(photoSrcsetLandscape);
       expect(photo.getSrcSet()).to.equal('https://placehold.it/600x400 600w, https://placehold.it/900x600 900w, https://placehold.it/1200x800 1200w');
