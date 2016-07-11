@@ -108,6 +108,7 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "red", "white", "yellow", "pink", "brown", "green"]
     notes:
+      - 外部イベント『ハローキティのドリームトラベラー』
       - パイナップル
   - 
     title: "5D3M2923"
