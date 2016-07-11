@@ -13,32 +13,13 @@ You can find clothings of Sanrio characters.
 
 Demo: <https://ohtake.github.io/sanrio-wardrobe/>
 
-## Requirement
+## Development
 
-* [Node.js and npm](https://nodejs.org/en/download/current)
+Install [Node.js and npm](https://nodejs.org/en/download/current).
 
 ```
 npm install
-```
-
-## Development
-
-```
 npm start
 ```
 
 Now you can visit http://localhost:8080/ to view the application.
-
-## Test
-
-```
-npm test
-```
-
-## Production
-
-```
-npm run clean
-npm run build
-npm run server
-```
