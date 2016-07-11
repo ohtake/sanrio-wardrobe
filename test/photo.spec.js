@@ -101,20 +101,34 @@ describe('Photo', function () {
       expect(photo.match(/note2/)).to.be.true;
     });
   });
-  describe('#calcWidth', function () {
+  describe('#calcWidthOrHeight', function () {
     it('should calculate width from either width, height, or max', function () {
       const photoL = new Photo(photoSrcsetLandscape);
       const photoP = new Photo(photoSrcsetPortrait);
       const photoS = new Photo(photoSrcsetSquare);
-      expect(photoL.calcWidth(photoL.data.images[0])).to.equal(600);
-      expect(photoL.calcWidth(photoL.data.images[1])).to.equal(900);
-      expect(photoL.calcWidth(photoL.data.images[2])).to.equal(1200);
-      expect(photoP.calcWidth(photoP.data.images[0])).to.equal(400);
-      expect(photoP.calcWidth(photoP.data.images[1])).to.equal(600);
-      expect(photoP.calcWidth(photoP.data.images[2])).to.equal(800);
-      expect(photoS.calcWidth(photoS.data.images[0])).to.equal(600);
-      expect(photoS.calcWidth(photoS.data.images[1])).to.equal(900);
-      expect(photoS.calcWidth(photoS.data.images[2])).to.equal(1200);
+      expect(photoL.calcWidthOrHeight(photoL.data.images[0], true)).to.equal(600);
+      expect(photoL.calcWidthOrHeight(photoL.data.images[1], true)).to.equal(900);
+      expect(photoL.calcWidthOrHeight(photoL.data.images[2], true)).to.equal(1200);
+      expect(photoP.calcWidthOrHeight(photoP.data.images[0], true)).to.equal(400);
+      expect(photoP.calcWidthOrHeight(photoP.data.images[1], true)).to.equal(600);
+      expect(photoP.calcWidthOrHeight(photoP.data.images[2], true)).to.equal(800);
+      expect(photoS.calcWidthOrHeight(photoS.data.images[0], true)).to.equal(600);
+      expect(photoS.calcWidthOrHeight(photoS.data.images[1], true)).to.equal(900);
+      expect(photoS.calcWidthOrHeight(photoS.data.images[2], true)).to.equal(1200);
+    });
+    it('should calculate height from either width, height, or max', function () {
+      const photoL = new Photo(photoSrcsetLandscape);
+      const photoP = new Photo(photoSrcsetPortrait);
+      const photoS = new Photo(photoSrcsetSquare);
+      expect(photoL.calcWidthOrHeight(photoL.data.images[0], false)).to.equal(400);
+      expect(photoL.calcWidthOrHeight(photoL.data.images[1], false)).to.equal(600);
+      expect(photoL.calcWidthOrHeight(photoL.data.images[2], false)).to.equal(800);
+      expect(photoP.calcWidthOrHeight(photoP.data.images[0], false)).to.equal(600);
+      expect(photoP.calcWidthOrHeight(photoP.data.images[1], false)).to.equal(900);
+      expect(photoP.calcWidthOrHeight(photoP.data.images[2], false)).to.equal(1200);
+      expect(photoS.calcWidthOrHeight(photoS.data.images[0], false)).to.equal(600);
+      expect(photoS.calcWidthOrHeight(photoS.data.images[1], false)).to.equal(900);
+      expect(photoS.calcWidthOrHeight(photoS.data.images[2], false)).to.equal(1200);
     });
   });
   describe('#getSrcSet', function () {

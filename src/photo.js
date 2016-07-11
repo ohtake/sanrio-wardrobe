@@ -151,28 +151,22 @@ export default class Photo {
   }
   prepareSize(image) {
     const ret = { url: image.url };
-    ret.width = this.calcWidth(image);
-    ret.height = this.calcHeight(image);
+    ret.width = this.calcWidthOrHeight(image, true);
+    ret.height = this.calcWidthOrHeight(image, false);
     ret.max = Math.max(ret.width, ret.height);
     return ret;
   }
-  calcHeight(image) {
-    if (image.height) return image.height;
-    if (image.width) return Math.round(image.width / this.getAspectRatio());
+  calcWidthOrHeight(image, isWidth) {
+    const wanted = isWidth ? 'width' : 'height';
+    if (image[wanted]) return image[wanted];
+    const other = isWidth ? 'height' : 'width';
+    const ratio = isWidth ? this.getAspectRatio() : 1 / this.getAspectRatio();
+    if (image[other]) return Math.round(image[other] * ratio);
     if (image.max) {
-      if (this.data.size.height_o >= this.data.size.width_o) return image.max;
-      return Math.round(image.max / this.getAspectRatio());
+      if (ratio >= 1) return image.max;
+      return Math.round(image.max * ratio);
     }
-    throw new Error('Cannot calc image height');
-  }
-  calcWidth(image) {
-    if (image.width) return image.width;
-    if (image.height) return Math.round(image.height * this.getAspectRatio());
-    if (image.max) {
-      if (this.data.size.width_o >= this.data.size.height_o) return image.max;
-      return Math.round(image.max * this.getAspectRatio());
-    }
-    throw new Error('Cannot calc image width');
+    throw new Error('Cannot calc image width/height');
   }
   getSrcSet() {
     return this.getSrcsetModel().map(i => `${i.url} ${i.width}w`).join(', ');

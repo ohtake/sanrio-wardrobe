@@ -177,6 +177,14 @@ export default class DetailView extends React.Component {
     // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
     const imgPrevStyle = _.assign(_.clone(imgBaseStyle), { left: -imgPosition, objectPosition: '100% 50%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
     const imgNextStyle = _.assign(_.clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
+
+    function floatingIcon(iconElement, isTop, isLeft, handler) {
+      const containerStyle = { position: 'absolute' };
+      if (isTop) { containerStyle.top = 0; } else { containerStyle.bottom = 0; }
+      if (isLeft) { containerStyle.left = 0; } else { containerStyle.right = 0; }
+      return <div style={containerStyle}><IconButton onTouchTap={handler} iconStyle={navIconStyle} style={navButtonStyle}>{iconElement}</IconButton></div>;
+    }
+
     return (
       <Drawer
         open openSecondary docked
@@ -225,16 +233,9 @@ export default class DetailView extends React.Component {
               </ul>
             </div>
             : null}
-          <div style={{ position: 'absolute', bottom: 0, left: 0 }}>
-            <IconButton onTouchTap={this.movePrev} iconStyle={navIconStyle} style={navButtonStyle}><NavigationChevronLeft /></IconButton>
-          </div>
-          <div style={{ position: 'absolute', bottom: 0, right: 0 }}>
-            <IconButton onTouchTap={this.moveNext} iconStyle={navIconStyle} style={navButtonStyle}><NavigationChevronRight /></IconButton>
-          </div>
-          {this.state.showInfo ? null :
-            <div style={{ position: 'absolute', top: 0, left: 0 }}>
-              <IconButton onTouchTap={this.closeDetailView} iconStyle={navIconStyle} style={navButtonStyle}><NavigationArrowBack /></IconButton>
-            </div>}
+          {floatingIcon(<NavigationChevronLeft />, false, true, this.movePrev)}
+          {floatingIcon(<NavigationChevronRight />, false, false, this.moveNext)}
+          {this.state.showInfo ? null : floatingIcon(<NavigationArrowBack />, true, true, this.closeDetailView)}
         </div>
       </Drawer>
     );
