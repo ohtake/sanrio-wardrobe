@@ -6,6 +6,9 @@ import * as themes from '../src/themes.js';
 /* eslint-disable prefer-arrow-callback, func-names */
 
 describe('themes', function () {
+  it('fails', function () {
+    expect(1).to.equal(2);
+  });
   describe('getInitialTheme', function () {
     after(function () {
       themes.setTimeProviderForTest(null);
