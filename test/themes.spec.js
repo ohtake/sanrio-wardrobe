@@ -6,8 +6,8 @@ import * as themes from '../src/themes.js';
 /* eslint-disable prefer-arrow-callback, func-names */
 
 describe('themes', function () {
-  it('fails', function () {
-    expect(1).to.equal(2);
+  it('succeeds', function () {
+    expect(1).to.equal(1);
   });
   describe('getInitialTheme', function () {
     after(function () {
