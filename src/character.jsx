@@ -1,6 +1,6 @@
 import React from 'react';
 
-import _ from 'lodash';
+import throttle from 'lodash/throttle';
 import Photo from './photo.js';
 import TextField from 'material-ui/TextField';
 import ColorSelector from './color_selector.jsx';
@@ -42,7 +42,7 @@ export default class Character extends React.Component {
 
     this.colorChanged = this.colorChanged.bind(this);
     this.handleSearchIconClick = this.handleSearchIconClick.bind(this);
-    this.handleSearchTextChanged = _.throttle(this.handleSearchTextChanged.bind(this), 500);
+    this.handleSearchTextChanged = throttle(this.handleSearchTextChanged.bind(this), 500);
     this.handleSearchTextKeyDown = this.handleSearchTextKeyDown.bind(this);
     this.handleSearchTextBlur = this.handleSearchTextBlur.bind(this);
   }

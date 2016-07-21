@@ -1,6 +1,8 @@
 import React from 'react';
 import Colors from './colors.js';
-import _ from 'lodash';
+import assign from 'lodash/assign';
+import clone from 'lodash/clone';
+import throttle from 'lodash/throttle';
 import verge from 'verge';
 
 import AppBar from 'material-ui/AppBar';
@@ -34,7 +36,7 @@ export default class DetailView extends React.Component {
     this.state = { showInfo: true, swipingRatio: 0 };
 
     this.handleResize = this.updateMenuWidth.bind(this);
-    this.handleSwiping = _.throttle(this.handleSwiping.bind(this), 50);
+    this.handleSwiping = throttle(this.handleSwiping.bind(this), 50);
     this.handleSwiped = this.handleSwiped.bind(this);
     this.closeDetailView = this.closeDetailView.bind(this);
     this.openImageSource = this.openImageSource.bind(this);
@@ -172,11 +174,11 @@ export default class DetailView extends React.Component {
     const navIconStyle = { width: navSize, height: navSize, fill: theme.palette.textColor };
     const navButtonStyle = { width: navSize + 2 * navPadding, height: navSize + 2 * navPadding, padding: navPadding };
     const imgBaseStyle = { position: 'absolute', width: '100%', height: '100%' };
-    const imgMainStyle = _.assign(_.clone(imgBaseStyle), { opacity: (Math.abs(this.state.swipingRatio) <= swipingRatioThreshold) ? 1 : 0.5 });
+    const imgMainStyle = assign(clone(imgBaseStyle), { opacity: (Math.abs(this.state.swipingRatio) <= swipingRatioThreshold) ? 1 : 0.5 });
     const imgPosition = this.state.menuWidth + theme.spacing.desktopGutterMini;
     // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
-    const imgPrevStyle = _.assign(_.clone(imgBaseStyle), { left: -imgPosition, objectPosition: '100% 50%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
-    const imgNextStyle = _.assign(_.clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
+    const imgPrevStyle = assign(clone(imgBaseStyle), { left: -imgPosition, objectPosition: '100% 50%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
+    const imgNextStyle = assign(clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
 
     function floatingIcon(iconElement, isTop, isLeft, handler) {
       const containerStyle = { position: 'absolute' };

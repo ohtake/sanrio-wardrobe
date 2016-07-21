@@ -1,7 +1,7 @@
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 import Photo from '../src/photo.js';
-import _ from 'lodash';
+import cloneDeep from 'lodash/cloneDeep';
 
 const photoSrcsetLandscape = {
   title: 'srcset landscape',
@@ -133,7 +133,7 @@ describe('Photo', function () {
   });
   describe('#getSrcSet', function () {
     it('should not modify original data', function () {
-      const original = _.cloneDeep(photoSrcsetLandscape);
+      const original = cloneDeep(photoSrcsetLandscape);
       const photo = new Photo(photoSrcsetLandscape);
       photo.getSrcSet();
       expect(photo.data).to.deep.equal(original);
