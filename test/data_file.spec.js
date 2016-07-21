@@ -30,7 +30,7 @@ describe('DataFile', function () {
     it('should have unique title', function (done) {
       const names = DataFile.all.map(d => d.name);
       const promises = names.map(n => new Promise((onFulfilled /* ,onRejected */) => {
-        fs.readFile(`data/${n}.yaml`, (err, data) => {
+        fs.readFile(`data/${n}.yaml`, { encoding: 'utf-8' }, (err, data) => {
           expect(err).to.be.null;
           const arr = yaml.safeLoad(data);
           expect(arr).to.be.an('array');
