@@ -136,7 +136,7 @@ export default class Home extends React.Component {
   }
   renderTile(c) {
     return (
-      <Link to={`/chara/${c.name}`} aspectRatio={1} data-event-category="chara" data-event-action="homeTile" data-event-label={c.name}>
+      <Link key={c.name} to={`/chara/${c.name}`} aspectRatio={1} data-event-category="chara" data-event-action="homeTile" data-event-label={c.name}>
         <div>
           <div style={styleSymbol}>{c.seriesSymbol}</div>
           <div style={styleTitleOuter}>
