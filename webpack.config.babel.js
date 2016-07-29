@@ -5,7 +5,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const js = {
   entry: [
-    './src/app.jsx',
+    './src/index.jsx',
   ],
   output: {
     publicPath: 'assets/',

@@ -4,7 +4,7 @@
   "description": "",
   "author": "",
   "license": "ISC",
-  "main": "src/app.jsx",
+  "main": "src/index.jsx",
   "dependencies": {
     "lodash": "4.14.0",
     "react": "15.2.1",

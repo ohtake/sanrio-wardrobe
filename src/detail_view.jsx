@@ -23,10 +23,6 @@ import NavigationChevronRight from 'material-ui/svg-icons/navigation/chevron-rig
 import NavigationFullscreen from 'material-ui/svg-icons/navigation/fullscreen';
 import NavigationMoreVert from 'material-ui/svg-icons/navigation/more-vert';
 
-// objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
-import objectFitImages from 'object-fit-images';
-objectFitImages();
-
 const swipingRatioThreshold = 0.3;
 
 export default class DetailView extends React.Component {

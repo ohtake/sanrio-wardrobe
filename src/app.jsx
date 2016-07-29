@@ -1,13 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, Link, IndexLink, useRouterHistory } from 'react-router';
-import { createHashHistory } from 'history';
-
-// Needed for onTouchTap
-// Check this repo:
-// https://github.com/zilverline/react-tap-event-plugin
-import injectTapEventPlugin from 'react-tap-event-plugin';
-injectTapEventPlugin();
+import { Link, IndexLink } from 'react-router';
 
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
@@ -30,12 +22,10 @@ import ImagePhotoSizeSelectLarge from 'material-ui/svg-icons/image/photo-size-se
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
 import DataFile from './data_file.js';
-import Home from './home.jsx';
-import Character from './character.jsx';
 import * as utils from './utils.js';
 import * as themes from './themes.js';
 
-class App extends React.Component {
+export default class App extends React.Component {
   constructor() {
     super();
 
@@ -164,12 +154,3 @@ App.childContextTypes = {
   muiTheme: React.PropTypes.object,
   thumbnailSize: React.PropTypes.number,
 };
-
-ReactDOM.render((
-  <Router history={useRouterHistory(createHashHistory)({ queryKey: false })}>
-    <Route path="/" component={App}>
-      <IndexRoute component={Home} />
-      <Route path="chara/:chara(/:title)" component={Character} />
-    </Route>
-  </Router>
-), document.getElementById('app'));
