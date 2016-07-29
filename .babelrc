@@ -1,6 +1,5 @@
-// To use ES6 syntax in webpack.config
 {
   "presets": [
-    "es2015"
+    "es2015", "react"
   ]
 }

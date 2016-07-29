@@ -2,6 +2,7 @@ import React from 'react';
 import Colors from './colors.js';
 import FlatButton from 'material-ui/FlatButton';
 import ContentFilterList from 'material-ui/svg-icons/content/filter-list';
+import clone from 'lodash/clone';
 
 class ColorItem {
   constructor(id, name, strong, weak) {
@@ -9,31 +10,23 @@ class ColorItem {
     this.name = name;
     this.strong = strong;
     this.weak = weak;
-    this.active = false;
-  }
-  toggle() {
-    this.active = !this.active;
   }
 }
 
 export default class ColorSelector extends React.Component {
   constructor(props) {
     super();
-    this.state = { colors: props.colors, enabled: false };
+    this.state = { colors: props.colors, enabled: false, actives: {} };
 
     this.start = this.start.bind(this);
     this.toggle = this.toggle.bind(this);
     this.clear = this.clear.bind(this);
   }
-  onChanged() {
-    const f = this.props.onChanged;
-    if (f) f(this);
-  }
-  getColorById(id) {
-    for (const c of this.state.colors) {
-      if (c.id === id) return c;
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.enabled !== this.state.enabled || prevState.actives !== this.state.actives) {
+      const f = this.props.onChanged;
+      if (f) f(this);
     }
-    return null;
   }
   styleBase() {
     return {
@@ -45,39 +38,33 @@ export default class ColorSelector extends React.Component {
   }
   styleColor(c) {
     const style = this.styleBase();
-    if (c.active) style.color = 'black';
+    const isActive = this.state.actives[c.id];
+    if (isActive) style.color = 'black';
     style.borderStyle = 'solid';
-    style.borderColor = c.active ? c.strong : c.weak;
-    if (c.active) style.backgroundColor = c.weak;
+    style.borderColor = isActive ? c.strong : c.weak;
+    if (isActive) style.backgroundColor = c.weak;
     return style;
   }
   start() {
-    this.state.enabled = !this.state.enabled;
-    this.onChanged();
-    this.setState({ enabled: this.state.enabled });
+    this.setState({ enabled: !this.state.enabled });
   }
   toggle(e) {
     e.preventDefault();
     const id = e.currentTarget.getAttribute('data');
-    const c = this.getColorById(id);
-    c.toggle();
-    this.onChanged();
-    this.setState({ colors: this.state.colors });
+    const actives = clone(this.state.actives);
+    actives[id] = !actives[id];
+    this.setState({ actives });
   }
   clear(e) {
     if (e) e.preventDefault();
-    for (const c of this.state.colors) {
-      c.active = false;
-    }
-    this.onChanged();
-    this.setState({ colors: this.state.colors });
+    this.setState({ actives: {} });
   }
   listActiveIds() {
     if (! this.state.enabled) return [];
-    return this.state.colors.filter(c => c.active).map(c => c.id);
+    return this.state.colors.filter(c => this.state.actives[c.id]).map(c => c.id);
   }
   isFilterEnabled() {
-    return this.state.enabled && this.state.colors.some(c => c.active);
+    return this.state.enabled && Object.keys(this.state.actives).length > 0;
   }
   listButtons() {
     return [
@@ -85,7 +72,7 @@ export default class ColorSelector extends React.Component {
         <a key={c.name} href="#" onClick={this.toggle} data={c.id}>
           <FlatButton label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />
         </a>),
-      <a key="clear" href="#" onClick={this.clear}>
+      <a key="clear" href="#" onClick={this.clear} data="">
         <FlatButton label="CLEAR" style={this.styleBase()} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={! this.isFilterEnabled()} />
       </a>,
     ];
