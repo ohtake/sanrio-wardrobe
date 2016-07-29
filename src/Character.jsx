@@ -37,9 +37,9 @@ class SearchParams {
 }
 
 export default class Character extends React.Component {
-  constructor(props) {
+  constructor() {
     super();
-    this.state = { filename: props.params.chara, message: 'Initializing' };
+    this.state = { message: 'Initializing' };
     this.searchParams = new SearchParams();
 
     this.colorChanged = this.colorChanged.bind(this);

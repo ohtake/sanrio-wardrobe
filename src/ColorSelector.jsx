@@ -17,9 +17,9 @@ class ColorItem {
 }
 
 export default class ColorSelector extends React.Component {
-  constructor(props) {
+  constructor() {
     super();
-    this.state = { colors: props.colors, enabled: false, actives: {} };
+    this.state = { enabled: false, actives: {} };
 
     this.start = this.start.bind(this);
     this.toggle = this.toggle.bind(this);
@@ -64,14 +64,14 @@ export default class ColorSelector extends React.Component {
   }
   listActiveIds() {
     if (! this.state.enabled) return [];
-    return this.state.colors.filter(c => this.state.actives[c.id]).map(c => c.id);
+    return this.props.colors.filter(c => this.state.actives[c.id]).map(c => c.id);
   }
   isFilterEnabled() {
     return this.state.enabled && Object.keys(this.state.actives).length > 0;
   }
   listButtons() {
     return [
-      ...this.state.colors.map(c =>
+      ...this.props.colors.map(c =>
         <a key={c.name} href="#" onClick={this.toggle} data={c.id}>
           <FlatButton label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />
         </a>),

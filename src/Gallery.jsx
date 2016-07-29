@@ -9,16 +9,11 @@ import * as utils from './utils.js';
 export default class Gallery extends React.Component {
   constructor() {
     super();
-    this.state = { thumbnailHeight: 72 };
+    this.state = {};
     this.widthListener = new utils.ContainerClientWidthListener(this, () => this.gallery, 'containerWidth');
   }
   componentDidMount() {
     this.widthListener.componentDidMount();
-  }
-  componentWillReceiveProps(nextProps, nextContext) {
-    if (nextContext.thumbnailSize) {
-      this.setState({ thumbnailHeight: nextContext.thumbnailSize });
-    }
   }
   componentDidUpdate(prevProps, prevState) {
     this.widthListener.componentDidUpdate(prevProps, prevState);
@@ -29,17 +24,18 @@ export default class Gallery extends React.Component {
 
   renderGallery() {
     const theme = this.context.muiTheme;
+    const thumbnailHeight = this.context.thumbnailSize;
     let imgStyle = { width: '100%', height: '100%' };
     let imgs = this.props.photos.map((p) => (
       <div key={p.data.title} aspectRatio={p.getAspectRatio()} style={{ backgroundColor: theme.palette.borderColor }}>
         <Link to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-event-category="lightbox" data-event-action="open" data-event-label={`${this.props.chara} ${p.data.title}`}>
-          <LazyLoad offset={this.state.thumbnailHeight}>
+          <LazyLoad offset={thumbnailHeight}>
             <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={imgStyle} />
           </LazyLoad>
         </Link>
       </div>
     ));
-    return <JustifiedLayout targetRowHeight={this.state.thumbnailHeight} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
+    return <JustifiedLayout targetRowHeight={thumbnailHeight} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
   }
   render() {
     return (
