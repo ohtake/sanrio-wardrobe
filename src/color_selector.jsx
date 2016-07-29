@@ -2,6 +2,7 @@ import React from 'react';
 import Colors from './colors.js';
 import FlatButton from 'material-ui/FlatButton';
 import ContentFilterList from 'material-ui/svg-icons/content/filter-list';
+import clone from 'lodash/clone';
 
 class ColorItem {
   constructor(id, name, strong, weak) {
@@ -21,9 +22,11 @@ export default class ColorSelector extends React.Component {
     this.toggle = this.toggle.bind(this);
     this.clear = this.clear.bind(this);
   }
-  onChanged() {
-    const f = this.props.onChanged;
-    if (f) f(this);
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.enabled !== this.state.enabled || prevState.actives !== this.state.actives) {
+      const f = this.props.onChanged;
+      if (f) f(this);
+    }
   }
   styleBase() {
     return {
@@ -43,22 +46,18 @@ export default class ColorSelector extends React.Component {
     return style;
   }
   start() {
-    this.state.enabled = !this.state.enabled;
-    this.onChanged();
-    this.setState({ enabled: this.state.enabled });
+    this.setState({ enabled: !this.state.enabled });
   }
   toggle(e) {
     e.preventDefault();
     const id = e.currentTarget.getAttribute('data');
-    this.state.actives[id] = !this.state.actives[id];
-    this.setState({ actives: this.state.actives });
-    this.onChanged();
+    const actives = clone(this.state.actives);
+    actives[id] = !actives[id];
+    this.setState({ actives });
   }
   clear(e) {
     if (e) e.preventDefault();
-    this.state.actives = {};
-    this.onChanged();
-    this.setState({ actives: this.state.actives });
+    this.setState({ actives: {} });
   }
   listActiveIds() {
     if (! this.state.enabled) return [];
