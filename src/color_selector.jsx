@@ -9,7 +9,7 @@ class ColorItem {
     this.name = name;
     this.strong = strong;
     this.weak = weak;
-    this.active = false;
+    this.active = false; // TODO It should not shares active state. defaultProps reuse same instances
   }
   toggle() {
     this.active = !this.active;
@@ -85,7 +85,7 @@ export default class ColorSelector extends React.Component {
         <a key={c.name} href="#" onClick={this.toggle} data={c.id}>
           <FlatButton label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />
         </a>),
-      <a key="clear" href="#" onClick={this.clear}>
+      <a key="clear" href="#" onClick={this.clear} data="">
         <FlatButton label="CLEAR" style={this.styleBase()} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={! this.isFilterEnabled()} />
       </a>,
     ];
