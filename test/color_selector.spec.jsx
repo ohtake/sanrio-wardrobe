@@ -62,7 +62,6 @@ describe('<ColorSelector />', function () {
     expect(instance.listActiveIds()).to.eql([]);
     clickFilter(wrapper);
     expect(instance.listActiveIds()).to.eql(['red', 'blue']);
-    clickClear(wrapper); // TODO It should not shares active state
   });
   it('should clear all actives', function () {
     const wrapper = shallow(<ColorSelector />, { context });

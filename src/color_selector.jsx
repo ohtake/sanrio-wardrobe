@@ -9,17 +9,13 @@ class ColorItem {
     this.name = name;
     this.strong = strong;
     this.weak = weak;
-    this.active = false; // TODO It should not shares active state. defaultProps reuse same instances
-  }
-  toggle() {
-    this.active = !this.active;
   }
 }
 
 export default class ColorSelector extends React.Component {
   constructor(props) {
     super();
-    this.state = { colors: props.colors, enabled: false };
+    this.state = { colors: props.colors, enabled: false, actives: {} };
 
     this.start = this.start.bind(this);
     this.toggle = this.toggle.bind(this);
@@ -28,12 +24,6 @@ export default class ColorSelector extends React.Component {
   onChanged() {
     const f = this.props.onChanged;
     if (f) f(this);
-  }
-  getColorById(id) {
-    for (const c of this.state.colors) {
-      if (c.id === id) return c;
-    }
-    return null;
   }
   styleBase() {
     return {
@@ -45,10 +35,11 @@ export default class ColorSelector extends React.Component {
   }
   styleColor(c) {
     const style = this.styleBase();
-    if (c.active) style.color = 'black';
+    const isActive = this.state.actives[c.id];
+    if (isActive) style.color = 'black';
     style.borderStyle = 'solid';
-    style.borderColor = c.active ? c.strong : c.weak;
-    if (c.active) style.backgroundColor = c.weak;
+    style.borderColor = isActive ? c.strong : c.weak;
+    if (isActive) style.backgroundColor = c.weak;
     return style;
   }
   start() {
@@ -59,25 +50,22 @@ export default class ColorSelector extends React.Component {
   toggle(e) {
     e.preventDefault();
     const id = e.currentTarget.getAttribute('data');
-    const c = this.getColorById(id);
-    c.toggle();
+    this.state.actives[id] = !this.state.actives[id];
+    this.setState({ actives: this.state.actives });
     this.onChanged();
-    this.setState({ colors: this.state.colors });
   }
   clear(e) {
     if (e) e.preventDefault();
-    for (const c of this.state.colors) {
-      c.active = false;
-    }
+    this.state.actives = {};
     this.onChanged();
-    this.setState({ colors: this.state.colors });
+    this.setState({ actives: this.state.actives });
   }
   listActiveIds() {
     if (! this.state.enabled) return [];
-    return this.state.colors.filter(c => c.active).map(c => c.id);
+    return this.state.colors.filter(c => this.state.actives[c.id]).map(c => c.id);
   }
   isFilterEnabled() {
-    return this.state.enabled && this.state.colors.some(c => c.active);
+    return this.state.enabled && Object.keys(this.state.actives).length > 0;
   }
   listButtons() {
     return [
