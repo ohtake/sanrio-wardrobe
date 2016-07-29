@@ -34,7 +34,7 @@ export class ContainerClientWidthListener {
   }
   updateContainerWidth() {
     const newWidth = ReactDOM.findDOMNode(this.containerGetter()).clientWidth;
-    if (newWidth !== this.owner.state.containerWidth) {
+    if (newWidth !== this.owner.state[this.statusName]) {
       const status = {};
       status[this.statusName] = newWidth;
       this.owner.setState(status);
