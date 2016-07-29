@@ -1,3 +1,5 @@
+// const a = 1;
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, Link, IndexLink, useRouterHistory } from 'react-router';
