@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import ResizeSensor from 'css-element-queries/src/ResizeSensor';
 
 export const propTypesRoute = {

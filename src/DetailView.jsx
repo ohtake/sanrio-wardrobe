@@ -1,9 +1,4 @@
 import React from 'react';
-import Colors from './colors.js';
-import assign from 'lodash/assign';
-import clone from 'lodash/clone';
-import throttle from 'lodash/throttle';
-import verge from 'verge';
 
 import AppBar from 'material-ui/AppBar';
 import Divider from 'material-ui/Divider';
@@ -11,10 +6,7 @@ import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import IconMenu from 'material-ui/IconMenu';
 import { List, ListItem } from 'material-ui/List';
-import { fade } from 'material-ui/utils/colorManipulator';
-import * as utils from './utils.js';
-import AutoLockScrolling from 'material-ui/internal/AutoLockScrolling';
-import Swipeable from 'react-swipeable';
+
 import ActionFeedback from 'material-ui/svg-icons/action/feedback';
 import ActionOpenInBrowser from 'material-ui/svg-icons/action/open-in-browser';
 import NavigationArrowBack from 'material-ui/svg-icons/navigation/arrow-back';
@@ -22,6 +14,17 @@ import NavigationChevronLeft from 'material-ui/svg-icons/navigation/chevron-left
 import NavigationChevronRight from 'material-ui/svg-icons/navigation/chevron-right';
 import NavigationFullscreen from 'material-ui/svg-icons/navigation/fullscreen';
 import NavigationMoreVert from 'material-ui/svg-icons/navigation/more-vert';
+
+import AutoLockScrolling from 'material-ui/internal/AutoLockScrolling';
+import Swipeable from 'react-swipeable';
+import Colors from './colors.js';
+
+import { fade } from 'material-ui/utils/colorManipulator';
+import assign from 'lodash/assign';
+import clone from 'lodash/clone';
+import throttle from 'lodash/throttle';
+import verge from 'verge';
+import * as utils from './utils.js';
 
 const swipingRatioThreshold = 0.3;
 

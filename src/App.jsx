@@ -3,15 +3,16 @@ import { Link, IndexLink } from 'react-router';
 
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
-import Drawer from 'material-ui/Drawer';
-import { List, ListItem } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
-import Subheader from 'material-ui/Subheader';
-import IconMenu from 'material-ui/IconMenu';
+import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
-import { Toolbar, ToolbarGroup } from 'material-ui/Toolbar';
+import IconMenu from 'material-ui/IconMenu';
+import { List, ListItem } from 'material-ui/List';
+import Subheader from 'material-ui/Subheader';
 import Toggle from 'material-ui/Toggle';
+import { Toolbar, ToolbarGroup } from 'material-ui/Toolbar';
 import Slider from 'material-ui/Slider';
+
 import ActionFeedback from 'material-ui/svg-icons/action/feedback';
 import ActionHome from 'material-ui/svg-icons/action/home';
 import ActionSettings from 'material-ui/svg-icons/action/settings';

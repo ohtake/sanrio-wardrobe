@@ -1,7 +1,10 @@
 import React from 'react';
-import Colors from './colors.js';
+
 import FlatButton from 'material-ui/FlatButton';
+
 import ContentFilterList from 'material-ui/svg-icons/content/filter-list';
+
+import Colors from './colors.js';
 import clone from 'lodash/clone';
 
 class ColorItem {
