@@ -1433,6 +1433,14 @@
     notes:
       - メルヘンシアター『ハローキティ ドリームレビュー 1』ピアノコンクール
   - 
+    title: "5D3Z3482"
+    images_flickr: { photo: "27765020333", farm: 9, server: 8667, secret: "c54b270d82", secret_h: "da1c0c27e4", secret_k: "26cb35a216", secret_o: "3155704976", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27765020333"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "green", "red", "white"]
+    notes:
+      - いちご
+  - 
     title: "5D3X9886"
     images_flickr: { photo: "26117133231", farm: 2, server: 1456, secret: "24de6de19d", secret_h: "d579aa70a7", secret_k: "a2cbc66840", secret_o: "62eeea123a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26117133231"}
