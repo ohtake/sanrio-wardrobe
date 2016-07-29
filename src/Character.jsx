@@ -3,9 +3,9 @@ import React from 'react';
 import throttle from 'lodash/throttle';
 import Photo from './photo.js';
 import TextField from 'material-ui/TextField';
-import ColorSelector from './color_selector.jsx';
-import Gallery from './gallery.jsx';
-import DetailView from './detail_view.jsx';
+import ColorSelector from './ColorSelector.jsx';
+import Gallery from './Gallery.jsx';
+import DetailView from './DetailView.jsx';
 import * as utils from './utils.js';
 
 import ActionSearch from 'material-ui/svg-icons/action/search';

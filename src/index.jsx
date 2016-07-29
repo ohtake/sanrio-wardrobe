@@ -13,9 +13,9 @@ injectTapEventPlugin();
 import objectFitImages from 'object-fit-images';
 objectFitImages();
 
-import App from './app.jsx';
-import Home from './home.jsx';
-import Character from './character.jsx';
+import App from './App.jsx';
+import Home from './Home.jsx';
+import Character from './Character.jsx';
 
 ReactDOM.render((
   <Router history={useRouterHistory(createHashHistory)({ queryKey: false })}>

@@ -2,7 +2,7 @@ import React from 'react';
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
-import ColorSelector from '../src/color_selector.jsx';
+import ColorSelector from '../src/ColorSelector.jsx';
 import * as themes from '../src/themes.js';
 
 const context = { muiTheme: themes.themeLight };
