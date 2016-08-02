@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, useRouterHistory } from 'react-router';
-import { createHashHistory } from 'history';
+import createHashHistory from 'history/lib/createHashHistory';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import objectFitImages from 'object-fit-images';
