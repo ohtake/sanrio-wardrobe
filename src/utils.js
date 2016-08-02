@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import ResizeSensor from 'css-element-queries/src/ResizeSensor';
 
@@ -33,7 +32,7 @@ export class ContainerClientWidthListener {
     this.resizeSensor.detach();
   }
   updateContainerWidth() {
-    const newWidth = ReactDOM.findDOMNode(this.containerGetter()).clientWidth;
+    const newWidth = this.containerGetter().clientWidth;
     if (newWidth !== this.owner.state[this.statusName]) {
       const status = {};
       status[this.statusName] = newWidth;

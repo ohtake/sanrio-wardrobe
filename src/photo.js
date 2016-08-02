@@ -12,7 +12,7 @@ const flickrSizesAll = [
   { suffix: 'k', longest: 2048, since: '20120301', label: 'Large 2048' },
   { suffix: 'o', customExtention: true, label: 'Original' },
 ];
-const flickrSizes = flickrSizesAll.filter(s => ! s.square).filter(s => s.longest);
+const flickrSizes = flickrSizesAll.filter(s => !s.square).filter(s => s.longest);
 
 /*
 Example:
@@ -42,21 +42,23 @@ class FlickrSrcsetProvider {
     const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
     const imgsF = photo.data.images_flickr;
     const result = [];
-    for (const size of flickrSizes) {
+    const availableSizes = flickrSizes.filter(s => {
+      if (imgsF.before && s.since && imgsF.before <= s.since) return false;
+      if (s.suffix === 'h' && !imgsF.secret_h) return false;
+      if (s.suffix === 'k' && !imgsF.secret_k) return false;
+      if (s.suffix === 'o') throw new Error('Not supported');
+      return true;
+    });
+    for (const size of availableSizes) {
       let secret;
       switch (size.suffix) {
         case 'h':
-          if (! imgsF.secret_h) continue;
           secret = imgsF.secret_h;
           break;
         case 'k':
-          if (! imgsF.secret_k) continue;
           secret = imgsF.secret_k;
           break;
-        case 'o':
-          throw new Error('Not supported');
         default:
-          if (imgsF.before && size.since && imgsF.before <= size.since) continue;
           secret = imgsF.secret;
           break;
       }
@@ -172,7 +174,7 @@ export default class Photo {
     return this.getSrcsetModel().map(i => `${i.url} ${i.width}w`).join(', ');
   }
   getAspectRatio() {
-    return 1.0 * this.data.size.width_o / this.data.size.height_o;
+    return this.data.size.width_o / this.data.size.height_o;
   }
   match(re) {
     if (this.data.title.match(re)) return true;

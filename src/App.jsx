@@ -53,7 +53,7 @@ export default class App extends React.Component {
   }
   getTitleFromParams() {
     const chara = this.props.params.chara;
-    if (! chara) return 'Sanrio Wardrobe';
+    if (!chara) return 'Sanrio Wardrobe';
     const df = DataFile.findByName(chara);
     return df.getDisplayName();
   }

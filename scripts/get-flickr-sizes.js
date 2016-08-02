@@ -8,6 +8,8 @@ https://www.flickr.com/services/api/flickr.photos.getSizes.html
 https://www.flickr.com/services/api/misc.urls.html
 */
 
+/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
+
 // Use request to support proxy.
 // If you are behind a proxy, set https_proxy environment variable.
 import request from 'request';
@@ -86,7 +88,7 @@ request(endpoint, (error, response, body) => {
         break;
     }
   }
-  if (! farm) {
+  if (!farm) {
     console.info(body);
     console.error('Could not find farm');
     process.exit(1);
@@ -102,7 +104,7 @@ request(endpoint, (error, response, body) => {
     params.push(`secret_o: "${secretO}"`);
     params.push(`format_o: "${formatO}"`);
   }
-  if (! hasB) params.push('before: "20100525"');
-  else if (! hasC) params.push('before: "20120301"');
+  if (!hasB) params.push('before: "20100525"');
+  else if (!hasC) params.push('before: "20120301"');
   console.log(`images_flickr: { ${params.join(', ')} }`);
 });

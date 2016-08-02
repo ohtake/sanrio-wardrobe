@@ -4,8 +4,9 @@ import FlatButton from 'material-ui/FlatButton';
 
 import ContentFilterList from 'material-ui/svg-icons/content/filter-list';
 
-import Colors from './colors.js';
 import clone from 'lodash/clone';
+
+import Colors from './colors.js';
 
 class ColorItem {
   constructor(id, name, strong, weak) {
@@ -63,7 +64,7 @@ export default class ColorSelector extends React.Component {
     this.setState({ actives: {} });
   }
   listActiveIds() {
-    if (! this.state.enabled) return [];
+    if (!this.state.enabled) return [];
     return this.props.colors.filter(c => this.state.actives[c.id]).map(c => c.id);
   }
   isFilterEnabled() {
@@ -72,12 +73,9 @@ export default class ColorSelector extends React.Component {
   listButtons() {
     return [
       ...this.props.colors.map(c =>
-        <a key={c.name} href="#" onClick={this.toggle} data={c.id}>
-          <FlatButton label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />
-        </a>),
-      <a key="clear" href="#" onClick={this.clear} data="">
-        <FlatButton label="CLEAR" style={this.styleBase()} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={! this.isFilterEnabled()} />
-      </a>,
+        <FlatButton key={c.name} onClick={this.toggle} data={c.id} label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />
+      ),
+      <FlatButton key="clear" onClick={this.clear} data="" label="CLEAR" style={this.styleBase()} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={!this.isFilterEnabled()} />,
     ];
   }
   render() {

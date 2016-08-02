@@ -1,17 +1,20 @@
-import './dom.js';
+/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
 
 import React from 'react';
 import { describe, it } from 'mocha';
 import { default as chai, expect } from 'chai';
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
-chai.use(sinonChai);
 import { shallow } from 'enzyme';
+import clone from 'lodash/clone';
+
+import './dom.js';
 
 import DetailView from '../src/DetailView.jsx';
 import Photo from '../src/photo.js';
 import * as themes from '../src/themes.js';
-import clone from 'lodash/clone';
+
+chai.use(sinonChai);
 
 const dummyEvent = {
   preventDefault: () => {},

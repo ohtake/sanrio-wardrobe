@@ -1,3 +1,5 @@
+/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
+
 import { jsdom } from 'jsdom';
 
 global.document = jsdom('');

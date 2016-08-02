@@ -1,14 +1,17 @@
-import './dom.js';
+/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
 
 import React from 'react';
+
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
+import clone from 'lodash/clone';
+
+import './dom.js';
 
 import Gallery from '../src/Gallery.jsx';
 import Photo from '../src/photo.js';
 import * as themes from '../src/themes.js';
-import clone from 'lodash/clone';
 
 const photoTemplate = {
   title: 'template',

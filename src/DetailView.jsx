@@ -17,13 +17,15 @@ import NavigationMoreVert from 'material-ui/svg-icons/navigation/more-vert';
 
 import AutoLockScrolling from 'material-ui/internal/AutoLockScrolling';
 import Swipeable from 'react-swipeable';
-import Colors from './colors.js';
 
 import { fade } from 'material-ui/utils/colorManipulator';
 import assign from 'lodash/assign';
 import clone from 'lodash/clone';
 import throttle from 'lodash/throttle';
 import verge from 'verge';
+
+import Colors from './colors.js';
+
 import * as utils from './utils.js';
 
 const swipingRatioThreshold = 0.3;
@@ -84,7 +86,7 @@ export default class DetailView extends React.Component {
   }
   movePrev(e) {
     e.preventDefault();
-    this.moveToIndex((this.state.index + this.state.photos.length - 1) % this.state.photos.length);
+    this.moveToIndex(((this.state.index + this.state.photos.length) - 1) % this.state.photos.length);
   }
   openImageSource() {
     const photo = this.state.photos[this.state.index];
@@ -137,7 +139,7 @@ export default class DetailView extends React.Component {
     return (
       <li>{photo.data.colors.map(c => {
         const color = Colors.findById(c);
-        return <span style={this.createColorSampleStyle(color.value)} title={color.name}></span>;
+        return <span style={this.createColorSampleStyle(color.value)} title={color.name} />;
       })}</li>
     );
   }
@@ -153,7 +155,7 @@ export default class DetailView extends React.Component {
     if (photo.data.source.license) texts.push(`under ${photo.data.source.license}`);
     const theme = this.context.muiTheme;
     return (
-      <a href={photo.data.source.url} target="_blank" style={{ color: theme.appBar.textColor }}>
+      <a href={photo.data.source.url} target="_blank" rel="noopener noreferrer" style={{ color: theme.appBar.textColor }}>
         {texts.join(' ') || 'no credit info'}
       </a>
     );
@@ -166,12 +168,12 @@ export default class DetailView extends React.Component {
     const len = this.state.photos.length;
     const main = this.state.photos[index];
     const next = this.state.photos[(index + 1) % len];
-    const prev = this.state.photos[(index + len - 1) % len];
+    const prev = this.state.photos[((index + len) - 1) % len];
     const theme = this.context.muiTheme;
     const navSize = 24;
     const navPadding = 12;
     const navIconStyle = { width: navSize, height: navSize, fill: theme.palette.textColor };
-    const navButtonStyle = { width: navSize + 2 * navPadding, height: navSize + 2 * navPadding, padding: navPadding };
+    const navButtonStyle = { width: navSize + (2 * navPadding), height: navSize + (2 * navPadding), padding: navPadding };
     const imgBaseStyle = { position: 'absolute', width: '100%', height: '100%' };
     const imgMainStyle = assign(clone(imgBaseStyle), { opacity: (Math.abs(this.state.swipingRatio) <= swipingRatioThreshold) ? 1 : 0.5 });
     const imgPosition = this.state.menuWidth + theme.spacing.desktopGutterMini;
