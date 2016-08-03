@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import Link from 'react-router/lib/Link';
 
 import JustifiedLayout from 'react-justified-layout';
 import DataFile from './data_file.js';

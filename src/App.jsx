@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, IndexLink } from 'react-router';
+import IndexLink from 'react-router/lib/IndexLink';
+import Link from 'react-router/lib/Link';
 
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
