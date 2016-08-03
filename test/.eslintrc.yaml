@@ -1,0 +1,9 @@
+---
+  rules:
+    import/no-extraneous-dependencies: [error, {devDependencies: true}]
+    # Chai uses expressions like `expect(true).to.be.true`
+    no-unused-expressions: off
+    # Passing arrow functions ("lambdas") to Mocha is discouraged
+    # https://mochajs.org/#arrow-functions
+    prefer-arrow-callback: off
+    func-names: off

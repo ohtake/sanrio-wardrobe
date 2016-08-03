@@ -1,13 +1,9 @@
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
-
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 import fs from 'fs';
 import yaml from 'js-yaml';
 
 import DataFile from '../src/data_file.js';
-
-/* eslint-disable no-unused-expressions */
 
 function assertUniqueStringArray(array) {
   expect(array).to.be.an('array');
@@ -18,8 +14,6 @@ function assertUniqueStringArray(array) {
     expect(i, `non-unique ${s}`).to.equal(lastIndex);
   });
 }
-
-/* eslint-disable prefer-arrow-callback, func-names */
 
 describe('DataFile', function () {
   describe('.all', function () {

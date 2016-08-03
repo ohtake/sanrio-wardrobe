@@ -1,12 +1,7 @@
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
-
 import { describe, it, after } from 'mocha';
 import { expect } from 'chai';
 
 import * as themes from '../src/themes.js';
-
-/* eslint-disable no-unused-expressions */
-/* eslint-disable prefer-arrow-callback, func-names */
 
 describe('themes', function () {
   describe('getInitialTheme', function () {

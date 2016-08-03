@@ -1,5 +1,3 @@
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
-
 import React from 'react';
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
@@ -23,9 +21,6 @@ function clickColor(wrapper, colorId) {
 function clickClear(wrapper) {
   wrapper.find({ data: '' }).simulate('click');
 }
-
-/* eslint-disable no-unused-expressions */
-/* eslint-disable prefer-arrow-callback, func-names */
 
 describe('<ColorSelector />', function () {
   it('should not have any active items at first', function () {

@@ -8,13 +8,9 @@ https://www.flickr.com/services/api/flickr.photos.getSizes.html
 https://www.flickr.com/services/api/misc.urls.html
 */
 
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
-
 // Use request to support proxy.
 // If you are behind a proxy, set https_proxy environment variable.
 import request from 'request';
-
-/* eslint-disable no-console */
 
 const args = process.argv.slice(2);
 if (args.length !== 2) {

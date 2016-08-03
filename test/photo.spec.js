@@ -1,5 +1,3 @@
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
-
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 import cloneDeep from 'lodash/cloneDeep';
@@ -74,9 +72,6 @@ const photoPicasa = {
   colors: [],
   notes: [],
 };
-
-/* eslint-disable no-unused-expressions */
-/* eslint-disable prefer-arrow-callback, func-names */
 
 describe('Photo', function () {
   describe('#getAspectRatio', function () {

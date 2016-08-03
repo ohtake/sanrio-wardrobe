@@ -1,6 +1,6 @@
 ---
-  env: 
-    browser: true
-  extends: ["airbnb"]
+  root: true
+  extends:
+    - airbnb
   rules:
-    max-len: 0
+    max-len: off

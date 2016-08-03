@@ -1,5 +1,3 @@
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
-
 import React from 'react';
 
 import { describe, it } from 'mocha';
@@ -25,9 +23,6 @@ const photoTemplate = {
 };
 
 const context = { muiTheme: themes.themeLight };
-
-/* eslint-disable no-unused-expressions */
-/* eslint-disable prefer-arrow-callback, func-names */
 
 describe('<Gallery />', function () {
   it('should handle 0 photos', function () {

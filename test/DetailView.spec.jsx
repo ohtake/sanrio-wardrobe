@@ -1,5 +1,3 @@
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
-
 import React from 'react';
 import { describe, it } from 'mocha';
 import { default as chai, expect } from 'chai';
@@ -42,9 +40,6 @@ function createContextWithSpiedRouter() {
   c.router.replace = sinon.spy();
   return c;
 }
-
-/* eslint-disable no-unused-expressions */
-/* eslint-disable prefer-arrow-callback, func-names */
 
 describe('<DetailView />', function () {
   it('should be loaded without photos', function () {

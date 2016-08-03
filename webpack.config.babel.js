@@ -1,4 +1,4 @@
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
+/* eslint import/no-extraneous-dependencies: [error, {devDependencies: true}] */
 
 import path from 'path';
 import webpack from 'webpack';
