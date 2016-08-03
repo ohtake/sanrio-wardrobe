@@ -1,4 +1,5 @@
 import React from 'react';
+import { routerShape } from 'react-router/lib/PropTypes';
 
 import AppBar from 'material-ui/AppBar';
 import Divider from 'material-ui/Divider';
@@ -248,6 +249,6 @@ DetailView.propTypes = {
   chara: React.PropTypes.string.isRequired,
 };
 DetailView.contextTypes = {
-  router: React.PropTypes.object,
   muiTheme: React.PropTypes.object.isRequired,
+  router: routerShape,
 };

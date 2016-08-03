@@ -1,4 +1,5 @@
 import React from 'react';
+import { routerShape } from 'react-router/lib/PropTypes';
 
 import TextField from 'material-ui/TextField';
 
@@ -153,8 +154,10 @@ export default class Character extends React.Component {
     );
   }
 }
-Character.propTypes = utils.propTypesRoute;
+Character.propTypes = {
+  params: React.PropTypes.object,
+};
 Character.contextTypes = {
   muiTheme: React.PropTypes.object.isRequired,
-  router: React.PropTypes.object,
+  router: routerShape,
 };

@@ -23,7 +23,6 @@ import ImagePhotoSizeSelectLarge from 'material-ui/svg-icons/image/photo-size-se
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
 import DataFile from './data_file.js';
-import * as utils from './utils.js';
 import * as themes from './themes.js';
 
 export default class App extends React.Component {
@@ -150,7 +149,10 @@ export default class App extends React.Component {
     </div>);
   }
 }
-App.propTypes = utils.propTypesRoute;
+App.propTypes = {
+  children: React.PropTypes.object,
+  params: React.PropTypes.object,
+};
 App.childContextTypes = {
   muiTheme: React.PropTypes.object,
   thumbnailSize: React.PropTypes.number,

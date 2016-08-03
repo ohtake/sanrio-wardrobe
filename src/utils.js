@@ -1,12 +1,4 @@
-import React from 'react';
-
 import ResizeSensor from 'css-element-queries/src/ResizeSensor';
-
-export const propTypesRoute = {
-  children: React.PropTypes.object,
-  route: React.PropTypes.object,
-  params: React.PropTypes.object,
-};
 
 export class ContainerClientWidthListener {
   constructor(owner, containerGetter, statusName) {
