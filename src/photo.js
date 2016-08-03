@@ -1,4 +1,4 @@
-const flickrSizesAll = [
+const flickrSizes = [
   { suffix: 's', longest: 75, square: true, label: 'Square' },
   { suffix: 'q', longest: 150, square: true, label: 'Large Square' },
   { suffix: 't', longest: 100, label: 'Thumbnail' },
@@ -12,7 +12,6 @@ const flickrSizesAll = [
   { suffix: 'k', longest: 2048, since: '20120301', label: 'Large 2048' },
   { suffix: 'o', customExtention: true, label: 'Original' },
 ];
-const flickrSizes = flickrSizesAll.filter(s => !s.square).filter(s => s.longest);
 
 /*
 Example:
@@ -46,7 +45,8 @@ class FlickrSrcsetProvider {
       if (imgsF.before && s.since && imgsF.before <= s.since) return false;
       if (s.suffix === 'h' && !imgsF.secret_h) return false;
       if (s.suffix === 'k' && !imgsF.secret_k) return false;
-      if (s.suffix === 'o') throw new Error('Not supported');
+      if (s.square) return false; // Skip square size because it trims images.
+      if (s.suffix === 'o') return false; // Skip original size because it may be too huge.
       return true;
     });
     for (const size of availableSizes) {
@@ -70,7 +70,7 @@ class FlickrSrcsetProvider {
   }
 }
 
-const picasaSizes = flickrSizes.map(s => s.longest);
+const picasaSizes = flickrSizes.filter(s => !s.square).filter(s => s.longest).map(s => s.longest);
 /*
 Example:
 images_picasa: { lh: 4, dirs: "-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA", file: "5D3D8863%2520%25281280x1920%2529.jpg" }
