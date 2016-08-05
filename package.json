@@ -32,7 +32,6 @@
     "sinon": "1.17.5",
     "sinon-chai": "2.8.0",
     "enzyme": "2.4.1",
-    "jsdom": "9.4.1",
     "isparta": "4.0.0",
     "jsdoc": "3.4.0",
     "codeclimate-test-reporter": "0.3.3",

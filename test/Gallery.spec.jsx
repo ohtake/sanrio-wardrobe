@@ -1,11 +1,11 @@
+import 'enzyme/withDom';
+
 import React from 'react';
 
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
 import clone from 'lodash/clone';
-
-import './dom.js';
 
 import Gallery from '../src/Gallery.jsx';
 import Photo from '../src/photo.js';
