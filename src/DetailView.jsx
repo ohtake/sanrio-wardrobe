@@ -135,6 +135,11 @@ export default class DetailView extends React.Component {
       backgroundColor: colorValue,
     };
   }
+  /**
+   * @private
+   * @param {Photo} photo
+   * @returns {React.Node}
+   */
   createColorSample(photo) {
     if (photo.data.colors.length === 0) return null;
     return (
@@ -144,12 +149,22 @@ export default class DetailView extends React.Component {
       })}</li>
     );
   }
+  /**
+   * @private
+   * @param {Photo} photo
+   * @returns {React.Node}
+   */
   createNotesElement(photo) {
     return [
       this.createColorSample(photo),
       ...photo.data.notes.map(n => <li>{n}</li>),
     ];
   }
+  /**
+   * @private
+   * @param {Photo} photo
+   * @returns {React.Node}
+   */
   createCreditElement(photo) {
     const texts = [];
     if (photo.data.source.author) texts.push(`by ${photo.data.source.author}`);

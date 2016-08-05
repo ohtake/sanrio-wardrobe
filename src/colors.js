@@ -1,6 +1,13 @@
 import * as Colors from 'material-ui/styles/colors.js';
 
 export class ColorData {
+  /**
+   * @param {string} id
+   * @param {string} name
+   * @param {string} value
+   * @param {string} standard
+   * @param {string} light
+   */
   constructor(id, name, value, standard, light) {
     this.id = id;
     this.name = name;

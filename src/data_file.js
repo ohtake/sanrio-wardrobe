@@ -1,11 +1,21 @@
 export default class DataFile {
+  /**
+   * @param {string} name File name of data File
+   * @param {string} seriesSymbol
+   * @param {string} nameJa
+   * @param {string} nameEn
+   * @param {string} picUrl URL of the image. Use Flickr's Square 150 format.
+   */
   constructor(name, seriesSymbol, nameJa, nameEn, picUrl) {
     this.name = name;
     this.seriesSymbol = seriesSymbol;
     this.nameJa = nameJa;
     this.nameEn = nameEn;
-    this.picUrl = picUrl; // Flickr's Square 150
+    this.picUrl = picUrl;
   }
+  /**
+   * @returns {string}
+   */
   getDisplayName() {
     return `${this.seriesSymbol} ${this.nameJa} (${this.nameEn})`;
   }
@@ -30,4 +40,8 @@ const map = {};
 for (const df of DataFile.all) {
   map[df.name] = df;
 }
+/**
+ * @param {string} name e.g. kt-kitty
+ * @returns {DataFile}
+ */
 DataFile.findByName = (name) => map[name];

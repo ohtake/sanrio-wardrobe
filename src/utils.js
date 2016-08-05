@@ -1,6 +1,17 @@
 import ResizeSensor from 'css-element-queries/src/ResizeSensor';
 
-export class ContainerClientWidthListener {
+export
+/**
+ * It monitors container width and setStatus when changed.
+ *
+ * Do not forget to call component lifecyle methods.
+ */
+class ContainerClientWidthListener {
+  /**
+   * @param {React.Element} owner React element
+   * @param {function} containerGetter Function to get element to monitors
+   * @param {string} statusName Status name to set the container width
+   */
   constructor(owner, containerGetter, statusName) {
     this.owner = owner;
     this.containerGetter = containerGetter;
@@ -23,6 +34,7 @@ export class ContainerClientWidthListener {
   componentWillUnmount() {
     this.resizeSensor.detach();
   }
+  /** @private */
   updateContainerWidth() {
     const newWidth = this.containerGetter().clientWidth;
     if (newWidth !== this.owner.state[this.statusName]) {
@@ -33,6 +45,13 @@ export class ContainerClientWidthListener {
   }
 }
 
+/**
+ * Send Google Analytics event if Google Analytics is loaded.
+ * @param {!string} category
+ * @param {string} action
+ * @param {?string} label
+ * @returns {void}
+ */
 export function sendGoogleAnalyticsEvent(category, action, label) {
   if (window.ga) {
     window.ga('send', 'event', category, action, label);

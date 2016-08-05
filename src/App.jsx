@@ -26,7 +26,11 @@ import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import DataFile from './data_file.js';
 import * as themes from './themes.js';
 
-export default class App extends React.Component {
+export default
+/**
+ * Application root component
+ */
+class App extends React.Component {
   constructor() {
     super();
 
@@ -51,6 +55,10 @@ export default class App extends React.Component {
       thumbnailSize: this.state.thumbnailSize,
     };
   }
+  /**
+   * @private
+   * @returns {string}
+   */
   getTitleFromParams() {
     const chara = this.props.params.chara;
     if (!chara) return 'Sanrio Wardrobe';

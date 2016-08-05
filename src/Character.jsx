@@ -18,6 +18,7 @@ class SearchParams {
   constructor() {
     this.clear();
   }
+  /** @returns {boolean} */
   isEmpty() {
     if (this.regexps.length) return false;
     if (this.colorIds.length) return false;
@@ -27,6 +28,10 @@ class SearchParams {
     this.regexps = [];
     this.colorIds = [];
   }
+  /**
+   * @param {Photo} photo
+   * @returns {boolean}
+   */
   match(photo) {
     if (this.regexps.length && !this.regexps.every(re => photo.match(re))) return false;
     if (this.colorIds.length) {
@@ -61,6 +66,10 @@ export default class Character extends React.Component {
     }
     this.updateLightbox(nextProps);
   }
+  /**
+   * @private
+   * @param {string} file
+   */
   loadPhotos(file) {
     this.setState({
       photos: null,
@@ -82,6 +91,10 @@ export default class Character extends React.Component {
       }
     });
   }
+  /**
+   * @private
+   * @param {object} props
+   */
   updateLightbox(props) {
     const title = props.params.title;
     if (title) {

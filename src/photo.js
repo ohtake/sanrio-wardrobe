@@ -13,30 +13,44 @@ const flickrSizes = [
   { suffix: 'o', customExtention: true, label: 'Original' },
 ];
 
-/*
-Example:
-images_flickr: { photo: "15605014039", farm: 6, server: 5604, secret: "3aa65f125e", secret_h: "2c5f7cc664", secret_k: "31513b8bf6" }
-
-Parameters:
-  photo: string required
-  farm: number/string required
-  server: number/string required
-  secret: string required
-  secret_h: string optional
-  secret_k: string optional
-  before: enum('20100525' | '20120301') optional
-    If '20100525', c, b, h, and k are not available.
-    If '20120301', c, h, and k are not available.
-Parmeters not supported:
-  secret_o: string optional
-  format_o: enum('jpg' | 'gif' | 'png') optional
-*/
+/**
+ * It provides srcset for Flickr images.
+ *
+ * @example
+ * images_flickr: { photo: "15605014039", farm: 6, server: 5604, secret: "3aa65f125e", secret_h: "2c5f7cc664", secret_k: "31513b8bf6" }
+ *
+ * Parameters:
+ *   photo: string required
+ *   farm: number/string required
+ *   server: number/string required
+ *   secret: string required
+ *   secret_h: string optional
+ *   secret_k: string optional
+ *   before: enum('20100525' | '20120301') optional
+ *     If '20100525', c, b, h, and k are not available.
+ *     If '20120301', c, h, and k are not available.
+ * Parmeters not supported:
+ *   secret_o: string optional
+ *   format_o: enum('jpg' | 'gif' | 'png') optional
+ */
 class FlickrSrcsetProvider {
+  /**
+   * @param {string} photoId
+   * @param {number} farmId
+   * @param {number} serverId
+   * @param {string} secret
+   * @param {string} suffix
+   * @returns {string}
+   */
   static createUrl(photoId, farmId, serverId, secret, suffix) {
     let suffix2 = '';
     if (suffix) suffix2 = `_${suffix}`;
     return `https://farm${farmId}.staticflickr.com/${serverId}/${photoId}_${secret}${suffix2}.jpg`;
   }
+  /**
+   * @param {object} photo
+   * @returns {array.<{url: string, width: number, height: number, max: number}>}
+   */
   static getImages(photo) {
     const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
     const imgsF = photo.data.images_flickr;
@@ -71,19 +85,32 @@ class FlickrSrcsetProvider {
 }
 
 const picasaSizes = flickrSizes.filter(s => !s.square).filter(s => s.longest).map(s => s.longest);
-/*
-Example:
-images_picasa: { lh: 4, dirs: "-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA", file: "5D3D8863%2520%25281280x1920%2529.jpg" }
-
-Parameters:
-  lh: number required
-  dirs: string required
-  file: string required
-*/
+/**
+ * It provides srcset for Flickr images.
+ *
+ * @example
+ * images_picasa: { lh: 4, dirs: "-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA", file: "5D3D8863%2520%25281280x1920%2529.jpg" }
+ *
+ * Parameters:
+ *   lh: number required
+ *   dirs: string required
+ *   file: string required
+ */
 class PicasaSrcsetProvider {
+  /**
+   * @param {number} lh
+   * @param {string} dirs
+   * @param {string} file
+   * @param {number} size
+   * @returns {string}
+   */
   static createUrl(lh, dirs, file, size) {
     return `https://lh${lh}.googleusercontent.com/${dirs}/s${size}/${file}`;
   }
+  /**
+   * @param {object} photo
+   * @returns {array.<{url: string, width: number, height: number, max: number}>}
+   */
   static getImages(photo) {
     const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
     const imgsP = photo.data.images_picasa;
@@ -102,10 +129,22 @@ class PicasaSrcsetProvider {
 }
 
 export default class Photo {
+  /**
+   * @param {object} data An element of data array.
+   */
   constructor(data) {
     this.data = data;
   }
 
+  /**
+   * @callback loadPhotosCallback
+   * @param {boolean} ok
+   * @param {array.<Photo>|Error} result
+   */
+  /**
+   * @param {string} file filename to load. e.g. kt-kitty
+   * @param {loadPhotosCallback} callback
+   */
   static loadPhotos(file, callback) {
     /* eslint-disable global-require */
     const actualFilename = require(`file?name=[name].json!./../data/${file}.yaml`);
@@ -128,6 +167,9 @@ export default class Photo {
     });
   }
 
+  /**
+   * @returns {array.<{url: string, width: number, height: number, max: number}>}
+   */
   getSrcsetModel() {
     let images;
     if (this.data.images) {
@@ -141,6 +183,11 @@ export default class Photo {
     }
     return images;
   }
+  /**
+   * @param {number} upperWidth
+   * @param {number} upperHeight
+   * @returns {{url: string, width: number, height: number, max: number}}
+   */
   getLargestImageAtMost(upperWidth, upperHeight) {
     const images = this.getSrcsetModel().slice(0);
     images.sort((a, b) => a.max - b.max);
@@ -151,6 +198,10 @@ export default class Photo {
     // Nothing matches. Return smallest one.
     return images[0];
   }
+  /**
+   * @param {{url: string, width: number, height: number, max: number}} image
+   * @returns {{url: string, width: number, height: number, max: number}}
+   */
   prepareSize(image) {
     const ret = { url: image.url };
     ret.width = this.calcWidthOrHeight(image, true);
@@ -158,6 +209,11 @@ export default class Photo {
     ret.max = Math.max(ret.width, ret.height);
     return ret;
   }
+  /**
+   * @param {{url: string, width: number, height: number, max: number}} image
+   * @param {boolean} isWidth
+   * @returns {number}
+   */
   calcWidthOrHeight(image, isWidth) {
     const wanted = isWidth ? 'width' : 'height';
     if (image[wanted]) return image[wanted];
@@ -170,12 +226,22 @@ export default class Photo {
     }
     throw new Error('Cannot calc image width/height');
   }
+  /**
+   * @returns {string}
+   */
   getSrcSet() {
     return this.getSrcsetModel().map(i => `${i.url} ${i.width}w`).join(', ');
   }
+  /**
+   * @returns {number}
+   */
   getAspectRatio() {
     return this.data.size.width_o / this.data.size.height_o;
   }
+  /**
+   * @param {RegExp} re
+   * @returns {boolean}
+   */
   match(re) {
     if (this.data.title.match(re)) return true;
     if (this.data.source.author.match(re)) return true;

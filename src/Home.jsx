@@ -5,6 +5,10 @@ import JustifiedLayout from 'react-justified-layout';
 import DataFile from './data_file.js';
 import * as utils from './utils.js';
 
+/**
+ * @private
+ * @const {array.<{name: string, url: string, author: string, author_url: string, license: string, license_url: string}>}
+ */
 const software = [
   {
     name: 'React',
@@ -135,6 +139,11 @@ export default class Home extends React.Component {
   componentWillUnmount() {
     this.widthListener.componentWillUnmount();
   }
+  /**
+   * @private
+   * @param {DataFile} c
+   * @returns {React.Node}
+   */
   renderTile(c) {
     return (
       <Link key={c.name} to={`/chara/${c.name}`} aspectRatio={1} data-event-category="chara" data-event-action="homeTile" data-event-label={c.name}>

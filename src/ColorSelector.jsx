@@ -9,6 +9,12 @@ import clone from 'lodash/clone';
 import Colors from './colors.js';
 
 class ColorItem {
+  /**
+   * @param {string} id
+   * @param {string} name
+   * @param {string} strong
+   * @param {string} weak
+   */
   constructor(id, name, strong, weak) {
     this.id = id;
     this.name = name;
@@ -40,6 +46,10 @@ export default class ColorSelector extends React.Component {
       minWidth: 0,
     };
   }
+  /**
+   * @param {ColorItem} c
+   * @returns {object}
+   */
   styleColor(c) {
     const style = this.styleBase();
     const isActive = this.state.actives[c.id];
