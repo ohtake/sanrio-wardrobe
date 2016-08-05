@@ -38,6 +38,10 @@ export default class ColorSelector extends React.Component {
       if (f) f(this);
     }
   }
+  /**
+   * @private
+   * @returns {object}
+   */
   styleBase() {
     return {
       margin: '0.2em 0',
@@ -59,9 +63,13 @@ export default class ColorSelector extends React.Component {
     if (isActive) style.backgroundColor = c.weak;
     return style;
   }
+  /** @returns {void} */
   start() {
     this.setState({ enabled: !this.state.enabled });
   }
+  /**
+   * @param {object} e Event args
+   */
   toggle(e) {
     e.preventDefault();
     const id = e.currentTarget.getAttribute('data');
@@ -69,17 +77,26 @@ export default class ColorSelector extends React.Component {
     actives[id] = !actives[id];
     this.setState({ actives });
   }
+  /**
+   * @param {object} e Event args
+   */
   clear(e) {
     if (e) e.preventDefault();
     this.setState({ actives: {} });
   }
+  /** @returns {string[]} */
   listActiveIds() {
     if (!this.state.enabled) return [];
     return this.props.colors.filter(c => this.state.actives[c.id]).map(c => c.id);
   }
+  /** @returns {boolean} */
   isFilterEnabled() {
     return this.state.enabled && Object.keys(this.state.actives).length > 0;
   }
+  /**
+   * @private
+   * @returns {React.Node}
+   */
   listButtons() {
     return [
       ...this.props.colors.map(c =>

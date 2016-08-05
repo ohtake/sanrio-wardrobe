@@ -26,6 +26,7 @@ function clickClear(wrapper) {
 describe('<ColorSelector />', function () {
   it('should not have any active items at first', function () {
     const wrapper = shallow(<ColorSelector />, { context });
+    /** @type {ColorSelector} */
     const instance = wrapper.instance();
     expect(instance.listActiveIds()).to.eql([]);
     expect(instance.isFilterEnabled()).to.be.false;
@@ -40,6 +41,7 @@ describe('<ColorSelector />', function () {
   });
   it('should handle color button clicks', function () {
     const wrapper = shallow(<ColorSelector />, { context });
+    /** @type {ColorSelector} */
     const instance = wrapper.instance();
     clickFilter(wrapper);
     clickColor(wrapper, 'red');
@@ -53,6 +55,7 @@ describe('<ColorSelector />', function () {
   });
   it('should remember active state after re-enabled', function () {
     const wrapper = shallow(<ColorSelector />, { context });
+    /** @type {ColorSelector} */
     const instance = wrapper.instance();
     clickFilter(wrapper);
     clickColor(wrapper, 'red');
@@ -65,6 +68,7 @@ describe('<ColorSelector />', function () {
   });
   it('should clear all actives', function () {
     const wrapper = shallow(<ColorSelector />, { context });
+    /** @type {ColorSelector} */
     const instance = wrapper.instance();
     clickFilter(wrapper);
     clickColor(wrapper, 'red');
