@@ -28,7 +28,7 @@ export default class Gallery extends React.Component {
     let imgStyle = { width: '100%', height: '100%' };
     let imgs = this.props.photos.map((p) => (
       <div key={p.data.title} aspectRatio={p.getAspectRatio()} style={{ backgroundColor: theme.palette.borderColor }}>
-        <Link to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-event-category="lightbox" data-event-action="open" data-event-label={`${this.props.chara} ${p.data.title}`}>
+        <Link to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${this.props.chara} ${p.data.title}`}>
           <LazyLoad offset={thumbnailHeight}>
             <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={imgStyle} />
           </LazyLoad>

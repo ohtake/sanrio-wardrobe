@@ -12,9 +12,11 @@
 
     ga('create', 'UA-36354683-4', 'auto');
     ga('send', 'pageview');
-    ga('require', 'autotrack');
+    ga('require', 'eventTracker', { attributePrefix: 'data-ga-' });
+    ga('require', 'outboundLinkTracker');
+    ga('require', 'pageVisibilityTracker');
     </script>
-    <script async src='https://cdnjs.cloudflare.com/ajax/libs/autotrack/0.6.5/autotrack.js'></script>
+    <script async src='https://cdnjs.cloudflare.com/ajax/libs/autotrack/1.0.0/autotrack.js'></script>
     <style type="text/css">
     body {
         margin: 0;
