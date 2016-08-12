@@ -108,6 +108,7 @@ export default class Character extends React.Component {
     this.lightbox.setState({ photos: null, index: 0 });
   }
   execSearch() {
+    if (!this.state.photos) return;
     if (this.searchParams.isEmpty()) {
       this.setState({ photos: this.allPhotos, message: null });
     } else {
