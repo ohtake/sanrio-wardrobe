@@ -66,11 +66,14 @@ export default class DetailView extends React.Component {
 
   closeDetailView() {
     if (window.history.length > 1) {
+      // User opened detail view from gallary
+      // TODO What if user came from external link?
       this.context.router.goBack();
     } else {
       // User opened lightbox url directly
       this.context.router.replace(`/chara/${this.props.chara}`);
     }
+    // FIXME Don't set state manually
     this.state.showInfo = true;
   }
   toggleInfo() {

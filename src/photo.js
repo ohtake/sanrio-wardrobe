@@ -145,6 +145,7 @@ export default class Photo {
    * @param {string} file filename to load. e.g. kt-kitty
    * @param {loadPhotosCallback} callback
    */
+  // TODO Use Promise instead of callback
   static loadPhotos(file, callback) {
     /* eslint-disable global-require */
     const actualFilename = require(`file?name=[name].json!./../data/${file}.yaml`);

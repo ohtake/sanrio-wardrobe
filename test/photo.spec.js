@@ -162,7 +162,7 @@ describe('Photo', function () {
         'https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_n.jpg 213w',
         'https://farm2.staticflickr.com/1623/24326364382_2a00bf3387.jpg 333w',
         'https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_z.jpg 427w',
-        'https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_c.jpg 533w', // 534 is corrent in Flickr. See <https://twitter.com/ohtaket/status/750318571926859776>
+        'https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_c.jpg 533w', // BUG: 534 is corrent in Flickr. See <https://twitter.com/ohtaket/status/750318571926859776>
         'https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_b.jpg 683w',
         'https://farm2.staticflickr.com/1623/24326364382_988fe74e0e_h.jpg 1067w',
         'https://farm2.staticflickr.com/1623/24326364382_1d900d84de_k.jpg 1365w',
