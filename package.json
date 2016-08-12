@@ -55,7 +55,7 @@
     "http-server": "0.9.0"
   },
   "scripts": {
-    "clean": "rm -rf assets/",
+    "clean": "rm -rf assets/ coverage/",
     "lint": "eslint webpack.*.js src/* test/* scripts/*.js --color",
     "test": "cross-env NODE_ENV=test mocha --colors --compilers js:babel-register,jsx:babel-register",
     "test:cover": "cross-env NODE_ENV=test babel-node ./node_modules/isparta/bin/isparta cover --include src/**/*.js --include src/**/*.jsx node_modules/mocha/bin/_mocha -- test/**/*.spec.* --colors",
