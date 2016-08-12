@@ -137,34 +137,22 @@ export default class Photo {
   }
 
   /**
-   * @callback loadPhotosCallback
-   * @param {boolean} ok
-   * @param {array.<Photo>|Error} result
-   */
-  /**
    * @param {string} file filename to load. e.g. kt-kitty
-   * @param {loadPhotosCallback} callback
+   * @returns {Promise.<Photo[]>} array of photos
    */
-  // TODO Use Promise instead of callback
-  static loadPhotos(file, callback) {
+  static loadPhotos(file) {
     /* eslint-disable global-require */
     const actualFilename = require(`file?name=[name].json!./../data/${file}.yaml`);
     /* eslint-enable */
 
-    window.fetch(actualFilename).then(res => {
+    return window.fetch(actualFilename).then(res => {
       if (res.ok) {
         return res.json();
       }
-      const error = new Error(res.statusText);
-      error.response = res;
-      throw error;
-    })
-    .then(arr => {
+      throw new Error(`${res.statusText}: ${res.url}`);
+    }).then(arr => {
       const photos = arr.map(obj => new Photo(obj));
-      callback(true, photos);
-    })
-    .catch(ex => {
-      callback(false, ex);
+      return Promise.resolve(photos);
     });
   }
 

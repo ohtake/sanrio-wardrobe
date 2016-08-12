@@ -75,20 +75,18 @@ export default class Character extends React.Component {
       photos: null,
       message: `Loading ${file}`,
     });
-    Photo.loadPhotos(file, (ok, result) => {
-      if (ok) {
-        this.allPhotos = result;
-        this.setState({
-          photos: result.slice(0),
-          message: null,
-        });
-        this.updateLightbox(this.props);
-      } else {
-        this.setState({
-          photos: null,
-          message: result.toString(),
-        });
-      }
+    Photo.loadPhotos(file).then(photos => {
+      this.allPhotos = photos;
+      this.setState({
+        photos: photos.slice(0),
+        message: null,
+      });
+      this.updateLightbox(this.props);
+    }).catch(err => {
+      this.setState({
+        photos: null,
+        message: err.toString(),
+      });
     });
   }
   /**
