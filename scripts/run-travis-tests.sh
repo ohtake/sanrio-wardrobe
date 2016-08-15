@@ -5,4 +5,4 @@ set -o pipefail
 
 npm run clean
 npm run lint
-npm run test:cover
+npm run cover
