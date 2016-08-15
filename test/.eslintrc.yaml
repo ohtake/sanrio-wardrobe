@@ -1,4 +1,8 @@
 ---
+  plugins:
+    - ava
+  extends:
+    - "plugin:ava/recommended"
   rules:
     import/no-extraneous-dependencies: [error, {devDependencies: true}]
     # Chai uses expressions like `expect(true).to.be.true`
@@ -7,3 +11,7 @@
     # https://mochajs.org/#arrow-functions
     prefer-arrow-callback: off
     func-names: off
+
+    # AVA does not support jsx extension
+    # https://github.com/avajs/ava/issues/631
+    react/jsx-filename-extension: [error, { extensions: [".js", ".jsx"] }]
