@@ -77,6 +77,8 @@ test('Photo#getAspectRatio should return a number', t => {
   t.true(photoL.getAspectRatio() > 1);
   const photoP = new Photo(photoSrcsetPortrait);
   t.true(photoP.getAspectRatio() < 1);
+  const photoS = new Photo(photoSrcsetSquare);
+  t.true(photoS.getAspectRatio() === 1);
 });
 
 test('Photo#match', t => {
