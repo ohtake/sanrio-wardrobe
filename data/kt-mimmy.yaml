@@ -90,6 +90,7 @@
     notes:
       - ピューロランドパレード『夏フェス☆マーチングパレード』
       - ピューロランドパレード『夏祭りマーチングパレード』
+      - ピューロランドパレード『夜祭りマーチングパレード』
       - 浴衣ドレス、和服、夏、バラ
   -
     title: "5D3K5421"
@@ -290,3 +291,21 @@
     colors: ["blue", "red", "yellow", "brown", "white"]
     notes:
       - デニム、ベルト
+  -
+    title: "パレードパラレル"
+    images_flickr: { photo: "29241715295", farm: 9, server: 8417, secret: "b9b755b246", secret_h: "bc759cbda3", secret_k: "de1e85c94f", secret_o: "9c51da4739", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29241715295"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "pink", "white", "purple", "green", "yellow"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル』
+      - リボン、ストライプ
+  -
+    title: "53AA0504"
+    images_flickr: { photo: "29241607305", farm: 9, server: 8311, secret: "7aa8ba5188", secret_h: "4cb1e7438d", secret_k: "16d67f4dcd", secret_o: "c690c13530", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29241607305"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["orange", "pink", "green", "white"]
+    notes:
+      - 『おばけ音頭だ! DoRoRoNRoN!』
+      - 浴衣ドレス、和服、夏、バラ

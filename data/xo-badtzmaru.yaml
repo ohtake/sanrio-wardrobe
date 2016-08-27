@@ -118,6 +118,14 @@
     colors: ["green", "red", "orange", "white"]
     notes: []
   -
+    title: "5D3Z6814"
+    images_flickr: { photo: "28296915253", farm: 9, server: 8065, secret: "340cbf2e46", secret_h: "8f0815590c", secret_k: "e99e381a85", secret_o: "e970f7940a", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28296915253/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["gold", "black", "red", "white"]
+    notes:
+      - 蝶ネクタイ
+  -
     title: "レディジュエル"
     images_flickr: { photo: "14720868643", farm: 3, server: 2937, secret: "b7fe7cabd3", secret_h: "b97b148b93", secret_k: "fee3ea1490", secret_o: "fd967bc38c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14720868643/"}
@@ -186,3 +194,12 @@
     colors: ["blue", "red", "gold", "white"]
     notes:
       - 宝石
+  -
+    title: "パレード・アクア"
+    images_flickr: { photo: "28618776744", farm: 9, server: 8323, secret: "f6702f3727", secret_h: "dc5e7f200a", secret_k: "bacfb88303", secret_o: "da2f0bee7c", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28618776744/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["black", "blue", "red", "white"]
+    notes:
+      - ハーモニーランドパレード『パレード・アクア』
+      - ハーモニーパーク『水かけカーニバル』

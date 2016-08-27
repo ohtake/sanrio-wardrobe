@@ -206,14 +206,14 @@
       - 外部イベント『ハローキティ＆ダニエルのありがとうマイフレンズ』のアレンジで金色の線やリボンとなっている
       - ストライプ
   -
-    title: "5D3V9047"
+    title: "パレードパラレル"
     images_flickr: { photo: "22449655257", farm: 6, server: 5630, secret: "84f1e98efe", secret_h: "e8562b6a5d", secret_k: "8c4c083767", secret_o: "f45020d259", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22449655257"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["purple", "green", "pink", "white", "yellow", "blue"]
     notes:
       - ハーモニーランドパレード『パレードパラレル』
-      - リボン
+      - リボン、ストライプ
   -
     title: "5D3V8866"
     images_flickr: { photo: "22879124551", farm: 1, server: 614, secret: "c4393def6e", secret_h: "8d36d54534", secret_k: "c2b54cd60b", secret_o: "aea8936fba", format_o: "jpg" }
@@ -521,6 +521,7 @@
     notes:
       - ピューロランドパレード『夏フェス☆マーチングパレード』
       - ピューロランドパレード『夏祭りマーチングパレード』
+      - ピューロランドパレード『夜祭りマーチングパレード』
       - 浴衣ドレス、和服、夏、バラ
   -
     title: "5D3Q2035"
@@ -1878,14 +1879,23 @@
       - アメリカ Universal Studios Florida
       - いちご、飴
   -
-    title: "IMGD9558"
-    images_flickr: { photo: "26178222212", farm: 2, server: 1537, secret: "792d464a9f", secret_h: "2203544a37", secret_k: "5d05b1c619", secret_o: "1e8beff2ff", format_o: "jpg" }
-    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26178222212"}
+    title: "ハーモニーランド25周年・赤"
+    images_flickr: { photo: "28953827300", farm: 9, server: 8770, secret: "cd4d0ec5cb", secret_h: "567417fc34", secret_k: "28f5a41d39", secret_o: "27c5db3046", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28953827300"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "purple", "red"]
     notes:
       - ハーモニーランド25周年
-      - ハート
+      - ハート、帽子
+  -
+    title: "ハーモニーランド25周年・金"
+    images_flickr: { photo: "29242743885", farm: 9, server: 8081, secret: "bf53c8f4ec", secret_h: "313f2668dd", secret_k: "35ccf8d01f", secret_o: "92f6d91af6", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29242743885"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "gold", "white"]
+    notes:
+      - ハーモニーランド25周年
+      - ハート、帽子
   -
     title: "IMGD1568"
     images_flickr: { photo: "26406755701", farm: 2, server: 1701, secret: "84f0cc73df", secret_h: "dead0ebd14", secret_k: "192e492dfc", secret_o: "dea1b80804", format_o: "jpg" }
@@ -1895,6 +1905,15 @@
     notes:
       - プラザステージ『「お・も・て・な・し」のキティカフェ』
       - いちご、帽子
+  -
+    title: "53AA0505"
+    images_flickr: { photo: "28618755624", farm: 9, server: 8302, secret: "8011324b6a", secret_h: "c6d24e28eb", secret_k: "7c70995427", secret_o: "466ca793e8", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28618755624"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "yellow", "orange", "green", "white"]
+    notes:
+      - 『おばけ音頭だ! DoRoRoNRoN!』
+      - 浴衣ドレス、和服、夏、バラ
   -
     title: "DSC01163"
     images_flickr: { photo: "14713163341", farm: 4, server: 3852, secret: "cca4cd781e", secret_h: "70d061572c", secret_k: "80e6c6f0b8", secret_o: "b7324e43dc", format_o: "jpg" }

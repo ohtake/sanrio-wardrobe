@@ -143,3 +143,12 @@
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
       - いちご、星、ハート
+  -
+    title: "水着"
+    images_flickr: { photo: "28760484580", farm: 9, server: 8007, secret: "16976f663d", secret_h: "fe50221854", secret_k: "32baeaead3", secret_o: "268470a091", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28760484580/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "pink"]
+    notes:
+      - 水着
+      - 水玉
