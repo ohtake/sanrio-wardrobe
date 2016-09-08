@@ -42,7 +42,6 @@ export default class DetailView extends React.Component {
     this.handleSwiped = this.handleSwiped.bind(this);
     this.closeDetailView = this.closeDetailView.bind(this);
     this.openImageSource = this.openImageSource.bind(this);
-    this.openFeedback = this.openFeedback.bind(this);
     this.toggleInfo = this.toggleInfo.bind(this);
     this.moveNext = this.moveNext.bind(this);
     this.movePrev = this.movePrev.bind(this);
@@ -95,10 +94,6 @@ export default class DetailView extends React.Component {
   openImageSource() {
     const photo = this.state.photos[this.state.index];
     window.open(photo.data.source.url);
-  }
-  openFeedback() {
-    const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(window.location.href)}&entry.111224920`;
-    window.open(formUrl);
   }
   handleSwiping(e, deltaX/* , deltaY, absX, absY, velocity*/) {
     const swipingRatio = deltaX / this.state.menuWidth;
@@ -234,7 +229,7 @@ export default class DetailView extends React.Component {
                     <ListItem primaryText="Move Previous" leftIcon={<NavigationChevronLeft />} secondaryText="Swipe right / Left key" onTouchTap={this.movePrev} />
                     <ListItem primaryText="Move Next" leftIcon={<NavigationChevronRight />} secondaryText="Swipe left / Right key" onTouchTap={this.moveNext} />
                     <Divider />
-                    <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onTouchTap={this.openFeedback} />
+                    <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onTouchTap={utils.openFeedback} />
                   </List>
                 </IconMenu>
               }

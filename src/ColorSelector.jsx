@@ -23,6 +23,13 @@ class ColorItem {
   }
 }
 
+const styleBase = {
+  margin: '0.2em 0',
+  padding: '0.2em 0.5em',
+  borderWidth: '0 0 0.25em',
+  minWidth: 0,
+};
+
 export default class ColorSelector extends React.Component {
   constructor() {
     super();
@@ -39,23 +46,11 @@ export default class ColorSelector extends React.Component {
     }
   }
   /**
-   * @private
-   * @returns {object}
-   */
-  styleBase() {
-    return {
-      margin: '0.2em 0',
-      padding: '0.2em 0.5em',
-      borderWidth: '0 0 0.25em',
-      minWidth: 0,
-    };
-  }
-  /**
    * @param {ColorItem} c
    * @returns {object}
    */
   styleColor(c) {
-    const style = this.styleBase();
+    const style = clone(styleBase);
     const isActive = this.state.actives[c.id];
     if (isActive) style.color = 'black';
     style.borderStyle = 'solid';
@@ -102,7 +97,7 @@ export default class ColorSelector extends React.Component {
       ...this.props.colors.map(c =>
         <FlatButton key={c.name} onClick={this.toggle} data={c.id} label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />
       ),
-      <FlatButton key="clear" onClick={this.clear} data="" label="CLEAR" style={this.styleBase()} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={!this.isFilterEnabled()} />,
+      <FlatButton key="clear" onClick={this.clear} data="" label="CLEAR" style={styleBase} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={!this.isFilterEnabled()} />,
     ];
   }
   render() {

@@ -6,6 +6,7 @@ import test from 'ava';
 import sinon from 'sinon';
 import { shallow } from 'enzyme';
 import clone from 'lodash/clone';
+import range from 'lodash/range';
 
 import DetailView from '../src/DetailView.jsx';
 import Photo from '../src/photo.js';
@@ -61,12 +62,11 @@ test('<DetailView /> should handle four photo', t => {
   const context2 = createContextWithSpiedRouter();
   const wrapper = shallow(<DetailView chara="zz-zzzzz" />, { context: context2 });
   const instance = wrapper.instance();
-  const photos = [];
-  for (let i = 0; i < 4; i++) {
+  const photos = range(4).map(i => {
     const photo = clone(photoTemplate);
     photo.title = `template${i}`;
-    photos.push(new Photo(photo));
-  }
+    return new Photo(photo);
+  });
   wrapper.setState({ photos, index: 0 });
   instance.moveNext(dummyEvent);
   t.is(context2.router.replace.callCount, 1);

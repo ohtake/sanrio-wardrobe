@@ -57,3 +57,8 @@ export function sendGoogleAnalyticsEvent(category, action, label) {
     window.ga('send', 'event', category, action, label);
   }
 }
+
+export function openFeedback() {
+  const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(window.location.href)}&entry.111224920`;
+  window.open(formUrl);
+}

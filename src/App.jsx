@@ -25,6 +25,7 @@ import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
 import DataFile from './data_file.js';
 import * as themes from './themes.js';
+import * as utils from './utils.js';
 
 export default
 /**
@@ -46,7 +47,6 @@ class App extends React.Component {
     this.handleMenuClose = this.handleMenuClose.bind(this);
     this.handleThemeToggle = this.handleThemeToggle.bind(this);
     this.handleThumbnailSizeChange = this.handleThumbnailSizeChange.bind(this);
-    this.handleFeedback = this.handleFeedback.bind(this);
     this.menuWidth = 250;
   }
   getChildContext() {
@@ -89,10 +89,6 @@ class App extends React.Component {
   handleThumbnailSizeChange() {
     this.setState({ thumbnailSize: this.thumbnailSize.state.value });
   }
-  handleFeedback() {
-    const formUrl = `https://docs.google.com/forms/d/13YG0Yw-qcVFyk1mvz9WsBK0lIowT_sGvi4vDmzDKjuU/viewform?entry.2146921250=${encodeURIComponent(window.location.href)}&entry.111224920`;
-    window.open(formUrl);
-  }
   render() {
     const theme = this.state.theme;
     const containerStyle = {
@@ -121,7 +117,7 @@ class App extends React.Component {
                 <Slider ref={c => { this.thumbnailSize = c; }} description={`Thumbnail size: ${this.state.thumbnailSize}`} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
               </ListItem>
               <Divider />
-              <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onTouchTap={this.handleFeedback} />
+              <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onTouchTap={utils.openFeedback} />
             </List>
           </IconMenu>
         }
@@ -159,8 +155,10 @@ class App extends React.Component {
   }
 }
 App.propTypes = {
-  children: React.PropTypes.object,
-  params: React.PropTypes.object,
+  children: React.PropTypes.node,
+  params: React.PropTypes.shape({
+    chara: React.PropTypes.string,
+  }),
 };
 App.childContextTypes = {
   muiTheme: React.PropTypes.object,

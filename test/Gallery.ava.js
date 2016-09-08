@@ -5,6 +5,7 @@ import React from 'react';
 import test from 'ava';
 import { shallow } from 'enzyme';
 import clone from 'lodash/clone';
+import range from 'lodash/range';
 
 import Gallery from '../src/Gallery.jsx';
 import Photo from '../src/photo.js';
@@ -34,12 +35,11 @@ test('<Gallery /> should handle 1 photo', t => {
 });
 
 test('<Gallery /> should handle 3 photos', t => {
-  const photos = [];
-  for (let i = 0; i < 3; i++) {
+  const photos = range(3).map(i => {
     const photo = clone(photoTemplate);
     photo.title = `template${i}`;
-    photos.push(new Photo(photo));
-  }
+    return new Photo(photo);
+  });
   const wrapper = shallow(<Gallery chara="zz-zzzzz" photos={photos} />, { context });
   t.is(wrapper.find('img').length, 3);
   t.is(wrapper.find({ alt: 'template1' }).length, 1);

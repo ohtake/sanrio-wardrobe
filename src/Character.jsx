@@ -64,7 +64,7 @@ export default class Character extends React.Component {
       this.clearSearch();
       this.loadPhotos(nextProps.params.chara);
     }
-    this.updateLightbox(nextProps);
+    this.updateLightbox(nextProps.params.title);
   }
   /**
    * @private
@@ -81,7 +81,7 @@ export default class Character extends React.Component {
         photos: photos.slice(0),
         message: null,
       });
-      this.updateLightbox(this.props);
+      this.updateLightbox(this.props.params.title);
     }).catch(err => {
       this.setState({
         photos: null,
@@ -91,10 +91,9 @@ export default class Character extends React.Component {
   }
   /**
    * @private
-   * @param {object} props
+   * @param {string?} title
    */
-  updateLightbox(props) {
-    const title = props.params.title;
+  updateLightbox(title) {
     if (title) {
       const index = this.state.photos.findIndex(p => title === p.data.title);
       if (index >= 0) {
@@ -167,7 +166,10 @@ export default class Character extends React.Component {
   }
 }
 Character.propTypes = {
-  params: React.PropTypes.object,
+  params: React.PropTypes.shape({
+    chara: React.PropTypes.string,
+    title: React.PropTypes.string,
+  }),
 };
 Character.contextTypes = {
   muiTheme: React.PropTypes.object.isRequired,

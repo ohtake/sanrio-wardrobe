@@ -124,6 +124,26 @@ const styleImg = {
   height: '100%',
 };
 
+/**
+ * @private
+ * @param {DataFile} c
+ * @returns {React.Node}
+ */
+function renderTile(c) {
+  return (
+    <Link key={c.name} to={`/chara/${c.name}`} aspectRatio={1} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="homeTile" data-ga-event-label={c.name}>
+      <div>
+        <div style={styleSymbol}>{c.seriesSymbol}</div>
+        <div style={styleTitleOuter}>
+          <div style={styleTitleInner}>{c.nameJa}</div>
+          <div style={styleTitleInner}>{c.nameEn}</div>
+        </div>
+        <img src={c.picUrl} alt="*" style={styleImg} />
+      </div>
+    </Link>
+  );
+}
+
 export default class Home extends React.Component {
   constructor() {
     super();
@@ -138,25 +158,6 @@ export default class Home extends React.Component {
   }
   componentWillUnmount() {
     this.widthListener.componentWillUnmount();
-  }
-  /**
-   * @private
-   * @param {DataFile} c
-   * @returns {React.Node}
-   */
-  renderTile(c) {
-    return (
-      <Link key={c.name} to={`/chara/${c.name}`} aspectRatio={1} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="homeTile" data-ga-event-label={c.name}>
-        <div>
-          <div style={styleSymbol}>{c.seriesSymbol}</div>
-          <div style={styleTitleOuter}>
-            <div style={styleTitleInner}>{c.nameJa}</div>
-            <div style={styleTitleInner}>{c.nameEn}</div>
-          </div>
-          <img src={c.picUrl} alt="*" style={styleImg} />
-        </div>
-      </Link>
-    );
   }
   render() {
     return (
@@ -173,7 +174,7 @@ export default class Home extends React.Component {
         <h2>Characters</h2>
         <div ref={c => { this.grid = c; }}>
           <JustifiedLayout targetRowHeight={150} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>
-            {DataFile.all.map(c => this.renderTile(c))}
+            {DataFile.all.map(c => renderTile(c))}
           </JustifiedLayout>
         </div>
         <h2>Trademarks</h2>

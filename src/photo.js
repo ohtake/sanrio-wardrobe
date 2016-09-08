@@ -1,3 +1,5 @@
+import findLast from 'lodash/findLast';
+
 const flickrSizes = [
   { suffix: 's', longest: 75, square: true, label: 'Square' },
   { suffix: 'q', longest: 150, square: true, label: 'Large Square' },
@@ -180,10 +182,8 @@ export default class Photo {
   getLargestImageAtMost(upperWidth, upperHeight) {
     const images = this.getSrcsetModel().slice(0);
     images.sort((a, b) => a.max - b.max);
-    for (let j = images.length - 1; j >= 0; j--) {
-      const img = images[j];
-      if (img.width <= upperWidth && img.height <= upperHeight) return img;
-    }
+    const largest = findLast(images, img => img.width <= upperWidth && img.height <= upperHeight);
+    if (largest) return largest;
     // Nothing matches. Return smallest one.
     return images[0];
   }
