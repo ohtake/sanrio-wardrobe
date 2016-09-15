@@ -141,7 +141,7 @@ export default class DetailView extends React.Component {
   createColorSample(photo) {
     if (photo.data.colors.length === 0) return null;
     return (
-      <li>{photo.data.colors.map(c => {
+      <li>{photo.data.colors.map((c) => {
         const color = Colors.findById(c);
         return <span style={this.createColorSampleStyle(color.value)} title={color.name} />;
       })}</li>

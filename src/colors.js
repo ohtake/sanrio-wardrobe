@@ -36,9 +36,9 @@ RepresentiveColors.all = [
 ];
 
 const map = {};
-RepresentiveColors.all.forEach(c => {
+RepresentiveColors.all.forEach((c) => {
   map[c.id] = c;
 });
-RepresentiveColors.findById = (id) => map[id];
+RepresentiveColors.findById = id => map[id];
 
 export default RepresentiveColors;

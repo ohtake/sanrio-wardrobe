@@ -57,7 +57,7 @@ class FlickrSrcsetProvider {
     const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
     const imgsF = photo.data.images_flickr;
     const result = [];
-    const availableSizes = flickrSizes.filter(s => {
+    const availableSizes = flickrSizes.filter((s) => {
       if (imgsF.before && s.since && imgsF.before <= s.since) return false;
       if (s.suffix === 'h' && !imgsF.secret_h) return false;
       if (s.suffix === 'k' && !imgsF.secret_k) return false;
@@ -147,12 +147,12 @@ export default class Photo {
     const actualFilename = require(`file?name=[name].json!./../data/${file}.yaml`);
     /* eslint-enable */
 
-    return window.fetch(actualFilename).then(res => {
+    return window.fetch(actualFilename).then((res) => {
       if (res.ok) {
         return res.json();
       }
       throw new Error(`${res.statusText}: ${res.url}`);
-    }).then(arr => {
+    }).then((arr) => {
       const photos = arr.map(obj => new Photo(obj));
       return Promise.resolve(photos);
     });

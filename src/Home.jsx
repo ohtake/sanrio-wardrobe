@@ -172,7 +172,7 @@ export default class Home extends React.Component {
         </a>
         <p style={{ paddingRight: '150px' }}>You can find clothings of Sanrio characters.</p>
         <h2>Characters</h2>
-        <div ref={c => { this.grid = c; }}>
+        <div ref={(c) => { this.grid = c; }}>
           <JustifiedLayout targetRowHeight={150} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>
             {DataFile.all.map(c => renderTile(c))}
           </JustifiedLayout>

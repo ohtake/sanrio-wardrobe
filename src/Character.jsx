@@ -75,14 +75,14 @@ export default class Character extends React.Component {
       photos: null,
       message: `Loading ${file}`,
     });
-    Photo.loadPhotos(file).then(photos => {
+    Photo.loadPhotos(file).then((photos) => {
       this.allPhotos = photos;
       this.setState({
         photos: photos.slice(0),
         message: null,
       });
       this.updateLightbox(this.props.params.title);
-    }).catch(err => {
+    }).catch((err) => {
       this.setState({
         photos: null,
         message: err.toString(),
@@ -155,12 +155,12 @@ export default class Character extends React.Component {
     const theme = this.context.muiTheme;
     return (
       <div>
-        <ColorSelector ref={c => { this.color = c; }} onChanged={this.colorChanged} />
+        <ColorSelector ref={(c) => { this.color = c; }} onChanged={this.colorChanged} />
         <ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
-        <TextField ref={c => { this.text = c; }} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
+        <TextField ref={(c) => { this.text = c; }} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
-        <Gallery ref={c => { this.gallery = c; }} photos={this.state.photos} chara={this.props.params.chara} />
-        <DetailView ref={c => { this.lightbox = c; }} chara={this.props.params.chara} />
+        <Gallery ref={(c) => { this.gallery = c; }} photos={this.state.photos} chara={this.props.params.chara} />
+        <DetailView ref={(c) => { this.lightbox = c; }} chara={this.props.params.chara} />
       </div>
     );
   }
