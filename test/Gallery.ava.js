@@ -24,16 +24,19 @@ const photoTemplate = {
 
 const context = { muiTheme: themes.themeLight };
 
+/** @test {Gallery} */
 test('<Gallery /> should handle 0 photos', t => {
   const wrapper = shallow(<Gallery chara="zz-zzzzz" photos={[]} />, { context });
   t.is(wrapper.find('img').length, 0);
 });
 
+/** @test {Gallery} */
 test('<Gallery /> should handle 1 photo', t => {
   const wrapper = shallow(<Gallery chara="zz-zzzzz" photos={[new Photo(photoTemplate)]} />, { context });
   t.is(wrapper.find('img').length, 1);
 });
 
+/** @test {Gallery} */
 test('<Gallery /> should handle 3 photos', t => {
   const photos = range(3).map(i => {
     const photo = clone(photoTemplate);

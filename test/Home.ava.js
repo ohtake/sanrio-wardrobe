@@ -10,6 +10,7 @@ import * as themes from '../src/themes.js';
 
 const context = { muiTheme: themes.themeLight };
 
+/** @test {Home} */
 test('<Home /> should be loaded', t => {
   const wrapper = shallow(<Home />, { context });
   const instance = wrapper.instance();

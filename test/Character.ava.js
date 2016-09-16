@@ -10,6 +10,7 @@ import * as themes from '../src/themes.js';
 
 const context = { muiTheme: themes.themeLight };
 
+/** @test {Character} */
 test('<Character /> should be loaded', t => {
   const wrapper = shallow(<Character params={{ chara: 'kt-kitty' }} />, { context });
   const instance = wrapper.instance();

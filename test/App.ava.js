@@ -7,6 +7,7 @@ import { shallow } from 'enzyme';
 
 import App from '../src/App.jsx';
 
+/** @test {App} */
 test('<App /> should be loaded', t => {
   const wrapper = shallow(<App params={{}} />);
   const instance = wrapper.instance();
