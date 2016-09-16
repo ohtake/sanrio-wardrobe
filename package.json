@@ -42,6 +42,7 @@
     "nyc": "8.3.0",
     "babel-plugin-istanbul": "2.0.2",
     "jsdoc": "3.4.1",
+    "esdoc": "0.4.8",
     "request": "2.74.0",
     "js-yaml": "3.6.1",
     "codeclimate-test-reporter": "0.3.3",
@@ -71,6 +72,7 @@
     "build": "cross-env NODE_ENV=production run-p -l build:*",
     "build:app": "webpack --progress --colors",
     "build:jsdoc": "jsdoc --destination ./assets/jsdoc --readme README.md --verbose src",
+    "build:esdoc": "esdoc -c esdoc.json",
     "start": "cross-env NODE_ENV=development webpack-dev-server --progress --colors",
     "server": "cross-env NODE_ENV=production http-server"
   }
