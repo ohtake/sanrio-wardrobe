@@ -8,8 +8,14 @@ export
  */
 class ContainerClientWidthListener {
   /**
+   * Function to get element to monitor
+   * (jsdoc-to-assert does not support callback?)
+   * @callback containerGetter
+   * @returns {HTMLElement} element
+   */
+  /**
    * @param {React.Element} owner React element
-   * @param {function} containerGetter Function to get element to monitors
+   * @param {containerGetter} containerGetter Function to get element to monitor
    * @param {string} statusName Status name to set the container width
    */
   constructor(owner, containerGetter, statusName) {

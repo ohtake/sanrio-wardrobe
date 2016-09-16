@@ -188,7 +188,7 @@ export default class Photo {
     return images[0];
   }
   /**
-   * @param {{url: string, width: number, height: number, max: number}} image
+   * @param {{url: string, width: ?number, height: ?number, max: ?number}} image
    * @returns {{url: string, width: number, height: number, max: number}}
    */
   prepareSize(image) {
@@ -199,7 +199,7 @@ export default class Photo {
     return ret;
   }
   /**
-   * @param {{url: string, width: number, height: number, max: number}} image
+   * @param {{url: string, width: ?number, height: ?number, max: ?number}} image
    * @param {boolean} isWidth
    * @returns {number}
    */

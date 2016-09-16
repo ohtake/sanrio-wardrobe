@@ -73,7 +73,7 @@ export default class ColorSelector extends React.Component {
     this.setState({ actives });
   }
   /**
-   * @param {object} e Event args
+   * @param {?object} e Event args
    */
   clear(e) {
     if (e) e.preventDefault();
