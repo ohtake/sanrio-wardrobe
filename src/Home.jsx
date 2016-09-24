@@ -187,6 +187,11 @@ export default class Home extends React.Component {
             </li>
           ))}
         </ul>
+        <h2>Documents</h2>
+        <ul>
+          <li><a href="assets/esdoc/index.html">ESDoc</a></li>
+          <li><a href="assets/jsdoc/index.html">JSDoc</a></li>
+        </ul>
       </div>
     );
   }

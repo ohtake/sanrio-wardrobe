@@ -72,6 +72,7 @@ const photoPicasa = {
   notes: [],
 };
 
+/** @test {Photo#getAspectRatio} */
 test('Photo#getAspectRatio should return a number', t => {
   const photoL = new Photo(photoSrcsetLandscape);
   t.true(photoL.getAspectRatio() > 1);
@@ -81,6 +82,7 @@ test('Photo#getAspectRatio should return a number', t => {
   t.true(photoS.getAspectRatio() === 1);
 });
 
+/** @test {Photo#match} */
 test('Photo#match', t => {
   const photo = new Photo(photoSrcsetLandscape);
   t.true(photo.match(/landscape/), 'should match title');
@@ -91,6 +93,7 @@ test('Photo#match', t => {
   t.true(photo.match(/note2/), 'should match notes');
 });
 
+/** @test {Photo#calcWidthOrHeight} */
 test('Photo#calcWidthOrHeight should calculate width from either width, height, or max', t => {
   const photoL = new Photo(photoSrcsetLandscape);
   const photoP = new Photo(photoSrcsetPortrait);
@@ -106,6 +109,7 @@ test('Photo#calcWidthOrHeight should calculate width from either width, height, 
   t.is(photoS.calcWidthOrHeight(photoS.data.images[2], true), 1200);
 });
 
+/** @test {Photo#calcWidthOrHeight} */
 test('Photo#calcWidthOrHeight calculate height from either width, height, or max', t => {
   const photoL = new Photo(photoSrcsetLandscape);
   const photoP = new Photo(photoSrcsetPortrait);
@@ -121,6 +125,7 @@ test('Photo#calcWidthOrHeight calculate height from either width, height, or max
   t.is(photoS.calcWidthOrHeight(photoS.data.images[2], false), 1200);
 });
 
+/** @test {Photo#getSrcSet} */
 test('Photo#getSrcSet should not modify original data', t => {
   const original = cloneDeep(photoSrcsetLandscape);
   const photo = new Photo(photoSrcsetLandscape);
@@ -128,11 +133,13 @@ test('Photo#getSrcSet should not modify original data', t => {
   t.deepEqual(photo.data, original);
 });
 
+/** @test {Photo#getSrcSet} */
 test('Photo#getSrcSet should return for srcset', t => {
   const photo = new Photo(photoSrcsetLandscape);
   t.is(photo.getSrcSet(), 'https://placehold.it/600x400 600w, https://placehold.it/900x600 900w, https://placehold.it/1200x800 1200w');
 });
 
+/** @test {Photo#getSrcSet} */
 test('Photo#getSrcSet should return for flickr landscape images', t => {
   const photo = new Photo(photoFlickrLandscape);
   t.is(photo.getSrcSet(), [
@@ -148,6 +155,7 @@ test('Photo#getSrcSet should return for flickr landscape images', t => {
   ].join(', '));
 });
 
+/** @test {Photo#getSrcSet} */
 test('Photo#getSrcSet should return for flickr portrait images', t => {
   const photo = new Photo(photoFlickrPortrait);
   t.is(photo.getSrcSet(), [
@@ -163,6 +171,7 @@ test('Photo#getSrcSet should return for flickr portrait images', t => {
   ].join(', '));
 });
 
+/** @test {Photo#getSrcSet} */
 test('Photo#getSrcSet should return for flickr too small', t => {
   const photo = new Photo(photoFlickrTooSmall);
   t.is(photo.getSrcSet(), [
@@ -174,6 +183,7 @@ test('Photo#getSrcSet should return for flickr too small', t => {
   ].join(', '));
 });
 
+/** @test {Photo#getSrcSet} */
 test('Photo#getSrcSet should return for picasa', t => {
   const photo = new Photo(photoPicasa);
   t.is(photo.getSrcSet(), [
@@ -189,6 +199,7 @@ test('Photo#getSrcSet should return for picasa', t => {
   ].join(', '));
 });
 
+/** @test {Photo#prepareSize} */
 test('Photo#prepareSize should fill all of width, height, or max', t => {
   const photoL = new Photo(photoSrcsetLandscape);
   let r;
@@ -209,6 +220,7 @@ test('Photo#prepareSize should fill all of width, height, or max', t => {
   t.is(r.max, 1200);
 });
 
+/** @test {Photo#getLargestImageAtMost} */
 test('Photo#getLargestImageAtMost should return the most suitable one', t => {
   const photoL = new Photo(photoSrcsetLandscape);
   t.is(photoL.getLargestImageAtMost(100, 100).url, 'https://placehold.it/600x400');

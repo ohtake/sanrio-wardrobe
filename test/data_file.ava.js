@@ -15,11 +15,13 @@ function assertUniqueStringArray(t, array) {
   });
 }
 
-test('DetailFile.all should have unique name', t => {
+/** @test {DataFile} */
+test('DataFile.all should have unique name', t => {
   const names = DataFile.all.map(d => d.name);
   assertUniqueStringArray(t, names);
 });
 
+/** @test {DataFile} */
 test('each yaml file should have unique title', t => {
   const names = DataFile.all.map(d => d.name);
   return Promise.all(names.map(n => new Promise((onFulfilled, onRejected) => {
@@ -37,7 +39,8 @@ test('each yaml file should have unique title', t => {
   })));
 });
 
-test('DetailFile.ktKitty should have members', t => {
+/** @test {DataFile} */
+test('DataFile.ktKitty should have members', t => {
   t.is(typeof DataFile.ktKitty, 'object');
   t.is(typeof DataFile.ktKitty.name, 'string');
   t.is(typeof DataFile.ktKitty.seriesSymbol, 'string');
@@ -46,6 +49,7 @@ test('DetailFile.ktKitty should have members', t => {
   t.is(typeof DataFile.ktKitty.picUrl, 'string');
 });
 
-test('DetailFile#getDiplayName should return both english and japanese', t => {
+/** @test {DataFile#getDisplayName} */
+test('DataFile#getDisplayName should return both english and japanese', t => {
   t.is(DataFile.ktKitty.getDisplayName(), 'KT キティ (Kitty)');
 });

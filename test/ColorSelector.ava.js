@@ -24,6 +24,7 @@ function clickClear(wrapper) {
   wrapper.find({ data: '' }).simulate('click');
 }
 
+/** @test {ColorSelector} */
 test('<ColorSelector /> should not have any active items at first', t => {
   const wrapper = shallow(<ColorSelector />, { context });
   /** @type {ColorSelector} */
@@ -32,6 +33,7 @@ test('<ColorSelector /> should not have any active items at first', t => {
   t.false(instance.isFilterEnabled());
 });
 
+/** @test {ColorSelector} */
 test('<ColorSelector /> should toggle color buttons', t => {
   const wrapper = shallow(<ColorSelector />, { context });
   t.is(wrapper.find({ label: 'Red' }).length, 0);
@@ -41,6 +43,7 @@ test('<ColorSelector /> should toggle color buttons', t => {
   t.is(wrapper.find({ label: 'Red' }).length, 0);
 });
 
+/** @test {ColorSelector} */
 test('<ColorSelector /> should handle color button clicks', t => {
   const wrapper = shallow(<ColorSelector />, { context });
   /** @type {ColorSelector} */
@@ -56,6 +59,7 @@ test('<ColorSelector /> should handle color button clicks', t => {
   t.deepEqual(instance.listActiveIds(), []);
 });
 
+/** @test {ColorSelector} */
 test('<ColorSelector /> should remember active state after re-enabled', t => {
   const wrapper = shallow(<ColorSelector />, { context });
   /** @type {ColorSelector} */
@@ -70,6 +74,7 @@ test('<ColorSelector /> should remember active state after re-enabled', t => {
   t.deepEqual(instance.listActiveIds(), ['red', 'blue']);
 });
 
+/** @test {ColorSelector} */
 test('<ColorSelector /> should clear all actives', t => {
   const wrapper = shallow(<ColorSelector />, { context });
   /** @type {ColorSelector} */

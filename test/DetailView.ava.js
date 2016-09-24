@@ -39,12 +39,14 @@ function createContextWithSpiedRouter() {
   return c;
 }
 
+/** @test {DetailView} */
 test('<DetailView /> should be loaded without photos', t => {
   const wrapper = shallow(<DetailView chara="zz-zzzzz" />, { context });
   const instance = wrapper.instance();
   t.not(instance, null);
 });
 
+/** @test {DetailView} */
 test('<DetailView /> should handle one photo', t => {
   const context2 = createContextWithSpiedRouter();
   const wrapper = shallow(<DetailView chara="zz-zzzzz" />, { context: context2 });
@@ -58,6 +60,7 @@ test('<DetailView /> should handle one photo', t => {
   t.deepEqual(context2.router.replace.lastCall.args, ['/chara/zz-zzzzz/template']);
 });
 
+/** @test {DetailView} */
 test('<DetailView /> should handle four photo', t => {
   const context2 = createContextWithSpiedRouter();
   const wrapper = shallow(<DetailView chara="zz-zzzzz" />, { context: context2 });
