@@ -25,9 +25,9 @@ import clone from 'lodash/clone';
 import throttle from 'lodash/throttle';
 import verge from 'verge';
 
-import Colors from './colors.js';
+import Colors from './colors';
 
-import * as utils from './utils.js';
+import * as utils from './utils';
 
 const swipingRatioThreshold = 0.3;
 

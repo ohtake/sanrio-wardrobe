@@ -1,6 +1,6 @@
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
-import * as Colors from 'material-ui/styles/colors.js';
+import * as Colors from 'material-ui/styles/colors';
 
 // See https://github.com/callemall/material-ui/tree/master/src/styles for theme definition
 export const themeLight = getMuiTheme({

@@ -6,8 +6,8 @@ import test from 'ava';
 
 import { shallow } from 'enzyme';
 
-import ColorSelector from '../src/ColorSelector.jsx';
-import * as themes from '../src/themes.js';
+import ColorSelector from '../src/ColorSelector';
+import * as themes from '../src/themes';
 
 const context = { muiTheme: themes.themeLight };
 

@@ -7,9 +7,9 @@ import { shallow } from 'enzyme';
 import clone from 'lodash/clone';
 import range from 'lodash/range';
 
-import Gallery from '../src/Gallery.jsx';
-import Photo from '../src/photo.js';
-import * as themes from '../src/themes.js';
+import Gallery from '../src/Gallery';
+import Photo from '../src/photo';
+import * as themes from '../src/themes';
 
 const photoTemplate = {
   title: 'template',

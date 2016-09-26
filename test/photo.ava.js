@@ -1,7 +1,7 @@
 import test from 'ava';
 import cloneDeep from 'lodash/cloneDeep';
 
-import Photo from '../src/photo.js';
+import Photo from '../src/photo';
 
 const photoSrcsetLandscape = {
   title: 'srcset landscape',

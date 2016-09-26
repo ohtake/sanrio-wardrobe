@@ -10,9 +10,9 @@ import createHashHistory from 'history/lib/createHashHistory';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import objectFitImages from 'object-fit-images';
 
-import App from './App.jsx';
-import Home from './Home.jsx';
-import Character from './Character.jsx';
+import App from './App';
+import Home from './Home';
+import Character from './Character';
 
 // Needed for onTouchTap
 // Check this repo:

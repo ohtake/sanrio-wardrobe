@@ -8,9 +8,9 @@ import { shallow } from 'enzyme';
 import clone from 'lodash/clone';
 import range from 'lodash/range';
 
-import DetailView from '../src/DetailView.jsx';
-import Photo from '../src/photo.js';
-import * as themes from '../src/themes.js';
+import DetailView from '../src/DetailView';
+import Photo from '../src/photo';
+import * as themes from '../src/themes';
 
 const dummyEvent = {
   preventDefault: () => {},

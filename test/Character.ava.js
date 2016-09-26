@@ -5,8 +5,8 @@ import React from 'react';
 import test from 'ava';
 import { shallow } from 'enzyme';
 
-import Character from '../src/Character.jsx';
-import * as themes from '../src/themes.js';
+import Character from '../src/Character';
+import * as themes from '../src/themes';
 
 const context = { muiTheme: themes.themeLight };
 

@@ -143,7 +143,7 @@ export default class Photo {
    * @returns {Promise.<Photo[]>} array of photos
    */
   static loadPhotos(file) {
-    /* eslint-disable global-require */
+    /* eslint-disable global-require, import/no-dynamic-require */
     const actualFilename = require(`file?name=[name].json!./../data/${file}.yaml`);
     /* eslint-enable */
 

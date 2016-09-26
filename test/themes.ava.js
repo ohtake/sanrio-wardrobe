@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import * as themes from '../src/themes.js';
+import * as themes from '../src/themes';
 
 test.after(() => {
   themes.setTimeProviderForTest(null);

@@ -3,8 +3,8 @@ import Link from 'react-router/lib/Link';
 
 import LazyLoad from 'react-lazy-load';
 import JustifiedLayout from 'react-justified-layout';
-import Photo from './photo.js';
-import * as utils from './utils.js';
+import Photo from './photo';
+import * as utils from './utils';
 
 export default class Gallery extends React.Component {
   constructor() {

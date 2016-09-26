@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'react-router/lib/Link';
 
 import JustifiedLayout from 'react-justified-layout';
-import DataFile from './data_file.js';
-import * as utils from './utils.js';
+import DataFile from './data_file';
+import * as utils from './utils';
 
 /**
  * @private

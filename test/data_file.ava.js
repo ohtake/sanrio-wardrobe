@@ -3,7 +3,7 @@ import test from 'ava';
 import fs from 'fs';
 import yaml from 'js-yaml';
 
-import DataFile from '../src/data_file.js';
+import DataFile from '../src/data_file';
 
 function assertUniqueStringArray(t, array) {
   t.true(Array.isArray(array));

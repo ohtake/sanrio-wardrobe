@@ -23,9 +23,9 @@ import ImageColorLens from 'material-ui/svg-icons/image/color-lens';
 import ImagePhotoSizeSelectLarge from 'material-ui/svg-icons/image/photo-size-select-large';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
-import DataFile from './data_file.js';
-import * as themes from './themes.js';
-import * as utils from './utils.js';
+import DataFile from './data_file';
+import * as themes from './themes';
+import * as utils from './utils';
 
 export default
 /**

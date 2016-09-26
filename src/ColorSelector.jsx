@@ -6,7 +6,7 @@ import ContentFilterList from 'material-ui/svg-icons/content/filter-list';
 
 import clone from 'lodash/clone';
 
-import Colors from './colors.js';
+import Colors from './colors';
 
 class ColorItem {
   /**

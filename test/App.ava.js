@@ -5,7 +5,7 @@ import React from 'react';
 import test from 'ava';
 import { shallow } from 'enzyme';
 
-import App from '../src/App.jsx';
+import App from '../src/App';
 
 /** @test {App} */
 test('<App /> should be loaded', t => {

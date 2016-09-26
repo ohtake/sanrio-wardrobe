@@ -1,4 +1,4 @@
-import * as Colors from 'material-ui/styles/colors.js';
+import * as Colors from 'material-ui/styles/colors';
 
 export class ColorData {
   /**

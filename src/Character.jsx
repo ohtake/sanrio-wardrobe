@@ -7,12 +7,12 @@ import ActionSearch from 'material-ui/svg-icons/action/search';
 
 import throttle from 'lodash/throttle';
 
-import ColorSelector from './ColorSelector.jsx';
-import DetailView from './DetailView.jsx';
-import Gallery from './Gallery.jsx';
+import ColorSelector from './ColorSelector';
+import DetailView from './DetailView';
+import Gallery from './Gallery';
 
-import Photo from './photo.js';
-import * as utils from './utils.js';
+import Photo from './photo';
+import * as utils from './utils';
 
 class SearchParams {
   constructor() {
