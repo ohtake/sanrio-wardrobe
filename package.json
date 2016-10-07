@@ -6,7 +6,7 @@
   "license": "ISC",
   "main": "src/index.jsx",
   "dependencies": {
-    "lodash": "4.16.3",
+    "lodash": "4.16.4",
     "verge": "1.9.1",
     "css-element-queries": "0.3.2",
     "object-fit-images": "2.5.6",
@@ -14,7 +14,7 @@
     "react-dom": "15.3.2",
     "react-router": "2.8.1",
     "history": "2.1.2",
-    "material-ui": "0.15.4",
+    "material-ui": "0.16.0",
     "react-tap-event-plugin": "1.0.0",
     "react-justified-layout": "0.0.1",
     "react-swipeable": "3.6.0",
@@ -53,7 +53,7 @@
     "eslint-loader": "1.5.0",
     "yaml-loader": "0.4.0",
     "file-loader": "0.9.0",
-    "webpack-dev-server": "1.16.1",
+    "webpack-dev-server": "1.16.2",
     "http-server": "0.9.0"
   },
   "ava": {
