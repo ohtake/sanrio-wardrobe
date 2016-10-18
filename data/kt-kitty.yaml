@@ -1442,6 +1442,14 @@
     notes:
       - いちご
   -
+    title: "53AA3246"
+    images_flickr: { photo: "29755672144", farm: 9, server: 8410, secret: "044e3399a6", secret_h: "1cc411d7bf", secret_k: "9ee40614ce", secret_o: "4cdbb0ff93", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29755672144"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["black", "white", "red", "gold"]
+    notes:
+      - 手袋、水玉
+  -
     title: "5D3X9886"
     images_flickr: { photo: "26117133231", farm: 2, server: 1456, secret: "24de6de19d", secret_h: "d579aa70a7", secret_k: "a2cbc66840", secret_o: "62eeea123a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26117133231"}
