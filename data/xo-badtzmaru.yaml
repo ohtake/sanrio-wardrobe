@@ -86,6 +86,14 @@
       - 『バラエティ→でいこう!』
       - パッチワーク
   -
+    title: "53AA3442"
+    images_flickr: { photo: "30361294231", farm: 6, server: 5582, secret: "c5346c3a70", secret_h: "3c389dac4d", secret_k: "9fd05da4d7", secret_o: "59eff853d2", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30361294231/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "red", "green", "yellow", "black", "purple", "orange"]
+    notes:
+      - ハロウィン、パッチワーク
+  -
     title: "5D3D9560 (1280x1920)"
     images_picasa: { lh: 3, dirs: "-jOBrjgLVeIg/UWLD4HsqWCI/AAAAAAAAPIs/jYWKBrR0KEArMS6eL3x9ei5LBG0YJwlQgCCo", file: "5D3D9560%2B%25281280x1920%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/eMLni_kcS43uxHJ2CIunhdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}

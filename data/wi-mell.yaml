@@ -152,3 +152,12 @@
     notes:
       - 水着
       - 水玉
+  -
+    title: "水着2"
+    images_flickr: { photo: "29816795814", farm: 6, server: 5692, secret: "e784722cd5", secret_h: "dd6f6c3e9a", secret_k: "887a92e912", secret_o: "1ddc46bcfa", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29816795814/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "pink"]
+    notes:
+      - 水着の髪飾りが変更
+      - 水玉
