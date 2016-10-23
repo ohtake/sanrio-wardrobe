@@ -1235,6 +1235,14 @@
       - 靴や胸の飾りがないバージョン
       - ハロウィン、ジャック・オー・ランタン、マント、帽子
   -
+    title: "53AA4473"
+    images_flickr: { photo: "30466897406", farm: 6, server: 5831, secret: "5e4f65611c", secret_h: "ae3ab87fa9", secret_k: "f4a6d8f163", secret_o: "8f7b483e91", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30466897406/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["purple", "orange", "black", "white", "red", "grey"]
+    notes:
+      - ハロウィン、蜘蛛の巣、コウモリ、ビニール傘
+  -
     title: "5D3K0313"
     images_flickr: { photo: "11152934336", farm: 8, server: 7418, secret: "5439ea3b85", secret_h: "3048944c6e", secret_k: "b72b40f529", secret_o: "c41edb8719", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11152934336/"}
