@@ -191,6 +191,7 @@ export default class Home extends React.Component {
         <ul>
           <li><a href="assets/esdoc/index.html">ESDoc</a></li>
           <li><a href="assets/jsdoc/index.html">JSDoc</a></li>
+          <li><a href="assets/sme.html">Source map explorer</a></li>
         </ul>
       </div>
     );
