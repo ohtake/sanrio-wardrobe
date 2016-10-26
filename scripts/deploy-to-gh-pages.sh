@@ -4,7 +4,7 @@ set -o nounset
 set -o pipefail
 
 git checkout -B gh-pages
-git add assets -f
+git add assets coverage/lcov-report -f
 if [ "true" = "${TRAVIS}" ]; then
   git config user.name "travis"
   git config user.email "travis@example.net"
