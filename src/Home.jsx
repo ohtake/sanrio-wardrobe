@@ -20,7 +20,7 @@ const software = [
   },
   {
     name: 'React Router',
-    url: 'https://github.com/reactjs/react-router',
+    url: 'https://github.com/ReactTraining/react-router',
     author: 'React Community',
     author_url: 'https://reactcommunity.org/',
     license: 'The MIT License',
