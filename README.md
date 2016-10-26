@@ -13,11 +13,11 @@ Demo: <https://ohtake.github.io/sanrio-wardrobe/>
 
 ## Development
 
-Install [Node.js and npm](https://nodejs.org/en/download/current).
+Install [Node 6 and npm](https://nodejs.org/en/download/).
 
-```
+```bash
 npm install
 npm start
 ```
 
-Now you can visit http://localhost:8080/ to view the application.
+Now you can visit `http://localhost:8080/` to view the application.
