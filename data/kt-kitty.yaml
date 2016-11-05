@@ -815,7 +815,7 @@
     images_flickr: { photo: "13349531445", farm: 3, server: 2836, secret: "72a16b1149", secret_h: "fb8c2f4119", secret_k: "4d0529779c", secret_o: "c5119e1131", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13349531445"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "blue"]
+    colors: ["red", "blue", "white"]
     notes:
       - 高尾山ロケ
       - タータンチェック、GP
