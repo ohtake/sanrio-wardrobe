@@ -1,4 +1,6 @@
+import findIndex from 'lodash/findIndex';
 import findLast from 'lodash/findLast';
+import take from 'lodash/take';
 
 const flickrSizes = [
   { suffix: 's', longest: 75, square: true, label: 'Square' },
@@ -65,7 +67,7 @@ class FlickrSrcsetProvider {
       if (s.suffix === 'o') return false; // Skip original size because it may be too huge.
       return true;
     });
-    for (const size of availableSizes) {
+    availableSizes.forEach((size) => {
       let secret;
       switch (size.suffix) {
         case 'h':
@@ -81,7 +83,7 @@ class FlickrSrcsetProvider {
       const url = FlickrSrcsetProvider.createUrl(imgsF.photo, imgsF.farm, imgsF.server, secret, size.suffix);
       const max = Math.min(maxO, size.longest);
       result.push({ url, max });
-    }
+    });
     return result;
   }
 }
@@ -116,17 +118,14 @@ class PicasaSrcsetProvider {
   static getImages(photo) {
     const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
     const imgsP = photo.data.images_picasa;
-    const result = [];
-    for (const size of picasaSizes) {
-      if (size >= maxO) {
-        const url = PicasaSrcsetProvider.createUrl(imgsP.lh, imgsP.dirs, imgsP.file, maxO);
-        result.push({ url, max: maxO });
-        break;
-      }
-      const url = PicasaSrcsetProvider.createUrl(imgsP.lh, imgsP.dirs, imgsP.file, size);
-      result.push({ url, max: size });
-    }
-    return result;
+    const indexExceeding = findIndex(picasaSizes, size => size >= maxO);
+    const sizesLength = indexExceeding !== -1 ? indexExceeding + 1 : picasaSizes.length;
+    const sizes = take(picasaSizes, sizesLength);
+    return sizes.map((size) => {
+      const max = size < maxO ? size : maxO;
+      const url = PicasaSrcsetProvider.createUrl(imgsP.lh, imgsP.dirs, imgsP.file, max);
+      return { url, max };
+    });
   }
 }
 
@@ -234,9 +233,7 @@ export default class Photo {
   match(re) {
     if (this.data.title.match(re)) return true;
     if (this.data.source.author.match(re)) return true;
-    for (const note of this.data.notes) {
-      if (note.match(re)) return true;
-    }
+    if (this.data.notes.find(note => note.match(re))) return true;
     return false;
   }
 }

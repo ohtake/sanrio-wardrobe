@@ -37,9 +37,9 @@ DataFile.all = [
 ];
 
 const map = {};
-for (const df of DataFile.all) {
+DataFile.all.forEach((df) => {
   map[df.name] = df;
-}
+});
 /**
  * @param {string} name e.g. kt-kitty
  * @returns {DataFile}

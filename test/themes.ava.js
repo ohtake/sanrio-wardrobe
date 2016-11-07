@@ -22,9 +22,9 @@ test('themes.getInitialTheme should return theme based on time', t => {
     { time: new Date(2000, 1, 1, 18, 1), theme: themes.themeDark },
     { time: new Date(2000, 1, 1, 23, 1), theme: themes.themeDark },
   ];
-  for (const d of dataset) {
+  dataset.forEach(d => {
     themes.setTimeProviderForTest(() => d.time);
     const actual = themes.getInitialTheme();
     t.is(actual, d.theme);
-  }
+  });
 });

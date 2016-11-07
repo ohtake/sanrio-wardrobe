@@ -33,12 +33,8 @@ class SearchParams {
    * @returns {boolean}
    */
   match(photo) {
-    if (this.regexps.length && !this.regexps.every(re => photo.match(re))) return false;
-    if (this.colorIds.length) {
-      for (const c of this.colorIds) {
-        if (photo.data.colors.indexOf(c) < 0) return false;
-      }
-    }
+    if (!this.regexps.every(re => photo.match(re))) return false;
+    if (!this.colorIds.every(c => photo.data.colors.indexOf(c) >= 0)) return false;
     return true;
   }
 }
@@ -135,9 +131,9 @@ export default class Character extends React.Component {
       case 13: // Enter
         this.text.input.blur(); // To hide keyboard on mobile phones
         e.preventDefault();
-        return;
+        break;
       default:
-        return;
+        break;
     }
   }
   handleSearchTextBlur() {

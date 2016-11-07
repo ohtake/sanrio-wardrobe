@@ -52,7 +52,7 @@ request(endpoint, (error, response, body) => {
   let hasC = false;
 
   const regexUrl = /https:\/\/farm([0-9]+)\.staticflickr\.com\/([0-9]+)\/([0-9]+)_([0-9a-f]+)(_[a-z])?\.([a-z]+)/;
-  for (const size of obj.sizes.size) {
+  obj.sizes.size.forEach((size) => {
     let result;
     switch (size.label) {
       case 'Medium':
@@ -83,7 +83,7 @@ request(endpoint, (error, response, body) => {
       default:
         break;
     }
-  }
+  });
   if (!farm) {
     console.info(body);
     console.error('Could not find farm');
