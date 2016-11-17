@@ -53,6 +53,7 @@
     notes:
       - ピューロランドパレード『Believe』
       - ピューロビレッジ『ミラクリュージョン★』
+      - ピューロビレッジ『ミラクリュージョン★Happiness』2015年
   -
     title: "5D3O9793"
     images_flickr: { photo: "14650521100", farm: 4, server: 3882, secret: "36330b54b2", secret_h: "9d994d5b07", secret_k: "753906d1d4", secret_o: "45e397092e", format_o: "jpg" }
@@ -62,6 +63,7 @@
     notes:
       - 『Believe』の光っているバージョン
       - ピューロビレッジ『ミラクリュージョン★』
+      - ピューロビレッジ『ミラクリュージョン★Happiness』2015年
   -
     title: "5D3R6215"
     images_flickr: { photo: "15889076825", farm: 8, server: 7563, secret: "35fcbdb4a6", secret_h: "9c910d2703", secret_k: "808a6d0275", secret_o: "88ece5e79d", format_o: "jpg" }
@@ -70,7 +72,7 @@
     colors: ["pink", "silver", "gold", "red"]
     notes:
       - 『Believe』のアレンジで、胸に金色の装飾が追加された光っていないバージョン
-      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』
+      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』2014年
   -
     title: "5D3Q8284"
     images_flickr: { photo: "15605658267", farm: 6, server: 5612, secret: "e3a155d4a5", secret_h: "96a9211ad7", secret_k: "b7de00418a", secret_o: "573005e13b", format_o: "jpg" }
@@ -79,7 +81,7 @@
     colors: ["pink", "silver", "gold", "red"]
     notes:
       - 『Believe』のアレンジで、胸に金色の装飾が追加された光っているバージョン
-      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』
+      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』2014年
   -
     title: "5D3V4554"
     images_flickr: { photo: "21251679969", farm: 1, server: 682, secret: "1cb7701265", secret_h: "7db28e595e", secret_k: "9ee3fbce6f", secret_o: "898e1156e1", format_o: "jpg" }
@@ -87,7 +89,7 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "yellow"]
     notes:
-      - 『ミラクリュージョン★スターライトドリーム』
+      - ピューロビレッジ『ミラクリュージョン★スターライトドリーム』
       - バラ、和服ドレス
   -
     title: "タイムエプロン"
@@ -265,6 +267,7 @@
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "purple", "green", "white"]
     notes:
+      - メルヘンシアター『ハローキティドリームレビュー2』レビューパートの前
       - メルヘンシアター『ハローキティの妖精フローレンス』レビューパート1着目
       - 紫バラバージョン
       - バラ
@@ -1218,14 +1221,24 @@
       - 『ロマンティックセレナーデ』から腰ひもとリストを削除しジャケットとクリスマス装飾を追加
       - クリスマス
   -
-    title: "5D3K4816"
-    images_flickr: { photo: "11486523755", farm: 4, server: 3802, secret: "55c792967e", secret_h: "0d69a02135", secret_k: "ad7a3c3209", secret_o: "f16ed81b45", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486523755/"}
-    size: { width_o: 3840, height_o: 5760 }
+    title: "53AA9225"
+    images_flickr: { photo: "31055438495", farm: 6, server: 5470, secret: "deb72c88d7", secret_h: "1e16633fc5", secret_k: "7cd2ec2381", secret_o: "34292d8296", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31055438495/"}
+    size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "white", "gold"]
     notes:
       - ピューロランドパレード『Believe in Christmas』
+      - ピューロビレッジ『ミラクリュージョン★Happiness』2016年
       - クリスマス
+  -
+    title: "53AA9034"
+    images_flickr: { photo: "30941420181", farm: 6, server: 5495, secret: "53becbdb8f", secret_h: "461c0914fd", secret_k: "6f7dae5214", secret_o: "93a698eaed", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30941420181/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "green", "white", "gold"]
+    notes:
+      - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
+      - クリスマス、帽子
   -
     title: "5D3I3419"
     images_flickr: { photo: "10114607714", farm: 8, server: 7397, secret: "f024e2df52", secret_h: "18a9b8b316", secret_k: "0437de63e0", secret_o: "36a104872e", format_o: "jpg" }
@@ -1356,6 +1369,7 @@
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "white"]
     notes:
+      - 外部イベント『ハローキティのハートフルクリスマス』
       - 外部イベント『サンリオクリスマスレビューショー』
   -
     title: "5D3B1556 (1440x960)"
@@ -2041,7 +2055,7 @@
     colors: ["blue", "red", "white"]
     notes:
       - アメリカ Hello KItty for President 2016
-      - 星条旗、帽子
+      - 星条旗
   -
     title: "Los Angeles Dodgers"
     images_flickr: { photo: "6161247847", farm: 7, server: 6196, secret: "40b9e6de20", before: "20120301" }
