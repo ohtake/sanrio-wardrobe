@@ -392,6 +392,15 @@
       - 一日駅長
       - チェック、リボン
   -
+    title: "京王多摩センター駅名誉駅長"
+    images_flickr: { photo: "31099745591", farm: 6, server: 5792, secret: "c8fbf755d4", secret_h: "1785a900b6", secret_k: "6b8b023014", secret_o: "2e16a13248", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31099745591"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["black", "red", "gold"]
+    notes:
+      - 京王多摩センター駅名誉駅長
+      - 帽子
+  -
     title: "53AA5580"
     images_flickr: { photo: "30657258482", farm: 6, server: 5665, secret: "bb75f8b038", secret_h: "f0d0039e05", secret_k: "5b7b468e33", secret_o: "6b95259349", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30657258482"}
