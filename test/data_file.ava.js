@@ -25,7 +25,7 @@ test('DataFile.all should have unique name', t => {
 test('each yaml file should have unique title', t => {
   const names = DataFile.all.map(d => d.name);
   return Promise.all(names.map(n => new Promise((onFulfilled, onRejected) => {
-    fs.readFile(`../data/${n}.yaml`, { encoding: 'utf-8' }, (err, data) => {
+    fs.readFile(`data/${n}.yaml`, { encoding: 'utf-8' }, (err, data) => {
       if (err) {
         onRejected(err);
         return;
