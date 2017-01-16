@@ -49,6 +49,9 @@ Gallery.propTypes = {
   photos: React.PropTypes.arrayOf(React.PropTypes.instanceOf(Photo)),
   chara: React.PropTypes.string.isRequired,
 };
+Gallery.defaultProps = {
+  photos: null,
+};
 Gallery.contextTypes = {
   muiTheme: React.PropTypes.object.isRequired,
   thumbnailSize: React.PropTypes.number,

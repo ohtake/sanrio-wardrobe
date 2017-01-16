@@ -165,7 +165,7 @@ Character.propTypes = {
   params: React.PropTypes.shape({
     chara: React.PropTypes.string,
     title: React.PropTypes.string,
-  }),
+  }).isRequired,
 };
 Character.contextTypes = {
   muiTheme: React.PropTypes.object.isRequired,

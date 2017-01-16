@@ -155,10 +155,10 @@ class App extends React.Component {
   }
 }
 App.propTypes = {
-  children: React.PropTypes.node,
+  children: React.PropTypes.node.isRequired,
   params: React.PropTypes.shape({
     chara: React.PropTypes.string,
-  }),
+  }).isRequired,
 };
 App.childContextTypes = {
   muiTheme: React.PropTypes.object,
