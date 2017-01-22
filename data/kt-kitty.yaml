@@ -2021,6 +2021,14 @@
     colors: ["white", "pink", "silver"]
     notes: []
   -
+    title: "P1210836"
+    images_flickr: { photo: "32402706896", farm: 1, server: 483, secret: "0b78e9b498", secret_h: "462324cda1", secret_k: "cebd05ff82", secret_o: "21198b2cec", format_o: "jpg" }
+    source: { author: "mono", license: "CC BY-NC-SA 2.0", url: "https://www.flickr.com/photos/mono0x/32402706896/"}
+    size: { width_o: 5184, height_o: 3888 }
+    colors: ["pink", "red", "purple", "white"]
+    notes:
+      - チェック、フリル、真珠
+  -
     title: "ヘブンスそのはら"
     images_flickr: { photo: "25287937110", farm: 2, server: 1628, secret: "ed7e5b37c1", secret_h: "54d18da4b3", secret_k: "05ef7e3b0e", secret_o: "dce61d568f", format_o: "jpg" }
     source: { author: "yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/25287937110/"}
