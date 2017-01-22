@@ -597,6 +597,15 @@
     notes:
       - 着物、和服、桜
   -
+    title: "53AB7130"
+    images_flickr: { photo: "31605048444", farm: 1, server: 517, secret: "d65b4721b4", secret_h: "8fe5e473e4", secret_k: "f6f5345983", secret_o: "0b506bac05", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31605048444"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "purple", "red"]
+    notes:
+      - 襟の色が緑から白になっている
+      - 着物、和服、桜
+  -
     title: "5D3O4702"
     images_flickr: { photo: "14703705663", farm: 6, server: 5596, secret: "265b4973c8", secret_h: "d6656a16f2", secret_k: "31a1e176de", secret_o: "12b2e655a5", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14703705663"}
