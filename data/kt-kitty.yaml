@@ -160,7 +160,16 @@
     colors: ["red", "yellow"]
     notes:
       - 水戸黄門
-      - 和服、杖
+      - 和服、帽子、杖
+  -
+    title: "水戸黄門の帽子なし"
+    images_flickr: { photo: "32350173952", farm: 1, server: 386, secret: "97028161d1", secret_h: "4b094f3b75", secret_k: "f670f7811f", secret_o: "933a3dec13", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32350173952"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "yellow"]
+    notes:
+      - 水戸黄門の帽子なしバージョン
+      - 和服
   -
     title: "5D3W6467"
     images_flickr: { photo: "23456116821", farm: 6, server: 5750, secret: "7b5bae9b58", secret_h: "9e115e5d25", secret_k: "2c78003765", secret_o: "7a3a7b19c4", format_o: "jpg" }
