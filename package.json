@@ -49,7 +49,7 @@
     "codeclimate-test-reporter": "0.4.0",
     "coveralls": "2.11.15",
     "codacy-coverage": "2.0.1",
-    "webpack": "1.14.0",
+    "webpack": "2.2.1",
     "babel-loader": "6.2.10",
     "eslint-loader": "1.6.1",
     "yaml-loader": "0.4.0",
@@ -71,11 +71,11 @@
     "cover": "cross-env NODE_ENV=test nyc ---extension .jsx --reporter lcov --reporter text npm test",
     "watch:ava": "npm run test:ava -- --watch",
     "build": "cross-env NODE_ENV=production npm-run-all -l -p build:app build:jsdoc build:esdoc -p build:sme",
-    "build:app": "webpack --progress --colors",
+    "build:app": "webpack --progress --colors --config webpack.config.babel.js",
     "build:jsdoc": "jsdoc --destination ./assets/jsdoc --readme README.md --verbose src",
     "build:esdoc": "esdoc -c esdoc.json",
     "build:sme": "source-map-explorer assets/bundle.js assets/bundle.js.map --html > assets/sme.html",
-    "start": "cross-env NODE_ENV=development webpack-dev-server --progress --colors",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --progress --colors --config webpack.config.babel.js",
     "server": "cross-env NODE_ENV=production http-server"
   }
 }

@@ -15,7 +15,7 @@ const js = {
     filename: 'bundle.js',
   },
   resolve: {
-    extensions: ['', '.js', '.jsx'],
+    extensions: ['.js', '.jsx'],
   },
   devtool: 'source-map',
   plugins: [
@@ -26,46 +26,50 @@ const js = {
         },
       }),
       new webpack.optimize.UglifyJsPlugin({
-        compress: {
-          warnings: false,
-        },
+        sourceMap: true,
       }),
-      new webpack.optimize.OccurrenceOrderPlugin(),
-      new webpack.optimize.DedupePlugin(),
+      new webpack.LoaderOptionsPlugin({
+        minimize: true,
+      }),
     ] : []),
   ],
   module: {
-    preLoaders: [
+    rules: [
       {
         test: /\.jsx?$/,
         include: path.resolve('src'),
-        loader: 'eslint',
+        loader: 'eslint-loader',
+        enforce: 'pre',
       },
-    ],
-    loaders: [
       {
         test: /\.js$/,
         include: path.resolve('src'),
-        loader: 'babel',
-        query: {
-          presets: ['es2015'],
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['es2015'],
+          },
         },
       },
       {
         test: /\.jsx$/,
         include: path.resolve('src'),
-        loader: 'babel',
-        query: {
-          presets: ['react', 'es2015'],
-          plugins: [
-            ['transform-react-remove-prop-types', { mode: 'wrap' }],
-          ],
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['react', 'es2015'],
+            plugins: [
+              ['transform-react-remove-prop-types', { mode: 'wrap' }],
+            ],
+          },
         },
       },
       {
         test: /\.yaml$/,
         include: path.resolve('data'),
-        loader: 'yaml',
+        use: {
+          loader: 'yaml-loader',
+        },
       },
     ],
   },

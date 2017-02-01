@@ -143,7 +143,7 @@ export default class Photo {
    */
   static loadPhotos(file) {
     /* eslint-disable global-require, import/no-dynamic-require */
-    const actualFilename = require(`file?name=[name].json!./../data/${file}.yaml`);
+    const actualFilename = require(`file-loader?name=[name].json!./../data/${file}.yaml`);
     /* eslint-enable */
 
     return window.fetch(actualFilename).then((res) => {
