@@ -211,3 +211,11 @@
     notes:
       - ハーモニーランドパレード『パレード・アクア』
       - ハーモニーパーク『水かけカーニバル』
+  -
+    title: "IMG_4440"
+    images_flickr: { photo: "31673035494", farm: 1, server: 718, secret: "a3d645c1b5", secret_h: "e49ce56e82", secret_k: "f389c96da7", secret_o: "ceaa85e949", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/31673035494/"}
+    size: { width_o: 3456, height_o: 5184 }
+    colors: ["gold", "red"]
+    notes:
+      - 和服

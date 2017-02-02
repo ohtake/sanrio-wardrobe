@@ -585,7 +585,7 @@
     images_picasa: { lh: 3, dirs: "-bd2HnhfNIn0/UN-5Ds2ZKUI/AAAAAAAAHX0/4HPt1XGjsqo", file: "5D3C0478%2520%25281440x960%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/ccB9ykxR4xO-44GTNwPKw9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
-    colors: ["red", "white"]
+    colors: ["red", "yellow", "blue", "green", "white"]
     notes:
       - 着物、和服、梅、ショール
   -
@@ -593,9 +593,18 @@
     images_flickr: { photo: "12146418334", farm: 3, server: 2809, secret: "30de40cc73", secret_h: "44aee4a709", secret_k: "cf42aa895a", secret_o: "386783d961", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12146418334"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["red"]
+    colors: ["red", "yellow", "blue", "green"]
     notes:
       - ショールなしバージョン
+      - 着物、和服、梅
+  -
+    title: "IMG_4221"
+    images_flickr: { photo: "31655247094", farm: 1, server: 659, secret: "a7fba6b540", secret_h: "8b4e99c9aa", secret_k: "ad4143fa3b", secret_o: "f781f5d02f", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/31655247094"}
+    size: { width_o: 3456, height_o: 5184 }
+    colors: ["red", "yellow", "blue", "green", "pink"]
+    notes:
+      - 前掛け付き
       - 着物、和服、梅
   -
     title: "5D3S4357"
@@ -1899,7 +1908,15 @@
     size: { width_o: 4000, height_o: 6016 }
     colors: ["red", "gold", "silver", "white", "green"]
     notes:
-      - 着物、和服
+      - 着物、和服、鶴
+  -
+    title: "IMG_4580"
+    images_flickr: { photo: "32663806965", farm: 1, server: 342, secret: "858d6d25f6", secret_h: "c2a927f981", secret_k: "dfc13dcc67", secret_o: "e428f64a72", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/32663806965"}
+    size: { width_o: 3456, height_o: 5184 }
+    colors: ["red", "pink", "black", "purple", "gold"]
+    notes:
+      - 着物、和服、牡丹
   -
     title: "IMG_9030"
     images_flickr: { photo: "15163768269", farm: 3, server: 2941, secret: "6976bfc33a", secret_h: "bb9a209bf6", secret_k: "135dfb95b3", secret_o: "68395a2ab2", format_o: "jpg" }
