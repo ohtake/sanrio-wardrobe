@@ -11,7 +11,7 @@ const js = {
   ],
   output: {
     publicPath: 'assets/',
-    path: 'assets/',
+    path: path.resolve('assets'),
     filename: 'bundle.js',
   },
   resolve: {
