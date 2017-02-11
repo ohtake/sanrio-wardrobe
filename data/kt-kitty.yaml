@@ -2081,13 +2081,21 @@
     notes:
       - チェック、フリル、真珠
   -
-    title: "ヘブンスそのはら"
-    images_flickr: { photo: "25287937110", farm: 2, server: 1628, secret: "ed7e5b37c1", secret_h: "54d18da4b3", secret_k: "05ef7e3b0e", secret_o: "dce61d568f", format_o: "jpg" }
-    source: { author: "yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/25287937110/"}
-    size: { width_o: 5760, height_o: 3840 }
+    title: "ヘブンスそのはら・通常"
+    images_flickr: { photo: "32451490310", farm: 3, server: 2887, secret: "26b86e3b46", secret_h: "78203f92de", secret_k: "7c90513cfd", secret_o: "cfdf2f2657", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32451490310/"}
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "yellow", "blue"]
     notes:
       - スキーウェア、ゴーグル
+  -
+    title: "ヘブンスそのはら・スキー"
+    images_flickr: { photo: "32832382125", farm: 4, server: 3809, secret: "1c837dc3f0", secret_h: "5ff65088e1", secret_k: "f85cb32689", secret_o: "d8c32c53c0", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32832382125/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "yellow", "blue"]
+    notes:
+      - スキーウェア、ゴーグル、手袋
   -
     title: "8315288912"
     images_flickr: { photo: "8315288912", farm: 9, server: 8360, secret: "6cab62a95d", secret_h: "7be2a5be54" }
