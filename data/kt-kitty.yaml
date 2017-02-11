@@ -607,6 +607,14 @@
       - 前掛け付き
       - 着物、和服、梅
   -
+    title: "高幡不動尊豆撒式"
+    images_flickr: { photo: "32788005656", farm: 3, server: 2447, secret: "d92664e9bb", secret_h: "cb1306555d", secret_k: "62f72ca452", secret_o: "373b5e7cf8", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32788005656/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "yellow", "blue", "green", "pink"]
+    notes:
+      - 着物、和服、梅
+  -
     title: "5D3S4357"
     images_flickr: { photo: "16174592385", farm: 8, server: 7498, secret: "961df294a3", secret_h: "b59d3e9958", secret_k: "556965bdfe", secret_o: "33fc7b662c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16174592385"}
@@ -1266,6 +1274,15 @@
       - ピューロランドパレード『Believe in Christmas』
       - ピューロビレッジ『ミラクリュージョン★Happiness』2016年
       - クリスマス
+  -
+    title: "53AC5075"
+    images_flickr: { photo: "32829335935", farm: 3, server: 2205, secret: "22277cef1d", secret_h: "72e1e4d975", secret_k: "b726a83f02", secret_o: "44264d90fd", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32829335935/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "white", "purple"]
+    notes:
+      - ピューロビレッジ『ミラクリュージョン★Happiness』2017年
+      - バレンタイン
   -
     title: "53AA9034"
     images_flickr: { photo: "30941420181", farm: 6, server: 5495, secret: "53becbdb8f", secret_h: "461c0914fd", secret_k: "6f7dae5214", secret_o: "93a698eaed", format_o: "jpg" }
