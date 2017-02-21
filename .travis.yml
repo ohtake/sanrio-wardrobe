@@ -11,4 +11,9 @@ after_success:
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js # COVERALLS_SERVICE_NAME and COVERALLS_REPO_TOKEN env variables is not required for Travis
   - cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage # Needs CODACY_PROJECT_TOKEN env variable
   - ./node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info # Needs CODECLIMATE_REPO_TOKEN env variable
-  - ./scripts/is-release-branch.sh && npm run build && ./scripts/deploy-to-gh-pages.sh # Needs GIT_REMOTE_URL_WITH_AUTH
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: scripts/deploy-to-gh-pages.sh # Needs GIT_REMOTE_URL_WITH_AUTH
+  on:
+    branch: release
