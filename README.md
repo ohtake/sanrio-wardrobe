@@ -13,10 +13,10 @@ Demo: <https://ohtake.github.io/sanrio-wardrobe/>
 
 ## Development
 
-Install [Node 6 and npm](https://nodejs.org/en/download/).
+Install [Node 6 and npm](https://nodejs.org/en/download/) and [yarn](https://yarnpkg.com/en/docs/install).
 
 ```bash
-npm install
+yarn
 npm start
 ```
 
