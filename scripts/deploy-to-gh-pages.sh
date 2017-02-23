@@ -4,8 +4,8 @@ set -o nounset
 set -o pipefail
 
 git checkout -B gh-pages
-npm run build
-# npm run cover # already executed in run-travis.sh
+yarn run build
+# yarn run cover # already executed in run-travis.sh
 git add assets coverage/lcov-report -f
 if [ "true" = "${TRAVIS}" ]; then
   git config user.name "travis"

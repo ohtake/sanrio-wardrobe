@@ -13,11 +13,11 @@ Demo: <https://ohtake.github.io/sanrio-wardrobe/>
 
 ## Development
 
-Install [Node 6 and npm](https://nodejs.org/en/download/) and [yarn](https://yarnpkg.com/en/docs/install).
+Install [Node 6](https://nodejs.org/en/download/) and [yarn](https://yarnpkg.com/en/docs/install).
 
 ```bash
-yarn
-npm start
+yarn install
+yarn start
 ```
 
 Now you can visit `http://localhost:8080/` to view the application.

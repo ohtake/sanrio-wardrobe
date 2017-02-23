@@ -3,6 +3,6 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-npm run clean
-npm run lint
-npm run cover
+yarn run clean
+yarn run lint
+yarn run cover
