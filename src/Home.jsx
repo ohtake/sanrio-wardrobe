@@ -5,101 +5,6 @@ import JustifiedLayout from 'react-justified-layout';
 import DataFile from './data_file';
 import * as utils from './utils';
 
-/**
- * @private
- * @const {array.<{name: string, url: string, author: string, author_url: string, license: string, license_url: string}>}
- */
-const software = [
-  {
-    name: 'React',
-    url: 'https://facebook.github.io/react/',
-    author: 'Facebook',
-    author_url: 'https://github.com/facebook',
-    license: 'The BSD 3-Clause License',
-    license_url: 'https://opensource.org/licenses/BSD-3-Clause',
-  },
-  {
-    name: 'React Router',
-    url: 'https://github.com/ReactTraining/react-router',
-    author: 'React Community',
-    author_url: 'https://reactcommunity.org/',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
-  },
-  {
-    name: 'Material UI',
-    url: 'https://github.com/callemall/material-ui',
-    author: 'Call-Em-All',
-    author_url: 'https://github.com/callemall',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
-  },
-  {
-    name: 'Flickr\'s Justified Layout',
-    url: 'https://github.com/flickr/justified-layout',
-    author: 'Yahoo',
-    author_url: 'https://www.yahoo.com/',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
-  },
-  {
-    name: 'react-justified-layout',
-    url: 'http://dean177.github.io/react-justified-layout/',
-    author: 'Dean Merchant',
-    author_url: 'https://github.com/Dean177',
-    license: 'ISC license',
-    license_url: 'http://www.isc.org/downloads/software-support-policy/isc-license/',
-  },
-  {
-    name: 'Swipeable',
-    url: 'https://github.com/dogfessional/react-swipeable',
-    author: 'Dogfessional',
-    author_url: 'https://github.com/dogfessional',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
-  },
-  {
-    name: 'verge',
-    url: 'http://verge.airve.com/',
-    author: 'Ryan Van Etten',
-    author_url: 'http://ryanve.com/',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
-  },
-  {
-    name: 'CSS Element Queries',
-    url: 'https://github.com/marcj/css-element-queries',
-    author: 'Marc J. Schmidt',
-    author_url: 'https://github.com/marcj',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
-  },
-  {
-    name: 'object-fit-images',
-    url: 'https://github.com/bfred-it/object-fit-images',
-    author: 'Federico Brigante',
-    author_url: 'https://github.com/bfred-it',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
-  },
-  {
-    name: 'react-lazy-load',
-    url: 'https://github.com/loktar00/react-lazy-load',
-    author: 'Jason',
-    author_url: 'https://github.com/loktar00',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
-  },
-  {
-    name: 'lodash',
-    url: 'https://lodash.com/',
-    author: 'jQuery Foundation and other contributors',
-    author_url: 'https://jquery.org/',
-    license: 'The MIT License',
-    license_url: 'https://opensource.org/licenses/MIT',
-  },
-];
-
 const styleSymbol = {
   position: 'absolute',
   top: 0,
@@ -177,15 +82,11 @@ export default class Home extends React.Component {
             {DataFile.all.map(c => renderTile(c))}
           </JustifiedLayout>
         </div>
-        <h2>Trademarks</h2>
-        <p>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></p>
-        <h2>Bundled open source software</h2>
+        <h2>License</h2>
         <ul>
-          {software.map(s => (
-            <li key={s.name}>
-              <a href={s.url}>{s.name}</a> made by <a href={s.author_url}>{s.author}</a> is licensed by <a href={s.license_url}>{s.license}</a>
-            </li>
-          ))}
+          <li>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></li>
+          <li>This software is provided under <a href="https://opensource.org/licenses/ISC">ISC License</a></li>
+          <li><a href="assets/licenses.txt">Attribution notices for third party software</a></li>
         </ul>
         <h2>Documents and reports</h2>
         <ul>
