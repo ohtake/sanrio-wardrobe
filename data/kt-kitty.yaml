@@ -867,6 +867,15 @@
       - 高尾山ロケ
       - タータンチェック、GP
   -
+    title: "53AC8981"
+    images_flickr: { photo: "32371598403", farm: 1, server: 617, secret: "a41a5037b6", secret_h: "4fb042af77", secret_k: "7dbe6eaa1a", secret_o: "391b6be632", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32371598403"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "blue", "white"]
+    notes:
+      - 一日消防署長
+      - タータンチェック、GP、タスキ
+  -
     title: "5D3M2437"
     images_flickr: { photo: "13654324154", farm: 4, server: 3775, secret: "97e704cd64", secret_h: "3a490381f1", secret_k: "9e92dfbf83", secret_o: "cb2eb7709a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13654324154"}
