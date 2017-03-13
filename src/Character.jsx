@@ -61,6 +61,9 @@ export default class Character extends React.Component {
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.match.params.chara !== this.props.match.params.chara) {
+      const chara = nextProps.match.params.chara;
+      const df = DataFile.findByName(chara);
+      this.context.setTitle(df.getDisplayName());
       this.clearSearch();
       this.loadPhotos(nextProps.match.params.chara);
     }
