@@ -1,5 +1,5 @@
 import React from 'react';
-import { routerShape } from 'react-router/lib/PropTypes';
+import HashRouter from 'react-router-dom/HashRouter';
 
 import TextField from 'material-ui/TextField';
 
@@ -8,6 +8,7 @@ import ActionSearch from 'material-ui/svg-icons/action/search';
 import throttle from 'lodash/throttle';
 
 import ColorSelector from './ColorSelector';
+import DataFile from './data_file';
 import DetailView from './DetailView';
 import Gallery from './Gallery';
 
@@ -52,15 +53,18 @@ export default class Character extends React.Component {
     this.handleSearchTextBlur = this.handleSearchTextBlur.bind(this);
   }
   componentDidMount() {
+    const chara = this.props.match.params.chara;
+    const df = DataFile.findByName(chara);
+    this.context.setTitle(df.getDisplayName());
     this.clearSearch();
-    this.loadPhotos(this.props.params.chara);
+    this.loadPhotos(this.props.match.params.chara);
   }
   componentWillReceiveProps(nextProps) {
-    if (nextProps.params.chara !== this.props.params.chara) {
+    if (nextProps.match.params.chara !== this.props.match.params.chara) {
       this.clearSearch();
-      this.loadPhotos(nextProps.params.chara);
+      this.loadPhotos(nextProps.match.params.chara);
     }
-    this.updateLightbox(nextProps.params.title);
+    this.updateLightbox(nextProps.match.params.title);
   }
   /**
    * @private
@@ -77,7 +81,7 @@ export default class Character extends React.Component {
         photos: photos.slice(0),
         message: null,
       });
-      this.updateLightbox(this.props.params.title);
+      this.updateLightbox(this.props.match.params.title);
     }).catch((err) => {
       this.setState({
         photos: null,
@@ -91,12 +95,14 @@ export default class Character extends React.Component {
    */
   updateLightbox(title) {
     if (title) {
-      const index = this.state.photos.findIndex(p => title === p.data.title);
-      if (index >= 0) {
-        this.lightbox.setState({ photos: this.state.photos, index });
-        return;
+      if (this.state.photos) {
+        const index = this.state.photos.findIndex(p => title === p.data.title);
+        if (index >= 0) {
+          this.lightbox.setState({ photos: this.state.photos, index });
+          return;
+        }
+        this.context.router.history.replace(`/chara/${this.props.match.params.chara}`);
       }
-      this.context.router.replace(`/chara/${this.props.params.chara}`);
     }
     this.lightbox.setState({ photos: null, index: 0 });
   }
@@ -139,7 +145,7 @@ export default class Character extends React.Component {
   handleSearchTextBlur() {
     const text = this.text.getValue().trim();
     if (text) {
-      utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${this.props.params.chara} ${text}`);
+      utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${this.props.match.params.chara} ${text}`);
     }
   }
   colorChanged(sender) {
@@ -155,19 +161,22 @@ export default class Character extends React.Component {
         <ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
         <TextField ref={(c) => { this.text = c; }} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
-        <Gallery ref={(c) => { this.gallery = c; }} photos={this.state.photos} chara={this.props.params.chara} />
-        <DetailView ref={(c) => { this.lightbox = c; }} chara={this.props.params.chara} />
+        <Gallery ref={(c) => { this.gallery = c; }} photos={this.state.photos} chara={this.props.match.params.chara} />
+        <DetailView ref={(c) => { this.lightbox = c; }} chara={this.props.match.params.chara} />
       </div>
     );
   }
 }
 Character.propTypes = {
-  params: React.PropTypes.shape({
-    chara: React.PropTypes.string,
-    title: React.PropTypes.string,
+  match: React.PropTypes.shape({
+    params: React.PropTypes.shape({
+      chara: React.PropTypes.string,
+      title: React.PropTypes.string,
+    }),
   }).isRequired,
 };
 Character.contextTypes = {
   muiTheme: React.PropTypes.object.isRequired,
-  router: routerShape,
+  router: React.PropTypes.shape(HashRouter.propTypes).isRequired,
+  setTitle: React.PropTypes.func,
 };

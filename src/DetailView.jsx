@@ -1,5 +1,5 @@
 import React from 'react';
-import { routerShape } from 'react-router/lib/PropTypes';
+import HashRouter from 'react-router-dom/HashRouter';
 
 import AppBar from 'material-ui/AppBar';
 import Divider from 'material-ui/Divider';
@@ -64,14 +64,7 @@ export default class DetailView extends React.Component {
   }
 
   closeDetailView() {
-    if (window.history.length > 1) {
-      // User opened detail view from gallary
-      // TODO What if user came from external link?
-      this.context.router.goBack();
-    } else {
-      // User opened lightbox url directly
-      this.context.router.replace(`/chara/${this.props.chara}`);
-    }
+    this.context.router.history.replace(`/chara/${this.props.chara}`);
     // FIXME Don't set state manually
     this.state.showInfo = true;
   }
@@ -80,7 +73,7 @@ export default class DetailView extends React.Component {
   }
   moveToIndex(index) {
     const photo = this.state.photos[index];
-    this.context.router.replace(`/chara/${this.props.chara}/${window.encodeURIComponent(photo.data.title)}`);
+    this.context.router.history.replace(`/chara/${this.props.chara}/${window.encodeURIComponent(photo.data.title)}`);
     utils.sendGoogleAnalyticsEvent('lightbox', 'navigate', `${this.props.chara} ${photo.data.title}`);
   }
   moveNext(e) {
@@ -263,5 +256,5 @@ DetailView.propTypes = {
 };
 DetailView.contextTypes = {
   muiTheme: React.PropTypes.object.isRequired,
-  router: routerShape,
+  router: React.PropTypes.shape(HashRouter.propTypes).isRequired,
 };

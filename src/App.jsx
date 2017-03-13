@@ -1,6 +1,7 @@
 import React from 'react';
-import IndexLink from 'react-router/lib/IndexLink';
-import Link from 'react-router/lib/Link';
+import NavLink from 'react-router-dom/NavLink';
+import Route from 'react-router-dom/Route';
+import Switch from 'react-router-dom/Switch';
 
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
@@ -23,9 +24,14 @@ import ImageColorLens from 'material-ui/svg-icons/image/color-lens';
 import ImagePhotoSizeSelectLarge from 'material-ui/svg-icons/image/photo-size-select-large';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
+import Home from './Home';
+import Character from './Character';
+
 import DataFile from './data_file';
 import * as themes from './themes';
 import * as utils from './utils';
+
+const appDefaultTitle = 'Sanrio Wardrobe';
 
 export default
 /**
@@ -38,8 +44,9 @@ class App extends React.Component {
     const themeInitial = themes.getInitialTheme();
     themes.applyThemeToBody(themeInitial);
 
-    this.state = { menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 72 };
+    this.state = { menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 72, title: appDefaultTitle };
 
+    this.setTitle = this.setTitle.bind(this);
     this.handleAppMenu = this.handleAppMenu.bind(this);
     this.handleMenuChange = this.handleMenuChange.bind(this);
     this.handleMenuClick = this.handleMenuClick.bind(this);
@@ -53,17 +60,18 @@ class App extends React.Component {
     return {
       muiTheme: this.state.theme,
       thumbnailSize: this.state.thumbnailSize,
+      setTitle: this.setTitle,
     };
   }
   /**
-   * @private
-   * @returns {string}
+   * @param {string} title
    */
-  getTitleFromParams() {
-    const chara = this.props.params.chara;
-    if (!chara) return 'Sanrio Wardrobe';
-    const df = DataFile.findByName(chara);
-    return df.getDisplayName();
+  setTitle(title) {
+    if (title) {
+      this.setState({ title });
+    } else {
+      this.setState({ title: appDefaultTitle });
+    }
   }
   handleAppMenu(/* e */) {
     this.setState({ menuOpened: !this.state.menuOpened });
@@ -103,7 +111,7 @@ class App extends React.Component {
     };
     return (<div style={{ marginLeft: this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0 }}>
       <AppBar
-        title={this.getTitleFromParams()}
+        title={this.state.title}
         onLeftIconButtonTouchTap={this.handleAppMenu}
         showMenuIconButton={!this.state.menuOpened || !this.state.menuDocked}
         style={{ position: 'fixed', top: 0, left: (this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0), right: 0, width: null }}
@@ -137,30 +145,30 @@ class App extends React.Component {
           </ToolbarGroup>
         </Toolbar>
         <List>
-          <IndexLink to="/" onClick={this.handleMenuClick} activeStyle={activeStyle}>
+          <NavLink to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle}>
             <ListItem primaryText="Home" leftIcon={<ActionHome />} />
-          </IndexLink>
+          </NavLink>
           <Divider />
           <Subheader>Characters</Subheader>
           {DataFile.all.map(c =>
-            <Link key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
+            <NavLink key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
               <ListItem primaryText={c.getDisplayName()} leftAvatar={<Avatar src={c.picUrl} />} />
-            </Link>)}
+            </NavLink>)}
         </List>
       </Drawer>
       <div style={containerStyle}>
-        {this.props.children}
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/chara/:chara/:title?" component={Character} />
+        </Switch>
       </div>
     </div>);
   }
 }
 App.propTypes = {
-  children: React.PropTypes.node.isRequired,
-  params: React.PropTypes.shape({
-    chara: React.PropTypes.string,
-  }).isRequired,
 };
 App.childContextTypes = {
   muiTheme: React.PropTypes.object,
   thumbnailSize: React.PropTypes.number,
+  setTitle: React.PropTypes.func,
 };
