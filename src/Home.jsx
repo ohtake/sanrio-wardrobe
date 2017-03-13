@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'react-router/lib/Link';
+import Link from 'react-router-dom/Link';
 
 import JustifiedLayout from 'react-justified-layout';
 import DataFile from './data_file';
@@ -56,6 +56,7 @@ export default class Home extends React.Component {
     this.widthListener = new utils.ContainerClientWidthListener(this, () => this.grid, 'containerWidth');
   }
   componentDidMount() {
+    this.context.setTitle();
     this.widthListener.componentDidMount();
   }
   componentDidUpdate(prevProps, prevState) {
@@ -101,4 +102,5 @@ export default class Home extends React.Component {
 }
 Home.contextTypes = {
   muiTheme: React.PropTypes.object.isRequired,
+  setTitle: React.PropTypes.func,
 };

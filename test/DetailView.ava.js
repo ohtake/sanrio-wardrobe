@@ -16,7 +16,9 @@ const dummyEvent = {
   preventDefault: () => {},
 };
 const dummyRouter = {
-  replace: () => {},
+  history: {
+    replace: () => {},
+  },
 };
 
 const photoTemplate = {
@@ -35,7 +37,7 @@ const context = { muiTheme: themes.themeLight, router: dummyRouter };
 function createContextWithSpiedRouter() {
   const c = { muiTheme: themes.themeLight };
   c.router = clone(dummyRouter);
-  c.router.replace = sinon.spy();
+  c.router.history.replace = sinon.spy();
   return c;
 }
 
@@ -53,11 +55,11 @@ test('<DetailView /> should handle one photo', t => {
   const instance = wrapper.instance();
   wrapper.setState({ photos: [new Photo(photoTemplate)], index: 0 });
   instance.moveNext(dummyEvent);
-  t.is(context2.router.replace.callCount, 1);
-  t.deepEqual(context2.router.replace.lastCall.args, ['/chara/zz-zzzzz/template']);
+  t.is(context2.router.history.replace.callCount, 1);
+  t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template']);
   instance.movePrev(dummyEvent);
-  t.is(context2.router.replace.callCount, 2);
-  t.deepEqual(context2.router.replace.lastCall.args, ['/chara/zz-zzzzz/template']);
+  t.is(context2.router.history.replace.callCount, 2);
+  t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template']);
 });
 
 /** @test {DetailView} */
@@ -72,18 +74,18 @@ test('<DetailView /> should handle four photo', t => {
   });
   wrapper.setState({ photos, index: 0 });
   instance.moveNext(dummyEvent);
-  t.is(context2.router.replace.callCount, 1);
-  t.deepEqual(context2.router.replace.lastCall.args, ['/chara/zz-zzzzz/template1']);
+  t.is(context2.router.history.replace.callCount, 1);
+  t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template1']);
   wrapper.setState({ index: 1 }); // setState by Character component
   instance.movePrev(dummyEvent);
-  t.is(context2.router.replace.callCount, 2);
-  t.deepEqual(context2.router.replace.lastCall.args, ['/chara/zz-zzzzz/template0']);
+  t.is(context2.router.history.replace.callCount, 2);
+  t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template0']);
   wrapper.setState({ index: 0 });
   instance.movePrev(dummyEvent);
-  t.is(context2.router.replace.callCount, 3);
-  t.deepEqual(context2.router.replace.lastCall.args, ['/chara/zz-zzzzz/template3']);
+  t.is(context2.router.history.replace.callCount, 3);
+  t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template3']);
   wrapper.setState({ index: 3 });
   instance.moveNext(dummyEvent);
-  t.is(context2.router.replace.callCount, 4);
-  t.deepEqual(context2.router.replace.lastCall.args, ['/chara/zz-zzzzz/template0']);
+  t.is(context2.router.history.replace.callCount, 4);
+  t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template0']);
 });
