@@ -3,8 +3,8 @@
     "es2015", "react"
   ],
   "env": {
-    "test": {
-      "plugins": ["istanbul"]
-    }
-  }
+    "test": {
+      "plugins": ["istanbul"]
+    }
+  }
 }
