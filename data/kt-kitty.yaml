@@ -894,6 +894,24 @@
       - 外部イベント『マイメロディのハッピーキャラバン!』
       - 多段フリル、ボール
   -
+    title: "イースターセレブレーションパレード"
+    images_flickr: { photo: "33660357866", farm: 3, server: 2805, secret: "b873815a69", secret_h: "1c3da222e5", secret_k: "fc4783ad71", secret_o: "2b6c8d3982", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33660357866"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["green", "pink", "yellow", "purple", "white", "red"]
+    notes:
+      - ピューロビレッジ『イースターセレブレーションパレード』
+      - 多段フリル、ボール、イースター、ウサミミ、卵
+  -
+    title: "53AD5128"
+    images_flickr: { photo: "33544834982", farm: 3, server: 2847, secret: "16e3eed7fe", secret_h: "281ac7b0ab", secret_k: "26269e3453", secret_o: "dbd310f558", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33544834982"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "white", "yellow", "purple", "green", "blue"]
+    notes:
+      - 外部イベント『イースターサンリオショー』
+      - イースター、ウサミミ、卵
+  -
     title: "5D3Q4756"
     images_flickr: { photo: "15575599446", farm: 4, server: 3932, secret: "6e933b58fd", secret_h: "8654aa85a4", secret_k: "2326fdecc6", secret_o: "2cfda25fc9", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15575599446"}

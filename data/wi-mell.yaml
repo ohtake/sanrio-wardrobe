@@ -135,6 +135,15 @@
       - 公募衣装
       - 水玉、リボン、フリル
   -
+    title: "イースターセレブレーションパレード"
+    images_flickr: { photo: "33701365755", farm: 4, server: 3678, secret: "4144a774a1", secret_h: "3ce5324d89", secret_k: "99ab4b4d9f", secret_o: "3337cc529c", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33701365755/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "white", "pink", "orange", "yellow", "green", "purple"]
+    notes:
+      - ピューロビレッジ『イースターセレブレーションパレード』
+      - 水玉、リボン、フリル、卵
+  -
     title: "Miracle Gift Parade"
     images_flickr: { photo: "26537823044", farm: 8, server: 7515, secret: "1cf65ac326", secret_h: "6f5cf8955c", secret_k: "bcde7edbc9", secret_o: "0698e9f006", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26537823044/"}
