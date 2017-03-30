@@ -18,6 +18,15 @@
     notes:
       - 『ARIGATO EVERYONE!』のアレンジで、タイニーチャムがクリスマス帽をかぶっている
   -
+    title: "u3B1BeFDwA"
+    images_instagram: { shortcode: "u3B1BeFDwA", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/u3B1BeFDwA/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["purple", "pink"]
+    notes:
+      - 『ARIGATO EVERYONE!』とは頭が異なる
+      - アメリカ
+  -
     title: "OMOIYARI TO YOU"
     images_flickr: { photo: "22390481194", farm: 6, server: 5758, secret: "beeb8e7677", secret_h: "68679d59e9", secret_k: "bfc9a7792d", secret_o: "53446bcffd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22390481194"}
@@ -2178,6 +2187,24 @@
       - アメリカ Los Angeles Dodgers
       - 野球、帽子
   -
+    title: "Los Angeles Angels"
+    images_instagram: { shortcode: "BJdrBvfgBhl", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BJdrBvfgBhl/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["pink", "white", "red", "black"]
+    notes:
+      - アメリカ Los Angeles Angels
+      - 野球、帽子
+  -
+    title: "New York Yankees"
+    images_instagram: { shortcode: "sDL7aGFD20", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/sDL7aGFD20/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["blue", "red", "white", "black"]
+    notes:
+      - アメリカ New York Yankees
+      - 野球、帽子
+  -
     title: "San Francisco Giants"
     images_flickr: { photo: "14386608612", farm: 4, server: 3897, secret: "673295a4bf", secret_h: "486ca8b58e", secret_k: "3f5942427c" }
     source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/14386608612/"}
@@ -2186,6 +2213,57 @@
     notes:
       - アメリカ San Francisco Giants
       - 野球、帽子
+  -
+    title: "Los Angeles Clippers"
+    images_instagram: { shortcode: "BAQ7U3YlDyq", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BAQ7U3YlDyq/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["red", "blue", "white", "black"]
+    notes:
+      - アメリカ Los Angeles Clippers
+      - バスケットボール、バンダナ
+  -
+    title: "NFL Shop"
+    images_instagram: { shortcode: "j5bbeOlD7o", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/j5bbeOlD7o/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["red", "pink", "white", "black"]
+    notes:
+      - アメリカ NFL Shop
+      - アメリカンフットボール
+  -
+    title: "ColourPop Cosmetics"
+    images_instagram: { shortcode: "BNiAc6xh6HR", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BNiAc6xh6HR/"}
+    size: { width_o: 1080, height_o: 720 }
+    colors: ["blue", "red", "grey"]
+    notes:
+      - アメリカ ColourPop Cosmetics
+  -
+    title: "Dylan's Candy Bar"
+    images_instagram: { shortcode: "uTceCHlDyV", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/uTceCHlDyV/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["pink", "green", "red", "yellow", "orange"]
+    notes:
+      - アメリカ Dylan's Candy Bar
+  -
+    title: "Johnny Cupcakes"
+    images_instagram: { shortcode: "Q7xvOrFD3o", width_t: 150, width_m: 320, width_l: 612 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/Q7xvOrFD3o/"}
+    size: { width_o: 612, height_o: 612 }
+    colors: ["black", "purple", "red"]
+    notes:
+      - アメリカ Johnny Cupcakes
+      - コウモリ、クモ
+  -
+    title: "Torrid"
+    images_instagram: { shortcode: "BH5M5ZsB9JA", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BH5M5ZsB9JA/"}
+    size: { width_o: 1080, height_o: 809 }
+    colors: ["red", "black", "white"]
+    notes:
+      - アメリカ Torrid
   -
     title: "Vans"
     images_flickr: { photo: "7356490630", farm: 8, server: 7227, secret: "cabee89b0d", secret_h: "7af661da68", secret_k: "7dd252be08" }
@@ -2196,6 +2274,14 @@
       - アメリカ Vans
       - リュックサック、キティ
   -
+    title: "Yogurtland"
+    images_instagram: { shortcode: "M7SBHulD_j", width_t: 150, width_m: 320, width_l: 612 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/M7SBHulD_j/"}
+    size: { width_o: 612, height_o: 612 }
+    colors: ["pink", "black", "white"]
+    notes:
+      - アメリカ Yogurtland
+  -
     title: "7488439354"
     images_flickr: { photo: "7488439354", farm: 9, server: 8014, secret: "e81a3cde47", secret_h: "22357f3b04", secret_k: "ab7d6aea4e" }
     source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/7488439354/"}
@@ -2205,6 +2291,33 @@
       - アメリカ
       - 和服
   -
+    title: "VkI0pRlD_t"
+    images_instagram: { shortcode: "VkI0pRlD_t", width_t: 150, width_m: 320, width_l: 612 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/VkI0pRlD_t/"}
+    size: { width_o: 612, height_o: 612 }
+    colors: ["pink", "red", "green"]
+    notes:
+      - アメリカ
+      - 和服
+  -
+    title: "wUs54HFDyw"
+    images_instagram: { shortcode: "wUs54HFDyw", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/wUs54HFDyw/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["pink", "red", "grey", "green"]
+    notes:
+      - アメリカ
+      - リンゴ
+  -
+    title: "Spam"
+    images_instagram: { shortcode: "BE2qbr9lD4F", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BE2qbr9lD4F/"}
+    size: { width_o: 1080, height_o: 1349 }
+    colors: ["black", "yellow", "pink", "red", "grey"]
+    notes:
+      - アメリカ Spam
+      - エプロン
+  -
     title: "18821205425"
     images_flickr: { photo: "18821205425", farm: 6, server: 5572, secret: "913cfbbf5f", secret_h: "f3bd32f2d9", secret_k: "486efad1f7" }
     source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
@@ -2213,6 +2326,14 @@
     notes:
       - アメリカ『Hello Kitty Supercute Friendship Festival』
       - ストライプ
+  -
+    title: "6fhgmtlD1s"
+    images_instagram: { shortcode: "6fhgmtlD1s", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/6fhgmtlD1s/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["blue", "red", "white"]
+    notes:
+      - アメリカ
   -
     title: "18200562823"
     images_flickr: { photo: "18200562823", farm: 6, server: 5347, secret: "e0d55992d7", secret_h: "1f06c96390", secret_k: "ef7988e2e1" }
@@ -2229,6 +2350,64 @@
     colors: ["black", "brown"]
     notes:
       - アメリカ
+  -
+    title: "u1tOT9lD93"
+    images_instagram: { shortcode: "u1tOT9lD93", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/u1tOT9lD93/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["black", "brown"]
+    notes:
+      - アメリカ
+      - リボンに節足動物が追加されている
+  -
+    title: "SE1AWJlD3W"
+    images_instagram: { shortcode: "SE1AWJlD3W", width_t: 150, width_m: 320, width_l: 612 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/SE1AWJlD3W/"}
+    size: { width_o: 612, height_o: 612 }
+    colors: ["black", "white"]
+    notes:
+      - アメリカ
+  -
+    title: "b9ax-TlD4k"
+    images_instagram: { shortcode: "b9ax-TlD4k", width_t: 150, width_m: 320, width_l: 612 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/b9ax-TlD4k/"}
+    size: { width_o: 612, height_o: 612 }
+    colors: ["pink", "white", "green", "yello", "black"]
+    notes:
+      - アメリカ
+  -
+    title: "uzUHzNlD5B"
+    images_instagram: { shortcode: "uzUHzNlD5B", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/uzUHzNlD5B/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["silver", "red", "black"]
+    notes:
+      - アメリカ
+  -
+    title: "KtvJvpFD2r"
+    images_instagram: { shortcode: "KtvJvpFD2r", width_t: 150, width_m: 320, width_l: 612 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/KtvJvpFD2r/"}
+    size: { width_o: 612, height_o: 612 }
+    colors: ["white", "black", "pink", "gold"]
+    notes:
+      - アメリカ
+  -
+    title: "YM7F8"
+    images_instagram: { shortcode: "YM7F8", width_t: 150, width_m: 320, width_l: 612 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/YM7F8/"}
+    size: { width_o: 612, height_o: 612 }
+    colors: ["gold", "silver", "black", "white"]
+    notes:
+      - アメリカ
+  -
+    title: "Street Fighter 春麗"
+    images_instagram: { shortcode: "M_Z3xIlD-q", width_t: 150, width_m: 320, width_l: 612 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/M_Z3xIlD-q/"}
+    size: { width_o: 612, height_o: 612 }
+    colors: ["blue", "yellow", "white"]
+    notes:
+      - アメリカ
+      - チャイナ服
   -
     title: "4040535082"
     images_flickr: { photo: "4040535082", farm: 3, server: 2523, secret: "ebf87def4c", before: "20120301" }
@@ -2256,3 +2435,12 @@
     notes:
       - アメリカ
       - タータンチェック、眼鏡
+  -
+    title: "Hello Kittty Pop-Up Supermarket in Hong Kong"
+    images_instagram: { shortcode: "BRpIqNRjd2y", width_t: 150, width_m: 320, width_l: 750 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BRpIqNRjd2y/"}
+    size: { width_o: 750, height_o: 750 }
+    colors: ["green", "black", "red"]
+    notes:
+      - 香港 Hello Kittty Pop-Up Supermarket in Hong Kong
+      - 帽子
