@@ -129,6 +129,45 @@ class PicasaSrcsetProvider {
   }
 }
 
+/**
+ * It provides srcset for Instagram images.
+ *
+ * @example
+ * images_instagram: { shortcode: "fA9uwTtkSN", width_t: 150, width_m: 320, width_l: 640 }
+ *
+ * Parameters:
+ *   shortcode: string required
+ *   width_t: number required
+ *   width_m: number required
+ *   width_l: number required
+ */
+class InstagramSrcsetProvider {
+  /**
+   * Creates a URL for image.
+   *
+   * https://www.instagram.com/developer/embedding/#media_redirect
+   * If you embed an Instagram image this way, you must provide clear attribution next to the image, including attribution to the original author and to Instagram, and a link to the Instagram media page.
+   *
+   * @param {!string} shortcode Instagram's shortcode
+   * @param {!string} size Disired size of image. Value must be either of 't' (thumbnail), 'm' (medium), or 'l' (large).
+   * @returns {string}
+   */
+  static createUrl(shortcode, size) {
+    return `https://instagram.com/p/${shortcode}/media/?size=${size}`;
+  }
+  /**
+   * @param {Photo} photo
+   * @returns {array.<{url: string, width: number, height: number, max: number}>}
+   */
+  static getImages(photo) {
+    const imgsI = photo.data.images_instagram;
+    return ['t', 'm', 'l'].map((size) => {
+      const url = InstagramSrcsetProvider.createUrl(imgsI.shortcode, size);
+      return { url, width: imgsI[`width_${size}`] };
+    });
+  }
+}
+
 export default class Photo {
   /**
    * @param {object} data An element of data array.
@@ -168,6 +207,8 @@ export default class Photo {
       images = FlickrSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
     } else if (this.data.images_picasa) {
       images = PicasaSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
+    } else if (this.data.images_instagram) {
+      images = InstagramSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
     } else {
       throw new Error('images not specified');
     }
