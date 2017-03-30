@@ -52,7 +52,7 @@ class FlickrSrcsetProvider {
     return `https://farm${farmId}.staticflickr.com/${serverId}/${photoId}_${secret}${suffix2}.jpg`;
   }
   /**
-   * @param {object} photo
+   * @param {Photo} photo
    * @returns {array.<{url: string, width: number, height: number, max: number}>}
    */
   static getImages(photo) {
@@ -112,7 +112,7 @@ class PicasaSrcsetProvider {
     return `https://lh${lh}.googleusercontent.com/${dirs}/s${size}/${file}`;
   }
   /**
-   * @param {object} photo
+   * @param {Photo} photo
    * @returns {array.<{url: string, width: number, height: number, max: number}>}
    */
   static getImages(photo) {
