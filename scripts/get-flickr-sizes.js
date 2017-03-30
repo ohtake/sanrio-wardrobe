@@ -16,7 +16,7 @@ const args = process.argv.slice(2);
 if (args.length !== 2) {
   console.error('Usage:');
   console.error();
-  console.error('./node_modules/.bin/babel-node scripts/get-flickr-photo-sizes.js <FLICKR_API_KEY> <PHOTO_ID>');
+  console.error('./node_modules/.bin/babel-node scripts/get-flickr-sizes.js <FLICKR_API_KEY> <PHOTO_ID>');
   console.error();
   console.error('You can get a Flickr api key at <https://www.flickr.com/services/apps/create/apply>,');
   console.error('or find a key at <https://github.com/neptunian/react-photo-gallery/blob/3/examples/src/app.js#L40>.');
