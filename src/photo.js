@@ -90,7 +90,7 @@ class FlickrSrcsetProvider {
 
 const picasaSizes = flickrSizes.filter(s => !s.square).filter(s => s.longest).map(s => s.longest);
 /**
- * It provides srcset for Flickr images.
+ * It provides srcset for Picasa images.
  *
  * @example
  * images_picasa: { lh: 4, dirs: "-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA", file: "5D3D8863%2520%25281280x1920%2529.jpg" }
