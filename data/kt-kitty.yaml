@@ -2015,6 +2015,15 @@
       - アメリカ Universal Studios Florida
       - いちご、飴
   -
+    title: "BSO-wcTjo8F"
+    images_instagram: { shortcode: "BSO-wcTjo8F", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "wakako", license: "", url: "https://www.instagram.com/p/BSO-wcTjo8F/"}
+    size: { width_o: 1080, height_o: 1350 }
+    colors: ["brown", "red", "purple", "black", "white"]
+    notes:
+      - アメリカ Universal Studios Florida
+      - フィルム、メガホン
+  -
     title: "ハーモニーランド25周年・赤"
     images_flickr: { photo: "28953827300", farm: 9, server: 8770, secret: "cd4d0ec5cb", secret_h: "567417fc34", secret_k: "28f5a41d39", secret_o: "27c5db3046", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28953827300"}
@@ -2132,6 +2141,14 @@
     colors: ["pink", "yellow", "blue"]
     notes:
       - スキーウェア、ゴーグル、手袋
+  -
+    title: "みずほ銀行"
+    images_instagram: { shortcode: "BSOV0vclrKn", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "NaaaaaaaaO", license: "", url: "https://www.instagram.com/p/BSOV0vclrKn/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["blue", "red", "white"]
+    notes:
+      - みずほ銀行
   -
     title: "8315288912"
     images_flickr: { photo: "8315288912", farm: 9, server: 8360, secret: "6cab62a95d", secret_h: "7be2a5be54" }
