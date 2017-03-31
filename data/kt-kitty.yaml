@@ -18,14 +18,14 @@
     notes:
       - 『ARIGATO EVERYONE!』のアレンジで、タイニーチャムがクリスマス帽をかぶっている
   -
-    title: "u3B1BeFDwA"
-    images_instagram: { shortcode: "u3B1BeFDwA", width_t: 150, width_m: 320, width_l: 640 }
-    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/u3B1BeFDwA/"}
+    title: "vEByteMGEs"
+    images_instagram: { shortcode: "vEByteMGEs", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/vEByteMGEs/"}
     size: { width_o: 640, height_o: 640 }
     colors: ["purple", "pink"]
     notes:
       - 『ARIGATO EVERYONE!』とは頭が異なる
-      - アメリカ
+      - アメリカ、ヨーロッパ
   -
     title: "OMOIYARI TO YOU"
     images_flickr: { photo: "22390481194", farm: 6, server: 5758, secret: "beeb8e7677", secret_h: "68679d59e9", secret_k: "bfc9a7792d", secret_o: "53446bcffd", format_o: "jpg" }
@@ -832,6 +832,15 @@
     notes:
       - ストライプ
   -
+    title: "38ho60sGL4"
+    images_instagram: { shortcode: "38ho60sGL4", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/38ho60sGL4/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["blue", "white", "pink"]
+    notes:
+      - ヨーロッパ
+      - リボンが異なる
+  -
     title: "5D3O3259"
     images_flickr: { photo: "14560072296", farm: 6, server: 5552, secret: "6c89d1f1d0", secret_h: "1b7a6be78e", secret_k: "ded26f44fc", secret_o: "a8c079c3d8", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14560072296"}
@@ -1396,6 +1405,7 @@
     notes:
       - 外部イベント『ハローキティのハッピーキャラバン!』
       - 外部イベント『キティズパラダイス』
+      - イギリス Hello Kitty Live
       - チア
   -
     title: "5D3C6876 (1440x960)"
@@ -2159,13 +2169,14 @@
       - マレーシア Puteri Harbour Hello Kitty Town『Happy Carnival Parade』
       - 多段フリル、冠
   -
-    title: "24214891894"
-    images_flickr: { photo: "24214891894", farm: 2, server: 1457, secret: "fb5e07fc69", secret_o: "5bd7915841", format_o: "jpg", before: "20100525" }
-    source: { author: "jj lai", license: "", url: "https://www.flickr.com/photos/laijj/24214891894/"}
-    size: { width_o: 538, height_o: 404 }
+    title: "BJhqkmGBdIp"
+    images_instagram: { shortcode: "BJhqkmGBdIp", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/BJhqkmGBdIp/"}
+    size: { width_o: 640, height_o: 640 }
     colors: ["pink", "white", "orange", "yellow"]
     notes:
       - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Heartful Journey』
+      - ヨーロッパ
       - チェック
   -
     title: "24476230539"
@@ -2493,3 +2504,45 @@
     colors: ["blue", "white"]
     notes:
       - ブラジル
+  -
+    title: "zCzRopsGM6"
+    images_instagram: { shortcode: "zCzRopsGM6", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/zCzRopsGM6/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["black", "white"]
+    notes:
+      - ヨーロッパ
+  -
+    title: "9k8n6sMGEp"
+    images_instagram: { shortcode: "9k8n6sMGEp", width_t: 150, width_m: 320, width_l: 750 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/9k8n6sMGEp/"}
+    size: { width_o: 750, height_o: 750 }
+    colors: ["pink", "white"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー 1』レビュー3着目の冠がない版
+      - ヨーロッパ
+  -
+    title: "985B-9MGPM"
+    images_instagram: { shortcode: "985B-9MGPM", width_t: 150, width_m: 320, width_l: 750 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/985B-9MGPM/"}
+    size: { width_o: 750, height_o: 937 }
+    colors: ["pink", "gold"]
+    notes: []
+  -
+    title: "María Escoté Capsule Collection"
+    images_instagram: { shortcode: "BPCgo9KBkdu", width_t: 150, width_m: 320, width_l: 750 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/BPCgo9KBkdu/"}
+    size: { width_o: 750, height_o: 809 }
+    colors: ["yellow", "pink"]
+    notes:
+      - ヨーロッパ María Escoté Capsule Collection
+      - バスローブ
+  -
+    title: "BQppuaShDbM"
+    images_instagram: { shortcode: "BQppuaShDbM", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/BQppuaShDbM/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["pink", "purple"]
+    notes:
+      - ヨーロッパ
+      - キティ
