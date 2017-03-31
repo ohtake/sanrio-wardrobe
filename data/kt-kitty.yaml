@@ -2461,3 +2461,35 @@
     notes:
       - 香港 Hello Kittty Pop-Up Supermarket in Hong Kong
       - 帽子
+  -
+    title: "BOFB97DBU1v"
+    images_instagram: { shortcode: "BOFB97DBU1v", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Sanrio do Brasil", license: "", url: "https://www.instagram.com/p/BOFB97DBU1v/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["blue", "pink", "white"]
+    notes:
+      - ブラジル
+  -
+    title: "BNmyie6hVDm"
+    images_instagram: { shortcode: "BNmyie6hVDm", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Sanrio do Brasil", license: "", url: "https://www.instagram.com/p/BNmyie6hVDm/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["green", "red", "white"]
+    notes:
+      - ブラジル
+  -
+    title: "BHQAyA0heIE"
+    images_instagram: { shortcode: "BHQAyA0heIE", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Sanrio do Brasil", license: "", url: "https://www.instagram.com/p/BHQAyA0heIE/"}
+    size: { width_o: 1080, height_o: 999 }
+    colors: ["blue", "pink", "white"]
+    notes:
+      - ブラジル
+  -
+    title: "BL8owgiB6Vy"
+    images_instagram: { shortcode: "BL8owgiB6Vy", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Sanrio do Brasil", license: "", url: "https://www.instagram.com/p/BL8owgiB6Vy/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["blue", "white"]
+    notes:
+      - ブラジル
