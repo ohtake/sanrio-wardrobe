@@ -462,6 +462,14 @@
       - イギリス Drusillas Park Hello Kitty Secret Garden
       - ハート、真珠
   -
+    title: "ANTEPRIMA"
+    images_flickr: { photo: "32973700273", farm: 3, server: 2930, secret: "8474d9d50e", secret_h: "ce3e750a20", secret_k: "d41986ac8e", secret_o: "2ce22d020d", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32973700273"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "silver"]
+    notes:
+      - ANTEPRIMA 荻野いづみデザイン
+  -
     title: "5D3V1382"
     images_flickr: { photo: "19797691795", farm: 4, server: 3803, secret: "35affc81df", secret_h: "1293f7766a", secret_k: "b87ee90a49", secret_o: "4a21e598fc", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/19797691795"}
@@ -664,6 +672,7 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "pink", "white", "yellow"]
     notes:
+      - 外部イベント『ハローキティ&ぐでたまのシンギング! ダンシング! クッキング!』
       - いちご
   -
     title: "5D3O3583"
