@@ -2169,6 +2169,14 @@
     notes:
       - みずほ銀行
   -
+    title: "MIKIMOTO"
+    images_instagram: { shortcode: "BQbakkDjb2q", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BQbakkDjb2q/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["pink", "gold", "red"]
+    notes:
+      - MIKIMOTO
+  -
     title: "8315288912"
     images_flickr: { photo: "8315288912", farm: 9, server: 8360, secret: "6cab62a95d", secret_h: "7be2a5be54" }
     source: { author: "xterlim", license: "", url: "https://www.flickr.com/photos/xterlim/8315288912/"}
@@ -2270,9 +2278,9 @@
       - アメリカンフットボール
   -
     title: "ColourPop Cosmetics"
-    images_instagram: { shortcode: "BNiAc6xh6HR", width_t: 150, width_m: 320, width_l: 1080 }
-    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BNiAc6xh6HR/"}
-    size: { width_o: 1080, height_o: 720 }
+    images_instagram: { shortcode: "BQ_KJUDl_8X", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BQ_KJUDl_8X/"}
+    size: { width_o: 640, height_o: 640 }
     colors: ["blue", "red", "grey"]
     notes:
       - アメリカ ColourPop Cosmetics
@@ -2555,3 +2563,42 @@
     notes:
       - ヨーロッパ
       - キティ
+  -
+    title: "BRrMCjbFuPG"
+    images_instagram: { shortcode: "BRrMCjbFuPG", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BRrMCjbFuPG/"}
+    size: { width_o: 1080, height_o: 648 }
+    colors: ["pink"]
+    notes: []
+  -
+    title: "BJLPJ0CAWLU"
+    images_instagram: { shortcode: "BJLPJ0CAWLU", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BJLPJ0CAWLU/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["pink", "black", "white", "silver"]
+    notes:
+      - VOGUE JAPAN Women of the Year 特別賞
+  -
+    title: "Hello Kitty Gourmet Cafe"
+    images_instagram: { shortcode: "BCynX7dEtTQ", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BCynX7dEtTQ/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["pink", "white"]
+    notes:
+      - マレーシア Hello Kitty Gourmet Cafe
+  -
+    title: "3W6yoWktcp"
+    images_instagram: { shortcode: "3W6yoWktcp", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/3W6yoWktcp/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["black", "white", "red"]
+    notes:
+      - マレーシア
+  -
+    title: "3Kprc2ktR3"
+    images_instagram: { shortcode: "3Kprc2ktR3", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/3Kprc2ktR3/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["black", "white", "red"]
+    notes:
+      - 香港
