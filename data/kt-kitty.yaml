@@ -2145,6 +2145,14 @@
     notes:
       - チェック、フリル、真珠
   -
+    title: "BGf9nr_MXZg"
+    images_instagram: { shortcode: "BGf9nr_MXZg", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "mai.inui.ohno", license: "", url: "https://www.instagram.com/p/BGf9nr_MXZg/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["blue", "white"]
+    notes:
+      - 外部イベント『ハローキティ＆シュガーバニーズのきっとうまくいくよ！』
+  -
     title: "ヘブンスそのはら・通常"
     images_flickr: { photo: "32451490310", farm: 3, server: 2887, secret: "26b86e3b46", secret_h: "78203f92de", secret_k: "7c90513cfd", secret_o: "cfdf2f2657", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32451490310/"}
@@ -2160,6 +2168,38 @@
     colors: ["pink", "yellow", "blue"]
     notes:
       - スキーウェア、ゴーグル、手袋
+  -
+    title: "BIZ_j8AA5WN"
+    images_instagram: { shortcode: "BIZ_j8AA5WN", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "kana.ryk", license: "", url: "https://www.instagram.com/p/BIZ_j8AA5WN/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["red", "pink", "blue", "orange", "green", "yellow"]
+    notes:
+      - フコク生命
+  -
+    title: "BIh4h2hBDbe"
+    images_instagram: { shortcode: "BIh4h2hBDbe", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "maimai.0914", license: "", url: "https://www.instagram.com/p/BIh4h2hBDbe/"}
+    size: { width_o: 1080, height_o: 810 }
+    colors: ["pink", "white"]
+    notes:
+      - フコク生命
+  -
+    title: "BKM6o53hDrr"
+    images_instagram: { shortcode: "BKM6o53hDrr", width_t: 150, width_m: 320, width_l: 750 }
+    source: { author: "yukapi882", license: "", url: "https://www.instagram.com/p/BKM6o53hDrr/"}
+    size: { width_o: 750, height_o: 563 }
+    colors: ["pink", "white", "red", "green"]
+    notes:
+      - フコク生命
+  -
+    title: "BLTKLxLjM1R"
+    images_instagram: { shortcode: "BLTKLxLjM1R", width_t: 150, width_m: 320, width_l: 750 }
+    source: { author: "mamapopo0730", license: "", url: "https://www.instagram.com/p/BLTKLxLjM1R/"}
+    size: { width_o: 750, height_o: 750 }
+    colors: ["blue", "yellow", "white"]
+    notes:
+      - フコク生命
   -
     title: "みずほ銀行"
     images_instagram: { shortcode: "BSOV0vclrKn", width_t: 150, width_m: 320, width_l: 1080 }
