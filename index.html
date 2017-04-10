@@ -11,12 +11,11 @@
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-36354683-4', 'auto');
-    ga('send', 'pageview');
     ga('require', 'eventTracker', { attributePrefix: 'data-ga-' });
     ga('require', 'outboundLinkTracker');
-    ga('require', 'pageVisibilityTracker');
+    ga('require', 'pageVisibilityTracker', { sendInitialPageview: true });
     </script>
-    <script async src='https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.1.0/autotrack.js'></script>
+    <script async src='https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.3.1/autotrack.js'></script>
     <style type="text/css">
     body {
         margin: 0;
