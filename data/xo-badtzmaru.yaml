@@ -220,3 +220,27 @@
     colors: ["gold", "red"]
     notes:
       - 和服
+  -
+    title: "53AD8349"
+    images_flickr: { photo: "33138677393", farm: 3, server: 2830, secret: "24e683116b", secret_h: "a3e862d5bf", secret_k: "9d16306337", secret_o: "4176ef122a", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33138677393/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["yellow", "orange", "black", "silver"]
+    notes:
+      - ヒョウ柄
+  -
+    title: "53AD8512"
+    images_flickr: { photo: "33566672180", farm: 4, server: 3936, secret: "cf8cc5b171", secret_h: "e11b4a6732", secret_k: "a27e25673d", secret_o: "e92fcee97d", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33566672180/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["yellow", "green", "blue", "red"]
+    notes:
+      - パレオ
+  -
+    title: "53AD8602"
+    images_flickr: { photo: "33821782191", farm: 3, server: 2821, secret: "8a2477d158", secret_h: "d7a0ca2454", secret_k: "b5eb7481fd", secret_o: "83c2b4b54a", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33821782191/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "blue", "silver"]
+    notes:
+      - 白タキシード
