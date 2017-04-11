@@ -2640,6 +2640,6 @@
     images_instagram: { shortcode: "3Kprc2ktR3", width_t: 150, width_m: 320, width_l: 640 }
     source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/3Kprc2ktR3/"}
     size: { width_o: 640, height_o: 640 }
-    colors: ["black", "white", "red"]
+    colors: ["pink", "white"]
     notes:
       - 香港
