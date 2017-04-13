@@ -84,7 +84,6 @@ export default class Home extends React.Component {
         <h2>Documents and reports</h2>
         <ul>
           <li><a href="assets/esdoc/index.html">ESDoc</a></li>
-          <li><a href="assets/jsdoc/index.html">JSDoc</a></li>
           <li><a href="coverage/lcov-report/index.html">LCOV code coverage</a></li>
           <li><a href="assets/sme.html">Source map explorer</a></li>
         </ul>
