@@ -2,7 +2,8 @@ import React from 'react';
 import Link from 'react-router-dom/Link';
 
 import LazyLoad from 'react-lazy-load';
-import JustifiedLayout from 'react-justified-layout';
+
+import JustifiedLayout from './JustifiedLayout';
 import Photo from './photo';
 import * as utils from './utils';
 
@@ -11,6 +12,7 @@ export default class Gallery extends React.Component {
     super();
     this.state = {};
     this.widthListener = new utils.ContainerClientWidthListener(this, () => this.gallery, 'containerWidth');
+    this.photoToElement = this.photoToElement.bind(this);
   }
   componentDidMount() {
     this.widthListener.componentDidMount();
@@ -22,25 +24,29 @@ export default class Gallery extends React.Component {
     this.widthListener.componentWillUnmount();
   }
 
-  renderGallery() {
+  /**
+   * @param {Photo} p
+   * @returns {React.Element}
+   */
+  photoToElement(p) {
     const theme = this.context.muiTheme;
     const thumbnailHeight = this.context.thumbnailSize;
-    const imgStyle = { width: '100%', height: '100%' };
-    const imgs = this.props.photos.map(p => (
-      <div key={p.data.title} aspectRatio={p.getAspectRatio()} style={{ backgroundColor: theme.palette.borderColor }}>
-        <Link to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${this.props.chara} ${p.data.title}`}>
-          <LazyLoad offset={thumbnailHeight}>
-            <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={imgStyle} />
-          </LazyLoad>
-        </Link>
-      </div>
-    ));
-    return <JustifiedLayout targetRowHeight={thumbnailHeight} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>{imgs}</JustifiedLayout>;
+    return (<div key={p.data.title} style={{ backgroundColor: theme.palette.borderColor }}>
+      <Link to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${this.props.chara} ${p.data.title}`}>
+        <LazyLoad offset={thumbnailHeight}>
+          <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={{ width: '100%', height: '100%' }} />
+        </LazyLoad>
+      </Link>
+    </div>);
   }
+
   render() {
+    const thumbnailHeight = this.context.thumbnailSize;
     return (
       <div ref={(c) => { this.gallery = c; }}>
-        {this.props.photos ? this.renderGallery() : null}
+        {this.props.photos ?
+          <JustifiedLayout targetRowHeight={thumbnailHeight} containerWidth={this.state.containerWidth} childObjects={this.props.photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />
+          : null}
       </div>
     );
   }

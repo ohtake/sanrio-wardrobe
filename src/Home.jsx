@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'react-router-dom/Link';
 
-import JustifiedLayout from 'react-justified-layout';
+import JustifiedLayout from './JustifiedLayout';
 import DataFile from './data_file';
 import * as utils from './utils';
 
@@ -32,11 +32,11 @@ const styleImg = {
 /**
  * @private
  * @param {DataFile} c
- * @returns {React.Node}
+ * @returns {React.Element}
  */
 function renderTile(c) {
   return (
-    <Link key={c.name} to={`/chara/${c.name}`} aspectRatio={1} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="homeTile" data-ga-event-label={c.name}>
+    <Link key={c.name} to={`/chara/${c.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="homeTile" data-ga-event-label={c.name}>
       <div>
         <div style={styleSymbol}>{c.seriesSymbol}</div>
         <div style={styleTitleOuter}>
@@ -79,9 +79,7 @@ export default class Home extends React.Component {
         <p style={{ paddingRight: '150px' }}>You can find clothings of Sanrio characters.</p>
         <h2>Characters</h2>
         <div ref={(c) => { this.grid = c; }}>
-          <JustifiedLayout targetRowHeight={150} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>
-            {DataFile.all.map(c => renderTile(c))}
-          </JustifiedLayout>
+          <JustifiedLayout targetRowHeight={150} containerWidth={this.state.containerWidth} childObjects={DataFile.all} mapperToElement={renderTile} />
         </div>
         <h2>License</h2>
         <ul>
