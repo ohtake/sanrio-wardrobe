@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'react-router-dom/Link';
 
-import JustifiedLayout from 'react-justified-layout';
+import JustifiedLayout from './JustifiedLayout';
+import FullWidthContainer from './FullWidthContainer';
 import DataFile from './data_file';
-import * as utils from './utils';
 
 const styleSymbol = {
   position: 'absolute',
@@ -32,11 +32,11 @@ const styleImg = {
 /**
  * @private
  * @param {DataFile} c
- * @returns {React.Node}
+ * @returns {React.Element}
  */
 function renderTile(c) {
   return (
-    <Link key={c.name} to={`/chara/${c.name}`} aspectRatio={1} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="homeTile" data-ga-event-label={c.name}>
+    <Link key={c.name} to={`/chara/${c.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="homeTile" data-ga-event-label={c.name}>
       <div>
         <div style={styleSymbol}>{c.seriesSymbol}</div>
         <div style={styleTitleOuter}>
@@ -53,17 +53,9 @@ export default class Home extends React.Component {
   constructor() {
     super();
     this.state = {};
-    this.widthListener = new utils.ContainerClientWidthListener(this, () => this.grid, 'containerWidth');
   }
   componentDidMount() {
     this.context.setTitle();
-    this.widthListener.componentDidMount();
-  }
-  componentDidUpdate(prevProps, prevState) {
-    this.widthListener.componentDidUpdate(prevProps, prevState);
-  }
-  componentWillUnmount() {
-    this.widthListener.componentWillUnmount();
   }
   render() {
     return (
@@ -78,11 +70,11 @@ export default class Home extends React.Component {
         </a>
         <p style={{ paddingRight: '150px' }}>You can find clothings of Sanrio characters.</p>
         <h2>Characters</h2>
-        <div ref={(c) => { this.grid = c; }}>
-          <JustifiedLayout targetRowHeight={150} containerPadding={0} boxSpacing={6} containerWidth={this.state.containerWidth}>
-            {DataFile.all.map(c => renderTile(c))}
-          </JustifiedLayout>
-        </div>
+        <FullWidthContainer
+          renderElement={width => (
+            <JustifiedLayout targetRowHeight={150} containerWidth={width} childObjects={DataFile.all} mapperToElement={renderTile} />
+          )}
+        />
         <h2>License</h2>
         <ul>
           <li>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></li>

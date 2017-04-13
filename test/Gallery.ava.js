@@ -27,13 +27,8 @@ const context = { muiTheme: themes.themeLight };
 /** @test {Gallery} */
 test('<Gallery /> should handle 0 photos', t => {
   const wrapper = shallow(<Gallery chara="zz-zzzzz" photos={[]} />, { context });
-  t.is(wrapper.find('img').length, 0);
-});
-
-/** @test {Gallery} */
-test('<Gallery /> should handle 1 photo', t => {
-  const wrapper = shallow(<Gallery chara="zz-zzzzz" photos={[new Photo(photoTemplate)]} />, { context });
-  t.is(wrapper.find('img').length, 1);
+  const instance = wrapper.instance();
+  t.not(instance, null);
 });
 
 /** @test {Gallery} */
@@ -44,6 +39,14 @@ test('<Gallery /> should handle 3 photos', t => {
     return new Photo(photo);
   });
   const wrapper = shallow(<Gallery chara="zz-zzzzz" photos={photos} />, { context });
-  t.is(wrapper.find('img').length, 3);
-  t.is(wrapper.find({ alt: 'template1' }).length, 1);
+  const instance = wrapper.instance();
+  t.not(instance, null);
+});
+
+/** @test {Gallery.photoToElement} */
+test('Gallery.photoToElement should return an element', t => {
+  const wrapper = shallow(<Gallery chara="zz-zzzzz" photos={[]} />, { context });
+  const instance = wrapper.instance();
+  const element = instance.photoToElement(new Photo(photoTemplate));
+  t.not(element, null);
 });
