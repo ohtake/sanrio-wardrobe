@@ -3,27 +3,15 @@ import Link from 'react-router-dom/Link';
 
 import LazyLoad from 'react-lazy-load';
 
+import FullWidthContainer from './FullWidthContainer';
 import JustifiedLayout from './JustifiedLayout';
 import Photo from './photo';
-import * as utils from './utils';
 
 export default class Gallery extends React.Component {
   constructor() {
     super();
-    this.state = {};
-    this.widthListener = new utils.ContainerClientWidthListener(this, () => this.gallery, 'containerWidth');
     this.photoToElement = this.photoToElement.bind(this);
   }
-  componentDidMount() {
-    this.widthListener.componentDidMount();
-  }
-  componentDidUpdate(prevProps, prevState) {
-    this.widthListener.componentDidUpdate(prevProps, prevState);
-  }
-  componentWillUnmount() {
-    this.widthListener.componentWillUnmount();
-  }
-
   /**
    * @param {Photo} p
    * @returns {React.Element}
@@ -41,14 +29,15 @@ export default class Gallery extends React.Component {
   }
 
   render() {
-    const thumbnailHeight = this.context.thumbnailSize;
-    return (
-      <div ref={(c) => { this.gallery = c; }}>
-        {this.props.photos ?
-          <JustifiedLayout targetRowHeight={thumbnailHeight} containerWidth={this.state.containerWidth} childObjects={this.props.photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />
-          : null}
-      </div>
-    );
+    if (this.props.photos) {
+      const thumbnailHeight = this.context.thumbnailSize;
+      return (<FullWidthContainer
+        renderElement={width => (
+          <JustifiedLayout targetRowHeight={thumbnailHeight} containerWidth={width} childObjects={this.props.photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />
+        )}
+      />);
+    }
+    return null;
   }
 }
 Gallery.propTypes = {

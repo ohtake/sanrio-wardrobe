@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'react-router-dom/Link';
 
 import JustifiedLayout from './JustifiedLayout';
+import FullWidthContainer from './FullWidthContainer';
 import DataFile from './data_file';
-import * as utils from './utils';
 
 const styleSymbol = {
   position: 'absolute',
@@ -53,17 +53,9 @@ export default class Home extends React.Component {
   constructor() {
     super();
     this.state = {};
-    this.widthListener = new utils.ContainerClientWidthListener(this, () => this.grid, 'containerWidth');
   }
   componentDidMount() {
     this.context.setTitle();
-    this.widthListener.componentDidMount();
-  }
-  componentDidUpdate(prevProps, prevState) {
-    this.widthListener.componentDidUpdate(prevProps, prevState);
-  }
-  componentWillUnmount() {
-    this.widthListener.componentWillUnmount();
   }
   render() {
     return (
@@ -78,9 +70,11 @@ export default class Home extends React.Component {
         </a>
         <p style={{ paddingRight: '150px' }}>You can find clothings of Sanrio characters.</p>
         <h2>Characters</h2>
-        <div ref={(c) => { this.grid = c; }}>
-          <JustifiedLayout targetRowHeight={150} containerWidth={this.state.containerWidth} childObjects={DataFile.all} mapperToElement={renderTile} />
-        </div>
+        <FullWidthContainer
+          renderElement={width => (
+            <JustifiedLayout targetRowHeight={150} containerWidth={width} childObjects={DataFile.all} mapperToElement={renderTile} />
+          )}
+        />
         <h2>License</h2>
         <ul>
           <li>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></li>
