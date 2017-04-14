@@ -59,7 +59,9 @@ const js = {
           options: {
             presets: ['react', 'es2015'],
             plugins: [
-              ['transform-react-remove-prop-types', { mode: 'wrap' }],
+              ...(isProduction ? [
+                'transform-react-remove-prop-types',
+              ] : []),
             ],
           },
         },
