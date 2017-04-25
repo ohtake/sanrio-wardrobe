@@ -12,6 +12,7 @@
     "lodash": "^4.17.4",
     "material-ui": "^0.17.4",
     "object-fit-images": "^3.2.0",
+    "prop-types": "^15.5.8",
     "react": "~15.4.2",
     "react-dom": "~15.4.2",
     "react-lazy-load": "^3.0.12",

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import HashRouter from 'react-router-dom/HashRouter';
 
 import TextField from 'material-ui/TextField';
@@ -171,15 +172,15 @@ export default class Character extends React.Component {
   }
 }
 Character.propTypes = {
-  match: React.PropTypes.shape({
-    params: React.PropTypes.shape({
-      chara: React.PropTypes.string,
-      title: React.PropTypes.string,
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      chara: PropTypes.string,
+      title: PropTypes.string,
     }),
   }).isRequired,
 };
 Character.contextTypes = {
-  muiTheme: React.PropTypes.object.isRequired,
-  router: React.PropTypes.shape(HashRouter.propTypes).isRequired,
-  setTitle: React.PropTypes.func,
+  muiTheme: PropTypes.object.isRequired,
+  router: PropTypes.shape(HashRouter.propTypes).isRequired,
+  setTitle: PropTypes.func,
 };

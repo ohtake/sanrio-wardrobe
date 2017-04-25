@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import NavLink from 'react-router-dom/NavLink';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
@@ -169,7 +170,7 @@ class App extends React.Component {
 App.propTypes = {
 };
 App.childContextTypes = {
-  muiTheme: React.PropTypes.object,
-  thumbnailSize: React.PropTypes.number,
-  setTitle: React.PropTypes.func,
+  muiTheme: PropTypes.object,
+  thumbnailSize: PropTypes.number,
+  setTitle: PropTypes.func,
 };

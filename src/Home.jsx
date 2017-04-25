@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Link from 'react-router-dom/Link';
 
 import JustifiedLayout from './JustifiedLayout';
@@ -92,6 +93,6 @@ export default class Home extends React.Component {
   }
 }
 Home.contextTypes = {
-  muiTheme: React.PropTypes.object.isRequired,
-  setTitle: React.PropTypes.func,
+  muiTheme: PropTypes.object.isRequired,
+  setTitle: PropTypes.func,
 };

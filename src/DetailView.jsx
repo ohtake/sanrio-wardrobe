@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import HashRouter from 'react-router-dom/HashRouter';
 
 import AppBar from 'material-ui/AppBar';
@@ -252,9 +253,9 @@ export default class DetailView extends React.Component {
   }
 }
 DetailView.propTypes = {
-  chara: React.PropTypes.string.isRequired,
+  chara: PropTypes.string.isRequired,
 };
 DetailView.contextTypes = {
-  muiTheme: React.PropTypes.object.isRequired,
-  router: React.PropTypes.shape(HashRouter.propTypes).isRequired,
+  muiTheme: PropTypes.object.isRequired,
+  router: PropTypes.shape(HashRouter.propTypes).isRequired,
 };

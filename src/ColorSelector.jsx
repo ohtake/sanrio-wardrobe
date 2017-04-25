@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import FlatButton from 'material-ui/FlatButton';
 
@@ -106,13 +107,13 @@ export default class ColorSelector extends React.Component {
   }
 }
 ColorSelector.propTypes = {
-  colors: React.PropTypes.arrayOf(React.PropTypes.instanceOf(ColorItem)),
-  onChanged: React.PropTypes.func,
+  colors: PropTypes.arrayOf(PropTypes.instanceOf(ColorItem)),
+  onChanged: PropTypes.func,
 };
 ColorSelector.defaultProps = {
   colors: Colors.all.map(c => new ColorItem(c.id, c.name, c.standard, c.light)),
   onChanged: null,
 };
 ColorSelector.contextTypes = {
-  muiTheme: React.PropTypes.object.isRequired,
+  muiTheme: PropTypes.object.isRequired,
 };

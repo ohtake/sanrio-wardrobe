@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Link from 'react-router-dom/Link';
 
 import LazyLoad from 'react-lazy-load';
@@ -41,13 +42,13 @@ export default class Gallery extends React.Component {
   }
 }
 Gallery.propTypes = {
-  photos: React.PropTypes.arrayOf(React.PropTypes.instanceOf(Photo)),
-  chara: React.PropTypes.string.isRequired,
+  photos: PropTypes.arrayOf(PropTypes.instanceOf(Photo)),
+  chara: PropTypes.string.isRequired,
 };
 Gallery.defaultProps = {
   photos: null,
 };
 Gallery.contextTypes = {
-  muiTheme: React.PropTypes.object.isRequired,
-  thumbnailSize: React.PropTypes.number,
+  muiTheme: PropTypes.object.isRequired,
+  thumbnailSize: PropTypes.number,
 };

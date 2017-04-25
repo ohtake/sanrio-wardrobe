@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ResizeSensor from 'css-element-queries/src/ResizeSensor';
 
 /**
@@ -40,8 +41,8 @@ export default class FullWidthContainer extends React.Component {
   }
 }
 FullWidthContainer.propTypes = {
-  renderElement: React.PropTypes.func.isRequired,
-  initialContainerWidth: React.PropTypes.number,
+  renderElement: PropTypes.func.isRequired,
+  initialContainerWidth: PropTypes.number,
 };
 FullWidthContainer.defaultProps = {
   initialContainerWidth: 1080,

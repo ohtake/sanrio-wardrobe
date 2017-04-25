@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import assign from 'lodash/assign';
 import zip from 'lodash/zip';
@@ -33,18 +34,18 @@ JustifiedLayout.propTypes = {
   /**
    * An array of objects to be mapped to elements.
    */
-  childObjects: React.PropTypes.arrayOf(React.PropTypes.shape({})).isRequired,
+  childObjects: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   /**
    * It maps an object in the array to React element.
    * The returned React element should have key attribute.
    */
-  mapperToElement: React.PropTypes.func.isRequired,
+  mapperToElement: PropTypes.func.isRequired,
   /**
    * It maps an object in the array to aspect ratio of the React element.
    */
-  mapperToAspectRatio: React.PropTypes.func,
-  targetRowHeight: React.PropTypes.number,
-  containerWidth: React.PropTypes.number,
+  mapperToAspectRatio: PropTypes.func,
+  targetRowHeight: PropTypes.number,
+  containerWidth: PropTypes.number,
 };
 JustifiedLayout.defaultProps = {
   mapperToAspectRatio: () => 1,
