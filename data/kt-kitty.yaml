@@ -2082,7 +2082,7 @@
     title: "IMG_9175"
     images_flickr: { photo: "20629047839", farm: 1, server: 563, secret: "c53a029cd2", secret_h: "cb8e25b3a8", secret_k: "b3cbfa31bb", secret_o: "b420800c5e", format_o: "jpg" }
     source: { author: "yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/20629047839/"}
-    size: { width_o: 3156, height_o: 5184 }
+    size: { width_o: 3456, height_o: 5184 }
     colors: ["pink", "yellow"]
     notes:
       - 浴衣、和服、桜
