@@ -34,7 +34,7 @@ JustifiedLayout.propTypes = {
   /**
    * An array of objects to be mapped to elements.
    */
-  childObjects: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  childObjects: PropTypes.arrayOf(PropTypes.any).isRequired,
   /**
    * It maps an object in the array to React element.
    * The returned React element should have key attribute.
