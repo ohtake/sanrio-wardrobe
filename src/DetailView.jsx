@@ -198,7 +198,9 @@ export default class DetailView extends React.Component {
 
     return (
       <Drawer
-        open openSecondary docked
+        open
+        openSecondary
+        docked
         onRequestChange={this.closeDetailView}
         width={this.state.menuWidth}
         containerStyle={{ backgroundColor: fade(theme.palette.canvasColor, 0.8) }}
@@ -231,7 +233,9 @@ export default class DetailView extends React.Component {
             : null}
           <Swipeable
             style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, left: (-this.state.swipingRatio * this.state.menuWidth), width: '100%' }}
-            onTouchTap={this.toggleInfo} onSwiping={this.handleSwiping} onSwiped={this.handleSwiped}
+            onTouchTap={this.toggleInfo}
+            onSwiping={this.handleSwiping}
+            onSwiped={this.handleSwiped}
           >
             <img key={main.data.title} style={imgMainStyle} className="image-fit" src={main.getLargestImageAtMost(1080, 1080).url} alt="*" />
             <img key={next.data.title} style={imgNextStyle} className="image-fit" src={next.getLargestImageAtMost(1080, 1080).url} alt="*" />

@@ -152,10 +152,10 @@ class App extends React.Component {
           </NavLink>
           <Divider />
           <Subheader>Characters</Subheader>
-          {DataFile.all.map(c =>
+          {DataFile.all.map(c => (
             <NavLink key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
               <ListItem primaryText={c.getDisplayName()} leftAvatar={<Avatar src={c.picUrl} />} />
-            </NavLink>)}
+            </NavLink>))}
         </List>
       </Drawer>
       <div style={containerStyle}>
