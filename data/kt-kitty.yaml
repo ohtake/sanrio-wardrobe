@@ -1090,6 +1090,15 @@
       - 館のレストラン『Join!☆Kitty』2015年以前
       - ハート、多段フリル、ボール
   -
+    title: "53AE8818"
+    images_flickr: { photo: "33906690583", farm: 5, server: 4175, secret: "f42130a5b0", secret_h: "2239e2ec59", secret_k: "6a7e6c6afb", secret_o: "747f328146", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33906690583/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "pink", "white", "red"]
+    notes:
+      - 『Join!☆Kitty』とリボンが異なる
+      - ハート、多段フリル、ボール
+  -
     title: "5D3W9217"
     images_flickr: { photo: "23404950760", farm: 6, server: 5681, secret: "c252f28205", secret_h: "3fd063a2aa", secret_k: "4cad6ff9cc", secret_o: "fcfd9dd705", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23404950760"}
@@ -2143,6 +2152,14 @@
     colors: ["pink", "yellow", "blue"]
     notes:
       - スキーウェア、ゴーグル、手袋
+  -
+    title: "53AE7945"
+    images_flickr: { photo: "34675448785", farm: 5, server: 4174, secret: "a5186c9776", secret_h: "32eac4ebc3", secret_k: "55a4fd3c68", secret_o: "0183d07eca", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34675448785/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "green", "red", "pink", "white"]
+    notes:
+      - 世界地図、花
   -
     title: "ANTEPRIMA"
     images_flickr: { photo: "32973700273", farm: 3, server: 2930, secret: "8474d9d50e", secret_h: "ce3e750a20", secret_k: "d41986ac8e", secret_o: "2ce22d020d", format_o: "jpg" }
