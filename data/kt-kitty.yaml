@@ -978,6 +978,14 @@
       - ハローキティ35周年
       - スパンコール、リボン、ピアス、指輪、キティ
   -
+    title: "53AF0320"
+    images_flickr: { photo: "34794058305", farm: 5, server: 4268, secret: "9b04fca0d2", secret_h: "8055e576f4", secret_k: "e9b75ec8b2", secret_o: "50bcf6ed75", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34794058305"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["green", "orange", "white", "red", "pink", "yellow"]
+    notes:
+      - ジャージ、桜
+  -
     title: "5D3N1851"
     images_flickr: { photo: "14206128675", farm: 3, server: 2921, secret: "a8bd791941", secret_h: "fd9ca2aafa", secret_k: "cf619ebf02", secret_o: "2eb65dab0d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14206128675"}
