@@ -2343,6 +2343,15 @@
       - アメリカ NFL Shop
       - アメリカンフットボール
   -
+    title: "AC Milan"
+    images_instagram: { shortcode: "1apqtdA1AS", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Fan Zone", license: "", url: "https://www.instagram.com/p/1apqtdA1AS/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["red", "black", "white"]
+    notes:
+      - イタリア AC Milan
+      - サッカー
+  -
     title: "ColourPop Cosmetics"
     images_instagram: { shortcode: "BQ_KJUDl_8X", width_t: 150, width_m: 320, width_l: 640 }
     source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BQ_KJUDl_8X/"}
@@ -2676,3 +2685,20 @@
     colors: ["red", "white", "blue"]
     notes:
       - オランダ
+  -
+    title: "Hello Kitty Run Team"
+    images_instagram: { shortcode: "8IBc4EA1C2", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty Fan Zone", license: "", url: "https://www.instagram.com/p/8IBc4EA1C2/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["pink", "white", "green", "black", "yellow", "red"]
+    notes:
+      - スペイン Color Run by Desigual Valencia 2015
+      - 鉢巻
+  -
+    title: "4OS8BGA1NL"
+    images_instagram: { shortcode: "4OS8BGA1NL", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Fan Zone", license: "", url: "https://www.instagram.com/p/4OS8BGA1NL/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["red", "pink", "blue", "white"]
+    notes:
+      - いちご
