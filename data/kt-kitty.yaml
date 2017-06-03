@@ -2701,4 +2701,5 @@
     size: { width_o: 640, height_o: 640 }
     colors: ["red", "pink", "blue", "white"]
     notes:
+      - 外部イベント『キティ&シナモンのワンダーステージ』
       - いちご
