@@ -170,3 +170,11 @@
     notes:
       - 水着の髪飾りが変更
       - 水玉
+  -
+    title: "浴衣"
+    images_flickr: { photo: "34907968962", farm: 5, server: 4257, secret: "de90588d48", secret_h: "837f5101ce", secret_k: "e61207cb70", secret_o: "f3dd9c92e5", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34907968962/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["yellow", "pink", "blue", "purple"]
+    notes:
+      - 浴衣、麦わら帽子
