@@ -2711,3 +2711,10 @@
     notes:
       - 外部イベント『キティ&シナモンのワンダーステージ』
       - いちご
+  -
+    title: "53AF2729"
+    images_flickr: { photo: "35078976321", farm: 5, server: 4235, secret: "bf600bb352", secret_h: "40b1cb28d3", secret_k: "fc47803dfd", secret_o: "50c5fab603", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35078976321"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "white", "silver", "red"]
+    notes: []
