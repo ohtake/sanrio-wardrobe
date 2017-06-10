@@ -35,6 +35,7 @@
     notes:
       - ピューロランドパレード『OMOIYARI TO YOU』
       - 外部イベント『ハローキティのドリームトラベラー』
+      - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Candy Parade』
       - バラ、帽子
   -
     title: "Miracle Gift Parade"
@@ -195,7 +196,7 @@
     size: { width_o: 1600, height_o: 1070 }
     colors: ["blue", "pink", "brown", "white"]
     notes:
-      - マレーシア Puteri Harbour Hello Kitty Town『Happy Carnival Parade』
+      - マレーシア Puteri Harbour Sanrio Hello Kitty Town
       - デニム、ベルト、帽子
   -
     title: "5D3E5348 (1280x1920)"
@@ -540,7 +541,7 @@
     size: { width_o: 404, height_o: 538 }
     colors: ["red", "pink", "white"]
     notes:
-      - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Heartful Journey』
+      - マレーシア Puteri Harbour Sanrio Hello Kitty Town
       - キティズハウスとは模様が異なる
       - バラ
   -
@@ -965,7 +966,7 @@
     notes:
       - キティズハウスの簡略版
       - 外部イベント『ハローキティ&プリンのハートフルタイム』
-      - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Starlight Sing-A-Long』
+      - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Hello Kitty's Starlight Sing-A-Long』
       - リボン
   -
     title: "5D3S3426"
@@ -2257,27 +2258,27 @@
     size: { width_o: 1600, height_o: 1070 }
     colors: ["gold", "red", "orange", "yellow", "green", "blue", "purple"]
     notes:
-      - マレーシア Puteri Harbour Hello Kitty Town『Happy Carnival Parade』
+      - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Happy Carnival Parade』
       - 多段フリル、冠
   -
-    title: "BJhqkmGBdIp"
-    images_instagram: { shortcode: "BJhqkmGBdIp", width_t: 150, width_m: 320, width_l: 640 }
-    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/BJhqkmGBdIp/"}
-    size: { width_o: 640, height_o: 640 }
+    title: "53AF2974"
+    images_flickr: { photo: "35083321041", farm: 5, server: 4246, secret: "98a399f94a", secret_h: "9b3a95590f", secret_k: "739e3ea913", secret_o: "46f5ffeff1", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35083321041"}
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "orange", "yellow"]
     notes:
-      - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Heartful Journey』
+      - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Hello Kitty's Heartful Journey』
       - ヨーロッパ
       - チェック
   -
-    title: "24476230539"
-    images_flickr: { photo: "24476230539", farm: 2, server: 1601, secret: "b2e3be872b", secret_o: "2fe6b63937", format_o: "jpg", before: "20100525" }
-    source: { author: "jj lai", license: "", url: "https://www.flickr.com/photos/laijj/24476230539/"}
-    size: { width_o: 538, height_o: 404 }
-    colors: ["pink", "white", "orange", "yellow", "blue"]
+    title: "53AF2954"
+    images_flickr: { photo: "35173242506", farm: 5, server: 4257, secret: "e60c246cbf", secret_h: "ea30d2cf1e", secret_k: "446e907004", secret_o: "68798b15fc", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35173242506"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "white", "orange", "yellow", "blue", "black"]
     notes:
-      - マレーシア Puteri Harbour Hello Kitty Town『Hello Kitty Heartful Journey』
-      - チェック、法被
+      - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Hello Kitty's Heartful Journey』
+      - チェック、法被、桜
   -
     title: "President 2012"
     images_flickr: { photo: "8159215735", farm: 9, server: 8347, secret: "5db3f1cbb4", secret_h: "f42b50b1e9", secret_k: "23ac4a8cfd", secret_o: "29a69cd3a4", format_o: "jpg" }
