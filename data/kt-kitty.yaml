@@ -821,15 +821,23 @@
     images_flickr: { photo: "13982308649", farm: 3, server: 2906, secret: "f528a622d1", secret_h: "831933ac95", secret_k: "47a5e07920", secret_o: "1c32cb067d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13982308649"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "white", "pink"]
+    colors: ["blue", "white", "pink", "orange"]
     notes:
       - ストライプ
+  -
+    title: "東京スカイツリー"
+    images_flickr: { photo: "34362237564", farm: 5, server: 4277, secret: "869122c0fd", secret_h: "0a591d3ca5", secret_k: "fd8680479a", secret_o: "953ef38614", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34362237564"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "white", "pink", "orange", "red"]
+    notes:
+      - 東京スカイツリーのソラカラちゃんとのコラボでリボンが異なる
   -
     title: "38ho60sGL4"
     images_instagram: { shortcode: "38ho60sGL4", width_t: 150, width_m: 320, width_l: 640 }
     source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/38ho60sGL4/"}
     size: { width_o: 640, height_o: 640 }
-    colors: ["blue", "white", "pink"]
+    colors: ["blue", "white", "pink", "orange"]
     notes:
       - ヨーロッパ
       - リボンが異なる
