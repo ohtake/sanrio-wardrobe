@@ -2719,3 +2719,12 @@
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "silver", "red"]
     notes: []
+  -
+    title: "BDKljPOLekv"
+    images_instagram: { shortcode: "BDKljPOLekv", width_t: 150, width_m: 320, width_l: 1016 }
+    source: { author: "sl_8erene", license: "", url: "https://www.instagram.com/p/BDKljPOLekv/"}
+    size: { width_o: 1016, height_o: 1016 }
+    colors: ["white", "blue", "red"]
+    notes:
+      - シンガポール OneKM Hello Kitty & Friends Groovin Cruise
+      - セーラー、帽子
