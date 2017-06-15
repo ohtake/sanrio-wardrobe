@@ -1241,6 +1241,25 @@
       - 神田うのデザインドレス
       - 多段フリル、水玉
   -
+    title: "BSUla5ThVnT"
+    images_instagram: { shortcode: "BSUla5ThVnT", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "sanrio_ponponjump", license: "", url: "https://www.instagram.com/p/BSUla5ThVnT/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["pink", "white", "red"]
+    notes:
+      - 『ブルーズクルーズショー ~Blueのプレゼント~』
+      - BSフジ『サンリオキャラクターズ ポンポンジャンプ！』宣伝用写真
+      - 多段フリル、チェック、水玉、ストライプ
+  -
+    title: "ポンポンジャンプ"
+    images_flickr: { photo: "35283169996", farm: 5, server: 4281, secret: "4f0a81345a", secret_h: "4788f48a14", secret_k: "a1ef0de6ab", secret_o: "3773076c4d", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35283169996/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "white", "red"]
+    notes:
+      - BSフジ『サンリオキャラクターズ ポンポンジャンプ！』実際の放送
+      - 多段フリル、チェック、水玉、ストライプ
+  -
     title: "5D3F5548"
     images_flickr: { photo: "9067235198", farm: 4, server: 3782, secret: "4aaa3bc50a", secret_h: "cfc53de4c3", secret_k: "9ff959d40f", secret_o: "aa4b99326c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9067235198/"}
