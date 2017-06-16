@@ -2747,3 +2747,11 @@
     notes:
       - シンガポール OneKM Hello Kitty & Friends Groovin Cruise
       - セーラー、帽子
+  -
+    title: "Hello Kitty Live"
+    images_instagram: { shortcode: "BOG9iMUgCoe", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Ria Hazel", license: "", url: "https://www.instagram.com/p/BOG9iMUgCoe/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["pink", "silver", "white", "yellow"]
+    notes:
+      - Hello Kitty Live
