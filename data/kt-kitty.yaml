@@ -2763,3 +2763,10 @@
     colors: ["pink", "silver", "white", "yellow"]
     notes:
       - Hello Kitty Live
+  -
+    title: "BUmN9Ywhj4m"
+    images_instagram: { shortcode: "BUmN9Ywhj4m", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty Cafe Ph", license: "", url: "https://www.instagram.com/p/BUmN9Ywhj4m/"}
+    size: { width_o: 1080, height_o: 763 }
+    colors: ["black", "purple", "silver" , "white"]
+    notes: []
