@@ -1602,6 +1602,14 @@
     notes:
       - メルヘンシアター『ハローキティ ドリームレビュー 1』ピアノコンクール
   -
+    title: "53AF0375"
+    images_flickr: { photo: "35743309890", farm: 5, server: 4298, secret: "b0bfd48a8c", secret_h: "a400b172cf", secret_k: "910932dd13", secret_o: "737fe55557", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35743309890"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white"]
+    notes:
+      - ウェディングドレス
+  -
     title: "5D3Z3482"
     images_flickr: { photo: "27765020333", farm: 9, server: 8667, secret: "c54b270d82", secret_h: "da1c0c27e4", secret_k: "26cb35a216", secret_o: "3155704976", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27765020333"}
