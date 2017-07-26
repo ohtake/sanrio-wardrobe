@@ -89,11 +89,11 @@ export default class DetailView extends React.Component {
     const photo = this.state.photos[this.state.index];
     window.open(photo.data.source.url);
   }
-  handleSwiping(e, deltaX/* , deltaY, absX, absY, velocity*/) {
+  handleSwiping(e, deltaX/* , deltaY, absX, absY, velocity */) {
     const swipingRatio = deltaX / this.state.menuWidth;
     this.setState({ swipingRatio });
   }
-  handleSwiped(e/* , deltaX, deltaY, isFlick*/) {
+  handleSwiped(e/* , deltaX, deltaY, isFlick */) {
     this.handleSwiping.flush();
     if (this.state.swipingRatio > swipingRatioThreshold) {
       this.moveNext(e);
