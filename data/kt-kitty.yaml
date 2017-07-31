@@ -1662,6 +1662,15 @@
       - ユニバーサルスタジオジャパン
       - イースター、ウサミミ
   -
+    title: "0K0A9357"
+    images_flickr: { photo: "34862816716", farm: 5, server: 4196, secret: "71738eea14", secret_h: "25ce639d9c", secret_k: "6bbf3326c5", secret_o: "f3fbd74da5", format_o: "jpg" }
+    source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/34862816716"}
+    size: { width_o: 2882, height_o: 3840 }
+    colors: ["pink", "yellow", "red", "blue", "gold", "white"]
+    notes:
+      - ユニバーサルスタジオジャパン
+      - イースター、ウサミミ
+  -
     title: "5D3Y0207"
     images_flickr: { photo: "26117123361", farm: 2, server: 1685, secret: "eb8c5aa6af", secret_h: "8235d3a4b2", secret_k: "98915d6abe", secret_o: "ef483cea4e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26117123361"}
