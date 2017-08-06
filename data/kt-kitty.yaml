@@ -228,15 +228,15 @@
       - ストライプ
   -
     title: "パレードパラレル"
-    images_flickr: { photo: "22449655257", farm: 6, server: 5630, secret: "84f1e98efe", secret_h: "e8562b6a5d", secret_k: "8c4c083767", secret_o: "f45020d259", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22449655257"}
+    images_flickr: { photo: "36121445852", farm: 5, server: 4297, secret: "a67c0b440b", secret_h: "a7a08e5e3e", secret_k: "96b9ff7883", secret_o: "011856da9b", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121445852"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["purple", "green", "pink", "white", "yellow", "blue"]
     notes:
       - ハーモニーランドパレード『パレードパラレル』
       - リボン、ストライプ
   -
-    title: "5D3V8866"
+    title: "パレードパラレル・ハロウィーン"
     images_flickr: { photo: "22879124551", farm: 1, server: 614, secret: "c4393def6e", secret_h: "8d36d54534", secret_k: "c2b54cd60b", secret_o: "aea8936fba", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22879124551"}
     size: { width_o: 5760, height_o: 3840 }
@@ -245,7 +245,7 @@
       - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
       - ジャック・オー・ランタン、ハロウィン、水玉、ストライプ
   -
-    title: "DSC_0494"
+    title: "パレードパラレル・クリスマス"
     images_flickr: { photo: "23429762473", farm: 2, server: 1452, secret: "4e19afb8b3", secret_h: "038bee70c3", secret_k: "dd9391bbcc", secret_o: "fd1bacfe7f", format_o: "jpg" }
     source: { author: "にゃむ", license: "", url: "https://www.flickr.com/photos/124913439@N07/23429762473"}
     size: { width_o: 4000, height_o: 6016 }
@@ -254,7 +254,7 @@
       - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
       - クリスマス、帽子
   -
-    title: "IMGD9520"
+    title: "パレードパラレル・イースター"
     images_flickr: { photo: "26204409931", farm: 2, server: 1473, secret: "26f7bc5793", secret_h: "67cba681da", secret_k: "34adbcc1b7", secret_o: "5bdaaa94f0", format_o: "jpg" }
     source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26204409931"}
     size: { width_o: 3840, height_o: 5760 }
@@ -2106,19 +2106,37 @@
       - ハーモニーランド25周年
       - ハート、帽子
   -
-    title: "IMGD1568"
-    images_flickr: { photo: "26406755701", farm: 2, server: 1701, secret: "84f0cc73df", secret_h: "dead0ebd14", secret_k: "192e492dfc", secret_o: "dea1b80804", format_o: "jpg" }
-    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26406755701"}
+    title: "ハーモニーランド26周年・淡"
+    images_flickr: { photo: "36290845666", farm: 5, server: 4341, secret: "ea1322ed41", secret_h: "dcb6248def", secret_k: "46f023094f", secret_o: "632eda6a6b", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36290845666"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "blue", "yellow", "white"]
+    notes:
+      - ハーモニーランド26周年
+      - バラ
+  -
+    title: "ハーモニーランド26周年・濃"
+    images_flickr: { photo: "36199435962", farm: 5, server: 4340, secret: "1c6a8de33e", secret_h: "7f29e02ea0", secret_k: "5ef27704d3", secret_o: "0bf5141e6b", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36199435962"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "blue", "white", "gold"]
+    notes:
+      - ハーモニーランド26周年
+      - バラ
+  -
+    title: "キティカフェ"
+    images_flickr: { photo: "36121456242", farm: 5, server: 4295, secret: "be69622355", secret_h: "86a9cb5c25", secret_k: "caaf7cec30", secret_o: "896d31c8f4", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121456242"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "red", "black", "white", "pink", "green", "purple"]
     notes:
       - プラザステージ『「お・も・て・な・し」のキティカフェ』
       - いちご、帽子
   -
-    title: "53AA0505"
-    images_flickr: { photo: "28618755624", farm: 9, server: 8302, secret: "8011324b6a", secret_h: "c6d24e28eb", secret_k: "7c70995427", secret_o: "466ca793e8", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28618755624"}
-    size: { width_o: 5760, height_o: 3840 }
+    title: "DoRoRoNRoN"
+    images_flickr: { photo: "36359380676", farm: 5, server: 4372, secret: "cab67ce8a3", secret_h: "41244e6742", secret_k: "3dc82bbf29", secret_o: "75e97c1cae", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36359380676"}
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "yellow", "orange", "green", "white"]
     notes:
       - 『おばけ音頭だ! DoRoRoNRoN!』
