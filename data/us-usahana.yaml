@@ -96,3 +96,11 @@
     size: { width_o: 3456, height_o: 5184 }
     colors: ["red", "white", "yellow"]
     notes: []
+  -
+    title: 西遊記1
+    images_flickr: { photo: "31492372692", farm: 1, server: 502, secret: "e98dccac5b", secret_h: "b0e51da137", secret_k: "1cc1b81ab8", secret_o: "3d783393bc", format_o: "jpg" }
+    source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/31492372692/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "red", "blue", "white"]
+    notes:
+      - 外部イベント『スーパーアドベンチャー西遊記』1着目
