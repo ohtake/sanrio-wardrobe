@@ -84,6 +84,7 @@
     size: { width_o: 1440, height_o: 960 }
     colors: ["blue", "red", "green", "yellow", "black", "purple"]
     notes:
+      - 外部イベント『It's a Wonderland』の帽子なしバージョン
       - 『バラエティ→でいこう!』
       - パッチワーク
   -
@@ -229,12 +230,13 @@
     notes:
       - ヒョウ柄
   -
-    title: "53AD8512"
+    title: "コズミックファンタジー"
     images_flickr: { photo: "33566672180", farm: 4, server: 3936, secret: "cf8cc5b171", secret_h: "e11b4a6732", secret_k: "a27e25673d", secret_o: "e92fcee97d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33566672180/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["yellow", "green", "blue", "red"]
     notes:
+      - ピューロランドパレード『コズミックファンタジー』
       - パレオ
   -
     title: "53AD8602"
@@ -244,3 +246,11 @@
     colors: ["white", "blue", "silver"]
     notes:
       - 白タキシード
+  -
+    title: "雨合羽"
+    images_flickr: { photo: "15113862871", farm: 4, server: 3876, secret: "cf3a4a3f7a", secret_h: "de4d6cf8d6", secret_k: "40bae7d1a4", secret_o: "eb68b71aea", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/15113862871/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["purple", "orange", "pink", "brown"]
+    notes:
+      - 雨合羽
