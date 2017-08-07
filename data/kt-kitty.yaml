@@ -1891,12 +1891,13 @@
     notes:
       - 星
   -
-    title: "DSC06032"
+    title: "シリウス3"
     images_flickr: { photo: "16615333756", farm: 9, server: 8577, secret: "6523a28eea", secret_h: "6442eb7ba2", secret_k: "d987fc89eb", secret_o: "ccbfdc3fca", format_o: "jpg" }
     source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/16615333756"}
     size: { width_o: 3648, height_o: 5472 }
     colors: ["silver", "red", "white"]
     notes:
+      - ピューロランドパレード『レジェンド・オブ・シリウス』3着目
       - スパンコール
   -
     title: "1N0A3311"
