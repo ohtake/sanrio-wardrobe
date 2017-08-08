@@ -155,7 +155,16 @@
     notes:
       - オーバーオールの靴を履いていないバージョン
   -
-    title: "5D3W0019"
+    title: "パレードパラレル オリジナル"
+    images_flickr: { photo: "29241715295", farm: 9, server: 8417, secret: "b9b755b246", secret_h: "bc759cbda3", secret_k: "de1e85c94f", secret_o: "9c51da4739", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29241715295"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "pink", "white", "purple", "green", "yellow"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル』
+      - リボン、ストライプ
+  -
+    title: "パレードパラレル ハロウィーン"
     images_flickr: { photo: "22889091162", farm: 1, server: 638, secret: "321734118e", secret_h: "8ae7c0ce9f", secret_k: "3eeedda467", secret_o: "1ac110f0ea", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22889091162"}
     size: { width_o: 3840, height_o: 5760 }
@@ -163,6 +172,24 @@
     notes:
       - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
       - ジャック・オー・ランタン、ハロウィン、水玉、ストライプ
+  -
+    title: "パレードパラレル クリスマス"
+    images_flickr: { photo: "31990938640", farm: 1, server: 467, secret: "f0965b256c", secret_h: "090d20285b", secret_k: "d8e3084cfd", secret_o: "fc9bcd1934", format_o: "jpg" }
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/31990938640"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "silver", "white", "gold"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
+      - クリスマス、雪、帽子
+  -
+    title: "パレードパラレル イースター"
+    images_flickr: { photo: "25526931694", farm: 2, server: 1665, secret: "811c1484cd", secret_h: "2ab3e2c13e", secret_k: "d9044a3fe9", secret_o: "4a7ff1845a", format_o: "jpg" }
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/25526931694"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["green", "red", "orange", "yellow", "purple", "white"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル イースター ver.』
+      - イースター、ウサミミ
   -
     title: "5D3N8827"
     images_flickr: { photo: "14470731571", farm: 3, server: 2910, secret: "776463e9be", secret_h: "8edcd6e6cc", secret_k: "2975f3e481", secret_o: "1298ded4ae", format_o: "jpg" }
@@ -291,15 +318,6 @@
     colors: ["blue", "red", "yellow", "brown", "white"]
     notes:
       - デニム、ベルト
-  -
-    title: "パレードパラレル"
-    images_flickr: { photo: "29241715295", farm: 9, server: 8417, secret: "b9b755b246", secret_h: "bc759cbda3", secret_k: "de1e85c94f", secret_o: "9c51da4739", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29241715295"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "pink", "white", "purple", "green", "yellow"]
-    notes:
-      - ハーモニーランドパレード『パレードパラレル』
-      - リボン、ストライプ
   -
     title: "53AA0504"
     images_flickr: { photo: "29241607305", farm: 9, server: 8311, secret: "7aa8ba5188", secret_h: "4cb1e7438d", secret_k: "16d67f4dcd", secret_o: "c690c13530", format_o: "jpg" }

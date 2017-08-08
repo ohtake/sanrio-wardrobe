@@ -708,9 +708,9 @@
     images_flickr: { photo: "15642133338", farm: 9, server: 8656, secret: "c15a0b22c9", secret_h: "68a568cb11", secret_k: "7f4b98d803", secret_o: "6e3d42167e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15642133338"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["white", "red", "gold"]
+    colors: ["white", "red", "green", "gold"]
     notes:
-      - 多段フリル、ハート
+      - クリスマス、多段フリル、ハート
   -
     title: "5D3R3713"
     images_flickr: { photo: "15661536288", farm: 8, server: 7545, secret: "dc94e810a9", secret_h: "b1cdbac8a5", secret_k: "1e77b3561a", secret_o: "07d27a6b0b", format_o: "jpg" }
