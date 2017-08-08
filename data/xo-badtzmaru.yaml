@@ -222,6 +222,22 @@
     notes:
       - 和服
   -
+    title: "IMG_5591"
+    images_flickr: { photo: "24242946506", farm: 2, server: 1674, secret: "a9e42ddab0", secret_h: "d70f8eda1e", secret_k: "e31e000d59", secret_o: "a3e392b992", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/24242946506/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["blue", "white", "red", "gold", "green"]
+    notes:
+      - 和服
+  -
+    title: "IMG_5791"
+    images_flickr: { photo: "24187125601", farm: 2, server: 1629, secret: "acd8d8a6d7", secret_h: "dbc5610136", secret_k: "cbd09c1ed5", secret_o: "51e55d2506", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/24187125601/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["blue", "white", "red", "gold", "green"]
+    notes:
+      - 和服
+  -
     title: "53AD8349"
     images_flickr: { photo: "33138677393", farm: 3, server: 2830, secret: "24e683116b", secret_h: "a3e862d5bf", secret_k: "9d16306337", secret_o: "4176ef122a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33138677393/"}
