@@ -22,6 +22,9 @@ export default class DataFile {
 }
 
 DataFile.all = [
+  DataFile.boRibbon = new DataFile('bo-ribbon', 'BO', 'りぼん', 'Bonbonribbon',
+    // https://www.flickr.com/photos/ohtake_tomohiro/26615555253/
+    'https://c2.staticflickr.com/8/7356/26615555253_f77c7410de_q.jpg'),
   DataFile.ktKitty = new DataFile('kt-kitty', 'KT', 'キティ', 'Kitty',
     // https://www.flickr.com/photos/ohtake_tomohiro/16492066909/
     'https://c1.staticflickr.com/9/8575/16492066909_3fcda0e4e4_q.jpg'),
