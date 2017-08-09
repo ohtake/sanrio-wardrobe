@@ -65,6 +65,7 @@ export default class ColorSelector extends React.Component {
   }
   /**
    * @param {object} e Event args
+   * @returns {void}
    */
   toggle(e) {
     e.preventDefault();
@@ -75,6 +76,7 @@ export default class ColorSelector extends React.Component {
   }
   /**
    * @param {?object} e Event args
+   * @returns {void}
    */
   clear(e) {
     if (e) e.preventDefault();

@@ -8,5 +8,4 @@
       - warn
       -
         requireParamDescription: false
-        requireReturn: false
         requireReturnDescription: false

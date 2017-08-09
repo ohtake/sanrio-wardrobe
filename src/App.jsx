@@ -66,6 +66,7 @@ class App extends React.Component {
   }
   /**
    * @param {string} title
+   * @returns {void}
    */
   setTitle(title) {
     if (title) {

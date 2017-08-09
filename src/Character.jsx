@@ -73,6 +73,7 @@ export default class Character extends React.Component {
   /**
    * @private
    * @param {string} file
+   * @returns {void}
    */
   loadPhotos(file) {
     this.setState({
@@ -96,6 +97,7 @@ export default class Character extends React.Component {
   /**
    * @private
    * @param {string?} title
+   * @returns {void}
    */
   updateLightbox(title) {
     if (title) {

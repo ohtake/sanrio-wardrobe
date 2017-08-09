@@ -27,7 +27,10 @@ export default class FullWidthContainer extends React.Component {
   componentWillUnmount() {
     this.resizeSensor.detach();
   }
-  /** @private */
+  /**
+   * @private
+   * @returns {void}
+   */
   updateContainerWidth() {
     const newWidth = this.container.clientWidth;
     if (newWidth !== this.state.containerWidth) {
