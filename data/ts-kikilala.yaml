@@ -188,6 +188,13 @@
     notes:
       - エンターテイメントホール『星空の旅』の星あり
   -
+    title: IMG_1423
+    images_flickr: { photo: "16168371186", farm: 8, server: 7513, secret: "9cb0c930df", secret_h: "7c9705c2fc", secret_k: "cbe8f66d50", secret_o: "aa8542c646", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16168371186/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["blue", "pink", "gold"]
+    notes: []
+  -
     title: ノア
     images_flickr: { photo: "15618212768", farm: 6, server: 5608, secret: "e77a3211af", secret_h: "59f38e6b65", secret_k: "2a68530359", secret_o: "6553878763", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15618212768/"}
