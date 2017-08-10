@@ -33,12 +33,13 @@
       - ピューロランドパレード『星空のHappy Party Christmas』前座
       - クリスマス、星
   -
-    title: ECC
+    title: カラフルファンタジー
     images_flickr: { photo: "13653978165", farm: 8, server: 7253, secret: "78c379e842", secret_h: "ae32d1590b", secret_k: "f35945b1ed", secret_o: "6b1e0dcda8", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13653978165/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "red", "yellow", "pink", "blue", "green", "purple"]
     notes:
+      - 知恵の木ステージ『USAHANAのカラフルファンタジー』
       - 外部イベント『ECC presents イングリッシュライブショー「サンリオキャラクターとあそぼう!」』
   -
     title: 浴衣
