@@ -1,0 +1,237 @@
+---
+  -
+    title: Believe
+    images_flickr: { photo: "8826417268", farm: 4, server: 3732, secret: "bcfd40ab37", secret_h: "24a0484e9e", secret_k: "c89bc527a3", secret_o: "6f6c61e63f", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8826417268/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["green", "blue", "gold", "silver", "white", "orange"]
+    notes:
+      - ピューロランドパレード『Believe』
+  -
+    title: Believe in Christmas
+    images_flickr: { photo: "15551888013", farm: 8, server: 7506, secret: "08597426b6", secret_h: "f2bdb9961c", secret_k: "d126912a75", secret_o: "509d33a21f", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15551888013/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "green", "gold", "silver", "orange"]
+    notes:
+      - ピューロランドパレード『Believe in Christmas』
+      - ピューロランドパレード『星空の Happy Party Christmas』
+      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
+  -
+    title: ARIGATO EVERYONE
+    images_flickr: { photo: "14204574599", farm: 6, server: 5278, secret: "8498d2b80c", secret_h: "a0f4e13c78", secret_k: "d4d1e38db2", secret_o: "cffc2b38dd", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14204574599/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white", "blue", "pink", "yellow"]
+    notes:
+      - ピューロランドパレード『ARIGATO EVERYONE!』
+  -
+    title: OMOIYARI TO YOU 前期
+    images_flickr: { photo: "16856263970", farm: 9, server: 8792, secret: "eaccc8d563", secret_h: "da44676605", secret_k: "bb83f3b075", secret_o: "3b65bc8be6", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16856263970/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white", "blue", "pink", "silver"]
+    notes:
+      - ピューロランドパレード『OMOIYARI TO YOU』
+      - 外部イベント『ドリームトラベラー』
+  -
+    title: 5D3M6538
+    images_flickr: { photo: "14045685092", farm: 3, server: 2933, secret: "694ab188ed", secret_h: "5325906710", secret_k: "23adabc782", secret_o: "af6cd7ea85", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14045685092/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "pink", "silver"]
+    notes:
+      - 知恵の木ステージ『ウサハナの虹色のパーティ』1着目とは靴が異なる
+  -
+    title: 5D3F7820
+    images_flickr: { photo: "9224744222", farm: 8, server: 7411, secret: "72980b2ef5", secret_h: "a0e4833c48", secret_k: "5616a0ec2c", secret_o: "fd941d2cc8", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9224744222/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white", "blue", "pink", "silver"]
+    notes:
+      - 七夕
+  -
+    title: 5D3I3621
+    images_flickr: { photo: "10227983183", farm: 4, server: 3738, secret: "7bb319bd25", secret_h: "c0306d3292", secret_k: "393d2eb9de", secret_o: "e30bfd8729", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10227983183/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["orange", "purple", "black", "green", "blue", "pink", "silver"]
+    notes:
+      - ピューロランドパレード『ハロウィンマーチングパレード』
+  -
+    title: 法被
+    images_flickr: { photo: "14514722637", farm: 6, server: 5558, secret: "5f2f3d9633", secret_h: "1147c7786f", secret_k: "63caf676bc", secret_o: "f2957e0f16", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14514722637/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "red", "pink", "white", "silver"]
+    notes:
+      - 法被
+  -
+    title: 5D3W4640
+    images_flickr: { photo: "23123091229", farm: 1, server: 646, secret: "6728ccf030", secret_h: "add5c4b4f1", secret_k: "92e721e877", secret_o: "46f9b13095", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23123091229/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "pink", "silver", "red"]
+    notes: []
+  -
+    title: 5D3L0672
+    images_flickr: { photo: "11888859986", farm: 8, server: 7384, secret: "583b9e21b1", secret_h: "72caf7a873", secret_k: "25114e4ba7", secret_o: "f287e250b9", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11888859986/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "blue", "pink", "silver", "gold"]
+    notes:
+      - 袴
+  -
+    title: ハッピーランチステージ
+    images_flickr: { photo: "14397293228", farm: 4, server: 3883, secret: "eb7116456b", secret_h: "5107f254ef", secret_k: "6461eca510", secret_o: "5a02c1fd97", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14397293228/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "blue", "pink", "yellow"]
+    notes:
+      - ディスカバリシアター『夜を楽しまナイト』
+      - 館のレストラン『ハッピーランチステージ』
+  -
+    title: 5D3S1295
+    images_flickr: { photo: "15984979957", farm: 8, server: 7563, secret: "f22c21df8e", secret_h: "07e365f745", secret_k: "41b91cdd36", secret_o: "6a72c990e8", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15984979957/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "blue", "pink", "yellow", "gold", "green"]
+    notes:
+      - ハッピーランチステージをベースに、胸に装飾が追加され靴ひもが変更
+      - クリスマス
+  -
+    title: AMO'S STYLE 1日店長
+    images_flickr: { photo: "15445720038", farm: 6, server: 5615, secret: "22eb94b20b", secret_h: "09648e5528", secret_k: "8766ae3e3e", secret_o: "10508d9dc2", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15445720038/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["black", "white", "blue", "pink", "yellow"]
+    notes:
+      - AMO'S STYLE by Triumph 原宿表参道店『キキ&ララ1日店長イベント』
+      - ハロウィン
+  -
+    title: アイドルコレクション
+    images_flickr: { photo: "15033333220", farm: 4, server: 3882, secret: "d2d98509f9", secret_h: "ccd5dc2c4c", secret_k: "27805ef641", secret_o: "1ff7d5ee93", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15033333220/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white", "blue", "pink", "yellow", "purple", "green"]
+    notes:
+      - 知恵の木ステージ『PURO★アイドル★コレクション』
+  -
+    title: 5D3S1313
+    images_flickr: { photo: "15984978617", farm: 8, server: 7567, secret: "093fcb2554", secret_h: "59a531850a", secret_k: "27aa223edc", secret_o: "e04f2b7203", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15984978617/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white", "blue", "pink", "yellow", "purple", "green"]
+    notes:
+      - 知恵の木ステージ『PURO★アイドル★コレクション』に腰のリボンが変更
+      - クリスマス
+  -
+    title: 5D3R8431
+    images_flickr: { photo: "15440939634", farm: 8, server: 7490, secret: "bfe16e0b45", secret_h: "435b1b648d", secret_k: "615392628b", secret_o: "a1f813e2be", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15440939634/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white", "blue", "pink", "yellow", "purple", "silver"]
+    notes: []
+  -
+    title: 5D3S1044
+    images_flickr: { photo: "15984722869", farm: 9, server: 8655, secret: "2befe5c4a4", secret_h: "1965ec65cd", secret_k: "c330ef955b", secret_o: "2dc6370536", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15984722869/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "purple", "blue", "pink", "yellow", "green", "orange", "white"]
+    notes:
+      - 知恵の木ステージ『ウサハナの虹色のパーティ』2着目とは胸と腰の装飾が異なる
+      - クリスマス
+  -
+    title: P4300329
+    images_flickr: { photo: "13933748299", farm: 3, server: 2902, secret: "da3b6a025d", secret_h: "f4b9c78f0c", secret_k: "7d3fe407f0", secret_o: "46cbf520a4", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/13933748299/"}
+    size: { width_o: 2976, height_o: 3968 }
+    colors: ["white", "blue", "pink"]
+    notes: []
+  -
+    title: IMG_0211
+    images_flickr: { photo: "16649933642", farm: 9, server: 8674, secret: "8ff40122f5", secret_h: "a3c9134a0e", secret_k: "dc978a3e84", secret_o: "8b9a753a15", format_o: "jpg" }
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/16649933642/"}
+    size: { width_o: 4936, height_o: 3291 }
+    colors: ["blue", "pink", "white"]
+    notes: []
+  -
+    title: 5D3R3174
+    images_flickr: { photo: "15226793474", farm: 8, server: 7560, secret: "f07f4554b4", secret_h: "ae70572bb3", secret_k: "f69b48e4ee", secret_o: "3aa1f76732", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15226793474/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white", "blue", "pink", "green", "red", "brown"]
+    notes:
+      - ハーモニーパーク『ハッピークリスマスタイム』
+  -
+    title: 燕尾服
+    images_flickr: { photo: "9332093234", farm: 3, server: 2878, secret: "944b309652", secret_h: "4e4dd31cde", secret_k: "35b8580f2c", secret_o: "baed58d00c", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9332093234/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["grey", "black", "blue", "pink", "white", "yellow", "red", "silver"]
+    notes:
+      - 燕尾服
+  -
+    title: 星空の旅1
+    images_flickr: { photo: "14368109166", farm: 3, server: 2930, secret: "52f5b9028f", secret_h: "14b5d4129a", secret_k: "394fa53407", secret_o: "278841d9d9", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14368109166/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["yellow", "white", "gold", "blue", "pink"]
+    notes:
+      - エンターテイメントホール『星空の旅』の星なし
+  -
+    title: 星空の旅2
+    images_flickr: { photo: "9164287912", farm: 3, server: 2851, secret: "e2de18fba2", secret_h: "e7b6ff2357", secret_k: "f828f6ec2e", secret_o: "056f8cd832", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9164287912/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["yellow", "white", "gold", "blue", "pink"]
+    notes:
+      - エンターテイメントホール『星空の旅』の星あり
+  -
+    title: ノア
+    images_flickr: { photo: "15618212768", farm: 6, server: 5608, secret: "e77a3211af", secret_h: "59f38e6b65", secret_k: "2a68530359", secret_o: "6553878763", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15618212768/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "orange", "yellow", "white", "silver", "gold"]
+    notes:
+      - ハーモニーランドパレード『パレード・ノア』
+  -
+    title: 40周年標準
+    images_flickr: { photo: "27151809131", farm: 8, server: 7640, secret: "5d577b1cd0", secret_h: "231783a689", secret_k: "cf6d2d0d34", secret_o: "ebb96c81f5", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27151809131/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "pink", "yellow", "red", "purple", "green"]
+    notes:
+      - プラザステージ『マイメロディ&リトルツインスターズ 40th アニバーサリータイム』
+  -
+    title: OMOIYARI TO YOU 後期
+    images_flickr: { photo: "24658705240", farm: 2, server: 1629, secret: "c486c808ae", secret_h: "3317a60ec8", secret_k: "43a8d0c1ad", secret_o: "fd0da60d7f", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24658705240/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "pink", "yellow", "white", "green"]
+    notes:
+      - ピューロランドパレード『OMOIYARI TO YOU』
+  -
+    title: HAPPY GIFT CHRISTMAS 初期
+    images_flickr: { photo: "31055552145", farm: 6, server: 5490, secret: "e895b5f9c1", secret_h: "09b52829a1", secret_k: "d0bb74f359", secret_o: "57e495c6e8", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31055552145/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "pink", "yellow", "white", "green", "red", "gold"]
+    notes:
+      - ピューロビレッジ『HAPPY GIFT CHRISTMAS』の初期のみの簡略版で、腰とタイツが異なる
+  -
+    title: HAPPY GIFT CHRISTMAS
+    images_flickr: { photo: "32244384931", farm: 1, server: 552, secret: "d7a7262c7c", secret_h: "a407df10d2", secret_k: "fb68504242", secret_o: "418a4c8222", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32244384931/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "yellow", "blue", "pink", "white", "green", "gold"]
+    notes:
+      - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
+  -
+    title: Miracle Gift Parade
+    images_flickr: { photo: "30901108493", farm: 1, server: 274, secret: "47a725f48d", secret_h: "77bae0e5d2", secret_k: "784a79960d", secret_o: "ec900194ed", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30901108493/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "pink", "red", "green", "yellow", "purple", "gold"]
+    notes:
+      - ピューロランドパレード『Miracle Gift Parade』
