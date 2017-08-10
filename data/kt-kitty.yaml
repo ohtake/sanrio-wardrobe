@@ -1626,6 +1626,13 @@
     notes:
       - 手袋、水玉
   -
+    title: "IMG_6085"
+    images_flickr: { photo: "18641169250", farm: 4, server: 3674, secret: "8271a62abc", secret_h: "931dc6f8f9", secret_k: "56073558df", secret_o: "073a26edf5", format_o: "jpg" }
+    source: { author: "peridot yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/18641169250"}
+    size: { width_o: 3456, height_o: 5184 }
+    colors: ["pink", "white", "yellow", "green", "purple"]
+    notes: []
+  -
     title: "5D3X9886"
     images_flickr: { photo: "26117133231", farm: 2, server: 1456, secret: "24de6de19d", secret_h: "d579aa70a7", secret_k: "a2cbc66840", secret_o: "62eeea123a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26117133231"}

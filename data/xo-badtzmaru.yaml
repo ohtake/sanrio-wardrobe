@@ -128,6 +128,13 @@
     colors: ["green", "red", "orange", "white"]
     notes: []
   -
+    title: "IMG_5484"
+    images_flickr: { photo: "21568118660", farm: 6, server: 5744, secret: "a501bf7f45", secret_h: "bf9fca3bec", secret_k: "ed9bba3207", secret_o: "77ba7fb60b", format_o: "jpg" }
+    source: { author: "peridot yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/21568118660/"}
+    size: { width_o: 4000, height_o: 6000 }
+    colors: ["green", "red", "orange", "white"]
+    notes: []
+  -
     title: "5D3Z6814"
     images_flickr: { photo: "28296915253", farm: 9, server: 8065, secret: "340cbf2e46", secret_h: "8f0815590c", secret_k: "e99e381a85", secret_o: "e970f7940a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28296915253/"}
