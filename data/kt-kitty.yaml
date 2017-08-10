@@ -2572,7 +2572,7 @@
     images_instagram: { shortcode: "b9ax-TlD4k", width_t: 150, width_m: 320, width_l: 612 }
     source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/b9ax-TlD4k/"}
     size: { width_o: 612, height_o: 612 }
-    colors: ["pink", "white", "green", "yello", "black"]
+    colors: ["pink", "white", "green", "yellow", "black"]
     notes:
       - アメリカ
   -
