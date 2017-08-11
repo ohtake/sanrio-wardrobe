@@ -9,6 +9,14 @@
       - 初期衣装
       - 郵便、配達、バッグ
   -
+    title: "七夕ハッピープリズム"
+    images_instagram: { shortcode: "BXo084Qnu9C", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo084Qnu9C/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["red", "pink", "yellow", "blue", "green", "purple"]
+    notes:
+      - 知恵の木ステージ『メルの七夕ハッピープリズム スペシャルグリーティング』
+  -
     title: "花粉症マスク"
     images_flickr: { photo: "13189994893", farm: 3, server: 2373, secret: "567f98eb95", secret_h: "3e4c79e5b4", secret_k: "2782e28923", secret_o: "84b6791743", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13189994893/"}

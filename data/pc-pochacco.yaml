@@ -62,8 +62,22 @@
     colors: ["purple", "yellow", "red", "pink", "blue", "green"]
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
-# SIきっとゼッケン5D3A5498
-# SIきっとはちまき5D3B5636
+  -
+    title: きっとうまくいくよ1
+    images_instagram: { shortcode: "BXo13ZBngas", width_t: 150, width_m: 320, width_l: 720 }
+    source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo13ZBngas/"}
+    size: { width_o: 720, height_o: 900 }
+    colors: ["yellow", "black", "red", "white", "silver", "brown"]
+    notes:
+      - 知恵の木ステージ『シュガーバニーズのきっとうまくいくよ！』1着目
+  -
+    title: きっとうまくいくよ2
+    images_instagram: { shortcode: "BXo2LpMnN_8", width_t: 150, width_m: 320, width_l: 720 }
+    source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo2LpMnN_8/"}
+    size: { width_o: 720, height_o: 900 }
+    colors: ["red", "white", "black", "gold", "silver", "brown"]
+    notes:
+      - 知恵の木ステージ『シュガーバニーズのきっとうまくいくよ！』2着目
   -
     title: きっとうまくいくよ2・鉢巻なし
     images_flickr: { photo: "16062479492", farm: 8, server: 7561, secret: "66cc73233e", secret_h: "2c1f99ab7d", secret_k: "93eabe5d41", secret_o: "735fccb491", format_o: "jpg" }
