@@ -211,6 +211,14 @@
     notes:
       - プラザステージ『マイメロディ&リトルツインスターズ 40th アニバーサリータイム』
   -
+    title: IMG_8968
+    images_flickr: { photo: "24556802603", farm: 2, server: 1695, secret: "676e40e18f", secret_h: "da127499b8", secret_k: "102dc3d6f2" }
+    source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/24556802603/"}
+    size: { width_o: 1365, height_o: 2048 }
+    colors: ["blue", "pink", "yellow", "red", "purple", "green"]
+    notes:
+      - マフラーグリ
+  -
     title: OMOIYARI TO YOU 後期
     images_flickr: { photo: "24658705240", farm: 2, server: 1629, secret: "c486c808ae", secret_h: "3317a60ec8", secret_k: "43a8d0c1ad", secret_o: "fd0da60d7f", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24658705240/"}

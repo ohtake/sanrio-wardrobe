@@ -67,6 +67,14 @@
     notes:
       - ディスカバリシアター『シナモンのひみつの扉』最初
   -
+    title: IMG_7779
+    images_flickr: { photo: "25119039685", farm: 2, server: 1683, secret: "0d66721177", secret_h: "31c107335a", secret_k: "ef2d846a82" }
+    source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/25119039685"}
+    size: { width_o: 2048, height_o: 1365 }
+    colors: ["pink", "red", "purple", "yellow", "white"]
+    notes:
+      - マフラーグリ
+  -
     title: ひみつの扉・ファッションショー
     images_flickr: { photo: "13062308394", farm: 4, server: 3415, secret: "354fd902c8", secret_h: "288e8b92db", secret_k: "3f1886d4cf", secret_o: "aa76cd4ab6", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13062308394/"}

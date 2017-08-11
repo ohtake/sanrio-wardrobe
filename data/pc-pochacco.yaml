@@ -118,6 +118,14 @@
     colors: ["green", "red", "orange", "blue", "white"]
     notes: []
   -
+    title: 着物
+    images_flickr: { photo: "36366941321", farm: 5, server: 4431, secret: "243ffea001", secret_h: "ed1a86f3ce", secret_k: "f22dd84292", secret_o: "2580031a4a", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36366941321/"}
+    size: { width_o: 2163, height_o: 2884 }
+    colors: ["yellow", "blue", "green", "purple", "red"]
+    notes:
+      - 着物、和服
+  -
     title: 燕尾服
     images_flickr: { photo: "32273094413", farm: 3, server: 2098, secret: "716dfed90f", secret_h: "b631597565", secret_k: "1c3f7e9f53", secret_o: "72767aaa31", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32273094413/"}

@@ -12,6 +12,14 @@
       - 外部イベント『ルビー・ラブラのジュエルペットとあそぼう！』
       - 外部イベント『ハローキティ&ルビーの魔法のクリスマス』
   -
+    title: IMG_7779
+    images_flickr: { photo: "24951160221", farm: 2, server: 1485, secret: "783334ed11", secret_h: "a74853b206", secret_k: "4fa3c39a6e" }
+    source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/24951160221/"}
+    size: { width_o: 1365, height_o: 2048 }
+    colors: ["pink", "red", "green", "white", "blue"]
+    notes:
+      - マフラーグリ
+  -
     title: リリーボンボンズのマーチングパレード
     images_flickr: { photo: "13908777890", farm: 8, server: 7418, secret: "747fc43ed4", secret_h: "667c0bd2bf", secret_k: "6e56d0a69c", secret_o: "d5d875aa99", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13908777890/"}

@@ -136,6 +136,14 @@
     colors: ["green", "red", "orange", "white"]
     notes: []
   -
+    title: "IMG_9053"
+    images_flickr: { photo: "25183649395", farm: 2, server: 1447, secret: "4366eee0d5", secret_h: "e794a0b018", secret_k: "2045919496" }
+    source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/25183649395/"}
+    size: { width_o: 2048, height_o: 1365 }
+    colors: ["green", "red", "orange", "white", "blue"]
+    notes:
+      - マフラーグリ
+  -
     title: "IMG_5484"
     images_flickr: { photo: "21568118660", farm: 6, server: 5744, secret: "a501bf7f45", secret_h: "bf9fca3bec", secret_k: "ed9bba3207", secret_o: "77ba7fb60b", format_o: "jpg" }
     source: { author: "peridot yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/21568118660/"}
@@ -332,3 +340,11 @@
     colors: ["purple", "orange", "pink", "brown"]
     notes:
       - 雨合羽
+  -
+    title: "メロディ頭巾"
+    images_flickr: { photo: "36458011746", farm: 5, server: 4376, secret: "4d1ee1bfd1", secret_o: "f88aae1ed9", format_o: "jpg", before: "20100525" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36458011746/"}
+    size: { width_o: 640, height_o: 480 }
+    colors: ["pink", "white", "yellow"]
+    notes:
+      - メロディ頭巾
