@@ -173,13 +173,22 @@
       - 外部イベント『キティ&シナモンのワンダーステージ』
       - 外部イベント『キティズパラダイス』
   -
-    title: 袴
+    title: 袴・多摩
     images_flickr: { photo: "25116952546", farm: 2, server: 1541, secret: "55bc28479c", secret_h: "dd3ae1e395", secret_k: "898c2ea012", secret_o: "df8caf1de6", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25116952546/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "pink", "green", "yellow", "purple", "grey"]
     notes:
       - 袴、和服
+  -
+    title: 袴・日出
+    images_flickr: { photo: "23603183113", farm: 2, server: 1606, secret: "c324318861", secret_h: "10bd6a77bf", secret_k: "12d9a05bdf" }
+    source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/23603183113/"}
+    size: { width_o: 1365, height_o: 2048 }
+    colors: ["blue", "pink", "green", "yellow", "purple", "grey"]
+    notes:
+      - 袴、和服
+      - 襟の構造が異なる
   -
     title: イースター
     images_flickr: { photo: "8826283092", farm: 6, server: 5334, secret: "87f4d7bcc6", secret_h: "7b936b2cfe", secret_k: "ba20369482", secret_o: "0aecd6cf54", format_o: "jpg" }
