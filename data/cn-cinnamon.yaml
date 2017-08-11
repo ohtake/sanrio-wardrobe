@@ -15,6 +15,17 @@
     notes:
       - 正月、みかん
   -
+    title: クリスマスILLUMINANT
+    images_flickr: { photo: "15764680188", farm: 8, server: 7478, secret: "e33cfa3dfd", secret_h: "4b1c9ed2ce", secret_k: "b5a6da8e19", secret_o: "d50e9caed3", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15764680188/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "white", "gold"]
+    notes:
+      - ピューロランドパレード『クリスマスILLUMINANT』
+      - ピューロランドパレード『星空の Happy Party Christmas』
+      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
+      - クリスマス
+  -
     title: Believe
     images_flickr: { photo: "16950652640", farm: 9, server: 8733, secret: "6ea6ee9d9e", secret_h: "9116c22730", secret_k: "e94cafa92b", secret_o: "bd8ec63c83", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16950652640/"}
@@ -22,16 +33,6 @@
     colors: ["pink", "green", "red", "white", "gold"]
     notes:
       - ピューロランドパレード『Believe』
-  -
-    title: Happy Party Christmas
-    images_flickr: { photo: "15764680188", farm: 8, server: 7478, secret: "e33cfa3dfd", secret_h: "4b1c9ed2ce", secret_k: "b5a6da8e19", secret_o: "d50e9caed3", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15764680188/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "white", "gold"]
-    notes:
-      - ピューロランドパレード『星空の Happy Party Christmas』
-      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
-      - クリスマス
   -
     title: ARIGATO EVERYONE
     images_flickr: { photo: "10671714516", farm: 4, server: 3804, secret: "66abb18aae", secret_h: "2f7a609cb0", secret_k: "9a615eb239", secret_o: "91debaf980", format_o: "jpg" }
@@ -171,6 +172,134 @@
     notes:
       - 外部イベント『キティ&シナモンのワンダーステージ』
       - 外部イベント『キティズパラダイス』
+  -
+    title: 袴
+    images_flickr: { photo: "25116952546", farm: 2, server: 1541, secret: "55bc28479c", secret_h: "dd3ae1e395", secret_k: "898c2ea012", secret_o: "df8caf1de6", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25116952546/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "pink", "green", "yellow", "purple", "grey"]
+    notes:
+      - 袴、和服
+  -
+    title: イースター
+    images_flickr: { photo: "8826283092", farm: 6, server: 5334, secret: "87f4d7bcc6", secret_h: "7b936b2cfe", secret_k: "ba20369482", secret_o: "0aecd6cf54", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8826283092/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "green", "yellow", "red", "purple", "white", "orange", "pink"]
+    notes:
+      - イースター
+  -
+    title: イースターセレブレーションパレード
+    images_flickr: { photo: "34076128026", farm: 4, server: 3929, secret: "95cb5faed4", secret_h: "33173585f9", secret_k: "6176765c34", secret_o: "2b06eb6fd3", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34076128026/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "green", "yellow", "red", "purple", "white", "orange", "pink"]
+    notes:
+      - ピューロビレッジ『イースターセレブレーションパレード』
+      - 右頭と左腹に卵が追加
+  -
+    title: 浴衣
+    images_flickr: { photo: "9382757138", farm: 4, server: 3819, secret: "f216d3f631", secret_h: "1acc83a5fe", secret_k: "402909ca80", secret_o: "fe1b87ee2a", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9382757138/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "green", "white", "red", "purple"]
+    notes:
+      - 浴衣、和服、朝顔
+  -
+    title: 夏祭り
+    images_flickr: { photo: "14893422869", farm: 4, server: 3876, secret: "2a726bc325", secret_h: "314b4bf851", secret_k: "bd7a4e8128", secret_o: "c443499e2d", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14893422869/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["black", "yellow", "blue", "red", "silver", "gold"]
+    notes:
+      - 法被、和服、鉢巻
+  -
+    title: 夏フェス
+    images_flickr: { photo: "14827152008", farm: 4, server: 3901, secret: "be4789e5ac", secret_h: "851a7ac15a", secret_k: "c3cdfe1fb6", secret_o: "a10440af58", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14827152008/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "white", "orange", "red"]
+    notes:
+      - ピューロランドパレード『夏フェス☆マーチングパレード』
+      - ピューロランドパレード『夏祭りマーチングパレード』
+      - ピューロランドパレード『夜祭りマーチングパレード』
+      - 法被、和服、花火
+  -
+    title: ハロウィン
+    images_flickr: { photo: "10227801194", farm: 4, server: 3687, secret: "e11d8accea", secret_h: "0dc5f534a6", secret_k: "d9be3d9ee6", secret_o: "5af5490355", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10227801194/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["purple", "black", "orange", "pink", "yellow", "silver"]
+    notes:
+      - ピューロランドパレード『ハロウィンマーチングパレード』
+      - ハーモニーパーク『ハッピーハロウィーンタイム』
+  -
+    title: 柊
+    images_flickr: { photo: "11529841053", farm: 6, server: 5499, secret: "016a46ea13", secret_h: "ab8a4efba9", secret_k: "25f84bc91c", secret_o: "4d30c35348", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11529841053/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "green", "gold", "brown", "white"]
+    notes:
+      - ピューロランドパレード『クリスマスILLUMINANT』
+      - クリスマス、柊、ベル
+  -
+    title: 三色マフラー
+    images_instagram: { shortcode: "BXppzluHh6H", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXppzluHh6H/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["red", "green", "white"]
+    notes:
+      - クリスマス、マフラー
+  -
+    title: 青リボン長
+    images_flickr: { photo: "26233487112", farm: 2, server: 1498, secret: "a26c081cf1", secret_h: "9f75564d56", secret_k: "de9c989c86", secret_o: "a41406ac28", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26233487112/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "yellow", "gold", "silver"]
+    notes:
+      - クリスマス、青リボン
+  -
+    title: 青リボン長・ブレスレット付き
+    images_instagram: { shortcode: "BXpsaREHiPg", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpsaREHiPg/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["blue", "yellow", "gold", "silver"]
+    notes:
+      - クリスマス、青リボン
+      - 光るブレスレット付き
+  -
+    title: 青リボン短
+    images_flickr: { photo: "16170883302", farm: 9, server: 8600, secret: "0967cec54a", secret_h: "e0bbff7446", secret_k: "341f72483f", secret_o: "d33003b0a0", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16170883302/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "yellow", "green", "silver"]
+    notes:
+      - クリスマス、青リボン
+  -
+    title: HAPPY GIFT CHRISTMAS 初期
+    images_flickr: { photo: "31055599905", farm: 6, server: 5705, secret: "18ea585a09", secret_h: "170c9def4a", secret_k: "b239accfab", secret_o: "0396d215be", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31055599905/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "green", "white", "gold"]
+    notes:
+       - ピューロビレッジ『HAPPY GIFT CHRISTMAS』初期
+  -
+    title: HAPPY GIFT CHRISTMAS
+    images_flickr: { photo: "30869407084", farm: 1, server: 721, secret: "d1ce300e0e", secret_h: "6b65b1b78e", secret_k: "6e5ab18f5d", secret_o: "7c3e365bf8", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30869407084/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "green", "white", "gold"]
+    notes:
+       - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
+       - カップに装飾が追加
+  -
+    title: ハートフルクリスマス
+    images_flickr: { photo: "32026408480", farm: 1, server: 695, secret: "f532d49d90", secret_h: "33222330c5", secret_k: "4de5ece461", secret_o: "908baf4b7a", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32026408480/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "white"]
+    notes:
+      - 外部イベント『ハローキティのハートフルクリスマス』
   -
     title: 燕尾服
     images_flickr: { photo: "14834279881", farm: 6, server: 5556, secret: "f7ea11d705", secret_h: "79305cf7e7", secret_k: "5da944f2cb", secret_o: "4cea436002", format_o: "jpg" }
@@ -332,6 +461,22 @@
     notes:
       - ハーモニーパーク『ハッピークリスマスタイム』
       - クリスマス、雪、ベル
+  -
+    title: IMG_1350
+    images_flickr: { photo: "16006684020", farm: 8, server: 7543, secret: "98dda62dd8", secret_h: "206547da63", secret_k: "191b3b3c1c", secret_o: "c1ce1524d2", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16006684020/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["red", "silver", "white"]
+    notes:
+      - クリスマス
+  -
+    title: IMG_5675
+    images_flickr: { photo: "24161155742", farm: 2, server: 1561, secret: "352fc52c3c", secret_h: "2cc7b55ad5", secret_k: "6243110ebe", secret_o: "04c9e0347c", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/24161155742/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["yellow", "red", "silver", "white"]
+    notes:
+      - クリスマス、マフラー追加
   -
     title: 品川紋次郎
     images_flickr: { photo: "35116063576", farm: 5, server: 4255, secret: "dd94544eb7", secret_h: "bc01707e0f", secret_k: "4faecbec24", secret_o: "19bd458929", format_o: "jpg" }
