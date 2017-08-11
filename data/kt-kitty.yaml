@@ -1915,6 +1915,13 @@
       - ピューロランドパレード『レジェンド・オブ・シリウス』3着目
       - スパンコール
   -
+    title: "IMG_0897"
+    images_flickr: { photo: "11741858395", farm: 6, server: 5546, secret: "35d12ebc19", secret_h: "ffb0ffad58", secret_k: "fa00c6fd08", secret_o: "f94a6306f3", format_o: "jpg" }
+    source: { author: "yoshi", license: "", url: "https://www.flickr.com/photos/110556107@N06/11741858395"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["red", "silver", "blue"]
+    notes: []
+  -
     title: "1N0A3311"
     images_flickr: { photo: "28002987681", farm: 8, server: 7486, secret: "40c0c2a15e", secret_h: "d3d665772e", secret_k: "ce7301bc2d", secret_o: "8701120f8b", format_o: "jpg" }
     source: { author: "yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/28002987681"}

@@ -245,6 +245,21 @@
     notes:
       - 和服
   -
+    title: "IMG_1986"
+    images_flickr: { photo: "11764403703", farm: 3, server: 2830, secret: "5a56debf59", secret_h: "c3ed90d8b8", secret_k: "8f824eaf90", secret_o: "0f2f69ff4e", format_o: "jpg" }
+    source: { author: "yoshi", license: "", url: "https://www.flickr.com/photos/110556107@N06/11764403703/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["gold", "green", "black"]
+    notes:
+      - XO
+  -
+    title: "IMG_0801"
+    images_flickr: { photo: "11742835086", farm: 4, server: 3816, secret: "332b86e6cb", secret_h: "f9c581e5d0", secret_k: "021da2fdf4", secret_o: "44a107c648", format_o: "jpg" }
+    source: { author: "yoshi", license: "", url: "https://www.flickr.com/photos/110556107@N06/11742835086/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["gold", "white", "silver", "green"]
+    notes: []
+  -
     title: "53AD8349"
     images_flickr: { photo: "33138677393", farm: 3, server: 2830, secret: "24e683116b", secret_h: "a3e862d5bf", secret_k: "9d16306337", secret_o: "4176ef122a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33138677393/"}
