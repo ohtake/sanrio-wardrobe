@@ -1,0 +1,25 @@
+---
+  -
+    title: C-MON
+    images_instagram: { shortcode: "BXo3ljhnCcl", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo3ljhnCcl/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["grey", "silver", "blue", "gold"]
+    notes:
+      - ディスカバリシアター『ジュエルペットとシナモンのみらいレボリューション！』
+  -
+    title: 鏡餅
+    images_flickr: { photo: "12145990275", farm: 4, server: 3772, secret: "b5b7e8d715", secret_h: "48365a3ccc", secret_k: "196bbf9cee", secret_o: "b663607dda", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12145990275/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["yellow", "red", "green", "gold"]
+    notes:
+      - 正月、みかん
+  -
+    title: 品川紋次郎
+    images_flickr: { photo: "35116063576", farm: 5, server: 4255, secret: "dd94544eb7", secret_h: "bc01707e0f", secret_k: "4faecbec24", secret_o: "19bd458929", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35116063576/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "white", "green", "pink"]
+    notes:
+      - 和服、袴、団子
