@@ -253,6 +253,38 @@
     notes:
       - XO
   -
+    title: "060701-HarmonyLand_KittyShow14"
+    images_flickr: { photo: "186229717", farm: 1, server: 56, secret: "e4ca431607", secret_o: "e4ca431607", format_o: "jpg", before: "20120301" }
+    source: { author: "Julie Chen", license: "", url: "https://www.flickr.com/photos/bestrurumi/186229717/"}
+    size: { width_o: 2240, height_o: 1680 }
+    colors: ["black", "brown", "white", "pink"]
+    notes:
+      - フェスティバルステージ
+  -
+    title: "060701-HarmonyLand_KittyShow25"
+    images_flickr: { photo: "186230003", farm: 1, server: 60, secret: "ac08464d8f", secret_o: "ac08464d8f", format_o: "jpg", before: "20120301" }
+    source: { author: "Julie Chen", license: "", url: "https://www.flickr.com/photos/bestrurumi/186230003/"}
+    size: { width_o: 2240, height_o: 1680 }
+    colors: ["gold", "white", "black"]
+    notes:
+      - フェスティバルステージ
+  -
+    title: "060701-HarmonyLand_KittyShow49"
+    images_flickr: { photo: "186230584", farm: 1, server: 59, secret: "e5c903405a", secret_o: "e5c903405a", format_o: "jpg", before: "20100525" }
+    source: { author: "Julie Chen", license: "", url: "https://www.flickr.com/photos/bestrurumi/186230584/"}
+    size: { width_o: 640, height_o: 480 }
+    colors: ["black", "white", "pink"]
+    notes:
+      - フェスティバルステージ
+  -
+    title: "060701-HarmonyLand_KittyShow55"
+    images_flickr: { photo: "186230908", farm: 1, server: 59, secret: "d3609cb120", secret_o: "d3609cb120", format_o: "jpg", before: "20100525" }
+    source: { author: "Julie Chen", license: "", url: "https://www.flickr.com/photos/bestrurumi/186230908/"}
+    size: { width_o: 640, height_o: 480 }
+    colors: ["silver", "blue", "red", "white"]
+    notes:
+      - フェスティバルステージ
+  -
     title: "IMG_0801"
     images_flickr: { photo: "11742835086", farm: 4, server: 3816, secret: "332b86e6cb", secret_h: "f9c581e5d0", secret_k: "021da2fdf4", secret_o: "44a107c648", format_o: "jpg" }
     source: { author: "yoshi", license: "", url: "https://www.flickr.com/photos/110556107@N06/11742835086/"}

@@ -99,6 +99,14 @@
     notes:
       - ピューロランドパレード『リリーボンボンズのマーチングパレード』
   -
+    title: パレード・ノア
+    images_flickr: { photo: "3430088292", farm: 4, server: 3537, secret: "24e6c02bb5", before: "20120301" }
+    source: { author: "Astronaut Chicken", license: "", url: "https://www.flickr.com/photos/astronautchicken/3430088292/"}
+    size: { width_o: 1024, height_o: 768 }
+    colors: ["white", "red", "blue"]
+    notes:
+      - ハーモニーランドパレード『パレード・ノア』
+  -
     title: パレード・アクア
     images_flickr: { photo: "14722797104", farm: 3, server: 2899, secret: "9ab8b231aa", secret_h: "fb7f6746c8", secret_k: "b6b933dfd9", secret_o: "73c33e07dc", format_o: "jpg" }
     source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14722797104/"}
