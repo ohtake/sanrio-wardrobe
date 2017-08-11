@@ -200,6 +200,13 @@
     colors: ["white", "green", "gold", "orange", "pink", "yellow", "red", "purple"]
     notes: []
   -
+    title: IMG_1414
+    images_flickr: { photo: "16006715448", farm: 8, server: 7562, secret: "8c77edacfe", secret_h: "ccd7672b54", secret_k: "96e5182f35", secret_o: "ae7f020cce", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16006715448/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["gold", "red", "silver", "white", "black"]
+    notes: []
+  -
     title: 八千代銀行
     images_flickr: { photo: "11353831735", farm: 6, server: 5507, secret: "8fc2e4270b", secret_h: "cf28299cb5", secret_k: "64d8fbe486", secret_o: "7dfa5aa8bc", format_o: "jpg" }
     source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/ohtake_tomohiro/11353831735/"}

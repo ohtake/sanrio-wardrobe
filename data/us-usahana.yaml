@@ -111,7 +111,14 @@
     images_flickr: { photo: "14127324961", farm: 3, server: 2921, secret: "b3e6dd4ed0", secret_h: "5a26a5cb92", secret_k: "341f487297", secret_o: "007f4c7bb3", format_o: "jpg" }
     source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14127324961/"}
     size: { width_o: 3456, height_o: 5184 }
-    colors: ["red", "white", "yellow"]
+    colors: ["red", "white", "yellow", "orange"]
+    notes: []
+  -
+    title: IMG_1408
+    images_flickr: { photo: "16194161285", farm: 8, server: 7517, secret: "061b3a4ccf", secret_h: "bcbd0b5b59", secret_k: "fa61307dce", secret_o: "faa1e4e109", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16194161285/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["red", "white", "pink", "orange"]
     notes: []
   -
     title: 西遊記1
