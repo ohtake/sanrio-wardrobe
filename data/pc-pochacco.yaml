@@ -16,7 +16,7 @@
   -
     title: ILLUMINANT・帽子なし
     images_flickr: { photo: "32706017750", farm: 1, server: 584, secret: "b360f2d594", secret_h: "efe12c5397", secret_k: "2add458ce1", secret_o: "3102842074", format_o: "jpg" }
-    source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/ohtake_tomohiro/32706017750/"}
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32706017750/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "white", "pink"]
     notes:
@@ -209,7 +209,7 @@
   -
     title: 八千代銀行
     images_flickr: { photo: "11353831735", farm: 6, server: 5507, secret: "8fc2e4270b", secret_h: "cf28299cb5", secret_k: "64d8fbe486", secret_o: "7dfa5aa8bc", format_o: "jpg" }
-    source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/ohtake_tomohiro/11353831735/"}
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11353831735/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "yellow", "white", "green"]
     notes: []
