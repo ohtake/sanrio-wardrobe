@@ -242,3 +242,14 @@
     colors: ["blue", "pink", "red", "green", "yellow", "purple", "gold"]
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
+# パレードパラレル オリジナル
+# パレードパラレル ハロウィーン
+  -
+    title: パレードパラレル クリスマス
+    images_flickr: { photo: "33752376276", farm: 3, server: 2869, secret: "858959b856", secret_h: "52a2e1fc45", secret_k: "57c9da680e", secret_o: "8463ef38c0", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/33752376276/"}
+    size: { width_o: 3467, height_o: 2600 }
+    colors: ["red", "white", "green", "gold", "blue"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
+# パレードパラレル イースター

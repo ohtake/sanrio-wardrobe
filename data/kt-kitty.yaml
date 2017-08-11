@@ -618,6 +618,14 @@
       - 前掛け付き
       - 着物、和服、梅
   -
+    title: "P1010673"
+    images_flickr: { photo: "12385602635", farm: 4, server: 3792, secret: "3870bc1e32", secret_h: "720d8156cb", secret_k: "8328a60678", secret_o: "0ab7f61d68", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/12385602635/"}
+    size: { width_o: 3968, height_o: 2976 }
+    colors: ["red", "green", "pink", "orange", "white", "gold"]
+    notes:
+      - 着物、和服、梅
+  -
     title: "高幡不動尊豆撒式"
     images_flickr: { photo: "32788005656", farm: 3, server: 2447, secret: "d92664e9bb", secret_h: "cb1306555d", secret_k: "62f72ca452", secret_o: "373b5e7cf8", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32788005656/"}

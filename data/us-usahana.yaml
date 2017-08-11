@@ -15,6 +15,14 @@
     notes:
       - 靴にウェルトがある
   -
+    title: 正月
+    images_flickr: { photo: "12385333075", farm: 8, server: 7311, secret: "9295beae52", secret_h: "64d3b79937", secret_k: "921102c766", secret_o: "49b09d59ed", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/113478073@N02/12385333075/"}
+    size: { width_o: 3968, height_o: 2976 }
+    colors: ["red", "white", "pink", "orange", "green"]
+    notes:
+      - 耳と胸に飾りが追加
+  -
     title: Believe
     images_flickr: { photo: "9459980076", farm: 4, server: 3823, secret: "cd2b300902", secret_h: "3d12ed7c3f", secret_k: "e8a3b55195", secret_o: "6d12cb4959", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9459980076/"}
