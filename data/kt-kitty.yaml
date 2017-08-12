@@ -1478,11 +1478,11 @@
       - イギリス Hello Kitty Live
       - チア
   -
-    title: "5D3C6876 (1440x960)"
-    images_picasa: { lh: 3, dirs: "-mm6TfngD1fk/UREcMYJAMUI/AAAAAAAAJrE/kaB5xYqD-oU", file: "5D3C6876%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/XTneiWGB4usTSJZzS7IMENMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1440, height_o: 960 }
-    colors: ["blue", "white", "pink"]
+    title: "53AG5878"
+    images_flickr: { photo: "36463276026", farm: 5, server: 4437, secret: "82ab916ce7", secret_h: "399f5d7721", secret_k: "61965ce1fc", secret_o: "ecd780b342", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36463276026/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "pink", "white", "yellow"]
     notes:
       - 外部イベント『ハローキティのハッピーキャラバン!』
       - チア
@@ -2431,6 +2431,7 @@
     colors: ["pink", "white", "red", "black"]
     notes:
       - アメリカ Los Angeles Angels
+      - アメリカ Milwaukee Brewers
       - 野球、帽子
   -
     title: "New York Yankees"
