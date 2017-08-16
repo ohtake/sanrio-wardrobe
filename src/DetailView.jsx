@@ -15,6 +15,7 @@ import NavigationArrowBack from 'material-ui/svg-icons/navigation/arrow-back';
 import NavigationChevronLeft from 'material-ui/svg-icons/navigation/chevron-left';
 import NavigationChevronRight from 'material-ui/svg-icons/navigation/chevron-right';
 import NavigationFullscreen from 'material-ui/svg-icons/navigation/fullscreen';
+import NavigationFullscreenExit from 'material-ui/svg-icons/navigation/fullscreen-exit';
 import NavigationMoreVert from 'material-ui/svg-icons/navigation/more-vert';
 
 import AutoLockScrolling from 'material-ui/internal/AutoLockScrolling';
@@ -251,6 +252,7 @@ export default class DetailView extends React.Component {
           {floatingIcon(<NavigationChevronLeft />, false, true, this.movePrev)}
           {floatingIcon(<NavigationChevronRight />, false, false, this.moveNext)}
           {this.state.showInfo ? null : floatingIcon(<NavigationArrowBack />, true, true, this.closeDetailView)}
+          {this.state.showInfo ? null : floatingIcon(<NavigationFullscreenExit />, true, false, this.toggleInfo)}
         </div>
       </Drawer>
     );
