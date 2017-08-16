@@ -64,12 +64,20 @@
       - ピューロランドパレード『OMOIYARI TO YOU』
   -
     title: Miracle Gift Parade
-    images_flickr: { photo: "27562444876", farm: 8, server: 7101, secret: "c2cd381367", secret_h: "9ed389d77b", secret_k: "c00f8d0add", secret_o: "43106fb8ed", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27562444876/"}
-    size: { width_o: 5760, height_o: 3840 }
+    images_flickr: { photo: "32765747765", farm: 1, server: 577, secret: "378f9b2713", secret_h: "049625463a", secret_k: "3cfc13d9ce", secret_o: "b7dc2ba28a", format_o: "jpg" }
+    source: { author: "hyouna", license: "", url: "https://www.flickr.com/photos/hyouna0229/32765747765/"}
+    size: { width_o: 2976, height_o: 3968 }
     colors: ["purple", "yellow", "red", "pink", "blue", "green"]
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
+  -
+    title: 虹色のパーティ2
+    images_flickr: { photo: "36562908786", farm: 5, server: 4397, secret: "ebfd2dac5c", secret_h: "44841307b0", secret_k: "8b58a2b120", secret_o: "3bcbe81d14", format_o: "jpg" }
+    source: { author: "hyouna", license: "", url: "https://www.flickr.com/photos/hyouna0229/36562908786/"}
+    size: { width_o: 1536, height_o: 2048 }
+    colors: ["red", "pink", "orange", "yellow", "green", "blue", "purple", "white"]
+    notes:
+      - 知恵の木ステージ『ウサハナの虹色のパーティ』2着目
   -
     title: きっとうまくいくよ1
     images_instagram: { shortcode: "BXo13ZBngas", width_t: 150, width_m: 320, width_l: 720 }
