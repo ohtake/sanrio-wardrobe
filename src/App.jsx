@@ -120,7 +120,7 @@ class App extends React.Component {
         iconElementRight={
           <IconMenu iconButtonElement={<IconButton><ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
             <List>
-              <ListItem leftIcon={<ImageColorLens />} onTouchTap={this.handleThemeToggle}>
+              <ListItem leftIcon={<ImageColorLens />} onClick={this.handleThemeToggle}>
                 <Toggle ref={(c) => { this.theme = c; }} label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
               </ListItem>
               <ListItem leftIcon={<ImagePhotoSizeSelectLarge />}>
@@ -128,7 +128,7 @@ class App extends React.Component {
                 <Slider ref={(c) => { this.thumbnailSize = c; }} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
               </ListItem>
               <Divider />
-              <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onTouchTap={utils.openFeedback} />
+              <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />
             </List>
           </IconMenu>
         }
