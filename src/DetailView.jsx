@@ -193,7 +193,7 @@ export default class DetailView extends React.Component {
       const containerStyle = { position: 'absolute' };
       if (isTop) { containerStyle.top = 0; } else { containerStyle.bottom = 0; }
       if (isLeft) { containerStyle.left = 0; } else { containerStyle.right = 0; }
-      return <div style={containerStyle}><IconButton onTouchTap={handler} iconStyle={navIconStyle} style={navButtonStyle}>{iconElement}</IconButton></div>;
+      return <div style={containerStyle}><IconButton onClick={handler} iconStyle={navIconStyle} style={navButtonStyle}>{iconElement}</IconButton></div>;
     }
 
     return (
@@ -211,7 +211,7 @@ export default class DetailView extends React.Component {
             <AppBar
               style={{ height: '72px' }}
               titleStyle={{ height: '100px' }}
-              iconElementLeft={<IconButton onTouchTap={this.closeDetailView}><NavigationArrowBack /></IconButton>}
+              iconElementLeft={<IconButton onClick={this.closeDetailView}><NavigationArrowBack /></IconButton>}
               title={
                 <div>
                   <div style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>{main.data.title}</div>
@@ -220,12 +220,12 @@ export default class DetailView extends React.Component {
               iconElementRight={
                 <IconMenu iconButtonElement={<IconButton><NavigationMoreVert /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
                   <List>
-                    <ListItem primaryText="Open image source" leftIcon={<ActionOpenInBrowser />} secondaryText="Tap the credit" onTouchTap={this.openImageSource} />
-                    <ListItem primaryText="Fullscreen" leftIcon={<NavigationFullscreen />} secondaryText="Tap the image" onTouchTap={this.toggleInfo} />
-                    <ListItem primaryText="Move Previous" leftIcon={<NavigationChevronLeft />} secondaryText="Swipe right / Left key" onTouchTap={this.movePrev} />
-                    <ListItem primaryText="Move Next" leftIcon={<NavigationChevronRight />} secondaryText="Swipe left / Right key" onTouchTap={this.moveNext} />
+                    <ListItem primaryText="Open image source" leftIcon={<ActionOpenInBrowser />} secondaryText="Tap the credit" onClick={this.openImageSource} />
+                    <ListItem primaryText="Fullscreen" leftIcon={<NavigationFullscreen />} secondaryText="Tap the image" onClick={this.toggleInfo} />
+                    <ListItem primaryText="Move Previous" leftIcon={<NavigationChevronLeft />} secondaryText="Swipe right / Left key" onClick={this.movePrev} />
+                    <ListItem primaryText="Move Next" leftIcon={<NavigationChevronRight />} secondaryText="Swipe left / Right key" onClick={this.moveNext} />
                     <Divider />
-                    <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onTouchTap={utils.openFeedback} />
+                    <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />
                   </List>
                 </IconMenu>
               }
@@ -233,7 +233,7 @@ export default class DetailView extends React.Component {
             : null}
           <Swipeable
             style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, left: (-this.state.swipingRatio * this.state.menuWidth), width: '100%' }}
-            onTouchTap={this.toggleInfo}
+            onTap={this.toggleInfo}
             onSwiping={this.handleSwiping}
             onSwiped={this.handleSwiped}
           >
