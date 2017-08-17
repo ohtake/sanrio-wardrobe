@@ -132,6 +132,13 @@
     notes:
       - 知恵の木ステージ『シナモンせかい旅行』
   -
+    title: CIMG0238
+    images_flickr: { photo: "35790065834", farm: 5, server: 4364, secret: "496ab9f018", secret_h: "8cf0f33139", secret_o: "b5895e6641", format_o: "jpg" }
+    source: { author: "hyouna", license: "", url: "https://www.flickr.com/photos/hyouna0229/35790065834/"}
+    size: { width_o: 1600, height_o: 1200 }
+    colors: ["green", "white"]
+    notes: []
+  -
     title: タウン・セーラー
     images_instagram: { shortcode: "BXpWqjeH-uU", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpWqjeH-uU/"}
@@ -503,10 +510,10 @@
       - ハーモニーパーク『ハッピークリスマスタイム』
       - クリスマス、雪、ベル
   -
-    title: IMG_1350
-    images_flickr: { photo: "16006684020", farm: 8, server: 7543, secret: "98dda62dd8", secret_h: "206547da63", secret_k: "191b3b3c1c", secret_o: "c1ce1524d2", format_o: "jpg" }
-    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16006684020/"}
-    size: { width_o: 5184, height_o: 3456 }
+    title: IMG_2060
+    images_flickr: { photo: "16481239261", farm: 8, server: 7438, secret: "dc5d745c2f", secret_h: "a4f33f7bae", secret_k: "8b5bdf2f33", secret_o: "634507fcc3", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/16481239261/"}
+    size: { width_o: 3669, height_o: 2752 }
     colors: ["red", "silver", "white"]
     notes:
       - クリスマス
