@@ -71,11 +71,19 @@ const photoPicasa = {
   colors: [],
   notes: [],
 };
-const photoInstagram = {
+const photoInstagramSquare = {
   title: 'Wii Gato (Lipe Sleep)',
   images_instagram: { shortcode: 'fA9uwTtkSN', width_t: 150, width_m: 320, width_l: 640 },
   source: { author: 'diegoquinteiro', license: '', url: 'http://instagr.am/p/fA9uwTtkSN/' },
   size: { width_o: 640, height_o: 640 },
+  colors: [],
+  notes: [],
+};
+const photoInstagramPortrait = {
+  title: 'SI Kitto 1',
+  images_instagram: { shortcode: 'BXo13ZBngas', width_t: 150, width_m: 320, width_l: 720 },
+  source: { author: 'diegoquinteiro', license: '', url: 'https://www.instagram.com/p/BXo13ZBngas/' },
+  size: { width_o: 720, height_o: 900 },
   colors: [],
   notes: [],
 };
@@ -209,11 +217,17 @@ test('Photo#getSrcSet should return for picasa', t => {
 
 /** @test {Photo#getSrcSet} */
 test('Photo#getSrcSet should return for instagram', t => {
-  const photo = new Photo(photoInstagram);
-  t.is(photo.getSrcSet(), [
+  const photoS = new Photo(photoInstagramSquare);
+  t.is(photoS.getSrcSet(), [
     'https://instagram.com/p/fA9uwTtkSN/media/?size=t 150w',
     'https://instagram.com/p/fA9uwTtkSN/media/?size=m 320w',
     'https://instagram.com/p/fA9uwTtkSN/media/?size=l 640w',
+  ].join(', '));
+  const photoP = new Photo(photoInstagramPortrait);
+  t.is(photoP.getSrcSet(), [
+    // should not contain 't' for non-square image
+    'https://instagram.com/p/BXo13ZBngas/media/?size=m 320w',
+    'https://instagram.com/p/BXo13ZBngas/media/?size=l 720w',
   ].join(', '));
 });
 

@@ -160,7 +160,9 @@ export class InstagramSrcsetProvider {
    */
   static getImages(photo) {
     const imgsI = photo.data.images_instagram;
-    return ['t', 'm', 'l'].map((size) => {
+    // 't' has square aspect ratio. Do not use 't' for non-square images.
+    const sizes = photo.getAspectRatio() === 1 ? ['t', 'm', 'l'] : ['m', 'l'];
+    return sizes.map((size) => {
       const url = InstagramSrcsetProvider.createUrl(imgsI.shortcode, size);
       return { url, width: imgsI[`width_${size}`] };
     });
