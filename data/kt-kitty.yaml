@@ -553,8 +553,27 @@
     notes:
       - ピューロランドパレード『夏フェス☆マーチングパレード』
       - ピューロランドパレード『夏祭りマーチングパレード』
-      - ピューロランドパレード『夜祭りマーチングパレード』
+      - ピューロランドパレード『夜祭りマーチングパレード』2016年
+      - エンターテイメントホール『シナモン盆踊り大会』
       - 浴衣ドレス、和服、夏、バラ
+  -
+    title: "53AG7566"
+    images_flickr: { photo: "36577916595", farm: 5, server: 4360, secret: "3465879bce", secret_h: "d2ac5e9a18", secret_k: "e3e6855eb1", secret_o: "55a0873cf5", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36577916595"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "blue", "white"]
+    notes:
+      - ピューロランドパレード『夜祭りマーチングパレード』2017年
+      - 和服、鉢巻
+  -
+    title: "SPARKLE"
+    images_flickr: { photo: "36287635300", farm: 5, server: 4339, secret: "5274cf73af", secret_h: "7c32228f46", secret_k: "f4544152a5", secret_o: "d5b50fe837", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36287635300/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "silver", "purple"]
+    notes:
+      - ピューロビレッジ『ハローキティイルミネーション「SPARKLE!!」』
+      - 羽
   -
     title: "ハロウィン・バンパイア"
     images_flickr: { photo: "9741887827", farm: 8, server: 7426, secret: "90be731ede", secret_h: "4673e42354", secret_k: "985797cd04", secret_o: "161540323f", format_o: "jpg" }
@@ -674,8 +693,17 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "pink", "white", "yellow"]
     notes:
-      - 外部イベント『ハローキティ&ぐでたまのシンギング! ダンシング! クッキング!』
+      - 外部イベント『ハローキティ&ぐでたまのシンギング! ダンシング! クッキング!』初回のみ
       - いちご
+  -
+    title: "シンギング! ダンシング! クッキング!"
+    images_flickr: { photo: "36537970405", farm: 5, server: 4353, secret: "3410abda90", secret_h: "cd4d419b6e", secret_k: "cebadcd156", secret_o: "7bdd37cb05", format_o: "jpg" }
+    source: { author: "peridot yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/36537970405/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "pink", "red", "yellow"]
+    notes:
+      - 外部イベント『ハローキティ&ぐでたまのシンギング! ダンシング! クッキング!』
+      - コック帽
   -
     title: "5D3O3583"
     images_flickr: { photo: "14397308379", farm: 4, server: 3844, secret: "ab418a1f8f", secret_h: "b3624e56bf", secret_k: "f3b21effb4", secret_o: "16fda0ef33", format_o: "jpg" }
@@ -891,15 +919,6 @@
     colors: ["pink", "white", "yellow"]
     notes:
       - チェック、ハート
-  -
-    title: "5D3P6871"
-    images_flickr: { photo: "15056316106", farm: 6, server: 5566, secret: "ec76faef26", secret_h: "7bb2efd408", secret_k: "20555e2c03", secret_o: "1b3667eb2c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15056316106"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "yellow", "white"]
-    notes:
-      - 同じ浴衣をミミィが着ていることもある
-      - 浴衣、和服、キティ
   -
     title: "5D3Q3974"
     images_flickr: { photo: "15553714641", farm: 4, server: 3929, secret: "5bdcc5b4b4", secret_h: "1e331cfd86", secret_k: "77f0774cb1", secret_o: "1967a681f3", format_o: "jpg" }
@@ -1227,6 +1246,31 @@
     colors: ["white", "pink", "red", "yellow"]
     notes:
       - 浴衣、和服
+  -
+    title: "5D3P6871"
+    images_flickr: { photo: "15056316106", farm: 6, server: 5566, secret: "ec76faef26", secret_h: "7bb2efd408", secret_k: "20555e2c03", secret_o: "1b3667eb2c", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15056316106"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "yellow", "white"]
+    notes:
+      - 同じ浴衣をミミィが着ていることもある
+      - 浴衣、和服、キティ
+  -
+    title: "53AG9225"
+    images_flickr: { photo: "36479192632", farm: 5, server: 4379, secret: "240f42ee04", secret_h: "6ec2ccc779", secret_k: "bed3b06dfd", secret_o: "16702c763c", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36479192632/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "yellow", "white", "blue"]
+    notes:
+      - 浴衣、和服、金魚
+  -
+    title: "IMG_9175"
+    images_flickr: { photo: "20629047839", farm: 1, server: 563, secret: "c53a029cd2", secret_h: "cb8e25b3a8", secret_k: "b3cbfa31bb", secret_o: "b420800c5e", format_o: "jpg" }
+    source: { author: "peridot yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/20629047839/"}
+    size: { width_o: 3456, height_o: 5184 }
+    colors: ["pink", "yellow"]
+    notes:
+      - 浴衣、和服、桜
   -
     title: "5D3D2846 (1440x960)"
     images_picasa: { lh: 3, dirs: "-_yPx6yNvzE4/UTiac8NDbwI/AAAAAAAALxg/A8glaIroFvw", file: "5D3D2846%2520%25281440x960%2529.jpg" }
@@ -1948,7 +1992,7 @@
   -
     title: "1N0A3311"
     images_flickr: { photo: "28002987681", farm: 8, server: 7486, secret: "40c0c2a15e", secret_h: "d3d665772e", secret_k: "ce7301bc2d", secret_o: "8701120f8b", format_o: "jpg" }
-    source: { author: "yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/28002987681"}
+    source: { author: "peridot yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/28002987681"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "pink", "yellow", "white"]
     notes:
@@ -2213,14 +2257,6 @@
     colors: ["blue", "white", "orange", "pink", "gold"]
     notes:
       - バラ
-  -
-    title: "IMG_9175"
-    images_flickr: { photo: "20629047839", farm: 1, server: 563, secret: "c53a029cd2", secret_h: "cb8e25b3a8", secret_k: "b3cbfa31bb", secret_o: "b420800c5e", format_o: "jpg" }
-    source: { author: "yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/20629047839/"}
-    size: { width_o: 3456, height_o: 5184 }
-    colors: ["pink", "yellow"]
-    notes:
-      - 浴衣、和服、桜
   -
     title: "IMG_3084"
     images_flickr: { photo: "22682440826", farm: 6, server: 5696, secret: "4148712338", secret_h: "a9b481f183", secret_k: "c5d4ba5fef", secret_o: "69a1a97255", format_o: "jpg" }
