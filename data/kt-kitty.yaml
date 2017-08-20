@@ -2311,14 +2311,14 @@
     colors: ["red", "pink", "blue", "orange", "green", "yellow"]
     notes:
       - フコク生命
-  -
-    title: "BIh4h2hBDbe"
-    images_instagram: { shortcode: "BIh4h2hBDbe", width_t: 150, width_m: 320, width_l: 1080 }
-    source: { author: "maimai.0914", license: "", url: "https://www.instagram.com/p/BIh4h2hBDbe/"}
-    size: { width_o: 1080, height_o: 810 }
-    colors: ["pink", "white"]
-    notes:
-      - フコク生命
+#  -
+#    title: "BIh4h2hBDbe"
+#    images_instagram: { shortcode: "BIh4h2hBDbe", width_t: 150, width_m: 320, width_l: 1080 }
+#    source: { author: "maimai.0914", license: "", url: "https://www.instagram.com/p/BIh4h2hBDbe/"}
+#    size: { width_o: 1080, height_o: 810 }
+#    colors: ["pink", "white"]
+#    notes:
+#      - フコク生命
   -
     title: "BUV5K15BQF9"
     images_instagram: { shortcode: "BUV5K15BQF9", width_t: 150, width_m: 320, width_l: 1080 }
