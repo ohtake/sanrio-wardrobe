@@ -148,7 +148,14 @@
     images_flickr: { photo: "21568118660", farm: 6, server: 5744, secret: "a501bf7f45", secret_h: "bf9fca3bec", secret_k: "ed9bba3207", secret_o: "77ba7fb60b", format_o: "jpg" }
     source: { author: "peridot yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/21568118660/"}
     size: { width_o: 4000, height_o: 6000 }
-    colors: ["green", "red", "orange", "white"]
+    colors: ["green", "yellow", "blue", "white"]
+    notes: []
+  -
+    title: "IMG_5414"
+    images_flickr: { photo: "36296816010", farm: 5, server: 4396, secret: "9ec07ef60f", secret_h: "5eeedf9d84", secret_k: "91810f92a0", secret_o: "6c66217cbe", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36296816010/"}
+    size: { width_o: 3456, height_o: 5184 }
+    colors: ["green", "yellow", "blue", "white"]
     notes: []
   -
     title: "5D3Z6814"
@@ -245,18 +252,18 @@
     notes:
       - 和服
   -
-    title: "IMG_5591"
-    images_flickr: { photo: "24242946506", farm: 2, server: 1674, secret: "a9e42ddab0", secret_h: "d70f8eda1e", secret_k: "e31e000d59", secret_o: "a3e392b992", format_o: "jpg" }
-    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/24242946506/"}
-    size: { width_o: 5184, height_o: 3456 }
+    title: "IMG_5704"
+    images_flickr: { photo: "35882416563", farm: 5, server: 4342, secret: "fb1533d0d1", secret_h: "74613798c6", secret_k: "195593877e", secret_o: "ce63c0f48b", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/35882416563/"}
+    size: { width_o: 3342, height_o: 4456 }
     colors: ["blue", "white", "red", "gold", "green"]
     notes:
       - 和服
   -
-    title: "IMG_5791"
-    images_flickr: { photo: "24187125601", farm: 2, server: 1629, secret: "acd8d8a6d7", secret_h: "dbc5610136", secret_k: "cbd09c1ed5", secret_o: "51e55d2506", format_o: "jpg" }
-    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/24187125601/"}
-    size: { width_o: 5184, height_o: 3456 }
+    title: "IMG_6011"
+    images_flickr: { photo: "36553979081", farm: 5, server: 4340, secret: "ff13253e7e", secret_h: "52b4967a2a", secret_k: "3728c8c335", secret_o: "508232c823", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36553979081/"}
+    size: { width_o: 3151, height_o: 4201 }
     colors: ["blue", "white", "red", "gold", "green"]
     notes:
       - 和服

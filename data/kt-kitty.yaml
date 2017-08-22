@@ -1531,6 +1531,15 @@
       - 外部イベント『ハローキティのハッピーキャラバン!』
       - チア
   -
+    title: "IMG_5868"
+    images_flickr: { photo: "35882411663", farm: 5, server: 4338, secret: "ee480e1410", secret_h: "88e6aba3de", secret_k: "26a0fa00ba", secret_o: "5fc75886fa", format_o: "jpg" }
+    source: { author: "Chu H", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/113478073@N02/35882411663/"}
+    size: { width_o: 3251, height_o: 4876 }
+    colors: ["blue", "pink", "white", "yellow"]
+    notes:
+      - チア
+      - リボンと靴が異なる
+  -
     title: "5D3K5507"
     images_flickr: { photo: "11494229915", farm: 8, server: 7345, secret: "bcd4a9fc29", secret_h: "055967ec33", secret_k: "08bf999e3d", secret_o: "45f6b9aa26", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11494229915/"}
