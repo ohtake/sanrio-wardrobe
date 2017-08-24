@@ -1515,11 +1515,20 @@
     images_picasa: { lh: 4, dirs: "-81L8w09_d30/UREcEHT-l_I/AAAAAAAAJpw/uUD3fYTm2SQ", file: "5D3C6840%2520%25281440x960%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/vOte4gCeq92JvkjCVT06LNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
-    colors: ["pink", "yellow", "green"]
+    colors: ["pink", "yellow", "green", "white", "gold"]
     notes:
       - 外部イベント『ハローキティのハッピーキャラバン!』
       - 外部イベント『キティズパラダイス』
       - イギリス Hello Kitty Live
+      - チア
+  -
+    title: "IMG_5356"
+    images_flickr: { photo: "36296819600", farm: 5, server: 4442, secret: "a02b78a437", secret_h: "8ec9953fb0", secret_k: "f8b85d93cb", secret_o: "55f188cb8a", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36296819600/"}
+    size: { width_o: 4210, height_o: 3157 }
+    colors: ["pink", "yellow", "green", "white", "gold"]
+    notes:
+      - リボンと靴が異なる
       - チア
   -
     title: "53AG5878"
@@ -2127,6 +2136,14 @@
     colors: ["red", "pink", "black", "purple", "gold"]
     notes:
       - 着物、和服、牡丹
+  -
+    title: "IMG_6273"
+    images_flickr: { photo: "35949000693", farm: 5, server: 4342, secret: "b6abf4f0d9", secret_h: "85e12e1010", secret_k: "69119c93d2", secret_o: "6f4ab57aaa", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/35949000693"}
+    size: { width_o: 2886, height_o: 3849 }
+    colors: ["pink", "red", "black", "green", "white", "gold", "yellow", "blue"]
+    notes:
+      - 着物、和服
   -
     title: "IMG_9030"
     images_flickr: { photo: "15163768269", farm: 3, server: 2941, secret: "6976bfc33a", secret_h: "bb9a209bf6", secret_k: "135dfb95b3", secret_o: "68395a2ab2", format_o: "jpg" }

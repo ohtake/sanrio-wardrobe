@@ -7,6 +7,14 @@
     colors: ["green", "red", "yellow", "blue", "white"]
     notes: []
   -
+    title: ハーモニーランド法被
+    images_flickr: { photo: "36588482282", farm: 5, server: 4361, secret: "9d83aaab9e", secret_h: "8f740d1110", secret_k: "c13eb1ca40", secret_o: "559d217841", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36588482282/"}
+    size: { width_o: 2649, height_o: 3973 }
+    colors: ["red", "black", "white", "pink", "green", "yellow", "blue"]
+    notes:
+      - 法被
+  -
     title: ARIGATO EVERYONE
     images_flickr: { photo: "14333660939", farm: 3, server: 2926, secret: "73b10cb983", secret_h: "1b6bcd5866", secret_k: "dba7186a04", secret_o: "08e06424a5", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14333660939/"}
