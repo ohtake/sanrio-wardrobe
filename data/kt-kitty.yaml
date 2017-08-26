@@ -679,6 +679,14 @@
       - 映画『舞妓はレディ』
       - 着物、和服、桜、梅、もみじ
   -
+    title: "53AB7313"
+    images_flickr: { photo: "32070272240", farm: 1, server: 744, secret: "9749d644c6", secret_h: "db65163444", secret_k: "fae9fec86f", secret_o: "c04dfde2e1", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32070272240"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "white", "blue", "red", "gold", "purple"]
+    notes:
+      - 着物、和服、桜
+  -
     title: "yoshikitty"
     images_flickr: { photo: "15701789090", farm: 8, server: 7479, secret: "dd6a369dc7", secret_h: "7b1eba01c4", secret_k: "8ed269c013", secret_o: "6aa063bcc3", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15701789090"}
