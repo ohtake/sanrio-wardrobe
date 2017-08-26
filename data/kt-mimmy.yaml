@@ -67,7 +67,7 @@
     images_flickr: { photo: "13692584243", farm: 8, server: 7171, secret: "9d5c2b08a0", secret_h: "ee6d81ea86", secret_k: "9ef0c44be5", secret_o: "c096e6dd3d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13692584243"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "green", "white"]
+    colors: ["pink", "green", "white", "purple", "brown", "blue", "yellow"]
     notes:
       - ピューロランドパレード『ARIGATO EVERYONE!』
       - タイニーチャム、熊、水玉、ハート
@@ -86,7 +86,7 @@
     images_flickr: { photo: "14703524003", farm: 4, server: 3841, secret: "9219858dc1", secret_h: "7cb075e5db", secret_k: "06d4815ecc", secret_o: "843c648773", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14703524003"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "blue"]
+    colors: ["pink", "blue", "white", "green"]
     notes:
       - ピューロランドパレード『夏フェス☆マーチングパレード』
       - ピューロランドパレード『夏祭りマーチングパレード』

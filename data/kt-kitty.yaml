@@ -137,7 +137,7 @@
     images_flickr: { photo: "15605014039", farm: 6, server: 5604, secret: "3aa65f125e", secret_h: "2c5f7cc664", secret_k: "31513b8bf6", secret_o: "62624d9ba4", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605014039"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["purple", "pink", "white"]
+    colors: ["purple", "pink", "white", "brown", "green", "yellow", "blue"]
     notes:
       - ピューロランドパレード『ARIGATO EVERYONE!』
       - 外部イベント『ハローキティとHUGして"ぎゅっ"』
@@ -147,9 +147,10 @@
     images_flickr: { photo: "15988250619", farm: 9, server: 8568, secret: "4f88143019", secret_h: "26d62b745c", secret_k: "18d76e4932", secret_o: "5a01f121a1", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15988250619"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["purple", "pink"]
+    colors: ["purple", "pink", "white", "brown", "green", "yellow", "blue", "gold"]
     notes:
-      - 『ARIGATO EVERYONE!』のアレンジで、タイニーチャムがクリスマス帽をかぶっている
+      - 『ARIGATO EVERYONE!』のアレンジで、胸のタイニーチャムに装飾が追加されている
+      - クリスマス
   -
     title: "vEByteMGEs"
     images_instagram: { shortcode: "vEByteMGEs", width_t: 150, width_m: 320, width_l: 640 }
@@ -704,11 +705,12 @@
     images_flickr: { photo: "14907564545", farm: 4, server: 3885, secret: "5a8afc9226", secret_h: "bafc462a18", secret_k: "972762d7da", secret_o: "850a778591", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14907564545"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "blue"]
+    colors: ["red", "blue", "white", "pink", "green"]
     notes:
       - ピューロランドパレード『夏フェス☆マーチングパレード』
       - ピューロランドパレード『夏祭りマーチングパレード』
       - ピューロランドパレード『夜祭りマーチングパレード』2016年
+      - エンターテイメントホール『盆踊りグリーティング「ハローキティ音頭」』
       - エンターテイメントホール『シナモン盆踊り大会』
       - 浴衣ドレス、和服、夏、バラ
   -
