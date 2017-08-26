@@ -47,6 +47,15 @@
       - 『コズミックファンタジー』クリスマス版の頭が異なるバージョンのリボン違い
       - クリスマス、雪、星、柊
   -
+    title: "シリウス3"
+    images_flickr: { photo: "16615333756", farm: 9, server: 8577, secret: "6523a28eea", secret_h: "6442eb7ba2", secret_k: "d987fc89eb", secret_o: "ccbfdc3fca", format_o: "jpg" }
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/16615333756"}
+    size: { width_o: 3648, height_o: 5472 }
+    colors: ["silver", "red", "white"]
+    notes:
+      - ピューロランドパレード『レジェンド・オブ・シリウス』3着目
+      - スパンコール
+  -
     title: "ILLUMINANT"
     images_flickr: { photo: "447013927", farm: 1, server: 249, secret: "dd945787c1", before: "20120301" }
     source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/447013927"}
@@ -179,7 +188,7 @@
     notes:
       - 『Miracle Gift Parade』の光らないバージョン
   -
-    title: "5D3V4554"
+    title: "ミラクリュージョン★スターライトドリーム"
     images_flickr: { photo: "21251679969", farm: 1, server: 682, secret: "1cb7701265", secret_h: "7db28e595e", secret_k: "9ee3fbce6f", secret_o: "898e1156e1", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21251679969"}
     size: { width_o: 5760, height_o: 3840 }
@@ -187,6 +196,113 @@
     notes:
       - ピューロビレッジ『ミラクリュージョン★スターライトドリーム』
       - バラ、和服ドレス
+  -
+    title: "ミラクリュージョン★Happiness"
+    images_flickr: { photo: "32829335935", farm: 3, server: 2205, secret: "22277cef1d", secret_h: "72e1e4d975", secret_k: "b726a83f02", secret_o: "44264d90fd", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32829335935/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "white", "purple"]
+    notes:
+      - ピューロビレッジ『ミラクリュージョン★Happiness』2017年
+      - バレンタイン
+  -
+    title: "ドリームレビュー1・通常"
+    images_flickr: { photo: "8826145024", farm: 4, server: 3807, secret: "50c0fe0101", secret_h: "01d6f6fc84", secret_k: "ffec56a04c", secret_o: "6062725cc4", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8826145024/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "white", "red"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー1』
+      - タータンチェック
+  -
+    title: "5D3X8528"
+    images_flickr: { photo: "25793490290", farm: 2, server: 1634, secret: "2c863c6fa1", secret_h: "9c3e845bec", secret_k: "d6935ac9fd", secret_o: "1901a951da", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25793490290"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "blue", "red"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー1』ピアノコンクール
+  -
+    title: "9k8n6sMGEp"
+    images_instagram: { shortcode: "9k8n6sMGEp", width_t: 150, width_m: 320, width_l: 750 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/9k8n6sMGEp/"}
+    size: { width_o: 750, height_o: 750 }
+    colors: ["pink", "white"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー 1』レビュー3着目の冠がない版
+      - ヨーロッパ
+  -
+    title: "5D3V3953"
+    images_flickr: { photo: "21222917226", farm: 1, server: 608, secret: "4b9f03bc64", secret_h: "dd8c4cd394", secret_k: "29e3aabab9", secret_o: "c99f8c1865", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21222917226"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "gold"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー 2』レビューパート
+  -
+    title: "5D3D0766 (1440x960)"
+    images_picasa: { lh: 5, dirs: "-PPePiZd9FU8/UTI8cY0599I/AAAAAAAAK7I/1_lAfiKpeQ0", file: "5D3D0766%2520%25281440x960%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/PhVzKqKfKHZHwO566xaYqNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 1440, height_o: 960 }
+    colors: ["pink", "white", "yellow", "green"]
+    notes:
+      - メルヘンシアター『ハローキティの妖精フローレンス』の胸の花が異なるバージョン
+      - フェアリーランドシアター『アニバーサリータイム』
+      - チューリップ
+  -
+    title: "5D3M9810"
+    images_flickr: { photo: "13926372509", farm: 8, server: 7436, secret: "18b4730bdf", secret_h: "ae06ae7458", secret_k: "3273af67bb", secret_o: "6fe1314cfe", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926372509"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "white", "gold"]
+    notes:
+      - メルヘンシアター『ハローキティの妖精フローレンス』レビューパート3着目の衣装から頭上の飾りをなくした版
+      - バラ、多段フリル
+  -
+    title: "5D3U3163"
+    images_flickr: { photo: "16740467770", farm: 9, server: 8712, secret: "e7b7089789", secret_h: "7d753a0719", secret_k: "066adb1724", secret_o: "e757035c43", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16740467770"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "white", "red"]
+    notes:
+      - メルヘンシアター『ハローキティのくるみ割り人形』
+      - カーディガン、ポケット、バーバリーチェック
+  -
+    title: "5D3D2846 (1440x960)"
+    images_picasa: { lh: 3, dirs: "-_yPx6yNvzE4/UTiac8NDbwI/AAAAAAAALxg/A8glaIroFvw", file: "5D3D2846%2520%25281440x960%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/toLc9rbQd6Tv-Pa8mTaPt9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 1440, height_o: 960 }
+    colors: ["red", "blue"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』通常服
+      - デニム、バッグ
+  -
+    title: "5D3D1216 (1440x960)"
+    images_picasa: { lh: 3, dirs: "-R4Utmi7l5Js/UTI9RVW3mCI/AAAAAAAALGU/Xvta7ry2UNk", file: "5D3D1216%2520%25281440x960%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/-yE7zHAYXfkytpFS3A75OdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 1440, height_o: 960 }
+    colors: ["white", "black", "red"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』レビューパート1
+      - 男装、帽子
+  -
+    title: "5D3B1719 (1440x960)"
+    images_picasa: { lh: 4, dirs: "-Jm0Vrxvhdas/UHoHpaJEd_I/AAAAAAAAD0U/Cd8AX3hI6fk", file: "5D3B1719%2520%25281440x960%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/8Q2_Tu7RPHFCXuHI23fNAdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 1440, height_o: 960 }
+    colors: ["red", "white"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』レビューパート2
+      - 男装
+  -
+    title: "5D3E5671 (1280x1920)"
+    images_picasa: { lh: 5, dirs: "-bXtvMl5BSmY/UXUbqlXp5II/AAAAAAAAQkU/kxI2W7t1WBo", file: "5D3E5671%2520%25281280x1920%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/PpPSSMC33k6uKnCmZ0fDfdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 1280, height_o: 1920 }
+    colors: ["red", "white"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』レビューパート2の羽がない版
+      - 男装
   -
     title: "タイムエプロン"
     images_flickr: { photo: "9054261550", farm: 4, server: 3765, secret: "ca8c5cccba", secret_h: "5ae584c35c", secret_k: "0a06c9db41", secret_o: "f61fe8e9ac", format_o: "jpg" }
@@ -240,32 +356,6 @@
     colors: ["pink", "white", "silver"]
     notes:
       - 星の水玉
-  -
-    title: "5D3T2102"
-    images_flickr: { photo: "16276525461", farm: 8, server: 7561, secret: "4d051db864", secret_h: "f41d3ab883", secret_k: "8ca02e3f92", secret_o: "989f95b148", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16276525461"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["yellow", "red", "green"]
-    notes:
-      - 着物、和服、梅
-  -
-    title: "水戸黄門"
-    images_flickr: { photo: "23398779300", farm: 6, server: 5795, secret: "6d953002ac", secret_h: "011351f0fc", secret_k: "91e4ab787a", secret_o: "92123b2db2", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23398779300"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "yellow"]
-    notes:
-      - 水戸黄門
-      - 和服、帽子、杖
-  -
-    title: "水戸黄門の帽子なし"
-    images_flickr: { photo: "32350173952", farm: 1, server: 386, secret: "97028161d1", secret_h: "4b094f3b75", secret_k: "f670f7811f", secret_o: "933a3dec13", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32350173952"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "yellow"]
-    notes:
-      - 水戸黄門の帽子なしバージョン
-      - 和服
   -
     title: "5D3W6467"
     images_flickr: { photo: "23456116821", farm: 6, server: 5750, secret: "7b5bae9b58", secret_h: "9e115e5d25", secret_k: "2c78003765", secret_o: "7a3a7b19c4", format_o: "jpg" }
@@ -367,23 +457,6 @@
       - イギリス版で作りが異なる
       - バラ
   -
-    title: "5D3T3514"
-    images_flickr: { photo: "15675951834", farm: 8, server: 7547, secret: "e6b92307fb", secret_h: "d8f6c9fcff", secret_k: "4fb599d95a", secret_o: "218354ab62", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15675951834"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "white", "yellow"]
-    notes:
-      - 袴、和服、梅
-  -
-    title: "5D3U3163"
-    images_flickr: { photo: "16740467770", farm: 9, server: 8712, secret: "e7b7089789", secret_h: "7d753a0719", secret_k: "066adb1724", secret_o: "e757035c43", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16740467770"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "white", "red"]
-    notes:
-      - メルヘンシアター『ハローキティのくるみ割り人形』
-      - カーディガン、ポケット、バーバリーチェック
-  -
     title: "5D3V3127"
     images_flickr: { photo: "20596249563", farm: 1, server: 662, secret: "dd6cfa10ef", secret_h: "96840dd58e", secret_k: "25e15482c8", secret_o: "73e1b0bf7f", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20596249563"}
@@ -436,14 +509,6 @@
       - 外部イベント『ハローキティの HAPPY GIFT CHRISTMAS』
       - クリスマス
   -
-    title: "5D3V3953"
-    images_flickr: { photo: "21222917226", farm: 1, server: 608, secret: "4b9f03bc64", secret_h: "dd8c4cd394", secret_k: "29e3aabab9", secret_o: "c99f8c1865", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21222917226"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["white", "gold"]
-    notes:
-      - メルヘンシアター『ハローキティ ドリームレビュー 2』レビューパート
-  -
     title: "5D3M2676"
     images_flickr: { photo: "13653961905", farm: 8, server: 7087, secret: "a5035b430c", secret_h: "3f6f960079", secret_k: "c87ae6cbc0", secret_o: "b7ed20742c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13653961905"}
@@ -488,57 +553,6 @@
       - イギリス Drusillas Park Hello Kitty Secret Garden
       - ハート、真珠
   -
-    title: "5D3V8314"
-    images_flickr: { photo: "22446743828", farm: 1, server: 642, secret: "43477f157e", secret_h: "6deaba2b41", secret_k: "723ef3a0a1", secret_o: "79250e2d39", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22446743828"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["silver", "pink"]
-    notes:
-      - エバー航空、宇宙飛行士、ヒューストン
-  -
-    title: "5D3V8345"
-    images_flickr: { photo: "22865085985", farm: 6, server: 5709, secret: "a2a97e55bf", secret_h: "4af8b35a7a", secret_k: "c4d3d1dc37", secret_o: "6910f1c56d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22865085985"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["green", "grey", "pink"]
-    notes:
-      - エバー航空、キャビンアテンダント
-  -
-    title: "5D3G2135"
-    images_flickr: { photo: "9329266957", farm: 4, server: 3763, secret: "9e5527ea07", secret_h: "6a17e2bdee", secret_k: "c82429d41c", secret_o: "6c3f8dc48f", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9329266957/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["red"]
-    notes:
-      - レディキティハウス「ローズ」
-      - バラ、バッグ、手袋
-  -
-    title: "5D3L3629"
-    images_flickr: { photo: "12323200923", farm: 4, server: 3710, secret: "c9f488bfa3", secret_h: "37dc17232a", secret_k: "8ad461b297", secret_o: "46fc0585c8", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12323200923"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["red"]
-    notes:
-      - レディキティハウス「ローズ」のバッグなし版
-      - バラ、手袋
-  -
-    title: "5D3N2940"
-    images_flickr: { photo: "14034879050", farm: 6, server: 5236, secret: "84dae9df38", secret_h: "dab2bb4abb", secret_k: "3cdf8d6ced", secret_o: "51032e96d2", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14034879050"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["yellow", "black", "white"]
-    notes:
-      - レディキティハウス「パステルローズ」
-      - バラ、ストライプ
-  -
-    title: "5D3N2928"
-    images_flickr: { photo: "14221485795", farm: 6, server: 5114, secret: "c81a250444", secret_h: "76adae4945", secret_k: "7cc635c748", secret_o: "82ca5108a0", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14221485795"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "blue", "white"]
-    notes:
-      - レディキティハウス「トリコロール」
-  -
     title: "5D3L8935"
     images_flickr: { photo: "13190141424", farm: 4, server: 3782, secret: "ab06d7b0dd", secret_h: "b49cea0aec", secret_k: "21bcb5a840", secret_o: "3b5379e7d7", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13190141424"}
@@ -559,26 +573,87 @@
       - キティズハウスとは模様が異なる
       - バラ
   -
-    title: "5D3P1366"
-    images_flickr: { photo: "14907564545", farm: 4, server: 3885, secret: "5a8afc9226", secret_h: "bafc462a18", secret_k: "972762d7da", secret_o: "850a778591", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14907564545"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "blue"]
+    title: "5D3D9692 (1280x1920)"
+    images_picasa: { lh: 6, dirs: "-1N1g29eo1VA/UWLEOR4GjkI/AAAAAAAAUeQ/ItCivPXK9s4", file: "5D3D9692%2520%25281280x1920%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/VwFz6fXwxw_UeZrLi12WGNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 1280, height_o: 1920 }
+    colors: ["white", "red", "pink"]
     notes:
-      - ピューロランドパレード『夏フェス☆マーチングパレード』
-      - ピューロランドパレード『夏祭りマーチングパレード』
-      - ピューロランドパレード『夜祭りマーチングパレード』2016年
-      - エンターテイメントホール『シナモン盆踊り大会』
-      - 浴衣ドレス、和服、夏、バラ
+      - キティズハウス
+      - リボン
   -
-    title: "53AG7566"
-    images_flickr: { photo: "36577916595", farm: 5, server: 4360, secret: "3465879bce", secret_h: "d2ac5e9a18", secret_k: "e3e6855eb1", secret_o: "55a0873cf5", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36577916595"}
+    title: "5D3P4626"
+    images_flickr: { photo: "14955289881", farm: 4, server: 3856, secret: "990ccf5d0e", secret_h: "076441de78", secret_k: "e43a684b11", secret_o: "490d690f16", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14955289881"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "red", "pink"]
+    notes:
+      - キティズハウスの簡略版
+      - 外部イベント『ハローキティ&プリンのハートフルタイム』
+      - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Hello Kitty's Starlight Sing-A-Long』
+      - リボン
+  -
+    title: "5D3S3426"
+    images_flickr: { photo: "16173568672", farm: 8, server: 7548, secret: "7fd6a748a2", secret_h: "6a08c162d1", secret_k: "9b4d9e0ebe", secret_o: "9bff89dd8c", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16173568672"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white", "red", "pink"]
+    notes:
+      - キティズハウスの豪華版
+      - リボン、羽毛
+  -
+    title: "5D3C2291 (960x1440)"
+    images_picasa: { lh: 5, dirs: "-nvxrAfr6kDw/UOQdF55pghI/AAAAAAAAIDw/TRCziQ6yj3M", file: "5D3C2291%2520%2528960x1440%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/8QDf7ChAhXlcyIKBqRniZNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 960, height_o: 1440 }
+    colors: ["red", "gold"]
+    notes:
+      - キティズハウス
+      - バラ
+  -
+    title: "5D3D4777 (1920x1280)"
+    images_picasa: { lh: 5, dirs: "-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk", file: "5D3D4777%2520%25281920x1280%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/0PFa4BsUBZFjugZvBmr8QNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 1920, height_o: 1280 }
+    colors: ["red", "brown", "white"]
+    notes:
+      - キティズハウス
+      - 熊
+  -
+    title: "レディキティ・ローズ1"
+    images_flickr: { photo: "9329266957", farm: 4, server: 3763, secret: "9e5527ea07", secret_h: "6a17e2bdee", secret_k: "c82429d41c", secret_o: "6c3f8dc48f", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9329266957/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red"]
+    notes:
+      - レディキティハウス「ローズ」初期
+      - バラ、バッグ、手袋
+  -
+    title: "レディキティ・ローズ2"
+    images_flickr: { photo: "12323200923", farm: 4, server: 3710, secret: "c9f488bfa3", secret_h: "37dc17232a", secret_k: "8ad461b297", secret_o: "46fc0585c8", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12323200923"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red"]
+    notes:
+      - レディキティハウス「ローズ」のバッグなし版
+      - バラ、手袋
+  -
+    title: "レディキティ・パステルローズ"
+    images_flickr: { photo: "14034879050", farm: 6, server: 5236, secret: "84dae9df38", secret_h: "dab2bb4abb", secret_k: "3cdf8d6ced", secret_o: "51032e96d2", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14034879050"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["yellow", "black", "white"]
+    notes:
+      - レディキティハウス「パステルローズ」
+      - バラ、ストライプ
+  -
+    title: "レディキティ・トリコロール"
+    images_flickr: { photo: "14221485795", farm: 6, server: 5114, secret: "c81a250444", secret_h: "76adae4945", secret_k: "7cc635c748", secret_o: "82ca5108a0", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14221485795"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "blue", "white"]
     notes:
-      - ピューロランドパレード『夜祭りマーチングパレード』2017年
-      - 和服、鉢巻
+      - レディキティハウス「トリコロール」
   -
     title: "SPARKLE"
     images_flickr: { photo: "36287635300", farm: 5, server: 4339, secret: "5274cf73af", secret_h: "7c32228f46", secret_k: "f4544152a5", secret_o: "d5b50fe837", format_o: "jpg" }
@@ -624,6 +699,36 @@
     notes:
       - ピューロランドパレード『ハロウィンマーチングパレード』ゴーストのリボンがピンク版
       - ハロウィン
+  -
+    title: "5D3P1366"
+    images_flickr: { photo: "14907564545", farm: 4, server: 3885, secret: "5a8afc9226", secret_h: "bafc462a18", secret_k: "972762d7da", secret_o: "850a778591", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14907564545"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "blue"]
+    notes:
+      - ピューロランドパレード『夏フェス☆マーチングパレード』
+      - ピューロランドパレード『夏祭りマーチングパレード』
+      - ピューロランドパレード『夜祭りマーチングパレード』2016年
+      - エンターテイメントホール『シナモン盆踊り大会』
+      - 浴衣ドレス、和服、夏、バラ
+  -
+    title: "53AG7566"
+    images_flickr: { photo: "36577916595", farm: 5, server: 4360, secret: "3465879bce", secret_h: "d2ac5e9a18", secret_k: "e3e6855eb1", secret_o: "55a0873cf5", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36577916595"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "blue", "white"]
+    notes:
+      - ピューロランドパレード『夜祭りマーチングパレード』2017年
+      - 和服、鉢巻
+  -
+    title: "HAPPY GIFT CHRISTMAS"
+    images_flickr: { photo: "30941420181", farm: 6, server: 5495, secret: "53becbdb8f", secret_h: "461c0914fd", secret_k: "6f7dae5214", secret_o: "93a698eaed", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30941420181/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "green", "white", "gold"]
+    notes:
+      - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
+      - クリスマス、帽子
   -
     title: "5D3C0478 (1440x960)"
     images_picasa: { lh: 3, dirs: "-bd2HnhfNIn0/UN-5Ds2ZKUI/AAAAAAAAHX0/4HPt1XGjsqo", file: "5D3C0478%2520%25281440x960%2529.jpg" }
@@ -750,6 +855,22 @@
     notes:
       - 着物、和服
   -
+    title: "5D3T2102"
+    images_flickr: { photo: "16276525461", farm: 8, server: 7561, secret: "4d051db864", secret_h: "f41d3ab883", secret_k: "8ca02e3f92", secret_o: "989f95b148", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16276525461"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["yellow", "red", "green"]
+    notes:
+      - 着物、和服、梅
+  -
+    title: "5D3T3514"
+    images_flickr: { photo: "15675951834", farm: 8, server: 7547, secret: "e6b92307fb", secret_h: "d8f6c9fcff", secret_k: "4fb599d95a", secret_o: "218354ab62", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15675951834"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "white", "yellow"]
+    notes:
+      - 袴、和服、梅
+  -
     title: "5D3U3576"
     images_flickr: { photo: "16418272393", farm: 9, server: 8782, secret: "3faf2d79ef", secret_h: "cf273bf15e", secret_k: "e4bc441c46", secret_o: "7d022134ff", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16418272393"}
@@ -758,6 +879,24 @@
     notes:
       - 銀座柳まつり
       - 袴、和服、梅
+  -
+    title: "水戸黄門"
+    images_flickr: { photo: "23398779300", farm: 6, server: 5795, secret: "6d953002ac", secret_h: "011351f0fc", secret_k: "91e4ab787a", secret_o: "92123b2db2", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23398779300"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "yellow"]
+    notes:
+      - 水戸黄門
+      - 和服、帽子、杖
+  -
+    title: "水戸黄門の帽子なし"
+    images_flickr: { photo: "32350173952", farm: 1, server: 386, secret: "97028161d1", secret_h: "4b094f3b75", secret_k: "f670f7811f", secret_o: "933a3dec13", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32350173952"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "yellow"]
+    notes:
+      - 水戸黄門の帽子なしバージョン
+      - 和服
   -
     title: "yoshikitty"
     images_flickr: { photo: "15701789090", farm: 8, server: 7479, secret: "dd6a369dc7", secret_h: "7b1eba01c4", secret_k: "8ed269c013", secret_o: "6aa063bcc3", format_o: "jpg" }
@@ -981,16 +1120,6 @@
     notes:
       - チェック、ハート
   -
-    title: "5D3Q3974"
-    images_flickr: { photo: "15553714641", farm: 4, server: 3929, secret: "5bdcc5b4b4", secret_h: "1e331cfd86", secret_k: "77f0774cb1", secret_o: "1967a681f3", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15553714641"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "white", "orange", "yellow", "green", "blue"]
-    notes:
-      - 知恵の木ステージ『ハローキティの魔法使い大行進』
-      - キティズパラダイス『マジックマーチ』
-      - 帽子、星、月
-  -
     title: "5D3M1186"
     images_flickr: { photo: "13349531445", farm: 3, server: 2836, secret: "72a16b1149", secret_h: "fb8c2f4119", secret_k: "4d0529779c", secret_o: "c5119e1131", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13349531445"}
@@ -1070,35 +1199,6 @@
       - 浜崎あゆみ『Feel the love』プロモーションビデオ
       - DJ、ヘッドフォン、ゴーグル、フード
   -
-    title: "5D3D9692 (1280x1920)"
-    images_picasa: { lh: 6, dirs: "-1N1g29eo1VA/UWLEOR4GjkI/AAAAAAAAUeQ/ItCivPXK9s4", file: "5D3D9692%2520%25281280x1920%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/VwFz6fXwxw_UeZrLi12WGNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1280, height_o: 1920 }
-    colors: ["white", "red", "pink"]
-    notes:
-      - キティズハウス
-      - リボン
-  -
-    title: "5D3P4626"
-    images_flickr: { photo: "14955289881", farm: 4, server: 3856, secret: "990ccf5d0e", secret_h: "076441de78", secret_k: "e43a684b11", secret_o: "490d690f16", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14955289881"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["white", "red", "pink"]
-    notes:
-      - キティズハウスの簡略版
-      - 外部イベント『ハローキティ&プリンのハートフルタイム』
-      - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Hello Kitty's Starlight Sing-A-Long』
-      - リボン
-  -
-    title: "5D3S3426"
-    images_flickr: { photo: "16173568672", farm: 8, server: 7548, secret: "7fd6a748a2", secret_h: "6a08c162d1", secret_k: "9b4d9e0ebe", secret_o: "9bff89dd8c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16173568672"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["white", "red", "pink"]
-    notes:
-      - キティズハウスの豪華版
-      - リボン、羽毛
-  -
     title: "5D3M9551"
     images_flickr: { photo: "13926328199", farm: 8, server: 7388, secret: "8398680f52", secret_h: "183f27c96c", secret_k: "49d425d112", secret_o: "9dd87405eb", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926328199"}
@@ -1174,15 +1274,6 @@
     notes:
       - チェック、多段フリル
   -
-    title: "5D3M9810"
-    images_flickr: { photo: "13926372509", farm: 8, server: 7436, secret: "18b4730bdf", secret_h: "ae06ae7458", secret_k: "3273af67bb", secret_o: "6fe1314cfe", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926372509"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "white", "gold"]
-    notes:
-      - メルヘンシアター『ハローキティの妖精フローレンス』レビューパート3着目の衣装から頭上の飾りをなくした版
-      - バラ、多段フリル
-  -
     title: "5D3Q4934"
     images_flickr: { photo: "14979534204", farm: 4, server: 3936, secret: "ac25ff6ba4", secret_h: "fc9b2393b8", secret_k: "7df5f8b9a8", secret_o: "b2e9c54e07", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14979534204"}
@@ -1191,6 +1282,16 @@
     notes:
       - 映画『くるみ割り人形』クララ
       - まつげ、頭髪
+  -
+    title: "5D3Q3974"
+    images_flickr: { photo: "15553714641", farm: 4, server: 3929, secret: "5bdcc5b4b4", secret_h: "1e331cfd86", secret_k: "77f0774cb1", secret_o: "1967a681f3", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15553714641"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "white", "orange", "yellow", "green", "blue"]
+    notes:
+      - 知恵の木ステージ『ハローキティの魔法使い大行進』
+      - キティズパラダイス『マジックマーチ』
+      - 帽子、星、月
   -
     title: "5D3J1596"
     images_flickr: { photo: "10776773186", farm: 3, server: 2870, secret: "68d44f887d", secret_h: "23021244a7", secret_k: "b24bbaf85d", secret_o: "65c58d8d4b", format_o: "jpg" }
@@ -1245,43 +1346,6 @@
     notes:
       - 『Join!☆Kitty』の別バージョンでボールがなくなり色も全体的に異なる
       - ハート、多段フリル
-  -
-    title: "5D3C2291 (960x1440)"
-    images_picasa: { lh: 5, dirs: "-nvxrAfr6kDw/UOQdF55pghI/AAAAAAAAIDw/TRCziQ6yj3M", file: "5D3C2291%2520%2528960x1440%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/8QDf7ChAhXlcyIKBqRniZNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 960, height_o: 1440 }
-    colors: ["red", "gold"]
-    notes:
-      - キティズハウス
-      - バラ
-  -
-    title: "5D3D4777 (1920x1280)"
-    images_picasa: { lh: 5, dirs: "-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk", file: "5D3D4777%2520%25281920x1280%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/0PFa4BsUBZFjugZvBmr8QNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1920, height_o: 1280 }
-    colors: ["red", "brown", "white"]
-    notes:
-      - キティズハウス
-      - 熊
-  -
-    title: "5D3F0805"
-    images_flickr: { photo: "8826145024", farm: 4, server: 3807, secret: "50c0fe0101", secret_h: "01d6f6fc84", secret_k: "ffec56a04c", secret_o: "6062725cc4", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8826145024/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "white", "red"]
-    notes:
-      - メルヘンシアター『ハローキティ ドリームレビュー 1』
-      - タータンチェック
-  -
-    title: "5D3D0766 (1440x960)"
-    images_picasa: { lh: 5, dirs: "-PPePiZd9FU8/UTI8cY0599I/AAAAAAAAK7I/1_lAfiKpeQ0", file: "5D3D0766%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/PhVzKqKfKHZHwO566xaYqNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1440, height_o: 960 }
-    colors: ["pink", "white", "yellow", "green"]
-    notes:
-      - メルヘンシアター『ハローキティの妖精フローレンス』の胸の花が異なるバージョン
-      - フェアリーランドシアター『アニバーサリータイム』
-      - チューリップ
   -
     title: "5D3G3106"
     images_flickr: { photo: "9382750550", farm: 6, server: 5474, secret: "8d4dfb2879", secret_h: "0835de9bbc", secret_k: "fe7e26f556", secret_o: "e8e66286ac", format_o: "jpg" }
@@ -1365,42 +1429,6 @@
     colors: ["blue", "pink", "red", "yellow", "green"]
     notes:
       - 浴衣、和服
-  -
-    title: "5D3D2846 (1440x960)"
-    images_picasa: { lh: 3, dirs: "-_yPx6yNvzE4/UTiac8NDbwI/AAAAAAAALxg/A8glaIroFvw", file: "5D3D2846%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/toLc9rbQd6Tv-Pa8mTaPt9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1440, height_o: 960 }
-    colors: ["red", "blue"]
-    notes:
-      - メルヘンシアター『ハローキティとオズの魔法の国』通常服
-      - デニム、バッグ
-  -
-    title: "5D3D1216 (1440x960)"
-    images_picasa: { lh: 3, dirs: "-R4Utmi7l5Js/UTI9RVW3mCI/AAAAAAAALGU/Xvta7ry2UNk", file: "5D3D1216%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/-yE7zHAYXfkytpFS3A75OdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1440, height_o: 960 }
-    colors: ["white", "black", "red"]
-    notes:
-      - メルヘンシアター『ハローキティとオズの魔法の国』レビューパート1
-      - 男装、帽子
-  -
-    title: "5D3B1719 (1440x960)"
-    images_picasa: { lh: 4, dirs: "-Jm0Vrxvhdas/UHoHpaJEd_I/AAAAAAAAD0U/Cd8AX3hI6fk", file: "5D3B1719%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/8Q2_Tu7RPHFCXuHI23fNAdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1440, height_o: 960 }
-    colors: ["red", "white"]
-    notes:
-      - メルヘンシアター『ハローキティとオズの魔法の国』レビューパート2
-      - 男装
-  -
-    title: "5D3E5671 (1280x1920)"
-    images_picasa: { lh: 5, dirs: "-bXtvMl5BSmY/UXUbqlXp5II/AAAAAAAAQkU/kxI2W7t1WBo", file: "5D3E5671%2520%25281280x1920%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/PpPSSMC33k6uKnCmZ0fDfdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 1280, height_o: 1920 }
-    colors: ["red", "white"]
-    notes:
-      - メルヘンシアター『ハローキティとオズの魔法の国』レビューパート2の羽がない版
-      - 男装
   -
     title: "5D3E5827 (1280x1920)"
     images_picasa: { lh: 5, dirs: "-g9Jt1fs2foU/UXUcDmkVDhI/AAAAAAAAQo0/ntTttG-i6aQ", file: "5D3E5827%2520%25281280x1920%2529.jpg" }
@@ -1488,24 +1516,6 @@
     notes:
       - 『ロマンティックセレナーデ』から腰ひもとリストを削除しジャケットとクリスマス装飾を追加
       - クリスマス
-  -
-    title: "53AC5075"
-    images_flickr: { photo: "32829335935", farm: 3, server: 2205, secret: "22277cef1d", secret_h: "72e1e4d975", secret_k: "b726a83f02", secret_o: "44264d90fd", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32829335935/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "white", "purple"]
-    notes:
-      - ピューロビレッジ『ミラクリュージョン★Happiness』2017年
-      - バレンタイン
-  -
-    title: "HAPPY GIFT CHRISTMAS"
-    images_flickr: { photo: "30941420181", farm: 6, server: 5495, secret: "53becbdb8f", secret_h: "461c0914fd", secret_k: "6f7dae5214", secret_o: "93a698eaed", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30941420181/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "green", "white", "gold"]
-    notes:
-      - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
-      - クリスマス、帽子
   -
     title: "5D3I3419"
     images_flickr: { photo: "10114607714", farm: 8, server: 7397, secret: "f024e2df52", secret_h: "18a9b8b316", secret_k: "0437de63e0", secret_o: "36a104872e", format_o: "jpg" }
@@ -1727,14 +1737,6 @@
       - 『ハローキティとあそぼう BRAVO!!』
       - リボン、星、ハート
   -
-    title: "5D3X8528"
-    images_flickr: { photo: "25793490290", farm: 2, server: 1634, secret: "2c863c6fa1", secret_h: "9c3e845bec", secret_k: "d6935ac9fd", secret_o: "1901a951da", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25793490290"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["white", "blue", "red"]
-    notes:
-      - メルヘンシアター『ハローキティ ドリームレビュー 1』ピアノコンクール
-  -
     title: "53AF0375"
     images_flickr: { photo: "35743309890", farm: 5, server: 4298, secret: "b0bfd48a8c", secret_h: "a400b172cf", secret_k: "910932dd13", secret_o: "737fe55557", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35743309890"}
@@ -1837,15 +1839,6 @@
     colors: ["pink", "gold"]
     notes:
       - 星
-  -
-    title: "シリウス3"
-    images_flickr: { photo: "16615333756", farm: 9, server: 8577, secret: "6523a28eea", secret_h: "6442eb7ba2", secret_k: "d987fc89eb", secret_o: "ccbfdc3fca", format_o: "jpg" }
-    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/16615333756"}
-    size: { width_o: 3648, height_o: 5472 }
-    colors: ["silver", "red", "white"]
-    notes:
-      - ピューロランドパレード『レジェンド・オブ・シリウス』3着目
-      - スパンコール
   -
     title: "IMG_0897"
     images_flickr: { photo: "11741858395", farm: 6, server: 5546, secret: "35d12ebc19", secret_h: "ffb0ffad58", secret_k: "fa00c6fd08", secret_o: "f94a6306f3", format_o: "jpg" }
@@ -2091,6 +2084,22 @@
     colors: ["blue", "silver"]
     notes:
       - ANTEPRIMA 荻野いづみデザイン
+  -
+    title: "5D3V8314"
+    images_flickr: { photo: "22446743828", farm: 1, server: 642, secret: "43477f157e", secret_h: "6deaba2b41", secret_k: "723ef3a0a1", secret_o: "79250e2d39", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22446743828"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["silver", "pink"]
+    notes:
+      - エバー航空、宇宙飛行士、ヒューストン
+  -
+    title: "5D3V8345"
+    images_flickr: { photo: "22865085985", farm: 6, server: 5709, secret: "a2a97e55bf", secret_h: "4af8b35a7a", secret_k: "c4d3d1dc37", secret_o: "6910f1c56d", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22865085985"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["green", "grey", "pink"]
+    notes:
+      - エバー航空、キャビンアテンダント
   -
     title: "5D3W9762"
     images_flickr: { photo: "23863299425", farm: 6, server: 5834, secret: "d7d3450101", secret_h: "0097d611ff", secret_k: "54c8573636", secret_o: "172c2c9dee", format_o: "jpg" }
@@ -2793,15 +2802,6 @@
     size: { width_o: 640, height_o: 640 }
     colors: ["black", "white"]
     notes:
-      - ヨーロッパ
-  -
-    title: "9k8n6sMGEp"
-    images_instagram: { shortcode: "9k8n6sMGEp", width_t: 150, width_m: 320, width_l: 750 }
-    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/9k8n6sMGEp/"}
-    size: { width_o: 750, height_o: 750 }
-    colors: ["pink", "white"]
-    notes:
-      - メルヘンシアター『ハローキティ ドリームレビュー 1』レビュー3着目の冠がない版
       - ヨーロッパ
   -
     title: "985B-9MGPM"
