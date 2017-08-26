@@ -1,5 +1,24 @@
 ---
   -
+    title: "オーバーオール"
+    images_flickr: { photo: "10836880765", farm: 3, server: 2816, secret: "c1ba5e2447", secret_h: "330f7918d1", secret_k: "b45c98df92", secret_o: "6572393dfb", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10836880765/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "red", "white", "yellow"]
+    notes:
+      - 『ハローキティのすてきなパーティ』
+      - 『ハローキティの恐竜島探検』
+      - オーバーオール、尻尾
+  -
+    title: "5D3R4470"
+    images_flickr: { photo: "15237404254", farm: 9, server: 8565, secret: "0e0593ef9d", secret_h: "f5d4bb7e42", secret_k: "1f8913faa0", secret_o: "129db61a51", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15237404254"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "red", "white", "yellow"]
+    notes:
+      - オーバーオールの靴を履いていないバージョン
+      - 館のレストラン『Join!☆Kitty』2016年以降
+  -
     title: "スターライトパレード"
     images_flickr: { photo: "15827633305", farm: 8, server: 7481, secret: "09b36159c3", secret_h: "ac501c95d3", secret_k: "d7acd22131", secret_o: "fdfab8e1a6", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15827633305"}
@@ -1444,25 +1463,6 @@
     colors: ["pink", "white"]
     notes:
       - 水玉、熊、多段フリル、ヘッドドレス
-  -
-    title: "オーバーオール"
-    images_flickr: { photo: "10836880765", farm: 3, server: 2816, secret: "c1ba5e2447", secret_h: "330f7918d1", secret_k: "b45c98df92", secret_o: "6572393dfb", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10836880765/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "red", "white", "yellow"]
-    notes:
-      - 『ハローキティのすてきなパーティ』
-      - 『ハローキティの恐竜島探検』
-      - オーバーオール、尻尾
-  -
-    title: "5D3R4470"
-    images_flickr: { photo: "15237404254", farm: 9, server: 8565, secret: "0e0593ef9d", secret_h: "f5d4bb7e42", secret_k: "1f8913faa0", secret_o: "129db61a51", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15237404254"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "red", "white", "yellow"]
-    notes:
-      - オーバーオールの靴を履いていないバージョン
-      - 館のレストラン『Join!☆Kitty』2016年以降
   -
     title: "5D3K4676"
     images_flickr: { photo: "11486648763", farm: 4, server: 3696, secret: "e555001d6f", secret_h: "fdb932eb7c", secret_k: "dbb22a4f7b", secret_o: "2038f430eb", format_o: "jpg" }
