@@ -1,5 +1,110 @@
 ---
   -
+    title: "スターライトパレード"
+    images_flickr: { photo: "15827633305", farm: 8, server: 7481, secret: "09b36159c3", secret_h: "ac501c95d3", secret_k: "d7acd22131", secret_o: "fdfab8e1a6", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15827633305"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "white", "gold"]
+    notes:
+      - ピューロランドパレード『スターライトパレード』
+      - 『ハローキティのすてきなパーティ』
+      - 多段フリル、水玉、ボール
+  -
+    title: "5D3B6034 (960x1440)"
+    images_picasa: { lh: 5, dirs: "-JLmrp9-ckgA/UMKhWy5ThXI/AAAAAAAAFzY/79jMS4SO3JU", file: "5D3B6034%2520%2528960x1440%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/Z2K_XT_xiuD33KXn_ar1VNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 960, height_o: 1440 }
+    colors: ["white", "silver", "gold"]
+    notes:
+      - 『コズミックファンタジー』クリスマス版の頭が異なるバージョン
+      - クリスマス、雪、星、柊
+  -
+    title: "5D3R8243"
+    images_flickr: { photo: "15781072349", farm: 8, server: 7547, secret: "efbff21331", secret_h: "ff8b7ea228", secret_k: "27f987a8c1", secret_o: "cfe875e077", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15781072349"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "silver", "gold", "red"]
+    notes:
+      - 『コズミックファンタジー』クリスマス版の頭が異なるバージョンのリボン違い
+      - クリスマス、雪、星、柊
+  -
+    title: "ILLUMINANT"
+    images_flickr: { photo: "447013927", farm: 1, server: 249, secret: "dd945787c1", before: "20120301" }
+    source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/447013927"}
+    size: { width_o: 682, height_o: 1024 }
+    colors: ["gold"]
+    notes:
+      - ピューロランドパレード『ILLUMINANT』
+      - 星、冠
+  -
+    title: "5D3K4361"
+    images_flickr: { photo: "11486544915", farm: 8, server: 7371, secret: "ab7cc6af96", secret_h: "9f22b2423a", secret_k: "0edce60c2e", secret_o: "dd5faf8160", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486544915/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "white", "red"]
+    notes:
+      - ピューロランドパレード『クリスマス ILLUMINANT』
+      - 館のレストラン『Join!☆Kitty クリスマス』2015年版
+      - クリスマス、星、マント
+  -
+    title: "Believe"
+    images_flickr: { photo: "16152535014", farm: 8, server: 7635, secret: "db056d3679", secret_h: "9cc94ccbdd", secret_k: "32c2106d11", secret_o: "c16bbe3d3c", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16152535014"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "silver", "gold", "red"]
+    notes:
+      - ピューロランドパレード『Believe』
+      - ピューロビレッジ『ミラクリュージョン★』
+      - ピューロビレッジ『ミラクリュージョン★Happiness』2015年
+  -
+    title: "5D3O9793"
+    images_flickr: { photo: "14650521100", farm: 4, server: 3882, secret: "36330b54b2", secret_h: "9d994d5b07", secret_k: "753906d1d4", secret_o: "45e397092e", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14650521100"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "silver", "gold", "red"]
+    notes:
+      - 『Believe』の光っているバージョン
+      - ピューロビレッジ『ミラクリュージョン★』
+      - ピューロビレッジ『ミラクリュージョン★Happiness』2015年
+  -
+    title: "5D3R6215"
+    images_flickr: { photo: "15889076825", farm: 8, server: 7563, secret: "35fcbdb4a6", secret_h: "9c910d2703", secret_k: "808a6d0275", secret_o: "88ece5e79d", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15889076825"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "silver", "gold", "red"]
+    notes:
+      - 『Believe』のアレンジで、胸に金色の装飾が追加された光っていないバージョン
+      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』2014年
+  -
+    title: "5D3Q8284"
+    images_flickr: { photo: "15605658267", farm: 6, server: 5612, secret: "e3a155d4a5", secret_h: "96a9211ad7", secret_k: "b7de00418a", secret_o: "573005e13b", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605658267"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "silver", "gold", "red"]
+    notes:
+      - 『Believe』のアレンジで、胸に金色の装飾が追加された光っているバージョン
+      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』2014年
+  -
+    title: "53AA9225"
+    images_flickr: { photo: "31055438495", farm: 6, server: 5470, secret: "deb72c88d7", secret_h: "1e16633fc5", secret_k: "7cd2ec2381", secret_o: "34292d8296", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31055438495/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "white", "gold"]
+    notes:
+      - ピューロランドパレード『Believe in Christmas』
+      - ピューロビレッジ『ミラクリュージョン★Happiness』2016年
+      - クリスマス
+  -
+    title: "5D3S2796"
+    images_flickr: { photo: "15985858637", farm: 9, server: 8572, secret: "afa8289c1a", secret_h: "9b0f232fac", secret_k: "7fe2b7bd59", secret_o: "599d78e667", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15985858637"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "green", "black", "white"]
+    notes:
+      - ピューロランドパレード『星空の Happy Party Christmas』
+      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
+      - クリスマス
+  -
     title: "ARIGATO EVERYONE"
     images_flickr: { photo: "15605014039", farm: 6, server: 5604, secret: "3aa65f125e", secret_h: "2c5f7cc664", secret_k: "31513b8bf6", secret_o: "62624d9ba4", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605014039"}
@@ -54,44 +159,6 @@
     colors: ["red", "green", "pink", "yellow", "purple", "brown"]
     notes:
       - 『Miracle Gift Parade』の光らないバージョン
-  -
-    title: "Believe"
-    images_flickr: { photo: "16152535014", farm: 8, server: 7635, secret: "db056d3679", secret_h: "9cc94ccbdd", secret_k: "32c2106d11", secret_o: "c16bbe3d3c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16152535014"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "silver", "gold", "red"]
-    notes:
-      - ピューロランドパレード『Believe』
-      - ピューロビレッジ『ミラクリュージョン★』
-      - ピューロビレッジ『ミラクリュージョン★Happiness』2015年
-  -
-    title: "5D3O9793"
-    images_flickr: { photo: "14650521100", farm: 4, server: 3882, secret: "36330b54b2", secret_h: "9d994d5b07", secret_k: "753906d1d4", secret_o: "45e397092e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14650521100"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "silver", "gold", "red"]
-    notes:
-      - 『Believe』の光っているバージョン
-      - ピューロビレッジ『ミラクリュージョン★』
-      - ピューロビレッジ『ミラクリュージョン★Happiness』2015年
-  -
-    title: "5D3R6215"
-    images_flickr: { photo: "15889076825", farm: 8, server: 7563, secret: "35fcbdb4a6", secret_h: "9c910d2703", secret_k: "808a6d0275", secret_o: "88ece5e79d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15889076825"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "silver", "gold", "red"]
-    notes:
-      - 『Believe』のアレンジで、胸に金色の装飾が追加された光っていないバージョン
-      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』2014年
-  -
-    title: "5D3Q8284"
-    images_flickr: { photo: "15605658267", farm: 6, server: 5612, secret: "e3a155d4a5", secret_h: "96a9211ad7", secret_k: "b7de00418a", secret_o: "573005e13b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605658267"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "silver", "gold", "red"]
-    notes:
-      - 『Believe』のアレンジで、胸に金色の装飾が追加された光っているバージョン
-      - ピューロビレッジ『ミラクリュージョン★クリスマススペシャル』2014年
   -
     title: "5D3V4554"
     images_flickr: { photo: "21251679969", farm: 1, server: 682, secret: "1cb7701265", secret_h: "7db28e595e", secret_k: "9ee3fbce6f", secret_o: "898e1156e1", format_o: "jpg" }
@@ -226,42 +293,6 @@
     notes:
       - 外部イベント『ハローキティ＆ダニエルのありがとうマイフレンズ』のアレンジで金色の線やリボンとなっている
       - ストライプ
-  -
-    title: "パレードパラレル"
-    images_flickr: { photo: "36121445852", farm: 5, server: 4297, secret: "a67c0b440b", secret_h: "a7a08e5e3e", secret_k: "96b9ff7883", secret_o: "011856da9b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121445852"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["purple", "green", "pink", "white", "yellow", "blue"]
-    notes:
-      - ハーモニーランドパレード『パレードパラレル』
-      - リボン、ストライプ
-  -
-    title: "パレードパラレル・ハロウィーン"
-    images_flickr: { photo: "22879124551", farm: 1, server: 614, secret: "c4393def6e", secret_h: "8d36d54534", secret_k: "c2b54cd60b", secret_o: "aea8936fba", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22879124551"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["purple", "orange", "white", "black"]
-    notes:
-      - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
-      - ジャック・オー・ランタン、ハロウィン、水玉、ストライプ
-  -
-    title: "パレードパラレル・クリスマス"
-    images_flickr: { photo: "23429762473", farm: 2, server: 1452, secret: "4e19afb8b3", secret_h: "038bee70c3", secret_k: "dd9391bbcc", secret_o: "fd1bacfe7f", format_o: "jpg" }
-    source: { author: "にゃむ", license: "", url: "https://www.flickr.com/photos/124913439@N07/23429762473"}
-    size: { width_o: 4000, height_o: 6016 }
-    colors: ["purple", "gold", "silver", "white"]
-    notes:
-      - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
-      - クリスマス、帽子
-  -
-    title: "パレードパラレル・イースター"
-    images_flickr: { photo: "26204409931", farm: 2, server: 1473, secret: "26f7bc5793", secret_h: "67cba681da", secret_k: "34adbcc1b7", secret_o: "5bdaaa94f0", format_o: "jpg" }
-    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26204409931"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["green", "purple", "pink", "yellow"]
-    notes:
-      - ハーモニーランドパレード『パレードパラレル イースター ver.』
-      - イースター、イースターエッグ
   -
     title: "5D3W0943"
     images_flickr: { photo: "22876791176", farm: 1, server: 695, secret: "d20a2639a3", secret_h: "9f62ede266", secret_k: "5b0a6d73ba", secret_o: "222107888f", format_o: "jpg" }
@@ -453,16 +484,6 @@
     colors: ["green", "grey", "pink"]
     notes:
       - エバー航空、キャビンアテンダント
-  -
-    title: "5D3S2796"
-    images_flickr: { photo: "15985858637", farm: 9, server: 8572, secret: "afa8289c1a", secret_h: "9b0f232fac", secret_k: "7fe2b7bd59", secret_o: "599d78e667", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15985858637"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "green", "black", "white"]
-    notes:
-      - ピューロランドパレード『星空の Happy Party Christmas』
-      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
-      - クリスマス
   -
     title: "5D3G2135"
     images_flickr: { photo: "9329266957", farm: 4, server: 3763, secret: "9e5527ea07", secret_h: "6a17e2bdee", secret_k: "c82429d41c", secret_o: "6c3f8dc48f", format_o: "jpg" }
@@ -772,7 +793,7 @@
     notes:
       - プードル、ハート
   -
-    title: "ノア"
+    title: "パレード・ノア"
     images_flickr: { photo: "15803652225", farm: 8, server: 7540, secret: "3e52e9aef8", secret_h: "8819306ca4", secret_k: "58659e4878", secret_o: "c7c9a9521e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15803652225"}
     size: { width_o: 5760, height_o: 3840 }
@@ -780,6 +801,51 @@
     notes:
       - ハーモニーランドパレード『パレード・ノア』
       - ステッキ、冠
+  -
+    title: "パレード・アクア"
+    images_flickr: { photo: "13951120237", farm: 8, server: 7365, secret: "ce9b51e960", secret_h: "cfa2e89b2a", secret_k: "e7a147ce9d", secret_o: "d50ea058e5", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/13951120237"}
+    size: { width_o: 3456, height_o: 5184 }
+    colors: ["blue", "silver", "red"]
+    notes:
+      - ハーモニーランドパレード『パレード・アクア』
+      - 冠
+  -
+    title: "パレードパラレル・オリジナル"
+    images_flickr: { photo: "36121445852", farm: 5, server: 4297, secret: "a67c0b440b", secret_h: "a7a08e5e3e", secret_k: "96b9ff7883", secret_o: "011856da9b", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121445852"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["purple", "green", "pink", "white", "yellow", "blue"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル オリジナル ver.』
+      - リボン、ストライプ
+  -
+    title: "パレードパラレル・ハロウィーン"
+    images_flickr: { photo: "22879124551", farm: 1, server: 614, secret: "c4393def6e", secret_h: "8d36d54534", secret_k: "c2b54cd60b", secret_o: "aea8936fba", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22879124551"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["purple", "orange", "white", "black"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
+      - ジャック・オー・ランタン、ハロウィン、水玉、ストライプ
+  -
+    title: "パレードパラレル・クリスマス"
+    images_flickr: { photo: "23429762473", farm: 2, server: 1452, secret: "4e19afb8b3", secret_h: "038bee70c3", secret_k: "dd9391bbcc", secret_o: "fd1bacfe7f", format_o: "jpg" }
+    source: { author: "にゃむ", license: "", url: "https://www.flickr.com/photos/124913439@N07/23429762473"}
+    size: { width_o: 4000, height_o: 6016 }
+    colors: ["purple", "gold", "silver", "white"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
+      - クリスマス、帽子
+  -
+    title: "パレードパラレル・イースター"
+    images_flickr: { photo: "26204409931", farm: 2, server: 1473, secret: "26f7bc5793", secret_h: "67cba681da", secret_k: "34adbcc1b7", secret_o: "5bdaaa94f0", format_o: "jpg" }
+    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/26204409931"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["green", "purple", "pink", "yellow"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル イースター ver.』
+      - イースター、イースターエッグ
   -
     title: "060701-HarmonyLand_KittyShow4"
     images_flickr: { photo: "186229168", farm: 1, server: 48, secret: "fb74deb164", secret_o: "fb74deb164", format_o: "jpg", before: "20120301" }
@@ -821,16 +887,6 @@
     notes:
       - プラザステージ『キティズ♥ドリームファクトリー』
       - 多段フリル
-  -
-    title: "5D3R1347"
-    images_flickr: { photo: "15827633305", farm: 8, server: 7481, secret: "09b36159c3", secret_h: "ac501c95d3", secret_k: "d7acd22131", secret_o: "fdfab8e1a6", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15827633305"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "white", "gold"]
-    notes:
-      - ピューロランドパレード『スターライトパレード』
-      - 『ハローキティのすてきなパーティ』
-      - 多段フリル、水玉、ボール
   -
     title: "5D3R3232"
     images_flickr: { photo: "15663055889", farm: 8, server: 7484, secret: "7029142a90", secret_h: "2a08d64cc6", secret_k: "8caa43400e", secret_o: "312c25b934", format_o: "jpg" }
@@ -1408,16 +1464,6 @@
       - オーバーオールの靴を履いていないバージョン
       - 館のレストラン『Join!☆Kitty』2016年以降
   -
-    title: "5D3K4361"
-    images_flickr: { photo: "11486544915", farm: 8, server: 7371, secret: "ab7cc6af96", secret_h: "9f22b2423a", secret_k: "0edce60c2e", secret_o: "dd5faf8160", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486544915/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "red"]
-    notes:
-      - ピューロランドパレード『クリスマス ILLUMINANT』
-      - 館のレストラン『Join!☆Kitty クリスマス』2015年版
-      - クリスマス、星、マント
-  -
     title: "5D3K4676"
     images_flickr: { photo: "11486648763", farm: 4, server: 3696, secret: "e555001d6f", secret_h: "fdb932eb7c", secret_k: "dbb22a4f7b", secret_o: "2038f430eb", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486648763/"}
@@ -1441,16 +1487,6 @@
     colors: ["pink", "white", "silver"]
     notes:
       - 『ロマンティックセレナーデ』から腰ひもとリストを削除しジャケットとクリスマス装飾を追加
-      - クリスマス
-  -
-    title: "53AA9225"
-    images_flickr: { photo: "31055438495", farm: 6, server: 5470, secret: "deb72c88d7", secret_h: "1e16633fc5", secret_k: "7cd2ec2381", secret_o: "34292d8296", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31055438495/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "white", "gold"]
-    notes:
-      - ピューロランドパレード『Believe in Christmas』
-      - ピューロビレッジ『ミラクリュージョン★Happiness』2016年
       - クリスマス
   -
     title: "53AC5075"
@@ -1648,22 +1684,6 @@
     notes:
       - アリス、トランプ、うさぎ、エプロン
   -
-    title: "5D3B6034 (960x1440)"
-    images_picasa: { lh: 5, dirs: "-JLmrp9-ckgA/UMKhWy5ThXI/AAAAAAAAFzY/79jMS4SO3JU", file: "5D3B6034%2520%2528960x1440%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/Z2K_XT_xiuD33KXn_ar1VNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
-    size: { width_o: 960, height_o: 1440 }
-    colors: ["white", "silver", "gold"]
-    notes:
-      - クリスマス、雪、星、柊
-  -
-    title: "5D3R8243"
-    images_flickr: { photo: "15781072349", farm: 8, server: 7547, secret: "efbff21331", secret_h: "ff8b7ea228", secret_k: "27f987a8c1", secret_o: "cfe875e077", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15781072349"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["white", "silver", "gold", "red"]
-    notes:
-      - 雪のドレスでリボンの色が変更になった版
-  -
     title: "5D3B3961 (1440x960)"
     images_picasa: { lh: 5, dirs: "-UHVJ_BFr3Ts/UKhZXnDmi7I/AAAAAAAAEXs/FFcE_rJVOfM", file: "5D3B3961%2520%25281440x960%2529.jpg" }
     source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/fgFCJqEw9YkdZFOG8Z6HEtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
@@ -1779,15 +1799,6 @@
       - 知恵の木ステージ『おねがいマイメロディ天使の大行進』
       - 天使、羽、ハート
   -
-    title: "ILLUMINANT"
-    images_flickr: { photo: "447013927", farm: 1, server: 249, secret: "dd945787c1", before: "20120301" }
-    source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/447013927"}
-    size: { width_o: 682, height_o: 1024 }
-    colors: ["gold"]
-    notes:
-      - ピューロランドパレード『ILLUMINANT』
-      - 星、冠
-  -
     title: "Hello-Kitty-Forever-21-Shibuya-2011-058"
     images_flickr: { photo: "6334847372", farm: 7, server: 6056, secret: "de8ea35340", secret_o: "68a7fb62d7", format_o: "jpg", before: "20120301" }
     source: { author: "iamchubbybunny", license: "", url: "https://www.flickr.com/photos/41765811@N00/6334847372"}
@@ -1882,15 +1893,6 @@
     colors: ["red", "pink", "yellow", "green", "blue", "purple", "white"]
     notes:
       - 知恵の木ステージ『虹色のパーティ』2着目
-  -
-    title: "IMG_3931"
-    images_flickr: { photo: "13951120237", farm: 8, server: 7365, secret: "ce9b51e960", secret_h: "cfa2e89b2a", secret_k: "e7a147ce9d", secret_o: "d50ea058e5", format_o: "jpg" }
-    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/13951120237"}
-    size: { width_o: 3456, height_o: 5184 }
-    colors: ["blue", "silver", "red"]
-    notes:
-      - ハーモニーランドパレード『パレード・アクア』
-      - 冠
   -
     title: "CiaToy"
     images_flickr: { photo: "19142619778", farm: 1, server: 542, secret: "819b8fff43", secret_h: "190f2cea42", secret_k: "742abe8f68", secret_o: "ec4e72de5a", format_o: "jpg" }
