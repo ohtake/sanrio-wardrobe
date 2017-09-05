@@ -2169,7 +2169,7 @@
     notes:
       - みずほ銀行
   -
-    title: "IMG_1458"
+    title: "三菱自動車・オーバーオール"
     images_flickr: { photo: "12926152955", farm: 8, server: 7289, secret: "b64b6eb46a", secret_h: "d063186a28", secret_k: "2a0b952c91", secret_o: "2a7db260c0", format_o: "jpg" }
     source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/12926152955"}
     size: { width_o: 3456, height_o: 5184 }
@@ -2177,6 +2177,15 @@
     notes:
       - 三菱自動車
       - オーバーオール
+  -
+    title: "三菱自動車・登山"
+    images_instagram: { shortcode: "BYkrw0XAViz", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "yuichikuraa", license: "", url: "https://www.instagram.com/p/BYkrw0XAViz/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["blue", "green", "red", "orange", "brown", "black"]
+    notes:
+      - 三菱自動車
+      - 帽子、リュックサック
   -
     title: "5D3S9860"
     images_flickr: { photo: "16028627509", farm: 8, server: 7529, secret: "e0105b64ec", secret_h: "519e774f04", secret_k: "fa88366350", secret_o: "64aabd2b11", format_o: "jpg" }
