@@ -1584,6 +1584,7 @@
     size: { width_o: 1440, height_o: 960 }
     colors: ["pink", "yellow", "green", "white", "gold"]
     notes:
+      - 外部イベント『ハローキティのラブリーステージ！』
       - 外部イベント『ハローキティのハッピーキャラバン!』
       - 外部イベント『キティズパラダイス』
       - イギリス Hello Kitty Live
