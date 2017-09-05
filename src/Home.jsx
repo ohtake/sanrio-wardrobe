@@ -79,7 +79,7 @@ export default class Home extends React.Component {
         <h2>License</h2>
         <ul>
           <li>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></li>
-          <li>This software is provided under <a href="https://opensource.org/licenses/ISC">ISC License</a></li>
+          <li>This software is provided under <a href="https://opensource.org/licenses/MIT">MIT License</a></li>
           <li><a href="assets/licenses.txt">Attribution notices for third party software</a></li>
         </ul>
         <h2>Documents and reports</h2>

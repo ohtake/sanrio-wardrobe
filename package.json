@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "author": "Ohtake, Tomohiro <tomohiro@kuramae.ne.jp>",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "main": "src/index.jsx",
   "dependencies": {
