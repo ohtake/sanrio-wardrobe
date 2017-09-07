@@ -2,7 +2,7 @@
   -
     title: "オーバーオール"
     images_flickr: { photo: "10836880765", farm: 3, server: 2816, secret: "c1ba5e2447", secret_h: "330f7918d1", secret_k: "b45c98df92", secret_o: "6572393dfb", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10836880765/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10836880765/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "red", "white", "yellow"]
     notes:
@@ -12,7 +12,7 @@
   -
     title: "5D3R4470"
     images_flickr: { photo: "15237404254", farm: 9, server: 8565, secret: "0e0593ef9d", secret_h: "f5d4bb7e42", secret_k: "1f8913faa0", secret_o: "129db61a51", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15237404254"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15237404254"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "red", "white", "yellow"]
     notes:
@@ -21,7 +21,7 @@
   -
     title: "スターライトパレード"
     images_flickr: { photo: "15827633305", farm: 8, server: 7481, secret: "09b36159c3", secret_h: "ac501c95d3", secret_k: "d7acd22131", secret_o: "fdfab8e1a6", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15827633305"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15827633305"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "white", "gold"]
     notes:
@@ -31,7 +31,7 @@
   -
     title: "5D3B6034 (960x1440)"
     images_picasa: { lh: 5, dirs: "-JLmrp9-ckgA/UMKhWy5ThXI/AAAAAAAAFzY/79jMS4SO3JU", file: "5D3B6034%2520%2528960x1440%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/Z2K_XT_xiuD33KXn_ar1VNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/Z2K_XT_xiuD33KXn_ar1VNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440 }
     colors: ["white", "silver", "gold"]
     notes:
@@ -40,7 +40,7 @@
   -
     title: "5D3R8243"
     images_flickr: { photo: "15781072349", farm: 8, server: 7547, secret: "efbff21331", secret_h: "ff8b7ea228", secret_k: "27f987a8c1", secret_o: "cfe875e077", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15781072349"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15781072349"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "silver", "gold", "red"]
     notes:
@@ -67,7 +67,7 @@
   -
     title: "5D3K4361"
     images_flickr: { photo: "11486544915", farm: 8, server: 7371, secret: "ab7cc6af96", secret_h: "9f22b2423a", secret_k: "0edce60c2e", secret_o: "dd5faf8160", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486544915/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486544915/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "white", "red"]
     notes:
@@ -77,7 +77,7 @@
   -
     title: "Believe"
     images_flickr: { photo: "16152535014", farm: 8, server: 7635, secret: "db056d3679", secret_h: "9cc94ccbdd", secret_k: "32c2106d11", secret_o: "c16bbe3d3c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16152535014"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16152535014"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "silver", "gold", "red"]
     notes:
@@ -87,7 +87,7 @@
   -
     title: "5D3O9793"
     images_flickr: { photo: "14650521100", farm: 4, server: 3882, secret: "36330b54b2", secret_h: "9d994d5b07", secret_k: "753906d1d4", secret_o: "45e397092e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14650521100"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14650521100"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "silver", "gold", "red"]
     notes:
@@ -97,7 +97,7 @@
   -
     title: "5D3R6215"
     images_flickr: { photo: "15889076825", farm: 8, server: 7563, secret: "35fcbdb4a6", secret_h: "9c910d2703", secret_k: "808a6d0275", secret_o: "88ece5e79d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15889076825"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15889076825"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "silver", "gold", "red"]
     notes:
@@ -106,7 +106,7 @@
   -
     title: "5D3Q8284"
     images_flickr: { photo: "15605658267", farm: 6, server: 5612, secret: "e3a155d4a5", secret_h: "96a9211ad7", secret_k: "b7de00418a", secret_o: "573005e13b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605658267"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605658267"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "silver", "gold", "red"]
     notes:
@@ -115,7 +115,7 @@
   -
     title: "53AA9225"
     images_flickr: { photo: "31055438495", farm: 6, server: 5470, secret: "deb72c88d7", secret_h: "1e16633fc5", secret_k: "7cd2ec2381", secret_o: "34292d8296", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31055438495/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31055438495/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "white", "gold"]
     notes:
@@ -125,7 +125,7 @@
   -
     title: "5D3S2796"
     images_flickr: { photo: "15985858637", farm: 9, server: 8572, secret: "afa8289c1a", secret_h: "9b0f232fac", secret_k: "7fe2b7bd59", secret_o: "599d78e667", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15985858637"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15985858637"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "green", "black", "white"]
     notes:
@@ -135,7 +135,7 @@
   -
     title: "ARIGATO EVERYONE"
     images_flickr: { photo: "15605014039", farm: 6, server: 5604, secret: "3aa65f125e", secret_h: "2c5f7cc664", secret_k: "31513b8bf6", secret_o: "62624d9ba4", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605014039"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605014039"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["purple", "pink", "white", "brown", "green", "yellow", "blue"]
     notes:
@@ -145,7 +145,7 @@
   -
     title: "5D3S3568"
     images_flickr: { photo: "15988250619", farm: 9, server: 8568, secret: "4f88143019", secret_h: "26d62b745c", secret_k: "18d76e4932", secret_o: "5a01f121a1", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15988250619"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15988250619"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["purple", "pink", "white", "brown", "green", "yellow", "blue", "gold"]
     notes:
@@ -163,7 +163,7 @@
   -
     title: "OMOIYARI TO YOU"
     images_flickr: { photo: "22390481194", farm: 6, server: 5758, secret: "beeb8e7677", secret_h: "68679d59e9", secret_k: "bfc9a7792d", secret_o: "53446bcffd", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22390481194"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22390481194"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "purple"]
     notes:
@@ -174,7 +174,7 @@
   -
     title: "Miracle Gift Parade"
     images_flickr: { photo: "24326364382", farm: 2, server: 1623, secret: "2a00bf3387", secret_h: "988fe74e0e", secret_k: "1d900d84de", secret_o: "2a00d967a9", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24326364382"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24326364382"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "green", "pink", "yellow", "purple", "brown"]
     notes:
@@ -183,7 +183,7 @@
   -
     title: "5D3X1099"
     images_flickr: { photo: "24408434416", farm: 2, server: 1667, secret: "c1b0a69c4d", secret_h: "d70603bd2e", secret_k: "aa8c3c2da6", secret_o: "932e750c5e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24408434416"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24408434416"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "green", "pink", "yellow", "purple", "brown"]
     notes:
@@ -191,7 +191,7 @@
   -
     title: "ミラクリュージョン★スターライトドリーム"
     images_flickr: { photo: "21251679969", farm: 1, server: 682, secret: "1cb7701265", secret_h: "7db28e595e", secret_k: "9ee3fbce6f", secret_o: "898e1156e1", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21251679969"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21251679969"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "yellow"]
     notes:
@@ -200,7 +200,7 @@
   -
     title: "ミラクリュージョン★Happiness"
     images_flickr: { photo: "32829335935", farm: 3, server: 2205, secret: "22277cef1d", secret_h: "72e1e4d975", secret_k: "b726a83f02", secret_o: "44264d90fd", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32829335935/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32829335935/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "purple"]
     notes:
@@ -209,7 +209,7 @@
   -
     title: "ドリームレビュー1・通常"
     images_flickr: { photo: "8826145024", farm: 4, server: 3807, secret: "50c0fe0101", secret_h: "01d6f6fc84", secret_k: "ffec56a04c", secret_o: "6062725cc4", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8826145024/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8826145024/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "red"]
     notes:
@@ -218,7 +218,7 @@
   -
     title: "5D3X8528"
     images_flickr: { photo: "25793490290", farm: 2, server: 1634, secret: "2c863c6fa1", secret_h: "9c3e845bec", secret_k: "d6935ac9fd", secret_o: "1901a951da", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25793490290"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25793490290"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "blue", "red"]
     notes:
@@ -235,7 +235,7 @@
   -
     title: "5D3V3953"
     images_flickr: { photo: "21222917226", farm: 1, server: 608, secret: "4b9f03bc64", secret_h: "dd8c4cd394", secret_k: "29e3aabab9", secret_o: "c99f8c1865", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21222917226"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21222917226"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "gold"]
     notes:
@@ -243,7 +243,7 @@
   -
     title: "5D3D0766 (1440x960)"
     images_picasa: { lh: 5, dirs: "-PPePiZd9FU8/UTI8cY0599I/AAAAAAAAK7I/1_lAfiKpeQ0", file: "5D3D0766%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/PhVzKqKfKHZHwO566xaYqNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/PhVzKqKfKHZHwO566xaYqNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["pink", "white", "yellow", "green"]
     notes:
@@ -253,7 +253,7 @@
   -
     title: "5D3M9810"
     images_flickr: { photo: "13926372509", farm: 8, server: 7436, secret: "18b4730bdf", secret_h: "ae06ae7458", secret_k: "3273af67bb", secret_o: "6fe1314cfe", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926372509"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926372509"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "gold"]
     notes:
@@ -262,7 +262,7 @@
   -
     title: "5D3U3163"
     images_flickr: { photo: "16740467770", farm: 9, server: 8712, secret: "e7b7089789", secret_h: "7d753a0719", secret_k: "066adb1724", secret_o: "e757035c43", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16740467770"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16740467770"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "red"]
     notes:
@@ -271,7 +271,7 @@
   -
     title: "5D3D2846 (1440x960)"
     images_picasa: { lh: 3, dirs: "-_yPx6yNvzE4/UTiac8NDbwI/AAAAAAAALxg/A8glaIroFvw", file: "5D3D2846%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/toLc9rbQd6Tv-Pa8mTaPt9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/toLc9rbQd6Tv-Pa8mTaPt9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["red", "blue"]
     notes:
@@ -280,7 +280,7 @@
   -
     title: "5D3D1216 (1440x960)"
     images_picasa: { lh: 3, dirs: "-R4Utmi7l5Js/UTI9RVW3mCI/AAAAAAAALGU/Xvta7ry2UNk", file: "5D3D1216%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/-yE7zHAYXfkytpFS3A75OdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/-yE7zHAYXfkytpFS3A75OdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["white", "black", "red"]
     notes:
@@ -289,7 +289,7 @@
   -
     title: "5D3B1719 (1440x960)"
     images_picasa: { lh: 4, dirs: "-Jm0Vrxvhdas/UHoHpaJEd_I/AAAAAAAAD0U/Cd8AX3hI6fk", file: "5D3B1719%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/8Q2_Tu7RPHFCXuHI23fNAdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/8Q2_Tu7RPHFCXuHI23fNAdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["red", "white"]
     notes:
@@ -298,7 +298,7 @@
   -
     title: "5D3E5671 (1280x1920)"
     images_picasa: { lh: 5, dirs: "-bXtvMl5BSmY/UXUbqlXp5II/AAAAAAAAQkU/kxI2W7t1WBo", file: "5D3E5671%2520%25281280x1920%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/PpPSSMC33k6uKnCmZ0fDfdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/PpPSSMC33k6uKnCmZ0fDfdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1280, height_o: 1920 }
     colors: ["red", "white"]
     notes:
@@ -307,7 +307,7 @@
   -
     title: "タイムエプロン"
     images_flickr: { photo: "9054261550", farm: 4, server: 3765, secret: "ca8c5cccba", secret_h: "5ae584c35c", secret_k: "0a06c9db41", secret_o: "f61fe8e9ac", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9054261550/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9054261550/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "red", "black", "white"]
     notes:
@@ -316,7 +316,7 @@
   -
     title: "5D3D8863 (1280x1920)"
     images_picasa: { lh: 4, dirs: "-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA", file: "5D3D8863%2520%25281280x1920%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/Jv33BfYcpxTPIRZJZwYscdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/Jv33BfYcpxTPIRZJZwYscdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1280, height_o: 1920 }
     colors: ["blue", "red", "black", "white"]
     notes:
@@ -325,7 +325,7 @@
   -
     title: "5D3F3722"
     images_flickr: { photo: "8991669805", farm: 3, server: 2864, secret: "367de01085", secret_h: "d6068141ca", secret_k: "92c9896f9a", secret_o: "120524ae75", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8991669805/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8991669805/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "brown"]
     notes:
@@ -334,7 +334,7 @@
   -
     title: "5D3M0910"
     images_flickr: { photo: "13318653623", farm: 8, server: 7333, secret: "cd0908f69b", secret_h: "b377a280f6", secret_k: "49694f5bb7", secret_o: "4ec7ef1c42", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13318653623"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13318653623"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "black"]
     notes:
@@ -343,7 +343,7 @@
   -
     title: "5D3N4376"
     images_flickr: { photo: "14288613646", farm: 4, server: 3789, secret: "45ff311cc3", secret_h: "5e164ace01", secret_k: "cd6bbbda2c", secret_o: "257c4d6d0b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14288613646"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14288613646"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "white", "black"]
     notes:
@@ -352,7 +352,7 @@
   -
     title: "5D3W8092"
     images_flickr: { photo: "23585887112", farm: 6, server: 5708, secret: "7b2c1b6867", secret_h: "f27bb28841", secret_k: "318cba9c8e", secret_o: "7398a4229a", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23585887112"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23585887112"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "silver"]
     notes:
@@ -360,7 +360,7 @@
   -
     title: "5D3W6467"
     images_flickr: { photo: "23456116821", farm: 6, server: 5750, secret: "7b5bae9b58", secret_h: "9e115e5d25", secret_k: "2c78003765", secret_o: "7a3a7b19c4", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23456116821"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23456116821"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "pink", "brown", "white"]
     notes:
@@ -378,7 +378,7 @@
   -
     title: "5D3E5348 (1280x1920)"
     images_picasa: { lh: 4, dirs: "-L2HOSpJPM9M/UXUbLPgi7oI/AAAAAAAAQfE/WRuxVvCAUfw", file: "5D3E5348%2520%25281280x1920%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/plZkpqfY9GmxR6h-vykdE9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/plZkpqfY9GmxR6h-vykdE9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1280, height_o: 1920 }
     colors: ["white", "black", "pink", "red"]
     notes:
@@ -388,7 +388,7 @@
   -
     title: "5D3W8665"
     images_flickr: { photo: "23066254004", farm: 6, server: 5709, secret: "7b8ca114a6", secret_h: "fc30e2177d", secret_k: "bc584eb042", secret_o: "a1ae331254", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23066254004"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23066254004"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "black", "pink", "red"]
     notes:
@@ -397,7 +397,7 @@
   -
     title: "5D3S3700"
     images_flickr: { photo: "16172425441", farm: 8, server: 7468, secret: "a677ec703c", secret_h: "9defc38a2c", secret_k: "6e83ecd9ce", secret_o: "ae8901ce3f", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16172425441"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16172425441"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "black", "pink", "red", "gold"]
     notes:
@@ -406,7 +406,7 @@
   -
     title: "5D3W0943"
     images_flickr: { photo: "22876791176", farm: 1, server: 695, secret: "d20a2639a3", secret_h: "9f62ede266", secret_k: "5b0a6d73ba", secret_o: "222107888f", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22876791176"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22876791176"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["purple", "pink", "orange"]
     notes:
@@ -414,7 +414,7 @@
   -
     title: "5D3V9742"
     images_flickr: { photo: "22484232818", farm: 6, server: 5738, secret: "9c919e0275", secret_h: "d9a2b05bc1", secret_k: "ab875d02e3", secret_o: "d6f69e48a6", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22484232818"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22484232818"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "red", "green", "white"]
     notes:
@@ -423,7 +423,7 @@
   -
     title: "5D3O6590"
     images_flickr: { photo: "14569103238", farm: 6, server: 5570, secret: "da000b2b96", secret_h: "9822da331f", secret_k: "19ddc461ae", secret_o: "65d56ea3ba", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14569103238"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14569103238"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "purple", "green", "white"]
     notes:
@@ -434,7 +434,7 @@
   -
     title: "5D3V6450"
     images_flickr: { photo: "21125356943", farm: 1, server: 570, secret: "766e736ccf", secret_h: "0da2281d20", secret_k: "fa37f9ff67", secret_o: "1584b6cf12", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21125356943"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21125356943"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "purple", "green", "white"]
     notes:
@@ -443,7 +443,7 @@
   -
     title: "5D3V8498"
     images_flickr: { photo: "22446707727", farm: 1, server: 738, secret: "1604c25c79", secret_h: "5f7721fc9e", secret_k: "4186f08d56", secret_o: "69c6a2622a", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22446707727"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22446707727"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white"]
     notes:
@@ -451,7 +451,7 @@
   -
     title: "5D3V1854"
     images_flickr: { photo: "20465408173", farm: 6, server: 5818, secret: "e827fc7ef9", secret_h: "bc5d1e0c3b", secret_k: "d0e68ce7fd", secret_o: "754057c59a", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20465408173"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20465408173"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white"]
     notes:
@@ -460,14 +460,14 @@
   -
     title: "5D3V3127"
     images_flickr: { photo: "20596249563", farm: 1, server: 662, secret: "dd6cfa10ef", secret_h: "96840dd58e", secret_k: "25e15482c8", secret_o: "73e1b0bf7f", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20596249563"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20596249563"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "silver", "black"]
     notes: []
   -
     title: "5D3W5185"
     images_flickr: { photo: "23494226695", farm: 1, server: 757, secret: "6c6da37519", secret_h: "e2a2ffd988", secret_k: "2941b88e15", secret_o: "a56e12cf95", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23494226695"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23494226695"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["purple", "silver", "orange"]
     notes:
@@ -475,7 +475,7 @@
   -
     title: "5D3P7460"
     images_flickr: { photo: "15179431542", farm: 6, server: 5559, secret: "312ffe3004", secret_h: "8dc464e82b", secret_k: "01289847f0", secret_o: "417ba73e5e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15179431542"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15179431542"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["purple", "silver"]
     notes:
@@ -484,7 +484,7 @@
   -
     title: "5D3X2427"
     images_flickr: { photo: "23961057343", farm: 2, server: 1625, secret: "eb9bca524f", secret_h: "3be16a87f1", secret_k: "7dff51505e", secret_o: "9e46f5a596", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23961057343"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23961057343"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "green", "white", "gold"]
     notes:
@@ -493,7 +493,7 @@
   -
     title: "5D3W4837"
     images_flickr: { photo: "23493200475", farm: 1, server: 654, secret: "10e6acb435", secret_h: "d4e6750db8", secret_k: "915b9ea8b4", secret_o: "d7c1b1babf", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23493200475"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23493200475"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "green", "white"]
     notes:
@@ -503,7 +503,7 @@
   -
     title: "5D3X1794"
     images_flickr: { photo: "24498508811", farm: 2, server: 1514, secret: "ac10cb6d5a", secret_h: "a1cf5757d9", secret_k: "e1478a3b36", secret_o: "8af312e548", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24498508811"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24498508811"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white"]
     notes:
@@ -512,7 +512,7 @@
   -
     title: "5D3M2676"
     images_flickr: { photo: "13653961905", farm: 8, server: 7087, secret: "a5035b430c", secret_h: "3f6f960079", secret_k: "c87ae6cbc0", secret_o: "b7ed20742c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13653961905"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13653961905"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white"]
     notes:
@@ -520,7 +520,7 @@
   -
     title: "5D3Q8342"
     images_flickr: { photo: "15608954220", farm: 8, server: 7513, secret: "5127e88cd6", secret_h: "7f086da5f9", secret_k: "994258dd85", secret_o: "6146878e88", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15608954220"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15608954220"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white"]
     notes:
@@ -529,7 +529,7 @@
   -
     title: "京王多摩センター駅名誉駅長"
     images_flickr: { photo: "31099745591", farm: 6, server: 5792, secret: "c8fbf755d4", secret_h: "1785a900b6", secret_k: "6b8b023014", secret_o: "2e16a13248", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31099745591"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31099745591"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["black", "red", "gold"]
     notes:
@@ -538,7 +538,7 @@
   -
     title: "53AA5580"
     images_flickr: { photo: "30657258482", farm: 6, server: 5665, secret: "bb75f8b038", secret_h: "f0d0039e05", secret_k: "5b7b468e33", secret_o: "6b95259349", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30657258482"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30657258482"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white"]
     notes:
@@ -547,7 +547,7 @@
   -
     title: "5D3U9204"
     images_flickr: { photo: "18812535015", farm: 6, server: 5587, secret: "e4f3cd6a63", secret_h: "c4e78d9677", secret_k: "a7bce57173", secret_o: "edbd59f2b3", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/18812535015"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/18812535015"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "yellow"]
     notes:
@@ -556,7 +556,7 @@
   -
     title: "5D3L8935"
     images_flickr: { photo: "13190141424", farm: 4, server: 3782, secret: "ab06d7b0dd", secret_h: "b49cea0aec", secret_k: "21bcb5a840", secret_o: "3b5379e7d7", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13190141424"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13190141424"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "pink", "white"]
     notes:
@@ -576,7 +576,7 @@
   -
     title: "5D3D9692 (1280x1920)"
     images_picasa: { lh: 6, dirs: "-1N1g29eo1VA/UWLEOR4GjkI/AAAAAAAAUeQ/ItCivPXK9s4", file: "5D3D9692%2520%25281280x1920%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/VwFz6fXwxw_UeZrLi12WGNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/VwFz6fXwxw_UeZrLi12WGNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1280, height_o: 1920 }
     colors: ["white", "red", "pink"]
     notes:
@@ -585,7 +585,7 @@
   -
     title: "5D3P4626"
     images_flickr: { photo: "14955289881", farm: 4, server: 3856, secret: "990ccf5d0e", secret_h: "076441de78", secret_k: "e43a684b11", secret_o: "490d690f16", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14955289881"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14955289881"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "red", "pink"]
     notes:
@@ -596,7 +596,7 @@
   -
     title: "5D3S3426"
     images_flickr: { photo: "16173568672", farm: 8, server: 7548, secret: "7fd6a748a2", secret_h: "6a08c162d1", secret_k: "9b4d9e0ebe", secret_o: "9bff89dd8c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16173568672"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16173568672"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "red", "pink"]
     notes:
@@ -605,7 +605,7 @@
   -
     title: "5D3C2291 (960x1440)"
     images_picasa: { lh: 5, dirs: "-nvxrAfr6kDw/UOQdF55pghI/AAAAAAAAIDw/TRCziQ6yj3M", file: "5D3C2291%2520%2528960x1440%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/8QDf7ChAhXlcyIKBqRniZNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/8QDf7ChAhXlcyIKBqRniZNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440 }
     colors: ["red", "gold"]
     notes:
@@ -614,7 +614,7 @@
   -
     title: "5D3D4777 (1920x1280)"
     images_picasa: { lh: 5, dirs: "-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk", file: "5D3D4777%2520%25281920x1280%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/0PFa4BsUBZFjugZvBmr8QNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/0PFa4BsUBZFjugZvBmr8QNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1920, height_o: 1280 }
     colors: ["red", "brown", "white"]
     notes:
@@ -623,7 +623,7 @@
   -
     title: "レディキティ・ローズ1"
     images_flickr: { photo: "9329266957", farm: 4, server: 3763, secret: "9e5527ea07", secret_h: "6a17e2bdee", secret_k: "c82429d41c", secret_o: "6c3f8dc48f", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9329266957/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9329266957/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red"]
     notes:
@@ -632,7 +632,7 @@
   -
     title: "レディキティ・ローズ2"
     images_flickr: { photo: "12323200923", farm: 4, server: 3710, secret: "c9f488bfa3", secret_h: "37dc17232a", secret_k: "8ad461b297", secret_o: "46fc0585c8", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12323200923"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12323200923"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red"]
     notes:
@@ -641,7 +641,7 @@
   -
     title: "レディキティ・パステルローズ"
     images_flickr: { photo: "14034879050", farm: 6, server: 5236, secret: "84dae9df38", secret_h: "dab2bb4abb", secret_k: "3cdf8d6ced", secret_o: "51032e96d2", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14034879050"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14034879050"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["yellow", "black", "white"]
     notes:
@@ -650,7 +650,7 @@
   -
     title: "レディキティ・トリコロール"
     images_flickr: { photo: "14221485795", farm: 6, server: 5114, secret: "c81a250444", secret_h: "76adae4945", secret_k: "7cc635c748", secret_o: "82ca5108a0", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14221485795"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14221485795"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "blue", "white"]
     notes:
@@ -658,7 +658,7 @@
   -
     title: "SPARKLE"
     images_flickr: { photo: "36287635300", farm: 5, server: 4339, secret: "5274cf73af", secret_h: "7c32228f46", secret_k: "f4544152a5", secret_o: "d5b50fe837", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36287635300/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36287635300/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "silver", "purple"]
     notes:
@@ -667,7 +667,7 @@
   -
     title: "ハロウィン・バンパイア"
     images_flickr: { photo: "9741887827", farm: 8, server: 7426, secret: "90be731ede", secret_h: "4673e42354", secret_k: "985797cd04", secret_o: "161540323f", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9741887827/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9741887827/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["black", "purple", "red", "white", "silver"]
     notes:
@@ -676,7 +676,7 @@
   -
     title: "ハロウィン・パンプキン"
     images_flickr: { photo: "15360373912", farm: 3, server: 2945, secret: "c7000ef8be", secret_h: "83589b9602", secret_k: "42e0797a8c", secret_o: "9aac375034", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15360373912"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15360373912"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["orange", "purple", "black"]
     notes:
@@ -685,7 +685,7 @@
   -
     title: "ハロウィン・ゴースト"
     images_flickr: { photo: "15431071427", farm: 6, server: 5616, secret: "f200f2cccb", secret_h: "932ccd866a", secret_k: "ffdd830f70", secret_o: "c1ee2f4d48", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15431071427"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15431071427"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "red"]
     notes:
@@ -694,7 +694,7 @@
   -
     title: "5D3W6010"
     images_flickr: { photo: "23165223009", farm: 1, server: 572, secret: "ee24c392b6", secret_h: "8d7407cfbc", secret_k: "98b1b6c1ac", secret_o: "e53f10eed3", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23165223009"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23165223009"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "pink"]
     notes:
@@ -703,7 +703,7 @@
   -
     title: "5D3P1366"
     images_flickr: { photo: "14907564545", farm: 4, server: 3885, secret: "5a8afc9226", secret_h: "bafc462a18", secret_k: "972762d7da", secret_o: "850a778591", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14907564545"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14907564545"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "blue", "white", "pink", "green"]
     notes:
@@ -716,7 +716,7 @@
   -
     title: "53AG7566"
     images_flickr: { photo: "36577916595", farm: 5, server: 4360, secret: "3465879bce", secret_h: "d2ac5e9a18", secret_k: "e3e6855eb1", secret_o: "55a0873cf5", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36577916595"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36577916595"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "blue", "white"]
     notes:
@@ -725,7 +725,7 @@
   -
     title: "HAPPY GIFT CHRISTMAS"
     images_flickr: { photo: "30941420181", farm: 6, server: 5495, secret: "53becbdb8f", secret_h: "461c0914fd", secret_k: "6f7dae5214", secret_o: "93a698eaed", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30941420181/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30941420181/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "green", "white", "gold"]
     notes:
@@ -734,7 +734,7 @@
   -
     title: "5D3C0478 (1440x960)"
     images_picasa: { lh: 3, dirs: "-bd2HnhfNIn0/UN-5Ds2ZKUI/AAAAAAAAHX0/4HPt1XGjsqo", file: "5D3C0478%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/ccB9ykxR4xO-44GTNwPKw9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/ccB9ykxR4xO-44GTNwPKw9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["red", "yellow", "blue", "green", "white"]
     notes:
@@ -742,7 +742,7 @@
   -
     title: "5D3L2709"
     images_flickr: { photo: "12146418334", farm: 3, server: 2809, secret: "30de40cc73", secret_h: "44aee4a709", secret_k: "cf42aa895a", secret_o: "386783d961", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12146418334"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12146418334"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "yellow", "blue", "green"]
     notes:
@@ -768,7 +768,7 @@
   -
     title: "高幡不動尊豆撒式"
     images_flickr: { photo: "32788005656", farm: 3, server: 2447, secret: "d92664e9bb", secret_h: "cb1306555d", secret_k: "62f72ca452", secret_o: "373b5e7cf8", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32788005656/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32788005656/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "yellow", "blue", "green", "pink"]
     notes:
@@ -776,7 +776,7 @@
   -
     title: "5D3S4357"
     images_flickr: { photo: "16174592385", farm: 8, server: 7498, secret: "961df294a3", secret_h: "b59d3e9958", secret_k: "556965bdfe", secret_o: "33fc7b662c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16174592385"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16174592385"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "purple", "red"]
     notes:
@@ -784,7 +784,7 @@
   -
     title: "53AB7130"
     images_flickr: { photo: "31605048444", farm: 1, server: 517, secret: "d65b4721b4", secret_h: "8fe5e473e4", secret_k: "f6f5345983", secret_o: "0b506bac05", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31605048444"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31605048444"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "purple", "red"]
     notes:
@@ -793,7 +793,7 @@
   -
     title: "5D3O4702"
     images_flickr: { photo: "14703705663", farm: 6, server: 5596, secret: "265b4973c8", secret_h: "d6656a16f2", secret_k: "31a1e176de", secret_o: "12b2e655a5", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14703705663"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14703705663"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red"]
     notes:
@@ -802,7 +802,7 @@
   -
     title: "53AB7313"
     images_flickr: { photo: "32070272240", farm: 1, server: 744, secret: "9749d644c6", secret_h: "db65163444", secret_k: "fae9fec86f", secret_o: "c04dfde2e1", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32070272240"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32070272240"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "blue", "red", "gold", "purple"]
     notes:
@@ -810,7 +810,7 @@
   -
     title: "5D3W9470"
     images_flickr: { photo: "23354447529", farm: 1, server: 738, secret: "e36af9f8c4", secret_h: "85c216b939", secret_k: "638983aa4f", secret_o: "fee981a344", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23354447529"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23354447529"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "yellow"]
     notes:
@@ -818,7 +818,7 @@
   -
     title: "5D3V1382"
     images_flickr: { photo: "19797691795", farm: 4, server: 3803, secret: "35affc81df", secret_h: "1293f7766a", secret_k: "b87ee90a49", secret_o: "4a21e598fc", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/19797691795"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/19797691795"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "green", "yellow", "white"]
     notes:
@@ -859,7 +859,7 @@
   -
     title: "5D3T2102"
     images_flickr: { photo: "16276525461", farm: 8, server: 7561, secret: "4d051db864", secret_h: "f41d3ab883", secret_k: "8ca02e3f92", secret_o: "989f95b148", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16276525461"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16276525461"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["yellow", "red", "green"]
     notes:
@@ -867,7 +867,7 @@
   -
     title: "5D3T3514"
     images_flickr: { photo: "15675951834", farm: 8, server: 7547, secret: "e6b92307fb", secret_h: "d8f6c9fcff", secret_k: "4fb599d95a", secret_o: "218354ab62", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15675951834"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15675951834"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "yellow"]
     notes:
@@ -875,7 +875,7 @@
   -
     title: "5D3U3576"
     images_flickr: { photo: "16418272393", farm: 9, server: 8782, secret: "3faf2d79ef", secret_h: "cf273bf15e", secret_k: "e4bc441c46", secret_o: "7d022134ff", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16418272393"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16418272393"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "blue"]
     notes:
@@ -884,7 +884,7 @@
   -
     title: "水戸黄門"
     images_flickr: { photo: "23398779300", farm: 6, server: 5795, secret: "6d953002ac", secret_h: "011351f0fc", secret_k: "91e4ab787a", secret_o: "92123b2db2", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23398779300"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23398779300"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "yellow"]
     notes:
@@ -893,7 +893,7 @@
   -
     title: "水戸黄門の帽子なし"
     images_flickr: { photo: "32350173952", farm: 1, server: 386, secret: "97028161d1", secret_h: "4b094f3b75", secret_k: "f670f7811f", secret_o: "933a3dec13", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32350173952"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32350173952"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "yellow"]
     notes:
@@ -902,7 +902,7 @@
   -
     title: "yoshikitty"
     images_flickr: { photo: "15701789090", farm: 8, server: 7479, secret: "dd6a369dc7", secret_h: "7b1eba01c4", secret_k: "8ed269c013", secret_o: "6aa063bcc3", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15701789090"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15701789090"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["black", "red"]
     notes:
@@ -910,7 +910,7 @@
   -
     title: "5D3L5532"
     images_flickr: { photo: "12634158924", farm: 6, server: 5537, secret: "4574a8f866", secret_h: "a2ee26a9e3", secret_k: "7a44bc802c", secret_o: "7a9b510d7e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12634158924"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12634158924"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "pink", "white", "yellow"]
     notes:
@@ -928,7 +928,7 @@
   -
     title: "5D3O3583"
     images_flickr: { photo: "14397308379", farm: 4, server: 3844, secret: "ab418a1f8f", secret_h: "b3624e56bf", secret_k: "f3b21effb4", secret_o: "16fda0ef33", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14397308379"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14397308379"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "red", "yellow", "white", "pink"]
     notes:
@@ -938,7 +938,7 @@
   -
     title: "フコク生命"
     images_flickr: { photo: "15013760875", farm: 4, server: 3870, secret: "e0a6984dc2", secret_h: "b32a796009", secret_k: "653a87df40", secret_o: "96a5477edd", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15013760875"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15013760875"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["grey", "black", "red"]
     notes:
@@ -947,7 +947,7 @@
   -
     title: "5D3Q7657"
     images_flickr: { photo: "15792411712", farm: 9, server: 8256, secret: "c1e06d8c35", secret_h: "0bc480c229", secret_k: "a95c725a41", secret_o: "b9858ee115", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15792411712"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15792411712"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink"]
     notes:
@@ -955,7 +955,7 @@
   -
     title: "パレード・ノア"
     images_flickr: { photo: "15803652225", farm: 8, server: 7540, secret: "3e52e9aef8", secret_h: "8819306ca4", secret_k: "58659e4878", secret_o: "c7c9a9521e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15803652225"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15803652225"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["gold", "red"]
     notes:
@@ -973,7 +973,7 @@
   -
     title: "パレードパラレル・オリジナル"
     images_flickr: { photo: "36121445852", farm: 5, server: 4297, secret: "a67c0b440b", secret_h: "a7a08e5e3e", secret_k: "96b9ff7883", secret_o: "011856da9b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121445852"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121445852"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["purple", "green", "pink", "white", "yellow", "blue"]
     notes:
@@ -982,7 +982,7 @@
   -
     title: "パレードパラレル・ハロウィーン"
     images_flickr: { photo: "22879124551", farm: 1, server: 614, secret: "c4393def6e", secret_h: "8d36d54534", secret_k: "c2b54cd60b", secret_o: "aea8936fba", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22879124551"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22879124551"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["purple", "orange", "white", "black"]
     notes:
@@ -1025,7 +1025,7 @@
   -
     title: "5D3R0787"
     images_flickr: { photo: "15183286324", farm: 8, server: 7478, secret: "d1c483c094", secret_h: "9800834b36", secret_k: "e4a41cb1e9", secret_o: "644ed77658", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15183286324"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15183286324"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "silver"]
     notes:
@@ -1033,7 +1033,7 @@
   -
     title: "5D3R2633"
     images_flickr: { photo: "15642133338", farm: 9, server: 8656, secret: "c15a0b22c9", secret_h: "68a568cb11", secret_k: "7f4b98d803", secret_o: "6e3d42167e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15642133338"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15642133338"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "red", "green", "gold"]
     notes:
@@ -1041,7 +1041,7 @@
   -
     title: "5D3R3713"
     images_flickr: { photo: "15661536288", farm: 8, server: 7545, secret: "dc94e810a9", secret_h: "b1cdbac8a5", secret_k: "1e77b3561a", secret_o: "07d27a6b0b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15661536288"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15661536288"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "white", "pink", "yellow", "green", "purple"]
     notes:
@@ -1050,7 +1050,7 @@
   -
     title: "5D3R3232"
     images_flickr: { photo: "15663055889", farm: 8, server: 7484, secret: "7029142a90", secret_h: "2a08d64cc6", secret_k: "8caa43400e", secret_o: "312c25b934", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15663055889"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15663055889"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "red", "green"]
     notes:
@@ -1066,7 +1066,7 @@
   -
     title: "5D3R3424"
     images_flickr: { photo: "15229409723", farm: 9, server: 8590, secret: "b0fd558373", secret_h: "d6ea58541b", secret_k: "0607687975", secret_o: "664a6b4300", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15229409723"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15229409723"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "silver"]
     notes:
@@ -1075,7 +1075,7 @@
   -
     title: "5D3R1086"
     images_flickr: { photo: "15825759001", farm: 8, server: 7469, secret: "2f20fbdb46", secret_h: "d97ace2a67", secret_k: "f022b39158", secret_o: "a3d4042e3c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15825759001"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15825759001"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "pink", "blue", "white"]
     notes:
@@ -1083,7 +1083,7 @@
   -
     title: "5D3N1625"
     images_flickr: { photo: "13982308649", farm: 3, server: 2906, secret: "f528a622d1", secret_h: "831933ac95", secret_k: "47a5e07920", secret_o: "1c32cb067d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13982308649"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13982308649"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "white", "pink", "orange"]
     notes:
@@ -1091,7 +1091,7 @@
   -
     title: "東京スカイツリー"
     images_flickr: { photo: "34362237564", farm: 5, server: 4277, secret: "869122c0fd", secret_h: "0a591d3ca5", secret_k: "fd8680479a", secret_o: "953ef38614", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34362237564"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34362237564"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "white", "pink", "orange", "red"]
     notes:
@@ -1108,7 +1108,7 @@
   -
     title: "5D3O3259"
     images_flickr: { photo: "14560072296", farm: 6, server: 5552, secret: "6c89d1f1d0", secret_h: "1b7a6be78e", secret_k: "ded26f44fc", secret_o: "a8c079c3d8", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14560072296"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14560072296"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "white", "pink"]
     notes:
@@ -1116,7 +1116,7 @@
   -
     title: "5D3P6743"
     images_flickr: { photo: "14892779477", farm: 6, server: 5552, secret: "61c3ecd5f5", secret_h: "c8a30593b3", secret_k: "eaf9acfb72", secret_o: "3b54d4cc0d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14892779477"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14892779477"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "yellow"]
     notes:
@@ -1124,7 +1124,7 @@
   -
     title: "5D3M1186"
     images_flickr: { photo: "13349531445", farm: 3, server: 2836, secret: "72a16b1149", secret_h: "fb8c2f4119", secret_k: "4d0529779c", secret_o: "c5119e1131", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13349531445"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13349531445"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "blue", "white"]
     notes:
@@ -1133,7 +1133,7 @@
   -
     title: "53AC8981"
     images_flickr: { photo: "32371598403", farm: 1, server: 617, secret: "a41a5037b6", secret_h: "4fb042af77", secret_k: "7dbe6eaa1a", secret_o: "391b6be632", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32371598403"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32371598403"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "blue", "white"]
     notes:
@@ -1142,7 +1142,7 @@
   -
     title: "5D3M2437"
     images_flickr: { photo: "13654324154", farm: 4, server: 3775, secret: "97e704cd64", secret_h: "3a490381f1", secret_k: "9e92dfbf83", secret_o: "cb2eb7709a", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13654324154"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13654324154"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "blue", "yellow", "brown"]
     notes:
@@ -1159,7 +1159,7 @@
   -
     title: "5D3R4236"
     images_flickr: { photo: "15668993259", farm: 8, server: 7527, secret: "9228bc8d66", secret_h: "f8ceaf87b3", secret_k: "c8dd30db56", secret_o: "e34c67cdd7", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15668993259"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15668993259"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["green", "pink", "yellow", "purple"]
     notes:
@@ -1168,7 +1168,7 @@
   -
     title: "イースターセレブレーションパレード"
     images_flickr: { photo: "33660357866", farm: 3, server: 2805, secret: "b873815a69", secret_h: "1c3da222e5", secret_k: "fc4783ad71", secret_o: "2b6c8d3982", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33660357866"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33660357866"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["green", "pink", "yellow", "purple", "white", "red"]
     notes:
@@ -1177,7 +1177,7 @@
   -
     title: "53AD5128"
     images_flickr: { photo: "33544834982", farm: 3, server: 2847, secret: "16e3eed7fe", secret_h: "281ac7b0ab", secret_k: "26269e3453", secret_o: "dbd310f558", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33544834982"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33544834982"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "yellow", "purple", "green", "blue"]
     notes:
@@ -1186,7 +1186,7 @@
   -
     title: "5D3Q4756"
     images_flickr: { photo: "15575599446", farm: 4, server: 3932, secret: "6e933b58fd", secret_h: "8654aa85a4", secret_k: "2326fdecc6", secret_o: "2cfda25fc9", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15575599446"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15575599446"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["black", "pink", "silver"]
     notes:
@@ -1194,7 +1194,7 @@
   -
     title: "5D3M8815"
     images_flickr: { photo: "14097205631", farm: 8, server: 7320, secret: "f148c3b6f4", secret_h: "fdc6ab5c1b", secret_k: "05fed68a3f", secret_o: "1aaf37afc5", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14097205631"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14097205631"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["black", "pink", "silver"]
     notes:
@@ -1203,7 +1203,7 @@
   -
     title: "5D3M9551"
     images_flickr: { photo: "13926328199", farm: 8, server: 7388, secret: "8398680f52", secret_h: "183f27c96c", secret_k: "49d425d112", secret_o: "9dd87405eb", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926328199"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926328199"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "red", "yellow", "green", "purple", "white"]
     notes:
@@ -1212,7 +1212,7 @@
   -
     title: "53AF0320"
     images_flickr: { photo: "34794058305", farm: 5, server: 4268, secret: "9b04fca0d2", secret_h: "8055e576f4", secret_k: "e9b75ec8b2", secret_o: "50bcf6ed75", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34794058305"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34794058305"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "orange", "white", "red", "pink", "yellow"]
     notes:
@@ -1220,7 +1220,7 @@
   -
     title: "5D3N1851"
     images_flickr: { photo: "14206128675", farm: 3, server: 2921, secret: "a8bd791941", secret_h: "fd9ca2aafa", secret_k: "cf619ebf02", secret_o: "2eb65dab0d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14206128675"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14206128675"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "orange", "yellow", "green", "blue"]
     notes:
@@ -1228,7 +1228,7 @@
   -
     title: "5D3N1955"
     images_flickr: { photo: "14202779751", farm: 3, server: 2915, secret: "b39080e1a2", secret_h: "157dbcde53", secret_k: "0573ef515b", secret_o: "7a925bfaf3", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14202779751"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14202779751"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "red", "green", "white"]
     notes:
@@ -1237,7 +1237,7 @@
   -
     title: "5D3N2239"
     images_flickr: { photo: "14210036752", farm: 6, server: 5511, secret: "a59285e4b3", secret_h: "8175f81cda", secret_k: "9a5db3e704", secret_o: "40d08753df", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14210036752"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14210036752"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "yellow", "blue"]
     notes:
@@ -1245,7 +1245,7 @@
   -
     title: "5D3N4490"
     images_flickr: { photo: "14125538507", farm: 3, server: 2898, secret: "60b08c7d8e", secret_h: "bf7c3c009d", secret_k: "6e123e47cb", secret_o: "c16201b426", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14125538507"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14125538507"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "green", "yellow", "white"]
     notes:
@@ -1253,7 +1253,7 @@
   -
     title: "5D3P8419"
     images_flickr: { photo: "15033341350", farm: 4, server: 3874, secret: "1cce4444c5", secret_h: "2ed4afcf79", secret_k: "4ce1a72b9c", secret_o: "99d60c39a6", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15033341350"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15033341350"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "red", "purple"]
     notes:
@@ -1262,7 +1262,7 @@
   -
     title: "5D3S2843"
     images_flickr: { photo: "16145846516", farm: 8, server: 7485, secret: "6d181ee298", secret_h: "5ef6e47ae9", secret_k: "abe7e1b374", secret_o: "f170f19bea", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16145846516"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16145846516"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "white"]
     notes:
@@ -1270,7 +1270,7 @@
   -
     title: "5D3M9653"
     images_flickr: { photo: "13926406798", farm: 6, server: 5514, secret: "0551b9bfa9", secret_h: "0647136b12", secret_k: "dbfc7e00f7", secret_o: "a968614f00", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926406798"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926406798"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "red", "white"]
     notes:
@@ -1278,7 +1278,7 @@
   -
     title: "5D3Q4934"
     images_flickr: { photo: "14979534204", farm: 4, server: 3936, secret: "ac25ff6ba4", secret_h: "fc9b2393b8", secret_k: "7df5f8b9a8", secret_o: "b2e9c54e07", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14979534204"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14979534204"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "yellow"]
     notes:
@@ -1287,7 +1287,7 @@
   -
     title: "5D3Q3974"
     images_flickr: { photo: "15553714641", farm: 4, server: 3929, secret: "5bdcc5b4b4", secret_h: "1e331cfd86", secret_k: "77f0774cb1", secret_o: "1967a681f3", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15553714641"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15553714641"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "orange", "yellow", "green", "blue"]
     notes:
@@ -1297,7 +1297,7 @@
   -
     title: "5D3J1596"
     images_flickr: { photo: "10776773186", farm: 3, server: 2870, secret: "68d44f887d", secret_h: "23021244a7", secret_k: "b24bbaf85d", secret_o: "65c58d8d4b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10776773186/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10776773186/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "blue", "white"]
     notes:
@@ -1306,7 +1306,7 @@
   -
     title: "イチゴマン"
     images_picasa: { lh: 4, dirs: "-IErfXhUokWk/UbP0aa6nQMI/AAAAAAAATYQ/-cratJNEg7w", file: "5D3F2980%2520%25281280x1920%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/y-l8PZz_5TJPfahMe9q8-dMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/y-l8PZz_5TJPfahMe9q8-dMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1280, height_o: 1920 }
     colors: ["red", "green", "white"]
     notes:
@@ -1315,7 +1315,7 @@
   -
     title: "5D3C8084 (960x1440)"
     images_picasa: { lh: 5, dirs: "-nKnj7PxNDUw/URj6JuYOzNI/AAAAAAAAKJk/zB4jBsKFFro", file: "5D3C8084%2520%2528960x1440%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/EQrODMpKzTvHC6zQ2xXJftMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/EQrODMpKzTvHC6zQ2xXJftMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440 }
     colors: ["blue", "yellow", "white", "red"]
     notes:
@@ -1324,7 +1324,7 @@
   -
     title: "5D3G0625"
     images_flickr: { photo: "9286109572", farm: 6, server: 5550, secret: "c765d7057a", secret_h: "966a3339a1", secret_k: "aa7e8c10eb", secret_o: "5b155987b5", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9286109572/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9286109572/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "pink", "white"]
     notes:
@@ -1333,7 +1333,7 @@
   -
     title: "53AE8818"
     images_flickr: { photo: "33906690583", farm: 5, server: 4175, secret: "f42130a5b0", secret_h: "2239e2ec59", secret_k: "6a7e6c6afb", secret_o: "747f328146", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33906690583/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33906690583/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "pink", "white", "red"]
     notes:
@@ -1342,7 +1342,7 @@
   -
     title: "5D3W9217"
     images_flickr: { photo: "23404950760", farm: 6, server: 5681, secret: "c252f28205", secret_h: "3fd063a2aa", secret_k: "4cad6ff9cc", secret_o: "fcfd9dd705", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23404950760"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23404950760"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "pink", "white"]
     notes:
@@ -1351,7 +1351,7 @@
   -
     title: "5D3G3106"
     images_flickr: { photo: "9382750550", farm: 6, server: 5474, secret: "8d4dfb2879", secret_h: "0835de9bbc", secret_k: "fe7e26f556", secret_o: "e8e66286ac", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9382750550/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9382750550/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "orange", "white", "red"]
     notes:
@@ -1359,7 +1359,7 @@
   -
     title: "5D3G0698"
     images_flickr: { photo: "9286105178", farm: 6, server: 5495, secret: "5d215b9c94", secret_h: "1d5a0c9915", secret_k: "89663f529e", secret_o: "d465052f96", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9286105178/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9286105178/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "blue", "yellow"]
     notes:
@@ -1368,7 +1368,7 @@
   -
     title: "5D3H0367"
     images_flickr: { photo: "9582808717", farm: 8, server: 7300, secret: "e4f54748e3", secret_h: "687fcaf78f", secret_k: "d6d9791303", secret_o: "feb9793f7f", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9582808717/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9582808717/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "pink", "red", "yellow"]
     notes:
@@ -1376,7 +1376,7 @@
   -
     title: "5D3P6871"
     images_flickr: { photo: "15056316106", farm: 6, server: 5566, secret: "ec76faef26", secret_h: "7bb2efd408", secret_k: "20555e2c03", secret_o: "1b3667eb2c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15056316106"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15056316106"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "yellow", "white"]
     notes:
@@ -1385,7 +1385,7 @@
   -
     title: "53AG9225"
     images_flickr: { photo: "36479192632", farm: 5, server: 4379, secret: "240f42ee04", secret_h: "6ec2ccc779", secret_k: "bed3b06dfd", secret_o: "16702c763c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36479192632/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36479192632/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "yellow", "white", "blue"]
     notes:
@@ -1434,7 +1434,7 @@
   -
     title: "5D3E5827 (1280x1920)"
     images_picasa: { lh: 5, dirs: "-g9Jt1fs2foU/UXUcDmkVDhI/AAAAAAAAQo0/ntTttG-i6aQ", file: "5D3E5827%2520%25281280x1920%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/TXouq-8ZCSbT4Yb-mDHdpNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/TXouq-8ZCSbT4Yb-mDHdpNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1280, height_o: 1920 }
     colors: ["red", "black", "white"]
     notes:
@@ -1453,7 +1453,7 @@
   -
     title: "ポンポンジャンプ"
     images_flickr: { photo: "35283169996", farm: 5, server: 4281, secret: "4f0a81345a", secret_h: "4788f48a14", secret_k: "a1ef0de6ab", secret_o: "3773076c4d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35283169996/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35283169996/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "red"]
     notes:
@@ -1462,7 +1462,7 @@
   -
     title: "5D3F5548"
     images_flickr: { photo: "9067235198", farm: 4, server: 3782, secret: "4aaa3bc50a", secret_h: "cfc53de4c3", secret_k: "9ff959d40f", secret_o: "aa4b99326c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9067235198/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9067235198/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "red"]
     notes:
@@ -1471,7 +1471,7 @@
   -
     title: "燕尾服"
     images_flickr: { photo: "9332074182", farm: 6, server: 5522, secret: "535db16dfe", secret_h: "5283cebf45", secret_k: "95e91e8a81", secret_o: "12af82b35a", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9332074182/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9332074182/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "black", "white"]
     notes:
@@ -1479,7 +1479,7 @@
   -
     title: "5D3K4491"
     images_flickr: { photo: "11486537885", farm: 3, server: 2868, secret: "bb4b43f8c5", secret_h: "f5f5b645d1", secret_k: "f8eaef885f", secret_o: "3a1311b374", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486537885/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486537885/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "black", "white"]
     notes:
@@ -1488,7 +1488,7 @@
   -
     title: "5D3J4060"
     images_flickr: { photo: "10836893815", farm: 6, server: 5538, secret: "4c0bf9a9d5", secret_h: "c60c9782f1", secret_k: "3db9c7b15e", secret_o: "33c7dbb512", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10836893815/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10836893815/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white"]
     notes:
@@ -1496,7 +1496,7 @@
   -
     title: "5D3K4676"
     images_flickr: { photo: "11486648763", farm: 4, server: 3696, secret: "e555001d6f", secret_h: "fdb932eb7c", secret_k: "dbb22a4f7b", secret_o: "2038f430eb", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486648763/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486648763/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "gold", "white"]
     notes:
@@ -1504,7 +1504,7 @@
   -
     title: "5D3Q7404"
     images_flickr: { photo: "15789141422", farm: 6, server: 5615, secret: "1914a165f4", secret_h: "c6a7962978", secret_k: "cc35ded829", secret_o: "312bd5a0df", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15789141422"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15789141422"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "silver"]
     notes:
@@ -1512,7 +1512,7 @@
   -
     title: "5D3S3818"
     images_flickr: { photo: "15986971610", farm: 9, server: 8592, secret: "8e29381845", secret_h: "10587a1440", secret_k: "0c5eb30ce3", secret_o: "2ef6e6693c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15986971610"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15986971610"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "silver"]
     notes:
@@ -1521,7 +1521,7 @@
   -
     title: "5D3I3419"
     images_flickr: { photo: "10114607714", farm: 8, server: 7397, secret: "f024e2df52", secret_h: "18a9b8b316", secret_k: "0437de63e0", secret_o: "36a104872e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10114607714/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10114607714/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["black", "orange", "red", "gold"]
     notes:
@@ -1538,7 +1538,7 @@
   -
     title: "53AA4473"
     images_flickr: { photo: "30466897406", farm: 6, server: 5831, secret: "5e4f65611c", secret_h: "ae3ab87fa9", secret_k: "f4a6d8f163", secret_o: "8f7b483e91", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30466897406/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30466897406/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["purple", "orange", "black", "white", "red", "grey"]
     notes:
@@ -1546,7 +1546,7 @@
   -
     title: "5D3K0313"
     images_flickr: { photo: "11152934336", farm: 8, server: 7418, secret: "5439ea3b85", secret_h: "3048944c6e", secret_k: "b72b40f529", secret_o: "c41edb8719", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11152934336/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11152934336/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "white", "silver"]
     notes:
@@ -1554,7 +1554,7 @@
   -
     title: "Kawaii Paradise"
     images_flickr: { photo: "27522423671", farm: 8, server: 7413, secret: "71cdaedeb2", secret_h: "050aa0fc46", secret_k: "4cac6f0654", secret_o: "59d01790cf", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27522423671/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27522423671/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "yellow", "white", "brown", "red"]
     notes:
@@ -1563,7 +1563,7 @@
   -
     title: "Kawaii Paradise クリスマス"
     images_flickr: { photo: "11026276214", farm: 4, server: 3792, secret: "ea160b0f5a", secret_h: "c4c5a01712", secret_k: "063827e4d8", secret_o: "0d1ef6e614", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11026276214/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11026276214/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "yellow", "white", "brown", "red"]
     notes:
@@ -1572,7 +1572,7 @@
   -
     title: "5D3E6015 (1920x1280)"
     images_picasa: { lh: 4, dirs: "-mIMD0HrnEMo/UX5Hs4SObHI/AAAAAAAAQ4M/0PfE0n3pwiQ", file: "5D3E6015%2520%25281920x1280%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/sWHvcGs0GMEr1xzdSihHg9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/sWHvcGs0GMEr1xzdSihHg9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1920, height_o: 1280 }
     colors: ["pink", "white", "yellow"]
     notes:
@@ -1580,7 +1580,7 @@
   -
     title: "5D3C6840 (1440x960)"
     images_picasa: { lh: 4, dirs: "-81L8w09_d30/UREcEHT-l_I/AAAAAAAAJpw/uUD3fYTm2SQ", file: "5D3C6840%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/vOte4gCeq92JvkjCVT06LNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/vOte4gCeq92JvkjCVT06LNMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["pink", "yellow", "green", "white", "gold"]
     notes:
@@ -1601,7 +1601,7 @@
   -
     title: "53AG5878"
     images_flickr: { photo: "36463276026", farm: 5, server: 4437, secret: "82ab916ce7", secret_h: "399f5d7721", secret_k: "61965ce1fc", secret_o: "ecd780b342", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36463276026/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36463276026/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["blue", "pink", "white", "yellow"]
     notes:
@@ -1610,7 +1610,7 @@
   -
     title: "IMG_5868"
     images_flickr: { photo: "35882411663", farm: 5, server: 4338, secret: "ee480e1410", secret_h: "88e6aba3de", secret_k: "26a0fa00ba", secret_o: "5fc75886fa", format_o: "jpg" }
-    source: { author: "Chu H", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/113478073@N02/35882411663/"}
+    source: { author: "Chu H", license: "CC BY 2.0", url: "https://www.flickr.com/photos/113478073@N02/35882411663/"}
     size: { width_o: 3251, height_o: 4876 }
     colors: ["blue", "pink", "white", "yellow"]
     notes:
@@ -1619,7 +1619,7 @@
   -
     title: "5D3K5507"
     images_flickr: { photo: "11494229915", farm: 8, server: 7345, secret: "bcd4a9fc29", secret_h: "055967ec33", secret_k: "08bf999e3d", secret_o: "45f6b9aa26", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11494229915/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11494229915/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "pink", "white", "gold"]
     notes:
@@ -1628,7 +1628,7 @@
   -
     title: "5D3J8226"
     images_flickr: { photo: "11009201923", farm: 4, server: 3798, secret: "d618a27eec", secret_h: "9fe2de623f", secret_k: "f32c4f22d6", secret_o: "245e021afd", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11009201923/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11009201923/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "silver"]
     notes:
@@ -1637,7 +1637,7 @@
   -
     title: "5D3H3135"
     images_flickr: { photo: "9687347403", farm: 4, server: 3820, secret: "d4f8cf9193", secret_h: "0fa20f3313", secret_k: "00f1378824", secret_o: "d47b648cbb", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9687347403/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9687347403/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "green", "white", "gold"]
     notes:
@@ -1655,7 +1655,7 @@
   -
     title: "5D3J8101"
     images_flickr: { photo: "11009211033", farm: 4, server: 3809, secret: "f4efd01e20", secret_h: "66ae2ade0e", secret_k: "a3af03c1c9", secret_o: "5fd67fdd15", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11009211033/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11009211033/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "white", "gold"]
     notes:
@@ -1664,7 +1664,7 @@
   -
     title: "5D3H3184"
     images_flickr: { photo: "9690585032", farm: 3, server: 2841, secret: "11e8335cc2", secret_h: "d4b6b4b405", secret_k: "4cbdb24eb1", secret_o: "dcbcfc3682", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9690585032/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9690585032/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "white"]
     notes:
@@ -1673,7 +1673,7 @@
   -
     title: "5D3B1556 (1440x960)"
     images_picasa: { lh: 5, dirs: "-QhbUVH7CKQw/UHoHfzNzxdI/AAAAAAAAD0U/Axmxl6F79v0", file: "5D3B1556%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/iAz0opXz_JcOBXdCHWlcKdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/iAz0opXz_JcOBXdCHWlcKdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["pink", "white"]
     notes:
@@ -1683,7 +1683,7 @@
   -
     title: "ユニオンジャック"
     images_picasa: { lh: 6, dirs: "-Yuuprg1aaIw/UNf0EhVoeaI/AAAAAAAAHNk/d_aIYD3lHdA", file: "5D3C0014%2520%2528960x1440%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/zmaLwLKKgLawr_lzLCDUUtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/zmaLwLKKgLawr_lzLCDUUtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440 }
     colors: ["blue", "red", "white"]
     notes:
@@ -1691,7 +1691,7 @@
   -
     title: "5D3B6041 (1440x960)"
     images_picasa: { lh: 6, dirs: "-UrISsZ20Gt8/UMKhXkrJGtI/AAAAAAAAFz4/diKlmPt0POs", file: "5D3B6041%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/5n5aXQzjrnOhvowydY7fXtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/5n5aXQzjrnOhvowydY7fXtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["blue", "white", "black", "red"]
     notes:
@@ -1699,7 +1699,7 @@
   -
     title: "5D3B3961 (1440x960)"
     images_picasa: { lh: 5, dirs: "-UHVJ_BFr3Ts/UKhZXnDmi7I/AAAAAAAAEXs/FFcE_rJVOfM", file: "5D3B3961%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/fgFCJqEw9YkdZFOG8Z6HEtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/fgFCJqEw9YkdZFOG8Z6HEtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["pink", "white", "brown", "green"]
     notes:
@@ -1708,7 +1708,7 @@
   -
     title: "5D3B6032 (1440x960)"
     images_picasa: { lh: 3, dirs: "-nTxhxepje68/UMKhWrR-7KI/AAAAAAAAFzc/rHorQEHT63s", file: "5D3B6032%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/RJqS2BauNK_kQThi23GQntMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/RJqS2BauNK_kQThi23GQntMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["red"]
     notes:
@@ -1716,7 +1716,7 @@
   -
     title: "5D3C1554 (1440x960)"
     images_picasa: { lh: 6, dirs: "-WML8pecBjCM/UOLfXjcN30I/AAAAAAAAHvY/-J_8F4dh0O4", file: "5D3C1554%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/9r-AHxL9qXBEWtgFVLY2ldMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/9r-AHxL9qXBEWtgFVLY2ldMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["red"]
     notes:
@@ -1724,7 +1724,7 @@
   -
     title: "5D3B8156 (1440x960)"
     images_picasa: { lh: 3, dirs: "-bd6Vor8HNJ0/UMy2evB8mnI/AAAAAAAAGoE/OQyt3ZYBlpw", file: "5D3B8156%2520%25281440x960%2529.jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://picasaweb.google.com/lh/photo/zhLImJHiY6gQtcCu1hh_-dMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/zhLImJHiY6gQtcCu1hh_-dMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
     colors: ["pink", "gold", "red"]
     notes:
@@ -1733,7 +1733,7 @@
   -
     title: "5D3X8457"
     images_flickr: { photo: "26040408356", farm: 2, server: 1517, secret: "8808d4a76f", secret_h: "802e04242f", secret_k: "1fbe777145", secret_o: "7d5e0a2622", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26040408356"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26040408356"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["yellow", "red", "blue", "pink", "silver"]
     notes:
@@ -1742,7 +1742,7 @@
   -
     title: "53AF0375"
     images_flickr: { photo: "35743309890", farm: 5, server: 4298, secret: "b0bfd48a8c", secret_h: "a400b172cf", secret_k: "910932dd13", secret_o: "737fe55557", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35743309890"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35743309890"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white"]
     notes:
@@ -1750,7 +1750,7 @@
   -
     title: "5D3Z3482"
     images_flickr: { photo: "27765020333", farm: 9, server: 8667, secret: "c54b270d82", secret_h: "da1c0c27e4", secret_k: "26cb35a216", secret_o: "3155704976", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27765020333"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27765020333"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "green", "red", "white"]
     notes:
@@ -1758,7 +1758,7 @@
   -
     title: "53AA3246"
     images_flickr: { photo: "29755672144", farm: 9, server: 8410, secret: "044e3399a6", secret_h: "1cc411d7bf", secret_k: "9ee40614ce", secret_o: "4cdbb0ff93", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29755672144"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29755672144"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["black", "white", "red", "gold"]
     notes:
@@ -1773,7 +1773,7 @@
   -
     title: "5D3Y2706"
     images_flickr: { photo: "26867823230", farm: 8, server: 7187, secret: "80a731d149", secret_h: "0b848d12f9", secret_k: "c304dcb31c", secret_o: "b615e8c669", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26867823230"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26867823230"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "yellow", "blue", "red"]
     notes:
@@ -1781,7 +1781,7 @@
   -
     title: "5D3Y4940"
     images_flickr: { photo: "26541341393", farm: 8, server: 7497, secret: "3b0e656080", secret_h: "9fd86de4aa", secret_k: "280e6680c3", secret_o: "7d540e7715", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26541341393"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26541341393"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "gold", "black"]
     notes:
@@ -1947,7 +1947,7 @@
   -
     title: "ハーモニーランド25周年・赤"
     images_flickr: { photo: "28953827300", farm: 9, server: 8770, secret: "cd4d0ec5cb", secret_h: "567417fc34", secret_k: "28f5a41d39", secret_o: "27c5db3046", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28953827300"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28953827300"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "purple", "red"]
     notes:
@@ -1956,7 +1956,7 @@
   -
     title: "ハーモニーランド25周年・金"
     images_flickr: { photo: "29242743885", farm: 9, server: 8081, secret: "bf53c8f4ec", secret_h: "313f2668dd", secret_k: "35ccf8d01f", secret_o: "92f6d91af6", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29242743885"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29242743885"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "gold", "white"]
     notes:
@@ -1965,7 +1965,7 @@
   -
     title: "ハーモニーランド26周年・淡"
     images_flickr: { photo: "36290845666", farm: 5, server: 4341, secret: "ea1322ed41", secret_h: "dcb6248def", secret_k: "46f023094f", secret_o: "632eda6a6b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36290845666"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36290845666"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "blue", "yellow", "white"]
     notes:
@@ -1974,7 +1974,7 @@
   -
     title: "ハーモニーランド26周年・濃"
     images_flickr: { photo: "36199435962", farm: 5, server: 4340, secret: "1c6a8de33e", secret_h: "7f29e02ea0", secret_k: "5ef27704d3", secret_o: "0bf5141e6b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36199435962"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36199435962"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "blue", "white", "gold"]
     notes:
@@ -1983,7 +1983,7 @@
   -
     title: "キティカフェ"
     images_flickr: { photo: "36121456242", farm: 5, server: 4295, secret: "be69622355", secret_h: "86a9cb5c25", secret_k: "caaf7cec30", secret_o: "896d31c8f4", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121456242"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121456242"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "red", "black", "white", "pink", "green", "purple"]
     notes:
@@ -1992,7 +1992,7 @@
   -
     title: "DoRoRoNRoN"
     images_flickr: { photo: "36359380676", farm: 5, server: 4372, secret: "cab67ce8a3", secret_h: "41244e6742", secret_k: "3dc82bbf29", secret_o: "75e97c1cae", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36359380676"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36359380676"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "yellow", "orange", "green", "white"]
     notes:
@@ -2042,7 +2042,7 @@
   -
     title: "53AD3067"
     images_flickr: { photo: "33315499152", farm: 4, server: 3882, secret: "25f1578577", secret_h: "94b0efb22c", secret_k: "72d1b7aab2", secret_o: "87f65c6a50", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33315499152/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33315499152/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "red", "purple", "white"]
     notes:
@@ -2058,7 +2058,7 @@
   -
     title: "ヘブンスそのはら・通常"
     images_flickr: { photo: "32451490310", farm: 3, server: 2887, secret: "26b86e3b46", secret_h: "78203f92de", secret_k: "7c90513cfd", secret_o: "cfdf2f2657", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32451490310/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32451490310/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "yellow", "blue"]
     notes:
@@ -2066,7 +2066,7 @@
   -
     title: "ヘブンスそのはら・スキー"
     images_flickr: { photo: "32832382125", farm: 4, server: 3809, secret: "1c837dc3f0", secret_h: "5ff65088e1", secret_k: "f85cb32689", secret_o: "d8c32c53c0", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32832382125/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32832382125/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "yellow", "blue"]
     notes:
@@ -2074,7 +2074,7 @@
   -
     title: "53AE7945"
     images_flickr: { photo: "34675448785", farm: 5, server: 4174, secret: "a5186c9776", secret_h: "32eac4ebc3", secret_k: "55a4fd3c68", secret_o: "0183d07eca", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34675448785/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34675448785/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "green", "red", "pink", "white"]
     notes:
@@ -2082,7 +2082,7 @@
   -
     title: "ANTEPRIMA"
     images_flickr: { photo: "32973700273", farm: 3, server: 2930, secret: "8474d9d50e", secret_h: "ce3e750a20", secret_k: "d41986ac8e", secret_o: "2ce22d020d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32973700273"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32973700273"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "silver"]
     notes:
@@ -2090,7 +2090,7 @@
   -
     title: "5D3V8314"
     images_flickr: { photo: "22446743828", farm: 1, server: 642, secret: "43477f157e", secret_h: "6deaba2b41", secret_k: "723ef3a0a1", secret_o: "79250e2d39", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22446743828"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22446743828"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["silver", "pink"]
     notes:
@@ -2098,7 +2098,7 @@
   -
     title: "5D3V8345"
     images_flickr: { photo: "22865085985", farm: 6, server: 5709, secret: "a2a97e55bf", secret_h: "4af8b35a7a", secret_k: "c4d3d1dc37", secret_o: "6910f1c56d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22865085985"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22865085985"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "grey", "pink"]
     notes:
@@ -2106,7 +2106,7 @@
   -
     title: "5D3W9762"
     images_flickr: { photo: "23863299425", farm: 6, server: 5834, secret: "d7d3450101", secret_h: "0097d611ff", secret_k: "54c8573636", secret_o: "172c2c9dee", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23863299425"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23863299425"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "pink", "white"]
     notes:
@@ -2189,7 +2189,7 @@
   -
     title: "5D3S9860"
     images_flickr: { photo: "16028627509", farm: 8, server: 7529, secret: "e0105b64ec", secret_h: "519e774f04", secret_k: "fa88366350", secret_o: "64aabd2b11", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16028627509"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16028627509"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red"]
     notes:
@@ -2216,7 +2216,7 @@
   -
     title: "5D3X9886"
     images_flickr: { photo: "26117133231", farm: 2, server: 1456, secret: "24de6de19d", secret_h: "d579aa70a7", secret_k: "a2cbc66840", secret_o: "62eeea123a", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26117133231"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26117133231"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "pink", "silver", "white"]
     notes:
@@ -2243,7 +2243,7 @@
   -
     title: "5D3S9358"
     images_flickr: { photo: "15594912253", farm: 8, server: 7540, secret: "7b26bc7462", secret_h: "346e3abf8e", secret_k: "f0c2272198", secret_o: "3d5cf74058", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15594912253"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15594912253"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "gold", "red", "purple"]
     notes:
@@ -2252,7 +2252,7 @@
   -
     title: "5D3S9264"
     images_flickr: { photo: "15594917033", farm: 8, server: 7473, secret: "8d04349bd9", secret_h: "2a1372d013", secret_k: "8aa818f45f", secret_o: "8b6a6368a8", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15594917033"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15594917033"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "red"]
     notes:
@@ -2261,7 +2261,7 @@
   -
     title: "5D3X9815"
     images_flickr: { photo: "25910604310", farm: 2, server: 1464, secret: "6c08294fea", secret_h: "ba04147383", secret_k: "ac4b2f2848", secret_o: "4aa4229609", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25910604310"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25910604310"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "green", "yellow"]
     notes:
@@ -2288,7 +2288,7 @@
   -
     title: "5D3S9402"
     images_flickr: { photo: "16213961442", farm: 8, server: 7520, secret: "207a60361a", secret_h: "b9da1d3a54", secret_k: "d364e79200", secret_o: "7dcf030ff4", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16213961442"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16213961442"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "pink", "white", "gold"]
     notes:
@@ -2297,7 +2297,7 @@
   -
     title: "5D3Y0207"
     images_flickr: { photo: "26117123361", farm: 2, server: 1685, secret: "eb8c5aa6af", secret_h: "8235d3a4b2", secret_k: "98915d6abe", secret_o: "ef483cea4e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26117123361"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26117123361"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "gold"]
     notes:
@@ -2446,7 +2446,7 @@
   -
     title: "53AF2974"
     images_flickr: { photo: "35083321041", farm: 5, server: 4246, secret: "98a399f94a", secret_h: "9b3a95590f", secret_k: "739e3ea913", secret_o: "46f5ffeff1", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35083321041"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35083321041"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "orange", "yellow"]
     notes:
@@ -2456,7 +2456,7 @@
   -
     title: "53AF2954"
     images_flickr: { photo: "35173242506", farm: 5, server: 4257, secret: "e60c246cbf", secret_h: "ea30d2cf1e", secret_k: "446e907004", secret_o: "68798b15fc", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35173242506"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35173242506"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "white", "orange", "yellow", "blue", "black"]
     notes:
@@ -2908,7 +2908,7 @@
   -
     title: "53AF2729"
     images_flickr: { photo: "35078976321", farm: 5, server: 4235, secret: "bf600bb352", secret_h: "40b1cb28d3", secret_k: "fc47803dfd", secret_o: "50c5fab603", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35078976321"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35078976321"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "silver", "red"]
     notes: []

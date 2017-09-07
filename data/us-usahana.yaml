@@ -2,14 +2,14 @@
   -
     title: 標準
     images_flickr: { photo: "10293202173", farm: 8, server: 7425, secret: "4d62413d53", secret_h: "868d6d6fc8", secret_k: "89d4d667ad", secret_o: "ff1b932257", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10293202173/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10293202173/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "white", "pink", "orange"]
     notes: []
   -
     title: ハーモニー標準
     images_flickr: { photo: "29166898221", farm: 9, server: 8641, secret: "9141320d3a", secret_h: "a55f320d8a", secret_k: "b97663ada7", secret_o: "de2f3f17db", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29166898221/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29166898221/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "white", "pink", "orange"]
     notes:
@@ -17,7 +17,7 @@
   -
     title: 正月
     images_flickr: { photo: "12385333075", farm: 8, server: 7311, secret: "9295beae52", secret_h: "64d3b79937", secret_k: "921102c766", secret_o: "49b09d59ed", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/113478073@N02/12385333075/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/113478073@N02/12385333075/"}
     size: { width_o: 3968, height_o: 2976 }
     colors: ["red", "white", "pink", "orange", "green"]
     notes:
@@ -25,7 +25,7 @@
   -
     title: Believe
     images_flickr: { photo: "9459980076", farm: 4, server: 3823, secret: "cd2b300902", secret_h: "3d12ed7c3f", secret_k: "e8a3b55195", secret_o: "6d12cb4959", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9459980076/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9459980076/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "orange", "green", "white", "blue", "red"]
     notes:
@@ -42,7 +42,7 @@
   -
     title: 5D3K0065
     images_flickr: { photo: "11150704265", farm: 4, server: 3828, secret: "55ed3db34e", secret_h: "15e9befb61", secret_k: "c3533fbe26", secret_o: "86615af219", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11150704265/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11150704265/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "red", "gold", "orange"]
     notes:
@@ -51,7 +51,7 @@
   -
     title: カラフルファンタジー
     images_flickr: { photo: "13653978165", farm: 8, server: 7253, secret: "78c379e842", secret_h: "ae32d1590b", secret_k: "f35945b1ed", secret_o: "6b1e0dcda8", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13653978165/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13653978165/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "red", "yellow", "pink", "blue", "green", "purple"]
     notes:
@@ -60,7 +60,7 @@
   -
     title: 浴衣
     images_flickr: { photo: "14760192519", farm: 6, server: 5594, secret: "7382a09ce8", secret_h: "e9096258ef", secret_k: "b4a94670a6", secret_o: "27fe78e4ff", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14760192519/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14760192519/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["yellow", "pink", "green", "white", "red"]
     notes:
@@ -68,7 +68,7 @@
   -
     title: 振袖
     images_flickr: { photo: "16034205028", farm: 8, server: 7575, secret: "2720b3acf7", secret_h: "1724f5d652", secret_k: "ce420ea722", secret_o: "a87e984752", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16034205028/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16034205028/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "green", "red", "gold", "white"]
     notes:
@@ -76,7 +76,7 @@
   -
     title: ハッピーバースデー1
     images_flickr: { photo: "13908736979", farm: 8, server: 7356, secret: "f2af346ee7", secret_h: "778ed8c75f", secret_k: "428b22aea9", secret_o: "8d5275862a", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13908736979/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13908736979/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "white", "yellow", "pink", "red", "orange"]
     notes:
@@ -85,7 +85,7 @@
   -
     title: ハッピーバースデー2
     images_flickr: { photo: "14760518120", farm: 4, server: 3904, secret: "4726532848", secret_h: "eec3ad25a4", secret_k: "e77443ebc0", secret_o: "55396c473c", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14760518120/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14760518120/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "blue", "green", "orange", "yellow", "silver", "white"]
     notes:
@@ -93,7 +93,7 @@
   -
     title: リリーボンボンズのマーチングパレード
     images_flickr: { photo: "14497485165", farm: 4, server: 3850, secret: "b71f016ec8", secret_h: "c6890f6252", secret_k: "6d31e3be1d", secret_o: "92c71343a0", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14497485165/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14497485165/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "green", "orange", "yellow", "blue", "silver", "white"]
     notes:

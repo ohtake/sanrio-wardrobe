@@ -2,7 +2,7 @@
   -
     title: 標準
     images_flickr: { photo: "8854985460", farm: 8, server: 7396, secret: "0682881879", secret_h: "b8fb3a57c2", secret_k: "feaa406355", secret_o: "f40ba9dc6d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8854985460/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8854985460/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "red", "yellow", "blue", "white"]
     notes: []
@@ -17,7 +17,7 @@
   -
     title: ARIGATO EVERYONE
     images_flickr: { photo: "14333660939", farm: 3, server: 2926, secret: "73b10cb983", secret_h: "1b6bcd5866", secret_k: "dba7186a04", secret_o: "08e06424a5", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14333660939/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14333660939/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "yellow", "red", "purple", "blue", "white", "black"]
     notes:
@@ -26,7 +26,7 @@
   -
     title: 袴1
     images_flickr: { photo: "12146723776", farm: 3, server: 2844, secret: "f2ee43896e", secret_h: "e91dad8e5f", secret_k: "b9b90ad75f", secret_o: "e2a7523674", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12146723776/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12146723776/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "orange", "black", "gold", "white"]
     notes:
@@ -34,7 +34,7 @@
   -
     title: 袴2
     images_flickr: { photo: "24512284034", farm: 2, server: 1586, secret: "eba025e981", secret_h: "1b09f8d683", secret_k: "8b8ca19381", secret_o: "4063882690", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24512284034/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24512284034/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "silver", "pink", "gold", "black", "red"]
     notes:
@@ -42,7 +42,7 @@
   -
     title: 雨合羽
     images_flickr: { photo: "15827648325", farm: 8, server: 7471, secret: "684dae730c", secret_h: "30d9fecd62", secret_k: "bf351b1f2f", secret_o: "ca2d3b9b88", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15827648325/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15827648325/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "yellow", "orange"]
     notes:
@@ -50,7 +50,7 @@
   -
     title: マイメロディのマイフレンド
     images_flickr: { photo: "15661728890", farm: 9, server: 8637, secret: "724bff1fb6", secret_h: "b8cd3862c4", secret_k: "460a76d4cf", secret_o: "8b3f95db71", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15661728890/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15661728890/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["black", "pink", "white", "silver"]
     notes:
@@ -58,7 +58,7 @@
   -
     title: 5D3V9879
     images_flickr: { photo: "22279816684", farm: 6, server: 5625, secret: "d092d16486", secret_h: "bca1c84d3e", secret_k: "99505bfcce", secret_o: "11b1dedd27", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY-SA 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22279816684/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22279816684/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["black", "red", "white"]
     notes: []
