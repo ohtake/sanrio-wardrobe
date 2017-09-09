@@ -355,3 +355,11 @@
     colors: ["pink", "white", "yellow"]
     notes:
       - メロディ頭巾
+  -
+    title: "Happy Carnival Parade"
+    images_flickr: { photo: "36718684610", farm: 5, server: 4391, secret: "3a11b3852e", secret_h: "0ad78bb557", secret_k: "7f7702a39b", secret_o: "47b03e8791", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36718684610/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["gold", "blue"]
+    notes:
+      - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Happy Carnival Parade』

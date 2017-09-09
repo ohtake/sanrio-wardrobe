@@ -865,6 +865,14 @@
     notes:
       - 着物、和服、梅
   -
+    title: "53AH9452"
+    images_flickr: { photo: "36280129284", farm: 5, server: 4421, secret: "5541234ae5", secret_h: "125b61133d", secret_k: "e165efbdda", secret_o: "3b45741c7e", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36280129284"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "blue", "white", "purple", "yellow", "green"]
+    notes:
+      - 着物、和服
+  -
     title: "5D3T3514"
     images_flickr: { photo: "15675951834", farm: 8, server: 7547, secret: "e6b92307fb", secret_h: "d8f6c9fcff", secret_k: "4fb599d95a", secret_o: "218354ab62", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15675951834"}
@@ -1139,6 +1147,15 @@
     notes:
       - 一日消防署長
       - タータンチェック、GP、タスキ
+  -
+    title: "53AH7707"
+    images_flickr: { photo: "36926892056", farm: 5, server: 4412, secret: "f2eca34354", secret_h: "ca88b9e94e", secret_k: "ec87d9820e", secret_o: "1484f6afda", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36926892056"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["red", "blue", "white"]
+    notes:
+      - マレーシアでは日本の高尾山ロケとはチェックの模様が異なる
+      - タータンチェック、GP
   -
     title: "5D3M2437"
     images_flickr: { photo: "13654324154", farm: 4, server: 3775, secret: "97e704cd64", secret_h: "3a490381f1", secret_k: "9e92dfbf83", secret_o: "cb2eb7709a", format_o: "jpg" }
@@ -2435,10 +2452,10 @@
       - ユニバーサルスタジオジャパン
       - ストライプ
   -
-    title: "8315288912"
-    images_flickr: { photo: "8315288912", farm: 9, server: 8360, secret: "6cab62a95d", secret_h: "7be2a5be54" }
-    source: { author: "xterlim", license: "", url: "https://www.flickr.com/photos/xterlim/8315288912/"}
-    size: { width_o: 1600, height_o: 1070 }
+    title: "Happy Carnival Parade"
+    images_flickr: { photo: "36718689750", farm: 5, server: 4418, secret: "1414694448", secret_h: "a9d84ca2a9", secret_k: "fec415a02a", secret_o: "a13560eb63", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36718689750/"}
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["gold", "red", "orange", "yellow", "green", "blue", "purple"]
     notes:
       - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Happy Carnival Parade』
