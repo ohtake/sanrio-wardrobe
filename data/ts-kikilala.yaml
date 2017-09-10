@@ -196,9 +196,9 @@
     notes: []
   -
     title: ノア
-    images_flickr: { photo: "15618212768", farm: 6, server: 5608, secret: "e77a3211af", secret_h: "59f38e6b65", secret_k: "2a68530359", secret_o: "6553878763", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15618212768/"}
-    size: { width_o: 3840, height_o: 5760 }
+    images_instagram: { shortcode: "BY18DE_nSju", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY18DE_nSju/"}
+    size: { width_o: 1080, height_o: 1080 }
     colors: ["blue", "orange", "yellow", "white", "silver", "gold"]
     notes:
       - ハーモニーランドパレード『パレード・ノア』
@@ -250,7 +250,8 @@
     colors: ["blue", "pink", "red", "green", "yellow", "purple", "gold"]
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
-# パレードパラレル オリジナル
+# パレードパラレル オリジナル1
+# パレードパラレル オリジナル2
 # パレードパラレル ハロウィーン
   -
     title: パレードパラレル クリスマス
@@ -260,4 +261,11 @@
     colors: ["red", "white", "green", "gold", "blue"]
     notes:
       - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
-# パレードパラレル イースター
+  -
+    title: パレードパラレル イースター
+    images_instagram: { shortcode: "BTBAVHnB7r7", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "hapehape04", license: "", url: "https://www.instagram.com/p/BTBAVHnB7r7/"}
+    size: { width_o: 1080, height_o: 939 }
+    colors: ["purple", "white", "yellow", "blue", "pink", "green"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル イースター ver.』
