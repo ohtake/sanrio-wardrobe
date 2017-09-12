@@ -43,6 +43,7 @@
     notes:
       - ケープの種類によらずに耳が折れていることがある
       - 折れているときはリボンが増やされていることが多いが、必ずしも連動しているわけではない
+# ウェンズディ
   -
     title: "サーズディ"
     images_flickr: { photo: "16037444866", farm: 9, server: 8649, secret: "19e4172ca2", secret_h: "0fdc4761fb", secret_k: "fe0182844b", secret_o: "6d0d2792bd", format_o: "jpg" }
@@ -114,6 +115,15 @@
     notes:
       - ハロウィンケープに頭上のリボンが追加
       - ジャック・オー・ランタン、ハロウィン、リボン
+  -
+    title: "ゴーストレンジャー"
+    images_flickr: { photo: "37013087602", farm: 5, server: 4394, secret: "2df0140d94", secret_h: "1b75520f4b", secret_k: "47818a8de8", secret_o: "407986ec8e", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37013087602/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["purple", "orange", "blue", "black", "white", "green"]
+    notes:
+      - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』
+      - ハロウィン
   -
     title: "リリーボンボンズのマーチングパレード"
     images_flickr: { photo: "14549304532", farm: 4, server: 3849, secret: "2ff5a7c8e2", secret_h: "87facac7f0", secret_k: "8988b4bfae", secret_o: "81c47cccac", format_o: "jpg" }

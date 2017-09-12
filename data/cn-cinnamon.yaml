@@ -257,7 +257,9 @@
     colors: ["purple", "black", "orange", "pink", "yellow", "silver"]
     notes:
       - ピューロランドパレード『ハロウィンマーチングパレード』
+      - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』休日ピューロレンジャー
       - ハーモニーパーク『ハッピーハロウィーンタイム』
+# 平日シナモロールレンジャー
   -
     title: 柊
     images_flickr: { photo: "11529841053", farm: 6, server: 5499, secret: "016a46ea13", secret_h: "ab8a4efba9", secret_k: "25f84bc91c", secret_o: "4d30c35348", format_o: "jpg" }
