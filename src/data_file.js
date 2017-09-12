@@ -40,6 +40,9 @@ DataFile.all = [
   DataFile.ktMimmy = new DataFile('kt-tiny_chum', 'KT', 'タイニーチャム', 'Tiny Chum',
     // https://www.flickr.com/photos/ohtake_tomohiro/14914616744/
     'https://c2.staticflickr.com/6/5615/14914616744_f9dbf8bb21_q.jpg'),
+  DataFile.omMonkichi = new DataFile('mp-piano', 'MP', 'ピアノ', 'Piano',
+    // https://www.flickr.com/photos/ohtake_tomohiro/14516998051/
+    'https://c2.staticflickr.com/4/3858/14516998051_193a041d57_q.jpg'),
   DataFile.omMonkichi = new DataFile('om-monkichi', 'OM', 'もんきち', 'Monkichi',
     // https://www.flickr.com/photos/ohtake_tomohiro/8815679895/
     'https://c2.staticflickr.com/8/7321/8815679895_2d371a9d73_q.jpg'),
