@@ -259,6 +259,16 @@
       - ピューロランドパレード『ハロウィンマーチングパレード』
       - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』休日ピューロレンジャー
       - ハーモニーパーク『ハッピーハロウィーンタイム』
+  -
+    title: PINK sensation
+    images_flickr: { photo: "23507130026", farm: 1, server: 588, secret: "f4d2e81227", secret_h: "61f5c5d737", secret_k: "e3bd5f45cb", secret_o: "8807268988", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23507130026/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["purple", "black", "orange", "pink", "yellow", "silver"]
+    notes:
+      - 通常のハロウィンにピンクのリボンが追加
+      - PINK sensation HALLOWEEN PARTY ~Hello Kitty 40th ANNIVERSARY BASH!~
+      - PINK sensation 2015 HALLOWEEN PARTY ~Hello Kitty 41st ANNIVERSARY BASH! MY MELODY & Little Twin Stars 40th ANNIVERSARY!~
 # 平日シナモロールレンジャー
   -
     title: 柊
