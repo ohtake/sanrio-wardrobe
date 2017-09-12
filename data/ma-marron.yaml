@@ -1,0 +1,46 @@
+---
+  -
+    title: 標準
+    images_flickr: { photo: "10495737916", farm: 4, server: 3721, secret: "6fe4060d36", secret_h: "1ea3339336", secret_k: "3fc9ac4177", secret_o: "acc056ec16", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10495737916/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "pink", "red", "brown"]
+    notes: []
+  -
+    title: ケープ
+    images_picasa: { lh: 5, dirs: "-Qvfm7xdVE4o/URj3WQVPfkI/AAAAAAAAJyQ/SJEoQkGSoSg", file: "5D3C7170%2520%2528960x1440%2529.jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/dySk4TMkVndgw64WDVPPS9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
+    size: { width_o: 960, height_o: 1440 }
+    colors: ["white", "pink", "red", "brown", "silver"]
+    notes: []
+  -
+    title: コスミックファンタジー
+    images_flickr: { photo: "9332063690", farm: 6, server: 5503, secret: "264175c859", secret_h: "578940981a", secret_k: "2250bdb38c", secret_o: "903736c823", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9332063690/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["orange", "green", "yellow", "white", "pink", "red", "gold"]
+    notes:
+      - ピューロランドパレード『コズミックファンタジー』
+  -
+    title: リリーボンボンズ
+    images_flickr: { photo: "13666254755", farm: 4, server: 3824, secret: "b012da10d1", secret_h: "638e293af0", secret_k: "b0cacf8764", secret_o: "155de55f77", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13666254755/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["orange", "green", "yellow", "white", "pink", "red", "gold"]
+    notes:
+      - ピューロランドパレード『リリーボンボンズのマーチングパレード』
+  -
+    title: バーニーズ
+    images_flickr: { photo: "16171682075", farm: 8, server: 7553, secret: "6861802128", secret_h: "81178b4668", secret_k: "15e9ae7e42", secret_o: "59471632ba", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16171682075/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "white", "red", "pink", "brown"]
+    notes:
+      - 『夜を楽しまナイト!』バーニーズ
+# 夢の贈り物
+# ラブファンタジア
+# シリウス1
+# シリウス2
+# イルミナント
+# バイト
+# ハーモニー帽子なし

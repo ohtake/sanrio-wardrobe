@@ -37,10 +37,13 @@ DataFile.all = [
   DataFile.ktMimmy = new DataFile('kt-mimmy', 'KT', 'ミミィ', 'Mimmy',
     // https://www.flickr.com/photos/ohtake_tomohiro/12611815833/
     'https://c2.staticflickr.com/4/3669/12611815833_3b5df2b753_q.jpg'),
-  DataFile.ktMimmy = new DataFile('kt-tiny_chum', 'KT', 'タイニーチャム', 'Tiny Chum',
+  DataFile.ktTinyChum = new DataFile('kt-tiny_chum', 'KT', 'タイニーチャム', 'Tiny Chum',
     // https://www.flickr.com/photos/ohtake_tomohiro/14914616744/
     'https://c2.staticflickr.com/6/5615/14914616744_f9dbf8bb21_q.jpg'),
-  DataFile.omMonkichi = new DataFile('mp-piano', 'MP', 'ピアノ', 'Piano',
+  DataFile.maMarron = new DataFile('ma-marron', 'MA', 'マロン', 'Marroncream',
+    // https://www.flickr.com/photos/ohtake_tomohiro/8920484088/
+    'https://c2.staticflickr.com/8/7399/8920484088_2cc2d90ac8_q.jpg'),
+  DataFile.mpPiano = new DataFile('mp-piano', 'MP', 'ピアノ', 'Piano',
     // https://www.flickr.com/photos/ohtake_tomohiro/14516998051/
     'https://c2.staticflickr.com/4/3858/14516998051_193a041d57_q.jpg'),
   DataFile.omMonkichi = new DataFile('om-monkichi', 'OM', 'もんきち', 'Monkichi',

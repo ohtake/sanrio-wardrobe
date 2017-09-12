@@ -217,12 +217,13 @@
     colors: ["yellow", "red", "white", "black", "green"]
     notes: []
   -
-    title: 53AC8081
+    title: コズミックファンタジー・帽子なし
     images_flickr: { photo: "32706078480", farm: 4, server: 3718, secret: "efd9d1b07b", secret_h: "72025350b7", secret_k: "2636d0f7c8", secret_o: "f8923e33e0", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32706078480/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "green", "gold", "orange", "pink", "yellow", "red", "purple"]
-    notes: []
+    notes:
+      - ピューロランドパレード『コズミックファンタジー』の帽子なし
   -
     title: IMG_2043
     images_flickr: { photo: "16297086437", farm: 9, server: 8584, secret: "e0538e4a8b", secret_h: "acc7835ff1", secret_k: "80a782e37d", secret_o: "a4b480bf46", format_o: "jpg" }

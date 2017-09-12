@@ -1090,12 +1090,21 @@
     notes:
       - 雨合羽、ハート
   -
+    title: "38ho60sGL4"
+    images_instagram: { shortcode: "38ho60sGL4", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/38ho60sGL4/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["blue", "white", "pink", "orange"]
+    notes:
+      - 『夜を楽しまナイト!』君の瞳に恋してる
+  -
     title: "5D3N1625"
     images_flickr: { photo: "13982308649", farm: 3, server: 2906, secret: "f528a622d1", secret_h: "831933ac95", secret_k: "47a5e07920", secret_o: "1c32cb067d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13982308649"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "white", "pink", "orange"]
     notes:
+      - リボンが異なる
       - ストライプ
   -
     title: "東京スカイツリー"
@@ -1105,15 +1114,6 @@
     colors: ["blue", "white", "pink", "orange", "red"]
     notes:
       - 東京スカイツリーのソラカラちゃんとのコラボでリボンが異なる
-  -
-    title: "38ho60sGL4"
-    images_instagram: { shortcode: "38ho60sGL4", width_t: 150, width_m: 320, width_l: 640 }
-    source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/38ho60sGL4/"}
-    size: { width_o: 640, height_o: 640 }
-    colors: ["blue", "white", "pink", "orange"]
-    notes:
-      - ヨーロッパ
-      - リボンが異なる
   -
     title: "5D3O3259"
     images_flickr: { photo: "14560072296", farm: 6, server: 5552, secret: "6c89d1f1d0", secret_h: "1b7a6be78e", secret_k: "ded26f44fc", secret_o: "a8c079c3d8", format_o: "jpg" }
