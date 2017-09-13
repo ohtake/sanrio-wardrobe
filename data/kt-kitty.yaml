@@ -564,10 +564,10 @@
       - フェアリーランドシアター『アニバーサリータイム』
       - バラ
   -
-    title: "24883516545"
-    images_flickr: { photo: "24883516545", farm: 2, server: 1573, secret: "73076c6c14", secret_o: "047438f703", format_o: "jpg", before: "20100525" }
-    source: { author: "jj lai", license: "", url: "https://www.flickr.com/photos/laijj/24883516545/"}
-    size: { width_o: 404, height_o: 538 }
+    title: "53AH9023"
+    images_flickr: { photo: "36927277666", farm: 5, server: 4342, secret: "094dff4317", secret_h: "4e3b0143ca", secret_k: "9ed51b1c63", secret_o: "b43c7b10ef", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36927277666"}
+    size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "pink", "white"]
     notes:
       - マレーシア Puteri Harbour Sanrio Hello Kitty Town
