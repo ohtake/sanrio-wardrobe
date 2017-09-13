@@ -45,7 +45,7 @@ class App extends React.Component {
     const themeInitial = themes.getInitialTheme();
     themes.applyThemeToBody(themeInitial);
 
-    this.state = { menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 72, title: appDefaultTitle };
+    this.state = { menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 120, title: appDefaultTitle };
 
     this.setTitle = this.setTitle.bind(this);
     this.handleAppMenu = this.handleAppMenu.bind(this);
@@ -125,7 +125,7 @@ class App extends React.Component {
               </ListItem>
               <ListItem leftIcon={<ImagePhotoSizeSelectLarge />}>
                 <span>Thumbnail size: {this.state.thumbnailSize}</span>
-                <Slider ref={(c) => { this.thumbnailSize = c; }} defaultValue={this.state.thumbnailSize} min={36} max={288} step={1} onChange={this.handleThumbnailSizeChange} />
+                <Slider ref={(c) => { this.thumbnailSize = c; }} defaultValue={this.state.thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
               </ListItem>
               <Divider />
               <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />

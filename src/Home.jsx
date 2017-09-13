@@ -73,7 +73,7 @@ export default class Home extends React.Component {
         <h2>Characters</h2>
         <FullWidthContainer
           renderElement={width => (
-            <JustifiedLayout targetRowHeight={150} containerWidth={width} childObjects={DataFile.all} mapperToElement={renderTile} />
+            <JustifiedLayout targetRowHeight={120} containerWidth={width} childObjects={DataFile.all} mapperToElement={renderTile} />
           )}
         />
         <h2>License</h2>
