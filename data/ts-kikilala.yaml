@@ -211,10 +211,10 @@
     notes:
       - プラザステージ『マイメロディ&リトルツインスターズ 40th アニバーサリータイム』
   -
-    title: IMG_8968
-    images_flickr: { photo: "24556802603", farm: 2, server: 1695, secret: "676e40e18f", secret_h: "da127499b8", secret_k: "102dc3d6f2" }
-    source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/24556802603/"}
-    size: { width_o: 1365, height_o: 2048 }
+    title: IMG_8422
+    images_flickr: { photo: "36848666242", farm: 5, server: 4338, secret: "f52811f929", secret_h: "06d09bddca", secret_k: "075eea25b3", secret_o: "6f6a61a6ba", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36848666242/"}
+    size: { width_o: 4608, height_o: 3456 }
     colors: ["blue", "pink", "yellow", "red", "purple", "green"]
     notes:
       - マフラーグリ
