@@ -251,8 +251,22 @@
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
 # パレードパラレル オリジナル1
-# パレードパラレル オリジナル2
-# パレードパラレル ハロウィーン
+  -
+    title: パレードパラレル オリジナル2
+    images_instagram: { shortcode: "BY_KUukHUzj", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_KUukHUzj/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["yellow", "white", "blue", "purple", "pink"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル オリジナル ver.』
+  -
+    title: パレードパラレル ハロウィーン
+    images_instagram: { shortcode: "BY_KYJsHmuz", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_KYJsHmuz/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["yellow", "orange", "purple", "blue", "pink", "silver", "white"]
+    notes:
+      - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
   -
     title: パレードパラレル クリスマス
     images_flickr: { photo: "33752376276", farm: 3, server: 2869, secret: "858959b856", secret_h: "52a2e1fc45", secret_k: "57c9da680e", secret_o: "8463ef38c0", format_o: "jpg" }
