@@ -28,11 +28,14 @@ DataFile.all = [
   DataFile.cnCinnamon = new DataFile('cn-cinnamon', 'CN', 'シナモン', 'Cinnamon',
     // https://www.flickr.com/photos/ohtake_tomohiro/9544085163/
     'https://c1.staticflickr.com/3/2818/9544085163_5092625ee9_q.jpg'),
+  DataFile.gpGochan = new DataFile('gp-gochan', 'GP', 'ゴーちゃん。', 'Go-chan.',
+    // https://www.flickr.com/photos/ohtake_tomohiro/8784705396/
+    'https://c2.staticflickr.com/8/7401/8784705396_669ef592b3_q.jpg'),
   DataFile.jlRuby = new DataFile('jl-ruby', 'JL', 'ルビー', 'Ruby',
     // https://www.flickr.com/photos/ohtake_tomohiro/30901115623/
     'https://c1.staticflickr.com/1/756/30901115623_e7cf5c0feb_q.jpg'),
   DataFile.krKeroppi = new DataFile('kr-keroppi', 'KR', 'けろっぴ', 'Keroppi',
-    // https://www.flickr.com/photos/ohtake_tomohiro/16492066909/
+    // https://www.flickr.com/photos/ohtake_tomohiro/9899607996/
     'https://c2.staticflickr.com/4/3665/9899607996_06ac4f8fa0_q.jpg'),
   DataFile.ktKitty = new DataFile('kt-kitty', 'KT', 'キティ', 'Kitty',
     // https://www.flickr.com/photos/ohtake_tomohiro/16492066909/

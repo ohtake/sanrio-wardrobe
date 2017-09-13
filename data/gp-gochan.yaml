@@ -1,0 +1,23 @@
+---
+  -
+    title: 標準
+    images_flickr: { photo: "8794415454", farm: 4, server: 3777, secret: "26b87968d0", secret_h: "0a91665c40", secret_k: "e655ff1eac", secret_o: "ca9bfa033b", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8794415454/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "gold"]
+    notes: []
+  -
+    title: サッカー
+    images_flickr: { photo: "13926399770", farm: 6, server: 5500, secret: "bd5d8952e2", secret_h: "18896a39c3", secret_k: "7f98028e0d", secret_o: "01bf13c045", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926399770/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "red", "white", "black"]
+    notes: []
+  -
+    title: 星空の Happy Party Christmas
+    images_instagram: { shortcode: "BY_TLWKHFYD", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_TLWKHFYD/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["white", "silver", "red", "green"]
+    notes:
+      - ピューロランドパレード『星空の Happy Party Christmas』
