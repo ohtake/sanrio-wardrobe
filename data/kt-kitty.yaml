@@ -702,7 +702,7 @@
       - ピューロランドパレード『ハロウィンマーチングパレード』ゴーストのリボンがピンク版
       - ハロウィン
   -
-    title: "5D3P1366"
+    title: "夏フェス"
     images_flickr: { photo: "14907564545", farm: 4, server: 3885, secret: "5a8afc9226", secret_h: "bafc462a18", secret_k: "972762d7da", secret_o: "850a778591", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14907564545"}
     size: { width_o: 5760, height_o: 3840 }
@@ -1588,11 +1588,11 @@
       - Kawaii Paradise のクリスマス用ケープ追加バージョン
       - パッチワーク、クリスマス
   -
-    title: "5D3E6015 (1920x1280)"
+    title: "みんなでスマイル"
     images_picasa: { lh: 4, dirs: "-mIMD0HrnEMo/UX5Hs4SObHI/AAAAAAAAQ4M/0PfE0n3pwiQ", file: "5D3E6015%2520%25281920x1280%2529.jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/sWHvcGs0GMEr1xzdSihHg9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1920, height_o: 1280 }
-    colors: ["pink", "white", "yellow"]
+    colors: ["pink", "white", "yellow", "gold"]
     notes:
       - 外部イベント『ハローキティとプリンのみんなでスマイル』
   -
