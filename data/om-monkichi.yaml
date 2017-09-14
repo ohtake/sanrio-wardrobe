@@ -56,6 +56,14 @@
     notes:
       - プラザステージ『マイメロディのマイフレンド』
   -
+    title: マフラー
+    images_flickr: { photo: "37081376061", farm: 5, server: 4409, secret: "14615bbf41", secret_h: "ee9c825079", secret_k: "0eb3eb992c", secret_o: "26f6ab4fa2", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/37081376061/"}
+    size: { width_o: 3625, height_o: 2719 }
+    colors: ["black", "pink", "white", "silver", "blue"]
+    notes:
+      - マフラーグリ
+  -
     title: 5D3V9879
     images_flickr: { photo: "22279816684", farm: 6, server: 5625, secret: "d092d16486", secret_h: "bca1c84d3e", secret_k: "99505bfcce", secret_o: "11b1dedd27", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22279816684/"}

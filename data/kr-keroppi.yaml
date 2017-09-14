@@ -66,6 +66,14 @@
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
   -
+    title: パレード・アクア
+    images_flickr: { photo: "14546604079", farm: 3, server: 2912, secret: "828067aa77", secret_h: "4470a51c02", secret_k: "b71231a978", secret_o: "26b098a8f7", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14546604079/"}
+    size: { width_o: 5184, height_o: 3456 }
+    colors: ["white", "orange", "silver", "blue", "green"]
+    notes:
+      - ハーモニーランドパレード『パレード・アクア』
+  -
     title: 礼服
     images_flickr: { photo: "12146416814", farm: 8, server: 7440, secret: "4741104a8c", secret_h: "a86836599a", secret_k: "f42d759869", secret_o: "7fc5e06507", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12146416814/"}

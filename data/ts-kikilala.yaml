@@ -202,6 +202,7 @@
     colors: ["blue", "orange", "yellow", "white", "silver", "gold"]
     notes:
       - ハーモニーランドパレード『パレード・ノア』
+# パレード・アクア
   -
     title: 40周年標準
     images_flickr: { photo: "27151809131", farm: 8, server: 7640, secret: "5d577b1cd0", secret_h: "231783a689", secret_k: "cf6d2d0d34", secret_o: "ebb96c81f5", format_o: "jpg" }

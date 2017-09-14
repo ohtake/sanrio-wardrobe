@@ -759,10 +759,10 @@
       - 前掛け付き
       - 着物、和服、梅
   -
-    title: "P1010673"
-    images_flickr: { photo: "12385602635", farm: 4, server: 3792, secret: "3870bc1e32", secret_h: "720d8156cb", secret_k: "8328a60678", secret_o: "0ab7f61d68", format_o: "jpg" }
-    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/12385602635/"}
-    size: { width_o: 3968, height_o: 2976 }
+    title: "IMG_3206"
+    images_flickr: { photo: "16350384459", farm: 8, server: 7422, secret: "a58800e312", secret_h: "9ea000b1ce", secret_k: "87d9e407cd", secret_o: "367cb984eb", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/16350384459/"}
+    size: { width_o: 1670, height_o: 2505 }
     colors: ["red", "green", "pink", "orange", "white", "gold"]
     notes:
       - 着物、和服、梅
@@ -1892,9 +1892,9 @@
     notes:
       - ハート、羽、チェック
   -
-    title: "IMG_5859"
-    images_flickr: { photo: "16474493484", farm: 8, server: 7650, secret: "6f2ffd2927", secret_h: "bb4c6cac5a", secret_k: "595a75435b", secret_o: "eda46448d3", format_o: "jpg" }
-    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16474493484"}
+    title: "ミツバチ"
+    images_flickr: { photo: "16899734048", farm: 9, server: 8720, secret: "b4cf800e1d", secret_h: "eed1274431", secret_k: "7c5b56bad5", secret_o: "fdeacebe31", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16899734048"}
     size: { width_o: 3456, height_o: 5184 }
     colors: ["yellow", "black", "pink", "blue"]
     notes:

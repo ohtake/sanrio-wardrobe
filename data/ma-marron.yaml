@@ -1,6 +1,6 @@
 ---
   -
-    title: 標準
+    title: ピューロ標準
     images_flickr: { photo: "10495737916", farm: 4, server: 3721, secret: "6fe4060d36", secret_h: "1ea3339336", secret_k: "3fc9ac4177", secret_o: "acc056ec16", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10495737916/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -12,6 +12,13 @@
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/dySk4TMkVndgw64WDVPPS9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440 }
     colors: ["white", "pink", "red", "brown", "silver"]
+    notes: []
+  -
+    title: 雨合羽
+    images_flickr: { photo: "16006291598", farm: 8, server: 7571, secret: "3bbb88f6e9", secret_h: "22c26314b4", secret_k: "e1d55d4e7b", secret_o: "74fcfa5634", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16006291598/"}
+    size: { width_o: 3456, height_o: 5184 }
+    colors: ["pink", "green", "yellow", "blue", "orange", "red", "brown"]
     notes: []
   -
     title: コスミックファンタジー

@@ -136,10 +136,10 @@
     colors: ["green", "red", "orange", "white"]
     notes: []
   -
-    title: "IMG_9053"
-    images_flickr: { photo: "25183649395", farm: 2, server: 1447, secret: "4366eee0d5", secret_h: "e794a0b018", secret_k: "2045919496" }
-    source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/25183649395/"}
-    size: { width_o: 2048, height_o: 1365 }
+    title: "マフラー"
+    images_flickr: { photo: "37224297145", farm: 5, server: 4404, secret: "670d52e402", secret_h: "e52826b852", secret_k: "95dff1a177", secret_o: "f389509b34", format_o: "jpg" }
+    source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/37224297145/"}
+    size: { width_o: 4979, height_o: 3319 }
     colors: ["green", "red", "orange", "white", "blue"]
     notes:
       - マフラーグリ
