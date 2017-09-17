@@ -49,6 +49,9 @@ DataFile.all = [
   DataFile.maMarron = new DataFile('ma-marron', 'MA', 'マロン', 'Marroncream',
     // https://www.flickr.com/photos/ohtake_tomohiro/8920484088/
     'https://c2.staticflickr.com/8/7399/8920484088_2cc2d90ac8_q.jpg'),
+  DataFile.mmMelody = new DataFile('mm-melody', 'MM', 'メロディ', 'My Melody',
+    // https://www.flickr.com/photos/ohtake_tomohiro/36403930305/
+    'https://c1.staticflickr.com/5/4403/36403930305_046b88a615_q.jpg'),
   DataFile.mpPiano = new DataFile('mp-piano', 'MP', 'ピアノ', 'Piano',
     // https://www.flickr.com/photos/ohtake_tomohiro/14516998051/
     'https://c2.staticflickr.com/4/3858/14516998051_193a041d57_q.jpg'),
