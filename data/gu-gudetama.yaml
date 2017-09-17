@@ -1,0 +1,75 @@
+---
+  -
+    title: 標準
+    images_flickr: { photo: "25389331519", farm: 6, server: 5746, secret: "4672d8844c", secret_h: "37743d78ba", secret_k: "a486b2d12e", secret_o: "df544b23d7", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25389331519/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: []
+    notes: []
+  -
+    title: PINK sensation
+    images_flickr: { photo: "22906123823", farm: 6, server: 5829, secret: "c5a3209f0a", secret_h: "8dc5e3f80e", secret_k: "44f14d42ae", secret_o: "d48c217e4c", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22906123823/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink"]
+    notes:
+      - PINK sensation HALLOWEEN PARTY ~Hello Kitty 40th ANNIVERSARY BASH!~
+      - PINK sensation 2015 HALLOWEEN PARTY ~Hello Kitty 41st ANNIVERSARY BASH! MY MELODY & Little Twin Stars 40th ANNIVERSARY!~
+  -
+    title: マフラー
+    images_flickr: { photo: "25084390855", farm: 2, server: 1528, secret: "1035a8a82d", secret_h: "5070d96a22", secret_k: "db03adab69", secret_o: "e27c88713c", format_o: "jpg" }
+    source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/25084390855/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "white"]
+    notes:
+      - マフラーグリ
+  -
+    title: 神
+    images_flickr: { photo: "25116622126", farm: 2, server: 1646, secret: "64b5d5f145", secret_h: "f0ddaca495", secret_k: "9fb4187018", secret_o: "46e1b1f0e9", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25116622126/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["black"]
+    notes:
+      - 館のレストラン『ぐでたまのヒトリ★オセチの会』
+      - 館のレストラン『ぐでたま「ネ申」降臨パーティ ~おフランスオセチを添えて~』
+      - 知恵の木ステージ『もんきちとぐでたまのファンキー★モチツキ』
+      - 知恵の木ステージ『あしたからほんきだす ~ショウガツばーじょん~』
+  -
+    title: 落花生
+    images_flickr: { photo: "27143604225", farm: 8, server: 7707, secret: "f4a714866a", secret_h: "7b0d8608d3", secret_k: "497dd52d9f", secret_o: "852fc68cd7", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27143604225/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: []
+    notes: []
+  -
+    title: 落花生・神
+    images_flickr: { photo: "32070266450", farm: 1, server: 690, secret: "62616c4a17", secret_h: "35b544167e", secret_k: "ef91693ff6", secret_o: "8bbabba581", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32070266450/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["black"]
+    notes:
+      - 知恵の木ステージ『2016年ラストキャラグリ ~世界一早いカウントダウン?!付~』
+  -
+    title: 寿司
+    images_flickr: { photo: "28107496752", farm: 8, server: 7582, secret: "5dd9eb351b", secret_h: "bfd649c6d3", secret_k: "2f1a71204f", secret_o: "cdf2153371", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28107496752/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["black", "white"]
+    notes: []
+  -
+    title: ぱんつ
+    images_flickr: { photo: "36403937205", farm: 5, server: 4390, secret: "cc2b88fc28", secret_h: "bbcb9ba013", secret_k: "17377caec0", secret_o: "4541c24b04", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36403937205/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white"]
+    notes: []
+  -
+    title: かぼちゃぱんつ
+    images_flickr: { photo: "30150238960", farm: 6, server: 5715, secret: "d347991bce", secret_h: "4adbbc30d5", secret_k: "802884d9ed", secret_o: "93dde4dce6", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30150238960/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["orange", "green", "black", "yellow", "blue", "purple", "pink"]
+    notes:
+      - 知恵の木ステージ『ぐでたまの「ハロウィーンナイトパーティタイム開幕宣言」～今からお化けの時間なんだわ～』
+      - ピューロランドパレード『ハロウィーンマーチングパレード』
+      - PINK sensation 2016 Taicoclub in Sanrio Puroland ~ Hello Kitty 42nd Anniversary Bash!

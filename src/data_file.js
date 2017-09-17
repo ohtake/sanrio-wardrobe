@@ -31,6 +31,9 @@ DataFile.all = [
   DataFile.gpGochan = new DataFile('gp-gochan', 'GP', 'ゴーちゃん。', 'Go-chan.',
     // https://www.flickr.com/photos/ohtake_tomohiro/8784705396/
     'https://c2.staticflickr.com/8/7401/8784705396_669ef592b3_q.jpg'),
+  DataFile.guGudetama = new DataFile('gu-gudetama', 'GU', 'ぐでたま', 'Gudetama',
+    // https://www.flickr.com/photos/ohtake_tomohiro/14834955654/
+    'https://c2.staticflickr.com/6/5556/14834955654_c2887b9976_q.jpg'),
   DataFile.jlRuby = new DataFile('jl-ruby', 'JL', 'ルビー', 'Ruby',
     // https://www.flickr.com/photos/ohtake_tomohiro/30901115623/
     'https://c1.staticflickr.com/1/756/30901115623_e7cf5c0feb_q.jpg'),
