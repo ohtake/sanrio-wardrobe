@@ -1046,6 +1046,7 @@
     size: { width_o: 3840, height_o: 5760 }
     colors: ["white", "red", "green", "gold"]
     notes:
+      - ハーモニーランドイベントホール『ジュエルペット・ルビーの「マジカル☆クリスマス」』
       - クリスマス、多段フリル、ハート
   -
     title: "5D3R3713"
@@ -1071,6 +1072,7 @@
     size: { width_o: 3456, height_o: 5184 }
     colors: ["red", "silver"]
     notes:
+      - ハーモニーランドイベントホール『ハローキティとシナモンのNEWホワイトエンジェル』
       - クリスマス
   -
     title: "5D3R3424"

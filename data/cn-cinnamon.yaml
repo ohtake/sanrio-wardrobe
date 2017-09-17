@@ -521,6 +521,7 @@
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "green", "white", "gold"]
     notes:
+      - ハーモニーランドイベントホール『ハローキティとシナモンのNEWホワイトエンジェル』1着目
       - ハーモニーパーク『ハッピークリスマスタイム』
       - クリスマス、雪、ベル
   -
@@ -530,6 +531,7 @@
     size: { width_o: 3669, height_o: 2752 }
     colors: ["red", "silver", "white"]
     notes:
+      - ハーモニーランドイベントホール『ハローキティとシナモンのNEWホワイトエンジェル』3着目
       - クリスマス
   -
     title: IMG_5792
