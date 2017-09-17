@@ -43,6 +43,12 @@ DataFile.all = [
   DataFile.kiKirimi = new DataFile('ki-kirimi', 'KI', 'きりみちゃん', 'Kirimi-chan',
     // https://www.flickr.com/photos/ohtake_tomohiro/22245218264/
     'https://c2.staticflickr.com/6/5758/22245218264_3b78fd1f86_q.jpg'),
+  DataFile.kiSaba = new DataFile('ki-saba', 'KI', 'さばくん', 'Saba-kun',
+    // https://www.flickr.com/photos/ohtake_tomohiro/16516747738/
+    'https://c1.staticflickr.com/9/8581/16516747738_3b48875288_q.jpg'),
+  DataFile.kiSame = new DataFile('ki-same', 'KI', 'サメせんぱい', 'Same-senpai',
+    // https://www.flickr.com/photos/ohtake_tomohiro/21062320769/
+    'https://c2.staticflickr.com/6/5628/21062320769_9cfaa521bd_q.jpg'),
   DataFile.krKeroppi = new DataFile('kr-keroppi', 'KR', 'けろっぴ', 'Keroppi',
     // https://www.flickr.com/photos/ohtake_tomohiro/9899607996/
     'https://c2.staticflickr.com/4/3665/9899607996_06ac4f8fa0_q.jpg'),
