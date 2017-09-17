@@ -33,7 +33,8 @@
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11613951466/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "pink", "green", "yellow"]
-    notes: []
+    notes:
+      - 知恵の木ステージ『ミラクル☆ジュエル☆タイム』
   -
     title: 浴衣
     images_flickr: { photo: "9592274894", farm: 4, server: 3796, secret: "8fe41f89c0", secret_h: "e73523d0bf", secret_k: "f3ad191090", secret_o: "76019ef283", format_o: "jpg" }
