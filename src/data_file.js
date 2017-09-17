@@ -40,6 +40,9 @@ DataFile.all = [
   DataFile.jlLabra = new DataFile('jl-labra', 'JL', 'ラブラ', 'Labra',
     // https://www.flickr.com/photos/ohtake_tomohiro/11613918416/
     'https://c1.staticflickr.com/3/2823/11613918416_9f08436c62_q.jpg'),
+  DataFile.kiKirimi = new DataFile('ki-kirimi', 'KI', 'きりみちゃん', 'Kirimi-chan',
+    // https://www.flickr.com/photos/ohtake_tomohiro/22245218264/
+    'https://c2.staticflickr.com/6/5758/22245218264_3b78fd1f86_q.jpg'),
   DataFile.krKeroppi = new DataFile('kr-keroppi', 'KR', 'けろっぴ', 'Keroppi',
     // https://www.flickr.com/photos/ohtake_tomohiro/9899607996/
     'https://c2.staticflickr.com/4/3665/9899607996_06ac4f8fa0_q.jpg'),
