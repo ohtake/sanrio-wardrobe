@@ -15,6 +15,14 @@
     notes:
       - 法被
   -
+    title: ILLUMINANT
+    images_flickr: { photo: "646247931", farm: 2, server: 1205, secret: "0dcdce4e2c", before: "20120301" }
+    source: { author: "Carter", license: "", url: "https://www.flickr.com/photos/fisheye17/646247931/"}
+    size: { width_o: 768, height_o: 1024 }
+    colors: ["black", "blue", "gold", "silver", "red"]
+    notes:
+      - ピューロランドパレード『ILLUMINANT』
+  -
     title: ARIGATO EVERYONE
     images_flickr: { photo: "14333660939", farm: 3, server: 2926, secret: "73b10cb983", secret_h: "1b6bcd5866", secret_k: "dba7186a04", secret_o: "08e06424a5", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14333660939/"}

@@ -104,6 +104,14 @@
     colors: ["red", "black", "white", "purple", "orange"]
     notes:
       - ピューロランドパレード『ハロウィンマーチングパレード』
+  -
+    title: "18821205425"
+    images_flickr: { photo: "18821205425", farm: 6, server: 5572, secret: "913cfbbf5f", secret_h: "f3bd32f2d9", secret_k: "486efad1f7" }
+    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
+    size: { width_o: 2048, height_o: 1536 }
+    colors: ["red", "white", "black"]
+    notes:
+      - アメリカ『Hello Kitty Supercute Friendship Festival』
 # スターライトパレード
 # コズミックファンタジー
 # シリウス

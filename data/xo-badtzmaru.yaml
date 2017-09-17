@@ -27,6 +27,14 @@
       - 『ばつ丸＆プリンの GOOD LUCK 抽選会』にタスキ追加
       - 帽子、蝶ネクタイ、店長
   -
+    title: "ILLUMINANT"
+    images_flickr: { photo: "647124814", farm: 2, server: 1278, secret: "bb78c1d049", before: "20120301" }
+    source: { author: "Carter", license: "", url: "https://www.flickr.com/photos/fisheye17/647124814/"}
+    size: { width_o: 768, height_o: 1024 }
+    colors: ["silver", "white", "green", "yellow", "red", "blue"]
+    notes:
+      - ピューロランドパレード『ILLUMINANT』
+  -
     title: "クリスマス ILLUMINANT"
     images_flickr: { photo: "370321033", farm: 1, server: 59, secret: "a68ae449b4", before: "20100525" }
     source: { author: "Tori", license: "", url: "https://www.flickr.com/photos/mstori/370321033/"}

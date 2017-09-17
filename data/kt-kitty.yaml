@@ -1576,7 +1576,7 @@
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "yellow", "white", "brown", "red"]
     notes:
-      - Kawaii Paradise
+      - お台場ヴィーナスフォート Hello Kitty's Kawaii Paradise
       - パッチワーク
   -
     title: "Kawaii Paradise クリスマス"
@@ -1744,7 +1744,7 @@
     images_picasa: { lh: 3, dirs: "-bd6Vor8HNJ0/UMy2evB8mnI/AAAAAAAAGoE/OQyt3ZYBlpw", file: "5D3B8156%2520%25281440x960%2529.jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/zhLImJHiY6gQtcCu1hh_-dMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
-    colors: ["pink", "gold", "red"]
+    colors: ["pink", "gold", "red", "white", "green"]
     notes:
       - 外部イベント『ハローキティの HAPPY GIFT CHRISTMAS』
       - クリスマス
@@ -1787,7 +1787,8 @@
     source: { author: "peridot yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/18641169250"}
     size: { width_o: 3456, height_o: 5184 }
     colors: ["pink", "white", "yellow", "green", "purple"]
-    notes: []
+    notes:
+      - 外部イベント『It's a Wonderland』ではメロディの2着目
   -
     title: "5D3Y2706"
     images_flickr: { photo: "26867823230", farm: 8, server: 7187, secret: "80a731d149", secret_h: "0b848d12f9", secret_k: "c304dcb31c", secret_o: "b615e8c669", format_o: "jpg" }
@@ -2457,7 +2458,7 @@
     images_flickr: { photo: "36718689750", farm: 5, server: 4418, secret: "1414694448", secret_h: "a9d84ca2a9", secret_k: "fec415a02a", secret_o: "a13560eb63", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36718689750/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["gold", "red", "orange", "yellow", "green", "blue", "purple"]
+    colors: ["gold", "red", "pink", "orange", "yellow", "green", "blue", "purple"]
     notes:
       - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Happy Carnival Parade』
       - 多段フリル、冠

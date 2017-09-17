@@ -23,6 +23,14 @@
     notes:
       - 耳と胸に飾りが追加
   -
+    title: ILLUMINANT
+    images_flickr: { photo: "647113700", farm: 2, server: 1373, secret: "1345c3132c", before: "20120301" }
+    source: { author: "Carter", license: "", url: "https://www.flickr.com/photos/fisheye17/647113700/"}
+    size: { width_o: 768, height_o: 1024 }
+    colors: ["yellow", "blue", "silver", "gold", "red"]
+    notes:
+      - ピューロランドパレード『ILLUMINANT』
+  -
     title: Believe
     images_flickr: { photo: "9459980076", farm: 4, server: 3823, secret: "cd2b300902", secret_h: "3d12ed7c3f", secret_k: "e8a3b55195", secret_o: "6d12cb4959", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9459980076/"}

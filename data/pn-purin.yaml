@@ -235,12 +235,21 @@
     notes:
       - ピューロビレッジ『イースターセレブレーションパレード』
   -
-    title: 53AE1472
+    title: ハッピーバースデー1
     images_flickr: { photo: "33986752081", farm: 3, server: 2925, secret: "499afa4739", secret_h: "4d0f1e311d", secret_k: "c7e8d25eb3", secret_o: "1739527be9", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33986752081/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["red", "green", "white", "blue", "pink"]
-    notes: []
+    notes:
+      - ピューロビレッジ『ウサハナとハッピーバースデー』1着目
+  -
+    title: ハッピーバースデー2
+    images_flickr: { photo: "33933628961", farm: 3, server: 2840, secret: "c3de9fdf51", secret_h: "0692a2c9c7", secret_k: "d16e8c5bee", secret_o: "a6c0752305", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33933628961/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["green", "gold", "blue", "silver", "orange", "pink", "red"]
+    notes:
+      - ピューロビレッジ『ウサハナとハッピーバースデー』2着目
   -
     title: 5D3R5262
     images_flickr: { photo: "15697394597", farm: 9, server: 8565, secret: "f393ff6b8d", secret_h: "8eec3b2085", secret_k: "b8006f4682", secret_o: "2fe7010fb7", format_o: "jpg" }
@@ -273,19 +282,21 @@
     notes:
       - マフラーグリ
   -
-    title: タキシード白
-    images_flickr: { photo: "33959819142", farm: 4, server: 3952, secret: "c18ac418d8", secret_h: "fa99cc4e9c", secret_k: "199064ec00", secret_o: "e7e8bff067", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33959819142/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["white", "silver", "black", "purple"]
-    notes: []
-  -
     title: タキシード黒
     images_flickr: { photo: "14359824816", farm: 4, server: 3851, secret: "11021807c5", secret_h: "3eb8df6a8f", secret_k: "7f9f84f58f", secret_o: "727581351d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14359824816/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["black", "yellow", "white", "silver"]
-    notes: []
+    notes:
+      - 外部イベント『ハローキティのドリームエンジェル』1着目
+  -
+    title: タキシード白
+    images_flickr: { photo: "33959819142", farm: 4, server: 3952, secret: "c18ac418d8", secret_h: "fa99cc4e9c", secret_k: "199064ec00", secret_o: "e7e8bff067", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33959819142/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "silver", "black", "purple"]
+    notes:
+      - 外部イベント『ハローキティのドリームエンジェル』2着目の羽なし
   -
     title: 燕尾服
     images_flickr: { photo: "14025796738", farm: 3, server: 2922, secret: "1f74cd0b42", secret_h: "ae7504e044", secret_k: "9639a9d919", secret_o: "068190e63f", format_o: "jpg" }
@@ -328,13 +339,6 @@
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14470656371/"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "orange"]
-    notes: []
-  -
-    title: 53AD9159
-    images_flickr: { photo: "33933628961", farm: 3, server: 2840, secret: "c3de9fdf51", secret_h: "0692a2c9c7", secret_k: "d16e8c5bee", secret_o: "a6c0752305", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33933628961/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["green", "gold", "blue", "silver", "orange", "pink", "red"]
     notes: []
   -
     title: 5D3L4423
