@@ -85,6 +85,9 @@ DataFile.all = [
   DataFile.usUsahana = new DataFile('us-usahana', 'US', 'ウサハナ', 'Usahana',
     // https://www.flickr.com/photos/ohtake_tomohiro/35231231671/
     'https://c1.staticflickr.com/5/4245/35231231671_32d4e72ea1_q.jpg'),
+  DataFile.usUsahana = new DataFile('va-eddy_emmy', 'VA', 'エディ・エミィ', 'Eddy & Emmy',
+    // https://www.flickr.com/photos/ohtake_tomohiro/11267998663/
+    'https://c2.staticflickr.com/6/5472/11267998663_4c1c04d0b0_q.jpg'),
   DataFile.wiMell = new DataFile('wi-mell', 'WI', 'メル', 'Mell',
     // https://www.flickr.com/photos/ohtake_tomohiro/15033242479/
     'https://c2.staticflickr.com/4/3883/15033242479_45ded95457_q.jpg'),
