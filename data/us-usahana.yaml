@@ -107,6 +107,14 @@
     notes:
       - ピューロランドパレード『リリーボンボンズのマーチングパレード』
   -
+    title: バースデーパーティ
+    images_flickr: { photo: "5948177739", farm: 7, server: 6129, secret: "3069b66b86", secret_o: "1e2e1d7edb", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/5948177739/"}
+    size: { width_o: 2304, height_o: 3506 }
+    colors: ["pink", "white", "red", "green", "yellow", "blue"]
+    notes:
+      - ピューロビレッジ『ウサハナとバースデーパーティ 〜すてきなプレゼント〜』
+  -
     title: パレード・ノア
     images_flickr: { photo: "3430088292", farm: 4, server: 3537, secret: "24e6c02bb5", before: "20120301" }
     source: { author: "Astronaut Chicken", license: "", url: "https://www.flickr.com/photos/astronautchicken/3430088292/"}

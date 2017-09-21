@@ -260,7 +260,7 @@
       - メルヘンシアター『ハローキティの妖精フローレンス』レビューパート3着目の衣装から頭上の飾りをなくした版
       - バラ、多段フリル
   -
-    title: "5D3U3163"
+    title: "くるみ割り人形1"
     images_flickr: { photo: "16740467770", farm: 9, server: 8712, secret: "e7b7089789", secret_h: "7d753a0719", secret_k: "066adb1724", secret_o: "e757035c43", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16740467770"}
     size: { width_o: 5760, height_o: 3840 }
@@ -268,6 +268,24 @@
     notes:
       - メルヘンシアター『ハローキティのくるみ割り人形』
       - カーディガン、ポケット、バーバリーチェック
+  -
+    title: "くるみ割り人形2"
+    images_flickr: { photo: "4714437198", farm: 5, server: 4069, secret: "81006eed88", secret_o: "5781862212", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4714437198/"}
+    size: { width_o: 1024, height_o: 683 }
+    colors: ["black", "white", "red"]
+    notes:
+      - メルヘンシアター『ハローキティのくるみ割り人形』レビューパート1
+      - 男装
+  -
+    title: "くるみ割り人形3"
+    images_flickr: { photo: "4714439024", farm: 5, server: 4009, secret: "1f92fd4fde", secret_o: "1d0b33cba1", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4714439024/"}
+    size: { width_o: 683, height_o: 1024 }
+    colors: ["pink", "gold", "white", "red", "black"]
+    notes:
+      - メルヘンシアター『ハローキティのくるみ割り人形』レビューパート2
+      - 男装
   -
     title: "5D3D2846 (1440x960)"
     images_picasa: { lh: 3, dirs: "-_yPx6yNvzE4/UTiac8NDbwI/AAAAAAAALxg/A8glaIroFvw", file: "5D3D2846%2520%25281440x960%2529.jpg" }
@@ -1296,7 +1314,7 @@
     notes:
       - チェック、多段フリル
   -
-    title: "5D3Q4934"
+    title: "クララ"
     images_flickr: { photo: "14979534204", farm: 4, server: 3936, secret: "ac25ff6ba4", secret_h: "fc9b2393b8", secret_k: "7df5f8b9a8", secret_o: "b2e9c54e07", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14979534204"}
     size: { width_o: 5760, height_o: 3840 }
@@ -1305,7 +1323,7 @@
       - 映画『くるみ割り人形』クララ
       - まつげ、頭髪
   -
-    title: "5D3Q3974"
+    title: "魔法使い大行進"
     images_flickr: { photo: "15553714641", farm: 4, server: 3929, secret: "5bdcc5b4b4", secret_h: "1e331cfd86", secret_k: "77f0774cb1", secret_o: "1967a681f3", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15553714641"}
     size: { width_o: 5760, height_o: 3840 }
@@ -1315,7 +1333,7 @@
       - キティズパラダイス『マジックマーチ』
       - 帽子、星、月
   -
-    title: "5D3J1596"
+    title: "マジカルマーチ"
     images_flickr: { photo: "10776773186", farm: 3, server: 2870, secret: "68d44f887d", secret_h: "23021244a7", secret_k: "b24bbaf85d", secret_o: "65c58d8d4b", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10776773186/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -1323,6 +1341,14 @@
     notes:
       - 知恵の木ステージ『ジュエルペットのマジカルマーチ』
       - ネクタイ
+  -
+    title: "Top the TOP"
+    images_flickr: { photo: "5948075263", farm: 7, server: 6002, secret: "d17926a2a1", secret_o: "a5538723c3", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/5948075263/"}
+    size: { width_o: 2048, height_o: 1536 }
+    colors: ["pink", "gold", "white"]
+    notes:
+      - 知恵の木ステージ『Top the TOP 有頂天なダンスコンテスト』
   -
     title: "イチゴマン"
     images_picasa: { lh: 4, dirs: "-IErfXhUokWk/UbP0aa6nQMI/AAAAAAAATYQ/-cratJNEg7w", file: "5D3F2980%2520%25281280x1920%2529.jpg" }

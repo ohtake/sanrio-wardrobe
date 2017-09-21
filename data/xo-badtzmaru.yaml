@@ -31,7 +31,7 @@
     images_flickr: { photo: "647124814", farm: 2, server: 1278, secret: "bb78c1d049", before: "20120301" }
     source: { author: "Carter", license: "", url: "https://www.flickr.com/photos/fisheye17/647124814/"}
     size: { width_o: 768, height_o: 1024 }
-    colors: ["silver", "white", "green", "yellow", "red", "blue"]
+    colors: ["orange", "blue", "gold", "white"]
     notes:
       - ピューロランドパレード『ILLUMINANT』
   -
@@ -61,6 +61,14 @@
       - ピューロランドパレード『星空の Happy Party Christmas』
       - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
       - クリスマス、サンタクロース、柊、ヒゲ、帽子
+  -
+    title: "Top the TOP"
+    images_flickr: { photo: "5948631696", farm: 7, server: 6025, secret: "090369e0fa", secret_o: "dc2932260b", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/5948631696/"}
+    size: { width_o: 2048, height_o: 1536 }
+    colors: ["pink", "white"]
+    notes:
+      - 知恵の木ステージ『Top the TOP 有頂天なダンスコンテスト』
   -
     title: "5D3A8710 (1280x853)"
     images_picasa: { lh: 3, dirs: "-U9dJMyLhhYk/UE5puqMYZvI/AAAAAAAACdw/xjN8JJ0BBHMLIcBsU2nFz_yk6P9kwKmDACCo", file: "5D3A8710%2B%25281280x853%2529.jpg" }
@@ -125,6 +133,14 @@
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9433764040/"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "blue", "gold", "red", "purple"]
+    notes:
+      - 浴衣、和服、鉢巻
+  -
+    title: "IMG_4928"
+    images_flickr: { photo: "5418543307", farm: 6, server: 5016, secret: "4450d61c7f", secret_o: "bdc3b88e5f", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/5418543307/"}
+    size: { width_o: 1024, height_o: 683 }
+    colors: ["blue", "white", "yellow", "red", "purple"]
     notes:
       - 浴衣、和服、鉢巻
   -

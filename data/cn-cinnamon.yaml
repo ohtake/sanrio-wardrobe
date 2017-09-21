@@ -34,6 +34,15 @@
     notes:
       - ピューロランドパレード『Believe』
   -
+    title: Believe in Christmas
+    images_flickr: { photo: "4755432946", farm: 5, server: 4095, secret: "823999ef23", secret_o: "65be20c62d", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4755432946/"}
+    size: { width_o: 1024, height_o: 683 }
+    colors: ["pink", "green", "red", "white", "gold"]
+    notes:
+      - ピューロランドパレード『Believe in Christmas』
+      - クリスマス
+  -
     title: ARIGATO EVERYONE
     images_flickr: { photo: "10671714516", farm: 4, server: 3804, secret: "66abb18aae", secret_h: "2f7a609cb0", secret_k: "9a615eb239", secret_o: "91debaf980", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10671714516/"}

@@ -294,7 +294,7 @@
     notes:
       - プードル、ハート
   -
-    title: "5D3Q6642"
+    title: "くるみ割り人形1"
     images_flickr: { photo: "15788893592", farm: 6, server: 5604, secret: "8c2b6df8ee", secret_h: "1d29a09da6", secret_k: "0f1cb633f8", secret_o: "51f6213960", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15788893592"}
     size: { width_o: 5760, height_o: 3840 }
@@ -302,6 +302,22 @@
     notes:
       - メルヘンシアター『ハローキティのくるみ割り人形』
       - カーディガン、ポケット、バーバリーチェック
+  -
+    title: "くるみ割り人形2"
+    images_flickr: { photo: "4714437198", farm: 5, server: 4069, secret: "81006eed88", secret_o: "5781862212", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4714437198/"}
+    size: { width_o: 1024, height_o: 683 }
+    colors: ["red", "gold"]
+    notes:
+      - メルヘンシアター『ハローキティのくるみ割り人形』レビューパート1
+  -
+    title: "くるみ割り人形3"
+    images_flickr: { photo: "4713798077", farm: 5, server: 4064, secret: "c771fe8cc2", secret_o: "61d393ccbf", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4713798077/"}
+    size: { width_o: 683, height_o: 1024 }
+    colors: ["pink", "gold", "white", "black"]
+    notes:
+      - メルヘンシアター『ハローキティのくるみ割り人形』レビューパート2
   -
     title: "5D3Q7950"
     images_flickr: { photo: "15606008570", farm: 8, server: 7505, secret: "37fb8a80f5", secret_h: "80c4e1dc7f", secret_k: "28c030570f", secret_o: "0ce2d12c4b", format_o: "jpg" }

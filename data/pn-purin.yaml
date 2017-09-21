@@ -121,6 +121,14 @@
     notes:
       - 知恵の木ステージ『ばつ丸＆プリンの GOOD LUCK 抽選会』
   -
+    title: GOOD LUCK 抽選会アイマスク
+    images_flickr: { photo: "4755440732", farm: 5, server: 4079, secret: "220713980b", secret_o: "39328ca131", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4755440732/"}
+    size: { width_o: 1024, height_o: 683 }
+    colors: ["red", "black", "white", "yellow", "brown", "silver", "gold", "blue"]
+    notes:
+      - 知恵の木ステージ『ばつ丸＆プリンの GOOD LUCK 抽選会』アイマスク
+  -
     title: 魔法使い大行進
     images_flickr: { photo: "29341499442", farm: 9, server: 8558, secret: "42d0de9e93", secret_h: "77ec5cc281", secret_k: "da07084d37", secret_o: "1b18424d66", format_o: "jpg" }
     source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/29341499442/"}
