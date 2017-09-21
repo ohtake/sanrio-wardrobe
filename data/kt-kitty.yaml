@@ -2101,12 +2101,21 @@
     notes:
       - 世界地図、花
   -
-    title: "ANTEPRIMA"
+    title: "ANTEPRIMA 青"
     images_flickr: { photo: "32973700273", farm: 3, server: 2930, secret: "8474d9d50e", secret_h: "ce3e750a20", secret_k: "d41986ac8e", secret_o: "2ce22d020d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32973700273"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["blue", "silver"]
     notes:
+      - ANTEPRIMA 荻野いづみデザイン
+  -
+    title: "ANTEPRIMA ピンク"
+    images_instagram: { shortcode: "BZTmsA4lcff", width_t: 150, width_m: 320, width_l: 973 }
+    source: { author: "firstviewphoto", license: "", url: "https://www.instagram.com/p/BZTmsA4lcff/"}
+    size: { width_o: 973, height_o: 1200 }
+    colors: ["pink", "silver"]
+    notes:
+      - アンテプリマ 2018年春夏コレクション
       - ANTEPRIMA 荻野いづみデザイン
   -
     title: "5D3V8314"
@@ -2956,4 +2965,11 @@
     source: { author: "Hello Kitty Cafe Ph", license: "", url: "https://www.instagram.com/p/BUmN9Ywhj4m/"}
     size: { width_o: 1080, height_o: 763 }
     colors: ["black", "purple", "silver" , "white"]
+    notes: []
+  -
+    title: "BZMy958nnPl"
+    images_instagram: { shortcode: "BZMy958nnPl", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Angela Gamba Hanks", license: "", url: "https://www.instagram.com/p/BZMy958nnPl/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["blue", "black"]
     notes: []
