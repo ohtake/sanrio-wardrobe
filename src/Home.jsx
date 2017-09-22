@@ -69,7 +69,7 @@ export default class Home extends React.Component {
             data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
           />
         </a>
-        <p style={{ paddingRight: '150px' }}>You can find clothings of Sanrio characters.</p>
+        <p style={{ paddingRight: '150px' }}>Unofficial listings of Sanrio character costumes</p>
         <h2>Characters</h2>
         <FullWidthContainer
           renderElement={width => (
@@ -79,6 +79,7 @@ export default class Home extends React.Component {
         <h2>License</h2>
         <ul>
           <li>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></li>
+          <li>Each photo was taken by respective author</li>
           <li>This software is provided under <a href="https://opensource.org/licenses/MIT">MIT License</a></li>
           <li><a href="assets/licenses.txt">Attribution notices for third party software</a></li>
         </ul>

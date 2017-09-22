@@ -7,7 +7,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/ohtake/sanrio-wardrobe/badge.svg?branch=master)](https://coveralls.io/github/ohtake/sanrio-wardrobe?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/58b4dad89fd69a003c58588f/badge.svg)](https://www.versioneye.com/user/projects/58b4dad89fd69a003c58588f)
 
-You can find clothings of Sanrio characters.
+Unofficial listings of Sanrio character costumes.
 
 Demo: <https://ohtake.github.io/sanrio-wardrobe/>
 
