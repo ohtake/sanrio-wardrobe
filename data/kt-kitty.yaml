@@ -536,6 +536,15 @@
     notes:
       - チェック、リボン
   -
+    title: "53AA5580"
+    images_flickr: { photo: "30657258482", farm: 6, server: 5665, secret: "bb75f8b038", secret_h: "f0d0039e05", secret_k: "5b7b468e33", secret_o: "6b95259349", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30657258482"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["pink", "white"]
+    notes:
+      - 川崎市バス
+      - チェック、リボン
+  -
     title: "5D3Q8342"
     images_flickr: { photo: "15608954220", farm: 8, server: 7513, secret: "5127e88cd6", secret_h: "7f086da5f9", secret_k: "994258dd85", secret_o: "6146878e88", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15608954220"}
@@ -554,14 +563,14 @@
       - 京王多摩センター駅名誉駅長
       - 帽子
   -
-    title: "53AA5580"
-    images_flickr: { photo: "30657258482", farm: 6, server: 5665, secret: "bb75f8b038", secret_h: "f0d0039e05", secret_k: "5b7b468e33", secret_o: "6b95259349", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30657258482"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "white"]
+    title: "目白駅駅長"
+    images_instagram: { shortcode: "BMa9lVdDmWv", width_t: 150, width_m: 320, width_l: 749 }
+    source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/BMa9lVdDmWv/"}
+    size: { width_o: 749, height_o: 937 }
+    colors: ["white", "pink", "red"]
     notes:
-      - 川崎市バス
-      - チェック、リボン
+      - 目白駅駅長
+      - 帽子
   -
     title: "5D3U9204"
     images_flickr: { photo: "18812535015", farm: 6, server: 5587, secret: "e4f3cd6a63", secret_h: "c4e78d9677", secret_k: "a7bce57173", secret_o: "edbd59f2b3", format_o: "jpg" }
@@ -797,7 +806,7 @@
     images_flickr: { photo: "16174592385", farm: 8, server: 7498, secret: "961df294a3", secret_h: "b59d3e9958", secret_k: "556965bdfe", secret_o: "33fc7b662c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16174592385"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "purple", "red"]
+    colors: ["pink", "purple", "red", "white", "green"]
     notes:
       - 着物、和服、桜
   -
@@ -805,9 +814,17 @@
     images_flickr: { photo: "31605048444", farm: 1, server: 517, secret: "d65b4721b4", secret_h: "8fe5e473e4", secret_k: "f6f5345983", secret_o: "0b506bac05", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31605048444"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "purple", "red"]
+    colors: ["pink", "purple", "red", "white"]
     notes:
       - 襟の色が緑から白になっている
+      - 着物、和服、桜
+  -
+    title: "ゆのごう美春閣"
+    images_instagram: { shortcode: "BSDIxbmDK_R", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/BSDIxbmDK_R/"}
+    size: { width_o: 1080, height_o: 811 }
+    colors: ["pink", "purple", "red", "white"]
+    notes:
       - 着物、和服、桜
   -
     title: "5D3O4702"
@@ -2127,6 +2144,14 @@
     notes:
       - 世界地図、花
   -
+    title: "HELLO KITTY RUN 東京"
+    images_instagram: { shortcode: "BBz7kmSEGZk", width_t: 150, width_m: 320, width_l: 750 }
+    source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/BBz7kmSEGZk/"}
+    size: { width_o: 750, height_o: 901 }
+    colors: ["blue", "white", "red", "pink", "yellow"]
+    notes:
+      - HELLO KITTY RUN 東京
+  -
     title: "ANTEPRIMA 青"
     images_flickr: { photo: "32973700273", farm: 3, server: 2930, secret: "8474d9d50e", secret_h: "ce3e750a20", secret_k: "d41986ac8e", secret_o: "2ce22d020d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32973700273"}
@@ -2159,6 +2184,15 @@
     colors: ["green", "grey", "pink"]
     notes:
       - エバー航空、キャビンアテンダント
+  -
+    title: "軽井沢プリンスショッピングプラザ"
+    images_instagram: { shortcode: "5YPfC8kGWB", width_t: 150, width_m: 320, width_l: 750 }
+    source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/5YPfC8kGWB/"}
+    size: { width_o: 750, height_o: 750 }
+    colors: ["red", "white"]
+    notes:
+      - 軽井沢プリンスショッピングプラザ
+      - 帽子、バッグ
   -
     title: "5D3W9762"
     images_flickr: { photo: "23863299425", farm: 6, server: 5834, secret: "d7d3450101", secret_h: "0097d611ff", secret_k: "54c8573636", secret_o: "172c2c9dee", format_o: "jpg" }
