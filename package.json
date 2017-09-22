@@ -48,6 +48,7 @@
     "http-server": "^0.10.0",
     "jpeg-js": "^0.3.3",
     "js-yaml": "^3.10.0",
+    "mkdirp": "^0.5.1",
     "npm-run-all": "^4.1.1",
     "nyc": "^11.2.1",
     "react-test-renderer": "^15.6.1",
@@ -72,11 +73,12 @@
     "test:ava": "cross-env NODE_ENV=test ava test/**/*.ava.js",
     "cover": "cross-env NODE_ENV=test nyc ---extension .jsx --reporter lcov --reporter text yarn test",
     "watch:ava": "yarn run test:ava -- --watch",
-    "build": "cross-env NODE_ENV=production npm-run-all -l -p build:app build:esdoc -p build:licenses build:sme",
+    "build": "cross-env NODE_ENV=production npm-run-all -l -p build:app build:esdoc build:statistics -p build:licenses build:sme",
     "build:app": "webpack --progress --colors --config webpack.config.babel.js",
     "build:esdoc": "esdoc -c esdoc.json",
     "build:licenses": "yarn licenses generate-disclaimer --prod > assets/licenses.txt",
     "build:sme": "source-map-explorer assets/bundle.js assets/bundle.js.map --html > assets/sme.html",
+    "build:statistics": "babel-node ./scripts/build-statistics.js",
     "start": "cross-env NODE_ENV=development webpack-dev-server --progress --colors --config webpack.config.babel.js",
     "server": "cross-env NODE_ENV=production http-server"
   }
