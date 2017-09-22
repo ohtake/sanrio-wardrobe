@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'react-router-dom/Link';
 
+import FlatButton from 'material-ui/FlatButton';
+import EditorShowChart from 'material-ui/svg-icons/editor/show-chart';
+
 import JustifiedLayout from './JustifiedLayout';
 import FullWidthContainer from './FullWidthContainer';
 import DataFile from './data_file';
@@ -70,6 +73,11 @@ export default class Home extends React.Component {
           />
         </a>
         <p style={{ paddingRight: '150px' }}>Unofficial listings of Sanrio character costumes</p>
+        <p>
+          <Link to="/statistics" data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="homeTile" data-ga-event-label="statistics">
+            <FlatButton label="Statistics" icon={<EditorShowChart />} />
+          </Link>
+        </p>
         <h2>Characters</h2>
         <FullWidthContainer
           renderElement={width => (

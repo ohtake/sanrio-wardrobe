@@ -21,12 +21,14 @@ import ActionHome from 'material-ui/svg-icons/action/home';
 import ActionSettings from 'material-ui/svg-icons/action/settings';
 import ActionTurnedIn from 'material-ui/svg-icons/action/turned-in';
 import ActionTurnedInNot from 'material-ui/svg-icons/action/turned-in-not';
+import EditorShowChart from 'material-ui/svg-icons/editor/show-chart';
 import ImageColorLens from 'material-ui/svg-icons/image/color-lens';
 import ImagePhotoSizeSelectLarge from 'material-ui/svg-icons/image/photo-size-select-large';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
 import Home from './Home';
 import Character from './Character';
+import Statistics from './Statistics';
 
 import DataFile from './data_file';
 import * as themes from './themes';
@@ -151,6 +153,9 @@ class App extends React.Component {
           <NavLink to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle}>
             <ListItem primaryText="Home" leftIcon={<ActionHome />} />
           </NavLink>
+          <NavLink to="/statistics" onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="statistics">
+            <ListItem primaryText="Statistics" leftIcon={<EditorShowChart />} />
+          </NavLink>
           <Divider />
           <Subheader>Characters</Subheader>
           {DataFile.all.map(c => (
@@ -163,6 +168,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/chara/:chara/:title?" component={Character} />
+          <Route path="/statistics" component={Statistics} />
         </Switch>
       </div>
     </div>);
