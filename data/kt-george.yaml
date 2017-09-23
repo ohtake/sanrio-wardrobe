@@ -50,6 +50,14 @@
     notes:
       - メルヘンシアター『ハローキティ ドリームレビュー 1』ピアノコンクール
   -
+    title: くるみ割り1
+    images_flickr: { photo: "5948169593", farm: 7, server: 6007, secret: "5c5597db73", secret_o: "4e1f151c1f", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/5948169593/"}
+    size: { width_o: 3456, height_o: 2304 }
+    colors: ["green", "brown", "yellow", "white", "blue"]
+    notes:
+      - メルヘンシアター『ハローキティのくるみ割り人形』通常服
+  -
     title: ほいく男子
     images_flickr: { photo: "30156972344", farm: 6, server: 5637, secret: "6f2574afd4", secret_h: "fc545376d4", secret_k: "5d0b9d02c0", secret_o: "6cc4b712f6", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30156972344/"}
@@ -58,6 +66,22 @@
     notes:
       - ほいく男子応援大使
       - ベースは『ハローキティのくるみ割り人形』通常服
+  -
+    title: くるみ割り2
+    images_flickr: { photo: "4714436024", farm: 5, server: 4018, secret: "fbc6f4a8fc", secret_o: "58e70192a6", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4714436024/"}
+    size: { width_o: 1024, height_o: 683 }
+    colors: ["pink", "gold", "white"]
+    notes:
+      - メルヘンシアター『ハローキティのくるみ割り人形』レビュー1
+  -
+    title: くるみ割り3
+    images_flickr: { photo: "4713798969", farm: 5, server: 4053, secret: "56a4b11a5c", secret_o: "b7b3ce1aa8", format_o: "jpg", before: "20120301" }
+    source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4713798969/"}
+    size: { width_o: 1024, height_o: 683 }
+    colors: ["pink", "gold", "white", "red", "black"]
+    notes:
+      - メルヘンシアター『ハローキティのくるみ割り人形』レビュー2
   -
     title: オズ1
     images_instagram: { shortcode: "BZXRm7uBcGg", width_t: 150, width_m: 320, width_l: 1080 }
