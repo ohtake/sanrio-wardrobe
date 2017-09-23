@@ -1,0 +1,108 @@
+---
+  -
+    title: 通常服
+    images_flickr: { photo: "9775318513", farm: 4, server: 3810, secret: "3c111c87c7", secret_h: "9294123913", secret_k: "e48d6afce8", secret_o: "a4a657fc84", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9775318513/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "red", "yellow", "white", "brown"]
+    notes:
+      - メルヘンシアター『ハローキティのすてきなパーティ』
+  -
+    title: ARIGATO EVERYONE
+    images_flickr: { photo: "21107472804", farm: 6, server: 5809, secret: "c39b822bc0", secret_h: "aba3d7813f", secret_k: "760b4cdb54", secret_o: "b7d9b5dc45", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21107472804/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["pink", "purple", "white", "black"]
+    notes:
+      - ピューロランドパレード『ARIGATO EVERYONE!』
+  -
+    title: ARIGATO EVERYONE クリスマス
+    images_flickr: { photo: "16169785951", farm: 8, server: 7558, secret: "519480abd7", secret_h: "eb547823d9", secret_k: "dba60a23cb", secret_o: "3fc7abacec", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16169785951/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["white", "red", "purple", "gold", "green", "silver", "black"]
+    notes:
+      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
+      - クリスマス
+  -
+    title: ドリームレビュー1通常
+    images_flickr: { photo: "15641818249", farm: 9, server: 8140, secret: "650fe5242c", secret_h: "f2aca46967", secret_k: "898c2eadf6", secret_o: "c4db9684fe", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15641818249/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["blue", "brown", "green", "yellow", "white", "black"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー 1』通常服
+      - メルヘンシアター『ハローキティの妖精フローレンス』通常服
+  -
+    title: 53AA4920
+    images_flickr: { photo: "29925883433", farm: 6, server: 5461, secret: "6072759f10", secret_h: "e6e11bbb66", secret_k: "9b28528dbe", secret_o: "9b6339a3c6", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29925883433/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["brown", "white", "green", "yellow"]
+    notes:
+      - ドリームレビュー1の色違い？
+  -
+    title: ドリームレビュー1コンクール
+    images_flickr: { photo: "12717922915", farm: 8, server: 7292, secret: "7f9fdbb606", secret_h: "2f9907e513", secret_k: "650dfeb259", secret_o: "7758690f04", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12717922915/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["brown", "yellow", "orange", "red", "white"]
+    notes:
+      - メルヘンシアター『ハローキティ ドリームレビュー 1』ピアノコンクール
+  -
+    title: ほいく男子
+    images_flickr: { photo: "30156972344", farm: 6, server: 5637, secret: "6f2574afd4", secret_h: "fc545376d4", secret_k: "5d0b9d02c0", secret_o: "6cc4b712f6", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30156972344/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["green", "brown", "yellow", "white", "blue", "red", "black"]
+    notes:
+      - ほいく男子応援大使
+      - ベースは『ハローキティのくるみ割り人形』通常服
+  -
+    title: オズ1
+    images_instagram: { shortcode: "BZXRm7uBcGg", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZXRm7uBcGg/"}
+    size: { width_o: 1080, height_o: 1283 }
+    colors: ["purple", "brown", "white", "black"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』通常服
+  -
+    title: オズ2
+    images_instagram: { shortcode: "BZXSGWsBhxh", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZXSGWsBhxh/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["purple", "white", "black", "silver"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』レビュー1
+  -
+    title: オズ3
+    images_instagram: { shortcode: "BZXSW-mhq3Y", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZXSW-mhq3Y/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["purple", "white", "black", "silver", "pink"]
+    notes:
+      - メルヘンシアター『ハローキティとオズの魔法の国』レビュー2
+  -
+    title: アリス1
+    images_flickr: { photo: "8778157345", farm: 8, server: 7460, secret: "9bfdc96989", secret_h: "1478daf920", secret_k: "5f539d3386", secret_o: "e0b7679e7b", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8778157345/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["green", "blue", "purple", "brown", "white"]
+    notes:
+      - メルヘンシアター『不思議の国のハローキティ』通常服
+  -
+    title: アリス2
+    images_flickr: { photo: "9544052091", farm: 3, server: 2821, secret: "c1323b8d88", secret_h: "5c3afad3a8", secret_k: "0f6dd65014", secret_o: "e6d09e616a", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9544052091/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["green", "white", "gold"]
+    notes:
+      - メルヘンシアター『不思議の国のハローキティ』レビュー1
+  -
+    title: アリス3
+    images_flickr: { photo: "9866064386", farm: 6, server: 5530, secret: "98bd3c9139", secret_h: "6c69f5ed2c", secret_k: "58c24c5e82", secret_o: "a81ed9379f", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9866064386/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["green", "white", "gold", "red", "black", "silver"]
+    notes:
+      - メルヘンシアター『不思議の国のハローキティ』レビュー2
