@@ -156,10 +156,19 @@
     images_instagram: { shortcode: "vEByteMGEs", width_t: 150, width_m: 320, width_l: 640 }
     source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/vEByteMGEs/"}
     size: { width_o: 640, height_o: 640 }
-    colors: ["purple", "pink"]
+    colors: ["purple", "pink", "white", "brown", "green", "yellow", "blue", "gold"]
     notes:
       - 『ARIGATO EVERYONE!』とは頭が異なる
       - アメリカ、ヨーロッパ
+  -
+    title: "2jEj0SNovv"
+    images_instagram: { shortcode: "2jEj0SNovv", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/2jEj0SNovv/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["purple", "pink", "white", "brown", "green", "yellow", "blue", "gold", "red"]
+    notes:
+      - 海外版『ARIGATO EVERYONE!』とはさらに袖が異なる
+      - アメリカ
   -
     title: "OMOIYARI TO YOU"
     images_flickr: { photo: "22390481194", farm: 6, server: 5758, secret: "beeb8e7677", secret_h: "68679d59e9", secret_k: "bfc9a7792d", secret_o: "53446bcffd", format_o: "jpg" }
@@ -2725,7 +2734,7 @@
     images_instagram: { shortcode: "wUs54HFDyw", width_t: 150, width_m: 320, width_l: 640 }
     source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/wUs54HFDyw/"}
     size: { width_o: 640, height_o: 640 }
-    colors: ["pink", "red", "grey", "green"]
+    colors: ["pink", "red", "grey", "white", "green"]
     notes:
       - アメリカ
       - リンゴ
@@ -2753,6 +2762,14 @@
     source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/6fhgmtlD1s/"}
     size: { width_o: 640, height_o: 640 }
     colors: ["blue", "red", "white"]
+    notes:
+      - アメリカ
+  -
+    title: "BM-VSarFT5Q"
+    images_instagram: { shortcode: "BM-VSarFT5Q", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/BM-VSarFT5Q/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["blue", "black", "red"]
     notes:
       - アメリカ
   -
@@ -2839,6 +2856,15 @@
       - アメリカ、ヨーロッパ
       - チェック
   -
+    title: "BMh2lv6lit0"
+    images_instagram: { shortcode: "BMh2lv6lit0", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/BMh2lv6lit0/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["pink", "white"]
+    notes:
+      - アメリカ
+      - 水玉
+  -
     title: "6990958659"
     images_flickr: { photo: "6990958659", farm: 8, server: 7203, secret: "1dce19f2db", before: "20100525" }
     source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/6990958659/"}
@@ -2889,6 +2915,14 @@
     colors: ["blue", "pink", "white"]
     notes:
       - ブラジル
+  -
+    title: "BIEIrtVjaEw"
+    images_instagram: { shortcode: "BIEIrtVjaEw", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/BIEIrtVjaEw/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["red", "blue", "white"]
+    notes:
+      - アメリカ
   -
     title: "BL8owgiB6Vy"
     images_instagram: { shortcode: "BL8owgiB6Vy", width_t: 150, width_m: 320, width_l: 1080 }
