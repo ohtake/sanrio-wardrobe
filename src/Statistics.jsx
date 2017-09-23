@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import toPairs from 'lodash/toPairs';
+import Link from 'react-router-dom/Link';
 
 import Avatar from 'material-ui/Avatar';
+import FlatButton from 'material-ui/FlatButton';
 import {
   Table,
   TableBody,
@@ -45,6 +47,9 @@ export default class Statistics extends React.Component {
       paddingLeft: '4px',
       paddingRight: '4px',
     };
+    const buttonLabelStyle = {
+      textTransform: 'none',
+    };
     const totalCount = DataFile.all.map(df => this.state.statistics.count[df.name]).reduce((acc, current) => acc + current);
     const sortedAuthor = toPairs(this.state.statistics.author).sort((x, y) => {
       const countDiff = y[1] - x[1];
@@ -57,8 +62,7 @@ export default class Statistics extends React.Component {
         <Table selectable={false}>
           <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
             <TableRow style={rowStyle}>
-              <TableHeaderColumn style={cellStyle}>Icon</TableHeaderColumn>
-              <TableHeaderColumn style={cellStyle}>ID</TableHeaderColumn>
+              <TableHeaderColumn style={cellStyle}>Character</TableHeaderColumn>
               <TableHeaderColumn style={cellStyle}>Series</TableHeaderColumn>
               <TableHeaderColumn style={cellStyle}>Name (ja)</TableHeaderColumn>
               <TableHeaderColumn style={cellStyle}>Name (en)</TableHeaderColumn>
@@ -67,8 +71,11 @@ export default class Statistics extends React.Component {
           </TableHeader>
           <TableBody displayRowCheckbox={false} stripedRows>
             {DataFile.all.map(df => (<TableRow style={rowStyle}>
-              <TableRowColumn style={cellStyle}><Avatar src={df.picUrl} size={30} /></TableRowColumn>
-              <TableRowColumn style={cellStyle}>{df.name}</TableRowColumn>
+              <TableRowColumn style={cellStyle}>
+                <Link to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="statCount" data-ga-event-label={df.name}>
+                  <FlatButton label={df.name} icon={<Avatar src={df.picUrl} size={30} />} labelStyle={buttonLabelStyle} />
+                </Link>
+              </TableRowColumn>
               <TableRowColumn style={cellStyle}>{df.seriesSymbol}</TableRowColumn>
               <TableRowColumn style={cellStyle}>{df.nameJa}</TableRowColumn>
               <TableRowColumn style={cellStyle}>{df.nameEn}</TableRowColumn>
@@ -80,15 +87,17 @@ export default class Statistics extends React.Component {
         <Table selectable={false}>
           <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
             <TableRow style={rowStyle}>
-              <TableHeaderColumn style={cellStyle}>Icon</TableHeaderColumn>
-              <TableHeaderColumn style={cellStyle}>ID</TableHeaderColumn>
+              <TableHeaderColumn style={cellStyle}>Character</TableHeaderColumn>
               {Colors.all.map(c => <TableHeaderColumn style={cellStyle}>{c.name}</TableHeaderColumn>)}
             </TableRow>
           </TableHeader>
           <TableBody displayRowCheckbox={false} stripedRows>
             {DataFile.all.map(df => (<TableRow style={rowStyle}>
-              <TableRowColumn style={cellStyle}><Avatar src={df.picUrl} size={30} /></TableRowColumn>
-              <TableRowColumn style={cellStyle}>{df.name}</TableRowColumn>
+              <TableRowColumn style={cellStyle}>
+                <Link to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="statColor" data-ga-event-label={df.name}>
+                  <FlatButton label={df.name} icon={<Avatar src={df.picUrl} size={30} />} labelStyle={buttonLabelStyle} />
+                </Link>
+              </TableRowColumn>
               {Colors.all.map(c => <TableRowColumn style={cellStyle}>{this.state.statistics.color[df.name][c.id]}</TableRowColumn>)}
             </TableRow>))}
           </TableBody>

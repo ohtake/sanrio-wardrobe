@@ -150,7 +150,7 @@ class App extends React.Component {
           </ToolbarGroup>
         </Toolbar>
         <List>
-          <NavLink to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle}>
+          <NavLink to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="home">
             <ListItem primaryText="Home" leftIcon={<ActionHome />} />
           </NavLink>
           <NavLink to="/statistics" onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="statistics">
