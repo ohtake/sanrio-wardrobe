@@ -2277,6 +2277,15 @@
       - 三菱自動車
       - オーバーオール
   -
+    title: "三菱自動車・ツナギ"
+    images_instagram: { shortcode: "BZaDLAyHMMX", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "mrgtu79_pc", license: "", url: "https://www.instagram.com/p/BZaDLAyHMMX/"}
+    size: { width_o: 1080, height_o: 1080 }
+    colors: ["red", "white"]
+    notes:
+      - 三菱自動車
+      - ツナギ
+  -
     title: "三菱自動車・登山"
     images_instagram: { shortcode: "BYkrw0XAViz", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "yuichikuraa", license: "", url: "https://www.instagram.com/p/BYkrw0XAViz/"}
