@@ -561,10 +561,18 @@
     notes:
       - クリスマス、マフラー追加
   -
-    title: 品川紋次郎
+    title: 品川紋次郎・刀あり
     images_flickr: { photo: "35116063576", farm: 5, server: 4255, secret: "dd94544eb7", secret_h: "bc01707e0f", secret_k: "4faecbec24", secret_o: "19bd458929", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35116063576/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "green", "pink"]
+    colors: ["blue", "white", "green", "black", "pink"]
+    notes:
+      - 和服、袴、団子
+  -
+    title: 品川紋次郎・刀なし
+    images_flickr: { photo: "34737947163", farm: 5, server: 4260, secret: "d0f4ef97a1", secret_h: "8ebf88d6c2", secret_k: "4d60fadd40", secret_o: "843b9d5c53", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34737947163/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["blue", "white", "green", "black"]
     notes:
       - 和服、袴、団子
