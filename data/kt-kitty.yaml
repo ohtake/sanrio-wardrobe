@@ -735,7 +735,17 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["white", "pink"]
     notes:
-      - ピューロランドパレード『ハロウィンマーチングパレード』ゴーストのリボンがピンク版
+      - PINK sensation 2015 HALLOWEEN PARTY ~Hello Kitty 41st ANNIVERSARY BASH! MY MELODY & Little Twin Stars 40th ANNIVERSARY!~
+      - ゴーストのリボンがピンク版
+      - ハロウィン
+  -
+    title: "ゴースト・バケツ"
+    images_flickr: { photo: "37009188870", farm: 5, server: 4510, secret: "3d13c197e8", secret_h: "266ee3abf7", secret_k: "2ae0605960", secret_o: "85466b6a0b", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37009188870/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["white", "red", "orange", "black"]
+    notes:
+      - ゴーストにバケツを追加
       - ハロウィン
   -
     title: "夏フェス"

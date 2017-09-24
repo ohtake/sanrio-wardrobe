@@ -269,6 +269,7 @@
       - ピューロランドパレード『ハロウィーンマーチングパレード』
       - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』休日ピューロレンジャー
       - ハーモニーパーク『ハッピーハロウィーンタイム』
+      - ハロウィン
   -
     title: PINK sensation
     images_flickr: { photo: "23507130026", farm: 1, server: 588, secret: "f4d2e81227", secret_h: "61f5c5d737", secret_k: "e3bd5f45cb", secret_o: "8807268988", format_o: "jpg" }
@@ -279,7 +280,16 @@
       - 通常のハロウィンにピンクのリボンが追加
       - PINK sensation HALLOWEEN PARTY ~Hello Kitty 40th ANNIVERSARY BASH!~
       - PINK sensation 2015 HALLOWEEN PARTY ~Hello Kitty 41st ANNIVERSARY BASH! MY MELODY & Little Twin Stars 40th ANNIVERSARY!~
-# 平日シナモロールレンジャー
+      - ハロウィン
+  -
+    title: レンジャー
+    images_flickr: { photo: "37009168160", farm: 5, server: 4504, secret: "c5e0ffa0dd", secret_h: "6e3a85a7c1", secret_k: "253df23136", secret_o: "3c956b4286", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37009168160/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["black", "blue", "white"]
+    notes:
+      - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』平日シナモロールレンジャー
+      - ハロウィン
   -
     title: 柊
     images_flickr: { photo: "11529841053", farm: 6, server: 5499, secret: "016a46ea13", secret_h: "ab8a4efba9", secret_k: "25f84bc91c", secret_o: "4d30c35348", format_o: "jpg" }
