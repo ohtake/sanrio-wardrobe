@@ -1,5 +1,3 @@
-import 'enzyme/withDom';
-
 import React from 'react';
 
 import test from 'ava';
@@ -8,7 +6,10 @@ import { shallow } from 'enzyme';
 import Home from '../src/Home';
 import * as themes from '../src/themes';
 
-const context = { muiTheme: themes.themeLight };
+const context = {
+  muiTheme: themes.themeLight,
+  setTitle: () => {},
+};
 
 /** @test {Home} */
 test('<Home /> should be loaded', t => {
