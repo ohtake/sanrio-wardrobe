@@ -1,5 +1,3 @@
-import 'enzyme/withDom';
-
 import React from 'react';
 
 import test from 'ava';

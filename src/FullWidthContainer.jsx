@@ -33,7 +33,7 @@ export default class FullWidthContainer extends React.Component {
    */
   updateContainerWidth() {
     const newWidth = this.container.clientWidth;
-    if (newWidth !== this.state.containerWidth) {
+    if (newWidth && newWidth !== this.state.containerWidth) {
       this.setState({ containerWidth: newWidth });
     }
   }
