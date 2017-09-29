@@ -1070,6 +1070,14 @@
       - ハーモニーランドパレード『パレードパラレル イースター ver.』
       - イースター、イースターエッグ
   -
+    title: "BYfSHUtA-if"
+    images_instagram: { shortcode: "BYfSHUtA-if", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "mamarumaru", license: "", url: "https://www.instagram.com/p/BYfSHUtA-if/"}
+    size: { width_o: 1080, height_o: 922 }
+    colors: ["pink", "red", "white", "black"]
+    notes:
+      - ホワイトバーズスクエアステージ
+  -
     title: "060701-HarmonyLand_KittyShow4"
     images_flickr: { photo: "186229168", farm: 1, server: 48, secret: "fb74deb164", secret_o: "fb74deb164", format_o: "jpg", before: "20120301" }
     source: { author: "Julie Chen", license: "", url: "https://www.flickr.com/photos/bestrurumi/186229168"}
@@ -2776,10 +2784,10 @@
       - アメリカ『Hello Kitty Supercute Friendship Festival』
       - ストライプ
   -
-    title: "6fhgmtlD1s"
-    images_instagram: { shortcode: "6fhgmtlD1s", width_t: 150, width_m: 320, width_l: 640 }
-    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/6fhgmtlD1s/"}
-    size: { width_o: 640, height_o: 640 }
+    title: "BZnIyW4Fvdp"
+    images_instagram: { shortcode: "BZnIyW4Fvdp", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "missgolden_lady", license: "", url: "https://www.instagram.com/p/BZnIyW4Fvdp/"}
+    size: { width_o: 1080, height_o: 1080 }
     colors: ["blue", "red", "white"]
     notes:
       - アメリカ
@@ -2791,6 +2799,14 @@
     colors: ["blue", "black", "red"]
     notes:
       - アメリカ
+  -
+    title: "Home Sale Party 1862"
+    images_instagram: { shortcode: "z3iUG9toqZ", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/z3iUG9toqZ/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["blue", "red", "white"]
+    notes:
+      - アメリカ Hello Kitty Home Sale Party 1982
   -
     title: "18200562823"
     images_flickr: { photo: "18200562823", farm: 6, server: 5347, secret: "e0d55992d7", secret_h: "1f06c96390", secret_k: "ef7988e2e1" }
@@ -2972,7 +2988,7 @@
     size: { width_o: 750, height_o: 809 }
     colors: ["yellow", "pink"]
     notes:
-      - ヨーロッパ María Escoté Capsule Collection
+      - スペイン María Escoté Capsule Collection
       - バスローブ
   -
     title: "BQppuaShDbM"
@@ -2981,8 +2997,16 @@
     size: { width_o: 1080, height_o: 1080 }
     colors: ["pink", "purple"]
     notes:
-      - ヨーロッパ
+      - イギリス Ryan LO
       - キティ
+  -
+    title: "GCDS"
+    images_instagram: { shortcode: "BZcDEvMgw5Q", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "B Ki B", license: "", url: "https://www.instagram.com/p/BZcDEvMgw5Q/"}
+    size: { width_o: 1080, height_o: 1347 }
+    colors: ["black", "red", "silver", "white"]
+    notes:
+      - イタリア GCDS
   -
     title: "BRrMCjbFuPG"
     images_instagram: { shortcode: "BRrMCjbFuPG", width_t: 150, width_m: 320, width_l: 1080 }
