@@ -141,6 +141,7 @@
     notes:
       - ピューロランドパレード『ARIGATO EVERYONE!』
       - 外部イベント『ハローキティとHUGして"ぎゅっ"』
+      - 2017年2月のSANRIO EXPOでの表記は「40th オリジナル」
       - タイニーチャム、熊、水玉、ハート
   -
     title: "5D3S3568"
@@ -392,6 +393,7 @@
     colors: ["blue", "pink", "brown", "white"]
     notes:
       - キティズパラダイス『Chu!』
+      - 2017年2月のSANRIO EXPOでの表記は「日常着2」
       - デニム、ベルト
   -
     title: "8315134202"
@@ -537,12 +539,13 @@
       - 外部イベント『ハローキティの HAPPY GIFT CHRISTMAS』
       - クリスマス
   -
-    title: "5D3M2676"
+    title: "2014 NEW"
     images_flickr: { photo: "13653961905", farm: 8, server: 7087, secret: "a5035b430c", secret_h: "3f6f960079", secret_k: "c87ae6cbc0", secret_o: "b7ed20742c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13653961905"}
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「2014 NEW」
       - チェック、リボン
   -
     title: "53AA5580"
@@ -578,7 +581,7 @@
     size: { width_o: 749, height_o: 937 }
     colors: ["white", "pink", "red"]
     notes:
-      - 目白駅駅長
+      - 2017年2月のSANRIO EXPOでの表記は「JR目白駅駅長」
       - 帽子
   -
     title: "5D3U9204"
@@ -598,6 +601,7 @@
     notes:
       - キティズハウス
       - フェアリーランドシアター『アニバーサリータイム』
+      - 2017年2月のSANRIO EXPOでの表記は「フォーマルドレス4」
       - バラ
   -
     title: "53AH9023"
@@ -617,6 +621,7 @@
     colors: ["white", "red", "pink"]
     notes:
       - キティズハウス
+      - 2017年2月のSANRIO EXPOでの表記は「フォーマルドレス2」
       - リボン
   -
     title: "5D3P4626"
@@ -655,6 +660,7 @@
     colors: ["red", "brown", "white"]
     notes:
       - キティズハウス
+      - 2017年2月のSANRIO EXPOでの表記は「フォーマルドレス3」
       - 熊
   -
     title: "レディキティ・ローズ1"
@@ -827,6 +833,7 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "purple", "red", "white", "green"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「振袖」
       - 着物、和服、桜
   -
     title: "53AB7130"
@@ -999,13 +1006,13 @@
       - 『サンリオキャラクターヒルズ』のデモ動画
       - キティ
   -
-    title: "フコク生命"
+    title: "フコク生命OL"
     images_flickr: { photo: "15013760875", farm: 4, server: 3870, secret: "e0a6984dc2", secret_h: "b32a796009", secret_k: "653a87df40", secret_o: "96a5477edd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15013760875"}
     size: { width_o: 5760, height_o: 3840 }
     colors: ["grey", "black", "red"]
     notes:
-      - フコク生命のOL
+      - 2017年2月のSANRIO EXPOでの表記は「フコク生命OLスタイル」
       - OL
   -
     title: "5D3Q7657"
@@ -1272,6 +1279,7 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["black", "pink", "silver"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「エイベックスDJキティ」
       - DJ、ヘッドフォン
   -
     title: "5D3M8815"
@@ -1298,6 +1306,7 @@
     size: { width_o: 3840, height_o: 5760 }
     colors: ["green", "orange", "white", "red", "pink", "yellow"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「スポーツシーン1」
       - ジャージ、桜
   -
     title: "5D3N1851"
@@ -1306,6 +1315,7 @@
     size: { width_o: 3840, height_o: 5760 }
     colors: ["pink", "white", "orange", "yellow", "green", "blue"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「スポーツシーン2」でバンダナ付き
       - チア
   -
     title: "5D3N1955"
@@ -1331,6 +1341,7 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["red", "green", "yellow", "white"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「JRAジョッキースタイル」
       - JRA、ジョッキー、ゴーグル、帽子
   -
     title: "5D3P8419"
@@ -1470,6 +1481,7 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["pink", "yellow", "white"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「ゆかた（夏）」
       - 同じ浴衣をミミィが着ていることもある
       - 浴衣、和服、キティ
   -
@@ -1615,6 +1627,7 @@
     size: { width_o: 5760, height_o: 3840 }
     colors: ["black", "orange", "red", "gold"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「ハロウィン」
       - ハロウィン、ジャック・オー・ランタン、マント、帽子
   -
     title: "DSC08003"
@@ -1750,6 +1763,7 @@
     colors: ["red", "white", "gold"]
     notes:
       - 外部イベント『サンリオクリスマスレビューショー』
+      - 2017年2月のSANRIO EXPOでの表記は「クリスマス」
       - クリスマス、サンタクロース、帽子
   -
     title: "5D3H3184"
@@ -1794,6 +1808,7 @@
     colors: ["pink", "white", "brown", "green"]
     notes:
       - エンターテイメントホール『パワー・ザ・キティ』
+      - 2017年2月のSANRIO EXPOでの表記は「日常着1」
       - チェック
   -
     title: "5D3B6032 (1440x960)"
@@ -1808,8 +1823,9 @@
     images_picasa: { lh: 6, dirs: "-WML8pecBjCM/UOLfXjcN30I/AAAAAAAAHvY/-J_8F4dh0O4", file: "5D3C1554%2520%25281440x960%2529.jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/9r-AHxL9qXBEWtgFVLY2ldMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 1440, height_o: 960 }
-    colors: ["red"]
+    colors: ["red", "blue", "pink", "gold", "white"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「フォーマルドレス1」
       - スパンコール、手袋
   -
     title: "5D3B8156 (1440x960)"
@@ -1893,6 +1909,7 @@
     colors: ["pink", "white", "blue"]
     notes:
       - 知恵の木ステージ『おねがいマイメロディ天使の大行進』
+      - 2017年2月のSANRIO EXPOでの表記は「バレンタイン」
       - 天使、羽、ハート
   -
     title: "Hello-Kitty-Forever-21-Shibuya-2011-058"
@@ -2252,6 +2269,7 @@
     size: { width_o: 1080, height_o: 1080 }
     colors: ["pink", "white", "red", "green"]
     notes:
+      - 2017年2月のSANRIO EXPOでの表記は「フコク オリジナル」
       - フコク生命
   -
     title: "BLTKLxLjM1R"
@@ -2278,13 +2296,13 @@
     notes:
       - MIKIMOTO
   -
-    title: "みずほ銀行"
+    title: "みずほ"
     images_instagram: { shortcode: "BSOV0vclrKn", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "NaaaaaaaaO", license: "", url: "https://www.instagram.com/p/BSOV0vclrKn/"}
     size: { width_o: 1080, height_o: 1080 }
     colors: ["blue", "red", "white"]
     notes:
-      - みずほ銀行
+      - 2017年2月のSANRIO EXPOでの表記は「みずほオリジナル」
   -
     title: "三菱自動車・オーバーオール"
     images_flickr: { photo: "12926152955", farm: 8, server: 7289, secret: "b64b6eb46a", secret_h: "d063186a28", secret_k: "2a0b952c91", secret_o: "2a7db260c0", format_o: "jpg" }
