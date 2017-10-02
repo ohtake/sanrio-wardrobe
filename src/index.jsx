@@ -11,7 +11,6 @@ import App from './App';
 objectFitImages();
 
 ReactDOM.render((
-  // eslint-disable-next-line react/no-children-prop
   <HashRouter>
     <Route component={App} />
   </HashRouter>
