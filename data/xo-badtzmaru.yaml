@@ -195,6 +195,14 @@
     notes:
       - マフラーグリ
   -
+    title: "BQUxN4xA0iL"
+    images_instagram: { shortcode: "BQUxN4xA0iL", width_t: 150, width_m: 320, width_l: 850 }
+    source: { author: "sanrio_harmonyland", license: "", url: "https://www.instagram.com/p/BQUxN4xA0iL/"}
+    size: { width_o: 850, height_o: 850 }
+    colors: ["green", "red", "orange", "yellow", "brown", "white"]
+    notes:
+      - パイナップル
+  -
     title: "IMG_5484"
     images_flickr: { photo: "21568118660", farm: 6, server: 5744, secret: "a501bf7f45", secret_h: "bf9fca3bec", secret_k: "ed9bba3207", secret_o: "77ba7fb60b", format_o: "jpg" }
     source: { author: "peridot yamada", license: "", url: "https://www.flickr.com/photos/110019246@N08/21568118660/"}
@@ -395,3 +403,12 @@
     colors: ["gold", "blue"]
     notes:
       - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Happy Carnival Parade』
+  -
+    title: "チョコキャットのエプロン"
+    images_instagram: { shortcode: "j7Z4pQlD1r", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/j7Z4pQlD1r/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["green", "black", "white"]
+    notes:
+      - アメリカ
+      - エプロン、チョコキャット

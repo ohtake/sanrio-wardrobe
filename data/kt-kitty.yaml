@@ -2732,6 +2732,14 @@
       - アメリカ Johnny Cupcakes
       - コウモリ、クモ
   -
+    title: "Macys"
+    images_instagram: { shortcode: "7_fUGClDwv", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/7_fUGClDwv/"}
+    size: { width_o: 1080, height_o: 782 }
+    colors: ["gold", "white"]
+    notes:
+      - アメリカ Macys Presents Fashion's Front Row
+  -
     title: "Torrid"
     images_instagram: { shortcode: "BH5M5ZsB9JA", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BH5M5ZsB9JA/"}
@@ -2793,11 +2801,11 @@
       - アメリカ Spam
       - エプロン
   -
-    title: "18821205425"
-    images_flickr: { photo: "18821205425", farm: 6, server: 5572, secret: "913cfbbf5f", secret_h: "f3bd32f2d9", secret_k: "486efad1f7" }
-    source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
-    size: { width_o: 2048, height_o: 1536 }
-    colors: ["blue", "red", "white"]
+    title: "BA0kpUjlD3k"
+    images_instagram: { shortcode: "BA0kpUjlD3k", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BA0kpUjlD3k/"}
+    size: { width_o: 1080, height_o: 1350 }
+    colors: ["blue", "red", "white", "black"]
     notes:
       - アメリカ『Hello Kitty Supercute Friendship Festival』
       - ストライプ
@@ -2810,11 +2818,11 @@
     notes:
       - アメリカ
   -
-    title: "BM-VSarFT5Q"
-    images_instagram: { shortcode: "BM-VSarFT5Q", width_t: 150, width_m: 320, width_l: 1080 }
-    source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/BM-VSarFT5Q/"}
-    size: { width_o: 1080, height_o: 1080 }
-    colors: ["blue", "black", "red"]
+    title: "BVm_OOcnODT"
+    images_instagram: { shortcode: "BVm_OOcnODT", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BVm_OOcnODT/"}
+    size: { width_o: 1080, height_o: 608 }
+    colors: ["blue", "black", "red", "white"]
     notes:
       - アメリカ
   -
@@ -2833,6 +2841,14 @@
     colors: ["white", "red"]
     notes:
       - アメリカ『Hello Kitty Supercute Friendship Festival』
+  -
+    title: "hFQbRIFD7c"
+    images_instagram: { shortcode: "hFQbRIFD7c", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty", license: "CC BY 2.0", url: "https://www.instagram.com/p/hFQbRIFD7c/"}
+    size: { width_o: 640, height_o: 640 }
+    colors: ["black", "red", "gold"]
+    notes:
+      - アメリカ
   -
     title: "8284242817"
     images_flickr: { photo: "8284242817", farm: 9, server: 8068, secret: "66cdca752d", secret_h: "d834d67931", secret_k: "21de7b3424", secret_o: "fcefc2b20d", format_o: "jpg" }
@@ -2977,10 +2993,10 @@
     notes:
       - アメリカ
   -
-    title: "BL8owgiB6Vy"
-    images_instagram: { shortcode: "BL8owgiB6Vy", width_t: 150, width_m: 320, width_l: 1080 }
-    source: { author: "Sanrio do Brasil", license: "", url: "https://www.instagram.com/p/BL8owgiB6Vy/"}
-    size: { width_o: 1080, height_o: 1080 }
+    title: "0GhpifktUa"
+    images_instagram: { shortcode: "0GhpifktUa", width_t: 150, width_m: 320, width_l: 640 }
+    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/0GhpifktUa/"}
+    size: { width_o: 640, height_o: 640 }
     colors: ["blue", "white"]
     notes:
       - ブラジル
@@ -3033,10 +3049,10 @@
     colors: ["pink"]
     notes: []
   -
-    title: "BJLPJ0CAWLU"
-    images_instagram: { shortcode: "BJLPJ0CAWLU", width_t: 150, width_m: 320, width_l: 640 }
-    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BJLPJ0CAWLU/"}
-    size: { width_o: 640, height_o: 640 }
+    title: "9NXhs5RSnT"
+    images_instagram: { shortcode: "9NXhs5RSnT", width_t: 150, width_m: 320, width_l: 1080 }
+    source: { author: "Sanrio Hello Kitty Town", license: "", url: "https://www.instagram.com/p/9NXhs5RSnT/"}
+    size: { width_o: 1080, height_o: 1080 }
     colors: ["pink", "black", "white", "silver"]
     notes:
       - VOGUE JAPAN Women of the Year 特別賞
@@ -3064,6 +3080,15 @@
     colors: ["pink", "white"]
     notes:
       - 香港
+  -
+    title: "Go Around"
+    images_instagram: { shortcode: "BEGxiFhktb3", width_t: 150, width_m: 320, width_l: 720 }
+    source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BEGxiFhktb3/"}
+    size: { width_o: 720, height_o: 720 }
+    colors: ["red", "white", "blue", "yellow"]
+    notes:
+      - シンガポール Hello Kitty Go Around
+      - マレーシア Hello Kitty Go Around
   -
     title: "BS1JtRsl3sz"
     images_instagram: { shortcode: "BS1JtRsl3sz", width_t: 150, width_m: 320, width_l: 1080 }
@@ -3115,10 +3140,10 @@
     notes:
       - Hello Kitty Live
   -
-    title: "BUmN9Ywhj4m"
-    images_instagram: { shortcode: "BUmN9Ywhj4m", width_t: 150, width_m: 320, width_l: 1080 }
-    source: { author: "Hello Kitty Cafe Ph", license: "", url: "https://www.instagram.com/p/BUmN9Ywhj4m/"}
-    size: { width_o: 1080, height_o: 763 }
+    title: "BVCNeniBjMN"
+    images_instagram: { shortcode: "BVCNeniBjMN", width_t: 150, width_m: 320, width_l: 749 }
+    source: { author: "WeAreHelloKitty", license: "", url: "https://www.instagram.com/p/BVCNeniBjMN/"}
+    size: { width_o: 749, height_o: 748 }
     colors: ["black", "purple", "silver" , "white"]
     notes: []
   -

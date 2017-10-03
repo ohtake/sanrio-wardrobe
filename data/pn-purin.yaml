@@ -341,6 +341,15 @@
     colors: ["green", "red", "black", "yellow"]
     notes:
       - 知恵の木ステージ『ミート・ザ・イチゴマン』
+      - イチゴ
+  -
+    title: "BQUx4g4gVLK"
+    images_instagram: { shortcode: "BQUx4g4gVLK", width_t: 150, width_m: 320, width_l: 1070 }
+    source: { author: "sanrio_harmonyland", license: "", url: "https://www.instagram.com/p/BQUx4g4gVLK/"}
+    size: { width_o: 1070, height_o: 850 }
+    colors: ["white", "red", "green"]
+    notes:
+      - イチゴ
   -
     title: 5D3N9349
     images_flickr: { photo: "14470656371", farm: 6, server: 5594, secret: "7ee4b25fb8", secret_h: "5dfa878e0b", secret_k: "f55f4ce1a8", secret_o: "b8d6453838", format_o: "jpg" }
