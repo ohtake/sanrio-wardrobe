@@ -2985,14 +2985,6 @@
     notes:
       - ブラジル
   -
-    title: "BIEIrtVjaEw"
-    images_instagram: { shortcode: "BIEIrtVjaEw", width_t: 150, width_m: 320, width_l: 1080 }
-    source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/BIEIrtVjaEw/"}
-    size: { width_o: 1080, height_o: 1080 }
-    colors: ["red", "blue", "white"]
-    notes:
-      - アメリカ
-  -
     title: "0GhpifktUa"
     images_instagram: { shortcode: "0GhpifktUa", width_t: 150, width_m: 320, width_l: 640 }
     source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/0GhpifktUa/"}
