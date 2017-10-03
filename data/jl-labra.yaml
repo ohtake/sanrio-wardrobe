@@ -12,7 +12,7 @@
   -
     title: ハロウィン・シーツ
     images_instagram: { shortcode: "BZIMrU4HglD", width_t: 150, width_m: 320, width_l: 1080 }
-    source: { author: "ぴた", license: "", url: "https://www.instagram.com/p/BZIMrU4HglD/"}
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZIMrU4HglD/"}
     size: { width_o: 1080, height_o: 1176 }
     colors: ["white", "red", "black"]
     notes:

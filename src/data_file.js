@@ -43,6 +43,9 @@ DataFile.all = [
   DataFile.jlSapphie = new DataFile('jl-sapphie', 'JL', 'サフィー', 'Sapphie',
     // https://www.flickr.com/photos/ohtake_tomohiro/9949531066/
     'https://c2.staticflickr.com/6/5447/9949531066_f8208d0926_q.jpg'),
+  DataFile.jlGarnet = new DataFile('jl-garnet', 'JL', 'ガーネット', 'Garnet',
+    // https://www.flickr.com/photos/ohtake_tomohiro/14661129166/
+    'https://c2.staticflickr.com/4/3898/14661129166_8fbb0740de_q.jpg'),
   DataFile.jlLabra = new DataFile('jl-labra', 'JL', 'ラブラ', 'Labra',
     // https://www.flickr.com/photos/ohtake_tomohiro/11613918416/
     'https://c1.staticflickr.com/3/2823/11613918416_9f08436c62_q.jpg'),

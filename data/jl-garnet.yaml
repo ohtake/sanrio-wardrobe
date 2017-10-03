@@ -1,0 +1,35 @@
+---
+  -
+    title: 標準
+    images_flickr: { photo: "10495696274", farm: 3, server: 2818, secret: "92c82ca8a0", secret_h: "1ffe2a8e5c", secret_k: "681596076a", secret_o: "3136439ac3", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10495696274/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "white", "purple"]
+    notes:
+      - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』1着目
+      - 知恵の木ステージ『ジュエルペットのどきどき!マジカル☆マーチ』
+  -
+    title: ハロウィン
+    images_flickr: { photo: "15173984720", farm: 3, server: 2944, secret: "e283f999d8", secret_h: "2bddc163bd", secret_k: "c136106cec", secret_o: "5048034b2a", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15173984720/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["black", "pink", "red", "yellow", "orange", "blue"]
+    notes:
+      - ハロウィン
+  -
+    title: クリスマス
+    images_flickr: { photo: "24658719310", farm: 2, server: 1526, secret: "8c72834056", secret_h: "d44c12f42c", secret_k: "3483b670f0", secret_o: "e01daacbed", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24658719310/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["red", "white", "silver", "gold"]
+    notes:
+      - ピューロランドパレード『星空の Happy Party Christmas』
+      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
+  -
+    title: リトルレディジュエル
+    images_flickr: { photo: "15177928044", farm: 6, server: 5611, secret: "638072d47f", secret_h: "0b99730771", secret_k: "4bd839ab59", secret_o: "5e84a94ed7", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15177928044/"}
+    size: { width_o: 5760, height_o: 3840 }
+    colors: ["yellow", "red", "white"]
+    notes:
+      - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』2着目
