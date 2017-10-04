@@ -118,6 +118,9 @@ DataFile.all = [
   DataFile.tsKikiLala = new DataFile('ts-kikilala', 'TS', 'キキ・ララ', 'Kiki & Lala',
     // https://www.flickr.com/photos/ohtake_tomohiro/34278547216/
     'https://c1.staticflickr.com/3/2853/34278547216_91403ea35f_q.jpg'),
+  DataFile.txSam = new DataFile('tx-sam', 'TX', 'サム', 'Tuxedo Sam',
+    // https://www.flickr.com/photos/ohtake_tomohiro/8794417176/
+    'https://c2.staticflickr.com/6/5466/8794417176_313c011089_q.jpg'),
   DataFile.usUsahana = new DataFile('us-usahana', 'US', 'ウサハナ', 'Usahana',
     // https://www.flickr.com/photos/ohtake_tomohiro/35231231671/
     'https://c1.staticflickr.com/5/4245/35231231671_32d4e72ea1_q.jpg'),
