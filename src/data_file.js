@@ -55,6 +55,21 @@ DataFile.all = [
   DataFile.jlJasper = new DataFile('jl-jasper', 'JL', 'ジャスパー', 'Jasper',
     // https://www.flickr.com/photos/ohtake_tomohiro/8783847357/
     'https://c2.staticflickr.com/4/3822/8783847357_3ac439a015_q.jpg'),
+  DataFile.jlCharotte = new DataFile('jl-charotte', 'JL', 'チャロット', 'Charotte',
+    // https://www.flickr.com/photos/ohtake_tomohiro/13899465871/
+    'https://c1.staticflickr.com/3/2927/13899465871_44857c623f_q.jpg'),
+  DataFile.jlRosa = new DataFile('jl-rosa', 'JL', 'ローサ', 'Rosa',
+    // https://www.flickr.com/photos/ohtake_tomohiro/8784665190/
+    'https://c2.staticflickr.com/8/7294/8784665190_9f00aa10ca_q.jpg'),
+  DataFile.jlLuea = new DataFile('jl-luea', 'JL', 'ルーア', 'Luea',
+    // https://www.flickr.com/photos/ohtake_tomohiro/14834580258/
+    'https://c2.staticflickr.com/6/5566/14834580258_1bae608a62_q.jpg'),
+  DataFile.jlLuna = new DataFile('jl-luna', 'JL', 'ルナ', 'Luna',
+    // https://www.flickr.com/photos/ohtake_tomohiro/21704083916/
+    'https://c1.staticflickr.com/1/755/21704083916_c4541ac66a_q.jpg'),
+  DataFile.jlLarimar = new DataFile('jl-larimar', 'JL', 'ラリマー', 'Larimar',
+    // https://www.flickr.com/photos/ohtake_tomohiro/27947731372/
+    'https://c2.staticflickr.com/8/7478/27947731372_c2342408de_q.jpg'),
   DataFile.kiKirimi = new DataFile('ki-kirimi', 'KI', 'きりみちゃん', 'Kirimi-chan',
     // https://www.flickr.com/photos/ohtake_tomohiro/22245218264/
     'https://c2.staticflickr.com/6/5758/22245218264_3b78fd1f86_q.jpg'),

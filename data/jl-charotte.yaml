@@ -1,0 +1,24 @@
+---
+  -
+    title: 標準
+    images_flickr: { photo: "13899465871", farm: 3, server: 2927, secret: "44857c623f", secret_h: "f87e174eed", secret_k: "8d61ed8c25", secret_o: "b1b9af58ed", format_o: "jpg" }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13899465871/"}
+    size: { width_o: 3840, height_o: 5760 }
+    colors: ["purple", "white"]
+    notes: []
+  -
+    title: ハロウィン
+    images_instagram: { shortcode: "BZ1HeAwhwyg", width_t: 150, width_m: 320, width_l: 720 }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ1HeAwhwyg/"}
+    size: { width_o: 720, height_o: 900 }
+    colors: ["white"]
+    notes:
+      - ハロウィン
+  -
+    title: クリスマス
+    images_instagram: { shortcode: "BZ1HloThHCu", width_t: 150, width_m: 320, width_l: 720 }
+    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ1HloThHCu/"}
+    size: { width_o: 720, height_o: 900 }
+    colors: ["red", "white", "gold"]
+    notes:
+      - クリスマス
