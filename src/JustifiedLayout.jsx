@@ -23,7 +23,7 @@ export default function JustifiedLayout(props) {
   const childElems = zip(props.childObjects.map(props.mapperToElement), layout.boxes).map((e) => {
     const elem = e[0];
     const box = e[1];
-    const style = assign({}, elem.props.style, box, { position: 'absolute' });
+    const style = assign({}, elem.props.style, box, { position: 'absolute', overflow: 'hidden' });
     const childProps = assign({}, elem.props, { style });
     return React.cloneElement(elem, childProps);
   });
