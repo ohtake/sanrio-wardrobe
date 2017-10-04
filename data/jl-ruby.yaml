@@ -12,7 +12,7 @@
       - 外部イベント『ルビー・ラブラのジュエルペットとあそぼう！』
       - 外部イベント『ハローキティ&ルビーの魔法のクリスマス』
   -
-    title: IMG_7779
+    title: マフラー
     images_flickr: { photo: "24951160221", farm: 2, server: 1485, secret: "783334ed11", secret_h: "a74853b206", secret_k: "4fa3c39a6e" }
     source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/24951160221/"}
     size: { width_o: 1365, height_o: 2048 }
@@ -56,7 +56,7 @@
     images_flickr: { photo: "11150816984", farm: 8, server: 7409, secret: "9c90b27617", secret_h: "2234e717f9", secret_k: "b15b8469a6", secret_o: "9e706d81bd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11150816984/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "white", "silver", "green"]
+    colors: ["red", "white", "silver", "green", "gold"]
     notes:
       - ピューロランドパレード『星空の Happy Party Christmas』
       - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
