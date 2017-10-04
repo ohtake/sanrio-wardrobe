@@ -238,9 +238,9 @@ export default class DetailView extends React.Component {
             onSwiping={this.handleSwiping}
             onSwiped={this.handleSwiped}
           >
-            <img key={main.data.title} style={imgMainStyle} className="image-fit" src={main.getLargestImageAtMost(1080, 1080).url} alt="*" />
-            <img key={next.data.title} style={imgNextStyle} className="image-fit" src={next.getLargestImageAtMost(1080, 1080).url} alt="*" />
-            <img key={prev.data.title} style={imgPrevStyle} className="image-fit" src={prev.getLargestImageAtMost(1080, 1080).url} alt="*" />
+            <img key={main.data.title} style={imgMainStyle} className="image-fit" src={main.getLargestImageAtMost(1080, 1350).url} alt="*" />
+            <img key={next.data.title} style={imgNextStyle} className="image-fit" src={next.getLargestImageAtMost(1080, 1350).url} alt="*" />
+            <img key={prev.data.title} style={imgPrevStyle} className="image-fit" src={prev.getLargestImageAtMost(1080, 1350).url} alt="*" />
           </Swipeable>
           {this.state.showInfo ?
             <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4) }}>
