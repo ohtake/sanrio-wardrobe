@@ -1,0 +1,20 @@
+---
+- title: 地味
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34106245102/"}
+  images_flickr: { photo: "34106245102", farm: 5, server: 4157, secret: "9772b5e9fb", secret_h: "f0e875c305", secret_k: "9ca1c9d9a9", secret_o: "000519af9f", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [blue, red, white, black]
+  notes: []
+- title: 派手
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9332095408/"}
+  images_flickr: { photo: "9332095408", farm: 4, server: 3678, secret: "dc53e0b5fb", secret_h: "bb897d2fd0", secret_k: "09afe7631a", secret_o: "fd1fbeaa15", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [gold, red, blue, black, yellow, white, green, silver]
+  notes: []
+- title: 着物
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28176950276/"}
+  images_flickr: { photo: "28176950276", farm: 9, server: 8790, secret: "372d3c9df1", secret_h: "64c5cc9c2e", secret_k: "948465ed3a", secret_o: "d17268b1f7", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [blue, black, white, green, gold]
+  notes: []
+# ケンタウロス
