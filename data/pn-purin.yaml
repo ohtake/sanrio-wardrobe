@@ -324,3 +324,10 @@
   size: { width_o: 4321, height_o: 3241 }
   colors: [white, blue, red, yellow, green]
   notes: []
+- title: BG7SghMFwSH
+  source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/BG7SghMFwSH/"}
+  images_instagram: { shortcode: "BG7SghMFwSH", width_t: 150, width_m: 320, width_l: 720 }
+  size: { width_o: 720, height_o: 795 }
+  colors: [white, brown, yellow]
+  notes:
+  - アメリカ

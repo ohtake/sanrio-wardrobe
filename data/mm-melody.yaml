@@ -579,12 +579,13 @@
   colors: [gold, red, pink, orange, yellow, green, blue, purple]
   notes:
   - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Happy Carnival Parade』
-- title: 53AF2665
-  source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/ohtake_tomohiro/35043701382/"}
-  images_flickr: { photo: "35043701382", farm: 5, server: 4275, secret: "88d2e889ac", secret_h: "e99e486745", secret_k: "65c56b58db", secret_o: "63d12d62e5", format_o: "jpg" }
-  size: { width_o: 5760, height_o: 3840 }
-  colors: [pink, white]
+- title: BAZP82CQIVI
+  source: { author: "Hello Kitty Go Around Malaysia", license: "", url: "https://www.instagram.com/p/BAZP82CQIVI/"}
+  images_instagram: { shortcode: "BAZP82CQIVI", width_t: 150, width_m: 320, width_l: 704 }
+  size: { width_o: 704, height_o: 704 }
+  colors: [pink, red, white]
   notes:
+  - マレーシア Hello Kitty Go Around
   - シンガポール Changi Airport "Nordic Adventures"
 - title: flickr-18821205425
   source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
@@ -600,3 +601,10 @@
   colors: [pink, white]
   notes:
   - アメリカ
+- title: Melody Ensani
+  source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/BOTQsmugJzn/"}
+  images_instagram: { shortcode: "BOTQsmugJzn", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [black, white, pink, red]
+  notes:
+  - アメリカ Melody Ensani

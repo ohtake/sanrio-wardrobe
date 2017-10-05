@@ -1,0 +1,15 @@
+---
+- title: エバー航空機長
+  source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/ecUjs4lwdD/"}
+  images_instagram: { shortcode: "ecUjs4lwdD", width_t: 150, width_m: 320, width_l: 612 }
+  size: { width_o: 612, height_o: 612 }
+  colors: [blue, gold]
+  notes:
+  - エバー航空、機長
+- title: 3XDQJ1lwbc
+  source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/3XDQJ1lwbc/"}
+  images_instagram: { shortcode: "3XDQJ1lwbc", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: [blue, black, white]
+  notes:
+  - アメリカ『Hello Kitty Supercute Friendship Festival』

@@ -32,6 +32,7 @@ DataFile.all = [
   DataFile.cyCharmmy = new DataFile('cy-charmmy', 'CY', 'チャーミー', 'Charmmy Kitty',
     // https://www.flickr.com/photos/ohtake_tomohiro/10671752346/
     'https://c2.staticflickr.com/8/7451/10671752346_15ebdc7e66_q.jpg'),
+  DataFile.dnDaniel = new DataFile('dn-daniel', 'DN', 'ダニエル', 'Daniel', ''),
   DataFile.gpGochan = new DataFile('gp-gochan', 'GP', 'ゴーちゃん。', 'Go-chan.',
     // https://www.flickr.com/photos/ohtake_tomohiro/8784705396/
     'https://c2.staticflickr.com/8/7401/8784705396_669ef592b3_q.jpg'),

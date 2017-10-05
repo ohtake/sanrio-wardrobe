@@ -610,10 +610,18 @@
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14034879050/"}
   images_flickr: { photo: "14034879050", farm: 6, server: 5236, secret: "84dae9df38", secret_h: "dab2bb4abb", secret_k: "3cdf8d6ced", secret_o: "51032e96d2", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [yellow, black, white]
+  colors: [yellow, black, white, purple, pink, blue]
   notes:
   - レディキティハウス「パステルローズ」
   - バラ、ストライプ
+- title: レディキティ・パステルローズ・ハロウィン
+  source: { author: "aboo_juboo", license: "", url: "https://www.instagram.com/p/BZcavbgFw5w/"}
+  images_instagram: { shortcode: "BZcavbgFw5w", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [yellow, black, white, purple, pink, blue]
+  notes:
+  - レディキティハウス「パステルローズ」ハロウィン版
+  - バラ、ストライプ、お化け
 - title: レディキティ・トリコロール
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14221485795/"}
   images_flickr: { photo: "14221485795", farm: 6, server: 5114, secret: "c81a250444", secret_h: "76adae4945", secret_k: "7cc635c748", secret_o: "82ca5108a0", format_o: "jpg" }
@@ -1991,6 +1999,13 @@
   colors: [green, "grey", pink]
   notes:
   - エバー航空、キャビンアテンダント
+- title: ecUjs4lwdD
+  source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/ecUjs4lwdD/"}
+  images_instagram: { shortcode: "ecUjs4lwdD", width_t: 150, width_m: 320, width_l: 612 }
+  size: { width_o: 612, height_o: 612 }
+  colors: [green, pink]
+  notes:
+  - エバー航空、キャビンアテンダント
 - title: 軽井沢プリンスショッピングプラザ
   source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/5YPfC8kGWB/"}
   images_instagram: { shortcode: "5YPfC8kGWB", width_t: 150, width_m: 320, width_l: 750 }
@@ -2301,6 +2316,14 @@
   notes:
   - ユニバーサルスタジオジャパン
   - ストライプ
+- title: BYFYxDqFfFR
+  source: { author: "aboo_juboo", license: "", url: "https://www.instagram.com/p/BYFYxDqFfFR/"}
+  images_instagram: { shortcode: "BYFYxDqFfFR", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 718 }
+  colors: [pink, white, red, black]
+  notes:
+  - ユニバーサルスタジオジャパン
+  - ストライプ
 - title: Happy Carnival Parade
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36718689750/"}
   images_flickr: { photo: "36718689750", farm: 5, server: 4418, secret: "1414694448", secret_h: "a9d84ca2a9", secret_k: "fec415a02a", secret_o: "a13560eb63", format_o: "jpg" }
@@ -2358,11 +2381,27 @@
   notes:
   - アメリカ Hello KItty for President 2016
   - 星条旗
-- title: Los Angeles Dodgers
+- title: Los Angeles Dodgers 白
+  source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/YOqG3Slwdv/"}
+  images_instagram: { shortcode: "YOqG3Slwdv", width_t: 150, width_m: 320, width_l: 612 }
+  size: { width_o: 612, height_o: 612 }
+  colors: [white, red, blue]
+  notes:
+  - アメリカ Los Angeles Dodgers
+  - 野球、帽子
+- title: Los Angeles Dodgers 赤
   source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/6161247847/"}
   images_flickr: { photo: "6161247847", farm: 7, server: 6196, secret: "40b9e6de20", before: "20120301" }
   size: { width_o: 1024, height_o: 680 }
   colors: [white, red, blue]
+  notes:
+  - アメリカ Los Angeles Dodgers
+  - 野球、帽子
+- title: Los Angeles Dodgers 灰
+  source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/eEfH0UFwUr/"}
+  images_instagram: { shortcode: "eEfH0UFwUr", width_t: 150, width_m: 320, width_l: 612 }
+  size: { width_o: 612, height_o: 612 }
+  colors: [grey, white, red, blue]
   notes:
   - アメリカ Los Angeles Dodgers
   - 野球、帽子
@@ -2444,11 +2483,18 @@
   colors: [gold, white]
   notes:
   - アメリカ Macys Presents Fashion's Front Row
-- title: Torrid
+- title: Torrid 2016
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BH5M5ZsB9JA/"}
   images_instagram: { shortcode: "BH5M5ZsB9JA", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 809 }
   colors: [red, black, white]
+  notes:
+  - アメリカ Torrid
+- title: Torrid 2017
+  source: { author: "curvygirlchic", license: "", url: "https://www.instagram.com/p/BXgUqsZBlTI/"}
+  images_instagram: { shortcode: "BXgUqsZBlTI", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1349 }
+  colors: [black, pink, white]
   notes:
   - アメリカ Torrid
 - title: Vans
@@ -2563,13 +2609,13 @@
   colors: [black, white]
   notes:
   - アメリカ
-- title: b9ax-TlD4k
-  source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/b9ax-TlD4k/"}
-  images_instagram: { shortcode: "b9ax-TlD4k", width_t: 150, width_m: 320, width_l: 612 }
+- title: Fashion Music Wonderland
+  source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/b6ykUwFwdC/"}
+  images_instagram: { shortcode: "b6ykUwFwdC", width_t: 150, width_m: 320, width_l: 612 }
   size: { width_o: 612, height_o: 612 }
-  colors: [pink, white, green, yellow, black]
+  colors: [pink, white, blue, green, yellow, black]
   notes:
-  - アメリカ
+  - アメリカ Fashion Music Wonderland
 - title: uzUHzNlD5B
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/uzUHzNlD5B/"}
   images_instagram: { shortcode: "uzUHzNlD5B", width_t: 150, width_m: 320, width_l: 640 }
@@ -2738,10 +2784,10 @@
   notes:
   - 香港
 - title: Go Around
-  source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BEGxiFhktb3/"}
-  images_instagram: { shortcode: "BEGxiFhktb3", width_t: 150, width_m: 320, width_l: 720 }
-  size: { width_o: 720, height_o: 720 }
-  colors: [red, white, blue, yellow]
+  source: { author: "Hello Kitty Go Around Malaysia", license: "", url: "https://www.instagram.com/p/_oZiIRwIaH/"}
+  images_instagram: { shortcode: "_oZiIRwIaH", width_t: 150, width_m: 320, width_l: 792 }
+  size: { width_o: 792, height_o: 792 }
+  colors: [red, white, blue, yellow, pink]
   notes:
   - シンガポール Hello Kitty Go Around
   - マレーシア Hello Kitty Go Around
