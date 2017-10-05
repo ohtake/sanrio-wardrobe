@@ -160,7 +160,7 @@ class App extends React.Component {
           <Subheader>Characters</Subheader>
           {DataFile.all.map(c => (
             <NavLink key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
-              <ListItem primaryText={c.getDisplayName()} leftAvatar={<Avatar src={c.picUrl} />} />
+              <ListItem primaryText={c.getDisplayName()} leftAvatar={c.picUrl ? <Avatar src={c.picUrl} /> : <Avatar>{c.seriesSymbol}</Avatar>} />
             </NavLink>))}
         </List>
       </Drawer>

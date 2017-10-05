@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'react-router-dom/Link';
 
+import Avatar from 'material-ui/Avatar';
 import FlatButton from 'material-ui/FlatButton';
 import EditorShowChart from 'material-ui/svg-icons/editor/show-chart';
 
@@ -47,7 +48,7 @@ function renderTile(c) {
           <div style={styleTitleInner}>{c.nameJa}</div>
           <div style={styleTitleInner}>{c.nameEn}</div>
         </div>
-        <img src={c.picUrl} alt="*" style={styleImg} />
+        {c.picUrl ? <img src={c.picUrl} alt="*" style={styleImg} /> : <Avatar style={styleImg}>{c.seriesSymbol}</Avatar>}
       </div>
     </Link>
   );

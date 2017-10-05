@@ -28,6 +28,7 @@ DataFile.all = [
   DataFile.cnCinnamon = new DataFile('cn-cinnamon', 'CN', 'シナモン', 'Cinnamon',
     // https://www.flickr.com/photos/ohtake_tomohiro/9544085163/
     'https://c1.staticflickr.com/3/2818/9544085163_5092625ee9_q.jpg'),
+  DataFile.coChococat = new DataFile('co-chococat', 'CO', 'チョコキャット', 'Chococat', ''),
   DataFile.cyCharmmy = new DataFile('cy-charmmy', 'CY', 'チャーミー', 'Charmmy Kitty',
     // https://www.flickr.com/photos/ohtake_tomohiro/10671752346/
     'https://c2.staticflickr.com/8/7451/10671752346_15ebdc7e66_q.jpg'),

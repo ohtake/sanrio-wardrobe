@@ -73,7 +73,7 @@ export default class Statistics extends React.Component {
             {DataFile.all.map(df => (<TableRow style={rowStyle}>
               <TableRowColumn style={cellStyle}>
                 <Link to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="statCount" data-ga-event-label={df.name}>
-                  <FlatButton label={df.name} icon={<Avatar src={df.picUrl} size={30} />} labelStyle={buttonLabelStyle} />
+                  <FlatButton label={df.name} icon={df.picUrl ? <Avatar src={df.picUrl} size={30} /> : <Avatar size={30}>{df.seriesSymbol}</Avatar>} labelStyle={buttonLabelStyle} />
                 </Link>
               </TableRowColumn>
               <TableRowColumn style={cellStyle}>{df.seriesSymbol}</TableRowColumn>
@@ -95,7 +95,7 @@ export default class Statistics extends React.Component {
             {DataFile.all.map(df => (<TableRow style={rowStyle}>
               <TableRowColumn style={cellStyle}>
                 <Link to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="statColor" data-ga-event-label={df.name}>
-                  <FlatButton label={df.name} icon={<Avatar src={df.picUrl} size={30} />} labelStyle={buttonLabelStyle} />
+                  <FlatButton label={df.name} icon={df.picUrl ? <Avatar src={df.picUrl} size={30} /> : <Avatar size={30}>{df.seriesSymbol}</Avatar>} labelStyle={buttonLabelStyle} />
                 </Link>
               </TableRowColumn>
               {Colors.all.map(c => <TableRowColumn style={cellStyle}>{this.state.statistics.color[df.name][c.id]}</TableRowColumn>)}
