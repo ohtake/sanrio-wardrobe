@@ -90,7 +90,7 @@
     colors: [black, red, white, green, brown]
     notes: []
   -
-    title: "7"
+    title: 黄7
     images_flickr: { photo: "14168763344", farm: 8, server: 7432, secret: "bc6f13b3d0", secret_h: "9b183b74ad", secret_k: "42c4882a31", secret_o: "c6c9bd9290", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14168763344/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -114,7 +114,7 @@
     notes:
       - ピューロランドパレード『ハロウィンマーチングパレード』
   -
-    title: "18821205425"
+    title: flickr-18821205425
     images_flickr: { photo: "18821205425", farm: 6, server: 5572, secret: "913cfbbf5f", secret_h: "f3bd32f2d9", secret_k: "486efad1f7" }
     source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
     size: { width_o: 2048, height_o: 1536 }

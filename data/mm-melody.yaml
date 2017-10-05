@@ -245,7 +245,7 @@
       - ハーモニーランドパレード『パレードパラレル イースター ver.』
       - イースター
   -
-    title: "BYfSHUtA-if"
+    title: BYfSHUtA-if
     images_instagram: { shortcode: "BYfSHUtA-if", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "mamarumaru", license: "", url: "https://www.instagram.com/p/BYfSHUtA-if/"}
     size: { width_o: 1080, height_o: 922 }
@@ -659,7 +659,7 @@
     notes:
       - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Happy Carnival Parade』
   -
-    title: "53AF2665"
+    title: 53AF2665
     images_flickr: { photo: "35043701382", farm: 5, server: 4275, secret: "88d2e889ac", secret_h: "e99e486745", secret_k: "65c56b58db", secret_o: "63d12d62e5", format_o: "jpg" }
     source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/ohtake_tomohiro/35043701382/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -667,7 +667,7 @@
     notes:
       - シンガポール Changi Airport "Nordic Adventures"
   -
-    title: "18821205425"
+    title: flickr-18821205425
     images_flickr: { photo: "18821205425", farm: 6, server: 5572, secret: "913cfbbf5f", secret_h: "f3bd32f2d9", secret_k: "486efad1f7" }
     source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
     size: { width_o: 2048, height_o: 1536 }
@@ -675,7 +675,7 @@
     notes:
       - アメリカ『Hello Kitty Supercute Friendship Festival』
   -
-    title: "Y8dy30B-8L"
+    title: Y8dy30B-8L
     images_instagram: { shortcode: "Y8dy30B-8L", width_t: 150, width_m: 320, width_l: 612 }
     source: { author: "sanriokaahumanu", license: "", url: "https://www.instagram.com/p/Y8dy30B-8L/"}
     size: { width_o: 612, height_o: 612 }

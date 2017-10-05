@@ -1,6 +1,6 @@
 ---
   -
-    title: "全裸バッグ"
+    title: 全裸バッグ
     images_flickr: { photo: "15328646911", farm: 3, server: 2942, secret: "40b3615c32", secret_h: "6fedd0a527", secret_k: "f60bfdf1c1", secret_o: "63fe8fe96f", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15328646911/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -9,7 +9,7 @@
       - 初期衣装
       - 郵便、配達、バッグ
   -
-    title: "七夕ハッピープリズム"
+    title: 七夕ハッピープリズム
     images_instagram: { shortcode: "BXo084Qnu9C", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo084Qnu9C/"}
     size: { width_o: 1080, height_o: 1080 }
@@ -17,7 +17,7 @@
     notes:
       - 知恵の木ステージ『メルの七夕ハッピープリズム スペシャルグリーティング』
   -
-    title: "花粉症マスク"
+    title: 花粉症マスク
     images_flickr: { photo: "13189994893", farm: 3, server: 2373, secret: "567f98eb95", secret_h: "3e4c79e5b4", secret_k: "2782e28923", secret_o: "84b6791743", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13189994893/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -26,7 +26,7 @@
       - 花粉症の時にはマスクが追加
       - マスク、ハート
   -
-    title: "リボン増し増し"
+    title: リボン増し増し
     images_flickr: { photo: "14598006006", farm: 6, server: 5523, secret: "2e529b84b8", secret_h: "a442c27149", secret_k: "02eff33011", secret_o: "26164192d0", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14598006006/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -35,7 +35,7 @@
       - ケープの種類によらずにリボンが追加されることがある
       - リボン
   -
-    title: "折れ耳"
+    title: 折れ耳
     images_flickr: { photo: "14697440551", farm: 4, server: 3862, secret: "380ea655a3", secret_h: "04ea8c93ef", secret_k: "5ff73c87f4", secret_o: "0e3f2ea6de", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14697440551/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -44,7 +44,7 @@
       - ケープの種類によらずに耳が折れていることがある
       - 折れているときはリボンが増やされていることが多いが、必ずしも連動しているわけではない
   -
-    title: "ウェンズディ"
+    title: ウェンズディ
     images_flickr: { photo: "37380263452", farm: 5, server: 4361, secret: "e5aee0b2c1", secret_h: "de56ba4e4f", secret_k: "025e69efc5", secret_o: "726bb58cfa", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37380263452/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -52,7 +52,7 @@
     notes:
       - 小鳥の女の子のウェンズディ
   -
-    title: "サーズディ"
+    title: サーズディ
     images_flickr: { photo: "16037444866", farm: 9, server: 8649, secret: "19e4172ca2", secret_h: "0fdc4761fb", secret_k: "fe0182844b", secret_o: "6d0d2792bd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16037444866/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -60,7 +60,7 @@
     notes:
       - 小鳥の男の子のサーズディ
   -
-    title: "サンディ"
+    title: サンディ
     images_flickr: { photo: "16712908946", farm: 9, server: 8613, secret: "d17e3c214c", secret_h: "cf4ff061de", secret_k: "f7231df5f9", secret_o: "22e5835d7e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16712908946/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -68,7 +68,7 @@
     notes:
       - 小鳥の女の子のサンディ
   -
-    title: "クリスマスケープ"
+    title: クリスマスケープ
     images_flickr: { photo: "10963792763", farm: 6, server: 5542, secret: "481a1055dc", secret_h: "6aa4ad743b", secret_k: "541af26d0d", secret_o: "7550ec722e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10963792763/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -77,7 +77,7 @@
       - 主にクリスマスで使われるケープで足の輪も付く
       - クリスマス、リボン、ウサミミ
   -
-    title: "クリスマスケープのリリーボンボンズ版"
+    title: クリスマスケープのリリーボンボンズ版
     images_flickr: { photo: "12634130964", farm: 3, server: 2877, secret: "0d42f03b22", secret_h: "9338ee0112", secret_k: "533097b153", secret_o: "0bd7013aa4", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12634130964/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -87,7 +87,7 @@
       - 足の輪がなくなる
       - ハート、リボン、ウサミミ
   -
-    title: "Angelic Pretty 1"
+    title: Angelic Pretty 1
     images_picasa: { lh: 3, dirs: "-0jnZvDv9G7s/UREcP1bWhCI/AAAAAAAAwZA/84nM_ydfZHUY3L0m4VU1gJmnfjx_ZRBYwCCo", file: "5D3C6893%2B%2528960x1440%2529.jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/sDsdsNJFtPn3mGlaJ_TICdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440 }
@@ -96,7 +96,7 @@
       - Angelic Pretty のジャンパースカートその1
       - Angelic Pretty、ロリータ、リボン
   -
-    title: "Angelic Pretty 2"
+    title: Angelic Pretty 2
     images_flickr: { photo: "15033457738", farm: 4, server: 3836, secret: "a0424938ea", secret_h: "3ac3d20b78", secret_k: "89cd5f8f08", secret_o: "6fe25dbfcd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15033457738/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -105,7 +105,7 @@
       - Angelic Pretty のジャンパースカートその2
       - Angelic Pretty、ロリータ、リボン、ウサミミ
   -
-    title: "ハロウィンケープ"
+    title: ハロウィンケープ
     images_flickr: { photo: "10249162114", farm: 4, server: 3799, secret: "2a846327df", secret_h: "dfcfe81680", secret_k: "760839d1d9", secret_o: "cbde55db73", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10249162114/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -114,7 +114,7 @@
       - ピューロランドパレード『ハロウィンマーチングパレード』
       - ジャック・オー・ランタン、ハロウィン
   -
-    title: "ハロウィンケープのリボン追加版"
+    title: ハロウィンケープのリボン追加版
     images_flickr: { photo: "22875872479", farm: 1, server: 584, secret: "0c7af0251d", secret_h: "b5b59d3450", secret_k: "7aa7f0a385", secret_o: "cfa83cb81b", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22875872479/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -123,7 +123,7 @@
       - ハロウィンケープに頭上のリボンが追加
       - ジャック・オー・ランタン、ハロウィン、リボン
   -
-    title: "ゴーストレンジャー"
+    title: ゴーストレンジャー
     images_flickr: { photo: "37013087602", farm: 5, server: 4394, secret: "2df0140d94", secret_h: "1b75520f4b", secret_k: "47818a8de8", secret_o: "407986ec8e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37013087602/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -132,7 +132,7 @@
       - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』
       - ハロウィン
   -
-    title: "リリーボンボンズのマーチングパレード"
+    title: リリーボンボンズのマーチングパレード
     images_flickr: { photo: "14549304532", farm: 4, server: 3849, secret: "2ff5a7c8e2", secret_h: "87facac7f0", secret_k: "8988b4bfae", secret_o: "81c47cccac", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14549304532/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -141,7 +141,7 @@
       - ピューロランドパレード『リリーボンボンズのマーチングパレード』
       - リボン、ハート、お茶
   -
-    title: "バイト"
+    title: バイト
     images_flickr: { photo: "14142689498", farm: 3, server: 2902, secret: "8ea585aac6", secret_h: "57266eaeae", secret_k: "9307bc4815", secret_o: "db4a7ed685", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14142689498/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -150,7 +150,7 @@
       - フェスティバルプラザのショップ店員やサービススタッフと同じデザインのエプロン
       - キティ、リボン
   -
-    title: "OMOIYARI TO YOU"
+    title: OMOIYARI TO YOU
     images_flickr: { photo: "21718588622", farm: 6, server: 5749, secret: "0fc03fc95b", secret_h: "a06cc10bc0", secret_k: "bd3e1a7397", secret_o: "8b92c0ccdb", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21718588622/"}
     size: { width_o: 5760, height_o: 3840 }
@@ -160,7 +160,7 @@
       - 公募衣装
       - 水玉、リボン、フリル
   -
-    title: "イースターセレブレーションパレード"
+    title: イースターセレブレーションパレード
     images_flickr: { photo: "33701365755", farm: 4, server: 3678, secret: "4144a774a1", secret_h: "3ce5324d89", secret_k: "99ab4b4d9f", secret_o: "3337cc529c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33701365755/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -169,7 +169,7 @@
       - ピューロビレッジ『イースターセレブレーションパレード』
       - 水玉、リボン、フリル、卵
   -
-    title: "Miracle Gift Parade"
+    title: Miracle Gift Parade
     images_flickr: { photo: "26537823044", farm: 8, server: 7515, secret: "1cf65ac326", secret_h: "6f5cf8955c", secret_k: "bcde7edbc9", secret_o: "0698e9f006", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26537823044/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -178,7 +178,7 @@
       - ピューロランドパレード『Miracle Gift Parade』
       - いちご、星、ハート
   -
-    title: "水着"
+    title: 水着
     images_flickr: { photo: "28760484580", farm: 9, server: 8007, secret: "16976f663d", secret_h: "fe50221854", secret_k: "32baeaead3", secret_o: "268470a091", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28760484580/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -187,7 +187,7 @@
       - 水着
       - 水玉
   -
-    title: "水着2"
+    title: 水着2
     images_flickr: { photo: "29816795814", farm: 6, server: 5692, secret: "e784722cd5", secret_h: "dd6f6c3e9a", secret_k: "887a92e912", secret_o: "1ddc46bcfa", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29816795814/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -196,7 +196,7 @@
       - 水着の髪飾りが変更
       - 水玉
   -
-    title: "浴衣"
+    title: 浴衣
     images_flickr: { photo: "34907968962", farm: 5, server: 4257, secret: "de90588d48", secret_h: "837f5101ce", secret_k: "e61207cb70", secret_o: "f3dd9c92e5", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34907968962/"}
     size: { width_o: 3840, height_o: 5760 }
@@ -204,7 +204,7 @@
     notes:
       - 浴衣、麦わら帽子
   -
-    title: "浴衣・リボン"
+    title: 浴衣・リボン
     images_flickr: { photo: "37380259712", farm: 5, server: 4451, secret: "9a985d8b2b", secret_h: "46b9c46340", secret_k: "f5e7463fd6", secret_o: "fbf7e30de2", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37380259712/"}
     size: { width_o: 5760, height_o: 3840 }
