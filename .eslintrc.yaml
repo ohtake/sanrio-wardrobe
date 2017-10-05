@@ -1,11 +1,11 @@
 ---
-  root: true
-  extends:
-    - airbnb
-  rules:
-    max-len: off
-    valid-jsdoc:
-      - warn
-      -
-        requireParamDescription: false
-        requireReturnDescription: false
+root: true
+extends:
+  - airbnb
+rules:
+  max-len: off
+  valid-jsdoc:
+    - warn
+    -
+      requireParamDescription: false
+      requireReturnDescription: false

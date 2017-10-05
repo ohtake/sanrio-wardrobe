@@ -1,24 +1,24 @@
 ---
-  -
-    title: 標準
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8784957110/"}
-    images_flickr: { photo: "8784957110", farm: 9, server: 8399, secret: "6820f8889a", secret_h: "ba02ecdda7", secret_k: "bfcb174503", secret_o: "0729576d63", format_o: "jpg" }
-    size: { width_o: 5760, height_o: 3840 }
-    colors: [purple, red, gold]
-    notes: []
-  -
-    title: ハロウィン
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9982332965/"}
-    images_flickr: { photo: "9982332965", farm: 6, server: 5549, secret: "389ef4f3b1", secret_h: "4857efa44c", secret_k: "5e89cc1028", secret_o: "54d591bedf", format_o: "jpg" }
-    size: { width_o: 3840, height_o: 5760 }
-    colors: [purple, red, gold, black, white, yellow, blue, pink]
-    notes:
-      - ハロウィン
-  -
-    title: クリスマス
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11267944534/"}
-    images_flickr: { photo: "11267944534", farm: 8, server: 7347, secret: "d278c71092", secret_h: "f00ca635c8", secret_k: "84e4ef2f81", secret_o: "f8d27efc12", format_o: "jpg" }
-    size: { width_o: 5760, height_o: 3840 }
-    colors: [red, white, gold, silver]
-    notes:
-      - クリスマス
+-
+  title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8784957110/"}
+  images_flickr: { photo: "8784957110", farm: 9, server: 8399, secret: "6820f8889a", secret_h: "ba02ecdda7", secret_k: "bfcb174503", secret_o: "0729576d63", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [purple, red, gold]
+  notes: []
+-
+  title: ハロウィン
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9982332965/"}
+  images_flickr: { photo: "9982332965", farm: 6, server: 5549, secret: "389ef4f3b1", secret_h: "4857efa44c", secret_k: "5e89cc1028", secret_o: "54d591bedf", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [purple, red, gold, black, white, yellow, blue, pink]
+  notes:
+  - ハロウィン
+-
+  title: クリスマス
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11267944534/"}
+  images_flickr: { photo: "11267944534", farm: 8, server: 7347, secret: "d278c71092", secret_h: "f00ca635c8", secret_k: "84e4ef2f81", secret_o: "f8d27efc12", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [red, white, gold, silver]
+  notes:
+  - クリスマス

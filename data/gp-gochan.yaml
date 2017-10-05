@@ -1,74 +1,74 @@
 ---
-  -
-    title: 標準
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8794415454/"}
-    images_flickr: { photo: "8794415454", farm: 4, server: 3777, secret: "26b87968d0", secret_h: "0a91665c40", secret_k: "e655ff1eac", secret_o: "ca9bfa033b", format_o: "jpg" }
-    size: { width_o: 3840, height_o: 5760 }
-    colors: [white, gold]
-    notes: []
-  -
-    title: バンダナ
-    source: { author: "今村涼子", license: "", url: "https://www.instagram.com/p/BU1f4BDFDPr/"}
-    images_instagram: { shortcode: "BU1f4BDFDPr", width_t: 150, width_m: 320, width_l: 1080 }
-    size: { width_o: 1080, height_o: 1080 }
-    colors: [pink, white, gold]
-    notes: []
-  -
-    title: 鉢巻
-    source: { author: "今村涼子", license: "", url: "https://www.instagram.com/p/BUjywZSlliE/"}
-    images_instagram: { shortcode: "BUjywZSlliE", width_t: 150, width_m: 320, width_l: 1080 }
-    size: { width_o: 1080, height_o: 1080 }
-    colors: [red, white, gold]
-    notes: []
-  -
-    title: サッカー
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926399770/"}
-    images_flickr: { photo: "13926399770", farm: 6, server: 5500, secret: "bd5d8952e2", secret_h: "18896a39c3", secret_k: "7f98028e0d", secret_o: "01bf13c045", format_o: "jpg" }
-    size: { width_o: 5760, height_o: 3840 }
-    colors: [blue, red, white, black]
-    notes: []
-  -
-    title: フィギュアスケート
-    source: { author: "saesenayui", license: "", url: "https://www.instagram.com/p/BTYV7KejCeK/"}
-    images_instagram: { shortcode: "BTYV7KejCeK", width_t: 150, width_m: 320, width_l: 1080 }
-    size: { width_o: 1080, height_o: 607 }
-    colors: [blue, white, gold]
-    notes: []
-  -
-    title: 星空の Happy Party Christmas
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_TLWKHFYD/"}
-    images_instagram: { shortcode: "BY_TLWKHFYD", width_t: 150, width_m: 320, width_l: 1080 }
-    size: { width_o: 1080, height_o: 1080 }
-    colors: [white, silver, red, green]
-    notes:
-      - ピューロランドパレード『星空の Happy Party Christmas』
-      - クリスマス
-  -
-    title: 雨合羽
-    source: { author: "3jsb_ryuryu0902", license: "", url: "https://www.instagram.com/p/BSTDz5Hg6d7/"}
-    images_instagram: { shortcode: "BSTDz5Hg6d7", width_t: 150, width_m: 320, width_l: 1080 }
-    size: { width_o: 1080, height_o: 1080 }
-    colors: [yellow, white, gold]
-    notes: []
-  -
-    title: サンタクロース
-    source: { author: "seyacchi_27", license: "", url: "https://www.instagram.com/p/BOWnEaEgpgo/"}
-    images_instagram: { shortcode: "BOWnEaEgpgo", width_t: 150, width_m: 320, width_l: 1080 }
-    size: { width_o: 1080, height_o: 1080 }
-    colors: [red, white, black]
-    notes:
-      - クリスマス
-  -
-    title: 年越しクイズサバイバー
-    source: { author: "moeazukitty", license: "", url: "https://www.instagram.com/p/BOI_zcMFJvn/"}
-    images_instagram: { shortcode: "BOI_zcMFJvn", width_t: 150, width_m: 320, width_l: 1080 }
-    size: { width_o: 1080, height_o: 1213 }
-    colors: [red, gold, white, black, yellow, green]
-    notes: []
-  -
-    title: SUMMER STATION
-    source: { author: "saki.vocalist", license: "", url: "https://www.instagram.com/p/BYY_l_ChNMV/"}
-    images_instagram: { shortcode: "BYY_l_ChNMV", width_t: 150, width_m: 320, width_l: 1080 }
-    size: { width_o: 1080, height_o: 1350 }
-    colors: [white, black, gold, red, yellow, blue]
-    notes: []
+-
+  title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8794415454/"}
+  images_flickr: { photo: "8794415454", farm: 4, server: 3777, secret: "26b87968d0", secret_h: "0a91665c40", secret_k: "e655ff1eac", secret_o: "ca9bfa033b", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [white, gold]
+  notes: []
+-
+  title: バンダナ
+  source: { author: "今村涼子", license: "", url: "https://www.instagram.com/p/BU1f4BDFDPr/"}
+  images_instagram: { shortcode: "BU1f4BDFDPr", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [pink, white, gold]
+  notes: []
+-
+  title: 鉢巻
+  source: { author: "今村涼子", license: "", url: "https://www.instagram.com/p/BUjywZSlliE/"}
+  images_instagram: { shortcode: "BUjywZSlliE", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [red, white, gold]
+  notes: []
+-
+  title: サッカー
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926399770/"}
+  images_flickr: { photo: "13926399770", farm: 6, server: 5500, secret: "bd5d8952e2", secret_h: "18896a39c3", secret_k: "7f98028e0d", secret_o: "01bf13c045", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [blue, red, white, black]
+  notes: []
+-
+  title: フィギュアスケート
+  source: { author: "saesenayui", license: "", url: "https://www.instagram.com/p/BTYV7KejCeK/"}
+  images_instagram: { shortcode: "BTYV7KejCeK", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 607 }
+  colors: [blue, white, gold]
+  notes: []
+-
+  title: 星空の Happy Party Christmas
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_TLWKHFYD/"}
+  images_instagram: { shortcode: "BY_TLWKHFYD", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [white, silver, red, green]
+  notes:
+  - ピューロランドパレード『星空の Happy Party Christmas』
+  - クリスマス
+-
+  title: 雨合羽
+  source: { author: "3jsb_ryuryu0902", license: "", url: "https://www.instagram.com/p/BSTDz5Hg6d7/"}
+  images_instagram: { shortcode: "BSTDz5Hg6d7", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [yellow, white, gold]
+  notes: []
+-
+  title: サンタクロース
+  source: { author: "seyacchi_27", license: "", url: "https://www.instagram.com/p/BOWnEaEgpgo/"}
+  images_instagram: { shortcode: "BOWnEaEgpgo", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [red, white, black]
+  notes:
+  - クリスマス
+-
+  title: 年越しクイズサバイバー
+  source: { author: "moeazukitty", license: "", url: "https://www.instagram.com/p/BOI_zcMFJvn/"}
+  images_instagram: { shortcode: "BOI_zcMFJvn", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1213 }
+  colors: [red, gold, white, black, yellow, green]
+  notes: []
+-
+  title: SUMMER STATION
+  source: { author: "saki.vocalist", license: "", url: "https://www.instagram.com/p/BYY_l_ChNMV/"}
+  images_instagram: { shortcode: "BYY_l_ChNMV", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [white, black, gold, red, yellow, blue]
+  notes: []

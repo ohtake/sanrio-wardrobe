@@ -1,15 +1,15 @@
 ---
-  -
-    title: 標準
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10671752346/"}
-    images_flickr: { photo: "10671752346", farm: 8, server: 7451, secret: "15ebdc7e66", secret_h: "abaad36003", secret_k: "b52be8e4b4", secret_o: "8534cb3344", format_o: "jpg" }
-    size: { width_o: 3840, height_o: 5760 }
-    colors: [pink, silver, red, orange, green, white]
-    notes: []
-  -
-    title: ハロウィン
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10495491223/"}
-    images_flickr: { photo: "10495491223", farm: 4, server: 3780, secret: "89bfd67dd5", secret_h: "29ce866fc9", secret_k: "de9041e8ca", secret_o: "46a9ef5ff8", format_o: "jpg" }
-    size: { width_o: 3840, height_o: 5760 }
-    colors: [pink, black, purple, silver, red, orange, green, white]
-    notes: []
+-
+  title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10671752346/"}
+  images_flickr: { photo: "10671752346", farm: 8, server: 7451, secret: "15ebdc7e66", secret_h: "abaad36003", secret_k: "b52be8e4b4", secret_o: "8534cb3344", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, silver, red, orange, green, white]
+  notes: []
+-
+  title: ハロウィン
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10495491223/"}
+  images_flickr: { photo: "10495491223", farm: 4, server: 3780, secret: "89bfd67dd5", secret_h: "29ce866fc9", secret_k: "de9041e8ca", secret_o: "46a9ef5ff8", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, black, purple, silver, red, orange, green, white]
+  notes: []
