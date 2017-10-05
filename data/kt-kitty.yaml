@@ -913,7 +913,7 @@
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15013760875/"}
   images_flickr: { photo: "15013760875", farm: 4, server: 3870, secret: "e0a6984dc2", secret_h: "b32a796009", secret_k: "653a87df40", secret_o: "96a5477edd", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
-  colors: ["grey", black, red]
+  colors: [grey, black, red]
   notes:
   - 2017年2月のSANRIO EXPOでの表記は「フコク生命OLスタイル」
   - OL
@@ -1473,7 +1473,7 @@
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30466897406/"}
   images_flickr: { photo: "30466897406", farm: 6, server: 5831, secret: "5e4f65611c", secret_h: "ae3ab87fa9", secret_k: "f4a6d8f163", secret_o: "8f7b483e91", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [purple, orange, black, white, red, "grey"]
+  colors: [purple, orange, black, white, red, grey]
   notes:
   - ハロウィン2016
   - ハロウィン、蜘蛛の巣、コウモリ、ビニール傘
@@ -1481,7 +1481,7 @@
   source: { author: "para405", license: "", url: "https://www.instagram.com/p/BZqfTaWghIr/"}
   images_instagram: { shortcode: "BZqfTaWghIr", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 1209 }
-  colors: [purple, orange, black, white, red, "grey"]
+  colors: [purple, orange, black, white, red, grey]
   notes:
   - ハロウィン2017
   - 2016に比べリボンやコウモリが増えている
@@ -1834,7 +1834,7 @@
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/22302652979/"}
   images_flickr: { photo: "22302652979", farm: 6, server: 5624, secret: "bdb7efcc07", secret_h: "b764ad3ee9", secret_k: "87d7f3e9b5", secret_o: "6cf1747f14", format_o: "jpg" }
   size: { width_o: 3456, height_o: 5184 }
-  colors: [pink, blue, "grey", red]
+  colors: [pink, blue, grey, red]
   notes:
   - 外部イベント『ハローキティ&プリンのハートフルタイム』
   - タータンチェック
@@ -1996,7 +1996,7 @@
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22865085985/"}
   images_flickr: { photo: "22865085985", farm: 6, server: 5709, secret: "a2a97e55bf", secret_h: "4af8b35a7a", secret_k: "c4d3d1dc37", secret_o: "6910f1c56d", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [green, "grey", pink]
+  colors: [green, grey, pink]
   notes:
   - エバー航空、キャビンアテンダント
 - title: ecUjs4lwdD
@@ -2458,7 +2458,7 @@
   source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BQ_KJUDl_8X/"}
   images_instagram: { shortcode: "BQ_KJUDl_8X", width_t: 150, width_m: 320, width_l: 640 }
   size: { width_o: 640, height_o: 640 }
-  colors: [blue, red, "grey"]
+  colors: [blue, red, grey]
   notes:
   - アメリカ ColourPop Cosmetics
 - title: Dylan's Candy Bar
@@ -2532,7 +2532,7 @@
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/wUs54HFDyw/"}
   images_instagram: { shortcode: "wUs54HFDyw", width_t: 150, width_m: 320, width_l: 640 }
   size: { width_o: 640, height_o: 640 }
-  colors: [pink, red, "grey", white, green]
+  colors: [pink, red, grey, white, green]
   notes:
   - アメリカ
   - リンゴ
@@ -2540,7 +2540,7 @@
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BE2qbr9lD4F/"}
   images_instagram: { shortcode: "BE2qbr9lD4F", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 1349 }
-  colors: [black, yellow, pink, red, "grey"]
+  colors: [black, yellow, pink, red, grey]
   notes:
   - アメリカ Spam
   - エプロン
