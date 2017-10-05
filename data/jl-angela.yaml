@@ -4,14 +4,14 @@
     images_flickr: { photo: "8778103745", farm: 6, server: 5341, secret: "c638608c41", secret_h: "9f13ef7fb8", secret_k: "5c48c8fe9c", secret_o: "f67ddcc713", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8778103745/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["yellow", "blue", "white"]
+    colors: [yellow, blue, white]
     notes: []
   -
     title: ハロウィン
     images_flickr: { photo: "9775160195", farm: 3, server: 2828, secret: "042cf6f9b3", secret_h: "cce6a1a4f6", secret_k: "4c33a6c5e5", secret_o: "a49e71a357", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9775160195/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["orange", "purple", "green", "brown", "pink", "blue", "yellow", "black"]
+    colors: [orange, purple, green, brown, pink, blue, yellow, black]
     notes:
       - ピューロランドパレード『ハロウィンマーチングパレード』
       - ハロウィン
@@ -20,7 +20,7 @@
     images_flickr: { photo: "10902401966", farm: 4, server: 3752, secret: "9a8cdf60bf", secret_h: "0483d8a796", secret_k: "1e2b0eac07", secret_o: "b3f58c23ae", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10902401966/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "white", "gold", "silver"]
+    colors: [red, white, gold, silver]
     notes:
       - ピューロランドパレード『星空の Happy Party Christmas』
       - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
@@ -30,7 +30,7 @@
     images_flickr: { photo: "11150759966", farm: 4, server: 3829, secret: "3aeb00ecf2", secret_h: "fbfc32dc3d", secret_k: "7a6c64fa45", secret_o: "aa3a60f53b", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11150759966/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["yellow", "blue", "orange", "white"]
+    colors: [yellow, blue, orange, white]
     notes:
       - ディスカバリシアター『ジュエルペット きら☆デコッ! ミュージカル』1着目
   -
@@ -38,6 +38,6 @@
     images_flickr: { photo: "9653009003", farm: 8, server: 7283, secret: "7436ef45a2", secret_h: "6f61dbc96a", secret_k: "107890d818", secret_o: "87ed41f1da", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9653009003/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["green", "yellow", "blue", "orange", "white", "pink", "purple"]
+    colors: [green, yellow, blue, orange, white, pink, purple]
     notes:
       - ディスカバリシアター『ジュエルペット きら☆デコッ! ミュージカル』2着目

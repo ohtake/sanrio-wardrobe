@@ -11,7 +11,7 @@
     images_flickr: { photo: "12145990275", farm: 4, server: 3772, secret: "b5b7e8d715", secret_h: "48365a3ccc", secret_k: "196bbf9cee", secret_o: "b663607dda", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12145990275/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["yellow", "red", "green", "gold"]
+    colors: [yellow, red, green, gold]
     notes:
       - 正月、みかん
   -
@@ -19,7 +19,7 @@
     images_flickr: { photo: "15764680188", farm: 8, server: 7478, secret: "e33cfa3dfd", secret_h: "4b1c9ed2ce", secret_k: "b5a6da8e19", secret_o: "d50e9caed3", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15764680188/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "white", "gold"]
+    colors: [red, white, gold]
     notes:
       - ピューロランドパレード『クリスマスILLUMINANT』
       - ピューロランドパレード『星空の Happy Party Christmas』
@@ -30,7 +30,7 @@
     images_flickr: { photo: "16950652640", farm: 9, server: 8733, secret: "6ea6ee9d9e", secret_h: "9116c22730", secret_k: "e94cafa92b", secret_o: "bd8ec63c83", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16950652640/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "green", "red", "white", "gold"]
+    colors: [pink, green, red, white, gold]
     notes:
       - ピューロランドパレード『Believe』
   -
@@ -38,7 +38,7 @@
     images_flickr: { photo: "4755432946", farm: 5, server: 4095, secret: "823999ef23", secret_o: "65be20c62d", format_o: "jpg", before: "20120301" }
     source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4755432946/"}
     size: { width_o: 1024, height_o: 683 }
-    colors: ["pink", "green", "red", "white", "gold"]
+    colors: [pink, green, red, white, gold]
     notes:
       - ピューロランドパレード『Believe in Christmas』
       - クリスマス
@@ -47,7 +47,7 @@
     images_flickr: { photo: "10671714516", farm: 4, server: 3804, secret: "66abb18aae", secret_h: "2f7a609cb0", secret_k: "9a615eb239", secret_o: "91debaf980", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10671714516/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "pink", "yellow"]
+    colors: [blue, white, pink, yellow]
     notes:
       - ピューロランドパレード『ARIGATO EVERYONE!』
       - 外部イベント『ハローキティのドリームトラベラー』
@@ -56,7 +56,7 @@
     images_flickr: { photo: "16518128123", farm: 8, server: 7655, secret: "4762ef943c", secret_h: "6a74ded170", secret_k: "6d7c82b22f", secret_o: "3da17e20f5", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33257461823/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "pink", "yellow"]
+    colors: [blue, white, pink, yellow]
     notes:
       - ピューロランドパレード『OMOIYARI TO YOU』
   -
@@ -64,7 +64,7 @@
     images_flickr: { photo: "33257461823", farm: 3, server: 2893, secret: "94bb427df1", secret_h: "d980a1e3bc", secret_k: "25160ffe8c", secret_o: "334bb9c134", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24326364382"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "green", "blue", "yellow", "red", "purple"]
+    colors: [pink, green, blue, yellow, red, purple]
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
   -
@@ -72,7 +72,7 @@
     images_flickr: { photo: "13509005733", farm: 8, server: 7110, secret: "ce3812e01f", secret_h: "31071a6b98", secret_k: "2d52995921", secret_o: "d63fbb9d2e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13509005733/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "red", "purple", "yellow"]
+    colors: [pink, red, purple, yellow]
     notes:
       - ディスカバリシアター『シナモンのひみつの扉』最初
   -
@@ -80,7 +80,7 @@
     images_flickr: { photo: "25119039685", farm: 2, server: 1683, secret: "0d66721177", secret_h: "31c107335a", secret_k: "ef2d846a82" }
     source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/25119039685"}
     size: { width_o: 2048, height_o: 1365 }
-    colors: ["pink", "red", "purple", "yellow", "white"]
+    colors: [pink, red, purple, yellow, white]
     notes:
       - マフラーグリ
   -
@@ -88,7 +88,7 @@
     images_flickr: { photo: "13062308394", farm: 4, server: 3415, secret: "354fd902c8", secret_h: "288e8b92db", secret_k: "3f1886d4cf", secret_o: "aa76cd4ab6", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13062308394/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["yellow", "black", "brown", "white", "grey"]
+    colors: [yellow, black, brown, white, grey]
     notes:
       - ディスカバリシアター『シナモンのひみつの扉』ファッションショー
 # ひみつの扉・ミュージカルスター
@@ -97,7 +97,7 @@
     images_instagram: { shortcode: "BXpOwBSH5ua", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpOwBSH5ua/"}
     size: { width_o: 1080, height_o: 1080 }
-    colors: ["blue", "silver", "gold"]
+    colors: [blue, silver, gold]
     notes:
       - ディスカバリシアター『シナモンのひみつの扉』パステルレンジャー
   -
@@ -105,7 +105,7 @@
     images_flickr: { photo: "34407131440", farm: 5, server: 4178, secret: "3c346af4e4", secret_h: "6c46cbad6d", secret_k: "26a1cbb9b5", secret_o: "d67a35aba8", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34407131440/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "pink", "silver", "gold", "white"]
+    colors: [blue, pink, silver, gold, white]
     notes:
       - ディスカバリシアター『シナモンのひみつの扉』フィナーレ
   -
@@ -113,7 +113,7 @@
     images_flickr: { photo: "33374255415", farm: 1, server: 649, secret: "51c385ff2a", secret_h: "84ca54ddf2", secret_k: "78fa3ceb0b", secret_o: "65aea610c2", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33374255415/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["purple", "white"]
+    colors: [purple, white]
     notes:
       - ディスカバリシアター『ジュエルペットとシナモンのみらいレボリューション！』ビー玉なし
   -
@@ -121,7 +121,7 @@
     images_instagram: { shortcode: "BXpR3CDH2JW", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpR3CDH2JW/"}
     size: { width_o: 1080, height_o: 1080 }
-    colors: ["purple", "white", "blue", "red", "yellow", "silver"]
+    colors: [purple, white, blue, red, yellow, silver]
     notes:
       - ディスカバリシアター『ジュエルペットとシナモンのみらいレボリューション！』ビー玉あり
   -
@@ -129,7 +129,7 @@
     images_instagram: { shortcode: "BXo3ljhnCcl", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo3ljhnCcl/"}
     size: { width_o: 1080, height_o: 1080 }
-    colors: ["grey", "silver", "blue", "gold"]
+    colors: [grey, silver, blue, gold]
     notes:
       - ディスカバリシアター『ジュエルペットとシナモンのみらいレボリューション！』C-MON
   -
@@ -137,7 +137,7 @@
     images_flickr: { photo: "9108965294", farm: 3, server: 2874, secret: "70765a840a", secret_h: "ad4a0d5e09", secret_k: "ac4b6510b7", secret_o: "266f9ebf8b", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9108965294/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "brown", "pink", "white"]
+    colors: [blue, brown, pink, white]
     notes:
       - 知恵の木ステージ『シナモンせかい旅行』
   -
@@ -145,14 +145,14 @@
     images_flickr: { photo: "35790065834", farm: 5, server: 4364, secret: "496ab9f018", secret_h: "8cf0f33139", secret_o: "b5895e6641", format_o: "jpg" }
     source: { author: "hyouna", license: "", url: "https://www.flickr.com/photos/hyouna0229/35790065834/"}
     size: { width_o: 1600, height_o: 1200 }
-    colors: ["green", "white"]
+    colors: [green, white]
     notes: []
   -
     title: タウン・セーラー
     images_instagram: { shortcode: "BXpWqjeH-uU", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpWqjeH-uU/"}
     size: { width_o: 1080, height_o: 1080 }
-    colors: ["blue", "white", "red"]
+    colors: [blue, white, red]
     notes:
       - エンターテイメントホール『シナモンタウン大冒険』セーラー
   -
@@ -160,7 +160,7 @@
     images_flickr: { photo: "13062086073", farm: 8, server: 7398, secret: "f5f2c8551f", secret_h: "bc42b8ca70", secret_k: "76340d400f", secret_o: "2764765407", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13062086073/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["yellow", "blue", "red", "brown", "white", "purple", "pink", "orange"]
+    colors: [yellow, blue, red, brown, white, purple, pink, orange]
     notes:
       - エンターテイメントホール『シナモンタウン大冒険』お菓子
   -
@@ -168,7 +168,7 @@
     images_instagram: { shortcode: "BXpcaorHqsJ", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpcaorHqsJ/"}
     size: { width_o: 1080, height_o: 1080 }
-    colors: ["blue", "white", "yellow", "red"]
+    colors: [blue, white, yellow, red]
     notes:
       - キティズパラダイスPLUS
   -
@@ -176,7 +176,7 @@
     images_flickr: { photo: "33218828292", farm: 1, server: 681, secret: "a6cb289c2c", secret_h: "6d5e0f5d71", secret_k: "d356fd1638", secret_o: "d0aff7b151", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33218828292/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "white", "yellow"]
+    colors: [blue, white, yellow]
     notes:
       - キティズパラダイスPLUSのロゴなし
   -
@@ -184,7 +184,7 @@
     images_flickr: { photo: "14604010073", farm: 6, server: 5521, secret: "bc5037f235", secret_h: "3af879ab2f", secret_k: "3606f32918", secret_o: "57115b0394", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14604010073/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "green", "yellow", "pink"]
+    colors: [blue, white, green, yellow, pink]
     notes:
       - キティズパラダイスPeace
   -
@@ -192,7 +192,7 @@
     images_flickr: { photo: "23384682532", farm: 1, server: 699, secret: "cd2cfd964c", secret_h: "c154aeedd3", secret_k: "35c239fae6", secret_o: "18d7032f36", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23384682532/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "white", "pink"]
+    colors: [blue, white, pink]
     notes:
       - 外部イベント『キティ&シナモンのワンダーステージ』
       - 外部イベント『ハローキティのラブリーステージ！』
@@ -202,7 +202,7 @@
     images_flickr: { photo: "25116952546", farm: 2, server: 1541, secret: "55bc28479c", secret_h: "dd3ae1e395", secret_k: "898c2ea012", secret_o: "df8caf1de6", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25116952546/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "pink", "green", "yellow", "purple", "grey"]
+    colors: [blue, pink, green, yellow, purple, grey]
     notes:
       - 袴、和服
   -
@@ -210,7 +210,7 @@
     images_flickr: { photo: "23603183113", farm: 2, server: 1606, secret: "c324318861", secret_h: "10bd6a77bf", secret_k: "12d9a05bdf" }
     source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/23603183113/"}
     size: { width_o: 1365, height_o: 2048 }
-    colors: ["blue", "pink", "green", "yellow", "purple", "grey"]
+    colors: [blue, pink, green, yellow, purple, grey]
     notes:
       - 袴、和服
       - 襟の構造が異なる
@@ -219,7 +219,7 @@
     images_flickr: { photo: "8826283092", farm: 6, server: 5334, secret: "87f4d7bcc6", secret_h: "7b936b2cfe", secret_k: "ba20369482", secret_o: "0aecd6cf54", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8826283092/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "green", "yellow", "red", "purple", "white", "orange", "pink"]
+    colors: [blue, green, yellow, red, purple, white, orange, pink]
     notes:
       - イースター
   -
@@ -227,7 +227,7 @@
     images_flickr: { photo: "34076128026", farm: 4, server: 3929, secret: "95cb5faed4", secret_h: "33173585f9", secret_k: "6176765c34", secret_o: "2b06eb6fd3", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34076128026/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "green", "yellow", "red", "purple", "white", "orange", "pink"]
+    colors: [blue, green, yellow, red, purple, white, orange, pink]
     notes:
       - ピューロビレッジ『イースターセレブレーションパレード』
       - 右頭と左腹に卵が追加
@@ -236,7 +236,7 @@
     images_flickr: { photo: "9382757138", farm: 4, server: 3819, secret: "f216d3f631", secret_h: "1acc83a5fe", secret_k: "402909ca80", secret_o: "fe1b87ee2a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9382757138/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "green", "white", "red", "purple"]
+    colors: [blue, green, white, red, purple]
     notes:
       - 浴衣、和服、朝顔
   -
@@ -244,7 +244,7 @@
     images_flickr: { photo: "14893422869", farm: 4, server: 3876, secret: "2a726bc325", secret_h: "314b4bf851", secret_k: "bd7a4e8128", secret_o: "c443499e2d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14893422869/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["black", "yellow", "blue", "red", "silver", "gold"]
+    colors: [black, yellow, blue, red, silver, gold]
     notes:
       - 法被、和服、鉢巻
   -
@@ -252,7 +252,7 @@
     images_flickr: { photo: "14827152008", farm: 4, server: 3901, secret: "be4789e5ac", secret_h: "851a7ac15a", secret_k: "c3cdfe1fb6", secret_o: "a10440af58", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14827152008/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "orange", "red"]
+    colors: [blue, white, orange, red]
     notes:
       - ピューロランドパレード『夏フェス☆マーチングパレード』
       - ピューロランドパレード『夏祭りマーチングパレード』
@@ -263,7 +263,7 @@
     images_flickr: { photo: "10227801194", farm: 4, server: 3687, secret: "e11d8accea", secret_h: "0dc5f534a6", secret_k: "d9be3d9ee6", secret_o: "5af5490355", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10227801194/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["purple", "black", "orange", "pink", "yellow", "silver"]
+    colors: [purple, black, orange, pink, yellow, silver]
     notes:
       - ピューロランドパレード『ハロウィンマーチングパレード』
       - ピューロランドパレード『ハロウィーンマーチングパレード』
@@ -275,7 +275,7 @@
     images_flickr: { photo: "23507130026", farm: 1, server: 588, secret: "f4d2e81227", secret_h: "61f5c5d737", secret_k: "e3bd5f45cb", secret_o: "8807268988", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23507130026/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["purple", "black", "orange", "pink", "yellow", "silver"]
+    colors: [purple, black, orange, pink, yellow, silver]
     notes:
       - 通常のハロウィンにピンクのリボンが追加
       - PINK sensation HALLOWEEN PARTY ~Hello Kitty 40th ANNIVERSARY BASH!~
@@ -286,7 +286,7 @@
     images_flickr: { photo: "37009168160", farm: 5, server: 4504, secret: "c5e0ffa0dd", secret_h: "6e3a85a7c1", secret_k: "253df23136", secret_o: "3c956b4286", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37009168160/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["black", "blue", "white"]
+    colors: [black, blue, white]
     notes:
       - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』平日シナモロールレンジャー
       - ハロウィン
@@ -295,7 +295,7 @@
     images_flickr: { photo: "11529841053", farm: 6, server: 5499, secret: "016a46ea13", secret_h: "ab8a4efba9", secret_k: "25f84bc91c", secret_o: "4d30c35348", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11529841053/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "green", "gold", "brown", "white"]
+    colors: [red, green, gold, brown, white]
     notes:
       - ピューロランドパレード『クリスマスILLUMINANT』
       - クリスマス、柊、ベル
@@ -304,7 +304,7 @@
     images_instagram: { shortcode: "BXppzluHh6H", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXppzluHh6H/"}
     size: { width_o: 1080, height_o: 1080 }
-    colors: ["red", "green", "white"]
+    colors: [red, green, white]
     notes:
       - クリスマス、マフラー
   -
@@ -312,7 +312,7 @@
     images_flickr: { photo: "26233487112", farm: 2, server: 1498, secret: "a26c081cf1", secret_h: "9f75564d56", secret_k: "de9c989c86", secret_o: "a41406ac28", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26233487112/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "yellow", "gold", "silver"]
+    colors: [blue, yellow, gold, silver]
     notes:
       - クリスマス、青リボン
   -
@@ -320,7 +320,7 @@
     images_instagram: { shortcode: "BXpsaREHiPg", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpsaREHiPg/"}
     size: { width_o: 1080, height_o: 1080 }
-    colors: ["blue", "yellow", "gold", "silver"]
+    colors: [blue, yellow, gold, silver]
     notes:
       - クリスマス、青リボン
       - 光るブレスレット付き
@@ -329,7 +329,7 @@
     images_flickr: { photo: "16170883302", farm: 9, server: 8600, secret: "0967cec54a", secret_h: "e0bbff7446", secret_k: "341f72483f", secret_o: "d33003b0a0", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16170883302/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "yellow", "green", "silver"]
+    colors: [blue, yellow, green, silver]
     notes:
       - クリスマス、青リボン
   -
@@ -337,7 +337,7 @@
     images_flickr: { photo: "31055599905", farm: 6, server: 5705, secret: "18ea585a09", secret_h: "170c9def4a", secret_k: "b239accfab", secret_o: "0396d215be", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31055599905/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "green", "white", "gold"]
+    colors: [red, green, white, gold]
     notes:
        - ピューロビレッジ『HAPPY GIFT CHRISTMAS』初期
   -
@@ -345,7 +345,7 @@
     images_flickr: { photo: "30869407084", farm: 1, server: 721, secret: "d1ce300e0e", secret_h: "6b65b1b78e", secret_k: "6e5ab18f5d", secret_o: "7c3e365bf8", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30869407084/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "green", "white", "gold"]
+    colors: [red, green, white, gold]
     notes:
        - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
        - カップに装飾が追加
@@ -354,7 +354,7 @@
     images_flickr: { photo: "32026408480", farm: 1, server: 695, secret: "f532d49d90", secret_h: "33222330c5", secret_k: "4de5ece461", secret_o: "908baf4b7a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32026408480/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "white"]
+    colors: [blue, white]
     notes:
       - 外部イベント『ハローキティのハートフルクリスマス』
   -
@@ -362,7 +362,7 @@
     images_flickr: { photo: "14834279881", farm: 6, server: 5556, secret: "f7ea11d705", secret_h: "79305cf7e7", secret_k: "5da944f2cb", secret_o: "4cea436002", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14834279881/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["black", "blue", "pink", "yellow", "purple", "silver"]
+    colors: [black, blue, pink, yellow, purple, silver]
     notes:
       - 燕尾服
   -
@@ -370,21 +370,21 @@
     images_flickr: { photo: "16950626200", farm: 9, server: 8822, secret: "03db94fd2d", secret_h: "0f337cf078", secret_k: "1a201bf4ee", secret_o: "f71b50b62d", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16950626200/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "silver", "red", "black"]
+    colors: [blue, silver, red, black]
     notes: []
   -
     title: 5D3Y0834
     images_flickr: { photo: "25723127533", farm: 2, server: 1681, secret: "b7d1b2f9d5", secret_h: "4dca99be40", secret_k: "578346ff51", secret_o: "59f8455398", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25723127533/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["gold", "black", "white", "blue", "red"]
+    colors: [gold, black, white, blue, red]
     notes: []
   -
     title: 53AD2383
     images_flickr: { photo: "32531384384", farm: 4, server: 3823, secret: "11874c6dc4", secret_h: "d0e66280fa", secret_k: "48f89c285e", secret_o: "74307a1d00", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32531384384/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "green", "white", "yellow", "pink"]
+    colors: [blue, green, white, yellow, pink]
     notes:
       - 2017年『シナモロールおとこまつり』と『シナモロールのバースデーパーティ』のデコレーションゲーム
   -
@@ -392,7 +392,7 @@
     images_flickr: { photo: "32773144521", farm: 3, server: 2711, secret: "4beae466b6", secret_h: "41650307b3", secret_k: "378a5d0d45", secret_o: "2aa5736fb6", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32773144521/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "purple", "gold", "white", "pink", "brown", "yellow"]
+    colors: [blue, purple, gold, white, pink, brown, yellow]
     notes:
       - 15周年・マントあり
   -
@@ -400,7 +400,7 @@
     images_flickr: { photo: "32417789374", farm: 3, server: 2922, secret: "96897bd640", secret_h: "d2742e3df9", secret_k: "65c8dc1449", secret_o: "b6ba3b8b23", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32417789374/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "purple", "gold", "white", "pink", "brown", "yellow"]
+    colors: [blue, purple, gold, white, pink, brown, yellow]
     notes:
       - 15周年・マントなし
   -
@@ -408,7 +408,7 @@
     images_flickr: { photo: "34940510691", farm: 5, server: 4232, secret: "e403cb5012", secret_h: "7960b69b70", secret_k: "f8a14f3106", secret_o: "72670922f9", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34940510691/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "white", "pink", "green"]
+    colors: [blue, white, pink, green]
     notes:
       - しながわ観光大使
   -
@@ -416,7 +416,7 @@
     images_flickr: { photo: "15184201063", farm: 8, server: 7525, secret: "7a3b214d2f", secret_h: "906b75a07b", secret_k: "fe10ba2d0f", secret_o: "ffe39ba958", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15184201063/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "gold", "blue", "white"]
+    colors: [red, gold, blue, white]
     notes:
       - ハーモニーランドパレード『パレード・ノア』
   -
@@ -424,7 +424,7 @@
     images_flickr: { photo: "14131001214", farm: 8, server: 7425, secret: "c0b1656c6f", secret_h: "04fb1b4bea", secret_k: "b1cf469b1a", secret_o: "0cb28e6a33", format_o: "jpg" }
     source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14131001214/"}
     size: { width_o: 3456, height_o: 5184 }
-    colors: ["blue", "silver", "gold"]
+    colors: [blue, silver, gold]
     notes:
       - ハーモニーランドパレード『パレード・アクア』
   -
@@ -432,7 +432,7 @@
     images_flickr: { photo: "36121448012", farm: 5, server: 4322, secret: "4c5517e1d4", secret_h: "9b953d2b72", secret_k: "99674676e0", secret_o: "381a09c7d1", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121448012/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "pink", "green", "yellow", "white", "silver"]
+    colors: [blue, pink, green, yellow, white, silver]
     notes:
       - ハーモニーランドパレード『パレードパラレル オリジナル ver.』
   -
@@ -440,7 +440,7 @@
     images_flickr: { photo: "22913646031", farm: 1, server: 688, secret: "bff5508e24", secret_h: "fb129fade1", secret_k: "8ebfd002eb", secret_o: "9bd1b7739a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22913646031/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["purple", "blue", "orange", "yellow", "pink", "green"]
+    colors: [purple, blue, orange, yellow, pink, green]
     notes:
       - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
   -
@@ -448,7 +448,7 @@
     images_flickr: { photo: "33662499931", farm: 3, server: 2830, secret: "bd8b010d8b", secret_h: "900f7ab740", secret_k: "860473c26b", secret_o: "13b69af3e0", format_o: "jpg" }
     source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/33662499931/"}
     size: { width_o: 3071, height_o: 4606 }
-    colors: ["red", "white", "gold", "green"]
+    colors: [red, white, gold, green]
     notes:
       - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
   -
@@ -456,7 +456,7 @@
     images_flickr: { photo: "33561555364", farm: 5, server: 4163, secret: "d9e1053229", secret_h: "d869ba9bc4", secret_k: "8570356b95", secret_o: "04c619742c", format_o: "jpg" }
     source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/33561555364/"}
     size: { width_o: 3611, height_o: 4881 }
-    colors: ["blue", "pink", "purple", "yellow", "green", "white"]
+    colors: [blue, pink, purple, yellow, green, white]
     notes:
       - ハーモニーランドパレード『パレードパラレル イースター ver.』
   -
@@ -464,7 +464,7 @@
     images_flickr: { photo: "36359381516", farm: 5, server: 4375, secret: "b4767e5b3c", secret_h: "97783fd308", secret_k: "92d90d45aa", secret_o: "2e9a70a327", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36359381516/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "green", "pink", "orange", "white"]
+    colors: [blue, green, pink, orange, white]
     notes:
       - ハーモニービレッジ『おばけ音頭だ! DoRoRoNRoN!』
       - 浴衣、和服、カニ
@@ -473,7 +473,7 @@
     images_flickr: { photo: "186229867", farm: 1, server: 70, secret: "acb45edb15", secret_o: "acb45edb15", format_o: "jpg", before: "20100525" }
     source: { author: "Julie Chen", license: "", url: "https://www.flickr.com/photos/bestrurumi/186229867/"}
     size: { width_o: 640, height_o: 480 }
-    colors: ["purple", "yellow", "white", "red"]
+    colors: [purple, yellow, white, red]
     notes:
       - フェスティバルステージ
   -
@@ -481,7 +481,7 @@
     images_flickr: { photo: "186230908", farm: 1, server: 59, secret: "d3609cb120", secret_o: "d3609cb120", format_o: "jpg", before: "20100525" }
     source: { author: "Julie Chen", license: "", url: "https://www.flickr.com/photos/bestrurumi/186230908/"}
     size: { width_o: 640, height_o: 480 }
-    colors: ["silver", "blue", "red"]
+    colors: [silver, blue, red]
     notes:
       - フェスティバルステージ
   -
@@ -489,7 +489,7 @@
     images_flickr: { photo: "3430060892", farm: 4, server: 3604, secret: "f2ca46fa2b", before: "20120301" }
     source: { author: "Astronaut Chicken", license: "", url: "https://www.flickr.com/photos/astronautchicken/3430060892/"}
     size: { width_o: 1024, height_o: 768 }
-    colors: ["blue", "white", "green"]
+    colors: [blue, white, green]
     notes:
       - シナモンテラスステージ『カフェシナモンはおおさわぎ！』
   -
@@ -497,7 +497,7 @@
     images_flickr: { photo: "15226779844", farm: 8, server: 7579, secret: "c9963f0208", secret_h: "82c65fb47e", secret_k: "e17bf6a820", secret_o: "b010b4a427", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15226779844/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["white", "black", "red", "pink", "yellow", "purple", "green"]
+    colors: [white, black, red, pink, yellow, purple, green]
     notes:
       - プラザステージ『キティズドリームファクトリー』Aタイプ
   -
@@ -505,7 +505,7 @@
     images_flickr: { photo: "36007473900", farm: 5, server: 4359, secret: "73ca3e5825", secret_h: "9cfd8e73e0", secret_k: "da141cc72e", secret_o: "3e3b0218c1", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36007473900/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["white", "black", "red", "pink", "yellow", "purple", "green"]
+    colors: [white, black, red, pink, yellow, purple, green]
     notes:
       - プラザステージ『キティズドリームファクトリー』Bタイプ
       - Aタイプと比較してボタンの付近に赤線がない
@@ -514,7 +514,7 @@
     images_flickr: { photo: "34404021425", farm: 5, server: 4191, secret: "79187f98ef", secret_h: "d5d15d3018", secret_k: "15f6d3082d", secret_o: "09c4ea2dd4", format_o: "jpg" }
     source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/34404021425/"}
     size: { width_o: 2669, height_o: 3697 }
-    colors: ["purple", "black", "blue", "red", "gold", "white"]
+    colors: [purple, black, blue, red, gold, white]
     notes:
       - プラザステージ『「お・も・て・な・し」のキティカフェ～マイスターシナモン編』1着目
   -
@@ -522,7 +522,7 @@
     images_flickr: { photo: "36121456712", farm: 5, server: 4298, secret: "172dea8363", secret_h: "9e6f8a7f2f", secret_k: "bf0065066d", secret_o: "0810325b9c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121456712/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "pink", "yellow", "white"]
+    colors: [blue, pink, yellow, white]
     notes:
       - プラザステージ『「お・も・て・な・し」のキティカフェ～マイスターシナモン編』2着目
   -
@@ -530,7 +530,7 @@
     images_flickr: { photo: "15208211203", farm: 6, server: 5603, secret: "e42d9cb9c4", secret_h: "4ae99f397c", secret_k: "7ac2aa1217", secret_o: "d2c62774ee", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15208211203/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "yellow", "pink"]
+    colors: [blue, white, yellow, pink]
     notes:
       - 雨合羽
   -
@@ -538,7 +538,7 @@
     images_flickr: { photo: "15226792854", farm: 8, server: 7509, secret: "5fcccb0c56", secret_h: "65cec47516", secret_k: "62b9d2424d", secret_o: "e5f0d382cd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15226792854/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "green", "white", "gold"]
+    colors: [red, green, white, gold]
     notes:
       - ハーモニーランドイベントホール『ハローキティとシナモンのNEWホワイトエンジェル』1着目
       - ハーモニーパーク『ハッピークリスマスタイム』
@@ -548,7 +548,7 @@
     images_flickr: { photo: "16481239261", farm: 8, server: 7438, secret: "dc5d745c2f", secret_h: "a4f33f7bae", secret_k: "8b5bdf2f33", secret_o: "634507fcc3", format_o: "jpg" }
     source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/16481239261/"}
     size: { width_o: 3669, height_o: 2752 }
-    colors: ["red", "silver", "white"]
+    colors: [red, silver, white]
     notes:
       - ハーモニーランドイベントホール『ハローキティとシナモンのNEWホワイトエンジェル』3着目
       - クリスマス
@@ -557,7 +557,7 @@
     images_flickr: { photo: "36296802970", farm: 5, server: 4409, secret: "396621b4e7", secret_h: "4ea4eb3432", secret_k: "0e21da1aa4", secret_o: "a3b0b00022", format_o: "jpg" }
     source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36296802970/"}
     size: { width_o: 3339, height_o: 5008 }
-    colors: ["yellow", "red", "silver", "white"]
+    colors: [yellow, red, silver, white]
     notes:
       - クリスマス、マフラー追加
   -
@@ -565,7 +565,7 @@
     images_flickr: { photo: "35116063576", farm: 5, server: 4255, secret: "dd94544eb7", secret_h: "bc01707e0f", secret_k: "4faecbec24", secret_o: "19bd458929", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35116063576/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "green", "black", "pink"]
+    colors: [blue, white, green, black, pink]
     notes:
       - 和服、袴、団子
   -
@@ -573,6 +573,6 @@
     images_flickr: { photo: "34737947163", farm: 5, server: 4260, secret: "d0f4ef97a1", secret_h: "8ebf88d6c2", secret_k: "4d60fadd40", secret_o: "843b9d5c53", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34737947163/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "green", "black"]
+    colors: [blue, white, green, black]
     notes:
       - 和服、袴、団子

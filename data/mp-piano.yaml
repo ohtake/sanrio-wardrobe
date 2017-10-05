@@ -4,7 +4,7 @@
     images_flickr: { photo: "26614044254", farm: 8, server: 7210, secret: "81906f91cf", secret_h: "1f395a0027", secret_k: "2f1b5ae458", secret_o: "90a2907139", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26614044254/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "red", "white"]
+    colors: [pink, red, white]
     notes:
       - ピューロランドパレード『ARIGATO EVERYONE! 光のパーティ』
       - ピューロランドパレード『OMOIYARI TO YOU』
@@ -13,7 +13,7 @@
     images_flickr: { photo: "14434128478", farm: 6, server: 5556, secret: "bcaf92ec56", secret_h: "31233c09c7", secret_k: "77ae0d3634", secret_o: "66eac2e183", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14434128478/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "red", "white"]
+    colors: [pink, red, white]
     notes:
       - 2014年7月6日限定の特大バースデーカード
   -
@@ -21,7 +21,7 @@
     images_flickr: { photo: "34339480321", farm: 5, server: 4179, secret: "954a2572bd", secret_h: "5a6773aa04", secret_k: "0a3583f40e", secret_o: "41373b1b05", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34339480321/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "red", "yellow", "green", "blue", "white", "black"]
+    colors: [pink, red, yellow, green, blue, white, black]
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
   -
@@ -29,6 +29,6 @@
     images_flickr: { photo: "23237475600", farm: 6, server: 5732, secret: "fb2b52752a", secret_h: "7a83a491e7", secret_k: "92d194a31f", secret_o: "82384ea5c9", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23237475600/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "red", "white"]
+    colors: [pink, red, white]
     notes:
       - PINK sensation 2015 HALLOWEEN PARTY ~Hello Kitty 41st ANNIVERSARY BASH! MY MELODY & Little Twin Stars 40th ANNIVERSARY!~

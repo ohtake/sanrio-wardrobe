@@ -4,7 +4,7 @@
     images_flickr: { photo: "30723550550", farm: 6, server: 5477, secret: "a6cbea0b40", secret_h: "0351a06977", secret_k: "86e2007409", secret_o: "04b63a746a", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30723550550/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "white"]
+    colors: [red, white]
     notes:
       - 『ハローキティの恐竜島探検』
       # 夢の贈り物1着目は標準にイチゴ追加
@@ -13,14 +13,14 @@
     images_flickr: { photo: "9457206463", farm: 8, server: 7437, secret: "f451a24230", secret_h: "7c5bfc404c", secret_k: "8ab088f49b", secret_o: "031c5ab9cf", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9457206463/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["white", "blue", "red", "green"]
+    colors: [white, blue, red, green]
     notes: []
   -
     title: OMOIYARI TO YOU
     images_flickr: { photo: "16863662275", farm: 8, server: 7637, secret: "27ae36d853", secret_h: "55afb562a8", secret_k: "211cd2c51c", secret_o: "8848c8ddce", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16863662275/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["white", "blue", "red", "green", "pink"]
+    colors: [white, blue, red, green, pink]
     notes:
       - ピューロランドパレード『OMOIYARI TO YOU』
   -
@@ -28,7 +28,7 @@
     images_flickr: { photo: "9457198259", farm: 8, server: 7293, secret: "de134b0e14", secret_h: "3a65eb0729", secret_k: "29d994d085", secret_o: "35702a8349", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9457198259/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["yellow", "green", "brown", "orange", "pink"]
+    colors: [yellow, green, brown, orange, pink]
     notes:
       - ピューロランドパレード『Believe』
       - ドングリ
@@ -37,7 +37,7 @@
     images_flickr: { photo: "4755432946", farm: 5, server: 4095, secret: "823999ef23", secret_o: "65be20c62d", format_o: "jpg", before: "20120301" }
     source: { author: "Ellie", license: "", url: "https://www.flickr.com/photos/maxgoof_eri/4755432946/"}
     size: { width_o: 1024, height_o: 683 }
-    colors: ["yellow", "green", "brown", "orange", "pink", "red"]
+    colors: [yellow, green, brown, orange, pink, red]
     notes:
       - ピューロランドパレード『Believe in Christmas』
       - クリスマス
@@ -46,7 +46,7 @@
     images_instagram: { shortcode: "BY_BgmXHMHC", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_BgmXHMHC/"}
     size: { width_o: 1080, height_o: 1080 }
-    colors: ["silver", "red", "green", "yellow", "blue"]
+    colors: [silver, red, green, yellow, blue]
     notes:
       - ピューロランドパレード『星空の Happy Party Christmas』
   -
@@ -54,7 +54,7 @@
     images_flickr: { photo: "11751821435", farm: 4, server: 3671, secret: "0316e87d31", secret_h: "0a627f9786", secret_k: "70945a1ae6", secret_o: "595288c2d9", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11751821435/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["yellow", "white", "red", "green", "brown"]
+    colors: [yellow, white, red, green, brown]
     notes:
       - ピューロランドパレード『ARIGATO EVERYONE!』
       - イチゴ
@@ -63,7 +63,7 @@
     images_flickr: { photo: "11377311563", farm: 6, server: 5543, secret: "ce4fe54a77", secret_h: "0d89e69fd2", secret_k: "f1003e2db5", secret_o: "f77c2d74a8", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11377311563/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "white", "green", "gold", "brown"]
+    colors: [red, white, green, gold, brown]
     notes:
       - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
   -
@@ -71,7 +71,7 @@
     images_flickr: { photo: "31689737983", farm: 1, server: 314, secret: "cb02296451", secret_h: "53d1108993", secret_k: "5ef030e610", secret_o: "3cbeedb4c5", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31689737983/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["green", "yellow", "red", "blue", "purple", "orange", "white", "silver", "black"]
+    colors: [green, yellow, red, blue, purple, orange, white, silver, black]
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
   -
@@ -79,7 +79,7 @@
     images_flickr: { photo: "14546604079", farm: 3, server: 2912, secret: "828067aa77", secret_h: "4470a51c02", secret_k: "b71231a978", secret_o: "26b098a8f7", format_o: "jpg" }
     source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/14546604079/"}
     size: { width_o: 5184, height_o: 3456 }
-    colors: ["white", "orange", "silver", "blue", "green"]
+    colors: [white, orange, silver, blue, green]
     notes:
       - ハーモニーランドパレード『パレード・アクア』
   -
@@ -87,21 +87,21 @@
     images_flickr: { photo: "12146416814", farm: 8, server: 7440, secret: "4741104a8c", secret_h: "a86836599a", secret_k: "f42d759869", secret_o: "7fc5e06507", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12146416814/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["black", "red", "white", "green", "brown"]
+    colors: [black, red, white, green, brown]
     notes: []
   -
     title: "7"
     images_flickr: { photo: "14168763344", farm: 8, server: 7432, secret: "bc6f13b3d0", secret_h: "9b183b74ad", secret_k: "42c4882a31", secret_o: "c6c9bd9290", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14168763344/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["yellow", "white", "black"]
+    colors: [yellow, white, black]
     notes: []
   -
     title: 法被
     images_flickr: { photo: "14729721097", farm: 6, server: 5590, secret: "f976db5a4a", secret_h: "379456f8c0", secret_k: "8726eb274b", secret_o: "4f31613ac0", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14729721097/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "gold", "red"]
+    colors: [blue, white, gold, red]
     notes:
       - ピューロランドパレード『夏フェス☆マーチングパレード』
       - ピューロランドパレード『夜祭りマーチングパレード』
@@ -110,7 +110,7 @@
     images_flickr: { photo: "15174119978", farm: 4, server: 3868, secret: "7af680c971", secret_h: "7c1ffcc785", secret_k: "a8586c3026", secret_o: "2b8e3de5c6", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15174119978/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "black", "white", "purple", "orange"]
+    colors: [red, black, white, purple, orange]
     notes:
       - ピューロランドパレード『ハロウィンマーチングパレード』
   -
@@ -118,7 +118,7 @@
     images_flickr: { photo: "18821205425", farm: 6, server: 5572, secret: "913cfbbf5f", secret_h: "f3bd32f2d9", secret_k: "486efad1f7" }
     source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
     size: { width_o: 2048, height_o: 1536 }
-    colors: ["red", "white", "black"]
+    colors: [red, white, black]
     notes:
       - アメリカ『Hello Kitty Supercute Friendship Festival』
 # スターライトパレード

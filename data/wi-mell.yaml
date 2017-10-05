@@ -4,7 +4,7 @@
     images_flickr: { photo: "15328646911", farm: 3, server: 2942, secret: "40b3615c32", secret_h: "6fedd0a527", secret_k: "f60bfdf1c1", secret_o: "63fe8fe96f", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15328646911/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["red"]
+    colors: [red]
     notes:
       - 初期衣装
       - 郵便、配達、バッグ
@@ -13,7 +13,7 @@
     images_instagram: { shortcode: "BXo084Qnu9C", width_t: 150, width_m: 320, width_l: 1080 }
     source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo084Qnu9C/"}
     size: { width_o: 1080, height_o: 1080 }
-    colors: ["red", "pink", "yellow", "blue", "green", "purple"]
+    colors: [red, pink, yellow, blue, green, purple]
     notes:
       - 知恵の木ステージ『メルの七夕ハッピープリズム スペシャルグリーティング』
   -
@@ -21,7 +21,7 @@
     images_flickr: { photo: "13189994893", farm: 3, server: 2373, secret: "567f98eb95", secret_h: "3e4c79e5b4", secret_k: "2782e28923", secret_o: "84b6791743", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13189994893/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink"]
+    colors: [pink]
     notes:
       - 花粉症の時にはマスクが追加
       - マスク、ハート
@@ -30,7 +30,7 @@
     images_flickr: { photo: "14598006006", farm: 6, server: 5523, secret: "2e529b84b8", secret_h: "a442c27149", secret_k: "02eff33011", secret_o: "26164192d0", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14598006006/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "purple", "blue", "white"]
+    colors: [pink, purple, blue, white]
     notes:
       - ケープの種類によらずにリボンが追加されることがある
       - リボン
@@ -48,7 +48,7 @@
     images_flickr: { photo: "37380263452", farm: 5, server: 4361, secret: "e5aee0b2c1", secret_h: "de56ba4e4f", secret_k: "025e69efc5", secret_o: "726bb58cfa", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37380263452/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue"]
+    colors: [blue]
     notes:
       - 小鳥の女の子のウェンズディ
   -
@@ -56,7 +56,7 @@
     images_flickr: { photo: "16037444866", farm: 9, server: 8649, secret: "19e4172ca2", secret_h: "0fdc4761fb", secret_k: "fe0182844b", secret_o: "6d0d2792bd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16037444866/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["green"]
+    colors: [green]
     notes:
       - 小鳥の男の子のサーズディ
   -
@@ -64,7 +64,7 @@
     images_flickr: { photo: "16712908946", farm: 9, server: 8613, secret: "d17e3c214c", secret_h: "cf4ff061de", secret_k: "f7231df5f9", secret_o: "22e5835d7e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16712908946/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink"]
+    colors: [pink]
     notes:
       - 小鳥の女の子のサンディ
   -
@@ -72,7 +72,7 @@
     images_flickr: { photo: "10963792763", farm: 6, server: 5542, secret: "481a1055dc", secret_h: "6aa4ad743b", secret_k: "541af26d0d", secret_o: "7550ec722e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10963792763/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "white", "yellow", "purple", "blue"]
+    colors: [pink, white, yellow, purple, blue]
     notes:
       - 主にクリスマスで使われるケープで足の輪も付く
       - クリスマス、リボン、ウサミミ
@@ -81,7 +81,7 @@
     images_flickr: { photo: "12634130964", farm: 3, server: 2877, secret: "0d42f03b22", secret_h: "9338ee0112", secret_k: "533097b153", secret_o: "0bd7013aa4", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12634130964/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "white"]
+    colors: [pink, white]
     notes:
       - クリスマスケープであるがリボンの種類が『リリーボンボンズのマーチングパレード』となっている
       - 足の輪がなくなる
@@ -91,7 +91,7 @@
     images_picasa: { lh: 3, dirs: "-0jnZvDv9G7s/UREcP1bWhCI/AAAAAAAAwZA/84nM_ydfZHUY3L0m4VU1gJmnfjx_ZRBYwCCo", file: "5D3C6893%2B%2528960x1440%2529.jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/sDsdsNJFtPn3mGlaJ_TICdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
     size: { width_o: 960, height_o: 1440 }
-    colors: ["blue", "pink", "yellow", "purple"]
+    colors: [blue, pink, yellow, purple]
     notes:
       - Angelic Pretty のジャンパースカートその1
       - Angelic Pretty、ロリータ、リボン
@@ -100,7 +100,7 @@
     images_flickr: { photo: "15033457738", farm: 4, server: 3836, secret: "a0424938ea", secret_h: "3ac3d20b78", secret_k: "89cd5f8f08", secret_o: "6fe25dbfcd", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15033457738/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["purple", "pink"]
+    colors: [purple, pink]
     notes:
       - Angelic Pretty のジャンパースカートその2
       - Angelic Pretty、ロリータ、リボン、ウサミミ
@@ -109,7 +109,7 @@
     images_flickr: { photo: "10249162114", farm: 4, server: 3799, secret: "2a846327df", secret_h: "dfcfe81680", secret_k: "760839d1d9", secret_o: "cbde55db73", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10249162114/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "purple", "orange", "black", "white"]
+    colors: [blue, purple, orange, black, white]
     notes:
       - ピューロランドパレード『ハロウィンマーチングパレード』
       - ジャック・オー・ランタン、ハロウィン
@@ -118,7 +118,7 @@
     images_flickr: { photo: "22875872479", farm: 1, server: 584, secret: "0c7af0251d", secret_h: "b5b59d3450", secret_k: "7aa7f0a385", secret_o: "cfa83cb81b", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22875872479/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "purple", "orange", "black", "white"]
+    colors: [blue, purple, orange, black, white]
     notes:
       - ハロウィンケープに頭上のリボンが追加
       - ジャック・オー・ランタン、ハロウィン、リボン
@@ -127,7 +127,7 @@
     images_flickr: { photo: "37013087602", farm: 5, server: 4394, secret: "2df0140d94", secret_h: "1b75520f4b", secret_k: "47818a8de8", secret_o: "407986ec8e", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37013087602/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["purple", "orange", "blue", "black", "white", "green"]
+    colors: [purple, orange, blue, black, white, green]
     notes:
       - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』
       - ハロウィン
@@ -136,7 +136,7 @@
     images_flickr: { photo: "14549304532", farm: 4, server: 3849, secret: "2ff5a7c8e2", secret_h: "87facac7f0", secret_k: "8988b4bfae", secret_o: "81c47cccac", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14549304532/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "blue", "purple", "brown"]
+    colors: [pink, blue, purple, brown]
     notes:
       - ピューロランドパレード『リリーボンボンズのマーチングパレード』
       - リボン、ハート、お茶
@@ -145,7 +145,7 @@
     images_flickr: { photo: "14142689498", farm: 3, server: 2902, secret: "8ea585aac6", secret_h: "57266eaeae", secret_k: "9307bc4815", secret_o: "db4a7ed685", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14142689498/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "red"]
+    colors: [blue, white, red]
     notes:
       - フェスティバルプラザのショップ店員やサービススタッフと同じデザインのエプロン
       - キティ、リボン
@@ -154,7 +154,7 @@
     images_flickr: { photo: "21718588622", farm: 6, server: 5749, secret: "0fc03fc95b", secret_h: "a06cc10bc0", secret_k: "bd3e1a7397", secret_o: "8b92c0ccdb", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21718588622/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["blue", "white", "pink", "orange", "yellow", "green", "purple"]
+    colors: [blue, white, pink, orange, yellow, green, purple]
     notes:
       - ピューロランドパレード『OMOIYARI TO YOU』
       - 公募衣装
@@ -164,7 +164,7 @@
     images_flickr: { photo: "33701365755", farm: 4, server: 3678, secret: "4144a774a1", secret_h: "3ce5324d89", secret_k: "99ab4b4d9f", secret_o: "3337cc529c", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33701365755/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "white", "pink", "orange", "yellow", "green", "purple"]
+    colors: [blue, white, pink, orange, yellow, green, purple]
     notes:
       - ピューロビレッジ『イースターセレブレーションパレード』
       - 水玉、リボン、フリル、卵
@@ -173,7 +173,7 @@
     images_flickr: { photo: "26537823044", farm: 8, server: 7515, secret: "1cf65ac326", secret_h: "6f5cf8955c", secret_k: "bcde7edbc9", secret_o: "0698e9f006", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26537823044/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "blue", "green", "pink", "yellow", "purple", "orange"]
+    colors: [red, blue, green, pink, yellow, purple, orange]
     notes:
       - ピューロランドパレード『Miracle Gift Parade』
       - いちご、星、ハート
@@ -182,7 +182,7 @@
     images_flickr: { photo: "28760484580", farm: 9, server: 8007, secret: "16976f663d", secret_h: "fe50221854", secret_k: "32baeaead3", secret_o: "268470a091", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/28760484580/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "pink"]
+    colors: [blue, pink]
     notes:
       - 水着
       - 水玉
@@ -191,7 +191,7 @@
     images_flickr: { photo: "29816795814", farm: 6, server: 5692, secret: "e784722cd5", secret_h: "dd6f6c3e9a", secret_k: "887a92e912", secret_o: "1ddc46bcfa", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29816795814/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "pink"]
+    colors: [blue, pink]
     notes:
       - 水着の髪飾りが変更
       - 水玉
@@ -200,7 +200,7 @@
     images_flickr: { photo: "34907968962", farm: 5, server: 4257, secret: "de90588d48", secret_h: "837f5101ce", secret_k: "e61207cb70", secret_o: "f3dd9c92e5", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34907968962/"}
     size: { width_o: 3840, height_o: 5760 }
-    colors: ["yellow", "pink", "blue", "purple", "black", "white"]
+    colors: [yellow, pink, blue, purple, black, white]
     notes:
       - 浴衣、麦わら帽子
   -
@@ -208,6 +208,6 @@
     images_flickr: { photo: "37380259712", farm: 5, server: 4451, secret: "9a985d8b2b", secret_h: "46b9c46340", secret_k: "f5e7463fd6", secret_o: "fbf7e30de2", format_o: "jpg" }
     source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37380259712/"}
     size: { width_o: 5760, height_o: 3840 }
-    colors: ["yellow", "pink", "blue", "purple", "black", "white"]
+    colors: [yellow, pink, blue, purple, black, white]
     notes:
       - 浴衣
