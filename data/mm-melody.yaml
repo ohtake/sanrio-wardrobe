@@ -594,13 +594,13 @@
   colors: [red, white]
   notes:
   - アメリカ『Hello Kitty Supercute Friendship Festival』
-- title: Y8dy30B-8L
-  source: { author: "sanriokaahumanu", license: "", url: "https://www.instagram.com/p/Y8dy30B-8L/"}
-  images_instagram: { shortcode: "Y8dy30B-8L", width_t: 150, width_m: 320, width_l: 612 }
-  size: { width_o: 612, height_o: 612 }
+- title: flickr-5190456751
+  source: { author: "iheartkitty", license: "", url: "https://www.flickr.com/photos/iheartkitty/5190456751/"}
+  images_flickr: { photo: "5190456751", farm: 5, server: 4125, secret: "e89c513106", before: "20120301" }
+  size: { width_o: 683, height_o: 1024 }
   colors: [pink, white]
   notes:
-  - アメリカ
+  - アメリカ Sanrio Small Gift Mobile Pop-up Tour
 - title: Melody Ensani
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/BOTQsmugJzn/"}
   images_instagram: { shortcode: "BOTQsmugJzn", width_t: 150, width_m: 320, width_l: 1080 }

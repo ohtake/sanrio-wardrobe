@@ -1,7 +1,13 @@
 ---
-- title: 標準
+- title: 長い
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/BN0pQFcAydK/"}
   images_instagram: { shortcode: "BN0pQFcAydK", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 810 }
+  colors: [blue]
+  notes: []
+- title: 短い
+  source: { author: "Michelle", license: "", url: "https://www.flickr.com/photos/mborok/5170107083/"}
+  images_flickr: { photo: "5170107083", farm: 2, server: 1354, secret: "87688264e1", secret_o: "8f372c2f1d", format_o: "jpg", before: "20120301" }
+  size: { width_o: 1541, height_o: 1077 }
   colors: [blue]
   notes: []
