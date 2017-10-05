@@ -1,127 +1,112 @@
 ---
-  -
-    title: 標準
-    images_flickr: { photo: "14650654200", farm: 4, server: 3865, secret: "6bf6c5ce3c", secret_h: "6b3db43d2f", secret_k: "96c223a823", secret_o: "9b54f2e763", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14650654200/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "yellow", "blue", "red", "purple", "white"]
-    notes:
-      - 知恵の木ステージ『集まれ！めちゃカワっ★ぼんぼんりぼん隊』
-      - 外部イベント『ハローキティ&ぼんぼんりぼんのミラクルパーティ』
-      - 知恵の木ステージ『クラシックバレエスクール ~ぼんぼんりぼんといっしょにおどろう♪~』後期
-  -
-    title: ハロウィン多摩
-    images_flickr: { photo: "9775149334", farm: 6, server: 5492, secret: "e8e7d19d71", secret_h: "d7e880611f", secret_k: "8481c862f7", secret_o: "86fcf1ca4e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9775149334/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "yellow", "blue", "red", "purple", "white", "orange", "black"]
-    notes:
-      - ピューロランドパレード『ハロウィンマーチングパレード』
-  -
-    title: ハロウィン日出
-    images_flickr: { photo: "15825725781", farm: 8, server: 7580, secret: "30f6013823", secret_h: "783158ae1e", secret_k: "2de945be09", secret_o: "1a424678ef", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15825725781/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "yellow", "blue", "red", "purple", "white", "orange", "black", "green"]
-    notes:
-      - ハーモニーパーク『ハッピーハロウィーンタイム』
-  -
-    title: クリスマス
-    images_flickr: { photo: "15663300017", farm: 8, server: 7538, secret: "d3cc21b2b7", secret_h: "d47cced2de", secret_k: "3a94ff2809", secret_o: "1606857cd5", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15663300017/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "yellow", "blue", "red", "purple", "white", "silver"]
-    notes:
-      - プラザステージ『キティズクリスマスプレイタイム』
-  -
-    title: 法被
-    images_flickr: { photo: "14497265557", farm: 3, server: 2904, secret: "af6f551af8", secret_h: "de729fd875", secret_k: "74ce92eda5", secret_o: "8050e4e8c7", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14497265557/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "pink", "yellow", "blue", "purple", "white"]
-    notes:
-      - ピューロランドパレード『夏フェス☆マーチングパレード』
-      - ピューロランドパレード『夜祭りマーチングパレード』
-  -
-    title: イースター
-    images_flickr: { photo: "34428687536", farm: 5, server: 4187, secret: "a311876e36", secret_h: "6864eb1ef5", secret_k: "54c1df0408", secret_o: "801282b15a", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34428687536/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "yellow", "blue", "red", "purple", "white"]
-    notes:
-      - ピューロランドパレード『イースターセレブレーションパレード』
-  -
-    title: りぼん隊
-    images_flickr: { photo: "20545648663", farm: 6, server: 5687, secret: "377d934335", secret_h: "82dfd45919", secret_k: "7ec1de1971", secret_o: "cc67c84034", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20545648663/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "white", "red", "blue", "yellow", "purple"]
-    notes:
-      - 「ニコ☆プチ」×ぼんぼんりぼんファッションショー
-      - ピューロランドパレード『リリーボンボンズのマーチングパレード』
-      - 知恵の木ステージ『集まれ！めちゃカワっ★ぼんぼんりぼん隊 ミラクル』
-      - 知恵の木ステージ『クラシックバレエスクール ~ぼんぼんりぼんといっしょにおどろう♪~』前期
-  -
-    title: ARIGATO EVERYONE
-    images_flickr: { photo: "16272567196", farm: 8, server: 7556, secret: "ea50e4da99", secret_h: "f442864508", secret_k: "1db6541928", secret_o: "9b31e4fbe7", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16272567196/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["purple", "pink", "blue", "white"]
-    notes:
-      - ピューロランドパレード『ARIGATO EVERYONE!』
-  -
-    title: ARIGATO EVERYONE クリスマス
-    images_flickr: { photo: "15440910574", farm: 8, server: 7464, secret: "a9300764e4", secret_h: "b292005342", secret_k: "7a6fd0b9f0", secret_o: "5eae5d8ccd", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15440910574/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["purple", "pink", "blue", "white", "gold", "silver", "red", "green"]
-    notes:
-      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
-  -
-    title: OMOIYARI TO YOU
-    images_flickr: { photo: "16050518534", farm: 9, server: 8572, secret: "2d06123972", secret_h: "645bc9bd1e", secret_k: "60c27219a1", secret_o: "aebc101920", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16050518534/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["purple", "pink", "blue", "white"]
-    notes:
-      - ピューロランドパレード『OMOIYARI TO YOU』
-  -
-    title: Miracle Gift Parade
-    images_flickr: { photo: "34028855016", farm: 4, server: 3941, secret: "9b0dc1bd02", secret_h: "1016df8be7", secret_k: "aa980fc09a", secret_o: "ccdffec285", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34028855016/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "blue", "yellow", "pink", "white", "purple", "green"]
-    notes:
-      - ピューロランドパレード『Miracle Gift Parade』
-  -
-    title: パレードパラレル オリジナル
-    images_flickr: { photo: "36236035222", farm: 5, server: 4362, secret: "eecb27c87a", secret_h: "d0a9d9d49f", secret_k: "65c3cdc99b", secret_o: "7ee2a8e557", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36236035222/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["red", "blue", "green", "purple", "pink", "yellow"]
-    notes:
-      - ハーモニーランドパレード『パレードパラレル』
-  -
-    title: パレードパラレル ハロウィーン
-    images_flickr: { photo: "22449622457", farm: 6, server: 5655, secret: "f3d161cf3b", secret_h: "1f38746d71", secret_k: "54c96579e7", secret_o: "0726309986", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22449622457/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "purple", "orange", "white", "black"]
-    notes:
-      - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
-  -
-    title: パレードパラレル クリスマス
-    images_flickr: { photo: "29246649855", farm: 8, server: 7569, secret: "e0e3e9b843", secret_h: "56207e1138", secret_k: "96e0f20149", secret_o: "583f5f0677", format_o: "jpg" }
-    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/29246649855/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "white", "gold", "purple"]
-    notes:
-      - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
-  -
-    title: パレードパラレル イースター
-    images_flickr: { photo: "25526927894", farm: 2, server: 1676, secret: "0b970d2958", secret_h: "95c80cbc68", secret_k: "549a7a08c6", secret_o: "9a192df5a6", format_o: "jpg" }
-    source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/25526927894/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["pink", "red", "orange", "yellow", "green", "blue", "white"]
-    notes:
-      - ハーモニーランドパレード『パレードパラレル イースター ver.』
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14650654200/"}
+  images_flickr: { photo: "14650654200", farm: 4, server: 3865, secret: "6bf6c5ce3c", secret_h: "6b3db43d2f", secret_k: "96c223a823", secret_o: "9b54f2e763", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [pink, yellow, blue, red, purple, white]
+  notes:
+  - 知恵の木ステージ『集まれ！めちゃカワっ★ぼんぼんりぼん隊』
+  - 外部イベント『ハローキティ&ぼんぼんりぼんのミラクルパーティ』
+  - 知恵の木ステージ『クラシックバレエスクール ~ぼんぼんりぼんといっしょにおどろう♪~』後期
+- title: ハロウィン多摩
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9775149334/"}
+  images_flickr: { photo: "9775149334", farm: 6, server: 5492, secret: "e8e7d19d71", secret_h: "d7e880611f", secret_k: "8481c862f7", secret_o: "86fcf1ca4e", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, yellow, blue, red, purple, white, orange, black]
+  notes:
+  - ピューロランドパレード『ハロウィンマーチングパレード』
+- title: ハロウィン日出
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15825725781/"}
+  images_flickr: { photo: "15825725781", farm: 8, server: 7580, secret: "30f6013823", secret_h: "783158ae1e", secret_k: "2de945be09", secret_o: "1a424678ef", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [pink, yellow, blue, red, purple, white, orange, black, green]
+  notes:
+  - ハーモニーパーク『ハッピーハロウィーンタイム』
+- title: クリスマス
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15663300017/"}
+  images_flickr: { photo: "15663300017", farm: 8, server: 7538, secret: "d3cc21b2b7", secret_h: "d47cced2de", secret_k: "3a94ff2809", secret_o: "1606857cd5", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [pink, yellow, blue, red, purple, white, silver]
+  notes:
+  - プラザステージ『キティズクリスマスプレイタイム』
+- title: 法被
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14497265557/"}
+  images_flickr: { photo: "14497265557", farm: 3, server: 2904, secret: "af6f551af8", secret_h: "de729fd875", secret_k: "74ce92eda5", secret_o: "8050e4e8c7", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, pink, yellow, blue, purple, white]
+  notes:
+  - ピューロランドパレード『夏フェス☆マーチングパレード』
+  - ピューロランドパレード『夜祭りマーチングパレード』
+- title: イースター
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34428687536/"}
+  images_flickr: { photo: "34428687536", farm: 5, server: 4187, secret: "a311876e36", secret_h: "6864eb1ef5", secret_k: "54c1df0408", secret_o: "801282b15a", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, yellow, blue, red, purple, white]
+  notes:
+  - ピューロランドパレード『イースターセレブレーションパレード』
+- title: りぼん隊
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20545648663/"}
+  images_flickr: { photo: "20545648663", farm: 6, server: 5687, secret: "377d934335", secret_h: "82dfd45919", secret_k: "7ec1de1971", secret_o: "cc67c84034", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, white, red, blue, yellow, purple]
+  notes:
+  - 「ニコ☆プチ」×ぼんぼんりぼんファッションショー
+  - ピューロランドパレード『リリーボンボンズのマーチングパレード』
+  - 知恵の木ステージ『集まれ！めちゃカワっ★ぼんぼんりぼん隊 ミラクル』
+  - 知恵の木ステージ『クラシックバレエスクール ~ぼんぼんりぼんといっしょにおどろう♪~』前期
+- title: ARIGATO EVERYONE
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16272567196/"}
+  images_flickr: { photo: "16272567196", farm: 8, server: 7556, secret: "ea50e4da99", secret_h: "f442864508", secret_k: "1db6541928", secret_o: "9b31e4fbe7", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [purple, pink, blue, white]
+  notes:
+  - ピューロランドパレード『ARIGATO EVERYONE!』
+- title: ARIGATO EVERYONE クリスマス
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15440910574/"}
+  images_flickr: { photo: "15440910574", farm: 8, server: 7464, secret: "a9300764e4", secret_h: "b292005342", secret_k: "7a6fd0b9f0", secret_o: "5eae5d8ccd", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [purple, pink, blue, white, gold, silver, red, green]
+  notes:
+  - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
+- title: OMOIYARI TO YOU
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16050518534/"}
+  images_flickr: { photo: "16050518534", farm: 9, server: 8572, secret: "2d06123972", secret_h: "645bc9bd1e", secret_k: "60c27219a1", secret_o: "aebc101920", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [purple, pink, blue, white]
+  notes:
+  - ピューロランドパレード『OMOIYARI TO YOU』
+- title: Miracle Gift Parade
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34028855016/"}
+  images_flickr: { photo: "34028855016", farm: 4, server: 3941, secret: "9b0dc1bd02", secret_h: "1016df8be7", secret_k: "aa980fc09a", secret_o: "ccdffec285", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, blue, yellow, pink, white, purple, green]
+  notes:
+  - ピューロランドパレード『Miracle Gift Parade』
+- title: パレードパラレル オリジナル
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36236035222/"}
+  images_flickr: { photo: "36236035222", farm: 5, server: 4362, secret: "eecb27c87a", secret_h: "d0a9d9d49f", secret_k: "65c3cdc99b", secret_o: "7ee2a8e557", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, blue, green, purple, pink, yellow]
+  notes:
+  - ハーモニーランドパレード『パレードパラレル』
+- title: パレードパラレル ハロウィーン
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22449622457/"}
+  images_flickr: { photo: "22449622457", farm: 6, server: 5655, secret: "f3d161cf3b", secret_h: "1f38746d71", secret_k: "54c96579e7", secret_o: "0726309986", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, purple, orange, white, black]
+  notes:
+  - ハーモニーランドパレード『パレードパラレル ハロウィーン ver.』
+- title: パレードパラレル クリスマス
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/29246649855/"}
+  images_flickr: { photo: "29246649855", farm: 8, server: 7569, secret: "e0e3e9b843", secret_h: "56207e1138", secret_k: "96e0f20149", secret_o: "583f5f0677", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, white, gold, purple]
+  notes:
+  - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
+- title: パレードパラレル イースター
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/25526927894/"}
+  images_flickr: { photo: "25526927894", farm: 2, server: 1676, secret: "0b970d2958", secret_h: "95c80cbc68", secret_k: "549a7a08c6", secret_o: "9a192df5a6", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, red, orange, yellow, green, blue, white]
+  notes:
+  - ハーモニーランドパレード『パレードパラレル イースター ver.』

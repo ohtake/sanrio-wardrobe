@@ -1,8 +1,7 @@
 ---
-  -
-    title: 標準
-    images_flickr: { photo: "8786294582", farm: 3, server: 2833, secret: "07beb9586f", secret_h: "2b7f53e4e3", secret_k: "385ba4cf8f", secret_o: "a3fd72106f", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8786294582/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["pink", "purple", "white", "blue", "green", "orange"]
-    notes: []
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8786294582/"}
+  images_flickr: { photo: "8786294582", farm: 3, server: 2833, secret: "07beb9586f", secret_h: "2b7f53e4e3", secret_k: "385ba4cf8f", secret_o: "a3fd72106f", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [pink, purple, white, blue, green, orange]
+  notes: []

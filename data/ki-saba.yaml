@@ -1,25 +1,22 @@
 ---
-  -
-    title: 標準
-    images_flickr: { photo: "16678402896", farm: 9, server: 8673, secret: "72b06331d3", secret_h: "1a6bdb2c51", secret_k: "0c7c325759", secret_o: "1cd1a3d345", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16678402896/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["white", "green", "blue", "black"]
-    notes: []
-  -
-    title: エクシャケイズ
-    images_flickr: { photo: "21061063220", farm: 6, server: 5789, secret: "be44f66891", secret_h: "8cf289b0ef", secret_k: "82d2ac12bd", secret_o: "956433c181", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21061063220/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["silver", "orange", "green", "blue", "black"]
-    notes:
-      - 外部イベント『KIRIMIちゃん. エクシャケイズ・オ～ケ～!?』
-  -
-    title: 銀タスキ
-    images_flickr: { photo: "21166745615", farm: 1, server: 733, secret: "681dae3f91", secret_h: "667a533e1a", secret_k: "c49e9dc98f", secret_o: "a3e64b28ec", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21166745615/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["silver", "green", "blue", "black"]
-    notes:
-      - フードマシンレストラン『KIRIMIちゃん. のスペシャルパーティ』
-      - タスキだけがエクシャケイズ仕様
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16678402896/"}
+  images_flickr: { photo: "16678402896", farm: 9, server: 8673, secret: "72b06331d3", secret_h: "1a6bdb2c51", secret_k: "0c7c325759", secret_o: "1cd1a3d345", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [white, green, blue, black]
+  notes: []
+- title: エクシャケイズ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21061063220/"}
+  images_flickr: { photo: "21061063220", farm: 6, server: 5789, secret: "be44f66891", secret_h: "8cf289b0ef", secret_k: "82d2ac12bd", secret_o: "956433c181", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [silver, orange, green, blue, black]
+  notes:
+  - 外部イベント『KIRIMIちゃん. エクシャケイズ・オ～ケ～!?』
+- title: 銀タスキ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/21166745615/"}
+  images_flickr: { photo: "21166745615", farm: 1, server: 733, secret: "681dae3f91", secret_h: "667a533e1a", secret_k: "c49e9dc98f", secret_o: "a3e64b28ec", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [silver, green, blue, black]
+  notes:
+  - フードマシンレストラン『KIRIMIちゃん. のスペシャルパーティ』
+  - タスキだけがエクシャケイズ仕様

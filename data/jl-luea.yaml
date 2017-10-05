@@ -1,17 +1,15 @@
 ---
-  -
-    title: 標準
-    images_flickr: { photo: "13692628425", farm: 8, server: 7125, secret: "76c46050b9", secret_h: "f7cc59f7c1", secret_k: "3f0065ba9d", secret_o: "ae71561476", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13692628425/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["black", "purple"]
-    notes:
-      - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』1着目
-  -
-    title: リトルレディジュエル
-    images_flickr: { photo: "23326519319", farm: 1, server: 571, secret: "212b9f5c1c", secret_h: "0ca715e0df", secret_k: "1b7f491952", secret_o: "01ecae0f8b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23326519319/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["purple", "gold", "white", "black"]
-    notes:
-      - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』2着目
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13692628425/"}
+  images_flickr: { photo: "13692628425", farm: 8, server: 7125, secret: "76c46050b9", secret_h: "f7cc59f7c1", secret_k: "3f0065ba9d", secret_o: "ae71561476", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [black, purple]
+  notes:
+  - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』1着目
+- title: リトルレディジュエル
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23326519319/"}
+  images_flickr: { photo: "23326519319", farm: 1, server: 571, secret: "212b9f5c1c", secret_h: "0ca715e0df", secret_k: "1b7f491952", secret_o: "01ecae0f8b", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [purple, gold, white, black]
+  notes:
+  - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』2着目

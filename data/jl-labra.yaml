@@ -1,54 +1,48 @@
 ---
-  -
-    title: 標準
-    images_flickr: { photo: "16737723512", farm: 9, server: 8590, secret: "8d7b8aef19", secret_h: "12efcd5309", secret_k: "1a50346217", secret_o: "b2ddff9bcb", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16737723512/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["blue", "white", "pink"]
-    notes:
-      - ディスカバリシアター『ジュエルペットとシナモンのみらいレボリューション』
-      - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』1着目
-      - 外部イベント『ルビー・ラブラのジュエルペットとあそぼう！』
-  -
-    title: ハロウィン・シーツ
-    images_instagram: { shortcode: "BZIMrU4HglD", width_t: 150, width_m: 320, width_l: 1080 }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZIMrU4HglD/"}
-    size: { width_o: 1080, height_o: 1176 }
-    colors: ["white", "red", "black"]
-    notes:
-      - ハロウィン
-  -
-    title: ハロウィン・骸骨
-    images_flickr: { photo: "10292272866", farm: 8, server: 7424, secret: "af0b6d3cdf", secret_h: "1c643f8228", secret_k: "c8fe5ef500", secret_o: "e275370f90", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10292272866/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["black", "white", "pink", "purple", "yellow", "orange"]
-    notes:
-      - ピューロランドパレード『ハロウィンマーチングパレード』
-      - ハロウィン
-  -
-    title: クリスマス
-    images_flickr: { photo: "11486593024", farm: 6, server: 5522, secret: "feff454431", secret_h: "83fff221d0", secret_k: "3dbfa0bd16", secret_o: "3656b1743a", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486593024/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["red", "white", "gold", "silver"]
-    notes:
-      - ピューロランドパレード『星空の Happy Party Christmas』
-      - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
-      - クリスマス
-  -
-    title: きら☆デコッ1
-    images_flickr: { photo: "9544082519", farm: 4, server: 3715, secret: "2bc69a2130", secret_h: "5c393639a9", secret_k: "d290225f8e", secret_o: "ccc1365e2b", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9544082519/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["yellow", "blue", "pink", "white"]
-    notes:
-      - ディスカバリシアター『ジュエルペット きら☆デコッ! ミュージカル』1着目
-  -
-    title: きら☆デコッ2
-    images_flickr: { photo: "9546832906", farm: 4, server: 3820, secret: "7774c2a319", secret_h: "6743858893", secret_k: "1bbd6c6230", secret_o: "80e1c38c04", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9546832906/"}
-    size: { width_o: 3840, height_o: 5760 }
-    colors: ["green", "yellow", "blue", "pink", "red", "purple"]
-    notes:
-      - ディスカバリシアター『ジュエルペット きら☆デコッ! ミュージカル』2着目
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16737723512/"}
+  images_flickr: { photo: "16737723512", farm: 9, server: 8590, secret: "8d7b8aef19", secret_h: "12efcd5309", secret_k: "1a50346217", secret_o: "b2ddff9bcb", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [blue, white, pink]
+  notes:
+  - ディスカバリシアター『ジュエルペットとシナモンのみらいレボリューション』
+  - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』1着目
+  - 外部イベント『ルビー・ラブラのジュエルペットとあそぼう！』
+- title: ハロウィン・シーツ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZIMrU4HglD/"}
+  images_instagram: { shortcode: "BZIMrU4HglD", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1176 }
+  colors: [white, red, black]
+  notes:
+  - ハロウィン
+- title: ハロウィン・骸骨
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10292272866/"}
+  images_flickr: { photo: "10292272866", farm: 8, server: 7424, secret: "af0b6d3cdf", secret_h: "1c643f8228", secret_k: "c8fe5ef500", secret_o: "e275370f90", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [black, white, pink, purple, yellow, orange]
+  notes:
+  - ピューロランドパレード『ハロウィンマーチングパレード』
+  - ハロウィン
+- title: クリスマス
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486593024/"}
+  images_flickr: { photo: "11486593024", farm: 6, server: 5522, secret: "feff454431", secret_h: "83fff221d0", secret_k: "3dbfa0bd16", secret_o: "3656b1743a", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [red, white, gold, silver]
+  notes:
+  - ピューロランドパレード『星空の Happy Party Christmas』
+  - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
+  - クリスマス
+- title: きら☆デコッ1
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9544082519/"}
+  images_flickr: { photo: "9544082519", farm: 4, server: 3715, secret: "2bc69a2130", secret_h: "5c393639a9", secret_k: "d290225f8e", secret_o: "ccc1365e2b", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [yellow, blue, pink, white]
+  notes:
+  - ディスカバリシアター『ジュエルペット きら☆デコッ! ミュージカル』1着目
+- title: きら☆デコッ2
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9546832906/"}
+  images_flickr: { photo: "9546832906", farm: 4, server: 3820, secret: "7774c2a319", secret_h: "6743858893", secret_k: "1bbd6c6230", secret_o: "80e1c38c04", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [green, yellow, blue, pink, red, purple]
+  notes:
+  - ディスカバリシアター『ジュエルペット きら☆デコッ! ミュージカル』2着目

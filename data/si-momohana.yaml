@@ -1,16 +1,14 @@
 ---
-  -
-    title: 標準
-    images_flickr: { photo: "9106741639", farm: 6, server: 5486, secret: "76f5de19ea", secret_h: "d8ff09ea18", secret_k: "149ede2227", secret_o: "9e28c0592e", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9106741639/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: []
-    notes: []
-  -
-    title: ハロウィン・クリスマス
-    images_flickr: { photo: "10227920863", farm: 4, server: 3826, secret: "0a5f4c3d39", secret_h: "66bfa4ddda", secret_k: "9ab2e93849", secret_o: "946dbf1d3d", format_o: "jpg" }
-    source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10227920863/"}
-    size: { width_o: 5760, height_o: 3840 }
-    colors: ["silver", "pink", "white", "blue"]
-    notes:
-      - ハロウィン、クリスマス
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9106741639/"}
+  images_flickr: { photo: "9106741639", farm: 6, server: 5486, secret: "76f5de19ea", secret_h: "d8ff09ea18", secret_k: "149ede2227", secret_o: "9e28c0592e", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: []
+  notes: []
+- title: ハロウィン・クリスマス
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10227920863/"}
+  images_flickr: { photo: "10227920863", farm: 4, server: 3826, secret: "0a5f4c3d39", secret_h: "66bfa4ddda", secret_k: "9ab2e93849", secret_o: "946dbf1d3d", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [silver, pink, white, blue]
+  notes:
+  - ハロウィン、クリスマス
