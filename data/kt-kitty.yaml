@@ -136,14 +136,14 @@
   notes:
   - 『ARIGATO EVERYONE!』のアレンジで、胸のタイニーチャムに装飾が追加されている
   - クリスマス
-- title: vEByteMGEs
+- title: 40th 海外
   source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/vEByteMGEs/"}
   images_instagram: { shortcode: "vEByteMGEs", width_t: 150, width_m: 320, width_l: 640 }
   size: { width_o: 640, height_o: 640 }
   colors: [purple, pink, white, brown, green, yellow, blue, gold]
   notes:
   - 『ARIGATO EVERYONE!』とは頭が異なる
-  - アメリカ、ヨーロッパ
+  - アメリカ、ヨーロッパ、香港
 - title: 2jEj0SNovv
   source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/2jEj0SNovv/"}
   images_instagram: { shortcode: "2jEj0SNovv", width_t: 150, width_m: 320, width_l: 640 }
@@ -2847,3 +2847,17 @@
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, black]
   notes: []
+- title: w4EKdzRuee
+  source: { author: "Hello Kitty Secret Garden", license: "", url: "https://www.instagram.com/p/w4EKdzRuee/"}
+  images_instagram: { shortcode: "w4EKdzRuee", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: [black, red, pink]
+  notes:
+  - 香港 Hello Kitty Secret Garden Grand Opening
+- title: 3ElFyBxufS
+  source: { author: "Hello Kitty Secret Garden", license: "", url: "https://www.instagram.com/p/3ElFyBxufS/"}
+  images_instagram: { shortcode: "3ElFyBxufS", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: [blue, gold, white, red]
+  notes:
+  - 香港 Hello Kitty Secret Garden
