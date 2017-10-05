@@ -1,6 +1,5 @@
 ---
--
-  title: 夏フェス
+- title: 夏フェス
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14760362987/"}
   images_flickr: { photo: "14760362987", farm: 6, server: 5564, secret: "ce2c3b42b3", secret_h: "7e02a47ab7", secret_k: "8f08e680c8", secret_o: "e24fdfe51b", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
@@ -9,8 +8,7 @@
   - ピューロランドパレード『夏フェス☆マーチングパレード』
   - エンターテイメントホール『盆踊りグリーティング「ハローキティ音頭」』
   - 浴衣ドレス、和服、夏、バラ
--
-  title: ARIGATO EVERYONE
+- title: ARIGATO EVERYONE
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15605014039/"}
   images_flickr: { photo: "15605014039", farm: 6, server: 5604, secret: "3aa65f125e", secret_h: "2c5f7cc664", secret_k: "31513b8bf6", secret_o: "62624d9ba4", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
@@ -18,8 +16,7 @@
   notes:
   - 『ARIGATO EVERYONE! バースデーセレブレーション』
   - タイニーチャム、熊、水玉、ハート
--
-  title: クリスマス
+- title: クリスマス
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15440940344/"}
   images_flickr: { photo: "15440940344", farm: 9, server: 8609, secret: "cc3ab255cd", secret_h: "1f988c842d", secret_k: "aff529e6d1", secret_o: "911eeee43b", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }

@@ -1,13 +1,11 @@
 ---
--
-  title: 標準
+- title: 標準
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8783840149/"}
   images_flickr: { photo: "8783840149", farm: 4, server: 3758, secret: "e88451171c", secret_h: "b5c433691e", secret_k: "618e122d8d", secret_o: "2d94315668", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
   colors: [green, yellow, red]
   notes: []
--
-  title: 星空のHappy Party Christmas
+- title: 星空のHappy Party Christmas
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ1RqcPhNJX/"}
   images_instagram: { shortcode: "BZ1RqcPhNJX", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 1080 }
@@ -15,8 +13,7 @@
   notes:
   - ピューロランドパレード『星空のHappy Party Christmas』
   - クリスマス
--
-  title: 夏フェス
+- title: 夏フェス
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36531371706/"}
   images_flickr: { photo: "36531371706", farm: 5, server: 4406, secret: "39ebff9114", secret_h: "4e76f0e095", secret_k: "ba2601f1b9", secret_o: "9ef72d09f5", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }

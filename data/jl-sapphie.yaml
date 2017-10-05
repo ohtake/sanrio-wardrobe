@@ -1,6 +1,5 @@
 ---
--
-  title: 標準
+- title: 標準
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27151797191/"}
   images_flickr: { photo: "27151797191", farm: 8, server: 7042, secret: "ac33495703", secret_h: "7c645ab488", secret_k: "c61ad0c5da", secret_o: "4e16f60083", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
@@ -9,40 +8,35 @@
   - ディスカバリシアター『ジュエルペットとシナモンのみらいレボリューション』
   - ディスカバリシアター『レディジュエルペット 魔法のミュージカル! 誕生! リトルレディジュエル』1着目
   - 知恵の木ステージ『ジュエルペットのどきどき!マジカル☆マーチ』
--
-  title: ハロウィン
+- title: ハロウィン
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10495777045/"}
   images_flickr: { photo: "10495777045", farm: 8, server: 7364, secret: "27f4ccf523", secret_h: "55a7a39c96", secret_k: "78fbbe10f6", secret_o: "179982c392", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
   colors: [blue, pink, white]
   notes:
   - ハロウィン
--
-  title: クリスマス
+- title: クリスマス
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24658719310/"}
   images_flickr: { photo: "24658719310", farm: 2, server: 1526, secret: "8c72834056", secret_h: "d44c12f42c", secret_k: "3483b670f0", secret_o: "e01daacbed", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
   colors: [red, white, gold]
   notes:
   - クリスマス
--
-  title: きら☆デコッ1
+- title: きら☆デコッ1
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14310625810/"}
   images_flickr: { photo: "14310625810", farm: 4, server: 3924, secret: "5619089df6", secret_h: "f8ae51a16b", secret_k: "97b2688bf2", secret_o: "7357f71d16", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
   colors: [pink, blue, white]
   notes:
   - ディスカバリシアター『ジュエルペット きら☆デコッ! ミュージカル』1着目
--
-  title: きら☆デコッ2
+- title: きら☆デコッ2
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11377189626/"}
   images_flickr: { photo: "11377189626", farm: 8, server: 7383, secret: "fdec1ae410", secret_h: "fa5af40797", secret_k: "46c245b862", secret_o: "1785014683", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
   colors: [pink, blue, gold, purple, white]
   notes:
   - ディスカバリシアター『ジュエルペット きら☆デコッ! ミュージカル』2着目
--
-  title: リトルレディジュエル
+- title: リトルレディジュエル
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14497242040/"}
   images_flickr: { photo: "14497242040", farm: 6, server: 5591, secret: "0b37c9991f", secret_h: "b7cb444984", secret_k: "3862a8b4df", secret_o: "8033a7a5d5", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
