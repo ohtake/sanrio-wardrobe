@@ -22,6 +22,9 @@ export default class DataFile {
 }
 
 DataFile.all = [
+  DataFile.bnButtonNose = new DataFile('bn-button_nose', 'BN', 'トリシュ', 'Button Nose',
+    // https://www.flickr.com/photos/ohtake_tomohiro/9471261149/
+    'https://c2.staticflickr.com/4/3743/9471261149_df68d034d2_q.jpg'),
   DataFile.boRibbon = new DataFile('bo-ribbon', 'BO', 'りぼん', 'Bonbonribbon',
     // https://www.flickr.com/photos/ohtake_tomohiro/26615555253/
     'https://c2.staticflickr.com/8/7356/26615555253_f77c7410de_q.jpg'),
@@ -120,6 +123,9 @@ DataFile.all = [
   DataFile.tfTurfy = new DataFile('tf-turfy', 'TF', 'ターフィー', 'Turfy',
     // https://www.flickr.com/photos/ohtake_tomohiro/26537496203/
     'https://c2.staticflickr.com/8/7723/26537496203_32e46680ca_q.jpg'),
+  DataFile.tpTinyPoem = new DataFile('tp-tiny_poem', 'TP', 'さっちゃん', 'Tiny Poem',
+    // https://www.flickr.com/photos/ohtake_tomohiro/10495659564/
+    'https://c2.staticflickr.com/8/7390/10495659564_ab4960f63f_q.jpg'),
   DataFile.tsKikiLala = new DataFile('ts-kikilala', 'TS', 'キキ・ララ', 'Kiki & Lala',
     // https://www.flickr.com/photos/ohtake_tomohiro/34278547216/
     'https://c1.staticflickr.com/3/2853/34278547216_91403ea35f_q.jpg'),
