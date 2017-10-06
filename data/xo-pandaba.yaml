@@ -1,0 +1,14 @@
+---
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11665613443/"}
+  images_flickr: { photo: "11665613443", farm: 3, server: 2874, secret: "9474afc0a7", secret_h: "77305aeecc", secret_k: "abc6c1f5e0", secret_o: "520f9d89d1", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red]
+  notes: []
+- title: コズミックファンタジー
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36510161121/"}
+  images_flickr: { photo: "36510161121", farm: 5, server: 4380, secret: "53d0e96505", secret_h: "890f96972e", secret_k: "6d77d71cac", secret_o: "7837d88bd3", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [yellow, green, red, orange]
+  notes:
+  - ピューロランドパレード『コズミックファンタジー』

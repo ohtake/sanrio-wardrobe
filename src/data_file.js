@@ -144,6 +144,12 @@ DataFile.all = [
   DataFile.xoBadtzmaru = new DataFile('xo-badtzmaru', 'XO', 'ばつ丸', 'Badtz-Maru',
     // https://www.flickr.com/photos/ohtake_tomohiro/11150739286/
     'https://c2.staticflickr.com/6/5477/11150739286_bc5251bf3d_q.jpg'),
+  DataFile.xoTsunko = new DataFile('xo-tsunko', 'XO', 'つん子', 'Tsunko',
+    // https://www.flickr.com/photos/ohtake_tomohiro/14045681142/
+    'https://c2.staticflickr.com/6/5270/14045681142_bb5acc9708_q.jpg'),
+  DataFile.xoPandaba = new DataFile('xo-pandaba', 'XO', 'パンダバ', 'Pandaba',
+    // https://www.flickr.com/photos/ohtake_tomohiro/11486667956/
+    'https://c2.staticflickr.com/4/3686/11486667956_5bddc54c75_q.jpg'),
 ];
 
 const map = {};
