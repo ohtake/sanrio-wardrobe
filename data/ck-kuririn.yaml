@@ -1,0 +1,7 @@
+---
+- title: 雨合羽
+  source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16178822176/"}
+  images_flickr: { photo: "16178822176", farm: 9, server: 8642, secret: "1f813f5892", secret_h: "bf450b8c2a", secret_k: "6e049e724d", secret_o: "4dac6bc753", format_o: "jpg" }
+  size: { width_o: 3456, height_o: 5184 }
+  colors: [green, red, yellow, blue]
+  notes: []

@@ -20,3 +20,9 @@
   notes:
   - フードマシンレストラン『KIRIMIちゃん. のスペシャルパーティ』
   - タスキだけがエクシャケイズ仕様
+- title: 正月
+  source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16211707711/"}
+  images_flickr: { photo: "16211707711", farm: 8, server: 7509, secret: "752b4d0d56", secret_h: "ca437635ab", secret_k: "c9819c54aa", secret_o: "4ba9c587b3", format_o: "jpg" }
+  size: { width_o: 5184, height_o: 3456 }
+  colors: [white, orange, blue, black, gold]
+  notes: []

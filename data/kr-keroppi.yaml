@@ -99,6 +99,12 @@
   colors: [red, black, white, purple, orange]
   notes:
   - ピューロランドパレード『ハロウィンマーチングパレード』
+- title: IMG_6088
+  source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/23705024104/"}
+  images_flickr: { photo: "23705024104", farm: 2, server: 1564, secret: "48b014ed5d", secret_h: "e488fe84ad", secret_k: "aae6db696c", secret_o: "b0bbf49d53", format_o: "jpg" }
+  size: { width_o: 5184, height_o: 3456 }
+  colors: [gold, silver, green]
+  notes: []
 - title: flickr-18821205425
   source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
   images_flickr: { photo: "18821205425", farm: 6, server: 5572, secret: "913cfbbf5f", secret_h: "f3bd32f2d9", secret_k: "486efad1f7" }
