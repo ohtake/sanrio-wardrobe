@@ -306,6 +306,13 @@
   colors: [white, red, green]
   notes:
   - イチゴ
+- title: BZ8kusfHXDW
+  source: { author: "poporondance", license: "", url: "https://www.instagram.com/p/BZ8kusfHXDW/"}
+  images_instagram: { shortcode: "BZ8kusfHXDW", width_t: 150, width_m: 320, width_l: 768 }
+  size: { width_o: 768, height_o: 960 }
+  colors: [white, green, red, black]
+  notes:
+  - コック帽
 - title: 5D3N9349
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14470656371/"}
   images_flickr: { photo: "14470656371", farm: 6, server: 5594, secret: "7ee4b25fb8", secret_h: "5dfa878e0b", secret_k: "f55f4ce1a8", secret_o: "b8d6453838", format_o: "jpg" }
