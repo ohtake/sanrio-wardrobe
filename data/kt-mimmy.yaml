@@ -134,6 +134,20 @@
   notes:
   - メルヘンシアター『不思議の国のハローキティ』レビュー2着目
   - バラ、羽、シャンシャン
+- title: フェアリードリーム1
+  source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/2872705408/"}
+  images_flickr: { photo: "2872705408", farm: 4, server: 3020, secret: "061b6bfd0b", before: "20100525" }
+  size: { width_o: 640, height_o: 480 }
+  colors: [green, yellow]
+  notes:
+  - フェアリーランドシアター『フェアリードリーム』1着目
+- title: フェアリードリーム2
+  source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/2872705492/"}
+  images_flickr: { photo: "2872705492", farm: 4, server: 3224, secret: "45d8c91143", before: "20100525" }
+  size: { width_o: 640, height_o: 480 }
+  colors: [yellow, green, red]
+  notes:
+  - フェアリーランドシアター『フェアリードリーム』2着目
 - title: 5D3O4941
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14703524003/"}
   images_flickr: { photo: "14703524003", farm: 4, server: 3841, secret: "9219858dc1", secret_h: "7cb075e5db", secret_k: "06d4815ecc", secret_o: "843c648773", format_o: "jpg" }

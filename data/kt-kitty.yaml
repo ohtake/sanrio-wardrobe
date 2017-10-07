@@ -336,6 +336,21 @@
   notes:
   - メルヘンシアター『不思議の国のハローキティ』レビュー2着目
   - 羽、ズボン、帽子、シャンシャン、男装
+- title: フェアリードリーム1
+  source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/2872705408/"}
+  images_flickr: { photo: "2872705408", farm: 4, server: 3020, secret: "061b6bfd0b", before: "20100525" }
+  size: { width_o: 640, height_o: 480 }
+  colors: [green, pink]
+  notes:
+  - フェアリーランドシアター『フェアリードリーム』1着目
+- title: フェアリードリーム2
+  source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/2872705492/"}
+  images_flickr: { photo: "2872705492", farm: 4, server: 3224, secret: "45d8c91143", before: "20100525" }
+  size: { width_o: 640, height_o: 480 }
+  colors: [pink, green, red]
+  notes:
+  - フェアリーランドシアター『フェアリードリーム』2着目
+  - 2017年2月のSANRIO EXPOでの表記は「フラワー（春）」
 - title: 5D3W8092
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23585887112/"}
   images_flickr: { photo: "23585887112", farm: 6, server: 5708, secret: "7b2c1b6867", secret_h: "f27bb28841", secret_k: "318cba9c8e", secret_o: "7398a4229a", format_o: "jpg" }
