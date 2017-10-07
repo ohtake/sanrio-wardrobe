@@ -25,6 +25,9 @@ DataFile.all = [
   DataFile.arRetsuko = new DataFile('ar-retsuko', 'AR', '烈子', 'Aggretsuko',
     // https://www.flickr.com/photos/ohtake_tomohiro/27566187616/
     'https://c2.staticflickr.com/8/7138/27566187616_3d205ce5f6_q.jpg'),
+  DataFile.azClara = new DataFile('az-clara', 'AZ', 'クララ', 'Clara',
+    // https://www.flickr.com/photos/ohtake_tomohiro/15764814980/
+    'https://c2.staticflickr.com/8/7499/15764814980_e84d364549_q.jpg'),
   DataFile.bnButtonNose = new DataFile('bn-button_nose', 'BN', 'トリシュ', 'Button Nose',
     // https://www.flickr.com/photos/ohtake_tomohiro/9471261149/
     'https://c2.staticflickr.com/4/3743/9471261149_df68d034d2_q.jpg'),
@@ -38,6 +41,9 @@ DataFile.all = [
   DataFile.cyCharmmy = new DataFile('cy-charmmy', 'CY', 'チャーミー', 'Charmmy Kitty',
     // https://www.flickr.com/photos/ohtake_tomohiro/10671752346/
     'https://c2.staticflickr.com/8/7451/10671752346_15ebdc7e66_q.jpg'),
+  DataFile.cyHoneucute = new DataFile('cy-honeycute', 'CY', 'ハニーキュート', 'Honeycute',
+    // https://www.flickr.com/photos/ohtake_tomohiro/9899556945/
+    'https://c1.staticflickr.com/3/2867/9899556945_9a52b72a12_q.jpg'),
   DataFile.dnDaniel = new DataFile('dn-daniel', 'DN', 'ダニエル', 'Daniel', ''),
   DataFile.gpGochan = new DataFile('gp-gochan', 'GP', 'ゴーちゃん。', 'Go-chan.',
     // https://www.flickr.com/photos/ohtake_tomohiro/8784705396/
