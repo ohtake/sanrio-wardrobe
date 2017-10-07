@@ -316,7 +316,7 @@
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/8991669805/"}
   images_flickr: { photo: "8991669805", farm: 3, server: 2864, secret: "367de01085", secret_h: "d6068141ca", secret_k: "92c9896f9a", secret_o: "120524ae75", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [pink, brown]
+  colors: [pink, brown, white, black]
   notes:
   - メルヘンシアター『不思議の国のハローキティ』配達人
   - コート、帽子、Delivery Door to Door

@@ -28,6 +28,9 @@ DataFile.all = [
   DataFile.azClara = new DataFile('az-clara', 'AZ', 'クララ', 'Clara',
     // https://www.flickr.com/photos/ohtake_tomohiro/15764814980/
     'https://c2.staticflickr.com/8/7499/15764814980_e84d364549_q.jpg'),
+  DataFile.azKyle = new DataFile('az-kyle', 'AZ', 'カイル', 'Kyle',
+    // https://www.flickr.com/photos/ohtake_tomohiro/35873908813/
+    'https://c1.staticflickr.com/5/4368/35873908813_78317ae374_q.jpg'),
   DataFile.bnButtonNose = new DataFile('bn-button_nose', 'BN', 'トリシュ', 'Button Nose',
     // https://www.flickr.com/photos/ohtake_tomohiro/9471261149/
     'https://c2.staticflickr.com/4/3743/9471261149_df68d034d2_q.jpg'),

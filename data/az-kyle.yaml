@@ -1,0 +1,36 @@
+---
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32448493170/"}
+  images_flickr: { photo: "32448493170", farm: 3, server: 2867, secret: "13827fcb40", secret_h: "8b075d3725", secret_k: "18ea76f5e8", secret_o: "06fda89161", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, black, white, gold]
+  notes:
+  - メルヘンシアター『不思議の国のハローキティ』3着目
+- title: 黒メガネ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36287671930/"}
+  images_flickr: { photo: "36287671930", farm: 5, server: 4427, secret: "002e92bd42", secret_h: "67dcfde4cd", secret_k: "aead49aba8", secret_o: "5a548f1bd1", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, black, white, gold]
+  notes:
+  - メルヘンシアター『不思議の国のハローキティ』1着目
+- title: メガネなし
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9656306420/"}
+  images_flickr: { photo: "9656306420", farm: 4, server: 3800, secret: "2858fd47e4", secret_h: "24d2854134", secret_k: "bbd05d9623", secret_o: "4b1cd006d8", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [red, black, white, gold]
+  notes:
+  - メルヘンシアター『不思議の国のハローキティ』2着目
+- title: 配達員
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10495235436/"}
+  images_flickr: { photo: "10495235436", farm: 4, server: 3714, secret: "332a35e8b9", secret_h: "54ded0cab7", secret_k: "c4fd84572f", secret_o: "3b84641b88", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [pink, brown, white, red, black]
+  notes:
+  - メルヘンシアター『不思議の国のハローキティ』4着目
+- title: リボン隊
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13002814464/"}
+  images_flickr: { photo: "13002814464", farm: 3, server: 2508, secret: "b3f0d2ca97", secret_h: "30ac303bb3", secret_k: "3525bf437a", secret_o: "5c38e7a4c4", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, black, white, gold, pink]
+  notes:
+  - ピューロランドパレード『リリーボンボンズのマーチングパレード』
