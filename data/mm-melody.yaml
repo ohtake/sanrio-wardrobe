@@ -489,6 +489,7 @@
   colors: [pink, white, red]
   notes:
   - 外部イベント『ハローキティのラブリーステージ！』
+  - BSフジ『サンリオキャラクターズ ポンポンジャンプ！』
 - title: リボンの国の音もだち
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30809348055/"}
   images_flickr: { photo: "30809348055", farm: 6, server: 5748, secret: "deb667ab49", secret_h: "df128e4ce4", secret_k: "20a89d8a23", secret_o: "b94c5f3c7b", format_o: "jpg" }
