@@ -140,7 +140,7 @@
   source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/vEByteMGEs/"}
   images_instagram: { shortcode: "vEByteMGEs", width_t: 150, width_m: 320, width_l: 640 }
   size: { width_o: 640, height_o: 640 }
-  colors: [purple, pink, white, brown, green, yellow, blue, gold]
+  colors: [purple, pink, white, brown, green, yellow, blue]
   notes:
   - 『ARIGATO EVERYONE!』とは頭が異なる
   - アメリカ、ヨーロッパ、香港
@@ -148,7 +148,7 @@
   source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/2jEj0SNovv/"}
   images_instagram: { shortcode: "2jEj0SNovv", width_t: 150, width_m: 320, width_l: 640 }
   size: { width_o: 640, height_o: 640 }
-  colors: [purple, pink, white, brown, green, yellow, blue, gold, red]
+  colors: [purple, pink, white, brown, green, yellow, blue, red]
   notes:
   - 海外版『ARIGATO EVERYONE!』とはさらに袖が異なる
   - アメリカ

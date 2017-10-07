@@ -22,6 +22,9 @@ export default class DataFile {
 }
 
 DataFile.all = [
+  DataFile.arRetsuko = new DataFile('ar-retsuko', 'AR', '烈子', 'Aggretsuko',
+    // https://www.flickr.com/photos/ohtake_tomohiro/27566187616/
+    'https://c2.staticflickr.com/8/7138/27566187616_3d205ce5f6_q.jpg'),
   DataFile.bnButtonNose = new DataFile('bn-button_nose', 'BN', 'トリシュ', 'Button Nose',
     // https://www.flickr.com/photos/ohtake_tomohiro/9471261149/
     'https://c2.staticflickr.com/4/3743/9471261149_df68d034d2_q.jpg'),
@@ -87,6 +90,9 @@ DataFile.all = [
   DataFile.krKeroppi = new DataFile('kr-keroppi', 'KR', 'けろっぴ', 'Keroppi',
     // https://www.flickr.com/photos/ohtake_tomohiro/9899607996/
     'https://c2.staticflickr.com/4/3665/9899607996_06ac4f8fa0_q.jpg'),
+  DataFile.krKeroleen = new DataFile('kr-keroleen', 'KR', 'けろりーぬ', 'Keroleen',
+    // https://www.flickr.com/photos/ohtake_tomohiro/12146042775/
+    'https://c2.staticflickr.com/4/3833/12146042775_2db875c152_q.jpg'),
   DataFile.ktKitty = new DataFile('kt-kitty', 'KT', 'キティ', 'Kitty',
     // https://www.flickr.com/photos/ohtake_tomohiro/16492066909/
     'https://c1.staticflickr.com/9/8575/16492066909_3fcda0e4e4_q.jpg'),
