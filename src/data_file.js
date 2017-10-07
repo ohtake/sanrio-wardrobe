@@ -66,6 +66,9 @@ DataFile.all = [
   DataFile.guGudetama = new DataFile('gu-gudetama', 'GU', 'ぐでたま', 'Gudetama',
     // https://www.flickr.com/photos/ohtake_tomohiro/14834955654/
     'https://c2.staticflickr.com/6/5556/14834955654_c2887b9976_q.jpg'),
+  DataFile.hgHangyodon = new DataFile('hg-hangyodon', 'HG', 'ハンギョドン', 'Hangyodon',
+    // https://www.flickr.com/photos/ohtake_tomohiro/9866207046/
+    'https://c2.staticflickr.com/6/5487/9866207046_2f55befe93_q.jpg'),
   DataFile.hmHoneyMomo = new DataFile('hm-honey_momo', 'HM', 'ハニーモモ', 'Honey Momo',
     // https://www.flickr.com/photos/ohtake_tomohiro/9054267360/
     'https://c1.staticflickr.com/3/2815/9054267360_4293f933fa_q.jpg'),
@@ -129,6 +132,9 @@ DataFile.all = [
   DataFile.ktTinyChum = new DataFile('kt-tiny_chum', 'KT', 'タイニーチャム', 'Tiny Chum',
     // https://www.flickr.com/photos/ohtake_tomohiro/14914616744/
     'https://c2.staticflickr.com/6/5615/14914616744_f9dbf8bb21_q.jpg'),
+  DataFile.lfMeroo = new DataFile('lf-meroo', 'LF', 'めろぉ', 'Little Forest Fellow',
+    // https://www.flickr.com/photos/ohtake_tomohiro/37013106492/
+    'https://c1.staticflickr.com/5/4345/37013106492_29e0189365_q.jpg'),
   DataFile.maMarron = new DataFile('ma-marron', 'MA', 'マロン', 'Marroncream',
     // https://www.flickr.com/photos/ohtake_tomohiro/8920484088/
     'https://c2.staticflickr.com/8/7399/8920484088_2cc2d90ac8_q.jpg'),
