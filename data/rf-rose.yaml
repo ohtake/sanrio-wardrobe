@@ -1,0 +1,8 @@
+---
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36252076520/"}
+  images_flickr: { photo: "36252076520", farm: 5, server: 4357, secret: "c493e28231", secret_h: "652640df29", secret_k: "f24fd85521", secret_o: "2a32f1288d", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [black, purple, pink, red]
+  notes:
+  - 知恵の木ステージ『リルリルフェアリル大行進 ~リトルフェアリルへようこそ~』

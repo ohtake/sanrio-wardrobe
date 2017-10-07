@@ -159,6 +159,21 @@ DataFile.all = [
   DataFile.pnPurin = new DataFile('pn-purin', 'PN', 'プリン', 'Pompompurin',
     // https://www.flickr.com/photos/ohtake_tomohiro/14771707617/
     'https://c2.staticflickr.com/4/3861/14771707617_2f9f4d367e_q.jpg'),
+  DataFile.rfLip = new DataFile('rf-lip', 'RF', 'りっぷ', 'Lip',
+    // https://www.flickr.com/photos/ohtake_tomohiro/28684162480/
+    'https://c1.staticflickr.com/9/8053/28684162480_2a328e0696_q.jpg'),
+  DataFile.rfHimawari = new DataFile('rf-himawari', 'RF', 'ひまわり', 'Himawari',
+    // https://www.flickr.com/photos/ohtake_tomohiro/30741534082/
+    'https://c2.staticflickr.com/6/5797/30741534082_5a6d12ccee_q.jpg'),
+  DataFile.rfSumire = new DataFile('rf-sumire', 'RF', 'すみれ', 'Sumire',
+    // https://www.flickr.com/photos/ohtake_tomohiro/36166420492/
+    'https://c1.staticflickr.com/5/4375/36166420492_728617e8a8_q.jpg'),
+  DataFile.rfRose = new DataFile('rf-rose', 'RF', 'ローズ', 'Rose',
+    // https://www.flickr.com/photos/ohtake_tomohiro/33939672851/
+    'https://c2.staticflickr.com/4/3955/33939672851_a0dff27489_q.jpg'),
+  DataFile.rfRin = new DataFile('rf-rin', 'RF', 'りん', 'Rin',
+    // https://www.flickr.com/photos/ohtake_tomohiro/34443923456/
+    'https://c1.staticflickr.com/5/4185/34443923456_5343fb4a94_q.jpg'),
   DataFile.siMomohana = new DataFile('si-momohana', 'SI', 'ももうさ・はなうさ', 'Momousa & Hanausa',
     // https://www.flickr.com/photos/ohtake_tomohiro/10113617364/
     'https://c2.staticflickr.com/4/3672/10113617364_3746095a60_q.jpg'),
