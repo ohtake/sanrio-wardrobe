@@ -91,13 +91,13 @@ export default class Home extends React.Component {
         <h2>Featured characters</h2>
         <FullWidthContainer
           renderElement={width => (
-            <JustifiedLayout targetRowHeight={120} containerWidth={width} childObjects={featured} mapperToElement={curry(renderTile)('featured')} />
+            <JustifiedLayout targetRowHeight={this.context.thumbnailSize} containerWidth={width} childObjects={featured} mapperToElement={curry(renderTile)('featured')} />
           )}
         />
         <h2>All characters</h2>
         <FullWidthContainer
           renderElement={width => (
-            <JustifiedLayout targetRowHeight={120} containerWidth={width} childObjects={DataFile.all} mapperToElement={curry(renderTile)('all')} />
+            <JustifiedLayout targetRowHeight={this.context.thumbnailSize} containerWidth={width} childObjects={DataFile.all} mapperToElement={curry(renderTile)('all')} />
           )}
         />
         <h2>License</h2>
@@ -120,4 +120,5 @@ export default class Home extends React.Component {
 Home.contextTypes = {
   muiTheme: PropTypes.object.isRequired,
   setTitle: PropTypes.func,
+  thumbnailSize: PropTypes.number,
 };
