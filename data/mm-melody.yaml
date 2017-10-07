@@ -545,27 +545,34 @@
   notes:
   - ストロベリーホール『My Melody in Akazukin』
   - ハーモニーランドイベントホール『My Melody in Akazukin』
-- title: LIZ LISA 1
+- title: LIZ LISA ダイヤ花柄
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZGjY2HnDNF/"}
   images_instagram: { shortcode: "BZGjY2HnDNF", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 1080 }
   colors: [brown, pink, white]
   notes:
-  - LIZ LISA コラボ
-- title: LIZ LISA 2
+  - LIZ LISA コラボ第1弾 ダイヤ花柄ワンピース
+- title: LIZ LISA ちょうちょ花柄
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZGkzAQHhuQ/"}
   images_instagram: { shortcode: "BZGkzAQHhuQ", width_t: 150, width_m: 320, width_l: 720 }
   size: { width_o: 720, height_o: 900 }
   colors: [yellow, pink, white]
   notes:
-  - LIZ LISA コラボ
-- title: LIZ LISA 3
+  - LIZ LISA コラボ第2弾 ちょうちょ花柄ワンピース
+- title: LIZ LISA レースフレア
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9535793589/"}
   images_flickr: { photo: "9535793589", farm: 3, server: 2841, secret: "58a811ba60", secret_h: "6c148360d2", secret_k: "ca3addb873", secret_o: "b8249c1106", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
   colors: [pink, white]
   notes:
-  - LIZ LISA コラボ
+  - LIZ LISA コラボ第3弾 レースフレアワンピース
+- title: LIZ LISA 天使柄
+  source: { author: "yuunaaaaa29", license: "CC BY 2.0", url: "https://www.instagram.com/p/sV3gO2QagB/"}
+  images_instagram: { shortcode: "sV3gO2QagB", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: [blue, white, pink]
+  notes:
+  - LIZ LISA コラボ第4弾 天使柄ジャンスカ
 - title: Kawaii Paradise
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29920450780/"}
   images_flickr: { photo: "29920450780", farm: 8, server: 7509, secret: "93e545d57d", secret_h: "b80622c20e", secret_k: "26e91ac4fa", secret_o: "ae46788e56", format_o: "jpg" }
