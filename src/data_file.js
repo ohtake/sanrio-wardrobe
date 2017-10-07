@@ -171,6 +171,12 @@ DataFile.all = [
   DataFile.pjPattyJimmy = new DataFile('pj-patty_jimmy', 'PJ', 'パティ・ジミー', 'Patty & Jimmy',
     // https://www.flickr.com/photos/ohtake_tomohiro/15332619513/
     'https://c2.staticflickr.com/8/7472/15332619513_850410db88_q.jpg'),
+  DataFile.pkPokopon = new DataFile('pk-pokopon', 'PK', 'ぽこぽん', 'Pokopon',
+    // https://www.flickr.com/photos/ohtake_tomohiro/11486587094/
+    'https://c2.staticflickr.com/4/3687/11486587094_569f84f7ca_q.jpg'),
+  DataFile.pkHana = new DataFile('pk-hana', 'PK', '花', 'Hana',
+    // https://www.flickr.com/photos/ohtake_tomohiro/8784935598/
+    'https://c1.staticflickr.com/9/8271/8784935598_eccdc89f9b_q.jpg'),
   DataFile.pnPurin = new DataFile('pn-purin', 'PN', 'プリン', 'Pompompurin',
     // https://www.flickr.com/photos/ohtake_tomohiro/14771707617/
     'https://c2.staticflickr.com/4/3861/14771707617_2f9f4d367e_q.jpg'),

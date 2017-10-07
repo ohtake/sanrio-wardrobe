@@ -1,0 +1,26 @@
+---
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10776723225/"}
+  images_flickr: { photo: "10776723225", farm: 4, server: 3747, secret: "d6a5efe481", secret_h: "fc08ce6184", secret_k: "af7d946a30", secret_o: "45b1c57a32", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [blue, red, green, white] # white は下着
+  notes: []
+- title: 盆踊り
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14863592835/"}
+  images_flickr: { photo: "14863592835", farm: 4, server: 3880, secret: "eb3e932bc8", secret_h: "7ce92f2c8d", secret_k: "d41d46f36d", secret_o: "a48162b74d", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [blue, red, green, white, brown]
+  notes:
+  - 落合夏祭盆踊り大会
+- title: 袴
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12146006875/"}
+  images_flickr: { photo: "12146006875", farm: 8, server: 7320, secret: "83b1f5b4fe", secret_h: "a160976377", secret_k: "d29c2cc205", secret_o: "a84a21c4f3", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [purple, gold, silver, blue, white, orange]
+  notes: []
+- title: IMG_1408
+  source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16194161285/"}
+  images_flickr: { photo: "16194161285", farm: 8, server: 7517, secret: "061b3a4ccf", secret_h: "bcbd0b5b59", secret_k: "fa61307dce", secret_o: "faa1e4e109", format_o: "jpg" }
+  size: { width_o: 5184, height_o: 3456 }
+  colors: [gold, silver, pink]
+  notes: []
