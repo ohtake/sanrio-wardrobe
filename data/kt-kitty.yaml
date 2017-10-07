@@ -2499,17 +2499,24 @@
   notes:
   - アメリカ Macys Presents Fashion's Front Row
 - title: Torrid 2016
-  source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BH5M5ZsB9JA/"}
-  images_instagram: { shortcode: "BH5M5ZsB9JA", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 809 }
-  colors: [red, black, white]
+  source: { author: "tessholliday", license: "", url: "https://www.instagram.com/p/BH5zZ-5Bii4/"}
+  images_instagram: { shortcode: "BH5zZ-5Bii4", width_t: 150, width_m: 320, width_l: 841 }
+  size: { width_o: 841, height_o: 944 }
+  colors: [red, blue, white]
   notes:
   - アメリカ Torrid
-- title: Torrid 2017
-  source: { author: "curvygirlchic", license: "", url: "https://www.instagram.com/p/BXgUqsZBlTI/"}
-  images_instagram: { shortcode: "BXgUqsZBlTI", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 1349 }
+- title: Torrid 2017A
+  source: { author: "the_loveless", license: "", url: "https://www.instagram.com/p/BWbuibijgGP/"}
+  images_instagram: { shortcode: "BWbuibijgGP", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
   colors: [black, pink, white]
+  notes:
+  - アメリカ Torrid
+- title: Torrid 2017B
+  source: { author: "kenzie787", license: "", url: "https://www.instagram.com/p/BZ9hES5gCGm/"}
+  images_instagram: { shortcode: "BZ9hES5gCGm", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [pink, black, white]
   notes:
   - アメリカ Torrid
 - title: Vans
