@@ -114,12 +114,21 @@ DataFile.all = [
   DataFile.maMarron = new DataFile('ma-marron', 'MA', 'マロン', 'Marroncream',
     // https://www.flickr.com/photos/ohtake_tomohiro/8920484088/
     'https://c2.staticflickr.com/8/7399/8920484088_2cc2d90ac8_q.jpg'),
+  DataFile.mfMoppu = new DataFile('mf-moppu', 'MF', 'モップ', 'Marumofubiyori',
+    // https://www.flickr.com/photos/ohtake_tomohiro/34310073122/
+    'https://c1.staticflickr.com/5/4168/34310073122_913cbfdd04_q.jpg'),
   DataFile.mmMelody = new DataFile('mm-melody', 'MM', 'メロディ', 'My Melody',
     // https://www.flickr.com/photos/ohtake_tomohiro/36403930305/
     'https://c1.staticflickr.com/5/4403/36403930305_046b88a615_q.jpg'),
+  DataFile.mmUsamimiKamen = new DataFile('mm-usamimi_kamen', 'MM', 'ウサミミ仮面', 'Usamimi Kamen',
+    // https://www.flickr.com/photos/ohtake_tomohiro/14546836441/
+    'https://c2.staticflickr.com/4/3860/14546836441_3867651b8c_q.jpg'),
   DataFile.mpPiano = new DataFile('mp-piano', 'MP', 'ピアノ', 'Piano',
     // https://www.flickr.com/photos/ohtake_tomohiro/14516998051/
     'https://c2.staticflickr.com/4/3858/14516998051_193a041d57_q.jpg'),
+  DataFile.nnNoraneko = new DataFile('nn-noraneko', 'NN', 'クロ・トラ・ミケ', 'Noranekoland',
+    // https://www.flickr.com/photos/ohtake_tomohiro/9329259725/
+    'https://c1.staticflickr.com/3/2879/9329259725_57c2a9c460_q.jpg'),
   DataFile.omMonkichi = new DataFile('om-monkichi', 'OM', 'もんきち', 'Monkichi',
     // https://www.flickr.com/photos/ohtake_tomohiro/8815679895/
     'https://c2.staticflickr.com/8/7321/8815679895_2d371a9d73_q.jpg'),

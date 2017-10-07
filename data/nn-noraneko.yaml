@@ -1,0 +1,7 @@
+---
+- title: 全裸
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9329262611/"}
+  images_flickr: { photo: "9329262611", farm: 6, server: 5466, secret: "760844afb8", secret_h: "7a5d6fa297", secret_k: "211b0740da", secret_o: "32b06c7b66", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: []
+  notes: []
