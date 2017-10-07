@@ -48,6 +48,9 @@ DataFile.all = [
   DataFile.gpGochan = new DataFile('gp-gochan', 'GP', 'ゴーちゃん。', 'Go-chan.',
     // https://www.flickr.com/photos/ohtake_tomohiro/8784705396/
     'https://c2.staticflickr.com/8/7401/8784705396_669ef592b3_q.jpg'),
+  DataFile.gpGochan = new DataFile('gp-moffun', 'GP', 'モッフン', 'Moffy',
+    // https://www.flickr.com/photos/ohtake_tomohiro/33950392394/
+    'https://c1.staticflickr.com/5/4276/33950392394_c422e36b05_q.jpg'),
   DataFile.guGudetama = new DataFile('gu-gudetama', 'GU', 'ぐでたま', 'Gudetama',
     // https://www.flickr.com/photos/ohtake_tomohiro/14834955654/
     'https://c2.staticflickr.com/6/5556/14834955654_c2887b9976_q.jpg'),
@@ -144,6 +147,10 @@ DataFile.all = [
   DataFile.siMomohana = new DataFile('si-momohana', 'SI', 'ももうさ・はなうさ', 'Momousa & Hanausa',
     // https://www.flickr.com/photos/ohtake_tomohiro/10113617364/
     'https://c2.staticflickr.com/4/3672/10113617364_3746095a60_q.jpg'),
+  DataFile.skStrawberryKing = new DataFile('sk-strawberry_king', 'SK', 'いちごの王さま', 'Strawberry King', ''),
+  DataFile.szMenta = new DataFile('sz-menta', 'SZ', 'メンタ', 'Shinkaizoku',
+    // https://www.flickr.com/photos/ohtake_tomohiro/27518650642/
+    'https://c2.staticflickr.com/8/7317/27518650642_3d631c2bf9_q.jpg'),
   DataFile.tfTurfy = new DataFile('tf-turfy', 'TF', 'ターフィー', 'Turfy',
     // https://www.flickr.com/photos/ohtake_tomohiro/26537496203/
     'https://c2.staticflickr.com/8/7723/26537496203_32e46680ca_q.jpg'),

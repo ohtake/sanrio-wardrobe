@@ -1,0 +1,7 @@
+---
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ8AVLqhrMn/"}
+  images_instagram: { shortcode: "BZ8AVLqhrMn", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 840 }
+  colors: [red, green, white, gold]
+  notes: []

@@ -1,0 +1,7 @@
+---
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33950392394/"}
+  images_flickr: { photo: "33950392394", farm: 5, server: 4276, secret: "c422e36b05", secret_h: "9b0b6cd503", secret_k: "1f380cf1ad", secret_o: "66a6427cda", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: []
+  notes: []
