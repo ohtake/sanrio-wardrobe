@@ -1,0 +1,9 @@
+---
+- title: りぼん隊
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14239627727/"}
+  images_flickr: { photo: "14239627727", farm: 3, server: 2929, secret: "86f0b8e737", secret_h: "23e9a94b63", secret_k: "939868c904", secret_o: "928e970499", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [blue, pink, white, purple, red]
+  notes:
+  - 知恵の木ステージ『集まれ！めちゃカワっ★ぼんぼんりぼん隊 ミラクル』
+  - ピューロランドパレード『リリーボンボンズのマーチングパレード』

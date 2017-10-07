@@ -34,6 +34,15 @@ DataFile.all = [
   DataFile.boRibbon = new DataFile('bo-ribbon', 'BO', 'りぼん', 'Bonbonribbon',
     // https://www.flickr.com/photos/ohtake_tomohiro/26615555253/
     'https://c2.staticflickr.com/8/7356/26615555253_f77c7410de_q.jpg'),
+  DataFile.boMimi = new DataFile('bo-mimi', 'BO', 'ミミ', 'Milkeemimi',
+    // https://www.flickr.com/photos/ohtake_tomohiro/35379377232/
+    'https://c1.staticflickr.com/5/4242/35379377232_7ec5af77e4_q.jpg'),
+  DataFile.boFlora = new DataFile('bo-flora', 'BO', 'フローラ', 'Lalalafrola',
+    // https://www.flickr.com/photos/ohtake_tomohiro/16737597941/
+    'https://c1.staticflickr.com/9/8594/16737597941_cbdee4a609_q.jpg'),
+  DataFile.boLulu = new DataFile('bo-lulu', 'BO', 'ルル', 'Roonroonlulu',
+    // https://www.flickr.com/photos/ohtake_tomohiro/28310489531/
+    'https://c2.staticflickr.com/8/7755/28310489531_9cbb5a0199_q.jpg'),
   DataFile.cnCinnamon = new DataFile('cn-cinnamon', 'CN', 'シナモン', 'Cinnamon',
     // https://www.flickr.com/photos/ohtake_tomohiro/9544085163/
     'https://c1.staticflickr.com/3/2818/9544085163_5092625ee9_q.jpg'),
