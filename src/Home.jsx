@@ -6,6 +6,8 @@ import Avatar from 'material-ui/Avatar';
 import FlatButton from 'material-ui/FlatButton';
 import EditorShowChart from 'material-ui/svg-icons/editor/show-chart';
 
+import curry from 'lodash/curry';
+
 import JustifiedLayout from './JustifiedLayout';
 import FullWidthContainer from './FullWidthContainer';
 import DataFile from './data_file';
@@ -36,12 +38,13 @@ const styleImg = {
 
 /**
  * @private
+ * @param {string} gaEventAction
  * @param {DataFile} c
  * @returns {React.Element}
  */
-function renderTile(c) {
+function renderTile(gaEventAction, c) {
   return (
-    <Link key={c.name} to={`/chara/${c.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="homeTile" data-ga-event-label={c.name}>
+    <Link key={c.name} to={`/chara/${c.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventAction} data-ga-event-label={c.name}>
       <div>
         <div style={styleSymbol}>{c.seriesSymbol}</div>
         <div style={styleTitleOuter}>
@@ -63,6 +66,14 @@ export default class Home extends React.Component {
     this.context.setTitle();
   }
   render() {
+    const featured = [
+      DataFile.ktKitty,
+      DataFile.mmMelody,
+      DataFile.tsKikiLala,
+      DataFile.xoBadtzmaru,
+      DataFile.cnCinnamon,
+      DataFile.pnPurin,
+    ];
     return (
       <div>
         <a href="https://github.com/ohtake/sanrio-wardrobe">
@@ -74,15 +85,19 @@ export default class Home extends React.Component {
           />
         </a>
         <p style={{ paddingRight: '150px' }}>Unofficial listings of Sanrio character costumes</p>
-        <p>
-          <Link to="/statistics" data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="homeTile" data-ga-event-label="statistics">
-            <FlatButton label="Statistics" icon={<EditorShowChart />} />
-          </Link>
-        </p>
-        <h2>Characters</h2>
+        <Link to="/statistics" data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="homeTile" data-ga-event-label="statistics">
+          <FlatButton label="Statistics" icon={<EditorShowChart />} />
+        </Link>
+        <h2>Featured characters</h2>
         <FullWidthContainer
           renderElement={width => (
-            <JustifiedLayout targetRowHeight={120} containerWidth={width} childObjects={DataFile.all} mapperToElement={renderTile} />
+            <JustifiedLayout targetRowHeight={120} containerWidth={width} childObjects={featured} mapperToElement={curry(renderTile)('featured')} />
+          )}
+        />
+        <h2>All characters</h2>
+        <FullWidthContainer
+          renderElement={width => (
+            <JustifiedLayout targetRowHeight={120} containerWidth={width} childObjects={DataFile.all} mapperToElement={curry(renderTile)('all')} />
           )}
         />
         <h2>License</h2>
