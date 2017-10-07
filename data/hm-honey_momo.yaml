@@ -1,0 +1,8 @@
+---
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9108968442/"}
+  images_flickr: { photo: "9221968993", farm: 8, server: 7393, secret: "7e5436656e", secret_h: "bc840f3624", secret_k: "d4b6baedd6", secret_o: "2213853922", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [pink, white, gold]
+  notes:
+  - エンターテイメントホール『パワー・ザ・キティ』

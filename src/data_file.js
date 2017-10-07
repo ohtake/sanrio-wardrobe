@@ -44,6 +44,9 @@ DataFile.all = [
   DataFile.cyHoneucute = new DataFile('cy-honeycute', 'CY', 'ハニーキュート', 'Honeycute',
     // https://www.flickr.com/photos/ohtake_tomohiro/9899556945/
     'https://c1.staticflickr.com/3/2867/9899556945_9a52b72a12_q.jpg'),
+  DataFile.dgDarkGrapeMan = new DataFile('dg-dark_grape_man', 'DG', 'ダークグレープマン', 'Dark Grape Man',
+    // https://www.flickr.com/photos/ohtake_tomohiro/9052039805/
+    'https://c2.staticflickr.com/4/3797/9052039805_dc4eeb0c18_q.jpg'),
   DataFile.dnDaniel = new DataFile('dn-daniel', 'DN', 'ダニエル', 'Daniel', ''),
   DataFile.gpGochan = new DataFile('gp-gochan', 'GP', 'ゴーちゃん。', 'Go-chan.',
     // https://www.flickr.com/photos/ohtake_tomohiro/8784705396/
@@ -54,6 +57,9 @@ DataFile.all = [
   DataFile.guGudetama = new DataFile('gu-gudetama', 'GU', 'ぐでたま', 'Gudetama',
     // https://www.flickr.com/photos/ohtake_tomohiro/14834955654/
     'https://c2.staticflickr.com/6/5556/14834955654_c2887b9976_q.jpg'),
+  DataFile.hmHoneyMomo = new DataFile('hm-honey_momo', 'HM', 'ハニーモモ', 'Honey Momo',
+    // https://www.flickr.com/photos/ohtake_tomohiro/9054267360/
+    'https://c1.staticflickr.com/3/2815/9054267360_4293f933fa_q.jpg'),
   DataFile.jlRuby = new DataFile('jl-ruby', 'JL', 'ルビー', 'Ruby',
     // https://www.flickr.com/photos/ohtake_tomohiro/30901115623/
     'https://c1.staticflickr.com/1/756/30901115623_e7cf5c0feb_q.jpg'),
