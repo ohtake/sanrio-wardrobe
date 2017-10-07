@@ -1,4 +1,17 @@
 ---
+- title: 標準
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11267927584/"}
+  images_flickr: { photo: "11267927584", farm: 8, server: 7421, secret: "08e6706725", secret_h: "1678479961", secret_k: "b3dad93d16", secret_o: "defb186f4f", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [green, orange, yellow]
+  notes: []
+- title: Someday II
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ85P1aBLw4/"}
+  images_instagram: { shortcode: "BZ85P1aBLw4", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [green, yellow, orange, brown, white, blue]
+  notes:
+  - フェアリーランドシアター『Someday II』
 - title: 雨合羽
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/16178822176/"}
   images_flickr: { photo: "16178822176", farm: 9, server: 8642, secret: "1f813f5892", secret_h: "bf450b8c2a", secret_k: "6e049e724d", secret_o: "4dac6bc753", format_o: "jpg" }

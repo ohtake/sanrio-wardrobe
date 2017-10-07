@@ -52,7 +52,9 @@ DataFile.all = [
   DataFile.boLulu = new DataFile('bo-lulu', 'BO', 'ルル', 'Roonroonlulu',
     // https://www.flickr.com/photos/ohtake_tomohiro/28310489531/
     'https://c2.staticflickr.com/8/7755/28310489531_9cbb5a0199_q.jpg'),
-  DataFile.ckKuririn = new DataFile('ck-kuririn', 'CK', 'クリリン', 'Corocorokuririn', ''),
+  DataFile.ckKuririn = new DataFile('ck-kuririn', 'CK', 'クリリン', 'Corocorokuririn',
+    // https://www.flickr.com/photos/ohtake_tomohiro/10495547335/sizes/q/
+    'https://c2.staticflickr.com/4/3765/10495547335_f87ec7ebbc_q.jpg'),
   DataFile.cnCinnamon = new DataFile('cn-cinnamon', 'CN', 'シナモン', 'Cinnamon',
     // https://www.flickr.com/photos/ohtake_tomohiro/9544085163/
     'https://c1.staticflickr.com/3/2818/9544085163_5092625ee9_q.jpg'),
