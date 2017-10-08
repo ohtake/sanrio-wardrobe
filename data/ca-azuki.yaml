@@ -1,0 +1,9 @@
+---
+- title: Chu-Chu-Chu
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9949468075/"}
+  images_flickr: { photo: "9949468075", farm: 6, server: 5441, secret: "4be69ab0ea", secret_h: "c5b8dbdd71", secret_k: "ee9e04f2ad", secret_o: "dc062b2842", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, blue, purple, white, green]
+  notes:
+  - Chu-Chu-Chu
+# 夏色ふぁんたじぃ
