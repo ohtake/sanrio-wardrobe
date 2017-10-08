@@ -1767,9 +1767,9 @@
   source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/16650829855/"}
   images_flickr: { photo: "16650829855", farm: 9, server: 8646, secret: "240f23ce39", secret_h: "d2fffc583e", secret_k: "43000210f2", secret_o: "84592e25fc", format_o: "jpg" }
   size: { width_o: 3456, height_o: 5184 }
-  colors: [pink, gold]
+  colors: [pink, gold, white, silver]
   notes:
-  - 星
+  - 星、羽
 - title: IMG_0897
   source: { author: "yoshi", license: "", url: "https://www.flickr.com/photos/110556107@N06/11741858395/"}
   images_flickr: { photo: "11741858395", farm: 6, server: 5546, secret: "35d12ebc19", secret_h: "ffb0ffad58", secret_k: "fa00c6fd08", secret_o: "f94a6306f3", format_o: "jpg" }
@@ -2811,6 +2811,7 @@
   size: { width_o: 792, height_o: 792 }
   colors: [red, white, blue, yellow, pink]
   notes:
+  - 香港 Hello Kitty Go Around
   - シンガポール Hello Kitty Go Around
   - マレーシア Hello Kitty Go Around
 - title: BS1JtRsl3sz
@@ -2883,3 +2884,32 @@
   colors: [blue, gold, white, red]
   notes:
   - 香港 Hello Kitty Secret Garden
+- title: BOL3DceAzBB
+  source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/BOL3DceAzBB/"}
+  images_instagram: { shortcode: "BOL3DceAzBB", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 965 }
+  colors: [blue, gold, white, red]
+  notes:
+  - 香港
+  - ペンダントの有無
+- title: BZ-_2gODVE8
+  source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/BZ-_2gODVE8/"}
+  images_instagram: { shortcode: "BZ-_2gODVE8", width_t: 150, width_m: 320, width_l: 720 }
+  size: { width_o: 720, height_o: 900 }
+  colors: [pink, blue, yellow, red]
+  notes:
+  - 香港
+- title: 4ENPzRNdr4
+  source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/4ENPzRNdr4/"}
+  images_instagram: { shortcode: "4ENPzRNdr4", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: [red, white]
+  notes:
+  - 香港
+- title: BMvrgUqg6Rl
+  source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/BMvrgUqg6Rl/"}
+  images_instagram: { shortcode: "BMvrgUqg6Rl", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1349 }
+  colors: [red, yellow, gold, white, pink]
+  notes:
+  - 香港

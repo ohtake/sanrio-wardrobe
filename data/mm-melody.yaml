@@ -271,6 +271,13 @@
   colors: [green, purple, yellow, blue, red, white, pink]
   notes:
   - マフラー
+- title: 雨合羽
+  source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/BKR_a5oDZA1/"}
+  images_instagram: { shortcode: "BKR_a5oDZA1", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1256 }
+  colors: [pink, purple, red]
+  notes:
+  - 雨合羽
 - title: DoRoRoNRoN
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36323498466/"}
   images_flickr: { photo: "36323498466", farm: 5, server: 4368, secret: "47183f1930", secret_h: "6e6eba3ebd", secret_k: "61f7f4b226", secret_o: "a31c910eeb", format_o: "jpg" }

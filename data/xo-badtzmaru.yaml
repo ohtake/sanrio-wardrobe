@@ -354,6 +354,13 @@
   colors: [gold, blue]
   notes:
   - マレーシア Puteri Harbour Sanrio Hello Kitty Town『Happy Carnival Parade』
+- title: Go Around
+  source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/vZvF0nNdrp/"}
+  images_instagram: { shortcode: "vZvF0nNdrp", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: [red, white, silver]
+  notes:
+  - 香港 Hello Kitty Go Around
 - title: チョコキャットのエプロン
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/j7Z4pQlD1r/"}
   images_instagram: { shortcode: "j7Z4pQlD1r", width_t: 150, width_m: 320, width_l: 640 }

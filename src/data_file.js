@@ -208,6 +208,7 @@ DataFile.all = [
   DataFile.szMenta = new DataFile('sz-menta', 'SZ', 'メンタ', 'Shinkaizoku',
     // https://www.flickr.com/photos/ohtake_tomohiro/27518650642/
     'https://c2.staticflickr.com/8/7317/27518650642_3d631c2bf9_q.jpg'),
+  DataFile.taTabo = new DataFile('ta-tabo', 'TA', 'たあ坊', 'Tabo', ''),
   DataFile.tfTurfy = new DataFile('tf-turfy', 'TF', 'ターフィー', 'Turfy',
     // https://www.flickr.com/photos/ohtake_tomohiro/26537496203/
     'https://c2.staticflickr.com/8/7723/26537496203_32e46680ca_q.jpg'),

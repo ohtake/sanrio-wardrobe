@@ -338,3 +338,10 @@
   colors: [white, brown, yellow]
   notes:
   - アメリカ
+- title: xEDRsPNdiI
+  source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/xEDRsPNdiI/"}
+  images_instagram: { shortcode: "xEDRsPNdiI", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: [black, yellow, white, blue]
+  notes:
+  - 香港

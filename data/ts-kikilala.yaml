@@ -185,7 +185,7 @@
   colors: [blue, pink, yellow, red, purple, green]
   notes:
   - プラザステージ『マイメロディ&リトルツインスターズ 40th アニバーサリータイム』
-- title: IMG_8422
+- title: 標準マフラー
   source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36848666242/"}
   images_flickr: { photo: "36848666242", farm: 5, server: 4338, secret: "f52811f929", secret_h: "06d09bddca", secret_k: "075eea25b3", secret_o: "6f6a61a6ba", format_o: "jpg" }
   size: { width_o: 4608, height_o: 3456 }
@@ -242,6 +242,13 @@
   colors: [red, white, green, gold, blue]
   notes:
   - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
+- title: クリスマスマフラー
+  source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/BOmPS0OgLaP/"}
+  images_instagram: { shortcode: "BOmPS0OgLaP", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1076 }
+  colors: [red, white, green, gold, blue]
+  notes:
+  - マフラーグリ
 - title: パレードパラレル イースター
   source: { author: "hapehape04", license: "", url: "https://www.instagram.com/p/BTBAVHnB7r7/"}
   images_instagram: { shortcode: "BTBAVHnB7r7", width_t: 150, width_m: 320, width_l: 1080 }
