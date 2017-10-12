@@ -136,10 +136,12 @@ export default class DetailView extends React.Component {
   createColorSample(photo) {
     if (photo.data.colors.length === 0) return null;
     return (
-      <li>{photo.data.colors.map((c) => {
-        const color = Colors.findById(c);
-        return <span style={this.createColorSampleStyle(color.value)} title={color.name} />;
-      })}</li>
+      <li>
+        {photo.data.colors.map((c) => {
+          const color = Colors.findById(c);
+          return <span style={this.createColorSampleStyle(color.value)} title={color.name} />;
+        })}
+      </li>
     );
   }
   /**
@@ -173,7 +175,7 @@ export default class DetailView extends React.Component {
     if (this.state.photos == null) {
       return <Drawer open={false} openSecondary docked />;
     }
-    const index = this.state.index;
+    const { index } = this.state;
     const len = this.state.photos.length;
     const main = this.state.photos[index];
     const next = this.state.photos[(index + 1) % len];
@@ -189,6 +191,8 @@ export default class DetailView extends React.Component {
     // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
     const imgPrevStyle = assign(clone(imgBaseStyle), { left: -imgPosition, objectPosition: '100% 50%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
     const imgNextStyle = assign(clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
+    const titleStyle = { overflow: 'hidden', textOverflow: 'ellipsis' };
+    const authorStyle = assign(clone(titleStyle), { margin: '-40px 0 0', fontSize: '60%' });
 
     function floatingIcon(iconElement, isTop, isLeft, handler) {
       const containerStyle = { position: 'absolute' };
@@ -215,8 +219,8 @@ export default class DetailView extends React.Component {
               iconElementLeft={<IconButton onClick={this.closeDetailView}><NavigationArrowBack /></IconButton>}
               title={
                 <div>
-                  <div style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>{main.data.title}</div>
-                  <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', margin: '-40px 0 0', fontSize: '60%' }}>{this.createCreditElement(main)}</div>
+                  <div style={titleStyle}>{main.data.title}</div>
+                  <div style={authorStyle}>{this.createCreditElement(main)}</div>
                 </div>}
               iconElementRight={
                 <IconMenu iconButtonElement={<IconButton><NavigationMoreVert /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
@@ -233,7 +237,9 @@ export default class DetailView extends React.Component {
             />
             : null}
           <Swipeable
-            style={{ position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, left: (-this.state.swipingRatio * this.state.menuWidth), width: '100%' }}
+            style={{
+              position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, left: (-this.state.swipingRatio * this.state.menuWidth), width: '100%',
+            }}
             onTap={this.toggleInfo}
             onSwiping={this.handleSwiping}
             onSwiped={this.handleSwiped}
@@ -243,7 +249,10 @@ export default class DetailView extends React.Component {
             <img key={prev.data.title} style={imgPrevStyle} className="image-fit" src={prev.getLargestImageAtMost(1080, 1350).url} alt="*" />
           </Swipeable>
           {this.state.showInfo ?
-            <div style={{ position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4) }}>
+            <div style={{
+              position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4),
+            }}
+            >
               <ul style={{ margin: `${theme.spacing.desktopGutterMini}px ${navButtonStyle.width}px`, padding: '0 0 0 1.5em' }}>
                 {this.createNotesElement(main)}
               </ul>

@@ -52,14 +52,22 @@ request(endpoint, (error, response, body) => {
   let hasC = false;
 
   const regexUrl = /https:\/\/farm([0-9]+)\.staticflickr\.com\/([0-9]+)\/([0-9]+)_([0-9a-f]+)(_[a-z])?\.([a-z]+)/;
+  const regexGroups = {
+    farm: 1,
+    server: 2,
+    // photo: 3,
+    secret: 4,
+    // suffix: 5,
+    extension: 6,
+  };
   obj.sizes.size.forEach((size) => {
     let result;
     switch (size.label) {
       case 'Medium':
         result = regexUrl.exec(size.source);
-        farm = result[1];
-        server = result[2];
-        secret = result[4];
+        farm = result[regexGroups.farm];
+        server = result[regexGroups.server];
+        secret = result[regexGroups.secret];
         break;
       case 'Medium 800':
         hasC = true;
@@ -69,16 +77,16 @@ request(endpoint, (error, response, body) => {
         break;
       case 'Large 1600':
         result = regexUrl.exec(size.source);
-        secretH = result[4];
+        secretH = result[regexGroups.secret];
         break;
       case 'Large 2048':
         result = regexUrl.exec(size.source);
-        secretK = result[4];
+        secretK = result[regexGroups.secret];
         break;
       case 'Original':
         result = regexUrl.exec(size.source);
-        secretO = result[4];
-        formatO = result[6];
+        secretO = result[regexGroups.secret];
+        formatO = result[regexGroups.extension];
         break;
       default:
         break;

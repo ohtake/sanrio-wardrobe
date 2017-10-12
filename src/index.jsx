@@ -10,8 +10,4 @@ import App from './App';
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
 objectFitImages();
 
-ReactDOM.render((
-  <HashRouter>
-    <Route component={App} />
-  </HashRouter>
-), document.getElementById('app'));
+ReactDOM.render(<HashRouter><Route component={App} /></HashRouter>, document.getElementById('app'));

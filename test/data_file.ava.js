@@ -51,7 +51,7 @@ test('each yaml file should have consistent colors', t => {
       }
       const arr = yaml.safeLoad(data);
       arr.forEach(elem => {
-        const colors = elem.colors;
+        const { colors } = elem;
         assertUniqueStringArray(t, colors);
         colors.forEach(c => {
           t.truthy(RepresentiveColors.findById(c));

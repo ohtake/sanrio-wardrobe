@@ -102,10 +102,11 @@ export default class ColorSelector extends React.Component {
     ];
   }
   render() {
-    return (<div>
-      <FlatButton label="Color filter" labelStyle={{ textTransform: 'none' }} icon={<ContentFilterList />} onClick={this.start} />
-      {this.state.enabled ? this.listButtons() : null}
-    </div>);
+    return (
+      <div>
+        <FlatButton label="Color filter" labelStyle={{ textTransform: 'none' }} icon={<ContentFilterList />} onClick={this.start} />
+        {this.state.enabled ? this.listButtons() : null}
+      </div>);
   }
 }
 ColorSelector.propTypes = {

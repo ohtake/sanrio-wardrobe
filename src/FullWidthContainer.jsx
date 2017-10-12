@@ -38,9 +38,10 @@ export default class FullWidthContainer extends React.Component {
     }
   }
   render() {
-    return (<div ref={(c) => { this.container = c; }}>
-      {this.props.renderElement(this.state.containerWidth)}
-    </div>);
+    return (
+      <div ref={(c) => { this.container = c; }}>
+        {this.props.renderElement(this.state.containerWidth)}
+      </div>);
   }
 }
 FullWidthContainer.propTypes = {

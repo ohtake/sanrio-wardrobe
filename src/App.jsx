@@ -47,7 +47,9 @@ class App extends React.Component {
     const themeInitial = themes.getInitialTheme();
     themes.applyThemeToBody(themeInitial);
 
-    this.state = { menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 120, title: appDefaultTitle };
+    this.state = {
+      menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 120, title: appDefaultTitle,
+    };
 
     this.setTitle = this.setTitle.bind(this);
     this.handleAppMenu = this.handleAppMenu.bind(this);
@@ -102,7 +104,7 @@ class App extends React.Component {
     this.setState({ thumbnailSize: this.thumbnailSize.state.value });
   }
   render() {
-    const theme = this.state.theme;
+    const { theme } = this.state;
     const containerStyle = {
       color: theme.palette.textColor,
       backgroundColor: theme.palette.canvasColor,
@@ -113,65 +115,68 @@ class App extends React.Component {
       display: 'block',
       borderLeft: `8px solid ${theme.palette.primary1Color}`,
     };
-    return (<div style={{ marginLeft: this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0 }}>
-      <AppBar
-        title={this.state.title}
-        onLeftIconButtonTouchTap={this.handleAppMenu}
-        showMenuIconButton={!this.state.menuOpened || !this.state.menuDocked}
-        style={{ position: 'fixed', top: 0, left: (this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0), right: 0, width: null }}
-        iconElementRight={
-          <IconMenu iconButtonElement={<IconButton><ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
-            <List>
-              <ListItem leftIcon={<ImageColorLens />} onClick={this.handleThemeToggle}>
-                <Toggle ref={(c) => { this.theme = c; }} label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
-              </ListItem>
-              <ListItem leftIcon={<ImagePhotoSizeSelectLarge />}>
-                <span>Thumbnail size: {this.state.thumbnailSize}</span>
-                <Slider ref={(c) => { this.thumbnailSize = c; }} defaultValue={this.state.thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
-              </ListItem>
-              <Divider />
-              <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />
-            </List>
-          </IconMenu>
-        }
-      />
-      <Drawer open={this.state.menuOpened} docked={this.state.menuDocked} onRequestChange={this.handleMenuChange} containerClassName="appMenu" width={this.menuWidth}>
-        <Toolbar>
-          <ToolbarGroup firstChild>
-            {/* Needs firstChild to align others to left */}
-          </ToolbarGroup>
-          <ToolbarGroup>
-            <IconButton onClick={this.handleMenuPinned}>
-              {this.state.menuDocked ? <ActionTurnedIn color={theme.palette.textColor} /> : <ActionTurnedInNot color={theme.palette.textColor} />}
-            </IconButton>
-            <IconButton onClick={this.handleMenuClose}>
-              <NavigationClose color={theme.palette.textColor} />
-            </IconButton>
-          </ToolbarGroup>
-        </Toolbar>
-        <List>
-          <NavLink to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="home">
-            <ListItem primaryText="Home" leftIcon={<ActionHome />} />
-          </NavLink>
-          <NavLink to="/statistics" onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="statistics">
-            <ListItem primaryText="Statistics" leftIcon={<EditorShowChart />} />
-          </NavLink>
-          <Divider />
-          <Subheader>Characters</Subheader>
-          {DataFile.all.map(c => (
-            <NavLink key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
-              <ListItem primaryText={c.getDisplayName()} leftAvatar={c.picUrl ? <Avatar src={c.picUrl} /> : <Avatar>{c.seriesSymbol}</Avatar>} />
-            </NavLink>))}
-        </List>
-      </Drawer>
-      <div style={containerStyle}>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/chara/:chara/:title?" component={Character} />
-          <Route path="/statistics" component={Statistics} />
-        </Switch>
-      </div>
-    </div>);
+    return (
+      <div style={{ marginLeft: this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0 }}>
+        <AppBar
+          title={this.state.title}
+          onLeftIconButtonTouchTap={this.handleAppMenu}
+          showMenuIconButton={!this.state.menuOpened || !this.state.menuDocked}
+          style={{
+            position: 'fixed', top: 0, left: (this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0), right: 0, width: null,
+          }}
+          iconElementRight={
+            <IconMenu iconButtonElement={<IconButton><ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
+              <List>
+                <ListItem leftIcon={<ImageColorLens />} onClick={this.handleThemeToggle}>
+                  <Toggle ref={(c) => { this.theme = c; }} label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
+                </ListItem>
+                <ListItem leftIcon={<ImagePhotoSizeSelectLarge />}>
+                  <span>Thumbnail size: {this.state.thumbnailSize}</span>
+                  <Slider ref={(c) => { this.thumbnailSize = c; }} defaultValue={this.state.thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
+                </ListItem>
+                <Divider />
+                <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />
+              </List>
+            </IconMenu>
+          }
+        />
+        <Drawer open={this.state.menuOpened} docked={this.state.menuDocked} onRequestChange={this.handleMenuChange} containerClassName="appMenu" width={this.menuWidth}>
+          <Toolbar>
+            <ToolbarGroup firstChild>
+              {/* Needs firstChild to align others to left */}
+            </ToolbarGroup>
+            <ToolbarGroup>
+              <IconButton onClick={this.handleMenuPinned}>
+                {this.state.menuDocked ? <ActionTurnedIn color={theme.palette.textColor} /> : <ActionTurnedInNot color={theme.palette.textColor} />}
+              </IconButton>
+              <IconButton onClick={this.handleMenuClose}>
+                <NavigationClose color={theme.palette.textColor} />
+              </IconButton>
+            </ToolbarGroup>
+          </Toolbar>
+          <List>
+            <NavLink to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="home">
+              <ListItem primaryText="Home" leftIcon={<ActionHome />} />
+            </NavLink>
+            <NavLink to="/statistics" onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="statistics">
+              <ListItem primaryText="Statistics" leftIcon={<EditorShowChart />} />
+            </NavLink>
+            <Divider />
+            <Subheader>Characters</Subheader>
+            {DataFile.all.map(c => (
+              <NavLink key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
+                <ListItem primaryText={c.getDisplayName()} leftAvatar={c.picUrl ? <Avatar src={c.picUrl} /> : <Avatar>{c.seriesSymbol}</Avatar>} />
+              </NavLink>))}
+          </List>
+        </Drawer>
+        <div style={containerStyle}>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/chara/:chara/:title?" component={Character} />
+            <Route path="/statistics" component={Statistics} />
+          </Switch>
+        </div>
+      </div>);
   }
 }
 App.propTypes = {

@@ -2,6 +2,7 @@ import findIndex from 'lodash/findIndex';
 import take from 'lodash/take';
 
 const flickrSizes = [
+  /* eslint-disable object-curly-newline */
   { suffix: 's', longest: 75, square: true, label: 'Square' },
   { suffix: 'q', longest: 150, square: true, label: 'Large Square' },
   { suffix: 't', longest: 100, label: 'Thumbnail' },
@@ -14,6 +15,7 @@ const flickrSizes = [
   { suffix: 'h', longest: 1600, since: '20120301', label: 'Large 1600' },
   { suffix: 'k', longest: 2048, since: '20120301', label: 'Large 2048' },
   { suffix: 'o', customExtention: true, label: 'Original' },
+  /* eslint-enable */
 ];
 
 /**
@@ -46,8 +48,7 @@ export class FlickrSrcsetProvider {
    * @returns {string}
    */
   static createUrl(photoId, farmId, serverId, secret, suffix) {
-    let suffix2 = '';
-    if (suffix) suffix2 = `_${suffix}`;
+    const suffix2 = suffix ? `_${suffix}` : '';
     return `https://farm${farmId}.staticflickr.com/${serverId}/${photoId}_${secret}${suffix2}.jpg`;
   }
   /**
@@ -67,19 +68,19 @@ export class FlickrSrcsetProvider {
       return true;
     });
     availableSizes.forEach((size) => {
-      let secret;
+      let secretStr;
       switch (size.suffix) {
         case 'h':
-          secret = imgsF.secret_h;
+          secretStr = imgsF.secret_h;
           break;
         case 'k':
-          secret = imgsF.secret_k;
+          secretStr = imgsF.secret_k;
           break;
         default:
-          secret = imgsF.secret;
+          secretStr = imgsF.secret;
           break;
       }
-      const url = FlickrSrcsetProvider.createUrl(imgsF.photo, imgsF.farm, imgsF.server, secret, size.suffix);
+      const url = FlickrSrcsetProvider.createUrl(imgsF.photo, imgsF.farm, imgsF.server, secretStr, size.suffix);
       const max = Math.min(maxO, size.longest);
       result.push({ url, max });
     });

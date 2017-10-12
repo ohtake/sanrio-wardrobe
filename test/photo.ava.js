@@ -41,7 +41,9 @@ const photoSrcsetSquare = {
 };
 const photoFlickrLandscape = {
   title: 'flickr images landscape',
-  images_flickr: { photo: '15605014039', farm: 6, server: 5604, secret: '3aa65f125e', secret_h: '2c5f7cc664', secret_k: '31513b8bf6' },
+  images_flickr: {
+    photo: '15605014039', farm: 6, server: 5604, secret: '3aa65f125e', secret_h: '2c5f7cc664', secret_k: '31513b8bf6',
+  },
   source: { author: 'ohtake', license: 'CC BY-SA 2.0', url: 'https://www.flickr.com/photos/ohtake_tomohiro/15605014039' },
   size: { width_o: 5760, height_o: 3840 },
   colors: [],
@@ -49,7 +51,9 @@ const photoFlickrLandscape = {
 };
 const photoFlickrPortrait = {
   title: 'flickr images portrait',
-  images_flickr: { photo: '24326364382', farm: 2, server: 1623, secret: '2a00bf3387', secret_h: '988fe74e0e', secret_k: '1d900d84de' },
+  images_flickr: {
+    photo: '24326364382', farm: 2, server: 1623, secret: '2a00bf3387', secret_h: '988fe74e0e', secret_k: '1d900d84de',
+  },
   source: { author: 'ohtake', license: 'CC BY-SA 2.0', url: 'https://www.flickr.com/photos/ohtake_tomohiro/24326364382' },
   size: { width_o: 3840, height_o: 5760 },
   colors: [],
@@ -57,7 +61,9 @@ const photoFlickrPortrait = {
 };
 const photoFlickrTooSmall = {
   title: '24214891894',
-  images_flickr: { photo: '24214891894', farm: 2, server: 1457, secret: 'fb5e07fc69', before: '20100525' },
+  images_flickr: {
+    photo: '24214891894', farm: 2, server: 1457, secret: 'fb5e07fc69', before: '20100525',
+  },
   source: { author: 'jj lai', license: '', url: 'https://www.flickr.com/photos/laijj/24214891894/' },
   size: { width_o: 538, height_o: 404 },
   colors: [],
@@ -73,7 +79,9 @@ const photoPicasa = {
 };
 const photoInstagramSquare = {
   title: 'Wii Gato (Lipe Sleep)',
-  images_instagram: { shortcode: 'fA9uwTtkSN', width_t: 150, width_m: 320, width_l: 640 },
+  images_instagram: {
+    shortcode: 'fA9uwTtkSN', width_t: 150, width_m: 320, width_l: 640,
+  },
   source: { author: 'diegoquinteiro', license: '', url: 'http://instagr.am/p/fA9uwTtkSN/' },
   size: { width_o: 640, height_o: 640 },
   colors: [],
@@ -81,7 +89,9 @@ const photoInstagramSquare = {
 };
 const photoInstagramPortrait = {
   title: 'SI Kitto 1',
-  images_instagram: { shortcode: 'BXo13ZBngas', width_t: 150, width_m: 320, width_l: 720 },
+  images_instagram: {
+    shortcode: 'BXo13ZBngas', width_t: 150, width_m: 320, width_l: 720,
+  },
   source: { author: 'diegoquinteiro', license: '', url: 'https://www.instagram.com/p/BXo13ZBngas/' },
   size: { width_o: 720, height_o: 900 },
   colors: [],

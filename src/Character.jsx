@@ -54,15 +54,15 @@ export default class Character extends React.Component {
     this.handleSearchTextBlur = this.handleSearchTextBlur.bind(this);
   }
   componentDidMount() {
-    const chara = this.props.match.params.chara;
+    const { chara } = this.props.match.params;
     const df = DataFile.findByName(chara);
     this.context.setTitle(df.getDisplayName());
     this.clearSearch();
     this.loadPhotos(this.props.match.params.chara);
   }
   componentWillReceiveProps(nextProps) {
-    if (nextProps.match.params.chara !== this.props.match.params.chara) {
-      const chara = nextProps.match.params.chara;
+    const { chara } = nextProps.match.params;
+    if (chara !== this.props.match.params.chara) {
       const df = DataFile.findByName(chara);
       this.context.setTitle(df.getDisplayName());
       this.clearSearch();

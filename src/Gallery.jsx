@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'react-router-dom/Link';
+import RouterLink from 'react-router-dom/Link';
 
 import LazyLoad from 'react-lazy-load';
 
@@ -35,16 +35,17 @@ export default class Gallery extends React.Component {
   photoToElement(p) {
     const theme = this.context.muiTheme;
     const thumbnailHeight = this.context.thumbnailSize;
-    return (<div key={p.data.title} style={{ backgroundColor: theme.palette.borderColor }}>
-      <Link to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${this.props.chara} ${p.data.title}`}>
-        <div style={styleTitleOuter}>
-          <div style={styleTitleInner} title={p.data.title}>{p.data.title}</div>
-        </div>
-        <LazyLoad offset={thumbnailHeight}>
-          <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={{ width: '100%', height: '100%' }} />
-        </LazyLoad>
-      </Link>
-    </div>);
+    return (
+      <div key={p.data.title} style={{ backgroundColor: theme.palette.borderColor }}>
+        <RouterLink to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${this.props.chara} ${p.data.title}`}>
+          <div style={styleTitleOuter}>
+            <div style={styleTitleInner} title={p.data.title}>{p.data.title}</div>
+          </div>
+          <LazyLoad offset={thumbnailHeight}>
+            <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={{ width: '100%', height: '100%' }} />
+          </LazyLoad>
+        </RouterLink>
+      </div>);
   }
 
   render() {
