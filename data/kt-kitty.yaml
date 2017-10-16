@@ -644,6 +644,14 @@
   colors: [pink, blue, white]
   notes:
   - レディキティハウス「トリコロール」
+- title: レディキティ・トリコロール・ハロウィン
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/37669275546/"}
+  images_flickr: { photo: "37669275546", farm: 5, server: 4490, secret: "155e0f3085", secret_h: "0b0a5f16ef", secret_k: "2640a4ffeb", secret_o: "875c64a733", format_o: "jpg" }
+  size: { width_o: 3575, height_o: 5362 }
+  colors: [pink, blue, white, orange, black, purple]
+  notes:
+  - レディキティハウス「トリコロール」ハロウィン版
+  - ジャック・オー・ランタン
 - title: KITTYFUL
   source: { author: "Sanrio Puroland", license: "", url: "https://www.instagram.com/p/BZ0o4b_lBjJ/"}
   images_instagram: { shortcode: "BZ0o4b_lBjJ", width_t: 150, width_m: 320, width_l: 1080 }
