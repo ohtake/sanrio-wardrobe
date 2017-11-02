@@ -184,6 +184,15 @@
   colors: [purple, green, orange, black, white]
   notes:
   - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』休日ピューロレンジャー
+  - ハロウィン
+- title: ゴーストレンジャー・ポム顔
+  source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/36595026994/"}
+  images_flickr: { photo: "36595026994", farm: 5, server: 4358, secret: "f479132691", secret_h: "b184583b72", secret_k: "e49f4a1dfa", secret_o: "a69533c59b", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [purple, green, orange, black, white, brown]
+  notes:
+  - ポム顔グリーティング
+  - ハロウィン
 - title: 柊マフラー
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31522123144/"}
   images_flickr: { photo: "31522123144", farm: 1, server: 511, secret: "dbf136b232", secret_h: "92b6d74463", secret_k: "c0184b0550", secret_o: "7ac925886d", format_o: "jpg" }
@@ -232,7 +241,7 @@
   size: { width_o: 5760, height_o: 3840 }
   colors: [red, green, white, orange, yellow]
   notes: []
-- title: ポム顔
+- title: 36370806093ポム顔
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36370806093/"}
   images_flickr: { photo: "36370806093", farm: 5, server: 4438, secret: "c5cc1c8547", secret_h: "d4b26eb550", secret_k: "6866bc8a83", secret_o: "e84b781847", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
@@ -306,10 +315,10 @@
   colors: [white, red, green]
   notes:
   - イチゴ
-- title: BZ8kusfHXDW
-  source: { author: "poporondance", license: "", url: "https://www.instagram.com/p/BZ8kusfHXDW/"}
-  images_instagram: { shortcode: "BZ8kusfHXDW", width_t: 150, width_m: 320, width_l: 768 }
-  size: { width_o: 768, height_o: 960 }
+- title: BZ6-2kSg9nm
+  source: { author:   "marimeru17", license: "", url: "https://www.instagram.com/p/BZ6-2kSg9nm/"}
+  images_instagram: { shortcode: "BZ6-2kSg9nm", width_t: 150, width_m: 320, width_l: 720 }
+  size: { width_o: 720, height_o: 720 }
   colors: [white, green, red, black]
   notes:
   - コック帽
@@ -319,6 +328,13 @@
   size: { width_o: 3840, height_o: 5760 }
   colors: [green, orange]
   notes: []
+- title: 37275108552ポム顔
+  source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/37275108552/"}
+  images_flickr: { photo: "37275108552", farm: 5, server: 4423, secret: "0162da7bf8", secret_h: "186f9eb403", secret_k: "dbdb8fdf46", secret_o: "9fe4db562b", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [green, orange]
+  notes:
+  - ポム顔グリーティング
 - title: 5D3L4423
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12612219925/"}
   images_flickr: { photo: "12612219925", farm: 4, server: 3788, secret: "3e94a649c9", secret_h: "a69f5e58b1", secret_k: "5c369bb282", secret_o: "30d2bcc89d", format_o: "jpg" }

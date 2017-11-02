@@ -2159,11 +2159,11 @@
   notes:
   - ユニバーサルスタジオジャパンのケープなしバージョン
   - 水玉
-- title: IMGD7032
-  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/22226559482/"}
-  images_flickr: { photo: "22226559482", farm: 6, server: 5667, secret: "6a8fc71a1d", secret_h: "f81b13d59f", secret_k: "29cdd69031", secret_o: "b7020b8e16", format_o: "jpg" }
-  size: { width_o: 3687, height_o: 5531 }
-  colors: [red, pink, white, purple, orange]
+- title: flickr-24071418288
+  source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/24071418288/"}
+  images_flickr: { photo: "24071418288", farm: 5, server: 4503, secret: "20b5ceb741", secret_h: "689303ea0e", secret_k: "bee9f69b27", secret_o: "a48048a1df", format_o: "jpg" }
+  size: { width_o: 2705, height_o: 3840 }
+  colors: [red, pink, white, purple, orange, black]
   notes:
   - ユニバーサルスタジオジャパンのハロウィンバージョン
   - 水玉、ハロウィン
@@ -2707,6 +2707,21 @@
   notes:
   - アメリカ
   - タータンチェック、眼鏡
+- title: BaxI5SMDtH3
+  source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BaxI5SMDtH3/"}
+  images_instagram: { shortcode: "BaxI5SMDtH3", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 984 }
+  colors: [orange, black, green]
+  notes:
+  - アメリカ
+  - ハロウィン、カボチャ
+- title: BakBk6yFgZL
+  source: { author: "kimberleyhin", license: "", url: "https://www.instagram.com/p/BakBk6yFgZL/"}
+  images_instagram: { shortcode: "BakBk6yFgZL", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1163 }
+  colors: [pink, orange, yellow]
+  notes:
+  - カナダ
 - title: Hello Kittty Pop-Up Supermarket in Hong Kong
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BRpIqNRjd2y/"}
   images_instagram: { shortcode: "BRpIqNRjd2y", width_t: 150, width_m: 320, width_l: 750 }

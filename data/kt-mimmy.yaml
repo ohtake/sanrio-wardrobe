@@ -325,3 +325,11 @@
   notes:
   - ユニバーサルスタジオジャパン
   - ストライプ
+- title: flickr-24071418288
+  source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/24071418288/"}
+  images_flickr: { photo: "24071418288", farm: 5, server: 4503, secret: "20b5ceb741", secret_h: "689303ea0e", secret_k: "bee9f69b27", secret_o: "a48048a1df", format_o: "jpg" }
+  size: { width_o: 2705, height_o: 3840 }
+  colors: [yellow, orange, purple, black, white]
+  notes:
+  - ユニバーサルスタジオジャパンのハロウィンバージョン
+  - 水玉、ハロウィン
