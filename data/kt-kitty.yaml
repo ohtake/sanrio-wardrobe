@@ -1714,13 +1714,21 @@
   colors: [pink, white, yellow, green, purple]
   notes:
   - 外部イベント『It's a Wonderland』ではメロディの2着目
-- title: 5D3Y2706
+- title: 想い出を売る店
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24302238358/"}
+  images_flickr: { photo: "24302238358", farm: 5, server: 4482, secret: "fdcc238bd6", secret_h: "2f90447447", secret_k: "f0cb640e6b", secret_o: "ca3db0d4be", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, yellow, blue, red, white]
+  notes:
+  - 外部イベント『想い出を売る店』
+  - シャボン玉、帽子
+- title: 想い出を売る店・帽子なし
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26867823230/"}
   images_flickr: { photo: "26867823230", farm: 8, server: 7187, secret: "80a731d149", secret_h: "0b848d12f9", secret_k: "c304dcb31c", secret_o: "b615e8c669", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
-  colors: [pink, yellow, blue, red]
+  colors: [pink, yellow, blue, red, white]
   notes:
-  - ハート、双葉
+  - シャボン玉
 - title: 5D3Y4940
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26541341393/"}
   images_flickr: { photo: "26541341393", farm: 8, server: 7497, secret: "3b0e656080", secret_h: "9fd86de4aa", secret_k: "280e6680c3", secret_o: "7d540e7715", format_o: "jpg" }
