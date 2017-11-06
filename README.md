@@ -15,7 +15,7 @@ Demo: <https://ohtake.github.io/sanrio-wardrobe/>
 
 ## Development
 
-Install [Node 6](https://nodejs.org/en/download/) and [yarn](https://yarnpkg.com/en/docs/install).
+Install [Node 8](https://nodejs.org/en/download/) and [yarn](https://yarnpkg.com/en/docs/install).
 
 ```bash
 yarn install
