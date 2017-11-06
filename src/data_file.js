@@ -37,6 +37,10 @@ DataFile.all = [
     // https://www.flickr.com/photos/ohtake_tomohiro/35873908813/
     'https://c1.staticflickr.com/5/4368/35873908813_78317ae374_q.jpg',
   ),
+  DataFile.azDokidoki = new DataFile(
+    'az-dokidoki', 'AZ', 'ドキドキヤミーチャムズ', 'DokidokiYummychums',
+    '',
+  ),
   DataFile.azPinky = new DataFile(
     'az-pinky', 'AZ', 'ピンキー', 'Pinky',
     // https://www.flickr.com/photos/ohtake_tomohiro/35156445182/

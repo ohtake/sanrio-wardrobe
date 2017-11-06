@@ -2405,9 +2405,9 @@
   - アメリカ Hello KItty for President 2012
   - 星条旗、帽子
 - title: President 2016
-  source: { author: "Cathleen", license: "", url: "https://www.flickr.com/photos/snoopylover1/30219945851/"}
-  images_flickr: { photo: "30219945851", farm: 6, server: 5466, secret: "7b80277637", secret_h: "6613a9cd21", secret_k: "bfc71ac413" }
-  size: { width_o: 2048, height_o: 1536 }
+  source: { author: "the_loveless", license: "", url: "https://www.instagram.com/p/BKtcM-Uhh3h/"}
+  images_instagram: { shortcode: "BKtcM-Uhh3h", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
   colors: [blue, red, white]
   notes:
   - アメリカ Hello KItty for President 2016
@@ -2715,10 +2715,10 @@
   notes:
   - アメリカ
   - タータンチェック、眼鏡
-- title: BaxI5SMDtH3
-  source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BaxI5SMDtH3/"}
-  images_instagram: { shortcode: "BaxI5SMDtH3", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 984 }
+- title: Ba0IW0Jj1VP
+  source: { author: "the_loveless", license: "", url: "https://www.instagram.com/p/Ba0IW0Jj1VP/"}
+  images_instagram: { shortcode: "Ba0IW0Jj1VP", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1218 }
   colors: [orange, black, green]
   notes:
   - アメリカ
