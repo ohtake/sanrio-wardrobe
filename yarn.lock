@@ -4006,9 +4006,9 @@ just-extend@^1.1.26:
   version "1.1.27"
   resolved "https://registry.yarnpkg.com/just-extend/-/just-extend-1.1.27.tgz#ec6e79410ff914e472652abfa0e603c03d60e905"
 
-justified-layout@~2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/justified-layout/-/justified-layout-2.0.0.tgz#69389ab100ddfd521102c95f04e5d5d1e25e3408"
+justified-layout@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/justified-layout/-/justified-layout-2.1.1.tgz#22da0c296d3a95b7a3d5fb7f48dbbe0e6539b7f1"
   dependencies:
     merge "1.2.0"
 

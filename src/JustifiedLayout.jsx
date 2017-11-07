@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 import assign from 'lodash/assign';
 import zip from 'lodash/zip';
-// Stick to 2.0.0 until https://github.com/flickr/justified-layout/issues/34 is solved
 import justifiedLayout from 'justified-layout';
 
 /**
