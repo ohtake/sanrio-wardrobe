@@ -1,10 +1,7 @@
 import test from 'ava';
+import sinon from 'sinon';
 
 import * as themes from '../src/themes';
-
-test.after(() => {
-  themes.setTimeProviderForTest(null);
-});
 
 /** @test {getInitialTheme} */
 test('themes.getInitialTheme should return theme', t => {
@@ -23,8 +20,12 @@ test('themes.getInitialTheme should return theme based on time', t => {
     { time: new Date(2000, 1, 1, 23, 1), theme: themes.themeDark },
   ];
   dataset.forEach(d => {
-    themes.setTimeProviderForTest(() => d.time);
-    const actual = themes.getInitialTheme();
-    t.is(actual, d.theme);
+    const clock = sinon.useFakeTimers(d.time);
+    try {
+      const actual = themes.getInitialTheme();
+      t.is(actual, d.theme);
+    } finally {
+      clock.restore();
+    }
   });
 });

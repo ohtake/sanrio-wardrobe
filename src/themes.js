@@ -36,16 +36,8 @@ export function applyThemeToBody(theme) {
   stylesheet.insertRule(`a { color: ${theme.palette.primary2Color}; }`, stylesheet.cssRules.length);
 }
 
-let timeProvider = null;
-function defaultTimeProvider() {
-  return new Date();
-}
-export function setTimeProviderForTest(func) {
-  timeProvider = func;
-}
-
 export function getInitialTheme() {
-  const h = (timeProvider || defaultTimeProvider)().getHours();
+  const h = new Date().getHours();
   const isDaytime = h >= 6 && h < 18;
   return isDaytime ? themeLight : themeDark;
 }

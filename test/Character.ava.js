@@ -1,14 +1,23 @@
 import React from 'react';
 
 import test from 'ava';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
+import sinon from 'sinon';
+import yaml from 'js-yaml';
+import fs from 'fs';
 
 import Character from '../src/Character';
 import * as themes from '../src/themes';
+import Photo from '../src/photo';
 
 const context = {
   muiTheme: themes.themeLight,
   setTitle: () => {},
+  router: {
+    history: {
+      replace: () => {},
+    },
+  },
 };
 
 /** @test {Character} */
@@ -16,4 +25,35 @@ test('<Character /> should be loaded', t => {
   const wrapper = shallow(<Character match={{ params: { chara: 'kt-kitty' } }} />, { context, disableLifecycleMethods: true });
   const instance = wrapper.instance();
   t.not(instance, null);
+});
+
+/** @test {Character} */
+test.cb('<Character /> should be loaded with kt-kitty', t => {
+  let photoCount = -1;
+  const loadPhotosDouble = sinon.stub(Photo, 'loadPhotos');
+  loadPhotosDouble.callsFake(arg => new Promise((onFulfilled, onRejected) => {
+    fs.readFile(`data/${arg}.yaml`, { encoding: 'utf-8' }, (err, data) => {
+      if (err) {
+        onRejected(err);
+        return;
+      }
+      const arr = yaml.safeLoad(data);
+      photoCount = arr.length;
+      onFulfilled(arr.map(obj => new Photo(obj)));
+    });
+  }));
+  try {
+    const wrapper = mount(<Character match={{ params: { chara: 'kt-kitty' } }} />, { context });
+    t.not(null, wrapper.state('message'));
+    t.is(0, wrapper.state('message').indexOf('Loading'));
+    t.is(null, wrapper.state('photos'));
+    setTimeout(() => { // setImmediate does not work?
+      t.is(null, wrapper.state('message'));
+      t.not(null, wrapper.state('photos'));
+      t.is(photoCount, wrapper.state('photos').length);
+      t.end();
+    }, 100);
+  } finally {
+    loadPhotosDouble.restore();
+  }
 });
