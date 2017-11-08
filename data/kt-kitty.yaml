@@ -2499,6 +2499,13 @@
   colors: [pink, green, red, yellow, orange]
   notes:
   - アメリカ Dylan's Candy Bar
+- title: FILA Urban Outfitters
+  source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BbGgd6MjPDK/"}
+  images_instagram: { shortcode: "BbGgd6MjPDK", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 846 }
+  colors: [white, blue, red]
+  notes:
+  - アメリカ FILA x Sanrio Urban Outfitters
 - title: Johnny Cupcakes
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/Q7xvOrFD3o/"}
   images_instagram: { shortcode: "Q7xvOrFD3o", width_t: 150, width_m: 320, width_l: 612 }

@@ -112,6 +112,13 @@
   colors: [red, white, black]
   notes:
   - アメリカ『Hello Kitty Supercute Friendship Festival』
+- title: FILA Urban Outfitters
+  source: { author: "vblam", license: "", url: "https://www.instagram.com/p/BbINQiCD9hg/"}
+  images_instagram: { shortcode: "BbINQiCD9hg", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [blue, white, green, red]
+  notes:
+  - アメリカ FILA x Sanrio Urban Outfitters
 # スターライトパレード
 # コズミックファンタジー
 # シリウス

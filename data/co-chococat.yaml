@@ -11,3 +11,10 @@
   size: { width_o: 1541, height_o: 1077 }
   colors: [blue]
   notes: []
+- title: FILA Urban Outfitters
+  source: { author: "the_loveless", license: "", url: "https://www.instagram.com/p/BbKOk_qj3Ww/"}
+  images_instagram: { shortcode: "BbKOk_qj3Ww", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [yellow, white, black, red, blue]
+  notes:
+  - アメリカ FILA x Sanrio Urban Outfitters

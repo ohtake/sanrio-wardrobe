@@ -361,6 +361,13 @@
   colors: [red, white, silver]
   notes:
   - 香港 Hello Kitty Go Around
+- title: FILA Urban Outfitters
+  source: { author: "vblam", license: "", url: "https://www.instagram.com/p/BbGZMLAjzQS/"}
+  images_instagram: { shortcode: "BbGZMLAjzQS", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [black]
+  notes:
+  - アメリカ FILA x Sanrio Urban Outfitters
 - title: チョコキャットのエプロン
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/j7Z4pQlD1r/"}
   images_instagram: { shortcode: "j7Z4pQlD1r", width_t: 150, width_m: 320, width_l: 640 }
