@@ -1,0 +1,79 @@
+---
+- title: Mr. Tickle
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/BLyS4J5jyuy/"}
+  images_instagram: { shortcode: "BLyS4J5jyuy", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: []
+  notes: []
+- title: Mr. Strong (1)
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/BMmMInTjq05/"}
+  images_instagram: { shortcode: "BMmMInTjq05", width_t: 150, width_m: 320, width_l: 706 }
+  size: { width_o: 706, height_o: 706 }
+  colors: []
+  notes: []
+- title: Mr. Strong (2)
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/BX5RZ9PFLR9/"}
+  images_instagram: { shortcode: "BX5RZ9PFLR9", width_t: 150, width_m: 320, width_l: 720 }
+  size: { width_o: 720, height_o: 900 }
+  colors: []
+  notes: []
+- title: Mr. Fun
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/BCAzIZyq2K6/"}
+  images_instagram: { shortcode: "BCAzIZyq2K6", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: []
+  notes: []
+- title: Mr. Adventure
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/BMBPGsrDFMO/"}
+  images_instagram: { shortcode: "BMBPGsrDFMO", width_t: 150, width_m: 320, width_l: 1038 }
+  size: { width_o: 1038, height_o: 1038 }
+  colors: []
+  notes: []
+- title: Little Miss Explorer
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/Bad2JVGFM1w/"}
+  images_instagram: { shortcode: "Bad2JVGFM1w", width_t: 150, width_m: 320, width_l: 750 }
+  size: { width_o: 750, height_o: 750 }
+  colors: []
+  notes: []
+- title: Mr. Glug
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/66zGynq2BS/"}
+  images_instagram: { shortcode: "66zGynq2BS", width_t: 150, width_m: 320, width_l: 714 }
+  size: { width_o: 714, height_o: 714 }
+  colors: []
+  notes: []
+- title: Mr. Bump
+  source: { author: "amy_barnett_93", license: "", url: "https://www.instagram.com/p/BaOn599nS7Z/"}
+  images_instagram: { shortcode: "BaOn599nS7Z", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: []
+  notes: []
+- title: Mr. Quiffy
+  source: { author: "amy_barnett_93", license: "", url: "https://www.instagram.com/p/uAepV3K2AB/"}
+  images_instagram: { shortcode: "uAepV3K2AB", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: []
+  notes: []
+- title: Little Miss Hug
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/s1nsv9K2D8/"}
+  images_instagram: { shortcode: "s1nsv9K2D8", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: []
+  notes: []
+- title: Little Miss Princess
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/BSysQ5GlHGV/"}
+  images_instagram: { shortcode: "BSysQ5GlHGV", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: []
+  notes: []
+- title: Little Miss Sunshine (1)
+  source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/ufK-JbK2Oz/"}
+  images_instagram: { shortcode: "ufK-JbK2Oz", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: []
+  notes: []
+- title: Little Miss Sunshine (2)
+  source: { author: "kellyhancock94", license: "", url: "https://www.instagram.com/p/BW-wcCMjO5T/"}
+  images_instagram: { shortcode: "BW-wcCMjO5T", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 736 }
+  colors: []
+  notes: []
