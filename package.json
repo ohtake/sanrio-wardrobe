@@ -81,7 +81,8 @@
     "build:licenses": "yarn licenses generate-disclaimer --prod > assets/licenses.txt",
     "build:sme": "source-map-explorer assets/bundle.js assets/bundle.js.map --html > assets/sme.html",
     "build:statistics": "babel-node ./scripts/build-statistics.js",
-    "start": "cross-env NODE_ENV=development webpack-dev-server --progress --colors --config webpack.config.babel.js",
+    "start": "run-p -l build:statistics start:devserver",
+    "start:devserver": "cross-env NODE_ENV=development webpack-dev-server --progress --colors --config webpack.config.babel.js",
     "server": "cross-env NODE_ENV=production http-server"
   }
 }
