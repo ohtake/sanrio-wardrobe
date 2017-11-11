@@ -248,6 +248,15 @@
   - PINK sensation HALLOWEEN PARTY ~Hello Kitty 40th ANNIVERSARY BASH!~
   - PINK sensation 2015 HALLOWEEN PARTY ~Hello Kitty 41st ANNIVERSARY BASH! MY MELODY & Little Twin Stars 40th ANNIVERSARY!~
   - ハロウィン
+- title: PINK sensation 2017
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26550939459/"}
+  images_flickr: { photo: "26550939459", farm: 5, server: 4524, secret: "818125ea25", secret_h: "14790f6eab", secret_k: "a154c036e8", secret_o: "4ee61474f0", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [purple, black, orange, pink, yellow, silver]
+  notes:
+  - リボンの追加位置が変更
+  - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
+  - ハロウィン
 - title: レンジャー
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37009168160/"}
   images_flickr: { photo: "37009168160", farm: 5, server: 4504, secret: "c5e0ffa0dd", secret_h: "6e3a85a7c1", secret_k: "253df23136", secret_o: "3c956b4286", format_o: "jpg" }

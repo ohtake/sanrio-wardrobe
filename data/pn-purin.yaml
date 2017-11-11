@@ -193,6 +193,15 @@
   notes:
   - ポム顔グリーティング
   - ハロウィン
+- title: PINK sensation 2017
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26550941739/"}
+  images_flickr: { photo: "26550941739", farm: 5, server: 4543, secret: "c1b2fd87a9", secret_h: "7ba053507c", secret_k: "835a112db4", secret_o: "1c86d6effb", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [purple, green, orange, black, white, pink]
+  notes:
+  - ゴーストレンジャーにピンクのリボンが追加
+  - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
+  - ハロウィン
 - title: 柊マフラー
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31522123144/"}
   images_flickr: { photo: "31522123144", farm: 1, server: 511, secret: "dbf136b232", secret_h: "92b6d74463", secret_k: "c0184b0550", secret_o: "7ac925886d", format_o: "jpg" }

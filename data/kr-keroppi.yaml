@@ -99,6 +99,15 @@
   colors: [red, black, white, purple, orange]
   notes:
   - ピューロランドパレード『ハロウィンマーチングパレード』
+- title: PINK sensation
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37609478144/"}
+  images_flickr: { photo: "37609478144", farm: 5, server: 4581, secret: "1767b069b0", secret_h: "ca968a8d16", secret_k: "8b125203e9", secret_o: "1b4a8f45c1", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, black, white, purple, orange, pink]
+  notes:
+  - ハロウィンにピンクのリボンを追加
+  - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
+  - ハロウィン
 - title: IMG_6088
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/23705024104/"}
   images_flickr: { photo: "23705024104", farm: 2, server: 1564, secret: "48b014ed5d", secret_h: "e488fe84ad", secret_k: "aae6db696c", secret_o: "b0bbf49d53", format_o: "jpg" }

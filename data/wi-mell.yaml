@@ -116,6 +116,15 @@
   notes:
   - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』
   - ハロウィン
+- title: PINK sensation 2017
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38293369732/"}
+  images_flickr: { photo: "38293369732", farm: 5, server: 4583, secret: "28818a0691", secret_h: "fd7f2d11c2", secret_k: "8ab41a2637", secret_o: "dd2ca28659", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [purple, orange, blue, black, white, green, pink]
+  notes:
+  - ゴーストレンジャーにピンクのリボンを追加
+  - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
+  - ハロウィン
 - title: リリーボンボンズのマーチングパレード
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14549304532/"}
   images_flickr: { photo: "14549304532", farm: 4, server: 3849, secret: "2ff5a7c8e2", secret_h: "87facac7f0", secret_k: "8988b4bfae", secret_o: "81c47cccac", format_o: "jpg" }

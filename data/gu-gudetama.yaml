@@ -49,6 +49,14 @@
   size: { width_o: 5760, height_o: 3840 }
   colors: [black, white]
   notes: []
+- title: 寿司 PINK sensation 2017
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26550940749/"}
+  images_flickr: { photo: "26550940749", farm: 5, server: 4525, secret: "e7418a5698", secret_h: "2498dd9b7d", secret_k: "1161b5ba72", secret_o: "48c3fe89ab", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [black, white, pink]
+  notes:
+  - 寿司にリボンを追加
+  - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
 - title: ぱんつ
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36403937205/"}
   images_flickr: { photo: "36403937205", farm: 5, server: 4390, secret: "cc2b88fc28", secret_h: "bbcb9ba013", secret_k: "17377caec0", secret_o: "4541c24b04", format_o: "jpg" }
@@ -64,3 +72,13 @@
   - 知恵の木ステージ『ぐでたまの「ハロウィーンナイトパーティタイム開幕宣言」～今からお化けの時間なんだわ～』
   - ピューロランドパレード『ハロウィーンマーチングパレード』
   - PINK sensation 2016 Taicoclub in Sanrio Puroland ~ Hello Kitty 42nd Anniversary Bash!
+  - ハロウィン
+- title: かぼちゃぱんつ PINK sensation 2017
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24454472048/"}
+  images_flickr: { photo: "24454472048", farm: 5, server: 4540, secret: "ea8b9b608b", secret_h: "a0bdd81df3", secret_k: "0171e726e7", secret_o: "2113df4322", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [orange, green, black, yellow, blue, purple, pink, white]
+  notes:
+  - かぼちゃぱんつの左足に装飾を追加
+  - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
+  - ハロウィン

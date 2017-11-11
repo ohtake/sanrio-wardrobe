@@ -323,6 +323,15 @@
   - 通常のハロウィンの胸にピンクのリボンが追加
   - PINK sensation HALLOWEEN PARTY ~Hello Kitty 40th ANNIVERSARY BASH!~
   - ハロウィン
+- title: PINK sensation 2017
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38269844546/"}
+  images_flickr: { photo: "38269844546", farm: 5, server: 4552, secret: "b4b32ffc4f", secret_h: "ac7304ca3b", secret_k: "ee3816696f", secret_o: "22a67f8480", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [purple, black, orange, yellow, white, gold, silver]
+  notes:
+  - ハロウィンに花を追加
+  - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
+  - ハロウィン
 - title: ハッピーキャラバン旧1
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZEAhcUHAkx/"}
   images_instagram: { shortcode: "BZEAhcUHAkx", width_t: 150, width_m: 320, width_l: 1080 }

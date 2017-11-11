@@ -679,10 +679,19 @@
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15360373912/"}
   images_flickr: { photo: "15360373912", farm: 3, server: 2945, secret: "c7000ef8be", secret_h: "83589b9602", secret_k: "42e0797a8c", secret_o: "9aac375034", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [orange, purple, black]
+  colors: [orange, purple, black, white]
   notes:
   - ピューロランドパレード『ハロウィンマーチングパレード』パンプキン
   - ピューロランドパレード『ハロウィーンゴーストレンジャーパレード』
+  - ハロウィン
+- title: PINK sensation 2017
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37609483384/"}
+  images_flickr: { photo: "37609483384", farm: 5, server: 4584, secret: "5c7869fa23", secret_h: "566900db6f", secret_k: "e90cfcb303", secret_o: "89a3e36bbb", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [orange, purple, black, white, pink]
+  notes:
+  - パンプキンにリボンを追加
+  - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
   - ハロウィン
 - title: ハロウィン・ゴースト
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15431071427/"}
@@ -692,7 +701,7 @@
   notes:
   - ピューロランドパレード『ハロウィンマーチングパレード』ゴースト
   - ハロウィン
-- title: 5D3W6010
+- title: ゴースト・ピンク
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23165223009/"}
   images_flickr: { photo: "23165223009", farm: 1, server: 572, secret: "ee24c392b6", secret_h: "8d7407cfbc", secret_k: "98b1b6c1ac", secret_o: "e53f10eed3", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
@@ -708,6 +717,7 @@
   colors: [white, red, orange, black]
   notes:
   - ゴーストにバケツを追加
+  - PINK sensation 2016 Taicoclub in Sanrio Puroland ~ Hello Kitty 42nd Anniversary Bash!
   - ハロウィン
 - title: 夏フェス
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14907564545/"}
@@ -1476,7 +1486,7 @@
   notes:
   - 『ロマンティックセレナーデ』から腰ひもとリストを削除しジャケットとクリスマス装飾を追加
   - クリスマス
-- title: 5D3I3419
+- title: カボチャ・赤
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10114607714/"}
   images_flickr: { photo: "10114607714", farm: 8, server: 7397, secret: "f024e2df52", secret_h: "18a9b8b316", secret_k: "0437de63e0", secret_o: "36a104872e", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
@@ -1484,6 +1494,14 @@
   notes:
   - 2017年2月のSANRIO EXPOでの表記は「ハロウィン」
   - ハロウィン、ジャック・オー・ランタン、マント、帽子
+- title: カボチャ・オレンジ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38252789196/"}
+  images_flickr: { photo: "38252789196", farm: 5, server: 4556, secret: "98cbd4d171", secret_h: "c35b269592", secret_k: "94158a684c", secret_o: "8ca72a5270", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [black, orange, red, gold]
+  notes:
+  - ハロウィン、ジャック・オー・ランタン、マント、帽子
+  - 胸の飾りが赤ではなくオレンジ
 - title: DSC08003
   source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/21469538785/"}
   images_flickr: { photo: "21469538785", farm: 1, server: 675, secret: "2612a4473d", secret_h: "a7ec790ba2", secret_k: "44d2b82628", secret_o: "49c75ba135", format_o: "jpg" }

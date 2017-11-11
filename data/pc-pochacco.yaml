@@ -151,6 +151,15 @@
   colors: [black, white, orange]
   notes:
   - ハロウィン
+- title: PINK sensation
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38269814156/"}
+  images_flickr: { photo: "38269814156", farm: 5, server: 4521, secret: "e6b10b4986", secret_h: "21e77c8953", secret_k: "1e5eb6a480", secret_o: "4b8c22d5be", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [black, white, orange, pink]
+  notes:
+  - ハロウィンに花を追加
+  - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
+  - ハロウィン
 - title: シリウス・帽子なし
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12718263824/"}
   images_flickr: { photo: "12718263824", farm: 8, server: 7442, secret: "852530a1b5", secret_h: "6f5d974207", secret_k: "16aaca8c14", secret_o: "ed8f6571cd", format_o: "jpg" }
