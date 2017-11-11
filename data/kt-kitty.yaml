@@ -652,13 +652,16 @@
   notes:
   - レディキティハウス「トリコロール」ハロウィン版
   - ジャック・オー・ランタン
-- title: KITTYFUL
+- title: KITTYFUL・2017バースデーコスチューム
   source: { author: "Sanrio Puroland", license: "", url: "https://www.instagram.com/p/BZ0o4b_lBjJ/"}
   images_instagram: { shortcode: "BZ0o4b_lBjJ", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 1079 }
   colors: [pink, blue, white]
   notes:
-  - KITTYFUL
+  - KITTYFUL 2017バースデーコスチューム
+# ピンクロングドレス
+# MEET THE 2 RIBBONS
+# グリッターワンピース
 - title: SPARKLE
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36287635300/"}
   images_flickr: { photo: "36287635300", farm: 5, server: 4339, secret: "5274cf73af", secret_h: "7c32228f46", secret_k: "f4544152a5", secret_o: "d5b50fe837", format_o: "jpg" }
