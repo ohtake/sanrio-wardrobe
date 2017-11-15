@@ -6,7 +6,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/ohtake/sanrio-wardrobe/badge.svg?branch=master)](https://coveralls.io/github/ohtake/sanrio-wardrobe?branch=master)
 [![dependencies Status](https://david-dm.org/ohtake/sanrio-wardrobe/status.svg)](https://david-dm.org/ohtake/sanrio-wardrobe)
 [![devDependencies Status](https://david-dm.org/ohtake/sanrio-wardrobe/dev-status.svg)](https://david-dm.org/ohtake/sanrio-wardrobe?type=dev)
-[![peerDependencies Status](https://david-dm.org/ohtake/sanrio-wardrobe/peer-status.svg)](https://david-dm.org/ohtake/sanrio-wardrobe?type=peer)
 
 Unofficial listings of Sanrio character costumes.
 
