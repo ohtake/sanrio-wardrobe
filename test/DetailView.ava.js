@@ -87,3 +87,14 @@ test('<DetailView /> should handle four photo', t => {
   t.is(context2.router.history.replace.callCount, 4);
   t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template0']);
 });
+
+/** @test {DetailView#toggleInfo} */
+test('<DetailView /> should handle toggleInfo', t => {
+  const wrapper = shallow(<DetailView chara="zz-zzzzz" />, { context });
+  const instance = wrapper.instance();
+  wrapper.setState({ photos: [new Photo(photoTemplate)], index: 0 });
+  t.true(wrapper.find('AppBar').exists());
+  instance.toggleInfo();
+  wrapper.update(); // Why required?
+  t.false(wrapper.find('AppBar').exists());
+});
