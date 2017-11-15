@@ -1,5 +1,6 @@
 ---
-engines:
+version: "2"
+plugins:
   duplication:
     enabled: true
     config:
@@ -12,9 +13,5 @@ engines:
       config: .eslintrc.yaml
   fixme:
     enabled: true
-ratings:
-  paths:
-  - "**.js"
-  - "**.jsx"
-exclude_paths:
+exclude_patterns:
 - test/
