@@ -65,6 +65,14 @@ export default class Home extends React.Component {
   componentDidMount() {
     this.context.setTitle();
   }
+  renderGallery(dataFiles, gaEventAction) {
+    return (
+      <FullWidthContainer
+        renderElement={width => (
+          <JustifiedLayout targetRowHeight={this.context.thumbnailSize} containerWidth={width} childObjects={dataFiles} mapperToElement={curry(renderTile)(gaEventAction)} />
+        )}
+      />);
+  }
   render() {
     const featured = [
       DataFile.ktKitty,
@@ -91,17 +99,9 @@ export default class Home extends React.Component {
           <FlatButton label="Statistics" icon={<EditorShowChart />} />
         </RouterLink>
         <h2>Featured characters</h2>
-        <FullWidthContainer
-          renderElement={width => (
-            <JustifiedLayout targetRowHeight={this.context.thumbnailSize} containerWidth={width} childObjects={featured} mapperToElement={curry(renderTile)('featured')} />
-          )}
-        />
+        {this.renderGallery(featured, 'featured')}
         <h2>All characters</h2>
-        <FullWidthContainer
-          renderElement={width => (
-            <JustifiedLayout targetRowHeight={this.context.thumbnailSize} containerWidth={width} childObjects={DataFile.all} mapperToElement={curry(renderTile)('all')} />
-          )}
-        />
+        {this.renderGallery(DataFile.all, 'all')}
         <h2>License</h2>
         <ul>
           <li>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></li>

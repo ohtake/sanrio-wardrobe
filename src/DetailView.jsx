@@ -171,6 +171,33 @@ export default class DetailView extends React.Component {
       </a>
     );
   }
+  renderAppBar(main) {
+    const titleStyle = { overflow: 'hidden', textOverflow: 'ellipsis' };
+    const authorStyle = assign(clone(titleStyle), { margin: '-40px 0 0', fontSize: '60%' });
+    return (
+      <AppBar
+        style={{ height: '72px' }}
+        titleStyle={{ height: '100px' }}
+        iconElementLeft={<IconButton onClick={this.closeDetailView}><NavigationArrowBack /></IconButton>}
+        title={
+          <div>
+            <div style={titleStyle}>{main.data.title}</div>
+            <div style={authorStyle}>{this.createCreditElement(main)}</div>
+          </div>}
+        iconElementRight={
+          <IconMenu iconButtonElement={<IconButton><NavigationMoreVert /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
+            <List>
+              <ListItem primaryText="Open image source" leftIcon={<ActionOpenInBrowser />} secondaryText="Tap the credit" onClick={this.openImageSource} />
+              <ListItem primaryText="Fullscreen" leftIcon={<NavigationFullscreen />} secondaryText="Tap the image" onClick={this.toggleInfo} />
+              <ListItem primaryText="Move Previous" leftIcon={<NavigationChevronLeft />} secondaryText="Swipe right / Left key" onClick={this.movePrev} />
+              <ListItem primaryText="Move Next" leftIcon={<NavigationChevronRight />} secondaryText="Swipe left / Right key" onClick={this.moveNext} />
+              <Divider />
+              <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />
+            </List>
+          </IconMenu>
+        }
+      />);
+  }
   render() {
     if (this.state.photos == null) {
       return <Drawer open={false} openSecondary docked />;
@@ -191,8 +218,6 @@ export default class DetailView extends React.Component {
     // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
     const imgPrevStyle = assign(clone(imgBaseStyle), { left: -imgPosition, objectPosition: '100% 50%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
     const imgNextStyle = assign(clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
-    const titleStyle = { overflow: 'hidden', textOverflow: 'ellipsis' };
-    const authorStyle = assign(clone(titleStyle), { margin: '-40px 0 0', fontSize: '60%' });
 
     function floatingIcon(iconElement, isTop, isLeft, handler) {
       const containerStyle = { position: 'absolute' };
@@ -212,30 +237,7 @@ export default class DetailView extends React.Component {
       >
         <AutoLockScrolling lock />
         <div style={{ position: 'relative', height: '100%', overflow: 'hidden' }}>
-          {this.state.showInfo ?
-            <AppBar
-              style={{ height: '72px' }}
-              titleStyle={{ height: '100px' }}
-              iconElementLeft={<IconButton onClick={this.closeDetailView}><NavigationArrowBack /></IconButton>}
-              title={
-                <div>
-                  <div style={titleStyle}>{main.data.title}</div>
-                  <div style={authorStyle}>{this.createCreditElement(main)}</div>
-                </div>}
-              iconElementRight={
-                <IconMenu iconButtonElement={<IconButton><NavigationMoreVert /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
-                  <List>
-                    <ListItem primaryText="Open image source" leftIcon={<ActionOpenInBrowser />} secondaryText="Tap the credit" onClick={this.openImageSource} />
-                    <ListItem primaryText="Fullscreen" leftIcon={<NavigationFullscreen />} secondaryText="Tap the image" onClick={this.toggleInfo} />
-                    <ListItem primaryText="Move Previous" leftIcon={<NavigationChevronLeft />} secondaryText="Swipe right / Left key" onClick={this.movePrev} />
-                    <ListItem primaryText="Move Next" leftIcon={<NavigationChevronRight />} secondaryText="Swipe left / Right key" onClick={this.moveNext} />
-                    <Divider />
-                    <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />
-                  </List>
-                </IconMenu>
-              }
-            />
-            : null}
+          {this.state.showInfo ? this.renderAppBar(main) : null}
           <Swipeable
             style={{
               position: 'absolute', top: (this.state.showInfo ? '72px' : 0), bottom: 0, left: (-this.state.swipingRatio * this.state.menuWidth), width: '100%',
