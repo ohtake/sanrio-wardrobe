@@ -2908,7 +2908,8 @@
   images_flickr: { photo: "35078976321", farm: 5, server: 4235, secret: "bf600bb352", secret_h: "40b1cb28d3", secret_k: "fc47803dfd", secret_o: "50c5fab603", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
   colors: [pink, white, silver, red]
-  notes: []
+  notes:
+  - シンガポール Changi Airport Nordic Adventures
 - title: BDKljPOLekv
   source: { author: "sl_8erene", license: "", url: "https://www.instagram.com/p/BDKljPOLekv/"}
   images_instagram: { shortcode: "BDKljPOLekv", width_t: 150, width_m: 320, width_l: 1016 }
@@ -2917,6 +2918,13 @@
   notes:
   - シンガポール OneKM Hello Kitty & Friends Groovin Cruise
   - セーラー、帽子
+- title: BbmMP8ZHXrS
+  source: { author: "kirapark92", license: "", url: "https://www.instagram.com/p/BbmMP8ZHXrS/"}
+  images_instagram: { shortcode: "BbmMP8ZHXrS", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [green, red, yellow, brown, white]
+  notes:
+  - シンガポール Changi Airport Mystical Garden
 - title: Hello Kitty Live
   source: { author: "Ria Hazel", license: "", url: "https://www.instagram.com/p/BOG9iMUgCoe/"}
   images_instagram: { shortcode: "BOG9iMUgCoe", width_t: 150, width_m: 320, width_l: 1080 }
