@@ -295,6 +295,13 @@
   colors: [blue]
   notes:
   - プードル、ハート
+- title: BbhYw7jlDWp
+  source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/BbhYw7jlDWp/"}
+  images_instagram: { shortcode: "BbhYw7jlDWp", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [yellow, white, green]
+  notes:
+  - 音符
 - title: 5D3W6481
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23538556385/"}
   images_flickr: { photo: "23538556385", farm: 6, server: 5757, secret: "7e858ebde1", secret_h: "7bc62f7b9f", secret_k: "373ace830c", secret_o: "36e8a85023", format_o: "jpg" }

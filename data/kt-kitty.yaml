@@ -960,6 +960,13 @@
   colors: [pink]
   notes:
   - プードル、ハート
+- title: BbhYw7jlDWp
+  source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/BbhYw7jlDWp/"}
+  images_instagram: { shortcode: "BbhYw7jlDWp", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [red, white, blue]
+  notes:
+  - 音符
 - title: パレード・ノア
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15803652225/"}
   images_flickr: { photo: "15803652225", farm: 8, server: 7540, secret: "3e52e9aef8", secret_h: "8819306ca4", secret_k: "58659e4878", secret_o: "c7c9a9521e", format_o: "jpg" }
