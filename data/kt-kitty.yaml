@@ -653,9 +653,9 @@
   - レディキティハウス「トリコロール」ハロウィン版
   - ジャック・オー・ランタン
 - title: KITTYFUL・2017バースデーコスチューム
-  source: { author: "Sanrio Puroland", license: "", url: "https://www.instagram.com/p/BZ0o4b_lBjJ/"}
-  images_instagram: { shortcode: "BZ0o4b_lBjJ", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 1079 }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38426885156/"}
+  images_flickr: { photo: "38426885156", farm: 5, server: 4544, secret: "af55f19e68", secret_h: "94f9ef5cfc", secret_k: "03ff324ee6", secret_o: "1f3973e394", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
   colors: [pink, blue, white]
   notes:
   - KITTYFUL 2017バースデーコスチューム
