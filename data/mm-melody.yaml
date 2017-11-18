@@ -117,6 +117,13 @@
   colors: [red, pink, white, yellow, green]
   notes:
   - リリーボンボンズとはスカートが異なる
+- title: BbmjURilXm5
+  source: { author: "sanrio.hk", license: "", url: "https://www.instagram.com/p/BbmjURilXm5/"}
+  images_instagram: { shortcode: "BbmjURilXm5", width_t: 150, width_m: 320, width_l: 928 }
+  size: { width_o: 928, height_o: 922 }
+  colors: [red, pink, white, yellow, green]
+  notes:
+  - シンガポール Changi Airport Mystical Garden
 - title: Someday III
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZFXSWznIFw/"}
   images_instagram: { shortcode: "BZFXSWznIFw", width_t: 150, width_m: 320, width_l: 1080 }
