@@ -519,10 +519,10 @@
   - 一日駅長
   - チェック、リボン
 - title: 京王多摩センター駅名誉駅長
-  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31099745591/"}
-  images_flickr: { photo: "31099745591", farm: 6, server: 5792, secret: "c8fbf755d4", secret_h: "1785a900b6", secret_k: "6b8b023014", secret_o: "2e16a13248", format_o: "jpg" }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37863756834/"}
+  images_flickr: { photo: "37863756834", farm: 5, server: 4570, secret: "f903ff9090", secret_h: "e2c98360f1", secret_k: "a0474fe246", secret_o: "3aaa225363", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [black, red, gold]
+  colors: [black, red, gold, white]
   notes:
   - 京王多摩センター駅名誉駅長
   - 帽子
@@ -1634,14 +1634,23 @@
   notes:
   - 上半身の配色、リボン、帽子、靴が異なる
   - クリスマス、柊、帽子
-- title: 5D3J8101
-  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11009211033/"}
-  images_flickr: { photo: "11009211033", farm: 4, server: 3809, secret: "f4efd01e20", secret_h: "66ae2ade0e", secret_k: "a3af03c1c9", secret_o: "5fd67fdd15", format_o: "jpg" }
-  size: { width_o: 3840, height_o: 5760 }
+- title: 5D3S3203
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15986564637/"}
+  images_flickr: { photo: "15986564637", farm: 8, server: 7487, secret: "311505ee43", secret_h: "5a3e50c692", secret_k: "153faaa1aa", secret_o: "c169f82193", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
   colors: [red, white, gold]
   notes:
   - 外部イベント『サンリオクリスマスレビューショー』
   - 2017年2月のSANRIO EXPOでの表記は「クリスマス」
+  - クリスマス、サンタクロース、帽子
+- title: Blue Snow Christmas
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38580854331/"}
+  images_flickr: { photo: "38580854331", farm: 5, server: 4576, secret: "a7867f28a7", secret_h: "6d19ba91f4", secret_k: "8ca545dcd8", secret_o: "220eb4ebcc", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, white, gold]
+  notes:
+  - ピューロビレッジ『ハローキティイルミネーション Blue Snow Christmas ~天使のおくりもの~』
+  - オーバーパンツが変更
   - クリスマス、サンタクロース、帽子
 - title: 5D3H3184
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9690585032/"}
@@ -1987,9 +1996,9 @@
   size: { width_o: 3840, height_o: 5760 }
   colors: [white, pink, silver]
   notes: []
-- title: 53AD3067
-  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/33315499152/"}
-  images_flickr: { photo: "33315499152", farm: 4, server: 3882, secret: "25f1578577", secret_h: "94b0efb22c", secret_k: "72d1b7aab2", secret_o: "87f65c6a50", format_o: "jpg" }
+- title: 53AJ1973
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38580200421/"}
+  images_flickr: { photo: "38580200421", farm: 5, server: 4564, secret: "c7592114b4", secret_h: "ab04bfa500", secret_k: "9f61bdf965", secret_o: "eb7fa80797", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
   colors: [pink, red, purple, white]
   notes:

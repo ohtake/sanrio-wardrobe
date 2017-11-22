@@ -17,6 +17,13 @@
   size: { width_o: 3840, height_o: 5760 }
   colors: [gold, red, blue, black, yellow, white, green, silver]
   notes: []
+- title: タキシード
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38548037622/"}
+  images_flickr: { photo: "38548037622", farm: 5, server: 4582, secret: "cea3c51e68", secret_h: "4b57aaf927", secret_k: "4aa006480c", secret_o: "b7fd734b12", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [black, red, silver, white, gold]
+  notes:
+  - 東京競馬場、阪神競馬場
 - title: クリスマス
   source: { author: "kazumi__hii", license: "", url: "https://www.instagram.com/p/BOWk1V-gPNy/"}
   images_instagram: { shortcode: "BOWk1V-gPNy", width_t: 150, width_m: 320, width_l: 640 }
@@ -106,12 +113,6 @@
   images_instagram: { shortcode: "BObOHHxh-_a", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 1080 }
   colors: [red, white, green, yellow, black]
-  notes: []
-- title: 阪神・タキシード
-  source: { author: "tecchon33", license: "", url: "https://www.instagram.com/p/BSXP7cmjVxN/"}
-  images_instagram: { shortcode: "BSXP7cmjVxN", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 1080 }
-  colors: [black, red, silver, white]
   notes: []
 - title: 小倉
   source: { author: "mokami625", license: "", url: "https://www.instagram.com/p/BXIREy_gRkc/"}
