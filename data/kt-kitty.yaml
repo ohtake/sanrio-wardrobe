@@ -201,13 +201,20 @@
   notes:
   - メルヘンシアター『ハローキティ ドリームレビュー1』
   - タータンチェック
-- title: 5D3X8528
+- title: ドリームレビュー1・ピアノコンクール
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25793490290/"}
   images_flickr: { photo: "25793490290", farm: 2, server: 1634, secret: "2c863c6fa1", secret_h: "9c3e845bec", secret_k: "d6935ac9fd", secret_o: "1901a951da", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [white, blue, red]
+  colors: [white, blue, pink, red]
   notes:
   - メルヘンシアター『ハローキティ ドリームレビュー1』ピアノコンクール
+- title: リボンの国の音もだち
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY0EKLgjVl-/"}
+  images_instagram: { shortcode: "BY0EKLgjVl-", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [white, blue, pink, red]
+  notes:
+  - 外部イベント『リボンの国の音もだち』
 - title: 9k8n6sMGEp
   source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/9k8n6sMGEp/"}
   images_instagram: { shortcode: "9k8n6sMGEp", width_t: 150, width_m: 320, width_l: 750 }
@@ -2097,13 +2104,20 @@
   colors: [red, pink, blue, orange, green, yellow]
   notes:
   - フコク生命
-#- title: BIh4h2hBDbe
-#  source: { author: "maimai.0914", license: "", url: "https://www.instagram.com/p/BIh4h2hBDbe/"}
-#  images_instagram: { shortcode: "BIh4h2hBDbe", width_t: 150, width_m: 320, width_l: 1080 }
-#  size: { width_o: 1080, height_o: 810 }
-#  colors: [pink, white]
-#  notes:
-#  - フコク生命
+- title: BIh4h2hBDbe
+  source: { author: "maimai.0914", license: "", url: "https://www.instagram.com/p/BIh4h2hBDbe/"}
+  images_instagram: { shortcode: "BIh4h2hBDbe", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 810 }
+  colors: [pink, white]
+  notes:
+  - フコク生命
+- title: twstsFGzTg
+  source: { author: "linagram13", license: "", url: "https://www.instagram.com/p/twstsFGzTg/"}
+  images_instagram: { shortcode: "twstsFGzTg", width_t: 150, width_m: 320, width_l: 640 }
+  size: { width_o: 640, height_o: 640 }
+  colors: [pink, white, red]
+  notes:
+  - フコク生命
 - title: BUV5K15BQF9
   source: { author: "masapapagram", license: "", url: "https://www.instagram.com/p/BUV5K15BQF9/"}
   images_instagram: { shortcode: "BUV5K15BQF9", width_t: 150, width_m: 320, width_l: 1080 }
@@ -2743,6 +2757,13 @@
   notes:
   - アメリカ
   - 水玉
+- title: Bbp1UTrA8ye
+  source: { author: "clairesstores", license: "", url: "https://www.instagram.com/p/Bbp1UTrA8ye/"}
+  images_instagram: { shortcode: "Bbp1UTrA8ye", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [pink, red]
+  notes:
+  - アメリカ
 - title: flickr-6990958659
   source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/6990958659/"}
   images_flickr: { photo: "6990958659", farm: 8, server: 7203, secret: "1dce19f2db", before: "20100525" }
@@ -2782,6 +2803,20 @@
   notes:
   - 香港 Hello Kittty Pop-Up Supermarket in Hong Kong
   - 帽子
+- title: BbsxLE4A9dR
+  source: { author: "hkmimi82", license: "", url: "https://www.instagram.com/p/BbsxLE4A9dR/"}
+  images_instagram: { shortcode: "BbsxLE4A9dR", width_t: 150, width_m: 320, width_l: 773 }
+  size: { width_o: 773, height_o: 773 }
+  colors: [brown, white]
+  notes:
+  - メキシコ
+- title: BOK4J57jZhr
+  source: { author: "hkmimi82", license: "", url: "https://www.instagram.com/p/BOK4J57jZhr/"}
+  images_instagram: { shortcode: "BOK4J57jZhr", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [blue, red, yellow]
+  notes:
+  - メキシコ
 - title: BOFB97DBU1v
   source: { author: "Sanrio do Brasil", license: "", url: "https://www.instagram.com/p/BOFB97DBU1v/"}
   images_instagram: { shortcode: "BOFB97DBU1v", width_t: 150, width_m: 320, width_l: 1080 }
