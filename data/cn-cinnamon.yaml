@@ -371,7 +371,14 @@
   colors: [blue, white, pink, green]
   notes:
   - しながわ観光大使
-- title: パレード・ノア
+- title: パレード・ノア・月
+  source: { author: "Astronaut Chicken", license: "", url: "https://www.flickr.com/photos/astronautchicken/3439029612/"}
+  images_flickr: { photo: "3439029612", farm: 4, server: 3635, secret: "262a7a6c58", before: "20120301" }
+  size: { width_o: 1024, height_o: 768 }
+  colors: [blue, gold, red, white]
+  notes:
+  - ハーモニーランドパレード『パレード・ノア』
+- title: パレード・ノア・太陽
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15184201063/"}
   images_flickr: { photo: "15184201063", farm: 8, server: 7525, secret: "7a3b214d2f", secret_h: "906b75a07b", secret_k: "fe10ba2d0f", secret_o: "ffe39ba958", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
