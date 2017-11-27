@@ -89,6 +89,7 @@
   colors: [red, pink, white, yellow]
   notes:
   - フェアリーランドシアター『Someday II』
+  - 外部イベント『ハローキティのドリームトラベラー』
 - title: キャラ大マニフェスト宣言
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9065033657/"}
   images_flickr: { photo: "9065033657", farm: 8, server: 7396, secret: "544796a37c", secret_h: "97b60fbeb6", secret_k: "abbb64c53a", secret_o: "e9b9d0354c", format_o: "jpg" }
@@ -481,18 +482,20 @@
   colors: [red, green, white, pink, yellow]
   notes:
   - 知恵の木ステージ『ミート・ザ・イチゴマン』
-- title: 5D3X7029
+- title: すてきな物語1
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24930939073/"}
   images_flickr: { photo: "24930939073", farm: 2, server: 1460, secret: "f4b8b1282a", secret_h: "6d4380c8e2", secret_k: "859e7ca772", secret_o: "8c49cb7707", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
   colors: [pink, green, red, white, yellow]
-  notes: []
-- title: 5D3X7393
+  notes:
+  - 外部イベント『ハローキティのすてきな物語』1着目
+- title: すてきな物語2
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24927111974/"}
   images_flickr: { photo: "24927111974", farm: 2, server: 1608, secret: "03e38fb34d", secret_h: "b48847b816", secret_k: "b7e034afe9", secret_o: "7e4e01945d", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
   colors: [pink, gold, green, blue, yellow]
-  notes: []
+  notes:
+  - 外部イベント『ハローキティのすてきな物語』2着目
 - title: 5D3R0916
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15183139244/"}
   images_flickr: { photo: "15183139244", farm: 9, server: 8643, secret: "d8ba90cc4b", secret_h: "1c5d40725e", secret_k: "c7e0ff682d", secret_o: "a975866596", format_o: "jpg" }

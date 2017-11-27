@@ -337,12 +337,13 @@
   size: { width_o: 3840, height_o: 5760 }
   colors: [blue, silver, red, black]
   notes: []
-- title: 5D3Y0834
+- title: すてきな物語・マントあり
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25723127533/"}
   images_flickr: { photo: "25723127533", farm: 2, server: 1681, secret: "b7d1b2f9d5", secret_h: "4dca99be40", secret_k: "578346ff51", secret_o: "59f8455398", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
   colors: [gold, black, white, blue, red]
-  notes: []
+  notes:
+  - 外部イベント『ハローキティのすてきな物語』マントあり
 - title: 53AD2383
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32531384384/"}
   images_flickr: { photo: "32531384384", farm: 4, server: 3823, secret: "11874c6dc4", secret_h: "d0e66280fa", secret_k: "48f89c285e", secret_o: "74307a1d00", format_o: "jpg" }

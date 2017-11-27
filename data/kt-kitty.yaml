@@ -1905,12 +1905,13 @@
   colors: [black, red, white, pink]
   notes:
   - 水玉、スパンコール、ベルト
-- title: IMG_2857
+- title: すてきな物語
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/22302652979/"}
   images_flickr: { photo: "22302652979", farm: 6, server: 5624, secret: "bdb7efcc07", secret_h: "b764ad3ee9", secret_k: "87d7f3e9b5", secret_o: "6cf1747f14", format_o: "jpg" }
   size: { width_o: 3456, height_o: 5184 }
   colors: [pink, blue, grey, red]
   notes:
+  - 外部イベント『ハローキティのすてきな物語』
   - 外部イベント『ハローキティ&プリンのハートフルタイム』
   - タータンチェック
 - title: BV3EimtD_cO

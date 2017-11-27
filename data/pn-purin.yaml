@@ -49,6 +49,7 @@
   colors: [orange, green, white, red, black]
   notes:
   - ピューロランドパレード『ARIGATO EVERYONE!』
+  - 外部イベント『ハローキティのドリームトラベラー』
 - title: OMOIYARI TO YOU
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16598641999/"}
   images_flickr: { photo: "16598641999", farm: 9, server: 8590, secret: "0b85785ced", secret_h: "c12ce5ab21", secret_k: "7e338625ac", secret_o: "d5a7281c8e", format_o: "jpg" }
