@@ -308,15 +308,26 @@
   size: { width_o: 3840, height_o: 5760 }
   colors: [red, green, white, gold]
   notes:
-     - ピューロビレッジ『HAPPY GIFT CHRISTMAS』初期
+  - ピューロビレッジ『HAPPY GIFT CHRISTMAS』初期
+  - クリスマス
 - title: HAPPY GIFT CHRISTMAS
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30869407084/"}
   images_flickr: { photo: "30869407084", farm: 1, server: 721, secret: "d1ce300e0e", secret_h: "6b65b1b78e", secret_k: "6e5ab18f5d", secret_o: "7c3e365bf8", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
   colors: [red, green, white, gold]
   notes:
-     - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
-     - カップに装飾が追加
+  - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
+  - 初期と比べカップに装飾が追加
+  - クリスマス
+- title: クリスマ☆パーティ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37750375865/"}
+  images_flickr: { photo: "37750375865", farm: 5, server: 4574, secret: "4b47d5c8ed", secret_h: "794891d994", secret_k: "b7327f32e0", secret_o: "2e6147d815", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, green, yellow, white, gold]
+  notes:
+  - ピューロビレッジ『クリスマ☆パーティ～｢ス｣が消えちゃった!?～』
+  - HAPPY GIFT CHRISTMAS から袖が変更
+  - クリスマス
 - title: ハートフルクリスマス
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32026408480/"}
   images_flickr: { photo: "32026408480", farm: 1, server: 695, secret: "f532d49d90", secret_h: "33222330c5", secret_k: "4de5ece461", secret_o: "908baf4b7a", format_o: "jpg" }

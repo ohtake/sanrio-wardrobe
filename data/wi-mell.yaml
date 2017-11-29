@@ -196,3 +196,11 @@
   colors: [yellow, pink, blue, purple, black, white]
   notes:
   - 浴衣
+- title: クリスマ☆パーティ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38638121231/"}
+  images_flickr: { photo: "38638121231", farm: 5, server: 4566, secret: "561e4d6605", secret_h: "02b006e9c9", secret_k: "38ff77cf30", secret_o: "01573425e5", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, green, white]
+  notes:
+  - ピューロビレッジ『クリスマ☆パーティ～｢ス｣が消えちゃった!?～』
+  - クリスマス

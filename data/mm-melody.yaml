@@ -68,6 +68,14 @@
   colors: [pink, red, blue, green, yellow, purple, white]
   notes:
   - ピューロランドパレード『Miracle Gift Parade』
+- title: クリスマ☆パーティ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38638128121/"}
+  images_flickr: { photo: "38638128121", farm: 5, server: 4544, secret: "824aaa3cdc", secret_h: "60c3355cef", secret_k: "6d66123e47", secret_o: "2460263954", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, white, pink, green]
+  notes:
+  - ピューロビレッジ『クリスマ☆パーティ～｢ス｣が消えちゃった!?～』
+  - クリスマス
 - title: Someday I
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14604010073/"}
   images_flickr: { photo: "14604010073", farm: 6, server: 5521, secret: "bc5037f235", secret_h: "3af879ab2f", secret_k: "3606f32918", secret_o: "57115b0394", format_o: "jpg" }

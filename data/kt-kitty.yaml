@@ -667,7 +667,14 @@
   notes:
   - KITTYFUL 2017バースデーコスチューム
 # ピンクロングドレス
-# MEET THE 2 RIBBONS
+- title: KITTYFUL・MEET THE 2 RIBBONS
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24765686698/"}
+  images_flickr: { photo: "24765686698", farm: 5, server: 4572, secret: "3d73726833", secret_h: "a2a0150d91", secret_k: "ab5e277c47", secret_o: "d7b3ee5851", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, blue, yellow, white]
+  notes:
+  - KITTYFUL MEET THE 2 RIBBONS
+  - 眼鏡
 # グリッターワンピース
 - title: SPARKLE
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36287635300/"}
@@ -756,6 +763,7 @@
   colors: [red, green, white, gold]
   notes:
   - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
+  - ピューロビレッジ『クリスマ☆パーティ～｢ス｣が消えちゃった!?～』
   - クリスマス、帽子
 - title: 5D3C0478 (1440x960)
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/ccB9ykxR4xO-44GTNwPKw9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
@@ -1266,12 +1274,20 @@
   notes:
   - 外部イベント『キティ&ミミィのハッピーフレンドクリスマス!』
   - 雪、クリスマス
+- title: 53AJ3541
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38638119531/"}
+  images_flickr: { photo: "38638119531", farm: 5, server: 4585, secret: "c58d82802d", secret_h: "b077e37b2d", secret_k: "5b4df27e73", secret_o: "d10d4cc90f", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [red, white]
+  notes:
+  - クリスマス、バラ
 - title: 5D3S2843
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16145846516/"}
   images_flickr: { photo: "16145846516", farm: 8, server: 7485, secret: "6d181ee298", secret_h: "5ef6e47ae9", secret_k: "abe7e1b374", secret_o: "f170f19bea", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
   colors: [red, white]
   notes:
+  - 光るブレスレット付き
   - クリスマス、バラ
 - title: 5D3M9653
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13926406798/"}

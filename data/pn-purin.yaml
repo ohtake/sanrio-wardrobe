@@ -217,6 +217,16 @@
   colors: [red, green, white, brown]
   notes:
   - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
+  - クリスマス
+- title: クリスマ☆パーティ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24765712518/"}
+  images_flickr: { photo: "24765712518", farm: 5, server: 4560, secret: "b986b6c06d", secret_h: "6a342b8c6f", secret_k: "134bd545ca", secret_o: "546f9daa44", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, green, orange, white, brown]
+  notes:
+  - ピューロビレッジ『クリスマ☆パーティ～｢ス｣が消えちゃった!?～』
+  - HAPPY GIFT CHRISTMAS から袖が変更
+  - クリスマス
 - title: メロディ頭巾
   source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36458011746/"}
   images_flickr: { photo: "36458011746", farm: 5, server: 4376, secret: "4d1ee1bfd1", secret_o: "f88aae1ed9", format_o: "jpg", before: "20100525" }
