@@ -340,3 +340,10 @@
   notes:
   - ユニバーサルスタジオジャパンのハロウィンバージョン
   - 水玉、ハロウィン
+- title: アジア版 Hello Kitty Live
+  source: { author: "tristanxbautista", license: "", url: "https://www.instagram.com/p/BOtP55RgAZU/"}
+  images_instagram: { shortcode: "BOtP55RgAZU", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [yellow, orange, white, green]
+  notes:
+  - アジア Hello Kitty Live

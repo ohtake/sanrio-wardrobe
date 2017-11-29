@@ -2986,13 +2986,13 @@
   colors: [green, red, yellow, brown, white]
   notes:
   - シンガポール Changi Airport Mystical Garden
-- title: Hello Kitty Live
+- title: アジア版 Hello Kitty Live
   source: { author: "Ria Hazel", license: "", url: "https://www.instagram.com/p/BOG9iMUgCoe/"}
   images_instagram: { shortcode: "BOG9iMUgCoe", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 1080 }
   colors: [pink, silver, white, yellow]
   notes:
-  - Hello Kitty Live
+  - アジア Hello Kitty Live
 - title: BVCNeniBjMN
   source: { author: "WeAreHelloKitty", license: "", url: "https://www.instagram.com/p/BVCNeniBjMN/"}
   images_instagram: { shortcode: "BVCNeniBjMN", width_t: 150, width_m: 320, width_l: 749 }

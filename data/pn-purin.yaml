@@ -260,7 +260,8 @@
   images_flickr: { photo: "15697394597", farm: 9, server: 8565, secret: "f393ff6b8d", secret_h: "8eec3b2085", secret_k: "b8006f4682", secret_o: "2fe7010fb7", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
   colors: [red, green, white, orange, yellow]
-  notes: []
+  notes:
+  - イギリス Hello Kitty Live
 - title: 36370806093ポム顔
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36370806093/"}
   images_flickr: { photo: "36370806093", farm: 5, server: 4438, secret: "c5cc1c8547", secret_h: "d4b26eb550", secret_k: "6866bc8a83", secret_o: "e84b781847", format_o: "jpg" }
@@ -381,3 +382,10 @@
   colors: [black, yellow, white, blue]
   notes:
   - 香港
+- title: アジア版 Hello Kitty Live
+  source: { author: "tixbox", license: "", url: "https://www.instagram.com/p/BHzBtMHgKYc/"}
+  images_instagram: { shortcode: "BHzBtMHgKYc", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [black, yellow]
+  notes:
+  - アジア Hello Kitty Live
