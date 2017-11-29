@@ -162,14 +162,14 @@ export default class Character extends React.Component {
   render() {
     const theme = this.context.muiTheme;
     return (
-      <div>
+      <React.Fragment>
         <ColorSelector ref={(c) => { this.color = c; }} onChanged={this.colorChanged} />
         <ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
         <TextField ref={(c) => { this.text = c; }} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         <Gallery ref={(c) => { this.gallery = c; }} photos={this.state.photos} chara={this.props.match.params.chara} />
         <DetailView ref={(c) => { this.lightbox = c; }} chara={this.props.match.params.chara} />
-      </div>
+      </React.Fragment>
     );
   }
 }

@@ -133,27 +133,18 @@ export default class DetailView extends React.Component {
    * @param {Photo} photo
    * @returns {React.Node}
    */
-  createColorSample(photo) {
-    if (photo.data.colors.length === 0) return null;
-    return (
-      <li>
-        {photo.data.colors.map((c) => {
-          const color = Colors.findById(c);
-          return <span style={this.createColorSampleStyle(color.value)} title={color.name} />;
-        })}
-      </li>
-    );
-  }
-  /**
-   * @private
-   * @param {Photo} photo
-   * @returns {React.Node}
-   */
   createNotesElement(photo) {
-    return [
-      this.createColorSample(photo),
-      ...photo.data.notes.map(n => <li>{n}</li>),
-    ];
+    return (
+      <React.Fragment>
+        {photo.data.colors.length > 0 ?
+          <li>
+            {photo.data.colors.map((c) => {
+              const color = Colors.findById(c);
+              return <span style={this.createColorSampleStyle(color.value)} title={color.name} />;
+            })}
+          </li> : null }
+        {photo.data.notes.map(n => <li>{n}</li>)}
+      </React.Fragment>);
   }
   /**
    * @private
@@ -180,10 +171,10 @@ export default class DetailView extends React.Component {
         titleStyle={{ height: '100px' }}
         iconElementLeft={<IconButton onClick={this.closeDetailView}><NavigationArrowBack /></IconButton>}
         title={
-          <div>
+          <React.Fragment>
             <div style={titleStyle}>{main.data.title}</div>
             <div style={authorStyle}>{this.createCreditElement(main)}</div>
-          </div>}
+          </React.Fragment>}
         iconElementRight={
           <IconMenu iconButtonElement={<IconButton><NavigationMoreVert /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
             <List>

@@ -62,50 +62,52 @@ export default class Statistics extends React.Component {
   }
   renderCount() {
     const totalCount = DataFile.all.map(df => this.state.statistics.count[df.name]).reduce((acc, current) => acc + current);
-    return [
-      <h2>Count (total={totalCount})</h2>,
-      <Table selectable={false}>
-        <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
-          <TableRow style={rowStyle}>
-            <TableHeaderColumn style={cellStyle}>Character</TableHeaderColumn>
-            <TableHeaderColumn style={cellStyle}>Series</TableHeaderColumn>
-            <TableHeaderColumn style={cellStyle}>Name (ja)</TableHeaderColumn>
-            <TableHeaderColumn style={cellStyle}>Name (en)</TableHeaderColumn>
-            <TableHeaderColumn style={cellStyle}>Count</TableHeaderColumn>
-          </TableRow>
-        </TableHeader>
-        <TableBody displayRowCheckbox={false} stripedRows>
-          {DataFile.all.map(df => (
+    return (
+      <React.Fragment>
+        <h2>Count (total={totalCount})</h2>
+        <Table selectable={false}>
+          <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
             <TableRow style={rowStyle}>
-              {renderAvatarCell(df, 'statCount')}
-              <TableRowColumn style={cellStyle}>{df.seriesSymbol}</TableRowColumn>
-              <TableRowColumn style={cellStyle}>{df.nameJa}</TableRowColumn>
-              <TableRowColumn style={cellStyle}>{df.nameEn}</TableRowColumn>
-              <TableRowColumn style={cellStyle}>{this.state.statistics.count[df.name]}</TableRowColumn>
-            </TableRow>))}
-        </TableBody>
-      </Table>,
-    ];
+              <TableHeaderColumn style={cellStyle}>Character</TableHeaderColumn>
+              <TableHeaderColumn style={cellStyle}>Series</TableHeaderColumn>
+              <TableHeaderColumn style={cellStyle}>Name (ja)</TableHeaderColumn>
+              <TableHeaderColumn style={cellStyle}>Name (en)</TableHeaderColumn>
+              <TableHeaderColumn style={cellStyle}>Count</TableHeaderColumn>
+            </TableRow>
+          </TableHeader>
+          <TableBody displayRowCheckbox={false} stripedRows>
+            {DataFile.all.map(df => (
+              <TableRow style={rowStyle}>
+                {renderAvatarCell(df, 'statCount')}
+                <TableRowColumn style={cellStyle}>{df.seriesSymbol}</TableRowColumn>
+                <TableRowColumn style={cellStyle}>{df.nameJa}</TableRowColumn>
+                <TableRowColumn style={cellStyle}>{df.nameEn}</TableRowColumn>
+                <TableRowColumn style={cellStyle}>{this.state.statistics.count[df.name]}</TableRowColumn>
+              </TableRow>))}
+          </TableBody>
+        </Table>
+      </React.Fragment>);
   }
   renderColor() {
-    return [
-      <h2>Color (requires wide screen to display correctly)</h2>,
-      <Table selectable={false}>
-        <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
-          <TableRow style={rowStyle}>
-            <TableHeaderColumn style={cellStyle}>Character</TableHeaderColumn>
-            {Colors.all.map(c => <TableHeaderColumn style={cellStyle}>{c.name}</TableHeaderColumn>)}
-          </TableRow>
-        </TableHeader>
-        <TableBody displayRowCheckbox={false} stripedRows>
-          {DataFile.all.map(df => (
+    return (
+      <React.Fragment>
+        <h2>Color (requires wide screen to display correctly)</h2>
+        <Table selectable={false}>
+          <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
             <TableRow style={rowStyle}>
-              {renderAvatarCell(df, 'statColor')}
-              {Colors.all.map(c => <TableRowColumn style={cellStyle}>{this.state.statistics.color[df.name][c.id]}</TableRowColumn>)}
-            </TableRow>))}
-        </TableBody>
-      </Table>,
-    ];
+              <TableHeaderColumn style={cellStyle}>Character</TableHeaderColumn>
+              {Colors.all.map(c => <TableHeaderColumn style={cellStyle}>{c.name}</TableHeaderColumn>)}
+            </TableRow>
+          </TableHeader>
+          <TableBody displayRowCheckbox={false} stripedRows>
+            {DataFile.all.map(df => (
+              <TableRow style={rowStyle}>
+                {renderAvatarCell(df, 'statColor')}
+                {Colors.all.map(c => <TableRowColumn style={cellStyle}>{this.state.statistics.color[df.name][c.id]}</TableRowColumn>)}
+              </TableRow>))}
+          </TableBody>
+        </Table>
+      </React.Fragment>);
   }
   renderAuthor() {
     const sortedAuthor = toPairs(this.state.statistics.author).sort((x, y) => {
@@ -113,35 +115,36 @@ export default class Statistics extends React.Component {
       if (countDiff !== 0) return countDiff;
       return x[0].localeCompare(y[0]);
     });
-    return [
-      <h2>Author ({sortedAuthor.length} authors)</h2>,
-      <Table selectable={false}>
-        <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
-          <TableRow style={rowStyle}>
-            <TableHeaderColumn style={cellStyle}>Name</TableHeaderColumn>
-            <TableHeaderColumn style={cellStyle}>Count</TableHeaderColumn>
-          </TableRow>
-        </TableHeader>
-        <TableBody displayRowCheckbox={false} stripedRows>
-          {sortedAuthor.map(a => (
+    return (
+      <React.Fragment>
+        <h2>Author ({sortedAuthor.length} authors)</h2>
+        <Table selectable={false}>
+          <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
             <TableRow style={rowStyle}>
-              <TableRowColumn style={cellStyle}>{a[0]}</TableRowColumn>
-              <TableRowColumn style={cellStyle}>{a[1]}</TableRowColumn>
-            </TableRow>))}
-        </TableBody>
-      </Table>,
-    ];
+              <TableHeaderColumn style={cellStyle}>Name</TableHeaderColumn>
+              <TableHeaderColumn style={cellStyle}>Count</TableHeaderColumn>
+            </TableRow>
+          </TableHeader>
+          <TableBody displayRowCheckbox={false} stripedRows>
+            {sortedAuthor.map(a => (
+              <TableRow style={rowStyle}>
+                <TableRowColumn style={cellStyle}>{a[0]}</TableRowColumn>
+                <TableRowColumn style={cellStyle}>{a[1]}</TableRowColumn>
+              </TableRow>))}
+          </TableBody>
+        </Table>
+      </React.Fragment>);
   }
   render() {
     if (!this.state.statistics) {
       return <div>{this.state.message}</div>;
     }
     return (
-      <div>
+      <React.Fragment>
         {this.renderCount()}
         {this.renderColor()}
         {this.renderAuthor()}
-      </div>
+      </React.Fragment>
     );
   }
 }

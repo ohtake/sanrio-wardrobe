@@ -45,14 +45,12 @@ const styleImg = {
 function renderTile(gaEventAction, c) {
   return (
     <RouterLink key={c.name} to={`/chara/${c.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventAction} data-ga-event-label={c.name}>
-      <div>
-        <div style={styleSymbol}>{c.seriesSymbol}</div>
-        <div style={styleTitleOuter}>
-          <div style={styleTitleInner}>{c.nameJa}</div>
-          <div style={styleTitleInner}>{c.nameEn}</div>
-        </div>
-        {c.picUrl ? <img src={c.picUrl} alt="*" style={styleImg} /> : <Avatar style={styleImg}>{c.seriesSymbol}</Avatar>}
+      <div style={styleSymbol}>{c.seriesSymbol}</div>
+      <div style={styleTitleOuter}>
+        <div style={styleTitleInner}>{c.nameJa}</div>
+        <div style={styleTitleInner}>{c.nameEn}</div>
       </div>
+      {c.picUrl ? <img src={c.picUrl} alt="*" style={styleImg} /> : <Avatar style={styleImg}>{c.seriesSymbol}</Avatar>}
     </RouterLink>
   );
 }
@@ -83,7 +81,7 @@ export default class Home extends React.Component {
       DataFile.pnPurin,
     ];
     return (
-      <div>
+      <React.Fragment>
         <a href="https://github.com/ohtake/sanrio-wardrobe">
           <img
             alt="Fork me on GitHub"
@@ -115,7 +113,7 @@ export default class Home extends React.Component {
           <li><a href="coverage/lcov-report/index.html">LCOV code coverage</a></li>
           <li><a href="assets/sme.html">Source map explorer</a></li>
         </ul>
-      </div>
+      </React.Fragment>
     );
   }
 }
