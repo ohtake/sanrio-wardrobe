@@ -96,10 +96,12 @@ export default class ColorSelector extends React.Component {
    * @returns {React.Node}
    */
   listButtons() {
-    return [
-      ...this.props.colors.map(c => <FlatButton key={c.name} onClick={this.toggle} data={c.id} label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />),
-      <FlatButton key="clear" onClick={this.clear} data="" label="CLEAR" style={styleBase} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={!this.isFilterEnabled()} />,
-    ];
+    return (
+      <React.Fragment>
+        {this.props.colors.map(c => <FlatButton key={c.name} onClick={this.toggle} data={c.id} label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />)}
+        <FlatButton key="clear" onClick={this.clear} data="" label="CLEAR" style={styleBase} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={!this.isFilterEnabled()} />
+      </React.Fragment>
+    );
   }
   render() {
     return (
