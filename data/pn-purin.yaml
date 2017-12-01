@@ -99,6 +99,20 @@
   colors: [green, purple, blue, yellow, white, red, pink, orange]
   notes:
   - ハーモニーランドパレード『パレードパラレル イースター ver.』
+- title: プリンセスキティ号1
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/37869568995/"}
+  images_flickr: { photo: "37869568995", farm: 5, server: 4546, secret: "f8a18058f0", secret_h: "98cf345952", secret_k: "28a570db63", secret_o: "39632820d3", format_o: "jpg" }
+  size: { width_o: 3565, height_o: 5347 }
+  colors: [blue, white, red, pink, gold]
+  notes:
+  - プラザステージ『プリンセスキティ号』
+- title: プリンセスキティ号2
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/38724977442/"}
+  images_flickr: { photo: "38724977442", farm: 5, server: 4540, secret: "b38d124a00", secret_h: "c8247ac663", secret_k: "c490ba8f46", secret_o: "f755995ff9", format_o: "jpg" }
+  size: { width_o: 5624, height_o: 3749 }
+  colors: [blue, white, red, pink, gold]
+  notes:
+  - プラザステージ『プリンセスキティ号』
 - title: GOOD LUCK 抽選会
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11613165185/"}
   images_flickr: { photo: "11613165185", farm: 6, server: 5517, secret: "ac318d9790", secret_h: "4b6a18d969", secret_k: "b945210752", secret_o: "23916f5ef2", format_o: "jpg" }

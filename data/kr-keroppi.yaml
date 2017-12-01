@@ -92,13 +92,14 @@
   notes:
   - ピューロランドパレード『夏フェス☆マーチングパレード』
   - ピューロランドパレード『夜祭りマーチングパレード』
-- title: ハロウィン
+- title: ハロウィン・多摩
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15174119978/"}
   images_flickr: { photo: "15174119978", farm: 4, server: 3868, secret: "7af680c971", secret_h: "7c1ffcc785", secret_k: "a8586c3026", secret_o: "2b8e3de5c6", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
   colors: [red, black, white, purple, orange]
   notes:
   - ピューロランドパレード『ハロウィンマーチングパレード』
+  - ハロウィン
 - title: PINK sensation
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37609478144/"}
   images_flickr: { photo: "37609478144", farm: 5, server: 4581, secret: "1767b069b0", secret_h: "ca968a8d16", secret_k: "8b125203e9", secret_o: "1b4a8f45c1", format_o: "jpg" }
@@ -107,6 +108,13 @@
   notes:
   - ハロウィンにピンクのリボンを追加
   - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
+  - ハロウィン
+- title: ハロウィン・日出
+  source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/26880854139/"}
+  images_flickr: { photo: "26880854139", farm: 5, server: 4526, secret: "474c6d979f", secret_h: "f45d283e57", secret_k: "7977955366", secret_o: "6279c2c567", format_o: "jpg" }
+  size: { width_o: 5432, height_o: 3621 }
+  colors: [red, black, gold]
+  notes:
   - ハロウィン
 - title: IMG_6088
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/23705024104/"}

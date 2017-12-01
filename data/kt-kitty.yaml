@@ -547,8 +547,16 @@
   size: { width_o: 3840, height_o: 5760 }
   colors: [pink, white, yellow]
   notes:
+  - キティズハウス
   - イギリス Drusillas Park Hello Kitty Secret Garden
   - ハート、真珠
+- title: 53AJ5256
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38714666322/"}
+  images_flickr: { photo: "38714666322", farm: 5, server: 4579, secret: "7b168fa1e2", secret_h: "c1b2fc3fcf", secret_k: "10211e9d86", secret_o: "af4734c70f", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, white, pink]
+  notes:
+  - キティズハウス
 - title: 5D3L8935
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/13190141424/"}
   images_flickr: { photo: "13190141424", farm: 4, server: 3782, secret: "ab06d7b0dd", secret_h: "b49cea0aec", secret_k: "21bcb5a840", secret_o: "3b5379e7d7", format_o: "jpg" }
@@ -1066,7 +1074,7 @@
   notes:
   - ハーモニーランドイベントホール『ジュエルペット・ルビーの「マジカル☆クリスマス」』
   - クリスマス、多段フリル、ハート
-- title: 5D3R3713
+- title: ドリームファクトリー
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15661536288/"}
   images_flickr: { photo: "15661536288", farm: 8, server: 7545, secret: "dc94e810a9", secret_h: "b1cdbac8a5", secret_k: "1e77b3561a", secret_o: "07d27a6b0b", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
@@ -1074,6 +1082,13 @@
   notes:
   - プラザステージ『キティズ♥ドリームファクトリー』
   - 多段フリル
+- title: プリンセスキティ号
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/38724957432/"}
+  images_flickr: { photo: "38724957432", farm: 5, server: 4583, secret: "b93e10052c", secret_h: "b1ce209f0b", secret_k: "4f2112a3e4", secret_o: "2e5b6574d1", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, white, gold]
+  notes:
+  - プラザステージ『プリンセスキティ号』
 - title: 5D3R3232
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15663055889/"}
   images_flickr: { photo: "15663055889", farm: 8, server: 7484, secret: "7029142a90", secret_h: "2a08d64cc6", secret_k: "8caa43400e", secret_o: "312c25b934", format_o: "jpg" }

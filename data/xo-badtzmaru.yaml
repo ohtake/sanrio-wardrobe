@@ -236,6 +236,22 @@
   notes:
   - プラザステージ『キティズ♥ドリームファクトリー』
   - リボン、宝石
+- title: プリンセスキティ号1
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/37869587085/"}
+  images_flickr: { photo: "37869587085", farm: 5, server: 4578, secret: "3d9c695af2", secret_h: "ae44e1a404", secret_k: "73f2d511b9", secret_o: "27c81e9f96", format_o: "jpg" }
+  size: { width_o: 5567, height_o: 3711 }
+  colors: [white, blue, yellow, gold, pink]
+  notes:
+  - プラザステージ『プリンセスキティ号』
+  - 帽子
+- title: プリンセスキティ号2
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/24883104258/"}
+  images_flickr: { photo: "24883104258", farm: 5, server: 4516, secret: "905d198f22", secret_h: "4cf3711220", secret_k: "034ff842e2", secret_o: "61c95493bc", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [white, blue, yellow, gold, pink, orange]
+  notes:
+  - プラザステージ『プリンセスキティ号』
+  - 帽子
 - title: 5D3R2701
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15642120858/"}
   images_flickr: { photo: "15642120858", farm: 8, server: 7484, secret: "3749af3feb", secret_h: "3312d51379", secret_k: "dc831d103f", secret_o: "f3ea98086c", format_o: "jpg" }
