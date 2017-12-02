@@ -201,6 +201,13 @@
   notes:
   - メルヘンシアター『ハローキティ ドリームレビュー1』
   - タータンチェック
+- title: 多摩センター親善大使
+  source: { author: "kaotanofficial", license: "", url: "https://www.instagram.com/p/BcHY1fhjpfJ/"}
+  images_instagram: { shortcode: "BcHY1fhjpfJ", width_t: 150, width_m: 320, width_l: 1000 }
+  size: { width_o: 1000, height_o: 1000 }
+  colors: [pink, white, red]
+  notes:
+  - 多摩センター親善大使
 - title: ドリームレビュー1・ピアノコンクール
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25793490290/"}
   images_flickr: { photo: "25793490290", farm: 2, server: 1634, secret: "2c863c6fa1", secret_h: "9c3e845bec", secret_k: "d6935ac9fd", secret_o: "1901a951da", format_o: "jpg" }
