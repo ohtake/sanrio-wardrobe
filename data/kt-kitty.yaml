@@ -674,7 +674,13 @@
   colors: [pink, blue, white]
   notes:
   - KITTYFUL 2017バースデーコスチューム
-# ピンクロングドレス
+- title: KITTYFUL・ピンクロングドレス
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/23912981137/"}
+  images_flickr: { photo: "23912981137", farm: 5, server: 4568, secret: "b664392cdc", secret_h: "d5061da50d", secret_k: "ce15e9cf63", secret_o: "fc26420d5e", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, black, white, red]
+  notes:
+  - KITTYFUL ピンクロングドレス
 - title: KITTYFUL・MEET THE 2 RIBBONS
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24765686698/"}
   images_flickr: { photo: "24765686698", farm: 5, server: 4572, secret: "3d73726833", secret_h: "a2a0150d91", secret_k: "ab5e277c47", secret_o: "d7b3ee5851", format_o: "jpg" }
