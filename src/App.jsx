@@ -107,7 +107,7 @@ class App extends React.Component {
     return (
       <AppBar
         title={this.state.title}
-        onLeftIconButtonTouchTap={this.handleAppMenu}
+        onLeftIconButtonClick={this.handleAppMenu}
         showMenuIconButton={!this.state.menuOpened || !this.state.menuDocked}
         style={{
           position: 'fixed', top: 0, left: (this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0), right: 0, width: null,
