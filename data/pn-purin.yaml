@@ -382,6 +382,13 @@
   size: { width_o: 4321, height_o: 3241 }
   colors: [white, blue, red, yellow, green]
   notes: []
+- title: ユーリ
+  source: { author: "funappy1228", license: "", url: "https://www.instagram.com/p/BcMN9QqlOVV/"}
+  images_instagram: { shortcode: "BcMN9QqlOVV", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 841 }
+  colors: [white]
+  notes:
+  - ユーリ × サンリオキャラクターズ in サンリオピューロランド
 - title: BG7SghMFwSH
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/BG7SghMFwSH/"}
   images_instagram: { shortcode: "BG7SghMFwSH", width_t: 150, width_m: 320, width_l: 720 }

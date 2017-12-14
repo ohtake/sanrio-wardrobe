@@ -2105,6 +2105,13 @@
   notes:
   - アンテプリマ 2018年春夏コレクション
   - ANTEPRIMA 荻野いづみデザイン
+- title: ユーリ
+  source: { author: "funappy1228", license: "", url: "https://www.instagram.com/p/BcMN9QqlOVV/"}
+  images_instagram: { shortcode: "BcMN9QqlOVV", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 841 }
+  colors: [white, red]
+  notes:
+  - ユーリ × サンリオキャラクターズ in サンリオピューロランド
 - title: 5D3V8314
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/22446743828/"}
   images_flickr: { photo: "22446743828", farm: 1, server: 642, secret: "43477f157e", secret_h: "6deaba2b41", secret_k: "723ef3a0a1", secret_o: "79250e2d39", format_o: "jpg" }
@@ -2833,6 +2840,14 @@
   notes:
   - アメリカ
   - ハロウィン、カボチャ
+- title: flickr-24946082168
+  source: { author: "Susuten", license: "", url: "https://www.flickr.com/photos/tiramisuaddict/24946082168/"}
+  images_flickr: { photo: "24946082168", farm: 5, server: 4573, secret: "88de72b8d6", secret_h: "af78ed99f7" }
+  size: { width_o: 1200, height_o: 1600 }
+  colors: [green, red, gold, black]
+  notes:
+  - アメリカ
+  - クリスマス
 - title: BakBk6yFgZL
   source: { author: "kimberleyhin", license: "", url: "https://www.instagram.com/p/BakBk6yFgZL/"}
   images_instagram: { shortcode: "BakBk6yFgZL", width_t: 150, width_m: 320, width_l: 1080 }
@@ -2888,6 +2903,13 @@
   images_instagram: { shortcode: "0GhpifktUa", width_t: 150, width_m: 320, width_l: 640 }
   size: { width_o: 640, height_o: 640 }
   colors: [blue, white]
+  notes:
+  - ブラジル
+- title: Bcnxx2sA-l3
+  source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/Bcnxx2sA-l3/"}
+  images_instagram: { shortcode: "Bcnxx2sA-l3", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [orange, white, red, yellow, black]
   notes:
   - ブラジル
 - title: zCzRopsGM6

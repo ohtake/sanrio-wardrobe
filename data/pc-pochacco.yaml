@@ -216,3 +216,11 @@
   size: { width_o: 3840, height_o: 5760 }
   colors: [blue, yellow, white, green]
   notes: []
+- title: ユーリ
+  source: { author: "funappy1228", license: "", url: "https://www.instagram.com/p/BcMN9QqlOVV/"}
+  images_instagram: { shortcode: "BcMN9QqlOVV", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 841 }
+  colors: [white, blue]
+  notes:
+  - ユーリ × サンリオキャラクターズ in サンリオピューロランド
+  - 眼鏡
