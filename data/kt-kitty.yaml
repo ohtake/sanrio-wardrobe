@@ -1685,6 +1685,14 @@
   notes:
   - 上半身の配色、リボン、帽子、靴が異なる
   - クリスマス、柊、帽子
+- title: IMGD7493
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/24167277287/"}
+  images_flickr: { photo: "24167277287", farm: 5, server: 4600, secret: "82f0efb404", secret_h: "ffeac00f62", secret_k: "5440ca7d74", secret_o: "676d9dda99", format_o: "jpg" }
+  size: { width_o: 3719, height_o: 5579 }
+  colors: [red, green, white, gold]
+  notes:
+  - 上半身の配色、リボン、靴が異なる
+  - クリスマス、柊
 - title: 5D3S3203
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15986564637/"}
   images_flickr: { photo: "15986564637", farm: 8, server: 7487, secret: "311505ee43", secret_h: "5a3e50c692", secret_k: "153faaa1aa", secret_o: "c169f82193", format_o: "jpg" }
@@ -2968,6 +2976,12 @@
   colors: [pink, white]
   notes:
   - マレーシア Hello Kitty Gourmet Cafe
+- title: BcwEYupHxi8
+  source: { author: "Resorts World Sentosa", license: "", url: "https://www.instagram.com/p/BcwEYupHxi8/"}
+  images_instagram: { shortcode: "BcwEYupHxi8", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 720 }
+  colors: [pink, white]
+  notes: []
 - title: 3W6yoWktcp
   source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/3W6yoWktcp/"}
   images_instagram: { shortcode: "3W6yoWktcp", width_t: 150, width_m: 320, width_l: 640 }

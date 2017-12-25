@@ -6,8 +6,8 @@
   colors: [blue, white, brown]
   notes: []
 - title: 烈
-  source: { author: "lesserdoggy_undertale", license: "", url: "https://www.instagram.com/p/BbP_cEpl0F2/"}
-  images_instagram: { shortcode: "BbP_cEpl0F2", width_t: 150, width_m: 320, width_l: 798 }
-  size: { width_o: 798, height_o: 850 }
+  source: { author: "aggretsuko", license: "", url: "https://www.instagram.com/p/Bc3UNLdF2PQ/"}
+  images_instagram: { shortcode: "Bc3UNLdF2PQ", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
   colors: [blue, white, brown]
   notes: []

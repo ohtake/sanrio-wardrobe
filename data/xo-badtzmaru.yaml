@@ -134,7 +134,7 @@
   - ピューロランドパレード『夏フェス☆マーチングパレード』
   - エンターテイメントホール『盆踊りグリーティング「ハローキティ音頭」』
   - 法被、和服、鉢巻、花火
-- title: 5D3B4286 (960x1440)
+- title: サンタ・長髭
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/4G9_yabl94fK0M8joQzbp9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
   images_picasa: { lh: 3, dirs: "-8rT-u_Q8hi8/UKhZv-G783I/AAAAAAAAEeI/fNzwUd_VyWEZnxxmIQAwm9oRIMRwMFMRACCo", file: "5D3B4286%2B%2528960x1440%2529.jpg" }
   size: { width_o: 960, height_o: 1440 }
@@ -143,6 +143,29 @@
   - ピューロランドパレード『星空の Happy Party Christmas』
   - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
   - クリスマス、サンタクロース、柊、ヒゲ、帽子
+- title: サンタ・短髭
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27487822979/"}
+  images_flickr: { photo: "27487822979", farm: 5, server: 4692, secret: "f05e286cdc", secret_h: "f56e9293c0", secret_k: "06ad23c6d7", secret_o: "229f7af458", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, white, green, gold]
+  notes:
+  - 髭が切り揃えられている
+  - クリスマス、サンタクロース、柊、ヒゲ、帽子
+- title: サンタ・帽子違い
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16145838236/"}
+  images_flickr: { photo: "16145838236", farm: 8, server: 7467, secret: "58c40bd7c7", secret_h: "ec6325ec1b", secret_k: "5a2f610206", secret_o: "83bd4384bb", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, white, green, gold]
+  notes:
+  - 帽子が異なる
+  - クリスマス、サンタクロース、柊、ヒゲ、帽子
+- title: サンタ・髭なし
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/31513716396/"}
+  images_flickr: { photo: "31513716396", farm: 6, server: 5591, secret: "932c23aaca", secret_h: "c46d98b164", secret_k: "84fcfc5622", secret_o: "852a80cf42", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, white, green, gold]
+  notes:
+  - クリスマス、サンタクロース、柊、帽子
 - title: 5D3R3269
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15663304867/"}
   images_flickr: { photo: "15663304867", farm: 8, server: 7477, secret: "15f6639239", secret_h: "74e5935553", secret_k: "1b1b67c534", secret_o: "f6f30754d0", format_o: "jpg" }
