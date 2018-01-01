@@ -631,7 +631,7 @@
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9329266957/"}
   images_flickr: { photo: "9329266957", farm: 4, server: 3763, secret: "9e5527ea07", secret_h: "6a17e2bdee", secret_k: "c82429d41c", secret_o: "6c3f8dc48f", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [red]
+  colors: [red, pink]
   notes:
   - レディキティハウス「ローズ」初期
   - バラ、バッグ、手袋
@@ -639,9 +639,17 @@
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/12323200923/"}
   images_flickr: { photo: "12323200923", farm: 4, server: 3710, secret: "c9f488bfa3", secret_h: "37dc17232a", secret_k: "8ad461b297", secret_o: "46fc0585c8", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
+  colors: [red, pink]
+  notes:
+  - レディキティハウス「ローズ」のバッグがなくなり手袋の素材が変更
+  - バラ、手袋
+- title: レディキティ・ローズ3
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38520649755/"}
+  images_flickr: { photo: "38520649755", farm: 5, server: 4588, secret: "84b3c7dfdf", secret_h: "1a220be721", secret_k: "7380284450", secret_o: "46e8e690ff", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
   colors: [red]
   notes:
-  - レディキティハウス「ローズ」のバッグなし版
+  - レディキティハウス「ローズ」の手袋の色が変更
   - バラ、手袋
 - title: レディキティ・パステルローズ
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14034879050/"}
@@ -1711,6 +1719,13 @@
   - ピューロビレッジ『ハローキティイルミネーション Blue Snow Christmas ~天使のおくりもの~』
   - オーバーパンツが変更
   - クリスマス、サンタクロース、帽子
+- title: 53AJ9782
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/27621923609/"}
+  images_flickr: { photo: "27621923609", farm: 5, server: 4735, secret: "3870676c2c", secret_h: "22f139581b", secret_k: "01f74e5e31", secret_o: "9524b18c78", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, white, pink]
+  notes:
+  - マフラー
 - title: 5D3H3184
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9690585032/"}
   images_flickr: { photo: "9690585032", farm: 3, server: 2841, secret: "11e8335cc2", secret_h: "d4b6b4b405", secret_k: "4cbdb24eb1", secret_o: "dcbcfc3682", format_o: "jpg" }
@@ -2513,7 +2528,7 @@
   size: { width_o: 2448, height_o: 3264 }
   colors: [blue, red, white]
   notes:
-  - アメリカ Hello KItty for President 2012
+  - アメリカ Hello Kitty for President 2012
   - 星条旗、帽子
 - title: President 2016
   source: { author: "the_loveless", license: "", url: "https://www.instagram.com/p/BKtcM-Uhh3h/"}
@@ -2521,7 +2536,7 @@
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, red, white]
   notes:
-  - アメリカ Hello KItty for President 2016
+  - アメリカ Hello Kitty for President 2016
   - 星条旗
 - title: Los Angeles Dodgers 白
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/YOqG3Slwdv/"}
