@@ -535,4 +535,11 @@
   size: { width_o: 5760, height_o: 3840 }
   colors: [blue, white, green, black]
   notes:
+  - 和服、袴
+- title: 京都水族館一日館長
+  source: { author: "mono", license: "", url: "https://www.flickr.com/photos/mono0x/39491231841/"}
+  images_flickr: { photo: "39491231841", farm: 5, server: 4693, secret: "ecd0715175", secret_h: "576e0a4576", secret_k: "d6a0cdfcaa", secret_o: "f6047ecbbc", format_o: "jpg" }
+  size: { width_o: 3888, height_o: 5184 }
+  colors: [blue, white, green, black, red]
+  notes:
   - 和服、袴、団子

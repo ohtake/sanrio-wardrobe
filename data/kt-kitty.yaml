@@ -216,7 +216,7 @@
   notes:
   - メルヘンシアター『ハローキティ ドリームレビュー1』ピアノコンクール
 - title: リボンの国の音もだち
-  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY0EKLgjVl-/"}
+  source: { author: "acmikiko", license: "", url: "https://www.instagram.com/p/BY0EKLgjVl-/"}
   images_instagram: { shortcode: "BY0EKLgjVl-", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 1080 }
   colors: [white, blue, pink, red]
@@ -2129,10 +2129,10 @@
   - アンテプリマ 2018年春夏コレクション
   - ANTEPRIMA 荻野いづみデザイン
 - title: ユーリ
-  source: { author: "funappy1228", license: "", url: "https://www.instagram.com/p/BcMN9QqlOVV/"}
-  images_instagram: { shortcode: "BcMN9QqlOVV", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 841 }
-  colors: [white, red]
+  source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/39423773681/"}
+  images_flickr: { photo: "39423773681", farm: 5, server: 4727, secret: "b524749f9e", secret_h: "585f00f9bc", secret_k: "bb9b11e5cc", secret_o: "67ffb98554", format_o: "jpg" }
+  size: { width_o: 4992, height_o: 3325 }
+  colors: [white, blue, red, pink, yellow]
   notes:
   - ユーリ × サンリオキャラクターズ in サンリオピューロランド
 - title: 5D3V8314
@@ -2208,11 +2208,11 @@
   colors: [blue, yellow, white]
   notes:
   - フコク生命
-- title: BUv6oCUjq3r
-  source: { author: "0525ayamam", license: "", url: "https://www.instagram.com/p/BUv6oCUjq3r/"}
-  images_instagram: { shortcode: "BUv6oCUjq3r", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 1080 }
-  colors: [green, white, gold]
+- title: BZpqCCkBRlh
+  source: { author: "yuki.yhsy", license: "", url: "https://www.instagram.com/p/BZpqCCkBRlh/"}
+  images_instagram: { shortcode: "BZpqCCkBRlh", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [green, white, yellow]
   notes:
   - フコク生命
 - title: MIKIMOTO
@@ -2481,6 +2481,13 @@
   notes:
   - ユニバーサルスタジオジャパン
   - ストライプ
+- title: flickr-25616977568
+  source: { author: "mono", license: "", url: "https://www.flickr.com/photos/mono0x/25616977568/"}
+  images_flickr: { photo: "25616977568", farm: 5, server: 4682, secret: "8119af2d60", secret_h: "13eba5607f", secret_k: "569a7e0acb", secret_o: "30bdcdf7fd", format_o: "jpg" }
+  size: { width_o: 3888, height_o: 5184 }
+  colors: [red, white, pink, gold]
+  notes:
+  - ユニバーサルスタジオジャパン
 - title: Happy Carnival Parade
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36718689750/"}
   images_flickr: { photo: "36718689750", farm: 5, server: 4418, secret: "1414694448", secret_h: "a9d84ca2a9", secret_k: "fec415a02a", secret_o: "a13560eb63", format_o: "jpg" }

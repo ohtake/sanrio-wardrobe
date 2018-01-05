@@ -383,10 +383,10 @@
   colors: [white, blue, red, yellow, green]
   notes: []
 - title: ユーリ
-  source: { author: "funappy1228", license: "", url: "https://www.instagram.com/p/BcMN9QqlOVV/"}
-  images_instagram: { shortcode: "BcMN9QqlOVV", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 841 }
-  colors: [white]
+  source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/39423773681/"}
+  images_flickr: { photo: "39423773681", farm: 5, server: 4727, secret: "b524749f9e", secret_h: "585f00f9bc", secret_k: "bb9b11e5cc", secret_o: "67ffb98554", format_o: "jpg" }
+  size: { width_o: 4992, height_o: 3325 }
+  colors: [white, blue]
   notes:
   - ユーリ × サンリオキャラクターズ in サンリオピューロランド
 - title: BG7SghMFwSH

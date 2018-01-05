@@ -213,6 +213,14 @@
   colors: [red, yellow, blue, pink, white, green, gold]
   notes:
   - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
+- title: クリスマ☆パーティ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/Bdki90Hhiev/"}
+  images_instagram: { shortcode: "Bdki90Hhiev", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [red, yellow, blue, pink, white, green, gold]
+  notes:
+  - ピューロビレッジ『クリスマ☆パーティ～｢ス｣が消えちゃった!?～』
+  - 手首に赤いシュシュが追加
 - title: Miracle Gift Parade
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30901108493/"}
   images_flickr: { photo: "30901108493", farm: 1, server: 274, secret: "47a725f48d", secret_h: "77bae0e5d2", secret_k: "784a79960d", secret_o: "ec900194ed", format_o: "jpg" }
