@@ -35,10 +35,17 @@
   notes:
   - 袴
 - title: 袴2
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24707164817/"}
+  images_flickr: { photo: "24707164817", farm: 5, server: 4638, secret: "43559860bc", secret_h: "db2639ac10", secret_k: "5989478c29", secret_o: "dd10de78b1", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [green, silver, yellow, gold, pink, orange]
+  notes:
+  - 袴
+- title: 袴2・アフロ
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24512284034/"}
   images_flickr: { photo: "24512284034", farm: 2, server: 1586, secret: "eba025e981", secret_h: "1b09f8d683", secret_k: "8b8ca19381", secret_o: "4063882690", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [green, silver, pink, gold, black, red]
+  colors: [green, silver, gold, pink, orange, black, red]
   notes:
   - 袴、アフロ
 - title: 雨合羽

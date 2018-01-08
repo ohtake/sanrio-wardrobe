@@ -2099,6 +2099,20 @@
   colors: [pink, yellow, blue]
   notes:
   - スキーウェア、ゴーグル、手袋
+- title: スケート・通常靴
+  source: { author: "まちづくり福井株式会社", license: "", url: "https://www.instagram.com/p/BdmRRyJHwNy/"}
+  images_instagram: { shortcode: "BdmRRyJHwNy", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [pink, red, yellow, green, blue, purple, white]
+  notes:
+  - スケート
+- title: スケート・スケート靴
+  source: { author: "まちづくり福井株式会社", license: "", url: "https://www.instagram.com/p/Bdl3CytHzTU/"}
+  images_instagram: { shortcode: "Bdl3CytHzTU", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1079 }
+  colors: [pink, red, yellow, green, blue, purple, white, gold, black]
+  notes:
+  - スケート
 - title: 53AE7945
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34675448785/"}
   images_flickr: { photo: "34675448785", farm: 5, server: 4174, secret: "a5186c9776", secret_h: "32eac4ebc3", secret_k: "55a4fd3c68", secret_o: "0183d07eca", format_o: "jpg" }

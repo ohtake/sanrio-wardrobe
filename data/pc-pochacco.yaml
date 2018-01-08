@@ -116,6 +116,13 @@
   colors: [yellow, blue, green, purple, red]
   notes:
   - 着物、和服
+- title: 袴
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/39574672481/"}
+  images_flickr: { photo: "39574672481", farm: 5, server: 4600, secret: "4e6071fb5a", secret_h: "f9b1d59e85", secret_k: "1cd91ef4bd", secret_o: "ef8fee9624", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [purple, silver, gold, white]
+  notes:
+  - 袴、和服
 - title: 燕尾服
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32273094413/"}
   images_flickr: { photo: "32273094413", farm: 3, server: 2098, secret: "716dfed90f", secret_h: "b631597565", secret_k: "1c3f7e9f53", secret_o: "72767aaa31", format_o: "jpg" }

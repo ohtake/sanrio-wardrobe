@@ -317,6 +317,13 @@
   colors: [gold, green, black]
   notes:
   - XO
+- title: 53AK2689
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/39545263782/"}
+  images_flickr: { photo: "39545263782", farm: 5, server: 4693, secret: "6948bb164e", secret_h: "bb13a2efc7", secret_k: "d58e7c673c", secret_o: "c8da24f79f", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [gold, purple, black]
+  notes:
+  - XO
 - title: BYfSHUtA-if
   source: { author: "mamarumaru", license: "", url: "https://www.instagram.com/p/BYfSHUtA-if/"}
   images_instagram: { shortcode: "BYfSHUtA-if", width_t: 150, width_m: 320, width_l: 1080 }
