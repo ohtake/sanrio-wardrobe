@@ -5,3 +5,10 @@
   size: { width_o: 5760, height_o: 3840 }
   colors: []
   notes: []
+- title: くろこ
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24791538417/"}
+  images_flickr: { photo: "24791538417", farm: 5, server: 4720, secret: "e953053cba", secret_h: "1100c228ac", secret_k: "6a30ccebc9", secret_o: "e1bca400ce", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [black, white]
+  notes:
+  - ピューロビレッジ『イキテマス ショーガツ飾り撮影会』

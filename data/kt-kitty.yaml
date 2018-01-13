@@ -704,10 +704,17 @@
   notes:
   - KITTYFUL MEET THE 2 RIBBONS
   - 眼鏡
-# グリッターワンピース
+- title: KITTYFUL・グリッターワンピース
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/39660633721/"}
+  images_flickr: { photo: "39660633721", farm: 5, server: 4714, secret: "31256aa0c6", secret_h: "8a3fa9c7c3", secret_k: "7a0d67d849", secret_o: "cff8fa8397", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, silver, white]
+  notes:
+  - KITTYFUL グリッターワンピース
+  - 帽子
 - title: SPARKLE
-  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36287635300/"}
-  images_flickr: { photo: "36287635300", farm: 5, server: 4339, secret: "5274cf73af", secret_h: "7c32228f46", secret_k: "f4544152a5", secret_o: "d5b50fe837", format_o: "jpg" }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/38682280985/"}
+  images_flickr: { photo: "38682280985", farm: 5, server: 4589, secret: "2e17efa9d8", secret_h: "5a26f9521d", secret_k: "b03b832330", secret_o: "232d0a1c85", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
   colors: [white, silver, purple]
   notes:
@@ -2502,6 +2509,13 @@
   colors: [red, white, pink, gold]
   notes:
   - ユニバーサルスタジオジャパン
+- title: ミニオンウォーターサプライズパレード
+  source: { author: "12beaver30M", license: "", url: "https://www.instagram.com/p/BYWtTBTlsp0/"}
+  images_instagram: { shortcode: "BYWtTBTlsp0", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [orange, pink]
+  notes:
+  - ユニバーサルスタジオジャパン『ミニオンウォーターサプライズパレード』
 - title: Happy Carnival Parade
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36718689750/"}
   images_flickr: { photo: "36718689750", farm: 5, server: 4418, secret: "1414694448", secret_h: "a9d84ca2a9", secret_k: "fec415a02a", secret_o: "a13560eb63", format_o: "jpg" }
