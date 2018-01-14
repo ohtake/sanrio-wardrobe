@@ -350,10 +350,10 @@
   colors: [white, red, green]
   notes:
   - イチゴ
-- title: BZ6-2kSg9nm
-  source: { author:   "marimeru17", license: "", url: "https://www.instagram.com/p/BZ6-2kSg9nm/"}
-  images_instagram: { shortcode: "BZ6-2kSg9nm", width_t: 150, width_m: 320, width_l: 720 }
-  size: { width_o: 720, height_o: 720 }
+- title: P1130787
+  source: { author: "mono", license: "", url: "https://www.flickr.com/photos/mono0x/24808336017/"}
+  images_flickr: { photo: "24808336017", farm: 5, server: 4623, secret: "a0c9553331", secret_h: "bd47ad3767", secret_k: "23830aa283", secret_o: "29fbab58e3", format_o: "jpg" }
+  size: { width_o: 3888, height_o: 5184 }
   colors: [white, green, red, black]
   notes:
   - コック帽
