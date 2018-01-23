@@ -258,6 +258,13 @@
   - リボンの追加位置が変更
   - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
   - ハロウィン
+- title: ハロウィン・雨靴
+  source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/24966985747/"}
+  images_flickr: { photo: "24966985747", farm: 5, server: 4704, secret: "06a608a9cd", secret_h: "b21e076e94", secret_k: "96af6e675e", secret_o: "45e5f4476f", format_o: "jpg" }
+  size: { width_o: 4412, height_o: 2941 }
+  colors: [purple, black, orange, pink, yellow, silver]
+  notes:
+  - ハロウィン
 - title: レンジャー
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/37009168160/"}
   images_flickr: { photo: "37009168160", farm: 5, server: 4504, secret: "c5e0ffa0dd", secret_h: "6e3a85a7c1", secret_k: "253df23136", secret_o: "3c956b4286", format_o: "jpg" }

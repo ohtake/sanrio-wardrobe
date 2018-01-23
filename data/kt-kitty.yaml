@@ -202,9 +202,9 @@
   - メルヘンシアター『ハローキティ ドリームレビュー1』
   - タータンチェック
 - title: 多摩センター親善大使
-  source: { author: "kaotanofficial", license: "", url: "https://www.instagram.com/p/BcHY1fhjpfJ/"}
-  images_instagram: { shortcode: "BcHY1fhjpfJ", width_t: 150, width_m: 320, width_l: 1000 }
-  size: { width_o: 1000, height_o: 1000 }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25963636728/"}
+  images_flickr: { photo: "25963636728", farm: 5, server: 4748, secret: "1f620e48c9", secret_h: "7815ed7f99", secret_k: "7b7545bc4e", secret_o: "d2ebd3e7fc", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
   colors: [pink, white, red]
   notes:
   - 多摩センター親善大使
@@ -2935,10 +2935,10 @@
   colors: [blue, red, yellow]
   notes:
   - メキシコ
-- title: BOFB97DBU1v
-  source: { author: "Sanrio do Brasil", license: "", url: "https://www.instagram.com/p/BOFB97DBU1v/"}
-  images_instagram: { shortcode: "BOFB97DBU1v", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 1080 }
+- title: Bd-ry_ggq4a
+  source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/Bd-ry_ggq4a/"}
+  images_instagram: { shortcode: "Bd-ry_ggq4a", width_t: 150, width_m: 320, width_l: 720 }
+  size: { width_o: 720, height_o: 720 }
   colors: [blue, pink, white]
   notes:
   - ブラジル

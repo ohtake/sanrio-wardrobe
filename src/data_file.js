@@ -333,6 +333,11 @@ DataFile.all = [
     // https://www.flickr.com/photos/ohtake_tomohiro/34443923456/
     'https://c1.staticflickr.com/5/4185/34443923456_5343fb4a94_q.jpg',
   ),
+  DataFile.siShirokuro = new DataFile(
+    'si-shirokuro', 'SI', 'しろうさ・くろうさ', 'Shirousa & Kurousa',
+    // https://www.flickr.com/photos/ohtake_tomohiro/14387901891/
+    'https://c2.staticflickr.com/4/3916/14387901891_c3b756812b_q.jpg',
+  ),
   DataFile.siMomohana = new DataFile(
     'si-momohana', 'SI', 'ももうさ・はなうさ', 'Momousa & Hanausa',
     // https://www.flickr.com/photos/ohtake_tomohiro/10113617364/
