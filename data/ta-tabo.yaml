@@ -1,4 +1,11 @@
 ---
+- title: ILLUMINANT
+  source: { author: "Carter", license: "", url: "https://www.flickr.com/photos/fisheye17/646256551/"}
+  images_flickr: { photo: "646256551", farm: 2, server: 1367, secret: "e157eb1778", before: "20120301" }
+  size: { width_o: 768, height_o: 1024 }
+  colors: [orange, yellow, red, blue, gold]
+  notes:
+  - ピューロランドパレード『ILLUMINANT』
 - title: p2n-z3NduU
   source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/p2n-z3NduU/"}
   images_instagram: { shortcode: "p2n-z3NduU", width_t: 150, width_m: 320, width_l: 640 }

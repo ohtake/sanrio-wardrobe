@@ -295,10 +295,10 @@
   colors: [blue]
   notes:
   - プードル、ハート
-- title: BbhYw7jlDWp
-  source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/BbhYw7jlDWp/"}
-  images_instagram: { shortcode: "BbhYw7jlDWp", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 1350 }
+- title: BbhLO-alFEd
+  source: { author: "skiiitty", license: "", url: "https://www.instagram.com/p/BbhLO-alFEd/"}
+  images_instagram: { shortcode: "BbhLO-alFEd", width_t: 150, width_m: 320, width_l: 750 }
+  size: { width_o: 750, height_o: 750 }
   colors: [yellow, white, green]
   notes:
   - 音符

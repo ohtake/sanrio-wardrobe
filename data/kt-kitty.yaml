@@ -1011,10 +1011,10 @@
   colors: [pink]
   notes:
   - プードル、ハート
-- title: BbhYw7jlDWp
-  source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/BbhYw7jlDWp/"}
-  images_instagram: { shortcode: "BbhYw7jlDWp", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 1350 }
+- title: BbhLO-alFEd
+  source: { author: "skiiitty", license: "", url: "https://www.instagram.com/p/BbhLO-alFEd/"}
+  images_instagram: { shortcode: "BbhLO-alFEd", width_t: 150, width_m: 320, width_l: 750 }
+  size: { width_o: 750, height_o: 750 }
   colors: [red, white, blue]
   notes:
   - 音符
@@ -3059,9 +3059,17 @@
   source: { author: "Kidsproof Leiden", license: "", url: "https://www.instagram.com/p/BS1JtRsl3sz/"}
   images_instagram: { shortcode: "BS1JtRsl3sz", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 1080 }
-  colors: [red, white, blue]
+  colors: [red, white, blue, yellow, orange, purple, black]
   notes:
-  - オランダ
+  - 蝶
+  - オランダ、カナダ
+- title: BesbqM-hD_q
+  source: { author: "Ruby Lee", license: "", url: "https://www.instagram.com/p/BesbqM-hD_q/"}
+  images_instagram: { shortcode: "BesbqM-hD_q", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [red, pink, white, blue, silver]
+  notes:
+  - ドイツ
 - title: Hello Kitty Run Team
   source: { author: "Hello Kitty Fan Zone", license: "", url: "https://www.instagram.com/p/8IBc4EA1C2/"}
   images_instagram: { shortcode: "8IBc4EA1C2", width_t: 150, width_m: 320, width_l: 1080 }
@@ -3162,3 +3170,10 @@
   colors: [red, yellow, gold, white, pink]
   notes:
   - 香港
+- title: Bek3lDdnm64
+  source: { author: "elanakhong", license: "", url: "https://www.instagram.com/p/Bek3lDdnm64/"}
+  images_instagram: { shortcode: "Bek3lDdnm64", width_t: 150, width_m: 320, width_l: 737 }
+  size: { width_o: 737, height_o: 737 }
+  colors: [pink, gold]
+  notes:
+  - マレーシア
