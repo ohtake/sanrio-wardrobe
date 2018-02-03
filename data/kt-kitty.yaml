@@ -2682,6 +2682,13 @@
   colors: [gold, white]
   notes:
   - アメリカ Macys Presents Fashion's Front Row
+- title: PUMA
+  source: { author: "nerdreactor", license: "", url: "https://www.instagram.com/p/Betr-tsH1ly/"}
+  images_instagram: { shortcode: "Betr-tsH1ly", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [red, white]
+  notes:
+  - アメリカ PUMA SUEDE 50
 - title: Torrid 2016
   source: { author: "tessholliday", license: "", url: "https://www.instagram.com/p/BH5zZ-5Bii4/"}
   images_instagram: { shortcode: "BH5zZ-5Bii4", width_t: 150, width_m: 320, width_l: 841 }
@@ -3177,3 +3184,10 @@
   colors: [pink, gold]
   notes:
   - マレーシア
+- title: BboGbOmBUkX
+  source: { author: "lpd_kitty_shop", license: "", url: "https://www.instagram.com/p/BboGbOmBUkX/"}
+  images_instagram: { shortcode: "BboGbOmBUkX", width_t: 150, width_m: 320, width_l: 720 }
+  size: { width_o: 720, height_o: 720 }
+  colors: [pink, white, red]
+  notes:
+  - タイ

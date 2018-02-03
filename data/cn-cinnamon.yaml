@@ -529,6 +529,13 @@
   colors: [yellow, red, silver, white]
   notes:
   - クリスマス、マフラー追加
+- title: メロディ頭巾
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/39339531594/"}
+  images_flickr: { photo: "39339531594", farm: 5, server: 4703, secret: "9f3bd457fa", secret_h: "1aa2edf373", secret_k: "b057c588d2", secret_o: "79d0f40a8d", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, white, yellow]
+  notes:
+  - メロディ頭巾
 - title: 品川紋次郎・刀あり
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35116063576/"}
   images_flickr: { photo: "35116063576", farm: 5, server: 4255, secret: "dd94544eb7", secret_h: "bc01707e0f", secret_k: "4faecbec24", secret_o: "19bd458929", format_o: "jpg" }

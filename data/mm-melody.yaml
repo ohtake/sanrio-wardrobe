@@ -586,6 +586,19 @@
   notes:
   - ストロベリーホール『My Melody in Akazukin』
   - ハーモニーランドイベントホール『My Melody in Akazukin』
+- title: 53AK9018
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/40050351851/"}
+  images_flickr: { photo: "40050351851", farm: 5, server: 4698, secret: "9d948fb0c2", secret_h: "5eb6303fac", secret_k: "0b55addfe0", secret_o: "f546ba3b39", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [blue, pink, orange, yellow, green, white, red]
+  notes:
+  - リンゴ
+- title: 53AK9406
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/25178256507/"}
+  images_flickr: { photo: "25178256507", farm: 5, server: 4651, secret: "228e39ae92", secret_h: "84e6e2be04", secret_k: "ad3def1549", secret_o: "2f4ecdfac4", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [silver, white, pink, red]
+  notes: []
 - title: LIZ LISA ダイヤ花柄
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZGjY2HnDNF/"}
   images_instagram: { shortcode: "BZGjY2HnDNF", width_t: 150, width_m: 320, width_l: 1080 }

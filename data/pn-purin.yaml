@@ -242,9 +242,9 @@
   - HAPPY GIFT CHRISTMAS から袖が変更
   - クリスマス
 - title: メロディ頭巾
-  source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/36458011746/"}
-  images_flickr: { photo: "36458011746", farm: 5, server: 4376, secret: "4d1ee1bfd1", secret_o: "f88aae1ed9", format_o: "jpg", before: "20100525" }
-  size: { width_o: 640, height_o: 480 }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/40050375811/"}
+  images_flickr: { photo: "40050375811", farm: 5, server: 4750, secret: "68a6ce27d5", secret_h: "4f4cddbdd6", secret_k: "809727287f", secret_o: "af27ec9bee", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
   colors: [pink, white, yellow]
   notes:
   - メロディ頭巾
