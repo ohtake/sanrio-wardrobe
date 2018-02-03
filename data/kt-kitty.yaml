@@ -720,6 +720,13 @@
   notes:
   - ピューロビレッジ『ハローキティイルミネーション「SPARKLE!!」』
   - 羽
+- title: SPARKLE Sweet Lights
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/39159261685/"}
+  images_flickr: { photo: "39159261685", farm: 5, server: 4699, secret: "d65beb0fd5", secret_h: "c04ba2e660", secret_k: "72958c131e", secret_o: "0c26a2b5b5", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, brown, pink, white, gold]
+  notes:
+  - ピューロビレッジ『ハローキティイルミネーション「SPARKLE!! ~Sweet Lights~」』
 - title: ハロウィン・バンパイア
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9741887827/"}
   images_flickr: { photo: "9741887827", farm: 8, server: 7426, secret: "90be731ede", secret_h: "4673e42354", secret_k: "985797cd04", secret_o: "161540323f", format_o: "jpg" }

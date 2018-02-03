@@ -1,4 +1,11 @@
 ---
+- title: くるみ割りさん
+  source: { author: "ohtake", license: "", url: "https://www.flickr.com/photos/ohtake_tomohiro/39346839394/"}
+  images_flickr: { photo: "39346839394", farm: 5, server: 4671, secret: "9ca0e49198", secret_h: "555ee19143", secret_k: "b3677f9a47", secret_o: "cb86d4e2e4", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [blue, black, white, gold]
+  notes:
+  - メルヘンシアター『ハローキティのくるみ割り人形』
 - title: IMG_6288
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/23705642434/"}
   images_flickr: { photo: "23705642434", farm: 2, server: 1516, secret: "1b2f1ced7a", secret_h: "580ba3cfd9", secret_k: "50cb9b3714", secret_o: "ed739f72b0", format_o: "jpg" }

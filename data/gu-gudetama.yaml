@@ -82,6 +82,12 @@
   - かぼちゃぱんつの左足に装飾を追加
   - PINK sensation 2017 Taicoclub in Sanrio Puroland Hello Kitty 43rd Anniversary Bash!
   - ハロウィン
+- title: 5周年腹巻
+  source: { author: "kz400m", license: "", url: "https://www.instagram.com/p/BeuUq2JhtlG/"}
+  images_instagram: { shortcode: "BeuUq2JhtlG", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [pink, white, red]
+  notes: []
 - title: BcO1G5UDPIl
   source: { author: "sanriojapanesevillage", license: "", url: "https://www.instagram.com/p/BcO1G5UDPIl/"}
   images_instagram: { shortcode: "BcO1G5UDPIl", width_t: 150, width_m: 320, width_l: 1080 }
