@@ -14,20 +14,17 @@ export default class Photo {
    * @param {string} file filename to load. e.g. kt-kitty
    * @returns {Promise.<Photo[]>} array of photos
    */
-  static loadPhotos(file) {
+  static async loadPhotos(file) {
     /* eslint-disable global-require, import/no-dynamic-require */
     const actualFilename = require(`file-loader?name=[name].json!./../data/${file}.yaml`);
     /* eslint-enable */
 
-    return window.fetch(actualFilename).then((res) => {
-      if (res.ok) {
-        return res.json();
-      }
+    const res = await window.fetch(actualFilename);
+    if (!res.ok) {
       throw new Error(`${res.statusText}: ${res.url}`);
-    }).then((arr) => {
-      const photos = arr.map(obj => new Photo(obj));
-      return Promise.resolve(photos);
-    });
+    }
+    const arr = await res.json();
+    return arr.map(obj => new Photo(obj));
   }
 
   /**

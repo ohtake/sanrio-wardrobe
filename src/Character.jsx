@@ -75,24 +75,25 @@ export default class Character extends React.Component {
    * @param {string} file
    * @returns {void}
    */
-  loadPhotos(file) {
+  async loadPhotos(file) {
     this.setState({
       photos: null,
       message: `Loading ${file}`,
     });
-    Photo.loadPhotos(file).then((photos) => {
+    try {
+      const photos = await Photo.loadPhotos(file);
       this.allPhotos = photos;
       this.setState({
         photos: photos.slice(0),
         message: null,
       });
       this.updateLightbox(this.props.match.params.title);
-    }).catch((err) => {
+    } catch (err) {
       this.setState({
         photos: null,
         message: err.toString(),
       });
-    });
+    }
   }
   /**
    * @private

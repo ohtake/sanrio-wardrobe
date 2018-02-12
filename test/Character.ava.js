@@ -5,10 +5,13 @@ import { shallow, mount } from 'enzyme';
 import sinon from 'sinon';
 import yaml from 'js-yaml';
 import fs from 'fs';
+import util from 'util';
 
 import Character from '../src/Character';
 import * as themes from '../src/themes';
 import Photo from '../src/photo';
+
+const readFilePromisified = util.promisify(fs.readFile);
 
 const context = {
   muiTheme: themes.themeLight,
@@ -31,17 +34,12 @@ test('<Character /> should be loaded', t => {
 test.cb('<Character /> should be loaded with kt-kitty', t => {
   let photoCount = -1;
   const loadPhotosDouble = sinon.stub(Photo, 'loadPhotos');
-  loadPhotosDouble.callsFake(arg => new Promise((onFulfilled, onRejected) => {
-    fs.readFile(`data/${arg}.yaml`, { encoding: 'utf-8' }, (err, data) => {
-      if (err) {
-        onRejected(err);
-        return;
-      }
-      const arr = yaml.safeLoad(data);
-      photoCount = arr.length;
-      onFulfilled(arr.map(obj => new Photo(obj)));
-    });
-  }));
+  loadPhotosDouble.callsFake(async arg => {
+    const data = await readFilePromisified(`data/${arg}.yaml`, { encoding: 'utf-8' });
+    const arr = yaml.safeLoad(data);
+    photoCount = arr.length;
+    return arr.map(obj => new Photo(obj));
+  });
   try {
     const wrapper = mount(<Character match={{ params: { chara: 'kt-kitty' } }} />, { context });
     t.not(null, wrapper.state('message'));

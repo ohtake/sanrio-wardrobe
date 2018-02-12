@@ -9,7 +9,7 @@ https://www.instagram.com/developer/embedding/#media_redirect
 
 // Use request to support proxy.
 // If you are behind a proxy, set https_proxy environment variable.
-import request from 'request';
+import requestPromise from 'request-promise-native';
 
 import Jpeg from 'jpeg-js';
 
@@ -21,18 +21,10 @@ if (args.length !== 1) {
   process.exit(1);
 }
 
-function fetchAndDecode(shortcode, size) {
+async function fetchAndDecode(shortcode, size) {
   const endpoint = `https://instagram.com/p/${shortcode}/media/?size=${size}`;
-  return new Promise((resolve, reject) => {
-    request({ uri: endpoint, encoding: null }, (error, response, body) => {
-      if (error) {
-        reject(error);
-        return;
-      }
-      const decoded = Jpeg.decode(body);
-      resolve(decoded);
-    });
-  });
+  const body = await requestPromise({ uri: endpoint, encoding: null });
+  return Jpeg.decode(body);
 }
 
 const sizes = ['t', 'm', 'l'];

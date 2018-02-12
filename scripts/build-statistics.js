@@ -1,6 +1,7 @@
 #!./node_modules/.bin/babel-node
 
 import fs from 'fs';
+import util from 'util';
 import yaml from 'js-yaml';
 import mkdirp from 'mkdirp';
 import clone from 'lodash/clone';
@@ -8,18 +9,14 @@ import clone from 'lodash/clone';
 import Colors from '../src/colors';
 import DataFile from '../src/data_file';
 
+const readFilePromisified = util.promisify(fs.readFile);
+
 const photos = {};
 
-const promisesLoad = DataFile.all.map(df => new Promise((onFulfilled, onRejected) => {
-  fs.readFile(`data/${df.name}.yaml`, { encoding: 'utf-8' }, (err, data) => {
-    if (err) {
-      onRejected(err);
-      return;
-    }
-    photos[df.name] = yaml.safeLoad(data);
-    onFulfilled();
-  });
-}));
+const promisesLoad = DataFile.all.map(async (df) => {
+  const data = await readFilePromisified(`data/${df.name}.yaml`, { encoding: 'utf-8' });
+  photos[df.name] = yaml.safeLoad(data);
+});
 
 Promise.all(promisesLoad).then(() => {
   const stats = {
