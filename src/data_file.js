@@ -42,12 +42,12 @@ DataFile.all = [
     '',
   ),
   DataFile.azPinky = new DataFile(
-    'az-pinky', 'AZ', 'ピンキー', 'Pinky',
+    'az-pinky', 'AZ', 'ピンキー・リルローズ', 'Pinky Lilrose',
     // https://www.flickr.com/photos/ohtake_tomohiro/35156445182/
     'https://c1.staticflickr.com/5/4257/35156445182_1a476e0dd9_q.jpg',
   ),
   DataFile.azLio = new DataFile(
-    'az-lio', 'AZ', 'リオ', 'Lio',
+    'az-lio', 'AZ', 'リオ・スカイピース', 'Lio Skypeace',
     // https://www.flickr.com/photos/ohtake_tomohiro/35283176916/
     'https://c1.staticflickr.com/5/4246/35283176916_72406f1d31_q.jpg',
   ),
