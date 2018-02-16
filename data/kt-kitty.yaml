@@ -1018,10 +1018,10 @@
   colors: [pink]
   notes:
   - プードル、ハート
-- title: BbhLO-alFEd
-  source: { author: "skiiitty", license: "", url: "https://www.instagram.com/p/BbhLO-alFEd/"}
-  images_instagram: { shortcode: "BbhLO-alFEd", width_t: 150, width_m: 320, width_l: 750 }
-  size: { width_o: 750, height_o: 750 }
+- title: BbhYw7jlDWp
+  source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/BbhYw7jlDWp/"}
+  images_instagram: { shortcode: "BbhYw7jlDWp", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 1350 }
   colors: [red, white, blue]
   notes:
   - 音符
@@ -2207,13 +2207,13 @@
   colors: [red, pink, blue, orange, green, yellow]
   notes:
   - フコク生命
-- title: BIh4h2hBDbe
-  source: { author: "maimai.0914", license: "", url: "https://www.instagram.com/p/BIh4h2hBDbe/"}
-  images_instagram: { shortcode: "BIh4h2hBDbe", width_t: 150, width_m: 320, width_l: 1080 }
-  size: { width_o: 1080, height_o: 810 }
-  colors: [pink, white]
-  notes:
-  - フコク生命
+# - title: BIh4h2hBDbe
+#   source: { author: "maimai.0914", license: "", url: "https://www.instagram.com/p/BIh4h2hBDbe/"}
+#   images_instagram: { shortcode: "BIh4h2hBDbe", width_t: 150, width_m: 320, width_l: 1080 }
+#   size: { width_o: 1080, height_o: 810 }
+#   colors: [pink, white]
+#   notes:
+#   - フコク生命
 - title: twstsFGzTg
   source: { author: "linagram13", license: "", url: "https://www.instagram.com/p/twstsFGzTg/"}
   images_instagram: { shortcode: "twstsFGzTg", width_t: 150, width_m: 320, width_l: 640 }
