@@ -1,7 +1,7 @@
 ---
 - title: 緑
   source: { author: "rie81ygyg", license: "", url: "https://www.instagram.com/p/BVeDdLchF-s/"}
-  images_instagram: { shortcode: "BVeDdLchF-s", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BVeDdLchF-s", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ecd54a6f76ad304e97bd523925b36711/5B0643F6/t51.2885-15/s150x150/e35/19121663_1909375072683625_4053566795112513536_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2d18a442e7409a5d047be7971e321bde/5B1A02C6/t51.2885-15/s320x320/e35/19121663_1909375072683625_4053566795112513536_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/146c03f3cf30ffa8cf966c0bbbb46c44/5B191CA1/t51.2885-15/e35/19121663_1909375072683625_4053566795112513536_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [green, red, black]
   notes: []
@@ -26,43 +26,43 @@
   - 東京競馬場、阪神競馬場
 - title: クリスマス
   source: { author: "kazumi__hii", license: "", url: "https://www.instagram.com/p/BOWk1V-gPNy/"}
-  images_instagram: { shortcode: "BOWk1V-gPNy", width_t: 150, width_m: 320, width_l: 640 }
+  images_instagram2: { shortcode: "BOWk1V-gPNy", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/686f0105786b451bc549d408b6bbd599/5B20DB1D/t51.2885-15/s150x150/e35/15625311_613238148868694_1550486002764611584_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/818f2205906a05ece42a86c4842befa2/5B05855A/t51.2885-15/s320x320/e35/15625311_613238148868694_1550486002764611584_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/838f31802f428507b52dba542a4a1f37/5B115A78/t51.2885-15/e35/15625311_613238148868694_1550486002764611584_n.jpg" }
   size: { width_o: 640, height_o: 640 }
   colors: [red, white, black]
   notes: []
 - title: 札幌
   source: { author: "reechan_3", license: "", url: "https://www.instagram.com/p/BJXSxvkhM4r/"}
-  images_instagram: { shortcode: "BJXSxvkhM4r", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BJXSxvkhM4r", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/d7dc4871b3a9ed0385518791fc60e84b/5B05C2B5/t51.2885-15/s150x150/e35/c0.47.1080.1080/14072758_946639408780663_30507128_n.jpg", m_width: 320, m_height: 347, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/8500e14d8048bb30eaac6da9e00bbb9d/5B199F1F/t51.2885-15/e35/p320x320/14072758_946639408780663_30507128_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a9f813d275dbbd5d100eec4e9563df60/5B17FCA3/t51.2885-15/e35/14072758_946639408780663_30507128_n.jpg" }
   size: { width_o: 1080, height_o: 1174 }
   colors: [blue, yellow, red, black, green]
   notes: []
 - title: 札幌・トサカなし
   source: { author: "minarin.37", license: "", url: "https://www.instagram.com/p/BIKRERvBXan/"}
-  images_instagram: { shortcode: "BIKRERvBXan", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BIKRERvBXan", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e4df0aaf815de44330381a6432931e30/5B137C0E/t51.2885-15/s150x150/e35/13696883_119349511836585_1716202850_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/cb039b9a40ac7d3311bd7f54001aa768/5B23989D/t51.2885-15/s320x320/e35/13696883_119349511836585_1716202850_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/27888b242eec346df7a15a56e418ee4d/5B021A10/t51.2885-15/e35/13696883_119349511836585_1716202850_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, yellow, red, black]
   notes: []
 - title: 函館
   source: { author: "seiko__a", license: "", url: "https://www.instagram.com/p/BVdc4mwAQ9w/"}
-  images_instagram: { shortcode: "BVdc4mwAQ9w", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BVdc4mwAQ9w", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/d0fe4c0b46e23558bddda56bd139b2f8/5B19D1E6/t51.2885-15/s150x150/e35/c0.49.1080.1080/19367661_857041754447516_1455649255103397888_n.jpg", m_width: 320, m_height: 349, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/17e7ce46c8b7ec0cf42af75e269732ff/5B05A40F/t51.2885-15/e35/p320x320/19367661_857041754447516_1455649255103397888_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a17f7c78b6ab5478880343fb1d28a35a/5B21ECAE/t51.2885-15/e35/19367661_857041754447516_1455649255103397888_n.jpg" }
   size: { width_o: 1080, height_o: 1179 }
   colors: [blue, white, black]
   notes: []
 - title: 福島
   source: { author: "icefollies", license: "", url: "https://www.instagram.com/p/BWr4b_vgrpz/"}
-  images_instagram: { shortcode: "BWr4b_vgrpz", width_t: 150, width_m: 320, width_l: 834 }
+  images_instagram2: { shortcode: "BWr4b_vgrpz", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9297f7ff62f7dc060ab50c177f40958d/5B2275C3/t51.2885-15/s150x150/e35/20184267_707050439487018_4368405752088363008_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/813a34dbe65edd07de66244bb87b8b76/5B0B6F84/t51.2885-15/s320x320/e35/20184267_707050439487018_4368405752088363008_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/dd7442c24947d5a87a37c037f6aeaa7d/5B12F4A6/t51.2885-15/e35/20184267_707050439487018_4368405752088363008_n.jpg" }
   size: { width_o: 834, height_o: 834 }
   colors: [white, red, green, black]
   notes: []
 - title: 新潟1
   source: { author: "yamatani5296", license: "", url: "https://www.instagram.com/p/BIh3IRuAu5z/"}
-  images_instagram: { shortcode: "BIh3IRuAu5z", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BIh3IRuAu5z", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/6c0848aa3ad796798c58d10daeb079eb/5B09013F/t51.2885-15/s150x150/e35/c0.135.1080.1080/13696727_1035321899897188_153346718_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/72374cce358bac2b51aebe336cbffd4d/5B189357/t51.2885-15/e35/p320x320/13696727_1035321899897188_153346718_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/860af9879199a82f10365ffb3326ee5b/5B025F89/t51.2885-15/e35/13696727_1035321899897188_153346718_n.jpg" }
   size: { width_o: 1080, height_o: 1350 }
   colors: [blue, white, yellow, brown]
   notes: []
 - title: 新潟2
   source: { author: "qkhour", license: "", url: "https://www.instagram.com/p/BEz6-B0vp3U/"}
-  images_instagram: { shortcode: "BEz6-B0vp3U", width_t: 150, width_m: 320, width_l: 720 }
+  images_instagram2: { shortcode: "BEz6-B0vp3U", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/d06dc2d77d5b1454c36d828621f71718/5B043A81/t51.2885-15/s150x150/e35/c0.90.720.720/13126875_545409605641677_1276157879_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4d318dc87ffdab0e566cf4a41eac3a3a/5B1A8B73/t51.2885-15/e35/p320x320/13126875_545409605641677_1276157879_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/fd50bce45d39e68934c08750183719e8/5B1A1CAD/t51.2885-15/e35/13126875_545409605641677_1276157879_n.jpg" }
   size: { width_o: 720, height_o: 900 }
   colors: [blue, white, yellow, brown]
   notes: []
@@ -80,43 +80,43 @@
   notes: []
 - title: 京成
   source: { author: "ogi_963", license: "", url: "https://www.instagram.com/p/BY2owmAFr4l/"}
-  images_instagram: { shortcode: "BY2owmAFr4l", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BY2owmAFr4l", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7b0a6c410c86e275050a0c0563be575e/5B1C78AA/t51.2885-15/s150x150/e35/c0.135.1080.1080/21435622_303712153370347_108982205270720512_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/1147d08c2cfe9bba14614bbcf33311d1/5B0ECA02/t51.2885-15/e35/p320x320/21435622_303712153370347_108982205270720512_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ad384ce2aa0cf61b64fe593432b14652/5B246528/t51.2885-15/e35/21435622_303712153370347_108982205270720512_n.jpg" }
   size: { width_o: 1080, height_o: 1350 }
   colors: [blue, gold, black, white]
   notes: []
 - title: 横浜
   source: { author: "gummitch3", license: "", url: "https://www.instagram.com/p/BVv6F0CjNsp/"}
-  images_instagram: { shortcode: "BVv6F0CjNsp", width_t: 150, width_m: 320, width_l: 640 }
+  images_instagram2: { shortcode: "BVv6F0CjNsp", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/5807759bcb1b9b7063ee2fa7cdbae288/5B25825E/t51.2885-15/s150x150/e15/19436424_335653400205293_7991392257481637888_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/34d8c0c13babb7705459ebb06b24ada9/5B19EE19/t51.2885-15/s320x320/e15/19436424_335653400205293_7991392257481637888_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c9b5b1682cf94f4fbeb5a1847c9a4c4c/5B18523B/t51.2885-15/e15/19436424_335653400205293_7991392257481637888_n.jpg" }
   size: { width_o: 640, height_o: 640 }
   colors: [blue, white, red, gold, black]
   notes: []
 - title: 中京
   source: { author: "parosere5", license: "", url: "https://www.instagram.com/p/BILzrhUBpDn/"}
-  images_instagram: { shortcode: "BILzrhUBpDn", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BILzrhUBpDn", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7f37ca57e6011baabd5d444644a13a0e/5B05AA48/t51.2885-15/s150x150/e35/13737097_280891038941842_1053212093_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c23c263714d3e1fa5e81df28a268eca3/5B0C2DDB/t51.2885-15/s320x320/e35/13737097_280891038941842_1053212093_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7e9837e5503bfde81cc861cce6c47027/5B159356/t51.2885-15/e35/13737097_280891038941842_1053212093_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [red, green, gold, black, silver]
   notes: []
 - title: 京都
   source: { author: "uma_live_backpacker", license: "", url: "https://www.instagram.com/p/BTjJBQyjBto/"}
-  images_instagram: { shortcode: "BTjJBQyjBto", width_t: 150, width_m: 320, width_l: 540 }
+  images_instagram2: { shortcode: "BTjJBQyjBto", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/3880734da6ec2b0fb8dccb658b9ccc2f/5B1C5C33/t51.2885-15/s150x150/e35/18161783_1514760865201311_7894240002756837376_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/441d8ea1c66626c4bd6c583531496021/5B101103/t51.2885-15/s320x320/e35/18161783_1514760865201311_7894240002756837376_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/d5aa67bf82661db226816955ab817edd/5B113064/t51.2885-15/e35/18161783_1514760865201311_7894240002756837376_n.jpg" }
   size: { width_o: 540, height_o: 540 }
   colors: [green, purple, black, white, gold]
   notes: []
 - title: 阪神・セントウル
   source: { author: "39_miki_39", license: "", url: "https://www.instagram.com/p/BSuxszbACuL/"}
-  images_instagram: { shortcode: "BSuxszbACuL", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BSuxszbACuL", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/14a6a1fd8a4af521c484d6989239771a/5B02B709/t51.2885-15/s150x150/e35/17817907_416342065407597_7285701690202783744_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/044734e73bf49b6f9d221ac3af2a49a4/5B25624E/t51.2885-15/s320x320/e35/17817907_416342065407597_7285701690202783744_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9ee7860363e2077426f25a8a9446a814/5B22256C/t51.2885-15/e35/17817907_416342065407597_7285701690202783744_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [green, yellow, red, brown, silver, white, black]
   notes: []
 - title: 阪神・セントウル・クリスマス
   source: { author: "ofujisan.n", license: "", url: "https://www.instagram.com/p/BObOHHxh-_a/"}
-  images_instagram: { shortcode: "BObOHHxh-_a", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BObOHHxh-_a", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9254c41a9d73cf510a493eee44cae622/5B167F71/t51.2885-15/s150x150/e35/14596625_350466835326179_353058105711394816_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/1ce5643fc68621868f66725983824e54/5B18278C/t51.2885-15/s320x320/e35/14596625_350466835326179_353058105711394816_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9ea4fbd1dde1aa0460780e2f9ea04a82/5AFFB7C5/t51.2885-15/e35/14596625_350466835326179_353058105711394816_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [red, white, green, yellow, black]
   notes: []
 - title: 小倉
   source: { author: "mokami625", license: "", url: "https://www.instagram.com/p/BXIREy_gRkc/"}
-  images_instagram: { shortcode: "BXIREy_gRkc", width_t: 150, width_m: 320, width_l: 960 }
+  images_instagram2: { shortcode: "BXIREy_gRkc", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/392aff20c97ceac18227087d391c43a1/5B20804B/t51.2885-15/s150x150/e35/20398534_336406856799917_2671288784154263552_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f4654dd31d3e444802a891cdfaeb73e2/5B12030C/t51.2885-15/s320x320/e35/20398534_336406856799917_2671288784154263552_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a4cf0d5945df47dce3d767d63b9ee4b7/5B12692E/t51.2885-15/e35/20398534_336406856799917_2671288784154263552_n.jpg" }
   size: { width_o: 960, height_o: 960 }
   colors: [blue, red, white, black, gold]
   notes: []

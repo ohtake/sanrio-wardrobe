@@ -7,7 +7,7 @@
   notes: []
 - title: 星空のHappy Party Christmas
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ1RqcPhNJX/"}
-  images_instagram: { shortcode: "BZ1RqcPhNJX", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BZ1RqcPhNJX", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/dc01bd831139dd1ceb1aa851cf3488da/5B0F04EC/t51.2885-15/s150x150/e15/22277816_478337235871276_245441283428974592_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4fc9d2e53e781edf62f3bb014a93f8b5/5B157D11/t51.2885-15/s320x320/e15/22277816_478337235871276_245441283428974592_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0a1094200204a822589badcfe995424a/5B214683/t51.2885-15/s1080x1080/e15/fr/22277816_478337235871276_245441283428974592_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, silver, gold, green, red, white]
   notes:
@@ -24,7 +24,7 @@
   - 法被
 - title: アメリカ全裸蝶ネクタイ
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/M7SBHulD_j/"}
-  images_instagram: { shortcode: "M7SBHulD_j", width_t: 150, width_m: 320, width_l: 612 }
+  images_instagram2: { shortcode: "M7SBHulD_j", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/428f5ef1b952eba1640760f393e6d94f/5B197F48/t51.2885-15/s150x150/e15/11201575_829907013741617_2023751675_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4020a86913110a4e3239ad27618bd8d6/5B0D23DB/t51.2885-15/s320x320/e15/11201575_829907013741617_2023751675_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/91feb2e68b0761e772e84e9c0a0902a8/5B199556/t51.2885-15/e15/11201575_829907013741617_2023751675_n.jpg" }
   size: { width_o: 612, height_o: 612 }
   colors: [red]
   notes:

@@ -77,20 +77,34 @@ const photoPicasa = {
   colors: [],
   notes: [],
 };
-const photoInstagramSquare = {
+const photoInstagram2Square = {
   title: 'Wii Gato (Lipe Sleep)',
-  images_instagram: {
-    shortcode: 'fA9uwTtkSN', width_t: 150, width_m: 320, width_l: 640,
+  images_instagram2: {
+    shortcode: 'fA9uwTtkSN',
+    t_width: 150,
+    t_height: 150,
+    t_url: 'https://scontent-nrt1-1.cdninstagram.com/vp/66fc31d63e4335207abe9c678a0a3f0b/5A88DA9A/t51.2885-15/s150x150/e15/11358196_1472850273007829_614249870_n.jpg',
+    m_width: 320,
+    m_height: 320,
+    m_url: 'https://scontent-nrt1-1.cdninstagram.com/vp/640bc9bd24ad9f049fd7528fd06a9868/5A88E889/t51.2885-15/s320x320/e15/11358196_1472850273007829_614249870_n.jpg',
+    l_url: 'https://scontent-nrt1-1.cdninstagram.com/vp/685ca756ed8ce187b242d0041734fe76/5A88CC04/t51.2885-15/e15/11358196_1472850273007829_614249870_n.jpg',
   },
   source: { author: 'diegoquinteiro', license: '', url: 'http://instagr.am/p/fA9uwTtkSN/' },
   size: { width_o: 640, height_o: 640 },
   colors: [],
   notes: [],
 };
-const photoInstagramPortrait = {
+const photoInstagram2Portrait = {
   title: 'SI Kitto 1',
-  images_instagram: {
-    shortcode: 'BXo13ZBngas', width_t: 150, width_m: 320, width_l: 720,
+  images_instagram2: {
+    shortcode: 'BXo13ZBngas',
+    t_width: 150,
+    t_height: 150,
+    t_url: 'https://scontent-nrt1-1.cdninstagram.com/vp/ac99123caabe97e1bf65216978e08b27/5B0A1F5E/t51.2885-15/s150x150/e15/c0.90.720.720/20766680_1780144428942534_1180693944258789376_n.jpg',
+    m_width: 320,
+    m_height: 400,
+    m_url: 'https://scontent-nrt1-1.cdninstagram.com/vp/f1c0f16656b453b3620b1b3b276141d4/5AFF94C8/t51.2885-15/e15/p320x320/20766680_1780144428942534_1180693944258789376_n.jpg',
+    l_url: 'https://scontent-nrt1-1.cdninstagram.com/vp/474170aa8bbbc28ed9981047bc8ea2a9/5B16558B/t51.2885-15/e15/20766680_1780144428942534_1180693944258789376_n.jpg',
   },
   source: { author: 'diegoquinteiro', license: '', url: 'https://www.instagram.com/p/BXo13ZBngas/' },
   size: { width_o: 720, height_o: 900 },
@@ -226,18 +240,18 @@ test('Photo#getSrcSet should return for picasa', t => {
 });
 
 /** @test {Photo#getSrcSet} */
-test('Photo#getSrcSet should return for instagram', t => {
-  const photoS = new Photo(photoInstagramSquare);
+test('Photo#getSrcSet should return for instagram v2', t => {
+  const photoS = new Photo(photoInstagram2Square);
   t.is(photoS.getSrcSet(), [
-    'https://instagram.com/p/fA9uwTtkSN/media/?size=t 150w',
-    'https://instagram.com/p/fA9uwTtkSN/media/?size=m 320w',
-    'https://instagram.com/p/fA9uwTtkSN/media/?size=l 640w',
+    'https://scontent-nrt1-1.cdninstagram.com/vp/66fc31d63e4335207abe9c678a0a3f0b/5A88DA9A/t51.2885-15/s150x150/e15/11358196_1472850273007829_614249870_n.jpg 150w',
+    'https://scontent-nrt1-1.cdninstagram.com/vp/640bc9bd24ad9f049fd7528fd06a9868/5A88E889/t51.2885-15/s320x320/e15/11358196_1472850273007829_614249870_n.jpg 320w',
+    'https://scontent-nrt1-1.cdninstagram.com/vp/685ca756ed8ce187b242d0041734fe76/5A88CC04/t51.2885-15/e15/11358196_1472850273007829_614249870_n.jpg 640w',
   ].join(', '));
-  const photoP = new Photo(photoInstagramPortrait);
+  const photoP = new Photo(photoInstagram2Portrait);
   t.is(photoP.getSrcSet(), [
     // should not contain 't' for non-square image
-    'https://instagram.com/p/BXo13ZBngas/media/?size=m 320w',
-    'https://instagram.com/p/BXo13ZBngas/media/?size=l 720w',
+    'https://scontent-nrt1-1.cdninstagram.com/vp/f1c0f16656b453b3620b1b3b276141d4/5AFF94C8/t51.2885-15/e15/p320x320/20766680_1780144428942534_1180693944258789376_n.jpg 320w',
+    'https://scontent-nrt1-1.cdninstagram.com/vp/474170aa8bbbc28ed9981047bc8ea2a9/5B16558B/t51.2885-15/e15/20766680_1780144428942534_1180693944258789376_n.jpg 720w',
   ].join(', '));
 });
 

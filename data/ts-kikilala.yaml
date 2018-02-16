@@ -172,7 +172,7 @@
   notes: []
 - title: ノア
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY18DE_nSju/"}
-  images_instagram: { shortcode: "BY18DE_nSju", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BY18DE_nSju", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/533693060768e22bbd01cbe9a4780b24/5B246973/t51.2885-15/s150x150/e15/21434221_229894490873583_3222059357080387584_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/1125328e08dda1a5fd3389b3d0d12da0/5B099534/t51.2885-15/s320x320/e15/21434221_229894490873583_3222059357080387584_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/95450d6de64e8dd61508abe00727a15e/5B22DA17/t51.2885-15/s1080x1080/e15/fr/21434221_229894490873583_3222059357080387584_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, orange, yellow, white, silver, gold]
   notes:
@@ -215,7 +215,7 @@
   - ピューロビレッジ『HAPPY GIFT CHRISTMAS』
 - title: クリスマ☆パーティ
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/Bdki90Hhiev/"}
-  images_instagram: { shortcode: "Bdki90Hhiev", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "Bdki90Hhiev", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/fe94def3c354fcaa08f7fb0f1bc0a773/5B08622A/t51.2885-15/s150x150/e15/25036604_158701144761093_5048810640009854976_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/8540f7bd3425c0f060a458186a3f7da3/5B096B6D/t51.2885-15/s320x320/e15/25036604_158701144761093_5048810640009854976_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/1950941c74970f0476a27f5153d7f67c/5B18A94E/t51.2885-15/s1080x1080/e15/fr/25036604_158701144761093_5048810640009854976_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [red, yellow, blue, pink, white, green, gold]
   notes:
@@ -231,14 +231,14 @@
 # パレードパラレル オリジナル1
 - title: パレードパラレル オリジナル2
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_KUukHUzj/"}
-  images_instagram: { shortcode: "BY_KUukHUzj", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BY_KUukHUzj", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/19fedde5be5fda1ef5b22165294e0bd3/5B25BEC6/t51.2885-15/s150x150/e15/21576930_175325043016530_7294344860914417664_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/74b21b2e7dad05f5b895d757e446680b/5B1E5381/t51.2885-15/s320x320/e15/21576930_175325043016530_7294344860914417664_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/b4943cf6516aae67ed413b08f71a7e4b/5B00A4A2/t51.2885-15/s1080x1080/e15/fr/21576930_175325043016530_7294344860914417664_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [yellow, white, blue, purple, pink]
   notes:
   - ハーモニーランドパレード『パレードパラレル オリジナル ver.』
 - title: パレードパラレル ハロウィーン
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_KYJsHmuz/"}
-  images_instagram: { shortcode: "BY_KYJsHmuz", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BY_KYJsHmuz", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7f5f9dafe5c1731a70fd68521eb8834b/5B17099B/t51.2885-15/s150x150/e15/21568659_161537951092130_5546585383837368320_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/53a714e0aa05845a0393809dfb995f1c/5B0537DC/t51.2885-15/s320x320/e15/21568659_161537951092130_5546585383837368320_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a352dfbfbc35662127f84ea69fe66951/5B007DFF/t51.2885-15/s1080x1080/e15/fr/21568659_161537951092130_5546585383837368320_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [yellow, orange, purple, blue, pink, silver, white]
   notes:
@@ -252,14 +252,14 @@
   - ハーモニーランドパレード『パレードパラレル クリスマス ver.』
 - title: クリスマスマフラー
   source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/BOmPS0OgLaP/"}
-  images_instagram: { shortcode: "BOmPS0OgLaP", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BOmPS0OgLaP", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/967f587f3eb2ece627e8ba46c7258f4f/5B1B4AF0/t51.2885-15/s150x150/e35/c2.0.1076.1076/14482722_316880675372395_4351586561372979200_n.jpg", m_width: 320, m_height: 318, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/422ea1e6595f5a5d93a9bd036e30313c/5B0E26A6/t51.2885-15/s320x320/e35/14482722_316880675372395_4351586561372979200_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/be62110a60435bcc11af56813f253845/5B023A84/t51.2885-15/e35/14482722_316880675372395_4351586561372979200_n.jpg" }
   size: { width_o: 1080, height_o: 1076 }
   colors: [red, white, green, gold, blue]
   notes:
   - マフラーグリ
 - title: パレードパラレル イースター
   source: { author: "hapehape04", license: "", url: "https://www.instagram.com/p/BTBAVHnB7r7/"}
-  images_instagram: { shortcode: "BTBAVHnB7r7", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BTBAVHnB7r7", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/265ea6b74f75dec4d88d6c986f08b87e/5B0D1C06/t51.2885-15/s150x150/e35/c70.0.939.939/17882720_1880180588887484_2932528756889223168_n.jpg", m_width: 320, m_height: 278, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ecc11190b9cea02b0874f7559ad9fca3/5B235F23/t51.2885-15/s320x320/e35/17882720_1880180588887484_2932528756889223168_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/3296b8cd456af95dfe9d42a34487e56f/5B225344/t51.2885-15/e35/17882720_1880180588887484_2932528756889223168_n.jpg" }
   size: { width_o: 1080, height_o: 939 }
   colors: [purple, white, yellow, blue, pink, green]
   notes:

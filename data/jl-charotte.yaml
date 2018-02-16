@@ -7,14 +7,14 @@
   notes: []
 - title: ハロウィン
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ1HeAwhwyg/"}
-  images_instagram: { shortcode: "BZ1HeAwhwyg", width_t: 150, width_m: 320, width_l: 720 }
+  images_instagram2: { shortcode: "BZ1HeAwhwyg", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4f53ae96104d34d4e48f32d37a163563/5B00EFAD/t51.2885-15/s150x150/e15/c0.90.720.720/22220917_329832750812148_627285539858415616_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/903d4b912bfac9ec8feef21487b6ae1b/5B0A22F2/t51.2885-15/e15/p320x320/22220917_329832750812148_627285539858415616_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/8d8adf0f74daf3923a4a689e7764a9a4/5B0189BC/t51.2885-15/e15/22220917_329832750812148_627285539858415616_n.jpg" }
   size: { width_o: 720, height_o: 900 }
   colors: [white]
   notes:
   - ハロウィン
 - title: クリスマス
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ1HloThHCu/"}
-  images_instagram: { shortcode: "BZ1HloThHCu", width_t: 150, width_m: 320, width_l: 720 }
+  images_instagram2: { shortcode: "BZ1HloThHCu", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2a671814c9e93c3151b5abaf5b75a896/5B03AD9C/t51.2885-15/s150x150/e15/c0.90.720.720/22159378_913262502158502_2892740605060841472_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/5056305e922838ab44d47ce63aee7e73/5B0B0B91/t51.2885-15/e15/p320x320/22159378_913262502158502_2892740605060841472_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/932b24ed8137eb822ad7277b13d37033/5B0DDA13/t51.2885-15/e15/22159378_913262502158502_2892740605060841472_n.jpg" }
   size: { width_o: 720, height_o: 900 }
   colors: [red, white, gold]
   notes:

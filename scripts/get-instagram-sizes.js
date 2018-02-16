@@ -21,30 +21,45 @@ if (args.length !== 1) {
   process.exit(1);
 }
 
-async function fetchAndDecode(shortcode, size) {
-  const endpoint = `https://instagram.com/p/${shortcode}/media/?size=${size}`;
-  const body = await requestPromise({ uri: endpoint, encoding: null });
+async function getRedirectLocation(uri) {
+  try {
+    const resp = await requestPromise({ uri, followRedirect: false, resolveWithFullResponse: true });
+    throw new Error(`expect redirect for ${uri} but got ${resp}`);
+  } catch (ex) {
+    if (Math.floor(ex.statusCode / 100) === 3) {
+      return ex.response.headers.location;
+    }
+    throw ex;
+  }
+}
+
+async function fetchAndDecode(uri) {
+  const body = await requestPromise({ uri, encoding: null });
   return Jpeg.decode(body);
 }
 
-const sizes = ['t', 'm', 'l'];
-const shortcode = args[0];
-const jpegPromises = sizes.map(s => fetchAndDecode(shortcode, s));
-Promise.all(jpegPromises).then((jpegs) => {
-  const params = [];
-  params.push(`shortcode: "${shortcode}"`);
+async function main() {
+  const sizes = ['t', 'm', 'l'];
+  const shortcode = args[0];
+  const endpoints = sizes.map(s => `https://www.instagram.com/p/${shortcode}/media/?size=${s}`);
+  const urls = await Promise.all(endpoints.map(e => getRedirectLocation(e)));
+  const jpegs = await Promise.all(urls.map(u => fetchAndDecode(u)));
+  const params2 = [];
+  params2.push(`shortcode: "${shortcode}"`);
   let widthL;
   let heightL;
   jpegs.forEach((jp, i) => {
-    params.push(`width_${sizes[i]}: ${jp.width}`);
     if (i === 2) {
       widthL = jp.width;
       heightL = jp.height;
+    } else {
+      params2.push(`${sizes[i]}_width: ${jp.width}`);
+      params2.push(`${sizes[i]}_height: ${jp.height}`);
     }
+    params2.push(`${sizes[i]}_url: "${urls[i]}"`);
   });
-  console.log(`images_instagram: { ${params.join(', ')} }`);
+  console.log(`images_instagram2: { ${params2.join(', ')} }`);
   console.log(`size: { width_o: ${widthL}, height_o: ${heightL} }`);
-}).catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+}
+
+main();

@@ -23,7 +23,7 @@
   - 外部イベント『ハローキティ&プリンのハートフルタイム』
 - title: DSC02361
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZBalQdnkNX/"}
-  images_instagram: { shortcode: "BZBalQdnkNX", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BZBalQdnkNX", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/07586620c6530bc808df2edc3701dd58/5B1C3BB3/t51.2885-15/s150x150/e15/21690698_357588418014183_6397064856352063488_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ffc53930ae934bc33ad9fb53ccc21760/5B0619F4/t51.2885-15/s320x320/e15/21690698_357588418014183_6397064856352063488_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4f309af4709f425e67ff307bbf723bb9/5B072AD7/t51.2885-15/s1080x1080/e15/fr/21690698_357588418014183_6397064856352063488_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [silver, white]
   notes: []
@@ -319,7 +319,7 @@
   notes: []
 - title: 5D3C5943
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZBtzUWHe2e/"}
-  images_instagram: { shortcode: "BZBtzUWHe2e", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BZBtzUWHe2e", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7db74155a162d4f6620d6efa4be2f89b/5B0F4786/t51.2885-15/s150x150/e15/21576857_1933732996890713_2582016196689788928_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/380cd6255bd375e21d984a096905aca2/5AFFF0B6/t51.2885-15/s320x320/e15/21576857_1933732996890713_2582016196689788928_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0dbd108fb0d022a14d0d88ac8f224729/5B200A9E/t51.2885-15/s1080x1080/e15/fr/21576857_1933732996890713_2582016196689788928_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [white, green, yellow, red, blue, brown]
   notes: []
@@ -345,7 +345,7 @@
   - イチゴ
 - title: BQUx4g4gVLK
   source: { author: "sanrio_harmonyland", license: "", url: "https://www.instagram.com/p/BQUx4g4gVLK/"}
-  images_instagram: { shortcode: "BQUx4g4gVLK", width_t: 150, width_m: 320, width_l: 1070 }
+  images_instagram2: { shortcode: "BQUx4g4gVLK", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7ad2c1566d97e95089960b693ad2814d/5B0A4AF4/t51.2885-15/s150x150/e35/c110.0.850.850/16465226_413049982367071_2676369489947262976_n.jpg", m_width: 320, m_height: 254, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/6a1bbca0c6a240a22ba0f390dac8e2d8/5B09F081/t51.2885-15/s320x320/e35/16465226_413049982367071_2676369489947262976_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/59347047d0e17c2ac78b7feda152263d/5B19A6A3/t51.2885-15/e35/16465226_413049982367071_2676369489947262976_n.jpg" }
   size: { width_o: 1070, height_o: 850 }
   colors: [white, red, green]
   notes:
@@ -384,28 +384,28 @@
   notes: []
 - title: ユーリ
   source: { author: "funappy1228", license: "", url: "https://www.instagram.com/p/BcMN9QqlOVV/"}
-  images_instagram: { shortcode: "BcMN9QqlOVV", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BcMN9QqlOVV", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9087710d15fc9e0f94279b0a28b48587/5B09220E/t51.2885-15/s150x150/e35/c119.0.841.841/24253676_1806208586058537_1981572974070726656_n.jpg", m_width: 320, m_height: 249, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ed263ad41b52d02ae2f9f4b65c3813a1/5B1982D4/t51.2885-15/s320x320/e35/24253676_1806208586058537_1981572974070726656_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9d4937bad8712277a16fcdc7efa53984/5B07D5B3/t51.2885-15/e35/24253676_1806208586058537_1981572974070726656_n.jpg" }
   size: { width_o: 1080, height_o: 841 }
   colors: [white, blue]
   notes:
   - ユーリ × サンリオキャラクターズ in サンリオピューロランド
 - title: BG7SghMFwSH
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/BG7SghMFwSH/"}
-  images_instagram: { shortcode: "BG7SghMFwSH", width_t: 150, width_m: 320, width_l: 720 }
+  images_instagram2: { shortcode: "BG7SghMFwSH", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/95c87a50178db78aeda88d1886fbaa93/5B21730A/t51.2885-15/s150x150/e15/c0.37.720.720/13395014_1115405898515560_943882840_n.jpg", m_width: 320, m_height: 353, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/6606deaab711eee5ba902db118a7b59a/5B1A9696/t51.2885-15/e15/p320x320/13395014_1115405898515560_943882840_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/99a7a376d51e7498aa624cb6c9f4051b/5B1A970E/t51.2885-15/e15/13395014_1115405898515560_943882840_n.jpg" }
   size: { width_o: 720, height_o: 795 }
   colors: [white, brown, yellow]
   notes:
   - アメリカ
 - title: xEDRsPNdiI
   source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/xEDRsPNdiI/"}
-  images_instagram: { shortcode: "xEDRsPNdiI", width_t: 150, width_m: 320, width_l: 640 }
+  images_instagram2: { shortcode: "xEDRsPNdiI", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e4825dbf1b23a7b8d943b85813cfbefd/5B0D8972/t51.2885-15/s150x150/e15/10802774_1521525368107424_1685960378_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/51dc8557f2a3f53a2f81ba445267a569/5B2335C0/t51.2885-15/s320x320/e15/10802774_1521525368107424_1685960378_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a4e2b65425a4b709688814b876245ae9/5B06E192/t51.2885-15/e15/10802774_1521525368107424_1685960378_n.jpg" }
   size: { width_o: 640, height_o: 640 }
   colors: [black, yellow, white, blue]
   notes:
   - 香港
 - title: アジア版 Hello Kitty Live
   source: { author: "tixbox", license: "", url: "https://www.instagram.com/p/BHzBtMHgKYc/"}
-  images_instagram: { shortcode: "BHzBtMHgKYc", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BHzBtMHgKYc", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2340f8b3d560d943ada85e07ec778846/5B000433/t51.2885-15/s150x150/e35/13649337_170571873355633_306401537_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e8581379e1cdcb2a0a401ce108daad92/5B0F50D1/t51.2885-15/s320x320/e35/13649337_170571873355633_306401537_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ec601cc77d3fbea3bdeac53cab369b1f/5B18ECAF/t51.2885-15/e35/13649337_170571873355633_306401537_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [black, yellow]
   notes:

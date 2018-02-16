@@ -84,13 +84,13 @@
   - ハロウィン
 - title: 5周年腹巻
   source: { author: "kz400m", license: "", url: "https://www.instagram.com/p/BeuUq2JhtlG/"}
-  images_instagram: { shortcode: "BeuUq2JhtlG", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BeuUq2JhtlG", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/8be2ac12cbb977a6324b28a3594c4511/5B262D7E/t51.2885-15/s150x150/e35/26869347_527526427629778_46177624350785536_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/38ff7050472cdccb8cc5b285d69a2343/5B237469/t51.2885-15/s320x320/e35/26869347_527526427629778_46177624350785536_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ad90adeac90d8b23e54e1d923a7dac35/5B1FE420/t51.2885-15/e35/26869347_527526427629778_46177624350785536_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [pink, white, red]
   notes: []
 - title: BcO1G5UDPIl
   source: { author: "sanriojapanesevillage", license: "", url: "https://www.instagram.com/p/BcO1G5UDPIl/"}
-  images_instagram: { shortcode: "BcO1G5UDPIl", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BcO1G5UDPIl", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/d5fa7926e104b6f1979c14f6da2bdc45/5B015716/t51.2885-15/s150x150/e35/24254088_371075966651484_3463678935659708416_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2404e17dbe0c0a2d0e85396a8e5b27b9/5B0D8251/t51.2885-15/s320x320/e35/24254088_371075966651484_3463678935659708416_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f0eb19241e87759e1a1b1993a0e74207/5B06CA73/t51.2885-15/e35/24254088_371075966651484_3463678935659708416_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [red, white]
   notes:

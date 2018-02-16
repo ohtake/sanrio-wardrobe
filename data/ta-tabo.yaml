@@ -8,7 +8,7 @@
   - ピューロランドパレード『ILLUMINANT』
 - title: p2n-z3NduU
   source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/p2n-z3NduU/"}
-  images_instagram: { shortcode: "p2n-z3NduU", width_t: 150, width_m: 320, width_l: 640 }
+  images_instagram2: { shortcode: "p2n-z3NduU", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/6bc1a0220415a8ac8de74d76ec95ff14/5B135DEF/t51.2885-15/s150x150/e15/10522340_789960011044190_61318979_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f4d7b7689b31329dc9584636eadca272/5B261BAF/t51.2885-15/s320x320/e15/10522340_789960011044190_61318979_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c9d5ac2221b075d488fabd88fe72338a/5B1C9979/t51.2885-15/e15/10522340_789960011044190_61318979_n.jpg" }
   size: { width_o: 640, height_o: 640 }
   colors: [blue, red, black, white]
   notes:

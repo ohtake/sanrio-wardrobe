@@ -38,7 +38,7 @@
   - クリスマス
 - title: 星空の Happy Party Christmas
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_BgmXHMHC/"}
-  images_instagram: { shortcode: "BY_BgmXHMHC", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BY_BgmXHMHC", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/5927b8aac16bf85c9ae4179afc2c69c2/5B134A5F/t51.2885-15/s150x150/e15/21690773_297263934087856_6364465569244119040_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/8fbddcc838fed4d50720d6ebbeb394c9/5B1BC518/t51.2885-15/s320x320/e15/21690773_297263934087856_6364465569244119040_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/dcef473dfdba7d7140d55968e77d443b/5B18C93B/t51.2885-15/s1080x1080/e15/fr/21690773_297263934087856_6364465569244119040_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [silver, red, green, yellow, blue]
   notes:
@@ -131,7 +131,7 @@
   - アメリカ『Hello Kitty Supercute Friendship Festival』
 - title: FILA Urban Outfitters
   source: { author: "vblam", license: "", url: "https://www.instagram.com/p/BbINQiCD9hg/"}
-  images_instagram: { shortcode: "BbINQiCD9hg", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BbINQiCD9hg", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/535bedf17ebc5b1bf11c94473b389cc4/5B22801A/t51.2885-15/s150x150/e35/c0.135.1080.1080/23279731_704615966375782_7005905285495652352_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/bc9a3a8f3dc5767436a9018a406d6988/5B24C787/t51.2885-15/e35/p320x320/23279731_704615966375782_7005905285495652352_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2db14851d609dadfb614ff21e9965d07/5B1A6B26/t51.2885-15/e35/23279731_704615966375782_7005905285495652352_n.jpg" }
   size: { width_o: 1080, height_o: 1350 }
   colors: [blue, white, green, red]
   notes:
