@@ -1,6 +1,6 @@
 import findLast from 'lodash/findLast';
 
-import { FlickrSrcsetProvider, PicasaSrcsetProvider, InstagramSrcsetProvider } from './srcset_providers';
+import { FlickrSrcsetProvider, PicasaSrcsetProvider, InstagramSrcsetProvider, Instagram2SrcsetProvider } from './srcset_providers';
 
 export default class Photo {
   /**
@@ -38,6 +38,8 @@ export default class Photo {
       images = FlickrSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
     } else if (this.data.images_picasa) {
       images = PicasaSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
+    } else if (this.data.images_instagram2) {
+      images = Instagram2SrcsetProvider.getImages(this).map(i => this.prepareSize(i));
     } else if (this.data.images_instagram) {
       images = InstagramSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
     } else {

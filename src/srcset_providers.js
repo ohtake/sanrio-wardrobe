@@ -169,3 +169,39 @@ export class InstagramSrcsetProvider {
     });
   }
 }
+
+/**
+ * It provides srcset for Instagram images (v2).
+ *
+ * @example
+ * images_instagram2: { shortcode: "fA9uwTtkSN",
+ *   t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/66fc31d63e4335207abe9c678a0a3f0b/5A88DA9A/t51.2885-15/s150x150/e15/11358196_1472850273007829_614249870_n.jpg",
+ *   m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/640bc9bd24ad9f049fd7528fd06a9868/5A88E889/t51.2885-15/s320x320/e15/11358196_1472850273007829_614249870_n.jpg",
+ *   l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/685ca756ed8ce187b242d0041734fe76/5A88CC04/t51.2885-15/e15/11358196_1472850273007829_614249870_n.jpg" }
+ *
+ * Parameters:
+ *   shortcode: string required
+ *   t_width: number required
+ *   t_height: number required
+ *   t_url: string required
+ *   m_width: number required
+ *   m_height: number requiredm
+ *   m_url: string required
+ *   l_url: string required
+ */
+export class Instagram2SrcsetProvider {
+  /**
+   * @param {Photo} photo
+   * @returns {array.<{url: string, width: number, height: number, max: number}>}
+   */
+  static getImages(photo) {
+    const imgsI = photo.data.images_instagram2;
+    // 't' has square aspect ratio. Do not use 't' for non-square images.
+    const sizes = photo.getAspectRatio() === 1 ? ['t', 'm', 'l'] : ['m', 'l'];
+    return sizes.map((size) => {
+      const url = imgsI[`${size}_url`];
+      const width = size === 'l' ? photo.data.size.width_o : imgsI[`${size}_width`];
+      return { url, width };
+    });
+  }
+}
