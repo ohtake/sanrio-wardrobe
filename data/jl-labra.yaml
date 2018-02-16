@@ -10,7 +10,7 @@
   - 外部イベント『ルビー・ラブラのジュエルペットとあそぼう！』
 - title: ハロウィン・シーツ
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZIMrU4HglD/"}
-  images_instagram: { shortcode: "BZIMrU4HglD", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BZIMrU4HglD", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/794b43bec418bbe3f9781cdabe82e1d0/5B01C6B5/t51.2885-15/s150x150/e15/c0.48.1080.1080/21827249_1951578055097391_1330177025410859008_n.jpg", m_width: 320, m_height: 348, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/be0406ca336073f57eb5fe9039e05824/5B247B7A/t51.2885-15/e15/p320x320/21827249_1951578055097391_1330177025410859008_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0532c99742b7707a426fc31bece2d0d0/5B071392/t51.2885-15/e15/fr/p1080x1080/21827249_1951578055097391_1330177025410859008_n.jpg" }
   size: { width_o: 1080, height_o: 1176 }
   colors: [white, red, black]
   notes:

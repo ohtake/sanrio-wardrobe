@@ -1,7 +1,7 @@
 ---
 - title: 標準
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ8AVLqhrMn/"}
-  images_instagram: { shortcode: "BZ8AVLqhrMn", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BZ8AVLqhrMn", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/38eaab95bd222ae187e5c24758f0c691/5B20046D/t51.2885-15/s150x150/e35/c120.0.840.840/22277660_327153707750492_2364728166188056576_n.jpg", m_width: 320, m_height: 248, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/aed534fb90bc9c233f1a26b88270508a/5B10EC59/t51.2885-15/s320x320/e35/22277660_327153707750492_2364728166188056576_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/26e4a5ed372e79f79f70c43a2273e334/5B194E7B/t51.2885-15/e35/22277660_327153707750492_2364728166188056576_n.jpg" }
   size: { width_o: 1080, height_o: 840 }
   colors: [red, green, white, gold]
   notes: []

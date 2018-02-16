@@ -20,14 +20,14 @@
   notes: []
 - title: エバー航空機長
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/ecUjs4lwdD/"}
-  images_instagram: { shortcode: "ecUjs4lwdD", width_t: 150, width_m: 320, width_l: 612 }
+  images_instagram2: { shortcode: "ecUjs4lwdD", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/33b31ef4875b629b7f4c8faad65a269a/5B020AFC/t51.2885-15/s150x150/e15/11376667_901405169917363_955318070_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9b48a83fb4541b31f25fe88617179585/5B14C71E/t51.2885-15/s320x320/e15/11376667_901405169917363_955318070_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/292fcd2258ac659f52933c2ea61573ef/5B023060/t51.2885-15/e15/11376667_901405169917363_955318070_n.jpg" }
   size: { width_o: 612, height_o: 612 }
   colors: [blue, gold]
   notes:
   - エバー航空、機長
 - title: 3XDQJ1lwbc
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/3XDQJ1lwbc/"}
-  images_instagram: { shortcode: "3XDQJ1lwbc", width_t: 150, width_m: 320, width_l: 640 }
+  images_instagram2: { shortcode: "3XDQJ1lwbc", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7873f7e0f659fa6bd7b21e26b6003405/5B121A77/t51.2885-15/s150x150/e15/11374741_1588299388117496_1168518148_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7df9ca7240138f8103cb2352d92df5ba/5B2543C5/t51.2885-15/s320x320/e15/11374741_1588299388117496_1168518148_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a8813d3d7f7de519f318a7bdc4d503c9/5B0D5D97/t51.2885-15/e15/11374741_1588299388117496_1168518148_n.jpg" }
   size: { width_o: 640, height_o: 640 }
   colors: [blue, black, white]
   notes:

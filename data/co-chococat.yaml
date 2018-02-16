@@ -1,7 +1,7 @@
 ---
 - title: 長い
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/BN0pQFcAydK/"}
-  images_instagram: { shortcode: "BN0pQFcAydK", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BN0pQFcAydK", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/96cf41bb9907fa409914abd17a3b5d3b/5B0EB350/t51.2885-15/s150x150/e15/c135.0.810.810/15338476_1842027136083204_3003662713915179008_n.jpg", m_width: 320, m_height: 240, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/127d34dbedb716fa1944bd34bc90fd91/5B1290F3/t51.2885-15/s320x320/e15/15338476_1842027136083204_3003662713915179008_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/843797e403fe668b57274c1684887a67/5B1B0EDB/t51.2885-15/s1080x1080/e15/fr/15338476_1842027136083204_3003662713915179008_n.jpg" }
   size: { width_o: 1080, height_o: 810 }
   colors: [blue]
   notes: []
@@ -13,7 +13,7 @@
   notes: []
 - title: FILA Urban Outfitters
   source: { author: "the_loveless", license: "", url: "https://www.instagram.com/p/BbKOk_qj3Ww/"}
-  images_instagram: { shortcode: "BbKOk_qj3Ww", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BbKOk_qj3Ww", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9c3e2763e5e00e096151a3b50f33eb53/5B1A8018/t51.2885-15/s150x150/e35/c0.135.1080.1080/23280043_295050897664738_9047299934159634432_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/acf82dff647378a98230912f1b6c3a50/5B0CF085/t51.2885-15/e35/p320x320/23280043_295050897664738_9047299934159634432_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ea68782d5a737383e4a57f5c5b2b701b/5B09F824/t51.2885-15/e35/23280043_295050897664738_9047299934159634432_n.jpg" }
   size: { width_o: 1080, height_o: 1350 }
   colors: [yellow, white, black, red, blue]
   notes:

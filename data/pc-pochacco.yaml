@@ -70,14 +70,14 @@
   - 知恵の木ステージ『ウサハナの虹色のパーティ』2着目
 - title: きっとうまくいくよ1
   source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo13ZBngas/"}
-  images_instagram: { shortcode: "BXo13ZBngas", width_t: 150, width_m: 320, width_l: 720 }
+  images_instagram2: { shortcode: "BXo13ZBngas", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ac99123caabe97e1bf65216978e08b27/5B0A1F5E/t51.2885-15/s150x150/e15/c0.90.720.720/20766680_1780144428942534_1180693944258789376_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f1c0f16656b453b3620b1b3b276141d4/5AFF94C8/t51.2885-15/e15/p320x320/20766680_1780144428942534_1180693944258789376_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/474170aa8bbbc28ed9981047bc8ea2a9/5B16558B/t51.2885-15/e15/20766680_1780144428942534_1180693944258789376_n.jpg" }
   size: { width_o: 720, height_o: 900 }
   colors: [yellow, black, red, white, silver, brown]
   notes:
   - 知恵の木ステージ『シュガーバニーズのきっとうまくいくよ！』1着目
 - title: きっとうまくいくよ2
   source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo2LpMnN_8/"}
-  images_instagram: { shortcode: "BXo2LpMnN_8", width_t: 150, width_m: 320, width_l: 720 }
+  images_instagram2: { shortcode: "BXo2LpMnN_8", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/62028a400f8ec73d2ee51929e831182f/5B1F1CDD/t51.2885-15/s150x150/e15/c0.90.720.720/20759351_142757769644662_2541129280557940736_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/d80b975a8759be7761a7a1016f42a573/5B1DEAD0/t51.2885-15/e15/p320x320/20759351_142757769644662_2541129280557940736_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/b7c70e598c5c4326402d3d744230ea15/5B26D552/t51.2885-15/e15/20759351_142757769644662_2541129280557940736_n.jpg" }
   size: { width_o: 720, height_o: 900 }
   colors: [red, white, black, gold, silver, brown]
   notes:

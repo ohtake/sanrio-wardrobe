@@ -7,7 +7,7 @@
   notes: []
 - title: Someday II
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BZ85P1aBLw4/"}
-  images_instagram: { shortcode: "BZ85P1aBLw4", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BZ85P1aBLw4", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/d3ee9659a940d3e6db7985a2e954046a/5B0A77B1/t51.2885-15/s150x150/e15/22221023_1083361508466919_4616186882160590848_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7cd928f76fd7851d813ca95d86abfc87/5B13FA81/t51.2885-15/s320x320/e15/22221023_1083361508466919_4616186882160590848_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e5a74b6fe1c31a2e00108a50f8f89918/5B08F5A9/t51.2885-15/s1080x1080/e15/fr/22221023_1083361508466919_4616186882160590848_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [green, yellow, orange, brown, white, blue]
   notes:

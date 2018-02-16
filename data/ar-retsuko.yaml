@@ -7,7 +7,7 @@
   notes: []
 - title: 烈
   source: { author: "aggretsuko", license: "", url: "https://www.instagram.com/p/Bc3UNLdF2PQ/"}
-  images_instagram: { shortcode: "Bc3UNLdF2PQ", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "Bc3UNLdF2PQ", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f9bb5029bb478ee37cb731f466326734/5B1F4918/t51.2885-15/s150x150/e35/25014503_1969101549771680_5440005645833076736_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c9eb5b28ad59212bce61b2628745129d/5B048028/t51.2885-15/s320x320/e35/25014503_1969101549771680_5440005645833076736_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/63ef85f0ac83ffe4d5341746d08d4dfc/5B053791/t51.2885-15/s1080x1080/e35/25014503_1969101549771680_5440005645833076736_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, white, brown]
   notes: []

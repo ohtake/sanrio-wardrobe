@@ -7,13 +7,13 @@
   notes: []
 - title: バンダナ
   source: { author: "今村涼子", license: "", url: "https://www.instagram.com/p/BU1f4BDFDPr/"}
-  images_instagram: { shortcode: "BU1f4BDFDPr", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BU1f4BDFDPr", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/74262860632985307c2485b1d98cc35e/5B11FD75/t51.2885-15/s150x150/e35/18812946_1406751752704867_3686813365839069184_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e06d0bc7afaf6ae64ce062436e8948be/5B215645/t51.2885-15/s320x320/e35/18812946_1406751752704867_3686813365839069184_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9623ef1d63e2713016944332ca6c9ad6/5B23FB22/t51.2885-15/e35/18812946_1406751752704867_3686813365839069184_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [pink, white, gold]
   notes: []
 - title: 鉢巻
   source: { author: "今村涼子", license: "", url: "https://www.instagram.com/p/BUjywZSlliE/"}
-  images_instagram: { shortcode: "BUjywZSlliE", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BUjywZSlliE", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/3fb8759d52379a9a4ba69d9c42d81a52/5B09E018/t51.2885-15/s150x150/e35/18645618_265720183901171_5354461227420483584_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/64503cf2547a134dc4a0cb2c330330b7/5B0D845F/t51.2885-15/s320x320/e35/18645618_265720183901171_5354461227420483584_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c0dca4d1716be44accdf03603fc390bb/5B18617D/t51.2885-15/e35/18645618_265720183901171_5354461227420483584_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [red, white, gold]
   notes: []
@@ -25,13 +25,13 @@
   notes: []
 - title: フィギュアスケート
   source: { author: "saesenayui", license: "", url: "https://www.instagram.com/p/BTYV7KejCeK/"}
-  images_instagram: { shortcode: "BTYV7KejCeK", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BTYV7KejCeK", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7c5e3d71a255512ff0d552a3d97e83f0/5A88FBB1/t51.2885-15/s150x150/e15/c236.0.607.607/18013741_263444680785022_8749682778133495808_n.jpg", m_width: 320, m_height: 180, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/397643d705c4c5ff7ab2d9fdb1467255/5A8A09A5/t51.2885-15/s320x320/e15/18013741_263444680785022_8749682778133495808_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/05113e3d4988c3bf2360819a13113a4f/5A8A0286/t51.2885-15/s1080x1080/e15/fr/18013741_263444680785022_8749682778133495808_n.jpg" }
   size: { width_o: 1080, height_o: 607 }
   colors: [blue, white, gold]
   notes: []
 - title: 星空の Happy Party Christmas
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_TLWKHFYD/"}
-  images_instagram: { shortcode: "BY_TLWKHFYD", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BY_TLWKHFYD", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7c251fd7c7bf320757b3f44ccf01449e/5B1D93F4/t51.2885-15/s150x150/e15/21569061_828567370650697_6787794038612295680_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/d4cd9c8930b99ca7c816a8c603c970aa/5B0468B3/t51.2885-15/s320x320/e15/21569061_828567370650697_6787794038612295680_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/064b6dbaf7db4c8d6a67e45bc3d4f319/5B0A6190/t51.2885-15/s1080x1080/e15/fr/21569061_828567370650697_6787794038612295680_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [white, silver, red, green]
   notes:
@@ -39,26 +39,26 @@
   - クリスマス
 - title: 雨合羽
   source: { author: "3jsb_ryuryu0902", license: "", url: "https://www.instagram.com/p/BSTDz5Hg6d7/"}
-  images_instagram: { shortcode: "BSTDz5Hg6d7", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BSTDz5Hg6d7", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/62b0fc24e6cecde49671ec5f68442c67/5B1B0CE9/t51.2885-15/s150x150/e35/25012288_2023576127855446_4659176592805724160_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7a1dcdf00dafe8e1f36af190352c6d32/5B065CD9/t51.2885-15/s320x320/e35/25012288_2023576127855446_4659176592805724160_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c2cb5ce57f25831495f6d3979a8d47b5/5B247FBE/t51.2885-15/e35/25012288_2023576127855446_4659176592805724160_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [yellow, white, gold]
   notes: []
 - title: サンタクロース
   source: { author: "seyacchi_27", license: "", url: "https://www.instagram.com/p/BOWnEaEgpgo/"}
-  images_instagram: { shortcode: "BOWnEaEgpgo", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BOWnEaEgpgo", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e5e8153a492c4720c69b56c3d189f550/5B216242/t51.2885-15/s150x150/e35/15535219_1221165771292741_2768311579974828032_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/83968892ef81f0c2240fa893e607c741/5B212B72/t51.2885-15/s320x320/e35/15535219_1221165771292741_2768311579974828032_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0f730f56865c5df8b58d6e1342f92474/5B190315/t51.2885-15/e35/15535219_1221165771292741_2768311579974828032_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [red, white, black]
   notes:
   - クリスマス
 - title: 年越しクイズサバイバー
   source: { author: "moeazukitty", license: "", url: "https://www.instagram.com/p/BOI_zcMFJvn/"}
-  images_instagram: { shortcode: "BOI_zcMFJvn", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BOI_zcMFJvn", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e53ea5e2be01c1515c0590ad7165aa4a/5B1DD9D6/t51.2885-15/s150x150/e35/c0.66.1080.1080/14487415_1853659481582380_7938982760138407936_n.jpg", m_width: 320, m_height: 359, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a41ffb51ddb0844e7f784ab99bee8481/5B07DBB6/t51.2885-15/e35/p320x320/14487415_1853659481582380_7938982760138407936_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2002e91d156367477d42eb81aa4c8112/5B215221/t51.2885-15/e35/14487415_1853659481582380_7938982760138407936_n.jpg" }
   size: { width_o: 1080, height_o: 1213 }
   colors: [red, gold, white, black, yellow, green]
   notes: []
 - title: SUMMER STATION
   source: { author: "saki.vocalist", license: "", url: "https://www.instagram.com/p/BYY_l_ChNMV/"}
-  images_instagram: { shortcode: "BYY_l_ChNMV", width_t: 150, width_m: 320, width_l: 1080 }
+  images_instagram2: { shortcode: "BYY_l_ChNMV", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/3d61453cf30f5689a50c108d6a90baca/5B100538/t51.2885-15/s150x150/e35/c0.135.1080.1080/21147635_169267470302637_7340695422123376640_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/80cfa1a05574623cea6ac5f58a6ee21a/5B22A4A5/t51.2885-15/e35/p320x320/21147635_169267470302637_7340695422123376640_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/59c0d71d2a8fb8dd7d83986deafe166f/5B07F004/t51.2885-15/e35/21147635_169267470302637_7340695422123376640_n.jpg" }
   size: { width_o: 1080, height_o: 1350 }
   colors: [white, black, gold, red, yellow, blue]
   notes: []
