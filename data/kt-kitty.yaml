@@ -138,7 +138,7 @@
   - クリスマス
 - title: 40th 海外
   source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/vEByteMGEs/"}
-  images_instagram2: { shortcode: "vEByteMGEs", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f9c748b900bd3da171e8b8983e1f1f97/5B17EED9/t51.2885-15/s150x150/e15/927361_296713800525327_1771361923_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/3d74d79df4039eb8168865aae818cc54/5B22BA99/t51.2885-15/s320x320/e15/927361_296713800525327_1771361923_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f62cd8b6a95728cd96d3c693e59913be/5B002E4F/t51.2885-15/e15/927361_296713800525327_1771361923_n.jpg" }
+  images_instagram: { shortcode: "vEByteMGEs", width_t: 150, width_m: 320, width_l: 640 }
   size: { width_o: 640, height_o: 640 }
   colors: [purple, pink, white, brown, green, yellow, blue]
   notes:
@@ -2245,7 +2245,7 @@
   - フコク生命
 - title: MIKIMOTO
   source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BQbakkDjb2q/"}
-  images_instagram2: { shortcode: "BQbakkDjb2q", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/6535dc0dbb71752e37fb0cae7fa3bec8/5A88F463/t51.2885-15/s150x150/e15/16230527_211514975982885_889897492651442176_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/146e9279e72dbdffb23934ca17801a61/5A8983DE/t51.2885-15/s320x320/e15/16230527_211514975982885_889897492651442176_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ee7307095954f68f773fb8d0368237bf/5A89E597/t51.2885-15/e15/16230527_211514975982885_889897492651442176_n.jpg" }
+  images_instagram: { shortcode: "BQbakkDjb2q", width_t: 150, width_m: 320, width_l: 720 }
   size: { width_o: 640, height_o: 640 }
   colors: [pink, gold, red]
   notes:
@@ -2951,7 +2951,7 @@
   - メキシコ
 - title: Bd-ry_ggq4a
   source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/Bd-ry_ggq4a/"}
-  images_instagram2: { shortcode: "Bd-ry_ggq4a", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/26dc1490180e31b08253fff89f0564de/5A89F730/t51.2885-15/s150x150/e35/26152877_1572744356112815_7428933918901927936_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/8932bc42fbf333b75c6a561676ae10bf/5A88F840/t51.2885-15/s320x320/e35/26152877_1572744356112815_7428933918901927936_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/afbd825abea502de77e3dc6b965f52e5/5A88F3A7/t51.2885-15/e35/26152877_1572744356112815_7428933918901927936_n.jpg" }
+  images_instagram: { shortcode: "Bd-ry_ggq4a", width_t: 150, width_m: 320, width_l: 720 }
   size: { width_o: 720, height_o: 720 }
   colors: [blue, pink, white]
   notes:
@@ -3035,7 +3035,7 @@
   - VOGUE JAPAN Women of the Year 特別賞
 - title: Hello Kitty Gourmet Cafe
   source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BCynX7dEtTQ/"}
-  images_instagram2: { shortcode: "BCynX7dEtTQ", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/6c790199178e3c58cae0b1008a98f6ee/5A898FD0/t51.2885-15/s150x150/e15/10643995_934500653337479_505880699_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4d3a8fa79c0d10450e4a47eafb5543ef/5A89F7F2/t51.2885-15/s320x320/e15/10643995_934500653337479_505880699_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c992a1c428ebf9bec2faccc4601cf632/5A89068C/t51.2885-15/e15/10643995_934500653337479_505880699_n.jpg" }
+  images_instagram: { shortcode: "BCynX7dEtTQ", width_t: 150, width_m: 320, width_l: 720 }
   size: { width_o: 640, height_o: 640 }
   colors: [pink, white]
   notes:
@@ -3165,7 +3165,7 @@
   - ペンダントの有無
 - title: BZ-_2gODVE8
   source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/BZ-_2gODVE8/"}
-  images_instagram2: { shortcode: "BZ-_2gODVE8", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/99f9f7099ce3f05516f7a575c14b8dfa/5A8A1101/t51.2885-15/s150x150/e15/c0.90.720.720/22280071_350167432102134_8935959830498115584_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/143b65d0ede1d8e8d3509ce3fb52a62f/5A88FECC/t51.2885-15/e15/p320x320/22280071_350167432102134_8935959830498115584_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a9dad6c9a6d2f392b838978cddf8f47e/5A89230E/t51.2885-15/e15/22280071_350167432102134_8935959830498115584_n.jpg" }
+  images_instagram: { shortcode: "BZ-_2gODVE8", width_t: 150, width_m: 320, width_l: 720 }
   size: { width_o: 720, height_o: 900 }
   colors: [pink, blue, yellow, red]
   notes:
@@ -3193,7 +3193,7 @@
   - マレーシア
 - title: BboGbOmBUkX
   source: { author: "lpd_kitty_shop", license: "", url: "https://www.instagram.com/p/BboGbOmBUkX/"}
-  images_instagram2: { shortcode: "BboGbOmBUkX", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/dae2ccc2133cb9f688dff7f6b64a3f41/5A8915B6/t51.2885-15/s150x150/e15/23594695_361498427628058_2647052395372085248_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e4ca37fe87a9ab52072e9d679a916c14/5A8A02F1/t51.2885-15/s320x320/e15/23594695_361498427628058_2647052395372085248_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9ffb842b3f782cac8a18a809e3e762c9/5A88FDD3/t51.2885-15/e15/23594695_361498427628058_2647052395372085248_n.jpg" }
+  images_instagram: { shortcode: "BboGbOmBUkX", width_t: 150, width_m: 320, width_l: 720 }
   size: { width_o: 720, height_o: 720 }
   colors: [pink, white, red]
   notes:

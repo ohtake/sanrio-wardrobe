@@ -13,7 +13,7 @@
   notes: []
 - title: Mr. Strong (2)
   source: { author: "mrmenofficial", license: "", url: "https://www.instagram.com/p/BX5RZ9PFLR9/"}
-  images_instagram2: { shortcode: "BX5RZ9PFLR9", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/1b65318cb3e9da1d33dbebcbd6b85fb1/5A89850E/t51.2885-15/s150x150/e15/c0.90.720.720/20837183_263148367517906_1219780457344794624_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/58fb0f721dcbc0138894ed7a939b23fc/5A897083/t51.2885-15/e15/p320x320/20837183_263148367517906_1219780457344794624_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/1dc4f6871adc171519f1a8d3fdc5e259/5A89FFC1/t51.2885-15/e15/20837183_263148367517906_1219780457344794624_n.jpg" }
+  images_instagram: { shortcode: "BX5RZ9PFLR9", width_t: 150, width_m: 320, width_l: 720 }
   size: { width_o: 720, height_o: 900 }
   colors: []
   notes: []
