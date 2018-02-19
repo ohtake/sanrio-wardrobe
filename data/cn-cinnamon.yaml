@@ -123,6 +123,13 @@
   colors: [blue, brown, pink, white]
   notes:
   - 知恵の木ステージ『シナモンせかい旅行』
+- title: 桃太郎
+  source: { author: "purolandjp", license: "", url: "https://www.instagram.com/p/BfNmbEplhW_/"}
+  images_instagram: { shortcode: "BfNmbEplhW_", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 607 }
+  colors: [purple, gold, pink, blue, yellow, green, red, black, white]
+  notes:
+  - メルヘンシアター『KAWAII KABUKI ~ハローキティ一座の桃太郎~』
 - title: CIMG0238
   source: { author: "hyouna", license: "", url: "https://www.flickr.com/photos/hyouna0229/35790065834/"}
   images_flickr: { photo: "35790065834", farm: 5, server: 4364, secret: "496ab9f018", secret_h: "8cf0f33139", secret_o: "b5895e6641", format_o: "jpg" }
@@ -536,6 +543,13 @@
   colors: [pink, white, yellow]
   notes:
   - メロディ頭巾
+- title: 旧正月
+  source: { author: "sanrio.hk", license: "", url: "https://www.instagram.com/p/BewxP7vFURO/"}
+  images_instagram2: { shortcode: "BewxP7vFURO", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0ed795c911cffa63ba4defd0235c335d/5B19026B/t51.2885-15/s150x150/e35/c0.135.1080.1080/26866213_1831514536881612_3654357032422604800_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a25f37b0cee8460735b5db004060e971/5B19AB5B/t51.2885-15/e35/p320x320/26866213_1831514536881612_3654357032422604800_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4808cb8fc4f7de96651551c2cfe5051a/5B19C7CC/t51.2885-15/e35/26866213_1831514536881612_3654357032422604800_n.jpg" }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [red, gold, white]
+  notes:
+  - 香港
 - title: 品川紋次郎・刀あり
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/35116063576/"}
   images_flickr: { photo: "35116063576", farm: 5, server: 4255, secret: "dd94544eb7", secret_h: "bc01707e0f", secret_k: "4faecbec24", secret_o: "19bd458929", format_o: "jpg" }

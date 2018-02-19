@@ -102,6 +102,7 @@
   colors: [white, blue, pink, yellow, purple, green]
   notes:
   - 知恵の木ステージ『PURO★アイドル★コレクション』
+  - 『想い出を売る店』の帽子がないバージョン
 - title: 5D3S1313
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15984978617/"}
   images_flickr: { photo: "15984978617", farm: 8, server: 7567, secret: "093fcb2554", secret_h: "59a531850a", secret_k: "27aa223edc", secret_o: "e04f2b7203", format_o: "jpg" }
@@ -110,6 +111,13 @@
   notes:
   - 知恵の木ステージ『PURO★アイドル★コレクション』に腰のリボンが変更
   - クリスマス
+- title: BVhQ4ikhPPZ
+  source: { author: "febtuyancelia", license: "", url: "https://www.instagram.com/p/BVhQ4ikhPPZ/"}
+  images_instagram2: { shortcode: "BVhQ4ikhPPZ", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/b7b6639f612acdbf2949e90b1caa28cc/5B028294/t51.2885-15/s150x150/e35/19228244_1958980344386277_1612541661647208448_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/cf6f39cb4ca348ee7ae0b195ad92865f/5B1475A4/t51.2885-15/s320x320/e35/19228244_1958980344386277_1612541661647208448_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e39c6b417c364ee402a41e5e73cc9083/5B2823C3/t51.2885-15/e35/19228244_1958980344386277_1612541661647208448_n.jpg" }
+  size: { width_o: 768, height_o: 768 }
+  colors: [white, blue, pink, yellow, purple, green]
+  notes:
+  - 中国、杭州ハローキティパーク
 - title: 53AG6420
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36494061416/"}
   images_flickr: { photo: "36494061416", farm: 5, server: 4372, secret: "4f72eaf9e4", secret_h: "b2635c5514", secret_k: "5410059ef7", secret_o: "281a632d64", format_o: "jpg" }

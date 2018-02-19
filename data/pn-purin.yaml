@@ -64,6 +64,13 @@
   colors: [blue, green, red, purple, pink, orange]
   notes:
   - ピューロランドパレード『Miracle Gift Parade』
+- title: 桃太郎
+  source: { author: "purolandjp", license: "", url: "https://www.instagram.com/p/BfNmbEplhW_/"}
+  images_instagram: { shortcode: "BfNmbEplhW_", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 607 }
+  colors: [gold, red, green, blue, black, purple, white]
+  notes:
+  - メルヘンシアター『KAWAII KABUKI ~ハローキティ一座の桃太郎~』
 - title: パレード・ノア
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15183696924/"}
   images_flickr: { photo: "15183696924", farm: 8, server: 7495, secret: "a46993959c", secret_h: "fa0b17a1d5", secret_k: "2134b0389d", secret_o: "ffd8673148", format_o: "jpg" }

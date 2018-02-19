@@ -16,8 +16,21 @@
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/23932412050/"}
   images_flickr: { photo: "23932412050", farm: 2, server: 1673, secret: "ef39316ca4", secret_h: "8eb8c1cab5", secret_k: "40f2163d39", secret_o: "1c41d83827", format_o: "jpg" }
   size: { width_o: 5184, height_o: 3456 }
-  colors: [black, white, pink, green, yellow]
+  colors: [blue, black, white, pink, yellow]
   notes: []
+- title: IMG_5906
+  source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/40275029412/"}
+  images_flickr: { photo: "40275029412", farm: 5, server: 4758, secret: "5da1e07480", secret_h: "566cb3e068", secret_k: "f21aba93c7", secret_o: "957fa5a163", format_o: "jpg" }
+  size: { width_o: 3024, height_o: 4032 }
+  colors: [blue, black, white, pink]
+  notes: []
+- title: マフラー
+  source: { author: "mochidanielove", license: "", url: "https://www.instagram.com/p/BRA1BPfAhvf/"}
+  images_instagram2: { shortcode: "BRA1BPfAhvf", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/395605086e01dcb26b3ea91d6f9256e7/5B0FBEAA/t51.2885-15/s150x150/e35/c0.134.1080.1080/16906203_233005577105696_922922733140967424_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/6d427509eb7967a34bbd53597290e085/5B27F03D/t51.2885-15/e35/p320x320/16906203_233005577105696_922922733140967424_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/d8cd22b1d26e22615240bf5e74f5e36a/5B23D617/t51.2885-15/e35/16906203_233005577105696_922922733140967424_n.jpg" }
+  size: { width_o: 1080, height_o: 1349 }
+  colors: [blue, white, red, yellow]
+  notes:
+  - マフラー
 - title: エバー航空機長
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/ecUjs4lwdD/"}
   images_instagram2: { shortcode: "ecUjs4lwdD", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/33b31ef4875b629b7f4c8faad65a269a/5B020AFC/t51.2885-15/s150x150/e15/11376667_901405169917363_955318070_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9b48a83fb4541b31f25fe88617179585/5B14C71E/t51.2885-15/s320x320/e15/11376667_901405169917363_955318070_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/292fcd2258ac659f52933c2ea61573ef/5B023060/t51.2885-15/e15/11376667_901405169917363_955318070_n.jpg" }

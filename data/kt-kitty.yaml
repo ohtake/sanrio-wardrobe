@@ -56,6 +56,7 @@
   colors: [gold]
   notes:
   - ピューロランドパレード『ILLUMINANT』
+  - 中国、杭州ハローキティパーク『花车巡游』
   - 星、冠
 - title: 5D3K4361
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/11486544915/"}
@@ -318,7 +319,7 @@
   notes:
   - メルヘンシアター『不思議の国のハローキティ』通常服
   - 時計、エプロン、アリス
-- title: 5D3D8863 (1280x1920)
+- title: タイムエプロン仮
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/Jv33BfYcpxTPIRZJZwYscdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
   images_picasa: { lh: 4, dirs: "-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA", file: "5D3D8863%2520%25281280x1920%2529.jpg" }
   size: { width_o: 1280, height_o: 1920 }
@@ -350,6 +351,13 @@
   notes:
   - メルヘンシアター『不思議の国のハローキティ』レビュー2着目
   - 羽、ズボン、帽子、シャンシャン、男装
+- title: 桃太郎
+  source: { author: "purolandjp", license: "", url: "https://www.instagram.com/p/BfNmbEplhW_/"}
+  images_instagram: { shortcode: "BfNmbEplhW_", width_t: 150, width_m: 320, width_l: 1080 }
+  size: { width_o: 1080, height_o: 607 }
+  colors: [red, purple, green, yellow, white]
+  notes:
+  - メルヘンシアター『KAWAII KABUKI ~ハローキティ一座の桃太郎~』
 - title: フェアリードリーム1
   source: { author: "Steve", license: "", url: "https://www.flickr.com/photos/japan-life/2872705408/"}
   images_flickr: { photo: "2872705408", farm: 4, server: 3020, secret: "061b6bfd0b", before: "20100525" }
@@ -462,6 +470,13 @@
   notes:
   - イギリス版で作りが異なる
   - バラ
+- title: 7UBKDcL3Sa
+  source: { author: "sanrioindonesia", license: "", url: "https://www.instagram.com/p/7UBKDcL3Sa/"}
+  images_instagram2: { shortcode: "7UBKDcL3Sa", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/5335befd1da07f9cf4c3101bb3ef3668/5B4CDA65/t51.2885-15/s150x150/e35/11931131_461326394048682_591152519_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f9a378a47c23c83ab0611b3499a89dac/5B18C687/t51.2885-15/s320x320/e35/11931131_461326394048682_591152519_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4fb3cd59592e5949ffab914052c4fa90/5B1C1AF9/t51.2885-15/e35/11931131_461326394048682_591152519_n.jpg" }
+  size: { width_o: 1000, height_o: 1000 }
+  colors: [pink, white]
+  notes:
+  - インドネシア版で作りが異なる
 - title: 5D3V3127
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/20596249563/"}
   images_flickr: { photo: "20596249563", farm: 1, server: 662, secret: "dd6cfa10ef", secret_h: "96840dd58e", secret_k: "25e15482c8", secret_o: "73e1b0bf7f", format_o: "jpg" }
@@ -1018,11 +1033,11 @@
   colors: [pink]
   notes:
   - プードル、ハート
-- title: BbhYw7jlDWp
-  source: { author: "asako_kittychanfanclub", license: "", url: "https://www.instagram.com/p/BbhYw7jlDWp/"}
-  images_instagram2: { shortcode: "BbhYw7jlDWp", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/86a8daf6040ba1da9bc8334184ef6ca3/5B0139B6/t51.2885-15/s150x150/e35/c0.135.1080.1080/23507642_516266712067874_3583546464959201280_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/613f1276675339f3a3f96e80e0a2449e/5B106D2B/t51.2885-15/e35/p320x320/23507642_516266712067874_3583546464959201280_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0fa17a23cd6a7a090c79530c1cf0c71a/5B07588A/t51.2885-15/e35/23507642_516266712067874_3583546464959201280_n.jpg" }
-  size: { width_o: 1080, height_o: 1350 }
-  colors: [red, white, blue]
+- title: BbbqJIugeFd
+  source: { author: "mochidanielove", license: "", url: "https://www.instagram.com/p/BbbqJIugeFd/"}
+  images_instagram2: { shortcode: "BbbqJIugeFd", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/dd9a9c48895e27a6b7610f818f89cef0/5B2704E9/t51.2885-15/s150x150/e35/c180.0.719.719/23507074_192362988001570_2691233770463297536_n.jpg", m_width: 320, m_height: 213, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/65e0e7b5a349dfafb8387b902c32a0ee/5B1EA56F/t51.2885-15/s320x320/e35/23507074_192362988001570_2691233770463297536_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/b9a08d9e837b7d5826a9a43c62ae6f08/5B081A4D/t51.2885-15/e35/23507074_192362988001570_2691233770463297536_n.jpg" }
+  size: { width_o: 1080, height_o: 719 }
+  colors: [red, white, blue, silver]
   notes:
   - 音符
 - title: パレード・ノア
@@ -1220,6 +1235,7 @@
   size: { width_o: 5760, height_o: 3840 }
   colors: [pink, blue, yellow, brown]
   notes:
+  - 外部イベント『ハローキティとウサハナのジョイフルパーティ!』
   - 外部イベント『ECC Presents イングリッシュライブショー「サンリオキャラクターとあそぼう!」』
   - バッグ、クローバー
 - title: IMG_7779
@@ -1876,6 +1892,13 @@
   notes:
   - 知恵の木ステージ『おねがいマイメロディ天使の大行進』
   - 2017年2月のSANRIO EXPOでの表記は「バレンタイン」
+  - 天使、羽、ハート
+- title: BbK-TAogJZY
+  source: { author: "mochidanielove", license: "", url: "https://www.instagram.com/p/BbK-TAogJZY/"}
+  images_instagram2: { shortcode: "BbK-TAogJZY", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/19ce40a78077c6776e21eaf28d7f9524/5B2275DE/t51.2885-15/s150x150/e35/c0.134.1080.1080/23279892_264111130778424_3783997751214211072_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/3ba3fba8b641d79ab14d1c3a338f8ec3/5B19CE33/t51.2885-15/e35/p320x320/23279892_264111130778424_3783997751214211072_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/6b45fbc1f14b16d3d97ce69cb86edcf3/5B1F1E92/t51.2885-15/e35/23279892_264111130778424_3783997751214211072_n.jpg" }
+  size: { width_o: 1080, height_o: 1349 }
+  colors: [pink, white, silver, gold]
+  notes:
   - 天使、羽、ハート
 - title: Hello-Kitty-Forever-21-Shibuya-2011-058
   source: { author: "iamchubbybunny", license: "", url: "https://www.flickr.com/photos/41765811@N00/6334847372/"}
@@ -2690,9 +2713,9 @@
   notes:
   - アメリカ Macys Presents Fashion's Front Row
 - title: PUMA
-  source: { author: "nerdreactor", license: "", url: "https://www.instagram.com/p/Betr-tsH1ly/"}
-  images_instagram2: { shortcode: "Betr-tsH1ly", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/107db0415c39c10e24721046262c1ba5/5B050593/t51.2885-15/s150x150/e35/c0.135.1080.1080/26867844_932314933601072_3446353991070384128_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ffeaaaf6f7031b80ce638e0424395ffb/5B1C830E/t51.2885-15/e35/p320x320/26867844_932314933601072_3446353991070384128_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/eaa2c8667e582c406b9bcc35a7ed682a/5B00CFAF/t51.2885-15/e35/26867844_932314933601072_3446353991070384128_n.jpg" }
-  size: { width_o: 1080, height_o: 1350 }
+  source: { author: "the_loveless", license: "", url: "https://www.instagram.com/p/Bet1DgBD0Vu/"}
+  images_instagram2: { shortcode: "Bet1DgBD0Vu", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/dbbb828c40ba62d3b77bcd211150e182/5B152723/t51.2885-15/s150x150/e35/c0.121.1080.1080/26864303_2018113775068927_7723682659544596480_n.jpg", m_width: 320, m_height: 392, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2b0b962c1984abc663d3da2bd8eb3a7e/5B0BB7B7/t51.2885-15/e35/p320x320/26864303_2018113775068927_7723682659544596480_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ec947b8bc91b6ef542f476ab71169dbe/5B0B2920/t51.2885-15/e35/26864303_2018113775068927_7723682659544596480_n.jpg" }
+  size: { width_o: 1080, height_o: 1323 }
   colors: [red, white]
   notes:
   - アメリカ PUMA SUEDE 50
@@ -3040,12 +3063,13 @@
   colors: [pink, white]
   notes:
   - マレーシア Hello Kitty Gourmet Cafe
-- title: BcwEYupHxi8
-  source: { author: "Resorts World Sentosa", license: "", url: "https://www.instagram.com/p/BcwEYupHxi8/"}
-  images_instagram2: { shortcode: "BcwEYupHxi8", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2e71b6f04a5baa10dd7b8c79ff379967/5B1849AD/t51.2885-15/s150x150/e35/c180.0.720.720/25017352_757992884396852_1920632975892938752_n.jpg", m_width: 320, m_height: 213, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/385492947634958f5b4e0653e7ff6774/5B0715CC/t51.2885-15/s320x320/e35/25017352_757992884396852_1920632975892938752_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4becabbd29652de39d76165d1b9975d4/5B0B1FEE/t51.2885-15/e35/25017352_757992884396852_1920632975892938752_n.jpg" }
-  size: { width_o: 1080, height_o: 720 }
+- title: Bc3TX1wFzNa
+  source: { author: "munyee_kitty", license: "", url: "https://www.instagram.com/p/Bc3TX1wFzNa/"}
+  images_instagram2: { shortcode: "Bc3TX1wFzNa", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/110a13b7899d7fbac912a2e82be53485/5B08922C/t51.2885-15/s150x150/e35/c0.135.1080.1080/25036198_555841041426087_1287032442539999232_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/75651064f0b393fb2896d5e6910c8429/5B2090B1/t51.2885-15/e35/p320x320/25036198_555841041426087_1287032442539999232_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0bf1e7da9a9b534a650a6fc36a0594eb/5B1C2910/t51.2885-15/e35/25036198_555841041426087_1287032442539999232_n.jpg" }
+  size: { width_o: 1080, height_o: 1350 }
   colors: [pink, white]
-  notes: []
+  notes:
+  - シンガポール Universal Studios Singapore
 - title: 3W6yoWktcp
   source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/3W6yoWktcp/"}
   images_instagram2: { shortcode: "3W6yoWktcp", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/10fcd044de4996cf9adf9cb762a25b17/5B03552A/t51.2885-15/s150x150/e15/924655_102018833471245_155162801_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ac943b7acf3525b94db2bb666633cf61/5B14FA32/t51.2885-15/s320x320/e15/924655_102018833471245_155162801_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/60eb93a3d9c994e1102d5dd800b14191/5B0F72C5/t51.2885-15/e15/924655_102018833471245_155162801_n.jpg" }
@@ -3170,13 +3194,13 @@
   colors: [pink, blue, yellow, red]
   notes:
   - 香港
-- title: 4ENPzRNdr4
-  source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/4ENPzRNdr4/"}
-  images_instagram2: { shortcode: "4ENPzRNdr4", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/32800b9cbba7982e55cec98b0c3ada74/5B08F765/t51.2885-15/s150x150/e15/11335205_976482862399951_992074354_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/99f4bf5eb3e1a3c16822a6023a6ceae9/5B087687/t51.2885-15/s320x320/e15/11335205_976482862399951_992074354_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4c5a339256c82c26680e483604a22595/5B1C35F9/t51.2885-15/e15/11335205_976482862399951_992074354_n.jpg" }
-  size: { width_o: 640, height_o: 640 }
+- title: BMco0f5BeV6
+  source: { author: "sanrioindonesia", license: "", url: "https://www.instagram.com/p/BMco0f5BeV6/"}
+  images_instagram2: { shortcode: "BMco0f5BeV6", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/dfc17b7698eed9255885ce5cb7b1065e/5B08F3A7/t51.2885-15/s150x150/e35/14723110_784724041666256_1394458387885850624_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/03e7b1f84a5825c39bce64f41b2e000c/5B1EC3E0/t51.2885-15/s320x320/e35/14723110_784724041666256_1394458387885850624_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a3566b05cb0bdf62b36fd89dd89c3ee6/5B2450C2/t51.2885-15/e35/14723110_784724041666256_1394458387885850624_n.jpg" }
+  size: { width_o: 1080, height_o: 1080 }
   colors: [red, white]
   notes:
-  - 香港
+  - 香港、インドネシア
 - title: BMvrgUqg6Rl
   source: { author: "corocoroyan", license: "", url: "https://www.instagram.com/p/BMvrgUqg6Rl/"}
   images_instagram2: { shortcode: "BMvrgUqg6Rl", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/005deb5bb36dcb402d997594d6e580a3/5B0F8C16/t51.2885-15/s150x150/e35/c0.134.1080.1080/15057380_1840532926182021_1643778035373047808_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/fb091bbc84245aef9fb16c31fd9f9cce/5B0AADFA/t51.2885-15/e35/p320x320/15057380_1840532926182021_1643778035373047808_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a4fca31935d8ce4eba189a9d26dea0fb/5B0A196D/t51.2885-15/e35/15057380_1840532926182021_1643778035373047808_n.jpg" }
@@ -3191,6 +3215,14 @@
   colors: [pink, gold]
   notes:
   - マレーシア
+- title: BXsR9SBFztj
+  source: { author: "munyee_kitty", license: "", url: "https://www.instagram.com/p/BXsR9SBFztj/"}
+  images_instagram2: { shortcode: "BXsR9SBFztj", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f5cca4c591b1b17e8aba261ab40eabcb/5B0302F2/t51.2885-15/s150x150/e35/c0.135.1080.1080/20838198_933579396781247_796499550444453888_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ac2f39a6efaa78c61c274ff8a986d2a1/5B16665A/t51.2885-15/e35/p320x320/20838198_933579396781247_796499550444453888_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/b7faa2556673b8c51317e32518e664ce/5B14C970/t51.2885-15/e35/20838198_933579396781247_796499550444453888_n.jpg" }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [white, red, green, yellow, pink]
+  notes:
+  - マレーシア
+  - エプロン、FLOWER
 - title: BboGbOmBUkX
   source: { author: "lpd_kitty_shop", license: "", url: "https://www.instagram.com/p/BboGbOmBUkX/"}
   images_instagram: { shortcode: "BboGbOmBUkX", width_t: 150, width_m: 320, width_l: 720 }
