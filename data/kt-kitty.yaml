@@ -146,7 +146,7 @@
   - アメリカ、ヨーロッパ、香港
 - title: 2jEj0SNovv
   source: { author: "MrHelloKittyBoy", license: "", url: "https://www.instagram.com/p/2jEj0SNovv/"}
-  images_instagram2: { shortcode: "2jEj0SNovv", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/92189524658ecb818519c1bcccfa2e32/5A89FDEF/t51.2885-15/s150x150/e15/11192885_365595676965007_567536320_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/cec6401547fca09575fec56fc3f0a2cc/5A897C0D/t51.2885-15/s320x320/e15/11192885_365595676965007_567536320_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/23d12d5a282b5acf3e145a0799ef0798/5A8990F3/t51.2885-15/e15/11192885_365595676965007_567536320_n.jpg" }
+  images_instagram: { shortcode: "2jEj0SNovv", width_t: 150, width_m: 320, width_l: 640 }
   size: { width_o: 640, height_o: 640 }
   colors: [purple, pink, white, brown, green, yellow, blue, red]
   notes:
@@ -2781,7 +2781,7 @@
   - アメリカ
 - title: BVm_OOcnODT
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/BVm_OOcnODT/"}
-  images_instagram2: { shortcode: "BVm_OOcnODT", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4acd605a049f74c9d3b23dd736a6055b/5A8A0284/t51.2885-15/s150x150/e15/c236.0.608.608/19379851_260401601030688_9062678562779168768_n.jpg", m_width: 320, m_height: 180, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9a82700c91839e6a0265369744ef0451/5A8976C5/t51.2885-15/s320x320/e15/19379851_260401601030688_9062678562779168768_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/bc3cb72d24bc9bccb69d457fb5b16513/5A890E66/t51.2885-15/s1080x1080/e15/fr/19379851_260401601030688_9062678562779168768_n.jpg" }
+  images_instagram: { shortcode: "BVm_OOcnODT", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 608 }
   colors: [blue, black, red, white]
   notes:

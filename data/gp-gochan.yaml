@@ -25,7 +25,7 @@
   notes: []
 - title: フィギュアスケート
   source: { author: "saesenayui", license: "", url: "https://www.instagram.com/p/BTYV7KejCeK/"}
-  images_instagram2: { shortcode: "BTYV7KejCeK", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/7c5e3d71a255512ff0d552a3d97e83f0/5A88FBB1/t51.2885-15/s150x150/e15/c236.0.607.607/18013741_263444680785022_8749682778133495808_n.jpg", m_width: 320, m_height: 180, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/397643d705c4c5ff7ab2d9fdb1467255/5A8A09A5/t51.2885-15/s320x320/e15/18013741_263444680785022_8749682778133495808_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/05113e3d4988c3bf2360819a13113a4f/5A8A0286/t51.2885-15/s1080x1080/e15/fr/18013741_263444680785022_8749682778133495808_n.jpg" }
+  images_instagram: { shortcode: "BTYV7KejCeK", width_t: 150, width_m: 320, width_l: 1080 }
   size: { width_o: 1080, height_o: 607 }
   colors: [blue, white, gold]
   notes: []
