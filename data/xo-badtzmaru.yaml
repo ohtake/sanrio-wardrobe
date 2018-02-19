@@ -423,7 +423,7 @@
   - アメリカ FILA x Sanrio Urban Outfitters
 - title: チョコキャットのエプロン
   source: { author: "Hello Kitty", license: "", url: "https://www.instagram.com/p/j7Z4pQlD1r/"}
-  images_instagram2: { shortcode: "j7Z4pQlD1r", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/191d7900c7834dc3c19914fdd0dbf7a5/5A893948/t51.2885-15/s150x150/e15/11335116_136364620028600_1233283213_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/112e344b46b7da7c801a0fad81a54549/5A89411B/t51.2885-15/s320x320/e15/11335116_136364620028600_1233283213_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2821594e7524e2c432a3301d4f4dd169/5A898B96/t51.2885-15/e15/11335116_136364620028600_1233283213_n.jpg" }
+  images_instagram: { shortcode: "j7Z4pQlD1r", width_t: 150, width_m: 320, width_l: 640 }
   size: { width_o: 640, height_o: 640 }
   colors: [green, black, white]
   notes:
