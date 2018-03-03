@@ -60,8 +60,9 @@
     "rimraf": "^2.6.2",
     "sinon": "^4.4.2",
     "source-map-explorer": "^1.5.0",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0",
     "yaml-loader": "^0.5.0"
   },
   "ava": {
@@ -80,7 +81,7 @@
     "cover": "cross-env NODE_ENV=test nyc ---extension .jsx --reporter lcov --reporter text yarn test",
     "watch:ava": "yarn run test:ava -- --watch",
     "build": "cross-env NODE_ENV=production npm-run-all -l -p build:app build:esdoc build:statistics -p build:licenses build:sme",
-    "build:app": "webpack --progress --colors --config webpack.config.babel.js",
+    "build:app": "webpack --mode production --progress --colors --config webpack.config.babel.js",
     "build:esdoc": "esdoc -c esdoc.json",
     "build:licenses": "yarn licenses generate-disclaimer --prod > assets/licenses.txt",
     "build:sme": "source-map-explorer assets/bundle.js assets/bundle.js.map --html > assets/sme.html",
