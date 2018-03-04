@@ -986,6 +986,13 @@
   notes:
   - 水戸黄門の帽子なしバージョン
   - 和服
+- title: はろうきてぃ太夫
+  source: { author: "mizuyuki0410", license: "", url: "https://www.instagram.com/p/Bf2qKj0HxCK/"}
+  images_instagram2: { shortcode: "Bf2qKj0HxCK", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/5449ae956c18fd1e5abaa18ba732ce80/5B2B410B/t51.2885-15/s150x150/e35/28158175_173611050028600_6444365846578987008_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4541e117dbc67f605be386e19006780f/5B337A4C/t51.2885-15/s320x320/e35/28158175_173611050028600_6444365846578987008_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/32efe3698559ff4f55621b1c73d8f0eb/5B434D6E/t51.2885-15/e35/28158175_173611050028600_6444365846578987008_n.jpg" }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [red, blue, gold, green, pink]
+  notes:
+  - 和服
 - title: yoshikitty
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15701789090/"}
   images_flickr: { photo: "15701789090", farm: 8, server: 7479, secret: "dd6a369dc7", secret_h: "7b1eba01c4", secret_k: "8ed269c013", secret_o: "6aa063bcc3", format_o: "jpg" }
@@ -1434,6 +1441,13 @@
   notes:
   - 『Join!☆Kitty』の別バージョンでボールがなくなり色も全体的に異なる
   - ハート、多段フリル
+- title: 織姫
+  source: { author: "iori_sakura", license: "", url: "https://www.instagram.com/p/BWPiwhagTOb/"}
+  images_instagram2: { shortcode: "BWPiwhagTOb", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/1e87c3d21d376695ce43e001e1f607f8/5B396BD4/t51.2885-15/s150x150/e35/19761349_319867451785129_7007917391774482432_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/5e095b6755b567b0e7e34024c73f2ec9/5B4B9293/t51.2885-15/s320x320/e35/19761349_319867451785129_7007917391774482432_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/007845db3cf8a97b7e87feaae510c45f/5B2C96B1/t51.2885-15/e35/19761349_319867451785129_7007917391774482432_n.jpg" }
+  size: { width_o: 608, height_o: 608 }
+  colors: [pink, gold, orange]
+  notes:
+  - 七夕
 - title: 5D3G3106
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/9382750550/"}
   images_flickr: { photo: "9382750550", farm: 6, server: 5474, secret: "8d4dfb2879", secret_h: "0835de9bbc", secret_k: "fe7e26f556", secret_o: "e8e66286ac", format_o: "jpg" }
@@ -2297,10 +2311,10 @@
   - 三菱自動車
   - ツナギ
 - title: 三菱自動車・登山
-  source: { author: "yuichikuraa", license: "", url: "https://www.instagram.com/p/BYkrw0XAViz/"}
-  images_instagram2: { shortcode: "BYkrw0XAViz", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/71754b96d8a041572f3d8823521f1fae/5B1BEF30/t51.2885-15/s150x150/e35/21372169_476016959444968_5711853178471841792_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e6f72ec4819ad818be9f24b6cae88822/5B00AF77/t51.2885-15/s320x320/e35/21372169_476016959444968_5711853178471841792_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/915489600d7d5f9fdb7fb6a1a386bb17/5B200755/t51.2885-15/e35/21372169_476016959444968_5711853178471841792_n.jpg" }
+  source: { author: "hiiiii_511", license: "", url: "https://www.instagram.com/p/Bf20V-LlFF3/"}
+  images_instagram2: { shortcode: "Bf20V-LlFF3", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ab337bd7b023bc426df548f5718dc0cd/5B3386B5/t51.2885-15/s150x150/e35/28430857_940132166163515_3971165219018768384_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/cee862f0fcf59575257313aaa9449bcc/5B30CBF2/t51.2885-15/s320x320/e35/28430857_940132166163515_3971165219018768384_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/012957582064afa19f99043baffda28d/5B2C67D0/t51.2885-15/e35/28430857_940132166163515_3971165219018768384_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
-  colors: [blue, green, red, orange, brown, black]
+  colors: [blue, green, red, orange, brown, black, pink]
   notes:
   - 三菱自動車
   - 帽子、リュックサック
@@ -2540,12 +2554,26 @@
   notes:
   - ユニバーサルスタジオジャパン
 - title: ミニオンウォーターサプライズパレード
-  source: { author: "12beaver30M", license: "", url: "https://www.instagram.com/p/BYWtTBTlsp0/"}
-  images_instagram2: { shortcode: "BYWtTBTlsp0", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/495ec01fbc9b6d51034f84baa44433aa/5B1D67DF/t51.2885-15/s150x150/e35/21108033_284618582017336_2006569292891422720_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/cbe06229ea543a3c8695219a52e756d7/5B0A2A98/t51.2885-15/s320x320/e35/21108033_284618582017336_2006569292891422720_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/9ce262565ec1b5f56458be1217b0ba00/5B1192BA/t51.2885-15/e35/21108033_284618582017336_2006569292891422720_n.jpg" }
+  source: { author: "iori_sakura", license: "", url: "https://www.instagram.com/p/BYiN0uHnKnt/"}
+  images_instagram2: { shortcode: "BYiN0uHnKnt", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/53495945fa9691f9d69b84dcbbb91462/5B293144/t51.2885-15/s150x150/e35/21224774_844779639031967_2188279704098701312_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/21bbeb07b6a65488cd8a846980097bbe/5B387303/t51.2885-15/s320x320/e35/21224774_844779639031967_2188279704098701312_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/5fb2182d21ee4ab84d38ad012da89292/5B430221/t51.2885-15/e35/21224774_844779639031967_2188279704098701312_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
-  colors: [orange, pink]
+  colors: [yellow, pink]
   notes:
   - ユニバーサルスタジオジャパン『ミニオンウォーターサプライズパレード』
+- title: BSzuNbKAjqA
+  source: { author: "iori_sakura", license: "", url: "https://www.instagram.com/p/BSzuNbKAjqA/"}
+  images_instagram2: { shortcode: "BSzuNbKAjqA", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ef3e8638c8b6c99b715fd8ec9f64f01e/5B3F2C2E/t51.2885-15/s150x150/e35/17931771_1674506872566099_8258399855899049984_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0c6a3e2209c0ff6ea7f8ebfd274f7252/5B331C1E/t51.2885-15/s320x320/e35/17931771_1674506872566099_8258399855899049984_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/8dab8881044b15f99ac08c783e366860/5B27F079/t51.2885-15/e35/17931771_1674506872566099_8258399855899049984_n.jpg" }
+  size: { width_o: 854, height_o: 854 }
+  colors: [pink, white, yellow]
+  notes:
+  - ユニバーサルスタジオジャパン
+- title: BfCVLq-nnuG
+  source: { author: "iori_sakura", license: "", url: "https://www.instagram.com/p/BfCVLq-nnuG/"}
+  images_instagram2: { shortcode: "BfCVLq-nnuG", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/51a9690a4b5b8947fc4d902b1ac4757f/5B3319BC/t51.2885-15/s150x150/e35/27879662_1762116230517776_7718943996357115904_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/285d758827235135aa9d2c7ca1719790/5B40CA8C/t51.2885-15/s320x320/e35/27879662_1762116230517776_7718943996357115904_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0ab9c8887c82cdfb57547a6569dffe04/5B12FCEB/t51.2885-15/e35/27879662_1762116230517776_7718943996357115904_n.jpg" }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [gold, black, pink, silver]
+  notes:
+  - ユニバーサルスタジオジャパン
 - title: Happy Carnival Parade
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36718689750/"}
   images_flickr: { photo: "36718689750", farm: 5, server: 4418, secret: "1414694448", secret_h: "a9d84ca2a9", secret_k: "fec415a02a", secret_o: "a13560eb63", format_o: "jpg" }
