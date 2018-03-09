@@ -87,7 +87,7 @@
     "build:sme": "source-map-explorer assets/bundle.js assets/bundle.js.map --html > assets/sme.html",
     "build:statistics": "babel-node ./scripts/build-statistics.js",
     "start": "run-p -l build:statistics start:devserver",
-    "start:devserver": "cross-env NODE_ENV=development webpack-dev-server --progress --colors --config webpack.config.babel.js",
+    "start:devserver": "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --colors --config webpack.config.babel.js",
     "server": "cross-env NODE_ENV=production http-server"
   }
 }
