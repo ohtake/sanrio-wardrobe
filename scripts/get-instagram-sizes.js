@@ -38,7 +38,41 @@ async function fetchAndDecode(uri) {
   return Jpeg.decode(body);
 }
 
+async function fetchGraphQL(shortcode) {
+  const uri = `https://www.instagram.com/p/${shortcode}/?__a=1`; // Not a public API
+  try {
+    const body = await requestPromise({ uri, followRedirect: false });
+    return JSON.parse(body);
+  } catch (ex) {
+    // sidecar children will redirect
+    if (Math.floor(ex.statusCode / 100) === 3) {
+      return null;
+    }
+    throw ex;
+  }
+}
+
 async function main() {
+  const graphql = await fetchGraphQL(args[0]);
+  if (graphql) {
+    const mediaInfo = graphql.graphql.shortcode_media;
+    /* eslint-disable no-underscore-dangle */
+    switch (mediaInfo.__typename) {
+      case 'GraphImage':
+      case 'GraphVideo':
+        console.log(mediaInfo.__typename);
+        break;
+      case 'GraphSidecar':
+        console.log(`GraphSidecar: ${mediaInfo.edge_sidecar_to_children.edges.map(e => e.node.shortcode)}`);
+        break;
+      default:
+        throw new Error(`Unknown typename: ${mediaInfo.__typename}`);
+    }
+    /* eslint-enable */
+  } else {
+    console.log('No graphql. Child of sidecar?');
+  }
+
   const sizes = ['t', 'm', 'l'];
   const shortcode = args[0];
   const endpoints = sizes.map(s => `https://www.instagram.com/p/${shortcode}/media/?size=${s}`);
