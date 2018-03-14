@@ -139,7 +139,7 @@
   - クリスマス
 - title: 40th 海外
   source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/vEByteMGEs/"}
-  images_instagram: { shortcode: "vEByteMGEs", width_t: 150, width_m: 320, width_l: 640 }
+  images_instagram2: { shortcode: "vEByteMGEs", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f9c748b900bd3da171e8b8983e1f1f97/5B17EED9/t51.2885-15/s150x150/e15/927361_296713800525327_1771361923_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/3d74d79df4039eb8168865aae818cc54/5B22BA99/t51.2885-15/s320x320/e15/927361_296713800525327_1771361923_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f62cd8b6a95728cd96d3c693e59913be/5B002E4F/t51.2885-15/e15/927361_296713800525327_1771361923_n.jpg" }
   size: { width_o: 640, height_o: 640 }
   colors: [purple, pink, white, brown, green, yellow, blue]
   notes:
@@ -1316,6 +1316,13 @@
   notes:
   - 2017年2月のSANRIO EXPOでの表記は「スポーツシーン2」でバンダナ付き
   - チア
+- title: プーマジャパン
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/26936184148/"}
+  images_flickr: { photo: "26936184148", farm: 5, server: 4786, secret: "fc326816aa", secret_h: "d3697996fe", secret_k: "6e10bc0be3", secret_o: "dbe6063192", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [pink, white, orange, yellow, green, blue]
+  notes:
+  - チアに比べ、リボン、リストバンド、バッジが異なる
 - title: 5D3N1955
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14202779751/"}
   images_flickr: { photo: "14202779751", farm: 3, server: 2915, secret: "b39080e1a2", secret_h: "157dbcde53", secret_k: "0573ef515b", secret_o: "7a925bfaf3", format_o: "jpg" }
@@ -2747,6 +2754,13 @@
   colors: [red, white]
   notes:
   - アメリカ PUMA SUEDE 50
+- title: Save My Bag
+  source: { author: "savemybag", license: "", url: "https://www.instagram.com/p/Bfi-_s0HEhE/"}
+  images_instagram2: { shortcode: "Bfi-_cPH_k7", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/074b885278721efa5dfa90690c1c3b37/5B2E1A76/t51.2885-15/s150x150/e35/28152520_2012334322330483_4201755141193334784_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c44a00c2b396f2d3c03722f029d5ae3c/5B297C46/t51.2885-15/s320x320/e35/28152520_2012334322330483_4201755141193334784_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/abdcdd7578432fa6ae610266696b7863/5B2A0A21/t51.2885-15/e35/28152520_2012334322330483_4201755141193334784_n.jpg" }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [pink, yellow, blue, white, black]
+  notes:
+  - イタリア Save My Bag
 - title: Torrid 2016
   source: { author: "tessholliday", license: "", url: "https://www.instagram.com/p/BH5zZ-5Bii4/"}
   images_instagram2: { shortcode: "BH5zZ-5Bii4", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/8b75fe59a6e97171b58cc1596ac8b78c/5B1329F4/t51.2885-15/s150x150/e35/c0.51.841.841/13735833_1065250703540579_1795224550_n.jpg", m_width: 320, m_height: 359, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a0c7aa93b98e18e8858f3314fa9846cf/5B1749F9/t51.2885-15/e35/p320x320/13735833_1065250703540579_1795224550_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/06d6a60a9550c746e7d52e6848716cce/5B1B32DF/t51.2885-15/e35/13735833_1065250703540579_1795224550_n.jpg" }
@@ -3047,6 +3061,12 @@
   images_instagram2: { shortcode: "985B-9MGPM", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c8ee6bc67efc719a9a192d1512b3b54e/5B121531/t51.2885-15/s150x150/e35/c0.104.834.834/11375944_1177074125640045_203959214_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/495454f2038f84f3c4b2a44248357ead/5B01E65D/t51.2885-15/e35/p320x320/11375944_1177074125640045_203959214_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/98807a3bc52bbf2eb0f5f567e076b6e2/5B05B483/t51.2885-15/e35/11375944_1177074125640045_203959214_n.jpg" }
   size: { width_o: 750, height_o: 937 }
   colors: [pink, gold]
+  notes: []
+- title: 1oEYJpQlt-
+  source: { author: "lulabites", license: "", url: "https://www.instagram.com/p/1oEYJpQlt-/"}
+  images_instagram2: { shortcode: "1oEYJpQlt-", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/2f519173c76915a4905a109cad54ef4c/5B3EC33C/t51.2885-15/s150x150/e15/11084782_1609680875951583_1850593306_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/f44b0deaca0c54edd34f0eb3478a0ac8/5B31E88E/t51.2885-15/s320x320/e15/11084782_1609680875951583_1850593306_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/639ee7e8452a14a2db27317bfcdec78f/5B4576DC/t51.2885-15/e15/11084782_1609680875951583_1850593306_n.jpg" }
+  size: { width_o: 640, height_o: 640 }
+  colors: [black, white, pink, green, silver]
   notes: []
 - title: María Escoté Capsule Collection
   source: { author: "Hello Kitty Europe", license: "", url: "https://www.instagram.com/p/BPCgo9KBkdu/"}

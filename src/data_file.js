@@ -273,6 +273,11 @@ DataFile.all = [
     'mr-mr_men', 'MR', 'ミスターメン リトルミス', 'Mr. Men Little Miss',
     '',
   ),
+  DataFile.mwMewkledreamy = new DataFile(
+    'mw-mewkledreamy', 'MW', 'みゅー', 'Mewkledreamy',
+    // https://www.flickr.com/photos/ohtake_tomohiro/38933531210/
+    'https://c1.staticflickr.com/5/4798/38933531210_0db06e8b02_q.jpg',
+  ),
   DataFile.nnNoraneko = new DataFile(
     'nn-noraneko', 'NN', 'クロ・トラ・ミケ', 'Noranekoland',
     // https://www.flickr.com/photos/ohtake_tomohiro/9329259725/

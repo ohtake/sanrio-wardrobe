@@ -266,6 +266,13 @@
   colors: [silver, blue, red]
   notes:
   - フェスティバルステージ
+- title: Flickr-16021360723
+  source: { author: "Suiel", license: "", url: "https://www.flickr.com/photos/mellmelo/16021360723/"}
+  images_flickr: { photo: "16021360723", farm: 8, server: 7282, secret: "299b1efaf7", secret_h: "73e91e147b", secret_k: "776ff89593", secret_o: "986b071cce", format_o: "jpg" }
+  size: { width_o: 5472, height_o: 3648 }
+  colors: [silver, blue, pink]
+  notes:
+  - 足のリボンの色違い
 - title: マイフレンド1
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15663316067/"}
   images_flickr: { photo: "15663316067", farm: 8, server: 7521, secret: "84064ffc9f", secret_h: "a12d2cb75f", secret_k: "274caf0064", secret_o: "0dc66c1c2b", format_o: "jpg" }
