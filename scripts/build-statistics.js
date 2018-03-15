@@ -9,16 +9,26 @@ import clone from 'lodash/clone';
 import Colors from '../src/colors';
 import DataFile from '../src/data_file';
 
-const readFilePromisified = util.promisify(fs.readFile);
+const readFileP = util.promisify(fs.readFile);
+const writeFileP = util.promisify(fs.writeFile);
+const mkdirpP = util.promisify(mkdirp);
 
-const photos = {};
+async function readAllPhotoData() {
+  const pairs = await Promise.all(DataFile.all.map(async (df) => {
+    const data = await readFileP(`data/${df.name}.yaml`, { encoding: 'utf-8' });
+    return [df, yaml.safeLoad(data)];
+  }));
+  return pairs.reduce((prevMap, currentPair) => {
+    const df = currentPair[0];
+    const data = currentPair[1];
+    // eslint-disable-next-line no-param-reassign
+    prevMap[df.name] = data;
+    return prevMap;
+  }, {});
+}
 
-const promisesLoad = DataFile.all.map(async (df) => {
-  const data = await readFilePromisified(`data/${df.name}.yaml`, { encoding: 'utf-8' });
-  photos[df.name] = yaml.safeLoad(data);
-});
-
-Promise.all(promisesLoad).then(() => {
+async function main() {
+  const photos = await readAllPhotoData();
   const stats = {
     count: {},
     color: {},
@@ -45,6 +55,8 @@ Promise.all(promisesLoad).then(() => {
       }
     });
   });
-  mkdirp.sync('assets');
-  fs.writeFileSync('assets/statistics.json', JSON.stringify(stats));
-});
+  await mkdirpP('assets');
+  await writeFileP('assets/statistics.json', JSON.stringify(stats));
+}
+
+main();
