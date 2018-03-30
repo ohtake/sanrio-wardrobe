@@ -42,6 +42,10 @@ class SearchParams {
 }
 
 export default class Character extends React.Component {
+  static getDerivedStateFromProps(nextProps) {
+    const { chara, title } = nextProps.match.params;
+    return { chara, title };
+  }
   constructor() {
     super();
     this.state = { message: 'Initializing' };
@@ -58,40 +62,41 @@ export default class Character extends React.Component {
     this.handleSearchTextBlur = this.handleSearchTextBlur.bind(this);
   }
   componentDidMount() {
-    const { chara } = this.props.match.params;
-    const df = DataFile.findByName(chara);
-    this.context.setTitle(df.getDisplayName());
-    this.clearSearch();
-    this.loadPhotos(this.props.match.params.chara);
+    this.loadPhotos();
   }
-  componentWillReceiveProps(nextProps) {
-    const { chara } = nextProps.match.params;
-    if (chara !== this.props.match.params.chara) {
-      const df = DataFile.findByName(chara);
-      this.context.setTitle(df.getDisplayName());
-      this.clearSearch();
-      this.loadPhotos(nextProps.match.params.chara);
+  shouldComponentUpdate(nextProps, nextState) {
+    return this.state.photos !== nextState.photos
+      || this.state.chara !== nextState.chara
+      || this.state.title !== nextState.title
+      || this.state.message !== nextState.message;
+  }
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.chara !== this.state.chara) {
+      this.loadPhotos();
+    } else if (prevState.title !== this.state.title) {
+      this.updateLightbox(this.state.title);
     }
-    this.updateLightbox(nextProps.match.params.title);
   }
   /**
    * @private
-   * @param {string} file
    * @returns {void}
    */
-  async loadPhotos(file) {
+  async loadPhotos() {
+    this.clearSearch();
+    const df = DataFile.findByName(this.state.chara);
+    this.context.setTitle(df.getDisplayName());
     this.setState({
       photos: null,
-      message: `Loading ${file}`,
+      message: `Loading ${this.state.chara}`,
     });
     try {
-      const photos = await Photo.loadPhotos(file);
+      const photos = await Photo.loadPhotos(this.state.chara);
       this.allPhotos = photos;
       this.setState({
         photos: photos.slice(0),
         message: null,
       });
-      this.updateLightbox(this.props.match.params.title);
+      this.updateLightbox(this.state.title);
     } catch (err) {
       this.setState({
         photos: null,
@@ -112,7 +117,7 @@ export default class Character extends React.Component {
           this.refLightbox.current.setState({ photos: this.state.photos, index });
           return;
         }
-        this.context.router.history.replace(`/chara/${this.props.match.params.chara}`);
+        this.context.router.history.replace(`/chara/${this.state.chara}`);
       }
     }
     this.refLightbox.current.setState({ photos: null, index: 0 });
@@ -155,7 +160,7 @@ export default class Character extends React.Component {
   handleSearchTextBlur() {
     const text = this.refText.current.getValue().trim();
     if (text) {
-      utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${this.props.match.params.chara} ${text}`);
+      utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${this.state.chara} ${text}`);
     }
   }
   colorChanged(sender) {
@@ -171,13 +176,15 @@ export default class Character extends React.Component {
         <ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
         <TextField ref={this.refText} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
-        <Gallery photos={this.state.photos} chara={this.props.match.params.chara} />
-        <DetailView ref={this.refLightbox} chara={this.props.match.params.chara} />
+        <Gallery photos={this.state.photos} chara={this.state.chara} />
+        <DetailView ref={this.refLightbox} chara={this.state.chara} />
       </React.Fragment>
     );
   }
 }
 Character.propTypes = {
+  // https://github.com/yannickcr/eslint-plugin-react/issues/1751
+  // eslint-disable-next-line react/no-unused-prop-types
   match: PropTypes.shape({
     params: PropTypes.shape({
       chara: PropTypes.string,
