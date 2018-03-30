@@ -8,12 +8,13 @@ import ResizeSensor from 'css-element-queries/src/ResizeSensor';
 export default class FullWidthContainer extends React.Component {
   constructor(props) {
     super();
+    this.refContainer = React.createRef();
     this.state = { containerWidth: props.initialContainerWidth };
     this.handleResize = this.updateContainerWidth.bind(this);
   }
   componentDidMount() {
     this.updateContainerWidth();
-    this.resizeSensor = new ResizeSensor(this.container, this.handleResize);
+    this.resizeSensor = new ResizeSensor(this.refContainer.current, this.handleResize);
   }
   componentDidUpdate(prevProps, prevState) {
     if (this.state.containerWidth !== prevState.containerWidth) {
@@ -32,14 +33,14 @@ export default class FullWidthContainer extends React.Component {
    * @returns {void}
    */
   updateContainerWidth() {
-    const newWidth = this.container.clientWidth;
+    const newWidth = this.refContainer.current.clientWidth;
     if (newWidth && newWidth !== this.state.containerWidth) {
       this.setState({ containerWidth: newWidth });
     }
   }
   render() {
     return (
-      <div ref={(c) => { this.container = c; }}>
+      <div ref={this.refContainer}>
         {this.props.renderElement(this.state.containerWidth)}
       </div>);
   }

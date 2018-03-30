@@ -47,6 +47,10 @@ export default class Character extends React.Component {
     this.state = { message: 'Initializing' };
     this.searchParams = new SearchParams();
 
+    this.refColor = React.createRef();
+    this.refText = React.createRef();
+    this.refLightbox = React.createRef();
+
     this.colorChanged = this.colorChanged.bind(this);
     this.handleSearchIconClick = this.handleSearchIconClick.bind(this);
     this.handleSearchTextChanged = throttle(this.handleSearchTextChanged.bind(this), 500);
@@ -105,13 +109,13 @@ export default class Character extends React.Component {
       if (this.state.photos) {
         const index = this.state.photos.findIndex(p => title === p.data.title);
         if (index >= 0) {
-          this.lightbox.setState({ photos: this.state.photos, index });
+          this.refLightbox.current.setState({ photos: this.state.photos, index });
           return;
         }
         this.context.router.history.replace(`/chara/${this.props.match.params.chara}`);
       }
     }
-    this.lightbox.setState({ photos: null, index: 0 });
+    this.refLightbox.current.setState({ photos: null, index: 0 });
   }
   execSearch() {
     if (!this.state.photos) return;
@@ -124,15 +128,14 @@ export default class Character extends React.Component {
   }
   clearSearch() {
     this.searchParams.clear();
-    this.text.input.value = '';
-    this.color.clear();
+    this.refText.current.input.value = '';
+    this.refColor.current.clear();
   }
   handleSearchIconClick() {
-    this.text.input.focus();
+    this.refText.current.input.focus();
   }
   handleSearchTextChanged() {
-    const textbox = this.text;
-    const text = textbox.getValue();
+    const text = this.refText.current.getValue();
     const terms = text.split(/[ \u3000]/).filter(t => t.length > 0); // U+3000 = full width space
     const termsEscaped = terms.map(t => t.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'));
     const res = termsEscaped.map(te => new RegExp(te, 'i'));
@@ -142,7 +145,7 @@ export default class Character extends React.Component {
   handleSearchTextKeyDown(e) {
     switch (e.keyCode) {
       case 13: // Enter
-        this.text.input.blur(); // To hide keyboard on mobile phones
+        this.refText.current.input.blur(); // To hide keyboard on mobile phones
         e.preventDefault();
         break;
       default:
@@ -150,7 +153,7 @@ export default class Character extends React.Component {
     }
   }
   handleSearchTextBlur() {
-    const text = this.text.getValue().trim();
+    const text = this.refText.current.getValue().trim();
     if (text) {
       utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${this.props.match.params.chara} ${text}`);
     }
@@ -164,12 +167,12 @@ export default class Character extends React.Component {
     const theme = this.context.muiTheme;
     return (
       <React.Fragment>
-        <ColorSelector ref={(c) => { this.color = c; }} onChanged={this.colorChanged} />
+        <ColorSelector ref={this.refColor} onChanged={this.colorChanged} />
         <ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
-        <TextField ref={(c) => { this.text = c; }} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
+        <TextField ref={this.refText} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
-        <Gallery ref={(c) => { this.gallery = c; }} photos={this.state.photos} chara={this.props.match.params.chara} />
-        <DetailView ref={(c) => { this.lightbox = c; }} chara={this.props.match.params.chara} />
+        <Gallery photos={this.state.photos} chara={this.props.match.params.chara} />
+        <DetailView ref={this.refLightbox} chara={this.props.match.params.chara} />
       </React.Fragment>
     );
   }
