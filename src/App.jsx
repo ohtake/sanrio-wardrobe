@@ -51,6 +51,9 @@ class App extends React.Component {
       menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 120, title: appDefaultTitle,
     };
 
+    this.refToggleTheme = React.createRef();
+    this.refSliderThumbnailSize = React.createRef();
+
     this.setTitle = this.setTitle.bind(this);
     this.handleAppMenu = this.handleAppMenu.bind(this);
     this.handleMenuChange = this.handleMenuChange.bind(this);
@@ -96,12 +99,12 @@ class App extends React.Component {
     window.setTimeout(() => this.setState({ menuOpened: false }), 200);
   }
   handleThemeToggle() {
-    const newTheme = this.theme.state.switched ? themes.themeLight : themes.themeDark;
+    const newTheme = this.refToggleTheme.current.state.switched ? themes.themeLight : themes.themeDark;
     themes.applyThemeToBody(newTheme);
     this.setState({ theme: newTheme });
   }
   handleThumbnailSizeChange() {
-    this.setState({ thumbnailSize: this.thumbnailSize.state.value });
+    this.setState({ thumbnailSize: this.refSliderThumbnailSize.current.state.value });
   }
   renderAppBar() {
     return (
@@ -116,11 +119,11 @@ class App extends React.Component {
           <IconMenu iconButtonElement={<IconButton><ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
             <List>
               <ListItem leftIcon={<ImageColorLens />} onClick={this.handleThemeToggle}>
-                <Toggle ref={(c) => { this.theme = c; }} label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
+                <Toggle ref={this.refToggleTheme} label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
               </ListItem>
               <ListItem leftIcon={<ImagePhotoSizeSelectLarge />}>
                 <span>Thumbnail size: {this.state.thumbnailSize}</span>
-                <Slider ref={(c) => { this.thumbnailSize = c; }} defaultValue={this.state.thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
+                <Slider ref={this.refSliderThumbnailSize} defaultValue={this.state.thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
               </ListItem>
               <Divider />
               <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />
