@@ -35,13 +35,6 @@
   notes:
   - ピューロランドパレード『星空の Happy Party Christmas』
   - ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』
-- title: Believe
-  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10249399254/"}
-  images_flickr: { photo: "10249399254", farm: 9, server: 8407, secret: "71d43beda4", secret_h: "af335f6daa", secret_k: "51326a45c0", secret_o: "b7b2c883f2", format_o: "jpg" }
-  size: { width_o: 3840, height_o: 5760 }
-  colors: [red, blue, brown, white]
-  notes:
-  - ピューロランドパレード『Believe』
 - title: ARIGATO EVERYONE
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14379578451/"}
   images_flickr: { photo: "14379578451", farm: 3, server: 2928, secret: "f25fac1ced", secret_h: "67437177ac", secret_k: "ef22b327ac", secret_o: "ece955def6", format_o: "jpg" }
@@ -64,6 +57,14 @@
   colors: [blue, green, red, purple, pink, orange]
   notes:
   - ピューロランドパレード『Miracle Gift Parade』
+- title: 天使を救え
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10249399254/"}
+  images_flickr: { photo: "10249399254", farm: 9, server: 8407, secret: "71d43beda4", secret_h: "af335f6daa", secret_k: "51326a45c0", secret_o: "b7b2c883f2", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [red, blue, brown, white]
+  notes:
+  - ディスカバリシアター『プリンとダニエルの天使を救え！』
+  - ピューロランドパレード『Believe』
 - title: 桃太郎
   source: { author: "purolandjp", license: "", url: "https://www.instagram.com/p/BfNmbEplhW_/"}
   images_instagram: { shortcode: "BfNmbEplhW_", width_t: 150, width_m: 320, width_l: 1080 }

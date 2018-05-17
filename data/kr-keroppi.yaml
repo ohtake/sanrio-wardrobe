@@ -122,6 +122,13 @@
   size: { width_o: 5184, height_o: 3456 }
   colors: [gold, silver, green]
   notes: []
+- title: マフラー
+  source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/24009926422/"}
+  images_flickr: { photo: "24009926422", farm: 6, server: 5689, secret: "01db7ef7b6", secret_h: "e11c4afa60", secret_k: "1a140906bf" }
+  size: { width_o: 2048, height_o: 1365 }
+  colors: [gold, silver, red, white]
+  notes:
+  - ハーモニーランドカウントダウンパーティ2015-16
 - title: flickr-18821205425
   source: { author: "Christian Lau", license: "", url: "https://www.flickr.com/photos/christianmlau/18821205425/"}
   images_flickr: { photo: "18821205425", farm: 6, server: 5572, secret: "913cfbbf5f", secret_h: "f3bd32f2d9", secret_k: "486efad1f7" }

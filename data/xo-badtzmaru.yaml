@@ -74,6 +74,13 @@
   colors: [gold, red, black]
   notes:
   - 蝶ネクタイ、鎖
+- title: flickr-40287238005
+  source: { author: "ゆう", license: "", url: "https://www.flickr.com/photos/155629300@N04/40287238005/"}
+  images_flickr: { photo: "40287238005", farm: 1, server: 902, secret: "8858d3b10c", secret_h: "86af9c8f91", secret_k: "b0ecb1dbce", secret_o: "8752e1a36d", format_o: "jpg" }
+  size: { width_o: 6000, height_o: 4000 }
+  colors: [gold, red, black, green, blue, pink, white]
+  notes:
+  - 2018年バースデー
 - title: 5D3B5465 (960x1440)
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://picasaweb.google.com/lh/photo/YnK1ODVGwIOBU9BNpC7AsdMTjNZETYmyPJy0liipFm0?feat=embedwebsite"}
   images_picasa: { lh: 3, dirs: "-VVY-ry_re88/ULsGOl112YI/AAAAAAAAFms/NsMzEYe0XN4RKeXU3srB62BGPRSl5lvzgCCo", file: "5D3B5465%2B%2528960x1440%2529.jpg" }
