@@ -42,10 +42,6 @@ class SearchParams {
 }
 
 export default class Character extends React.Component {
-  static getDerivedStateFromProps(nextProps) {
-    const { chara, title } = nextProps.match.params;
-    return { chara, title };
-  }
   constructor() {
     super();
     this.state = { message: 'Initializing' };
@@ -60,6 +56,10 @@ export default class Character extends React.Component {
     this.handleSearchTextChanged = throttle(this.handleSearchTextChanged.bind(this), 500);
     this.handleSearchTextKeyDown = this.handleSearchTextKeyDown.bind(this);
     this.handleSearchTextBlur = this.handleSearchTextBlur.bind(this);
+  }
+  static getDerivedStateFromProps(nextProps) {
+    const { chara, title } = nextProps.match.params;
+    return { chara, title };
   }
   componentDidMount() {
     this.loadPhotos();
