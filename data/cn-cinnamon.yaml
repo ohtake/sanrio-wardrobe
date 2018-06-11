@@ -83,7 +83,7 @@
 # ひみつの扉・ミュージカルスター
 - title: ひみつの扉・シナモンホワイト
   source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpOwBSH5ua/"}
-  images_instagram2: { shortcode: "BXpOwBSH5ua", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/fc3084b4d63326b52e2f412173234bd5/5B11E3A0/t51.2885-15/s150x150/e15/20686794_126526617968882_1736143407312535552_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ce12b551753838784d8b6f5ced329092/5B2523E7/t51.2885-15/s320x320/e15/20686794_126526617968882_1736143407312535552_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/e3eb9623889aaa4706ec378dd52e5639/5B1A40C4/t51.2885-15/s1080x1080/e15/fr/20686794_126526617968882_1736143407312535552_n.jpg" }
+  images_instagram2: { shortcode: "BXpOwBSH5ua", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/7386d8a44d9db7e413b9f1343fae7253/5BB017A0/t51.2885-15/s150x150/e15/20686794_126526617968882_1736143407312535552_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/5f63945cd6f83e5911b3454247ec92f9/5BC357E7/t51.2885-15/s320x320/e15/20686794_126526617968882_1736143407312535552_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/3d143a64dec791b80f62bc276f7cc6a7/5BB874C4/t51.2885-15/s1080x1080/e15/fr/20686794_126526617968882_1736143407312535552_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, silver, gold]
   notes:
@@ -103,15 +103,15 @@
   notes:
   - ディスカバリシアター『ジュエルペットとシナモンのみらいレボリューション！』ビー玉なし
 - title: みらいレボリューション・ビー玉あり
-  source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpR3CDH2JW/"}
-  images_instagram2: { shortcode: "BXpR3CDH2JW", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/57ced419660101f389219689a0a689ce/5B1BCDC3/t51.2885-15/s150x150/e15/20688068_259435434560114_7699597994777116672_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/653c2c3bff79914c32d9062b7cf7234f/5B151084/t51.2885-15/s320x320/e15/20688068_259435434560114_7699597994777116672_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/923995697dea19dc2ef85962ef6da08a/5B1438A7/t51.2885-15/s1080x1080/e15/fr/20688068_259435434560114_7699597994777116672_n.jpg" }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BXpR3CDH2JW/"}
+  images_instagram2: { shortcode: "BXpR3CDH2JW", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/ad1e0adb0571ed11b76d6032d55b0fd0/5BBA01C3/t51.2885-15/s150x150/e15/20688068_259435434560114_7699597994777116672_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/35c6c7ffc961d5d85c68604148901534/5BB34484/t51.2885-15/s320x320/e15/20688068_259435434560114_7699597994777116672_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/a0b7f955beba9e31ff0b8863a5cf639c/5BB26CA7/t51.2885-15/s1080x1080/e15/fr/20688068_259435434560114_7699597994777116672_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [purple, white, blue, red, yellow, silver]
   notes:
   - ディスカバリシアター『ジュエルペットとシナモンのみらいレボリューション！』ビー玉あり
 - title: みらいレボリューション・C-MON
-  source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXo3ljhnCcl/"}
-  images_instagram2: { shortcode: "BXo3ljhnCcl", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/77f3a34b0fb06d2121ef7e4c871a6965/5B00F21F/t51.2885-15/s150x150/e35/20766112_255333011652746_5409153959443038208_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/caef69e83fcc671338a8949293c6461b/5B0F4458/t51.2885-15/s320x320/e35/20766112_255333011652746_5409153959443038208_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/6982374dd8d528548cdbf6815514d1d4/5B1BAA7A/t51.2885-15/e35/20766112_255333011652746_5409153959443038208_n.jpg" }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BXo3ljhnCcl/"}
+  images_instagram2: { shortcode: "BXo3ljhnCcl", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/2ad13f573f5842f159af8761edf075ee/5B9F261F/t51.2885-15/s150x150/e35/20766112_255333011652746_5409153959443038208_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/de4fc96dbd5cbdca15393f89462cf7d7/5BAD7858/t51.2885-15/s320x320/e35/20766112_255333011652746_5409153959443038208_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/9f13627b7f7fb2c5c3252558b173a48d/5BB9DE7A/t51.2885-15/e35/20766112_255333011652746_5409153959443038208_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [grey, silver, blue, gold]
   notes:
@@ -137,8 +137,8 @@
   colors: [green, white]
   notes: []
 - title: タウン・セーラー
-  source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpWqjeH-uU/"}
-  images_instagram2: { shortcode: "BXpWqjeH-uU", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/ba3cce922edb4b19cfce34bf9cc39a50/5B2017F2/t51.2885-15/s150x150/e15/20759383_1615088585210313_4020553696495534080_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/49d87945ccf5a965c2c8dcbca853150e/5B166DC2/t51.2885-15/s320x320/e15/20759383_1615088585210313_4020553696495534080_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/3727d07c7101ef172445549c007d6ab5/5B213FEA/t51.2885-15/s1080x1080/e15/fr/20759383_1615088585210313_4020553696495534080_n.jpg" }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BXpWqjeH-uU/"}
+  images_instagram2: { shortcode: "BXpWqjeH-uU", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/b18acf230e53f851ce60bf6863b13b33/5BBE4BF2/t51.2885-15/s150x150/e15/20759383_1615088585210313_4020553696495534080_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/ecd74760561c4e9f073813d49f563bc5/5BB4A1C2/t51.2885-15/s320x320/e15/20759383_1615088585210313_4020553696495534080_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/ec4ed87569ca55545e4236ef277d1d19/5BBF73EA/t51.2885-15/s1080x1080/e15/fr/20759383_1615088585210313_4020553696495534080_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, white, red]
   notes:
@@ -151,8 +151,8 @@
   notes:
   - エンターテイメントホール『シナモンタウン大冒険』お菓子
 - title: キティパラPLUS
-  source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpcaorHqsJ/"}
-  images_instagram2: { shortcode: "BXpcaorHqsJ", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/c1207b2f7dc446769a131da18a4fa649/5B0C8A23/t51.2885-15/s150x150/e15/20686967_163251910910846_886758979659628544_n.jpg", m_width: 320, m_height: 320, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/40b715302a81ce3eec99f85dba3ed347/5B0DA8DE/t51.2885-15/s320x320/e15/20686967_163251910910846_886758979659628544_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/37641ea12efd8b4e8af91cbef9951f1a/5B19974C/t51.2885-15/s1080x1080/e15/fr/20686967_163251910910846_886758979659628544_n.jpg" }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BXpcaorHqsJ/"}
+  images_instagram2: { shortcode: "BXpcaorHqsJ", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/3b75758f300f19d9c49818dace54963d/5BAABE23/t51.2885-15/s150x150/e15/20686967_163251910910846_886758979659628544_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/a811b5b2ed38d44da03ecadeb5406cb2/5BABDCDE/t51.2885-15/s320x320/e15/20686967_163251910910846_886758979659628544_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/d80dd252ba399849b15b2bf3dcc14694/5BB7CB4C/t51.2885-15/s1080x1080/e15/fr/20686967_163251910910846_886758979659628544_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, white, yellow, red]
   notes:
@@ -290,7 +290,7 @@
   - クリスマス、柊、ベル
 - title: 三色マフラー
   source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXppzluHh6H/"}
-  images_instagram2: { shortcode: "BXppzluHh6H", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/6708940a51b8b78bf8889633aeab2947/5B8E64D3/t51.2885-15/s150x150/e15/20688058_174459869765032_3199939876074029056_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/0e8b13cd7fddaba90888b7ef66bf44b9/5BA0AF94/t51.2885-15/s320x320/e15/20688058_174459869765032_3199939876074029056_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/1a7e21eee8c0319ced0c8102a86940f9/5B8D2BB7/t51.2885-15/s1080x1080/e15/fr/20688058_174459869765032_3199939876074029056_n.jpg" }
+  images_instagram2: { shortcode: "BXppzluHh6H", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/d3215d38da11824d1410ecd3af4b1cf0/5BB5F1D3/t51.2885-15/s150x150/e15/20688058_174459869765032_3199939876074029056_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/0e8b13cd7fddaba90888b7ef66bf44b9/5BA0AF94/t51.2885-15/s320x320/e15/20688058_174459869765032_3199939876074029056_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/a1fa206b6405a959cec0dda1885da871/5BB4B8B7/t51.2885-15/s1080x1080/e15/fr/20688058_174459869765032_3199939876074029056_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [red, green, white]
   notes:
@@ -304,7 +304,7 @@
   - クリスマス、青リボン
 - title: 青リボン長・ブレスレット付き
   source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpsaREHiPg/"}
-  images_instagram2: { shortcode: "BXpsaREHiPg", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/c37a85b033d964eba548e641fa9411a9/5B92A926/t51.2885-15/s150x150/e15/20687821_1477231885687008_3903034616658788352_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/c0adb78cb3b0d5f72c7f58a4c9770405/5BA2CC16/t51.2885-15/s320x320/e15/20687821_1477231885687008_3903034616658788352_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/ead4988e845c127ffefe1d1037b97c35/5B84313E/t51.2885-15/s1080x1080/e15/fr/20687821_1477231885687008_3903034616658788352_n.jpg" }
+  images_instagram2: { shortcode: "BXpsaREHiPg", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/fd980c0454793e9f070e7c3d0bd4e656/5BBA3626/t51.2885-15/s150x150/e15/20687821_1477231885687008_3903034616658788352_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/c0adb78cb3b0d5f72c7f58a4c9770405/5BA2CC16/t51.2885-15/s320x320/e15/20687821_1477231885687008_3903034616658788352_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/fdec83ad79cc5882d5f3000763b0211a/5BABBE3E/t51.2885-15/s1080x1080/e15/fr/20687821_1477231885687008_3903034616658788352_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, yellow, gold, silver]
   notes:
@@ -545,7 +545,7 @@
   - メロディ頭巾
 - title: 旧正月
   source: { author: "sanrio.hk", license: "", url: "https://www.instagram.com/p/BewxP7vFURO/"}
-  images_instagram2: { shortcode: "BewxP7vFURO", t_width: 150, t_height: 150, t_url: "https://scontent-nrt1-1.cdninstagram.com/vp/0ed795c911cffa63ba4defd0235c335d/5B19026B/t51.2885-15/s150x150/e35/c0.135.1080.1080/26866213_1831514536881612_3654357032422604800_n.jpg", m_width: 320, m_height: 400, m_url: "https://scontent-nrt1-1.cdninstagram.com/vp/a25f37b0cee8460735b5db004060e971/5B19AB5B/t51.2885-15/e35/p320x320/26866213_1831514536881612_3654357032422604800_n.jpg", l_url: "https://scontent-nrt1-1.cdninstagram.com/vp/4808cb8fc4f7de96651551c2cfe5051a/5B19C7CC/t51.2885-15/e35/26866213_1831514536881612_3654357032422604800_n.jpg" }
+  images_instagram2: { shortcode: "BewxP7vFURO", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/09d3a8857ad3dd8d5fab917c06b35af5/5BB7366B/t51.2885-15/s150x150/e35/c0.135.1080.1080/26866213_1831514536881612_3654357032422604800_n.jpg", m_width: 320, m_height: 400, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/6e03cc2fcad7db91b47e5fb2c9a231f9/5BB7DF5B/t51.2885-15/e35/p320x320/26866213_1831514536881612_3654357032422604800_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/967d94318aad7ef092df19c86dbfb871/5BB7FBCC/t51.2885-15/e35/26866213_1831514536881612_3654357032422604800_n.jpg" }
   size: { width_o: 1080, height_o: 1350 }
   colors: [red, gold, white]
   notes:
