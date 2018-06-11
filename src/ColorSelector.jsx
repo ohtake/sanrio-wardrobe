@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import FlatButton from 'material-ui/FlatButton';
 
-import ContentFilterList from 'material-ui/svg-icons/content/filter-list';
+import ContentFilterList from '@material-ui/icons/FilterList';
 
 import clone from 'lodash/clone';
 

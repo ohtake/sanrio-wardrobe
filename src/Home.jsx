@@ -4,7 +4,7 @@ import RouterLink from 'react-router-dom/Link';
 
 import Avatar from 'material-ui/Avatar';
 import FlatButton from 'material-ui/FlatButton';
-import EditorShowChart from 'material-ui/svg-icons/editor/show-chart';
+import EditorShowChart from '@material-ui/icons/ShowChart';
 
 import curry from 'lodash/curry';
 

@@ -9,14 +9,14 @@ import IconButton from 'material-ui/IconButton';
 import IconMenu from 'material-ui/IconMenu';
 import { List, ListItem } from 'material-ui/List';
 
-import ActionFeedback from 'material-ui/svg-icons/action/feedback';
-import ActionOpenInBrowser from 'material-ui/svg-icons/action/open-in-browser';
-import NavigationArrowBack from 'material-ui/svg-icons/navigation/arrow-back';
-import NavigationChevronLeft from 'material-ui/svg-icons/navigation/chevron-left';
-import NavigationChevronRight from 'material-ui/svg-icons/navigation/chevron-right';
-import NavigationFullscreen from 'material-ui/svg-icons/navigation/fullscreen';
-import NavigationFullscreenExit from 'material-ui/svg-icons/navigation/fullscreen-exit';
-import NavigationMoreVert from 'material-ui/svg-icons/navigation/more-vert';
+import ActionFeedback from '@material-ui/icons/Feedback';
+import ActionOpenInBrowser from '@material-ui/icons/OpenInBrowser';
+import NavigationArrowBack from '@material-ui/icons/ArrowBack';
+import NavigationChevronLeft from '@material-ui/icons/ChevronLeft';
+import NavigationChevronRight from '@material-ui/icons/ChevronRight';
+import NavigationFullscreen from '@material-ui/icons/Fullscreen';
+import NavigationFullscreenExit from '@material-ui/icons/FullscreenExit';
+import NavigationMoreVert from '@material-ui/icons/MoreVert';
 
 import AutoLockScrolling from 'material-ui/internal/AutoLockScrolling';
 import Swipeable from 'react-swipeable';

@@ -4,7 +4,7 @@ import HashRouter from 'react-router-dom/HashRouter';
 
 import TextField from 'material-ui/TextField';
 
-import ActionSearch from 'material-ui/svg-icons/action/search';
+import ActionSearch from '@material-ui/icons/Search';
 
 import throttle from 'lodash/throttle';
 

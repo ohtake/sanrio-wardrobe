@@ -15,14 +15,14 @@ import Subheader from 'material-ui/Subheader';
 import { Toolbar, ToolbarGroup } from 'material-ui/Toolbar';
 import Slider from 'material-ui/Slider';
 
-import ActionFeedback from 'material-ui/svg-icons/action/feedback';
-import ActionHome from 'material-ui/svg-icons/action/home';
-import ActionSettings from 'material-ui/svg-icons/action/settings';
-import ActionTurnedIn from 'material-ui/svg-icons/action/turned-in';
-import ActionTurnedInNot from 'material-ui/svg-icons/action/turned-in-not';
-import EditorShowChart from 'material-ui/svg-icons/editor/show-chart';
-import ImagePhotoSizeSelectLarge from 'material-ui/svg-icons/image/photo-size-select-large';
-import NavigationClose from 'material-ui/svg-icons/navigation/close';
+import ActionFeedback from '@material-ui/icons/Feedback';
+import ActionHome from '@material-ui/icons/Home';
+import ActionSettings from '@material-ui/icons/Settings';
+import ActionTurnedIn from '@material-ui/icons/TurnedIn';
+import ActionTurnedInNot from '@material-ui/icons/TurnedInNot';
+import EditorShowChart from '@material-ui/icons/ShowChart';
+import ImagePhotoSizeSelectLarge from '@material-ui/icons/PhotoSizeSelectLarge';
+import NavigationClose from '@material-ui/icons/Close';
 
 import Home from './Home';
 import Character from './Character';

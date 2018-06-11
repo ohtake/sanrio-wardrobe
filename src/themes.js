@@ -1,16 +1,16 @@
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
-import * as Colors from 'material-ui/styles/colors';
+import * as Colors from '@material-ui/core/colors';
 
 export const themeDark = getMuiTheme(darkBaseTheme, {
   palette: {
-    primary1Color: Colors.indigo500,
-    primary2Color: Colors.indigo300,
-    accent2Color: Colors.grey700,
-    pickerHeaderColor: Colors.indigo500,
+    primary1Color: Colors.indigo['500'],
+    primary2Color: Colors.indigo['300'],
+    accent2Color: Colors.grey['700'],
+    pickerHeaderColor: Colors.indigo['500'],
   },
   appBar: {
-    textColor: Colors.fullWhite,
+    textColor: Colors.common.white,
   },
 });
 
