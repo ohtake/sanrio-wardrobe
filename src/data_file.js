@@ -338,6 +338,10 @@ DataFile.all = [
     // https://www.flickr.com/photos/ohtake_tomohiro/34443923456/
     'https://c1.staticflickr.com/5/4185/34443923456_5343fb4a94_q.jpg',
   ),
+  DataFile.rfSpica = new DataFile(
+    'rf-spica', 'RF', 'スピカ', 'Spica',
+    '',
+  ),
   DataFile.siShirokuro = new DataFile(
     'si-shirokuro', 'SI', 'しろうさ・くろうさ', 'Shirousa & Kurousa',
     // https://www.flickr.com/photos/ohtake_tomohiro/14387901891/

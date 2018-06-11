@@ -1,0 +1,7 @@
+---
+- title: 標準
+  source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/28837146858/"}
+  images_flickr: { photo: "28837146858", farm: 2, server: 1759, secret: "df35e7fc47", secret_h: "f1a4956019", secret_k: "b7098987e5" }
+  size: { width_o: 1365, height_o: 2048 }
+  colors: [yellow, purple, pink, white, blue]
+  notes: []
