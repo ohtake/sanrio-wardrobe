@@ -12,7 +12,6 @@ import IconButton from 'material-ui/IconButton';
 import IconMenu from 'material-ui/IconMenu';
 import { List, ListItem } from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
-import Toggle from 'material-ui/Toggle';
 import { Toolbar, ToolbarGroup } from 'material-ui/Toolbar';
 import Slider from 'material-ui/Slider';
 
@@ -22,7 +21,6 @@ import ActionSettings from 'material-ui/svg-icons/action/settings';
 import ActionTurnedIn from 'material-ui/svg-icons/action/turned-in';
 import ActionTurnedInNot from 'material-ui/svg-icons/action/turned-in-not';
 import EditorShowChart from 'material-ui/svg-icons/editor/show-chart';
-import ImageColorLens from 'material-ui/svg-icons/image/color-lens';
 import ImagePhotoSizeSelectLarge from 'material-ui/svg-icons/image/photo-size-select-large';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
@@ -44,14 +42,13 @@ class App extends React.Component {
   constructor() {
     super();
 
-    const themeInitial = themes.getInitialTheme();
+    const themeInitial = themes.themeDark;
     themes.applyThemeToBody(themeInitial);
 
     this.state = {
       menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 120, title: appDefaultTitle,
     };
 
-    this.refToggleTheme = React.createRef();
     this.refSliderThumbnailSize = React.createRef();
 
     this.setTitle = this.setTitle.bind(this);
@@ -60,7 +57,6 @@ class App extends React.Component {
     this.handleMenuClick = this.handleMenuClick.bind(this);
     this.handleMenuPinned = this.handleMenuPinned.bind(this);
     this.handleMenuClose = this.handleMenuClose.bind(this);
-    this.handleThemeToggle = this.handleThemeToggle.bind(this);
     this.handleThumbnailSizeChange = this.handleThumbnailSizeChange.bind(this);
     this.menuWidth = 250;
   }
@@ -98,11 +94,6 @@ class App extends React.Component {
     if (this.state.menuDocked) return;
     window.setTimeout(() => this.setState({ menuOpened: false }), 200);
   }
-  handleThemeToggle() {
-    const newTheme = this.refToggleTheme.current.state.switched ? themes.themeLight : themes.themeDark;
-    themes.applyThemeToBody(newTheme);
-    this.setState({ theme: newTheme });
-  }
   handleThumbnailSizeChange() {
     this.setState({ thumbnailSize: this.refSliderThumbnailSize.current.state.value });
   }
@@ -118,9 +109,6 @@ class App extends React.Component {
         iconElementRight={
           <IconMenu iconButtonElement={<IconButton><ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
             <List>
-              <ListItem leftIcon={<ImageColorLens />} onClick={this.handleThemeToggle}>
-                <Toggle ref={this.refToggleTheme} label="Dark theme" defaultToggled={this.state.theme === themes.themeDark} />
-              </ListItem>
               <ListItem leftIcon={<ImagePhotoSizeSelectLarge />}>
                 <span>Thumbnail size: {this.state.thumbnailSize}</span>
                 <Slider ref={this.refSliderThumbnailSize} defaultValue={this.state.thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />

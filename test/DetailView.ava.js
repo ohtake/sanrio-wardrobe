@@ -30,10 +30,10 @@ const photoTemplate = {
   notes: ['note1', 'note2'],
 };
 
-const context = { muiTheme: themes.themeLight, router: dummyRouter };
+const context = { muiTheme: themes.themeDark, router: dummyRouter };
 
 function createContextWithSpiedRouter() {
-  const c = { muiTheme: themes.themeLight };
+  const c = { muiTheme: themes.themeDark };
   c.router = clone(dummyRouter);
   c.router.history.replace = sinon.spy();
   return c;

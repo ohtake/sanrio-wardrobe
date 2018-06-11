@@ -14,7 +14,7 @@ import Photo from '../src/photo';
 const readFilePromisified = util.promisify(fs.readFile);
 
 const context = {
-  muiTheme: themes.themeLight,
+  muiTheme: themes.themeDark,
   setTitle: () => {},
   router: {
     history: {

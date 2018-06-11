@@ -7,7 +7,7 @@ import Home from '../src/Home';
 import * as themes from '../src/themes';
 
 const context = {
-  muiTheme: themes.themeLight,
+  muiTheme: themes.themeDark,
   setTitle: () => {},
 };
 

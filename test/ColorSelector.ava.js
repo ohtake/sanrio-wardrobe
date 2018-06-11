@@ -7,7 +7,7 @@ import { shallow } from 'enzyme';
 import ColorSelector from '../src/ColorSelector';
 import * as themes from '../src/themes';
 
-const context = { muiTheme: themes.themeLight };
+const context = { muiTheme: themes.themeDark };
 
 function clickFilter(wrapper) {
   wrapper.find({ label: 'Color filter' }).simulate('click');

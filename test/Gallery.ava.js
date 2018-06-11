@@ -20,7 +20,7 @@ const photoTemplate = {
   notes: ['note1', 'note2'],
 };
 
-const context = { muiTheme: themes.themeLight };
+const context = { muiTheme: themes.themeDark };
 
 /** @test {Gallery} */
 test('<Gallery /> should handle 0 photos', t => {
