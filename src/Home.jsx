@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import RouterLink from 'react-router-dom/Link';
 
-import Avatar from 'material-ui/Avatar';
-import FlatButton from 'material-ui/FlatButton';
+import Avatar from '@material-ui/core/Avatar';
+import Button from '@material-ui/core/Button';
 import EditorShowChart from '@material-ui/icons/ShowChart';
+import { withTheme } from '@material-ui/core/styles';
 
 import curry from 'lodash/curry';
 
@@ -45,17 +46,17 @@ const styleImg = {
 function renderTile(gaEventAction, c) {
   return (
     <RouterLink key={c.name} to={`/chara/${c.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventAction} data-ga-event-label={c.name}>
+      {c.picUrl ? <img src={c.picUrl} alt="*" style={styleImg} /> : <Avatar style={styleImg}>{c.seriesSymbol}</Avatar>}
       <div style={styleSymbol}>{c.seriesSymbol}</div>
       <div style={styleTitleOuter}>
         <div style={styleTitleInner}>{c.nameJa}</div>
         <div style={styleTitleInner}>{c.nameEn}</div>
       </div>
-      {c.picUrl ? <img src={c.picUrl} alt="*" style={styleImg} /> : <Avatar style={styleImg}>{c.seriesSymbol}</Avatar>}
     </RouterLink>
   );
 }
 
-export default class Home extends React.Component {
+class Home extends React.Component {
   constructor() {
     super();
     this.state = {};
@@ -82,20 +83,25 @@ export default class Home extends React.Component {
     ];
     return (
       <React.Fragment>
-        <a href="https://github.com/ohtake/sanrio-wardrobe">
-          <img
-            alt="Fork me on GitHub"
-            style={{
-              position: 'absolute', top: this.context.muiTheme.appBar.height, right: 0, border: 0,
-            }}
-            src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
-            data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
-          />
-        </a>
-        <p style={{ paddingRight: '150px' }}>Unofficial listings of Sanrio character costumes</p>
-        <RouterLink to="/statistics" data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="homeTile" data-ga-event-label="statistics">
-          <FlatButton label="Statistics" icon={<EditorShowChart />} />
-        </RouterLink>
+        <div style={{
+          float: 'right',
+          position: 'relative',
+          top: -this.props.theme.spacing.unit,
+          right: -this.props.theme.spacing.unit,
+        }}
+        >
+          <a href="https://github.com/ohtake/sanrio-wardrobe">
+            <img
+              alt="Fork me on GitHub"
+              src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+              data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
+            />
+          </a>
+        </div>
+        <p>Unofficial listings of Sanrio character costumes</p>
+        <Button component={RouterLink} to="/statistics" data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="homeTile" data-ga-event-label="statistics">
+          <EditorShowChart />Statistics
+        </Button>
         <h2>Featured characters</h2>
         {this.renderGallery(featured, 'featured')}
         <h2>All characters</h2>
@@ -117,8 +123,13 @@ export default class Home extends React.Component {
     );
   }
 }
+Home.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  theme: PropTypes.object.isRequired,
+};
 Home.contextTypes = {
-  muiTheme: PropTypes.object.isRequired,
   setTitle: PropTypes.func,
   thumbnailSize: PropTypes.number,
 };
+
+export default withTheme()(Home);
