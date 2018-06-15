@@ -3,46 +3,20 @@ import PropTypes from 'prop-types';
 import toPairs from 'lodash/toPairs';
 import RouterLink from 'react-router-dom/Link';
 
-import Avatar from 'material-ui/Avatar';
-import FlatButton from 'material-ui/FlatButton';
-import {
-  Table,
-  TableBody,
-  TableHeader,
-  TableHeaderColumn,
-  TableRow,
-  TableRowColumn,
-} from 'material-ui/Table';
+import { withStyles } from '@material-ui/core/styles';
+import Avatar from '@material-ui/core/Avatar';
+import Button from '@material-ui/core/Button';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
 
 import Colors from './colors';
 import DataFile from './data_file';
 
-const rowStyle = {
-  height: '38px',
-};
-const cellStyle = {
-  height: '38px',
-  paddingLeft: '4px',
-  paddingRight: '4px',
-};
-const buttonLabelStyle = {
-  textTransform: 'none',
-};
-
-function renderAvatarCell(df, gaEventName) {
-  return (
-    <TableRowColumn style={cellStyle}>
-      <RouterLink to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventName} data-ga-event-label={df.name}>
-        <FlatButton
-          label={df.name}
-          icon={df.picUrl ? <Avatar src={df.picUrl} size={30} /> : <Avatar size={30}>{df.seriesSymbol}</Avatar>}
-          labelStyle={buttonLabelStyle}
-        />
-      </RouterLink>
-    </TableRowColumn>);
-}
-
-export default class Statistics extends React.Component {
+class Statistics extends React.Component {
   constructor() {
     super();
     this.state = { statistics: null, message: 'Loading statistics...' };
@@ -60,53 +34,66 @@ export default class Statistics extends React.Component {
       this.setState({ message: err.toString() });
     });
   }
+  renderAvatarCell(df, gaEventName) {
+    return (
+      <TableCell>
+        <Button component={RouterLink} to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventName} data-ga-event-label={df.name} className={this.props.classes.charaButton}>
+          {df.picUrl ? <Avatar src={df.picUrl} className={this.props.classes.avatar} /> : <Avatar className={this.props.classes.avatar}>{df.seriesSymbol}</Avatar>}
+          {df.name}
+        </Button>
+      </TableCell>);
+  }
   renderCount() {
     const totalCount = DataFile.all.map(df => this.state.statistics.count[df.name]).reduce((acc, current) => acc + current);
     return (
       <React.Fragment>
         <h2>Count (total={totalCount})</h2>
-        <Table selectable={false}>
-          <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
-            <TableRow style={rowStyle}>
-              <TableHeaderColumn style={cellStyle}>Character</TableHeaderColumn>
-              <TableHeaderColumn style={cellStyle}>Series</TableHeaderColumn>
-              <TableHeaderColumn style={cellStyle}>Name (ja)</TableHeaderColumn>
-              <TableHeaderColumn style={cellStyle}>Name (en)</TableHeaderColumn>
-              <TableHeaderColumn style={cellStyle}>Count</TableHeaderColumn>
-            </TableRow>
-          </TableHeader>
-          <TableBody displayRowCheckbox={false} stripedRows>
-            {DataFile.all.map(df => (
-              <TableRow style={rowStyle}>
-                {renderAvatarCell(df, 'statCount')}
-                <TableRowColumn style={cellStyle}>{df.seriesSymbol}</TableRowColumn>
-                <TableRowColumn style={cellStyle}>{df.nameJa}</TableRowColumn>
-                <TableRowColumn style={cellStyle}>{df.nameEn}</TableRowColumn>
-                <TableRowColumn style={cellStyle}>{this.state.statistics.count[df.name]}</TableRowColumn>
-              </TableRow>))}
-          </TableBody>
-        </Table>
+        <Paper>
+          <Table selectable={false}>
+            <TableHead>
+              <TableRow>
+                <TableCell>Character</TableCell>
+                <TableCell>Series</TableCell>
+                <TableCell>Name (ja)</TableCell>
+                <TableCell>Name (en)</TableCell>
+                <TableCell>Count</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {DataFile.all.map(df => (
+                <TableRow hover>
+                  {this.renderAvatarCell(df, 'statCount')}
+                  <TableCell>{df.seriesSymbol}</TableCell>
+                  <TableCell>{df.nameJa}</TableCell>
+                  <TableCell>{df.nameEn}</TableCell>
+                  <TableCell numeric>{this.state.statistics.count[df.name]}</TableCell>
+                </TableRow>))}
+            </TableBody>
+          </Table>
+        </Paper>
       </React.Fragment>);
   }
   renderColor() {
     return (
       <React.Fragment>
         <h2>Color (requires wide screen to display correctly)</h2>
-        <Table selectable={false}>
-          <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
-            <TableRow style={rowStyle}>
-              <TableHeaderColumn style={cellStyle}>Character</TableHeaderColumn>
-              {Colors.all.map(c => <TableHeaderColumn style={cellStyle}>{c.name}</TableHeaderColumn>)}
-            </TableRow>
-          </TableHeader>
-          <TableBody displayRowCheckbox={false} stripedRows>
-            {DataFile.all.map(df => (
-              <TableRow style={rowStyle}>
-                {renderAvatarCell(df, 'statColor')}
-                {Colors.all.map(c => <TableRowColumn style={cellStyle}>{this.state.statistics.color[df.name][c.id]}</TableRowColumn>)}
-              </TableRow>))}
-          </TableBody>
-        </Table>
+        <Paper>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>Character</TableCell>
+                {Colors.all.map(c => <TableCell>{c.name}</TableCell>)}
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {DataFile.all.map(df => (
+                <TableRow hover>
+                  {this.renderAvatarCell(df, 'statColor')}
+                  {Colors.all.map(c => <TableCell numeric>{this.state.statistics.color[df.name][c.id]}</TableCell>)}
+                </TableRow>))}
+            </TableBody>
+          </Table>
+        </Paper>
       </React.Fragment>);
   }
   renderAuthor() {
@@ -118,21 +105,23 @@ export default class Statistics extends React.Component {
     return (
       <React.Fragment>
         <h2>Author ({sortedAuthor.length} authors)</h2>
-        <Table selectable={false}>
-          <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
-            <TableRow style={rowStyle}>
-              <TableHeaderColumn style={cellStyle}>Name</TableHeaderColumn>
-              <TableHeaderColumn style={cellStyle}>Count</TableHeaderColumn>
-            </TableRow>
-          </TableHeader>
-          <TableBody displayRowCheckbox={false} stripedRows>
-            {sortedAuthor.map(a => (
-              <TableRow style={rowStyle}>
-                <TableRowColumn style={cellStyle}>{a[0]}</TableRowColumn>
-                <TableRowColumn style={cellStyle}>{a[1]}</TableRowColumn>
-              </TableRow>))}
-          </TableBody>
-        </Table>
+        <Paper>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>Name</TableCell>
+                <TableCell>Count</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {sortedAuthor.map(a => (
+                <TableRow hover>
+                  <TableCell>{a[0]}</TableCell>
+                  <TableCell numeric>{a[1]}</TableCell>
+                </TableRow>))}
+            </TableBody>
+          </Table>
+        </Paper>
       </React.Fragment>);
   }
   render() {
@@ -148,6 +137,20 @@ export default class Statistics extends React.Component {
     );
   }
 }
+Statistics.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  classes: PropTypes.object.isRequired,
+};
 Statistics.contextTypes = {
   setTitle: PropTypes.func,
 };
+
+export default withStyles({
+  avatar: {
+    width: 24,
+    height: 24,
+  },
+  charaButton: {
+    textTransform: 'none',
+  },
+})(Statistics);
