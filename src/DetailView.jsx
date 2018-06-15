@@ -28,7 +28,7 @@ import throttle from 'lodash/throttle';
 import verge from 'verge';
 
 import Colors from './colors';
-
+import Photo from './photo';
 import * as utils from './utils';
 
 const swipingRatioThreshold = 0.3;
@@ -74,20 +74,20 @@ export default class DetailView extends React.Component {
     this.setState({ showInfo: !this.state.showInfo });
   }
   moveToIndex(index) {
-    const photo = this.state.photos[index];
+    const photo = this.props.photos[index];
     this.context.router.history.replace(`/chara/${this.props.chara}/${window.encodeURIComponent(photo.data.title)}`);
     utils.sendGoogleAnalyticsEvent('lightbox', 'navigate', `${this.props.chara} ${photo.data.title}`);
   }
   moveNext(e) {
     e.preventDefault();
-    this.moveToIndex((this.state.index + 1) % this.state.photos.length);
+    this.moveToIndex((this.props.index + 1) % this.props.photos.length);
   }
   movePrev(e) {
     e.preventDefault();
-    this.moveToIndex(((this.state.index + this.state.photos.length) - 1) % this.state.photos.length);
+    this.moveToIndex(((this.props.index + this.props.photos.length) - 1) % this.props.photos.length);
   }
   openImageSource() {
-    const photo = this.state.photos[this.state.index];
+    const photo = this.props.photos[this.props.index];
     window.open(photo.data.source.url);
   }
   handleSwiping(e, deltaX/* , deltaY, absX, absY, velocity */) {
@@ -104,7 +104,7 @@ export default class DetailView extends React.Component {
     this.setState({ swipingRatio: 0 });
   }
   handleKeyDown(e) {
-    if (this.state.photos == null) return; // Don't handle any unless opened
+    if (this.props.photos == null) return; // Don't handle any unless opened
     if (e.altKey || e.ctrlKey || e.shiftKey) return; // Don't handle keyboard shortcuts
     switch (e.keyCode) {
       case 37: // left
@@ -190,14 +190,14 @@ export default class DetailView extends React.Component {
       />);
   }
   render() {
-    if (this.state.photos == null) {
+    const { photos, index } = this.props;
+    if (index === undefined || index < 0 || !photos) {
       return <Drawer open={false} openSecondary docked />;
     }
-    const { index } = this.state;
-    const len = this.state.photos.length;
-    const main = this.state.photos[index];
-    const next = this.state.photos[(index + 1) % len];
-    const prev = this.state.photos[((index + len) - 1) % len];
+    const len = photos.length;
+    const main = photos[index];
+    const next = photos[(index + 1) % len];
+    const prev = photos[((index + len) - 1) % len];
     const theme = this.context.muiTheme;
     const navSize = 24;
     const navPadding = 12;
@@ -262,6 +262,12 @@ export default class DetailView extends React.Component {
 }
 DetailView.propTypes = {
   chara: PropTypes.string.isRequired,
+  photos: PropTypes.arrayOf(PropTypes.instanceOf(Photo)),
+  index: PropTypes.number,
+};
+DetailView.defaultProps = {
+  photos: [],
+  index: -1,
 };
 DetailView.contextTypes = {
   muiTheme: PropTypes.object.isRequired,

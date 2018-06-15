@@ -49,15 +49,12 @@ export default class Gallery extends React.Component {
   }
 
   render() {
-    if (this.props.photos) {
-      const thumbnailHeight = this.context.thumbnailSize;
-      return (<FullWidthContainer
-        renderElement={width => (
-          <JustifiedLayout targetRowHeight={thumbnailHeight} containerWidth={width} childObjects={this.props.photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />
-        )}
-      />);
-    }
-    return null;
+    const thumbnailHeight = this.context.thumbnailSize;
+    return (<FullWidthContainer
+      renderElement={width => (
+        <JustifiedLayout targetRowHeight={thumbnailHeight} containerWidth={width} childObjects={this.props.photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />
+      )}
+    />);
   }
 }
 Gallery.propTypes = {
@@ -65,7 +62,7 @@ Gallery.propTypes = {
   chara: PropTypes.string.isRequired,
 };
 Gallery.defaultProps = {
-  photos: null,
+  photos: [],
 };
 Gallery.contextTypes = {
   muiTheme: PropTypes.object.isRequired,

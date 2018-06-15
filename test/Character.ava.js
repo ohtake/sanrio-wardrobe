@@ -44,7 +44,7 @@ test.cb('<Character /> should be loaded with kt-kitty', t => {
     const wrapper = mount(<Character match={{ params: { chara: 'kt-kitty' } }} />, { context });
     t.not(null, wrapper.state('message'));
     t.is(0, wrapper.state('message').indexOf('Loading'));
-    t.is(null, wrapper.state('photos'));
+    t.deepEqual([], wrapper.state('photos'));
     setTimeout(() => { // setImmediate does not work?
       t.is(null, wrapper.state('message'));
       t.not(null, wrapper.state('photos'));

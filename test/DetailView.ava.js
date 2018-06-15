@@ -49,9 +49,8 @@ test('<DetailView /> should be loaded without photos', t => {
 /** @test {DetailView} */
 test('<DetailView /> should handle one photo', t => {
   const context2 = createContextWithSpiedRouter();
-  const wrapper = shallow(<DetailView chara="zz-zzzzz" />, { context: context2 });
+  const wrapper = shallow(<DetailView chara="zz-zzzzz" photos={[new Photo(photoTemplate)]} index={0} />, { context: context2 });
   const instance = wrapper.instance();
-  wrapper.setState({ photos: [new Photo(photoTemplate)], index: 0 });
   instance.moveNext(dummyEvent);
   t.is(context2.router.history.replace.callCount, 1);
   t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template']);
@@ -70,19 +69,19 @@ test('<DetailView /> should handle four photo', t => {
     photo.title = `template${i}`;
     return new Photo(photo);
   });
-  wrapper.setState({ photos, index: 0 });
+  wrapper.setProps({ photos, index: 0 });
   instance.moveNext(dummyEvent);
   t.is(context2.router.history.replace.callCount, 1);
   t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template1']);
-  wrapper.setState({ index: 1 }); // setState by Character component
+  wrapper.setProps({ index: 1 });
   instance.movePrev(dummyEvent);
   t.is(context2.router.history.replace.callCount, 2);
   t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template0']);
-  wrapper.setState({ index: 0 });
+  wrapper.setProps({ index: 0 });
   instance.movePrev(dummyEvent);
   t.is(context2.router.history.replace.callCount, 3);
   t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template3']);
-  wrapper.setState({ index: 3 });
+  wrapper.setProps({ index: 3 });
   instance.moveNext(dummyEvent);
   t.is(context2.router.history.replace.callCount, 4);
   t.deepEqual(context2.router.history.replace.lastCall.args, ['/chara/zz-zzzzz/template0']);
@@ -90,9 +89,8 @@ test('<DetailView /> should handle four photo', t => {
 
 /** @test {DetailView#toggleInfo} */
 test('<DetailView /> should handle toggleInfo', t => {
-  const wrapper = shallow(<DetailView chara="zz-zzzzz" />, { context });
+  const wrapper = shallow(<DetailView chara="zz-zzzzz" photos={[new Photo(photoTemplate)]} index={0} />, { context });
   const instance = wrapper.instance();
-  wrapper.setState({ photos: [new Photo(photoTemplate)], index: 0 });
   t.true(wrapper.find('AppBar').exists());
   instance.toggleInfo();
   wrapper.update(); // Why required?

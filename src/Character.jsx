@@ -44,12 +44,12 @@ class SearchParams {
 export default class Character extends React.Component {
   constructor() {
     super();
-    this.state = { message: 'Initializing' };
+    this.allPhotos = [];
+    this.state = { message: 'Initializing', photos: [] };
     this.searchParams = new SearchParams();
 
     this.refColor = React.createRef();
     this.refText = React.createRef();
-    this.refLightbox = React.createRef();
 
     this.colorChanged = this.colorChanged.bind(this);
     this.handleSearchIconClick = this.handleSearchIconClick.bind(this);
@@ -68,7 +68,8 @@ export default class Character extends React.Component {
     return this.state.photos !== nextState.photos
       || this.state.chara !== nextState.chara
       || this.state.title !== nextState.title
-      || this.state.message !== nextState.message;
+      || this.state.message !== nextState.message
+      || this.state.index !== nextState.index;
   }
   componentDidUpdate(prevProps, prevState) {
     if (prevState.chara !== this.state.chara) {
@@ -81,14 +82,16 @@ export default class Character extends React.Component {
    * @private
    * @returns {void}
    */
-  async loadPhotos() {
-    this.clearSearch();
+  loadPhotos() {
     const df = DataFile.findByName(this.state.chara);
     this.context.setTitle(df.getDisplayName());
     this.setState({
-      photos: null,
+      photos: [],
       message: `Loading ${this.state.chara}`,
     });
+    this.loadPhotosAsync();
+  }
+  async loadPhotosAsync() {
     try {
       const photos = await Photo.loadPhotos(this.state.chara);
       this.allPhotos = photos;
@@ -96,10 +99,11 @@ export default class Character extends React.Component {
         photos: photos.slice(0),
         message: null,
       });
+      this.clearSearch();
       this.updateLightbox(this.state.title);
     } catch (err) {
       this.setState({
-        photos: null,
+        photos: [],
         message: err.toString(),
       });
     }
@@ -114,13 +118,14 @@ export default class Character extends React.Component {
       if (this.state.photos) {
         const index = this.state.photos.findIndex(p => title === p.data.title);
         if (index >= 0) {
-          this.refLightbox.current.setState({ photos: this.state.photos, index });
-          return;
+          this.setState({ index });
+        } else {
+          this.context.router.history.replace(`/chara/${this.state.chara}`);
         }
-        this.context.router.history.replace(`/chara/${this.state.chara}`);
       }
+    } else {
+      this.setState({ index: -1 });
     }
-    this.refLightbox.current.setState({ photos: null, index: 0 });
   }
   execSearch() {
     if (!this.state.photos) return;
@@ -177,7 +182,7 @@ export default class Character extends React.Component {
         <TextField ref={this.refText} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
         {this.state.message ? <div>{this.state.message}</div> : null}
         <Gallery photos={this.state.photos} chara={this.state.chara} />
-        <DetailView ref={this.refLightbox} chara={this.state.chara} />
+        <DetailView chara={this.state.chara} photos={this.state.photos} index={this.state.index} />
       </React.Fragment>
     );
   }
