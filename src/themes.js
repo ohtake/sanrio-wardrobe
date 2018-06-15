@@ -1,5 +1,6 @@
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
+import { createMuiTheme } from '@material-ui/core/styles';
 import * as Colors from '@material-ui/core/colors';
 
 export const themeDark = getMuiTheme(darkBaseTheme, {
@@ -11,6 +12,13 @@ export const themeDark = getMuiTheme(darkBaseTheme, {
   },
   appBar: {
     textColor: Colors.common.white,
+  },
+});
+
+export const themeDarkV1 = createMuiTheme({
+  palette: {
+    type: 'dark',
+    primary: Colors.indigo,
   },
 });
 
