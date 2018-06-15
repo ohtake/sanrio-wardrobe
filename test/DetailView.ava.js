@@ -2,13 +2,16 @@ import React from 'react';
 
 import test from 'ava';
 import sinon from 'sinon';
-import { shallow } from 'enzyme';
+import createShallow from '@material-ui/core/test-utils/createShallow';
 import clone from 'lodash/clone';
 import range from 'lodash/range';
 
+import AppBar from '@material-ui/core/AppBar';
+
 import DetailView from '../src/DetailView';
 import Photo from '../src/photo';
-import * as themes from '../src/themes';
+
+const shallow = createShallow({ dive: true });
 
 const dummyEvent = {
   preventDefault: () => {},
@@ -30,10 +33,10 @@ const photoTemplate = {
   notes: ['note1', 'note2'],
 };
 
-const context = { muiTheme: themes.themeDark, router: dummyRouter };
+const context = { router: dummyRouter };
 
 function createContextWithSpiedRouter() {
-  const c = { muiTheme: themes.themeDark };
+  const c = {};
   c.router = clone(dummyRouter);
   c.router.history.replace = sinon.spy();
   return c;
@@ -91,8 +94,8 @@ test('<DetailView /> should handle four photo', t => {
 test('<DetailView /> should handle toggleInfo', t => {
   const wrapper = shallow(<DetailView chara="zz-zzzzz" photos={[new Photo(photoTemplate)]} index={0} />, { context });
   const instance = wrapper.instance();
-  t.true(wrapper.find('AppBar').exists());
+  t.true(wrapper.find(AppBar).exists());
   instance.toggleInfo();
   wrapper.update(); // Why required?
-  t.false(wrapper.find('AppBar').exists());
+  t.false(wrapper.find(AppBar).exists());
 });
