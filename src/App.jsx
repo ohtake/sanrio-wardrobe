@@ -4,16 +4,23 @@ import NavLink from 'react-router-dom/NavLink';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
 
-import AppBar from 'material-ui/AppBar';
-import Avatar from 'material-ui/Avatar';
-import Divider from 'material-ui/Divider';
-import Drawer from 'material-ui/Drawer';
-import IconButton from 'material-ui/IconButton';
-import IconMenu from 'material-ui/IconMenu';
-import { List, ListItem } from 'material-ui/List';
-import Subheader from 'material-ui/Subheader';
-import { Toolbar, ToolbarGroup } from 'material-ui/Toolbar';
-import Slider from 'material-ui/Slider';
+import AppBar from '@material-ui/core/AppBar';
+import Avatar from '@material-ui/core/Avatar';
+import Divider from '@material-ui/core/Divider';
+import Drawer from '@material-ui/core/Drawer';
+import IconButton from '@material-ui/core/IconButton';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import ListSubheader from '@material-ui/core/ListSubheader';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Slider from '@material-ui/lab/Slider';
+import { withTheme } from '@material-ui/core/styles';
 
 import ActionFeedback from '@material-ui/icons/Feedback';
 import ActionHome from '@material-ui/icons/Home';
@@ -23,6 +30,7 @@ import ActionTurnedInNot from '@material-ui/icons/TurnedInNot';
 import EditorShowChart from '@material-ui/icons/ShowChart';
 import ImagePhotoSizeSelectLarge from '@material-ui/icons/PhotoSizeSelectLarge';
 import NavigationClose from '@material-ui/icons/Close';
+import MenuIcon from '@material-ui/icons/Menu';
 
 import Home from './Home';
 import Character from './Character';
@@ -34,7 +42,6 @@ import * as utils from './utils';
 
 const appDefaultTitle = 'Sanrio Wardrobe';
 
-export default
 /**
  * Application root component
  */
@@ -52,11 +59,12 @@ class App extends React.Component {
     this.refSliderThumbnailSize = React.createRef();
 
     this.setTitle = this.setTitle.bind(this);
-    this.handleAppMenu = this.handleAppMenu.bind(this);
-    this.handleMenuChange = this.handleMenuChange.bind(this);
+    this.handleMenuOpen = this.handleMenuOpen.bind(this);
     this.handleMenuClick = this.handleMenuClick.bind(this);
     this.handleMenuPinned = this.handleMenuPinned.bind(this);
     this.handleMenuClose = this.handleMenuClose.bind(this);
+    this.handleSettingsOpen = this.handleSettingsOpen.bind(this);
+    this.handleSettingsClose = this.handleSettingsClose.bind(this);
     this.handleThumbnailSizeChange = this.handleThumbnailSizeChange.bind(this);
     this.menuWidth = 250;
   }
@@ -78,11 +86,8 @@ class App extends React.Component {
       this.setState({ title: appDefaultTitle });
     }
   }
-  handleAppMenu(/* e */) {
-    this.setState({ menuOpened: !this.state.menuOpened });
-  }
-  handleMenuChange(open /* , reason */) {
-    this.setState({ menuOpened: open });
+  handleMenuOpen() {
+    this.setState({ menuOpened: true });
   }
   handleMenuPinned() {
     this.setState({ menuDocked: !this.state.menuDocked });
@@ -94,77 +99,90 @@ class App extends React.Component {
     if (this.state.menuDocked) return;
     window.setTimeout(() => this.setState({ menuOpened: false }), 200);
   }
-  handleThumbnailSizeChange() {
-    this.setState({ thumbnailSize: this.refSliderThumbnailSize.current.state.value });
+  handleSettingsOpen(ev) {
+    this.setState({ menuSettingsAnchorEl: ev.currentTarget });
+  }
+  handleSettingsClose() {
+    this.setState({ menuSettingsAnchorEl: null });
+  }
+  handleThumbnailSizeChange(event, value) {
+    this.setState({ thumbnailSize: value });
   }
   renderAppBar() {
     return (
-      <AppBar
-        title={this.state.title}
-        onLeftIconButtonClick={this.handleAppMenu}
-        showMenuIconButton={!this.state.menuOpened || !this.state.menuDocked}
-        style={{
-          position: 'fixed', top: 0, left: (this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0), right: 0, width: null,
-        }}
-        iconElementRight={
-          <IconMenu iconButtonElement={<IconButton><ActionSettings /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
-            <List>
-              <ListItem leftIcon={<ImagePhotoSizeSelectLarge />}>
-                <span>Thumbnail size: {this.state.thumbnailSize}</span>
-                <Slider ref={this.refSliderThumbnailSize} defaultValue={this.state.thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
-              </ListItem>
+      <AppBar position="static">
+        <Toolbar>
+          {!this.state.menuOpened || !this.state.menuDocked ?
+            <IconButton onClick={this.handleMenuOpen}><MenuIcon /></IconButton> : null }
+          <div style={{ flexGrow: 1 }}>
+            <Typography variant="title">{this.state.title}</Typography>
+          </div>
+          <div>
+            <IconButton onClick={this.handleSettingsOpen}>
+              <ActionSettings />
+            </IconButton>
+            <Menu open={Boolean(this.state.menuSettingsAnchorEl)} anchorEl={this.state.menuSettingsAnchorEl} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }} transformOrigin={{ horizontal: 'right', vertical: 'top' }} onClose={this.handleSettingsClose}>
+              <MenuItem>
+                <ListItemIcon><ImagePhotoSizeSelectLarge /></ListItemIcon>
+                <ListItemText>
+                  <span>Thumbnail size: {this.state.thumbnailSize}</span>
+                  <Slider ref={this.refSliderThumbnailSize} value={this.state.thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
+                </ListItemText>
+              </MenuItem>
               <Divider />
-              <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />
-            </List>
-          </IconMenu>
-        }
-      />
+              <MenuItem onClick={utils.openFeedback}>
+                <ListItemIcon><ActionFeedback /></ListItemIcon>
+                <ListItemText>Feedback</ListItemText>
+              </MenuItem>
+            </Menu>
+          </div>
+        </Toolbar>
+      </AppBar>
     );
   }
   renderDrawer() {
-    const { theme } = this.state;
+    const { theme } = this.props;
     const activeStyle = {
-      display: 'block',
-      borderLeft: `8px solid ${theme.palette.primary1Color}`,
+      borderLeft: `8px solid ${theme.palette.primary.main}`,
     };
     return (
-      <Drawer open={this.state.menuOpened} docked={this.state.menuDocked} onRequestChange={this.handleMenuChange} containerClassName="appMenu" width={this.menuWidth}>
-        <Toolbar>
-          <ToolbarGroup firstChild>
-            {/* Needs firstChild to align others to left */}
-          </ToolbarGroup>
-          <ToolbarGroup>
+      <Drawer open={this.state.menuOpened} variant={this.state.menuDocked ? 'persistent' : 'temporary'} onClose={this.handleMenuClose}>
+        <div style={{ width: this.menuWidth, overflowX: 'hidden' }}>
+          <Toolbar>
+            <div style={{ flexGrow: 1 }} />
             <IconButton onClick={this.handleMenuPinned}>
-              {this.state.menuDocked ? <ActionTurnedIn color={theme.palette.textColor} /> : <ActionTurnedInNot color={theme.palette.textColor} />}
+              {this.state.menuDocked ? <ActionTurnedIn color="action" /> : <ActionTurnedInNot color="action" />}
             </IconButton>
             <IconButton onClick={this.handleMenuClose}>
-              <NavigationClose color={theme.palette.textColor} />
+              <NavigationClose color="action" />
             </IconButton>
-          </ToolbarGroup>
-        </Toolbar>
-        <List>
-          <NavLink to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="home">
-            <ListItem primaryText="Home" leftIcon={<ActionHome />} />
-          </NavLink>
-          <NavLink to="/statistics" onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="statistics">
-            <ListItem primaryText="Statistics" leftIcon={<EditorShowChart />} />
-          </NavLink>
+          </Toolbar>
           <Divider />
-          <Subheader>Characters</Subheader>
-          {DataFile.all.map(c => (
-            <NavLink key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
-              <ListItem primaryText={c.getDisplayName()} leftAvatar={c.picUrl ? <Avatar src={c.picUrl} /> : <Avatar>{c.seriesSymbol}</Avatar>} />
-            </NavLink>))}
-        </List>
+          <List>
+            <ListItem button component={NavLink} to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="home">
+              <ListItemIcon><ActionHome /></ListItemIcon>
+              <ListItemText>Home</ListItemText>
+            </ListItem>
+            <ListItem button component={NavLink} to="/statistics" onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="statistics">
+              <ListItemIcon><EditorShowChart /></ListItemIcon>
+              <ListItemText>Statistics</ListItemText>
+            </ListItem>
+          </List>
+          <Divider />
+          <List subheader={<ListSubheader>Characters</ListSubheader>}>
+            {DataFile.all.map(c => (
+              <ListItem button component={NavLink} key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
+                <ListItemAvatar>{c.picUrl ? <Avatar src={c.picUrl} /> : <Avatar>{c.seriesSymbol}</Avatar>}</ListItemAvatar>
+                <ListItemText>{c.getDisplayName()}</ListItemText>
+              </ListItem>))}
+          </List>
+        </div>
       </Drawer>);
   }
   render() {
-    const { theme } = this.state;
+    const { theme } = this.props;
     const containerStyle = {
-      color: theme.palette.textColor,
-      backgroundColor: theme.palette.canvasColor,
-      padding: theme.spacing.desktopGutterMini,
-      marginTop: theme.appBar.height,
+      padding: theme.spacing.unit,
     };
     return (
       <div style={{ marginLeft: this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0 }}>
@@ -181,9 +199,12 @@ class App extends React.Component {
   }
 }
 App.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  theme: PropTypes.object.isRequired,
 };
 App.childContextTypes = {
   muiTheme: PropTypes.object,
   thumbnailSize: PropTypes.number,
   setTitle: PropTypes.func,
 };
+export default withTheme()(App);

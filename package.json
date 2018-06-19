@@ -9,6 +9,7 @@
   "dependencies": {
     "@material-ui/core": "^1.2.1",
     "@material-ui/icons": "^1.1.0",
+    "@material-ui/lab": "^1.0.0-alpha.5",
     "css-element-queries": "^1.0.2",
     "justified-layout": "^2.1.1",
     "lodash": "^4.17.10",
