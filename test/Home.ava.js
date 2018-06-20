@@ -1,9 +1,11 @@
 import React from 'react';
 
 import test from 'ava';
-import { shallow } from 'enzyme';
+import createShallow from '@material-ui/core/test-utils/createShallow';
 
 import Home from '../src/Home';
+
+const shallow = createShallow({ dive: true });
 
 const context = {
   setTitle: () => {},
