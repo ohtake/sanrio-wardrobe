@@ -13,7 +13,6 @@
     "css-element-queries": "^1.0.2",
     "justified-layout": "^2.1.1",
     "lodash": "^4.17.10",
-    "material-ui": "^0.20.1",
     "object-fit-images": "^3.2.3",
     "prop-types": "^15.6.1",
     "react": "^16.4.1",
