@@ -2,26 +2,30 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import HashRouter from 'react-router-dom/HashRouter';
 
-import AppBar from 'material-ui/AppBar';
-import Divider from 'material-ui/Divider';
-import Drawer from 'material-ui/Drawer';
-import IconButton from 'material-ui/IconButton';
-import IconMenu from 'material-ui/IconMenu';
-import { List, ListItem } from 'material-ui/List';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Divider from '@material-ui/core/Divider';
+import Drawer from '@material-ui/core/Drawer';
+import IconButton from '@material-ui/core/IconButton';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import Typography from '@material-ui/core/Typography';
+import { withTheme } from '@material-ui/core/styles';
 
-import ActionFeedback from 'material-ui/svg-icons/action/feedback';
-import ActionOpenInBrowser from 'material-ui/svg-icons/action/open-in-browser';
-import NavigationArrowBack from 'material-ui/svg-icons/navigation/arrow-back';
-import NavigationChevronLeft from 'material-ui/svg-icons/navigation/chevron-left';
-import NavigationChevronRight from 'material-ui/svg-icons/navigation/chevron-right';
-import NavigationFullscreen from 'material-ui/svg-icons/navigation/fullscreen';
-import NavigationFullscreenExit from 'material-ui/svg-icons/navigation/fullscreen-exit';
-import NavigationMoreVert from 'material-ui/svg-icons/navigation/more-vert';
+import ActionFeedback from '@material-ui/icons/Feedback';
+import ActionOpenInBrowser from '@material-ui/icons/OpenInBrowser';
+import NavigationArrowBack from '@material-ui/icons/ArrowBack';
+import NavigationChevronLeft from '@material-ui/icons/ChevronLeft';
+import NavigationChevronRight from '@material-ui/icons/ChevronRight';
+import NavigationFullscreen from '@material-ui/icons/Fullscreen';
+import NavigationFullscreenExit from '@material-ui/icons/FullscreenExit';
+import NavigationMoreVert from '@material-ui/icons/MoreVert';
 
-import AutoLockScrolling from 'material-ui/internal/AutoLockScrolling';
 import Swipeable from 'react-swipeable';
 
-import { fade } from 'material-ui/utils/colorManipulator';
+import { fade } from '@material-ui/core/styles/colorManipulator';
 import assign from 'lodash/assign';
 import clone from 'lodash/clone';
 import throttle from 'lodash/throttle';
@@ -33,7 +37,7 @@ import * as utils from './utils';
 
 const swipingRatioThreshold = 0.3;
 
-export default class DetailView extends React.Component {
+class DetailView extends React.Component {
   constructor() {
     super();
 
@@ -43,6 +47,8 @@ export default class DetailView extends React.Component {
     this.handleSwiping = throttle(this.handleSwiping.bind(this), 50);
     this.handleSwiped = this.handleSwiped.bind(this);
     this.closeDetailView = this.closeDetailView.bind(this);
+    this.handleMenuOpen = this.handleMenuOpen.bind(this);
+    this.handleMenuClose = this.handleMenuClose.bind(this);
     this.openImageSource = this.openImageSource.bind(this);
     this.toggleInfo = this.toggleInfo.bind(this);
     this.moveNext = this.moveNext.bind(this);
@@ -70,7 +76,14 @@ export default class DetailView extends React.Component {
     // FIXME Don't set state manually
     this.state.showInfo = true;
   }
+  handleMenuOpen(ev) {
+    this.setState({ menuAnchorEl: ev.currentTarget });
+  }
+  handleMenuClose() {
+    this.setState({ menuAnchorEl: null });
+  }
   toggleInfo() {
+    this.handleMenuClose();
     this.setState({ showInfo: !this.state.showInfo });
   }
   moveToIndex(index) {
@@ -118,13 +131,13 @@ export default class DetailView extends React.Component {
     }
   }
   createColorSampleStyle(colorValue) {
-    const theme = this.context.muiTheme;
+    const { theme } = this.props;
     return {
       display: 'inline-block',
       width: '0.8em',
       height: '0.8em',
       margin: '0 0.2em 0',
-      border: `${theme.palette.borderColor} 1px solid`,
+      border: `${theme.palette.divider} 1px solid`,
       backgroundColor: colorValue,
     };
   }
@@ -152,60 +165,68 @@ export default class DetailView extends React.Component {
    * @returns {React.Node}
    */
   createCreditElement(photo) {
+    const { theme } = this.props;
     const texts = [];
     if (photo.data.source.author) texts.push(`by ${photo.data.source.author}`);
     if (photo.data.source.license) texts.push(`under ${photo.data.source.license}`);
-    const theme = this.context.muiTheme;
     return (
-      <a href={photo.data.source.url} target="_blank" rel="noopener noreferrer" style={{ color: theme.appBar.textColor }}>
+      <a href={photo.data.source.url} target="_blank" rel="noopener noreferrer" style={{ color: theme.palette.text.primary }}>
         {texts.join(' ') || 'no credit info'}
       </a>
     );
   }
   renderAppBar(main) {
-    const titleStyle = { overflow: 'hidden', textOverflow: 'ellipsis' };
-    const authorStyle = assign(clone(titleStyle), { margin: '-40px 0 0', fontSize: '60%' });
     return (
-      <AppBar
-        style={{ height: '72px' }}
-        titleStyle={{ height: '100px' }}
-        iconElementLeft={<IconButton onClick={this.closeDetailView}><NavigationArrowBack /></IconButton>}
-        title={
-          <React.Fragment>
-            <div style={titleStyle}>{main.data.title}</div>
-            <div style={authorStyle}>{this.createCreditElement(main)}</div>
-          </React.Fragment>}
-        iconElementRight={
-          <IconMenu iconButtonElement={<IconButton><NavigationMoreVert /></IconButton>} targetOrigin={{ horizontal: 'right', vertical: 'top' }} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}>
-            <List>
-              <ListItem primaryText="Open image source" leftIcon={<ActionOpenInBrowser />} secondaryText="Tap the credit" onClick={this.openImageSource} />
-              <ListItem primaryText="Fullscreen" leftIcon={<NavigationFullscreen />} secondaryText="Tap the image" onClick={this.toggleInfo} />
-              <ListItem primaryText="Move Previous" leftIcon={<NavigationChevronLeft />} secondaryText="Swipe right / Left key" onClick={this.movePrev} />
-              <ListItem primaryText="Move Next" leftIcon={<NavigationChevronRight />} secondaryText="Swipe left / Right key" onClick={this.moveNext} />
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton onClick={this.closeDetailView}><NavigationArrowBack /></IconButton>
+          <div style={{ flexGrow: 1 }}>
+            <div><Typography variant="title">{main.data.title}</Typography></div>
+            <div><Typography variant="subheading">{this.createCreditElement(main)}</Typography></div>
+          </div>
+          <div>
+            <IconButton onClick={this.handleMenuOpen}>
+              <NavigationMoreVert />
+            </IconButton>
+            <Menu open={Boolean(this.state.menuAnchorEl)} anchorEl={this.state.menuAnchorEl} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }} transformOrigin={{ horizontal: 'right', vertical: 'bottom' }} onClose={this.handleMenuClose}>
+              <MenuItem onClick={this.openImageSource}>
+                <ListItemIcon><ActionOpenInBrowser /></ListItemIcon>
+                <ListItemText primary="Open image source" secondary="Tap the credit" />
+              </MenuItem>
+              <MenuItem onClick={this.toggleInfo}>
+                <ListItemIcon><NavigationFullscreen /></ListItemIcon>
+                <ListItemText primary="Fullscreen" secondary="Tap the image" />
+              </MenuItem>
+              <MenuItem onClick={this.movePrev}>
+                <ListItemIcon><NavigationChevronLeft /></ListItemIcon>
+                <ListItemText primary="Move Previous" secondary="Swipe right / Left key" />
+              </MenuItem>
+              <MenuItem onClick={this.moveNext}>
+                <ListItemIcon><NavigationChevronRight /></ListItemIcon>
+                <ListItemText primary="Move Next" secondary="Swipe left / Right key" />
+              </MenuItem>
               <Divider />
-              <ListItem primaryText="Feedback" leftIcon={<ActionFeedback />} onClick={utils.openFeedback} />
-            </List>
-          </IconMenu>
-        }
-      />);
+              <MenuItem onClick={utils.openFeedback}>
+                <ListItemIcon><ActionFeedback /></ListItemIcon>
+                <ListItemText primary="Feedback" />
+              </MenuItem>
+            </Menu>
+          </div>
+        </Toolbar>
+      </AppBar>);
   }
   render() {
-    const { photos, index } = this.props;
+    const { photos, index, theme } = this.props;
     if (index === undefined || index < 0 || !photos) {
-      return <Drawer open={false} openSecondary docked />;
+      return <Drawer open={false} anchor="right" />;
     }
     const len = photos.length;
     const main = photos[index];
     const next = photos[(index + 1) % len];
     const prev = photos[((index + len) - 1) % len];
-    const theme = this.context.muiTheme;
-    const navSize = 24;
-    const navPadding = 12;
-    const navIconStyle = { width: navSize, height: navSize, fill: theme.palette.textColor };
-    const navButtonStyle = { width: navSize + (2 * navPadding), height: navSize + (2 * navPadding), padding: navPadding };
     const imgBaseStyle = { position: 'absolute', width: '100%', height: '100%' };
     const imgMainStyle = assign(clone(imgBaseStyle), { opacity: (Math.abs(this.state.swipingRatio) <= swipingRatioThreshold) ? 1 : 0.5 });
-    const imgPosition = this.state.menuWidth + theme.spacing.desktopGutterMini;
+    const imgPosition = this.state.menuWidth + theme.spacing.unit;
     // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
     const imgPrevStyle = assign(clone(imgBaseStyle), { left: -imgPosition, objectPosition: '100% 50%', opacity: (this.state.swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
     const imgNextStyle = assign(clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (this.state.swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
@@ -214,20 +235,21 @@ export default class DetailView extends React.Component {
       const containerStyle = { position: 'absolute' };
       if (isTop) { containerStyle.top = 0; } else { containerStyle.bottom = 0; }
       if (isLeft) { containerStyle.left = 0; } else { containerStyle.right = 0; }
-      return <div style={containerStyle}><IconButton onClick={handler} iconStyle={navIconStyle} style={navButtonStyle}>{iconElement}</IconButton></div>;
+      return <div style={containerStyle}><IconButton onClick={handler}>{iconElement}</IconButton></div>;
     }
 
     return (
       <Drawer
         open
-        openSecondary
-        docked
-        onRequestChange={this.closeDetailView}
-        width={this.state.menuWidth}
-        containerStyle={{ backgroundColor: fade(theme.palette.canvasColor, 0.8) }}
+        anchor="right"
       >
-        <AutoLockScrolling lock />
-        <div style={{ position: 'relative', height: '100%', overflow: 'hidden' }}>
+        <div style={{
+          position: 'relative',
+          width: this.state.menuWidth,
+          height: '100%',
+          overflow: 'hidden',
+        }}
+        >
           {this.state.showInfo ? this.renderAppBar(main) : null}
           <Swipeable
             style={{
@@ -243,10 +265,10 @@ export default class DetailView extends React.Component {
           </Swipeable>
           {this.state.showInfo ?
             <div style={{
-              position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.canvasColor, 0.4),
+              position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.background.default, 0.4),
             }}
             >
-              <ul style={{ margin: `${theme.spacing.desktopGutterMini}px ${navButtonStyle.width}px`, padding: '0 0 0 1.5em' }}>
+              <ul style={{ margin: `${theme.spacing.unit}px ${theme.spacing.unit * 5}px`, padding: '0 0 0 1.5em' }}>
                 {this.createNotesElement(main)}
               </ul>
             </div>
@@ -261,6 +283,8 @@ export default class DetailView extends React.Component {
   }
 }
 DetailView.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  theme: PropTypes.object.isRequired,
   chara: PropTypes.string.isRequired,
   photos: PropTypes.arrayOf(PropTypes.instanceOf(Photo)),
   index: PropTypes.number,
@@ -270,6 +294,6 @@ DetailView.defaultProps = {
   index: -1,
 };
 DetailView.contextTypes = {
-  muiTheme: PropTypes.object.isRequired,
   router: PropTypes.shape(HashRouter.propTypes).isRequired,
 };
+export default withTheme()(DetailView);

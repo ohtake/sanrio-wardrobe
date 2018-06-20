@@ -1,16 +1,19 @@
 import React from 'react';
 
 import test from 'ava';
+import Button from '@material-ui/core/Button';
 
-import { shallow } from 'enzyme';
+import createShallow from '@material-ui/core/test-utils/createShallow';
 
 import ColorSelector from '../src/ColorSelector';
-import * as themes from '../src/themes';
+import Colors from '../src/colors';
 
-const context = { muiTheme: themes.themeLight };
+const shallow = createShallow({ dive: true });
+
+const context = {};
 
 function clickFilter(wrapper) {
-  wrapper.find({ label: 'Color filter' }).simulate('click');
+  wrapper.find(Button).first().simulate('click');
 }
 function clickColor(wrapper, colorId) {
   wrapper.find({ data: colorId }).simulate('click', {
@@ -34,11 +37,11 @@ test('<ColorSelector /> should not have any active items at first', t => {
 /** @test {ColorSelector} */
 test('<ColorSelector /> should toggle color buttons', t => {
   const wrapper = shallow(<ColorSelector />, { context });
-  t.is(wrapper.find({ label: 'Red' }).length, 0);
+  t.is(wrapper.find(Button).length, 1);
   clickFilter(wrapper);
-  t.is(wrapper.find({ label: 'Red' }).length, 1);
+  t.is(wrapper.find(Button).length, 1 + Colors.all.length + 1);
   clickFilter(wrapper);
-  t.is(wrapper.find({ label: 'Red' }).length, 0);
+  t.is(wrapper.find(Button).length, 1);
 });
 
 /** @test {ColorSelector} */

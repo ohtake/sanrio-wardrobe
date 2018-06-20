@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import FlatButton from 'material-ui/FlatButton';
+import Button from '@material-ui/core/Button';
+import { withStyles } from '@material-ui/core/styles';
 
-import ContentFilterList from 'material-ui/svg-icons/content/filter-list';
+import ContentFilterList from '@material-ui/icons/FilterList';
 
 import clone from 'lodash/clone';
 
@@ -29,9 +30,10 @@ const styleBase = {
   padding: '0.2em 0.5em',
   borderWidth: '0 0 0.25em',
   minWidth: 0,
+  textTransform: 'none',
 };
 
-export default class ColorSelector extends React.Component {
+class ColorSelector extends React.Component {
   constructor() {
     super();
     this.state = { enabled: false, actives: {} };
@@ -98,20 +100,22 @@ export default class ColorSelector extends React.Component {
   listButtons() {
     return (
       <React.Fragment>
-        {this.props.colors.map(c => <FlatButton key={c.name} onClick={this.toggle} data={c.id} label={c.name} style={this.styleColor(c)} labelStyle={{ padding: 0, textTransform: 'none' }} />)}
-        <FlatButton key="clear" onClick={this.clear} data="" label="CLEAR" style={styleBase} labelStyle={{ padding: 0, textTransform: 'none' }} disabled={!this.isFilterEnabled()} />
+        {this.props.colors.map(c => <Button key={c.name} onClick={this.toggle} data={c.id} style={this.styleColor(c)}>{c.name}</Button>)}
+        <Button key="clear" onClick={this.clear} data="" style={styleBase} disabled={!this.isFilterEnabled()}>CLEAR</Button>
       </React.Fragment>
     );
   }
   render() {
     return (
       <div>
-        <FlatButton label="Color filter" labelStyle={{ textTransform: 'none' }} icon={<ContentFilterList />} onClick={this.start} />
+        <Button style={styleBase} onClick={this.start}><ContentFilterList className={this.props.classes.leftIcon} /> Color filter</Button>
         {this.state.enabled ? this.listButtons() : null}
       </div>);
   }
 }
 ColorSelector.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  classes: PropTypes.object.isRequired,
   colors: PropTypes.arrayOf(PropTypes.instanceOf(ColorItem)),
   onChanged: PropTypes.func,
 };
@@ -119,6 +123,9 @@ ColorSelector.defaultProps = {
   colors: Colors.all.map(c => new ColorItem(c.id, c.name, c.standard, c.light)),
   onChanged: null,
 };
-ColorSelector.contextTypes = {
-  muiTheme: PropTypes.object.isRequired,
-};
+
+export default withStyles(theme => ({
+  leftIcon: {
+    marginRight: theme.spacing.unit,
+  },
+}))(ColorSelector);

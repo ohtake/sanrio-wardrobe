@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import HashRouter from 'react-router-dom/HashRouter';
 
-import TextField from 'material-ui/TextField';
+import Grid from '@material-ui/core/Grid';
+import TextField from '@material-ui/core/TextField';
 
-import ActionSearch from 'material-ui/svg-icons/action/search';
+import ActionSearch from '@material-ui/icons/Search';
 
 import throttle from 'lodash/throttle';
 
@@ -138,14 +139,14 @@ export default class Character extends React.Component {
   }
   clearSearch() {
     this.searchParams.clear();
-    this.refText.current.input.value = '';
+    this.refText.current.value = '';
     this.refColor.current.clear();
   }
   handleSearchIconClick() {
-    this.refText.current.input.focus();
+    this.refText.current.focus();
   }
   handleSearchTextChanged() {
-    const text = this.refText.current.getValue();
+    const text = this.refText.current.value;
     const terms = text.split(/[ \u3000]/).filter(t => t.length > 0); // U+3000 = full width space
     const termsEscaped = terms.map(t => t.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'));
     const res = termsEscaped.map(te => new RegExp(te, 'i'));
@@ -155,7 +156,7 @@ export default class Character extends React.Component {
   handleSearchTextKeyDown(e) {
     switch (e.keyCode) {
       case 13: // Enter
-        this.refText.current.input.blur(); // To hide keyboard on mobile phones
+        this.refText.current.blur(); // To hide keyboard on mobile phones
         e.preventDefault();
         break;
       default:
@@ -163,7 +164,7 @@ export default class Character extends React.Component {
     }
   }
   handleSearchTextBlur() {
-    const text = this.refText.current.getValue().trim();
+    const text = this.refText.current.value.trim();
     if (text) {
       utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${this.state.chara} ${text}`);
     }
@@ -174,13 +175,18 @@ export default class Character extends React.Component {
     this.execSearch();
   }
   render() {
-    const theme = this.context.muiTheme;
     return (
       <React.Fragment>
-        <ColorSelector ref={this.refColor} onChanged={this.colorChanged} />
-        <ActionSearch color={theme.palette.textColor} style={{ padding: '0 8px 0 12px' }} onClick={this.handleSearchIconClick} />
-        <TextField ref={this.refText} hintText="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
-        {this.state.message ? <div>{this.state.message}</div> : null}
+        <ColorSelector innerRef={this.refColor} onChanged={this.colorChanged} />
+        <Grid container alignItems="flex-end">
+          <Grid item>
+            <ActionSearch style={{ padding: '0 8px 0 12px' }} />
+          </Grid>
+          <Grid item>
+            <TextField inputRef={this.refText} placeholder="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
+          </Grid>
+        </Grid>
+        {this.state.message ? <div>{this.state.message}</div> : <div style={{ height: 8 }} /> }
         <Gallery photos={this.state.photos} chara={this.state.chara} />
         <DetailView chara={this.state.chara} photos={this.state.photos} index={this.state.index} />
       </React.Fragment>
@@ -198,7 +204,6 @@ Character.propTypes = {
   }).isRequired,
 };
 Character.contextTypes = {
-  muiTheme: PropTypes.object.isRequired,
   router: PropTypes.shape(HashRouter.propTypes).isRequired,
   setTitle: PropTypes.func,
 };

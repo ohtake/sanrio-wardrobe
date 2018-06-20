@@ -1,13 +1,14 @@
 import React from 'react';
 
 import test from 'ava';
-import { shallow } from 'enzyme';
 import clone from 'lodash/clone';
 import range from 'lodash/range';
+import createShallow from '@material-ui/core/test-utils/createShallow';
 
 import Gallery from '../src/Gallery';
 import Photo from '../src/photo';
-import * as themes from '../src/themes';
+
+const shallow = createShallow({ dive: true });
 
 const photoTemplate = {
   title: 'template',
@@ -20,7 +21,7 @@ const photoTemplate = {
   notes: ['note1', 'note2'],
 };
 
-const context = { muiTheme: themes.themeLight };
+const context = {};
 
 /** @test {Gallery} */
 test('<Gallery /> should handle 0 photos', t => {

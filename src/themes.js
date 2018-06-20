@@ -1,43 +1,29 @@
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
-import * as Colors from 'material-ui/styles/colors';
+import { createMuiTheme } from '@material-ui/core/styles';
+import * as Colors from '@material-ui/core/colors';
 
-// See https://github.com/callemall/material-ui/tree/master/src/styles for theme definition
-export const themeLight = getMuiTheme({
+export const themeLightV1 = createMuiTheme({
   palette: {
-    primary1Color: Colors.indigo500,
-    primary2Color: Colors.indigo700,
-    pickerHeaderColor: Colors.indigo500,
+    primary: Colors.indigo,
   },
 });
-export const themeDark = getMuiTheme(darkBaseTheme, {
+
+export const themeDarkV1 = createMuiTheme({
   palette: {
-    primary1Color: Colors.indigo500,
-    primary2Color: Colors.indigo300,
-    accent2Color: Colors.grey700,
-    pickerHeaderColor: Colors.indigo500,
-  },
-  appBar: {
-    textColor: Colors.fullWhite,
+    type: 'dark',
+    primary: Colors.indigo,
   },
 });
 
 let elStyle = null;
 export function applyThemeToBody(theme) {
-  document.body.style.color = theme.palette.textColor;
-  document.body.style.backgroundColor = theme.palette.canvasColor;
-  document.body.style.fontFamily = theme.fontFamily;
+  document.body.style.color = theme.palette.text.primary;
+  document.body.style.backgroundColor = theme.palette.background.default;
+  document.body.style.fontFamily = theme.typography.fontFamily;
   if (elStyle != null) {
     document.head.removeChild(elStyle);
   }
   elStyle = document.createElement('style');
   document.head.appendChild(elStyle);
   const stylesheet = elStyle.sheet;
-  stylesheet.insertRule(`a { color: ${theme.palette.primary2Color}; }`, stylesheet.cssRules.length);
-}
-
-export function getInitialTheme() {
-  const h = new Date().getHours();
-  const isDaytime = h >= 6 && h < 18;
-  return isDaytime ? themeLight : themeDark;
+  stylesheet.insertRule(`a { color: ${theme.palette.primary.main}; }`, stylesheet.cssRules.length);
 }

@@ -8,13 +8,11 @@ import fs from 'fs';
 import util from 'util';
 
 import Character from '../src/Character';
-import * as themes from '../src/themes';
 import Photo from '../src/photo';
 
 const readFilePromisified = util.promisify(fs.readFile);
 
 const context = {
-  muiTheme: themes.themeLight,
   setTitle: () => {},
   router: {
     history: {

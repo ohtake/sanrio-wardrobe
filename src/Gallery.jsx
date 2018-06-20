@@ -4,6 +4,8 @@ import RouterLink from 'react-router-dom/Link';
 
 import LazyLoad from 'react-lazy-load';
 
+import { withTheme } from '@material-ui/core/styles';
+
 import FullWidthContainer from './FullWidthContainer';
 import JustifiedLayout from './JustifiedLayout';
 import Photo from './photo';
@@ -23,7 +25,7 @@ const styleTitleInner = {
   wordBreak: 'break-all',
 };
 
-export default class Gallery extends React.Component {
+class Gallery extends React.Component {
   constructor() {
     super();
     this.photoToElement = this.photoToElement.bind(this);
@@ -33,10 +35,10 @@ export default class Gallery extends React.Component {
    * @returns {React.Element}
    */
   photoToElement(p) {
-    const theme = this.context.muiTheme;
+    const { theme } = this.props;
     const thumbnailHeight = this.context.thumbnailSize;
     return (
-      <div key={p.data.title} style={{ backgroundColor: theme.palette.borderColor }}>
+      <div key={p.data.title} style={{ backgroundColor: theme.palette.background.paper }}>
         <RouterLink to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${this.props.chara} ${p.data.title}`}>
           <div style={styleTitleOuter}>
             <div style={styleTitleInner} title={p.data.title}>{p.data.title}</div>
@@ -58,6 +60,8 @@ export default class Gallery extends React.Component {
   }
 }
 Gallery.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  theme: PropTypes.object.isRequired,
   photos: PropTypes.arrayOf(PropTypes.instanceOf(Photo)),
   chara: PropTypes.string.isRequired,
 };
@@ -65,6 +69,7 @@ Gallery.defaultProps = {
   photos: [],
 };
 Gallery.contextTypes = {
-  muiTheme: PropTypes.object.isRequired,
   thumbnailSize: PropTypes.number,
 };
+
+export default withTheme()(Gallery);

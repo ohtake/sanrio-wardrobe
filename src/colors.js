@@ -1,4 +1,4 @@
-import * as Colors from 'material-ui/styles/colors';
+import * as Colors from '@material-ui/core/colors';
 
 export class ColorData {
   /**
@@ -20,19 +20,19 @@ export class ColorData {
 const RepresentiveColors = {};
 
 RepresentiveColors.all = [
-  RepresentiveColors.Red = new ColorData('red', 'Red', Colors.red800, Colors.red500, Colors.red200),
-  RepresentiveColors.Pink = new ColorData('pink', 'Pink', Colors.pink300, Colors.pink500, Colors.pink200),
-  RepresentiveColors.Orange = new ColorData('orange', 'Orange', Colors.orange500, Colors.orange500, Colors.orange200),
-  RepresentiveColors.Yellow = new ColorData('yellow', 'Yellow', Colors.yellow500, Colors.yellow500, Colors.yellow200),
-  RepresentiveColors.Green = new ColorData('green', 'Green', Colors.green500, Colors.green500, Colors.green200),
-  RepresentiveColors.Blue = new ColorData('blue', 'Blue', Colors.blue500, Colors.blue500, Colors.blue200),
-  RepresentiveColors.Purple = new ColorData('purple', 'Purple', Colors.purple500, Colors.purple500, Colors.purple200),
-  RepresentiveColors.Brown = new ColorData('brown', 'Brown', Colors.brown500, Colors.brown500, Colors.brown200),
-  RepresentiveColors.Black = new ColorData('black', 'Black', Colors.black, Colors.grey500, Colors.grey300),
-  RepresentiveColors.Grey = new ColorData('grey', 'Grey', Colors.grey700, Colors.grey500, Colors.grey300),
-  RepresentiveColors.White = new ColorData('white', 'White', Colors.white, Colors.grey500, Colors.grey300),
-  RepresentiveColors.Gold = new ColorData('gold', 'Gold', Colors.amber300, Colors.amber500, Colors.amber200),
-  RepresentiveColors.Silver = new ColorData('silver', 'Silver', Colors.grey400, Colors.grey500, Colors.grey300),
+  RepresentiveColors.Red = new ColorData('red', 'Red', Colors.red['800'], Colors.red['500'], Colors.red['200']),
+  RepresentiveColors.Pink = new ColorData('pink', 'Pink', Colors.pink['300'], Colors.pink['500'], Colors.pink['200']),
+  RepresentiveColors.Orange = new ColorData('orange', 'Orange', Colors.orange['500'], Colors.orange['500'], Colors.orange['200']),
+  RepresentiveColors.Yellow = new ColorData('yellow', 'Yellow', Colors.yellow['500'], Colors.yellow['500'], Colors.yellow['200']),
+  RepresentiveColors.Green = new ColorData('green', 'Green', Colors.green['500'], Colors.green['500'], Colors.green['200']),
+  RepresentiveColors.Blue = new ColorData('blue', 'Blue', Colors.blue['500'], Colors.blue['500'], Colors.blue['200']),
+  RepresentiveColors.Purple = new ColorData('purple', 'Purple', Colors.purple['500'], Colors.purple['500'], Colors.purple['200']),
+  RepresentiveColors.Brown = new ColorData('brown', 'Brown', Colors.brown['500'], Colors.brown['500'], Colors.brown['200']),
+  RepresentiveColors.Black = new ColorData('black', 'Black', Colors.common.black, Colors.grey['500'], Colors.grey['300']),
+  RepresentiveColors.Grey = new ColorData('grey', 'Grey', Colors.grey['700'], Colors.grey['500'], Colors.grey['300']),
+  RepresentiveColors.White = new ColorData('white', 'White', Colors.common.white, Colors.grey['500'], Colors.grey['300']),
+  RepresentiveColors.Gold = new ColorData('gold', 'Gold', Colors.amber['300'], Colors.amber['500'], Colors.amber['200']),
+  RepresentiveColors.Silver = new ColorData('silver', 'Silver', Colors.grey['400'], Colors.grey['500'], Colors.grey['300']),
 ];
 
 const map = {};
