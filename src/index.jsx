@@ -13,3 +13,4 @@ import * as themes from './themes';
 objectFitImages();
 
 ReactDOM.render(<MuiThemeProvider theme={themes.themeDarkV1}><HashRouter><Route component={App} /></HashRouter></MuiThemeProvider>, document.getElementById('app'));
+themes.applyThemeToBody(themes.themeDarkV1);

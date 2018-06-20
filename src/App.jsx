@@ -37,7 +37,6 @@ import Character from './Character';
 import Statistics from './Statistics';
 
 import DataFile from './data_file';
-import * as themes from './themes';
 import * as utils from './utils';
 
 const appDefaultTitle = 'Sanrio Wardrobe';
@@ -49,11 +48,8 @@ class App extends React.Component {
   constructor() {
     super();
 
-    const themeInitial = themes.themeDark;
-    themes.applyThemeToBody(themeInitial);
-
     this.state = {
-      menuOpened: false, menuDocked: false, theme: themeInitial, thumbnailSize: 120, title: appDefaultTitle,
+      menuOpened: false, menuDocked: false, thumbnailSize: 120, title: appDefaultTitle,
     };
 
     this.refSliderThumbnailSize = React.createRef();
@@ -70,7 +66,6 @@ class App extends React.Component {
   }
   getChildContext() {
     return {
-      muiTheme: this.state.theme,
       thumbnailSize: this.state.thumbnailSize,
       setTitle: this.setTitle,
     };
@@ -182,6 +177,7 @@ class App extends React.Component {
   render() {
     const { theme } = this.props;
     const containerStyle = {
+      backgroundColor: theme.palette.background.default,
       padding: theme.spacing.unit,
     };
     return (
@@ -203,7 +199,6 @@ App.propTypes = {
   theme: PropTypes.object.isRequired,
 };
 App.childContextTypes = {
-  muiTheme: PropTypes.object,
   thumbnailSize: PropTypes.number,
   setTitle: PropTypes.func,
 };
