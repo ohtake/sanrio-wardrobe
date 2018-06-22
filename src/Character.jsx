@@ -17,6 +17,7 @@ import Gallery from './Gallery';
 
 import Photo from './photo';
 import * as utils from './utils';
+import contexts from './reactContexts';
 
 class SearchParams {
   constructor() {
@@ -46,7 +47,7 @@ class SearchParams {
   }
 }
 
-export default class Character extends React.Component {
+class Character extends React.Component {
   constructor() {
     super();
     this.state = { allPhotos: null, photos: [], error: null };
@@ -81,9 +82,8 @@ export default class Character extends React.Component {
    * @returns {void}
    */
   loadPhotos() {
-    const { match } = this.props;
+    const { match, setTitle } = this.props;
     const { chara } = match.params;
-    const { setTitle } = this.context;
     const df = DataFile.findByName(chara);
     setTitle(df.getDisplayName());
     this.setState({
@@ -228,8 +228,13 @@ Character.propTypes = {
       title: PropTypes.string,
     }),
   }).isRequired,
+  setTitle: PropTypes.func.isRequired,
 };
 Character.contextTypes = {
   router: PropTypes.shape({ history: PropTypes.shape({ replace: PropTypes.func }) }).isRequired,
-  setTitle: PropTypes.func,
 };
+export default props => (
+  <contexts.SetTitleContext.Consumer>
+    {setTitle => <Character {...props} setTitle={setTitle} />}
+  </contexts.SetTitleContext.Consumer>
+);

@@ -20,6 +20,7 @@ import clone from 'lodash/clone';
 
 import Colors from './colors';
 import DataFile from './data_file';
+import contexts from './reactContexts';
 
 function sum(arr) {
   return arr.reduce((acc, current) => acc + current);
@@ -40,7 +41,7 @@ class Statistics extends React.Component {
   }
 
   componentDidMount() {
-    const { setTitle } = this.context;
+    const { setTitle } = this.props;
     setTitle();
     window.fetch('assets/statistics.json').then((res) => {
       if (res.ok) {
@@ -196,9 +197,7 @@ class Statistics extends React.Component {
 Statistics.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   classes: PropTypes.object.isRequired,
-};
-Statistics.contextTypes = {
-  setTitle: PropTypes.func,
+  setTitle: PropTypes.func.isRequired,
 };
 
 export default withStyles({
@@ -212,4 +211,8 @@ export default withStyles({
   tableWraper: {
     overflowX: 'auto',
   },
-})(Statistics);
+})(props => (
+  <contexts.SetTitleContext.Consumer>
+    {setTitle => <Statistics {...props} setTitle={setTitle} />}
+  </contexts.SetTitleContext.Consumer>
+));

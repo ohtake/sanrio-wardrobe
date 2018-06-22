@@ -10,6 +10,7 @@ import { fade } from '@material-ui/core/styles/colorManipulator';
 import JustifiedLayoutFull from './JustifiedLayoutFull';
 import Photo from './photo';
 import Colors from './colors';
+import contexts from './reactContexts';
 
 const styleTitleOuter = {
   position: 'absolute',
@@ -37,8 +38,7 @@ class Gallery extends React.Component {
    * @returns {React.Element}
    */
   photoToElement(p) {
-    const { theme, chara } = this.props;
-    const { thumbnailSize } = this.context;
+    const { theme, chara, thumbnailSize } = this.props;
     const placeholderBackground = (p.data.colors.length > 0) ? fade(Colors.findById(p.data.colors[0]).value, 0.4) : theme.palette.background.paper;
     return (
       <div key={p.data.title} style={{ backgroundColor: placeholderBackground }}>
@@ -54,8 +54,7 @@ class Gallery extends React.Component {
   }
 
   render() {
-    const { thumbnailSize } = this.context;
-    const { photos } = this.props;
+    const { photos, thumbnailSize } = this.props;
     return <JustifiedLayoutFull targetRowHeight={thumbnailSize} childObjects={photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />;
   }
 }
@@ -64,12 +63,14 @@ Gallery.propTypes = {
   theme: PropTypes.object.isRequired,
   photos: PropTypes.arrayOf(PropTypes.instanceOf(Photo)),
   chara: PropTypes.string.isRequired,
+  thumbnailSize: PropTypes.number.isRequired,
 };
 Gallery.defaultProps = {
   photos: [],
 };
-Gallery.contextTypes = {
-  thumbnailSize: PropTypes.number,
-};
 
-export default withTheme()(Gallery);
+export default withTheme()(props => (
+  <contexts.ThumbnailSizeContext.Consumer>
+    {thumbnailSize => <Gallery {...props} thumbnailSize={thumbnailSize} />}
+  </contexts.ThumbnailSizeContext.Consumer>
+));

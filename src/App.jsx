@@ -40,6 +40,7 @@ import Statistics from './Statistics';
 
 import DataFile from './data_file';
 import * as utils from './utils';
+import contexts from './reactContexts';
 
 const appDefaultTitle = 'Sanrio Wardrobe';
 
@@ -66,14 +67,6 @@ class App extends React.Component {
     this.handleSettingsClose = this.handleSettingsClose.bind(this);
     this.handleThumbnailSizeChange = this.handleThumbnailSizeChange.bind(this);
     this.menuWidth = 250;
-  }
-
-  getChildContext() {
-    const { thumbnailSize } = this.state;
-    return {
-      thumbnailSize,
-      setTitle: this.setTitle,
-    };
   }
 
   /**
@@ -221,31 +214,33 @@ class App extends React.Component {
   }
 
   render() {
-    const { menuOpened, menuDocked, errorObject } = this.state;
+    const {
+      menuOpened, menuDocked, errorObject, thumbnailSize,
+    } = this.state;
     const { classes } = this.props;
     return (
-      <div style={{ marginLeft: menuOpened && menuDocked ? this.menuWidth : 0 }}>
-        {this.renderAppBar()}
-        {this.renderDrawer()}
-        <div className={classes.container}>
-          {errorObject ? this.renderError() : (
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/chara/:chara/:title?" component={Character} />
-              <Route path="/statistics" component={Statistics} />
-            </Switch>
-          )}
-        </div>
-      </div>);
+      <contexts.SetTitleContext.Provider value={this.setTitle}>
+        <contexts.ThumbnailSizeContext.Provider value={thumbnailSize}>
+          <div style={{ marginLeft: menuOpened && menuDocked ? this.menuWidth : 0 }}>
+            {this.renderAppBar()}
+            {this.renderDrawer()}
+            <div className={classes.container}>
+              {errorObject ? this.renderError() : (
+                <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/chara/:chara/:title?" component={Character} />
+                  <Route path="/statistics" component={Statistics} />
+                </Switch>
+              )}
+            </div>
+          </div>
+        </contexts.ThumbnailSizeContext.Provider>
+      </contexts.SetTitleContext.Provider>);
   }
 }
 App.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   classes: PropTypes.object.isRequired,
-};
-App.childContextTypes = {
-  thumbnailSize: PropTypes.number,
-  setTitle: PropTypes.func,
 };
 export default withStyles(theme => ({
   container: {

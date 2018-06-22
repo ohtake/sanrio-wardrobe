@@ -11,6 +11,7 @@ import curry from 'lodash/curry';
 
 import JustifiedLayoutFull from './JustifiedLayoutFull';
 import DataFile from './data_file';
+import contexts from './reactContexts';
 
 class Home extends React.Component {
   constructor() {
@@ -20,7 +21,7 @@ class Home extends React.Component {
   }
 
   componentDidMount() {
-    const { setTitle } = this.context;
+    const { setTitle } = this.props;
     setTitle();
   }
 
@@ -44,7 +45,7 @@ class Home extends React.Component {
   }
 
   renderGallery(dataFiles, tileRenderer) {
-    const { thumbnailSize } = this.context;
+    const { thumbnailSize } = this.props;
     return <JustifiedLayoutFull targetRowHeight={thumbnailSize} childObjects={dataFiles} mapperToElement={tileRenderer} />;
   }
 
@@ -116,10 +117,8 @@ class Home extends React.Component {
 Home.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   classes: PropTypes.object.isRequired,
-};
-Home.contextTypes = {
-  setTitle: PropTypes.func,
-  thumbnailSize: PropTypes.number,
+  setTitle: PropTypes.func.isRequired,
+  thumbnailSize: PropTypes.number.isRequired,
 };
 
 export default withStyles(theme => ({
@@ -152,4 +151,12 @@ export default withStyles(theme => ({
     top: -theme.spacing.unit,
     right: -theme.spacing.unit,
   },
-}))(Home);
+}))(props => (
+  <contexts.SetTitleContext.Consumer>
+    {setTitle => (
+      <contexts.ThumbnailSizeContext.Consumer>
+        {thumbnailSize => <Home {...props} setTitle={setTitle} thumbnailSize={thumbnailSize} />}
+      </contexts.ThumbnailSizeContext.Consumer>
+    )}
+  </contexts.SetTitleContext.Consumer>
+));
