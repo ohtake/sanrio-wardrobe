@@ -65,15 +65,17 @@ export default class Character extends React.Component {
     this.loadPhotos();
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
+  shouldComponentUpdate(nextProps, nextState, nextContext) {
     const {
       photos, chara, title, message, index,
     } = this.state;
+    const { thumbnailSize } = this.context; // Workaround to unofficial old React Context API
     return photos !== nextState.photos
       || chara !== nextState.chara
       || title !== nextState.title
       || message !== nextState.message
-      || index !== nextState.index;
+      || index !== nextState.index
+      || thumbnailSize !== nextContext.thumbnailSize;
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -240,4 +242,5 @@ Character.propTypes = {
 Character.contextTypes = {
   router: PropTypes.shape({ history: PropTypes.shape({ replace: PropTypes.func }) }).isRequired,
   setTitle: PropTypes.func,
+  thumbnailSize: PropTypes.number,
 };
