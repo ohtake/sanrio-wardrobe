@@ -7,7 +7,7 @@
   "private": true,
   "main": "src/index.jsx",
   "dependencies": {
-    "@material-ui/core": "^1.2.2",
+    "@material-ui/core": "^1.2.3",
     "@material-ui/icons": "^1.1.0",
     "@material-ui/lab": "^1.0.0-alpha.5",
     "css-element-queries": "^1.0.2",
