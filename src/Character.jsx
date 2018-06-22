@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import HashRouter from 'react-router-dom/HashRouter';
 
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
@@ -21,16 +20,19 @@ class SearchParams {
   constructor() {
     this.clear();
   }
+
   /** @returns {boolean} */
   isEmpty() {
     if (this.regexps.length) return false;
     if (this.colorIds.length) return false;
     return true;
   }
+
   clear() {
     this.regexps = [];
     this.colorIds = [];
   }
+
   /**
    * @param {Photo} photo
    * @returns {boolean}
@@ -58,50 +60,63 @@ export default class Character extends React.Component {
     this.handleSearchTextKeyDown = this.handleSearchTextKeyDown.bind(this);
     this.handleSearchTextBlur = this.handleSearchTextBlur.bind(this);
   }
+
+  componentDidMount() {
+    this.loadPhotos();
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    const {
+      photos, chara, title, message, index,
+    } = this.state;
+    return photos !== nextState.photos
+      || chara !== nextState.chara
+      || title !== nextState.title
+      || message !== nextState.message
+      || index !== nextState.index;
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    const { chara, title } = this.state;
+    if (prevState.chara !== chara) {
+      this.loadPhotos();
+    } else if (prevState.title !== title) {
+      this.updateLightbox(title);
+    }
+  }
+
   static getDerivedStateFromProps(nextProps) {
     const { chara, title } = nextProps.match.params;
     return { chara, title };
   }
-  componentDidMount() {
-    this.loadPhotos();
-  }
-  shouldComponentUpdate(nextProps, nextState) {
-    return this.state.photos !== nextState.photos
-      || this.state.chara !== nextState.chara
-      || this.state.title !== nextState.title
-      || this.state.message !== nextState.message
-      || this.state.index !== nextState.index;
-  }
-  componentDidUpdate(prevProps, prevState) {
-    if (prevState.chara !== this.state.chara) {
-      this.loadPhotos();
-    } else if (prevState.title !== this.state.title) {
-      this.updateLightbox(this.state.title);
-    }
-  }
+
   /**
    * @private
    * @returns {void}
    */
   loadPhotos() {
-    const df = DataFile.findByName(this.state.chara);
-    this.context.setTitle(df.getDisplayName());
+    const { chara } = this.state;
+    const { setTitle } = this.context;
+    const df = DataFile.findByName(chara);
+    setTitle(df.getDisplayName());
     this.setState({
       photos: [],
-      message: `Loading ${this.state.chara}`,
+      message: `Loading ${chara}`,
     });
     this.loadPhotosAsync();
   }
+
   async loadPhotosAsync() {
+    const { chara, title } = this.state;
     try {
-      const photos = await Photo.loadPhotos(this.state.chara);
+      const photos = await Photo.loadPhotos(chara);
       this.allPhotos = photos;
       this.setState({
         photos: photos.slice(0),
         message: null,
       });
       this.clearSearch();
-      this.updateLightbox(this.state.title);
+      this.updateLightbox(title);
     } catch (err) {
       this.setState({
         photos: [],
@@ -109,27 +124,31 @@ export default class Character extends React.Component {
       });
     }
   }
+
   /**
    * @private
    * @param {string?} title
    * @returns {void}
    */
   updateLightbox(title) {
+    const { photos, chara } = this.state;
+    const { router } = this.context;
     if (title) {
-      if (this.state.photos) {
-        const index = this.state.photos.findIndex(p => title === p.data.title);
+      if (photos) {
+        const index = photos.findIndex(p => title === p.data.title);
         if (index >= 0) {
           this.setState({ index });
         } else {
-          this.context.router.history.replace(`/chara/${this.state.chara}`);
+          router.history.replace(`/chara/${chara}`);
         }
       }
     } else {
       this.setState({ index: -1 });
     }
   }
+
   execSearch() {
-    if (!this.state.photos) return;
+    if (!this.allPhotos) return;
     if (this.searchParams.isEmpty()) {
       this.setState({ photos: this.allPhotos, message: null });
     } else {
@@ -137,14 +156,17 @@ export default class Character extends React.Component {
       this.setState({ photos, message: `Displaying ${photos.length} of ${this.allPhotos.length} items` });
     }
   }
+
   clearSearch() {
     this.searchParams.clear();
     this.refText.current.value = '';
     this.refColor.current.clear();
   }
+
   handleSearchIconClick() {
     this.refText.current.focus();
   }
+
   handleSearchTextChanged() {
     const text = this.refText.current.value;
     const terms = text.split(/[ \u3000]/).filter(t => t.length > 0); // U+3000 = full width space
@@ -153,6 +175,7 @@ export default class Character extends React.Component {
     this.searchParams.regexps = res;
     this.execSearch();
   }
+
   handleSearchTextKeyDown(e) {
     switch (e.keyCode) {
       case 13: // Enter
@@ -163,18 +186,25 @@ export default class Character extends React.Component {
         break;
     }
   }
+
   handleSearchTextBlur() {
     const text = this.refText.current.value.trim();
+    const { chara } = this.state;
     if (text) {
-      utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${this.state.chara} ${text}`);
+      utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${chara} ${text}`);
     }
   }
+
   colorChanged(sender) {
     const colors = sender.listActiveIds();
     this.searchParams.colorIds = colors;
     this.execSearch();
   }
+
   render() {
+    const {
+      message, photos, chara, index,
+    } = this.state;
     return (
       <React.Fragment>
         <ColorSelector innerRef={this.refColor} onChanged={this.colorChanged} />
@@ -186,9 +216,13 @@ export default class Character extends React.Component {
             <TextField inputRef={this.refText} placeholder="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
           </Grid>
         </Grid>
-        {this.state.message ? <div>{this.state.message}</div> : <div style={{ height: 8 }} /> }
-        <Gallery photos={this.state.photos} chara={this.state.chara} />
-        <DetailView chara={this.state.chara} photos={this.state.photos} index={this.state.index} />
+        {message ? (
+          <div>
+            {message}
+          </div>
+        ) : <div style={{ height: 8 }} /> }
+        <Gallery photos={photos} chara={chara} />
+        <DetailView chara={chara} photos={photos} index={index} />
       </React.Fragment>
     );
   }
@@ -204,6 +238,6 @@ Character.propTypes = {
   }).isRequired,
 };
 Character.contextTypes = {
-  router: PropTypes.shape(HashRouter.propTypes).isRequired,
+  router: PropTypes.shape({ history: PropTypes.shape({ replace: PropTypes.func }) }).isRequired,
   setTitle: PropTypes.func,
 };

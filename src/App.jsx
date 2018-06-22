@@ -64,12 +64,15 @@ class App extends React.Component {
     this.handleThumbnailSizeChange = this.handleThumbnailSizeChange.bind(this);
     this.menuWidth = 250;
   }
+
   getChildContext() {
+    const { thumbnailSize } = this.state;
     return {
-      thumbnailSize: this.state.thumbnailSize,
+      thumbnailSize,
       setTitle: this.setTitle,
     };
   }
+
   /**
    * @param {string} title
    * @returns {void}
@@ -81,53 +84,82 @@ class App extends React.Component {
       this.setState({ title: appDefaultTitle });
     }
   }
+
   handleMenuOpen() {
     this.setState({ menuOpened: true });
   }
+
   handleMenuPinned() {
-    this.setState({ menuDocked: !this.state.menuDocked });
+    const { menuDocked } = this.state;
+    this.setState({ menuDocked: !menuDocked });
   }
+
   handleMenuClose() {
     this.setState({ menuOpened: false });
   }
+
   handleMenuClick() {
-    if (this.state.menuDocked) return;
+    const { menuDocked } = this.state;
+    if (menuDocked) return;
     window.setTimeout(() => this.setState({ menuOpened: false }), 200);
   }
+
   handleSettingsOpen(ev) {
     this.setState({ menuSettingsAnchorEl: ev.currentTarget });
   }
+
   handleSettingsClose() {
     this.setState({ menuSettingsAnchorEl: null });
   }
+
   handleThumbnailSizeChange(event, value) {
     this.setState({ thumbnailSize: value });
   }
+
   renderAppBar() {
+    const {
+      menuOpened, menuDocked, title, menuSettingsAnchorEl, thumbnailSize,
+    } = this.state;
     return (
       <AppBar position="static">
         <Toolbar>
-          {!this.state.menuOpened || !this.state.menuDocked ?
-            <IconButton onClick={this.handleMenuOpen}><MenuIcon /></IconButton> : null }
+          {!menuOpened || !menuDocked
+            ? (
+              <IconButton onClick={this.handleMenuOpen}>
+                <MenuIcon />
+              </IconButton>
+            ) : null }
           <div style={{ flexGrow: 1 }}>
-            <Typography variant="title">{this.state.title}</Typography>
+            <Typography variant="title">
+              {title}
+            </Typography>
           </div>
           <div>
             <IconButton onClick={this.handleSettingsOpen}>
               <ActionSettings />
             </IconButton>
-            <Menu open={Boolean(this.state.menuSettingsAnchorEl)} anchorEl={this.state.menuSettingsAnchorEl} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }} transformOrigin={{ horizontal: 'right', vertical: 'top' }} onClose={this.handleSettingsClose}>
+            <Menu open={Boolean(menuSettingsAnchorEl)} anchorEl={menuSettingsAnchorEl} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }} transformOrigin={{ horizontal: 'right', vertical: 'top' }} onClose={this.handleSettingsClose}>
               <MenuItem>
-                <ListItemIcon><ImagePhotoSizeSelectLarge /></ListItemIcon>
+                <ListItemIcon>
+                  <ImagePhotoSizeSelectLarge />
+                </ListItemIcon>
                 <ListItemText>
-                  <span>Thumbnail size: {this.state.thumbnailSize}</span>
-                  <Slider ref={this.refSliderThumbnailSize} value={this.state.thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
+                  <span>
+                    Thumbnail size:
+                    {' '}
+                    {thumbnailSize}
+                  </span>
+                  <Slider ref={this.refSliderThumbnailSize} value={thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
                 </ListItemText>
               </MenuItem>
               <Divider />
               <MenuItem onClick={utils.openFeedback}>
-                <ListItemIcon><ActionFeedback /></ListItemIcon>
-                <ListItemText>Feedback</ListItemText>
+                <ListItemIcon>
+                  <ActionFeedback />
+                </ListItemIcon>
+                <ListItemText>
+                  Feedback
+                </ListItemText>
               </MenuItem>
             </Menu>
           </div>
@@ -135,18 +167,20 @@ class App extends React.Component {
       </AppBar>
     );
   }
+
   renderDrawer() {
     const { theme } = this.props;
+    const { menuOpened, menuDocked } = this.state;
     const activeStyle = {
       borderLeft: `8px solid ${theme.palette.primary.main}`,
     };
     return (
-      <Drawer open={this.state.menuOpened} variant={this.state.menuDocked ? 'persistent' : 'temporary'} onClose={this.handleMenuClose}>
+      <Drawer open={menuOpened} variant={menuDocked ? 'persistent' : 'temporary'} onClose={this.handleMenuClose}>
         <div style={{ width: this.menuWidth, overflowX: 'hidden' }}>
           <Toolbar>
             <div style={{ flexGrow: 1 }} />
             <IconButton onClick={this.handleMenuPinned}>
-              {this.state.menuDocked ? <ActionTurnedIn color="action" /> : <ActionTurnedInNot color="action" />}
+              {menuDocked ? <ActionTurnedIn color="action" /> : <ActionTurnedInNot color="action" />}
             </IconButton>
             <IconButton onClick={this.handleMenuClose}>
               <NavigationClose color="action" />
@@ -155,33 +189,58 @@ class App extends React.Component {
           <Divider />
           <List>
             <ListItem button component={NavLink} to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="home">
-              <ListItemIcon><ActionHome /></ListItemIcon>
-              <ListItemText>Home</ListItemText>
+              <ListItemIcon>
+                <ActionHome />
+              </ListItemIcon>
+              <ListItemText>
+                Home
+              </ListItemText>
             </ListItem>
             <ListItem button component={NavLink} to="/statistics" onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="statistics">
-              <ListItemIcon><EditorShowChart /></ListItemIcon>
-              <ListItemText>Statistics</ListItemText>
+              <ListItemIcon>
+                <EditorShowChart />
+              </ListItemIcon>
+              <ListItemText>
+                Statistics
+              </ListItemText>
             </ListItem>
           </List>
           <Divider />
-          <List subheader={<ListSubheader>Characters</ListSubheader>}>
+          <List subheader={(
+            <ListSubheader>
+              Characters
+            </ListSubheader>
+          )}
+          >
             {DataFile.all.map(c => (
               <ListItem button component={NavLink} key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
-                <ListItemAvatar>{c.picUrl ? <Avatar src={c.picUrl} /> : <Avatar>{c.seriesSymbol}</Avatar>}</ListItemAvatar>
-                <ListItemText>{c.getDisplayName()}</ListItemText>
+                <ListItemAvatar>
+                  {c.picUrl
+                    ? <Avatar src={c.picUrl} />
+                    : (
+                      <Avatar>
+                        {c.seriesSymbol}
+                      </Avatar>
+                    )}
+                </ListItemAvatar>
+                <ListItemText>
+                  {c.getDisplayName()}
+                </ListItemText>
               </ListItem>))}
           </List>
         </div>
       </Drawer>);
   }
+
   render() {
     const { theme } = this.props;
+    const { menuOpened, menuDocked } = this.state;
     const containerStyle = {
       backgroundColor: theme.palette.background.default,
       padding: theme.spacing.unit,
     };
     return (
-      <div style={{ marginLeft: this.state.menuOpened && this.state.menuDocked ? this.menuWidth : 0 }}>
+      <div style={{ marginLeft: menuOpened && menuDocked ? this.menuWidth : 0 }}>
         {this.renderAppBar()}
         {this.renderDrawer()}
         <div style={containerStyle}>

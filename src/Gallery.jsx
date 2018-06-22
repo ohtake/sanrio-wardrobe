@@ -30,20 +30,23 @@ class Gallery extends React.Component {
     super();
     this.photoToElement = this.photoToElement.bind(this);
   }
+
   /**
    * @param {Photo} p
    * @returns {React.Element}
    */
   photoToElement(p) {
-    const { theme } = this.props;
-    const thumbnailHeight = this.context.thumbnailSize;
+    const { theme, chara } = this.props;
+    const { thumbnailSize } = this.context;
     return (
       <div key={p.data.title} style={{ backgroundColor: theme.palette.background.paper }}>
-        <RouterLink to={`/chara/${this.props.chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${this.props.chara} ${p.data.title}`}>
+        <RouterLink to={`/chara/${chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${chara} ${p.data.title}`}>
           <div style={styleTitleOuter}>
-            <div style={styleTitleInner} title={p.data.title}>{p.data.title}</div>
+            <div style={styleTitleInner} title={p.data.title}>
+              {p.data.title}
+            </div>
           </div>
-          <LazyLoad offset={thumbnailHeight}>
+          <LazyLoad offset={thumbnailSize}>
             <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={{ width: '100%', height: '100%' }} />
           </LazyLoad>
         </RouterLink>
@@ -51,12 +54,15 @@ class Gallery extends React.Component {
   }
 
   render() {
-    const thumbnailHeight = this.context.thumbnailSize;
-    return (<FullWidthContainer
-      renderElement={width => (
-        <JustifiedLayout targetRowHeight={thumbnailHeight} containerWidth={width} childObjects={this.props.photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />
-      )}
-    />);
+    const { thumbnailSize } = this.context;
+    const { photos } = this.props;
+    return (
+      <FullWidthContainer
+        renderElement={width => (
+          <JustifiedLayout targetRowHeight={thumbnailSize} containerWidth={width} childObjects={photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />
+        )}
+      />
+    );
   }
 }
 Gallery.propTypes = {

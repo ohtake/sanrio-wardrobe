@@ -46,11 +46,21 @@ const styleImg = {
 function renderTile(gaEventAction, c) {
   return (
     <RouterLink key={c.name} to={`/chara/${c.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventAction} data-ga-event-label={c.name}>
-      {c.picUrl ? <img src={c.picUrl} alt="*" style={styleImg} /> : <Avatar style={styleImg}>{c.seriesSymbol}</Avatar>}
-      <div style={styleSymbol}>{c.seriesSymbol}</div>
+      {c.picUrl ? <img src={c.picUrl} alt="*" style={styleImg} /> : (
+        <Avatar style={styleImg}>
+          {c.seriesSymbol}
+        </Avatar>
+      )}
+      <div style={styleSymbol}>
+        {c.seriesSymbol}
+      </div>
       <div style={styleTitleOuter}>
-        <div style={styleTitleInner}>{c.nameJa}</div>
-        <div style={styleTitleInner}>{c.nameEn}</div>
+        <div style={styleTitleInner}>
+          {c.nameJa}
+        </div>
+        <div style={styleTitleInner}>
+          {c.nameEn}
+        </div>
       </div>
     </RouterLink>
   );
@@ -61,18 +71,24 @@ class Home extends React.Component {
     super();
     this.state = {};
   }
+
   componentDidMount() {
-    this.context.setTitle();
+    const { setTitle } = this.context;
+    setTitle();
   }
+
   renderGallery(dataFiles, gaEventAction) {
+    const { thumbnailSize } = this.context;
     return (
       <FullWidthContainer
         renderElement={width => (
-          <JustifiedLayout targetRowHeight={this.context.thumbnailSize} containerWidth={width} childObjects={dataFiles} mapperToElement={curry(renderTile)(gaEventAction)} />
+          <JustifiedLayout targetRowHeight={thumbnailSize} containerWidth={width} childObjects={dataFiles} mapperToElement={curry(renderTile)(gaEventAction)} />
         )}
       />);
   }
+
   render() {
+    const { theme } = this.props;
     const featured = [
       DataFile.ktKitty,
       DataFile.mmMelody,
@@ -86,8 +102,8 @@ class Home extends React.Component {
         <div style={{
           float: 'right',
           position: 'relative',
-          top: -this.props.theme.spacing.unit,
-          right: -this.props.theme.spacing.unit,
+          top: -theme.spacing.unit,
+          right: -theme.spacing.unit,
         }}
         >
           <a href="https://github.com/ohtake/sanrio-wardrobe">
@@ -98,26 +114,67 @@ class Home extends React.Component {
             />
           </a>
         </div>
-        <p>Unofficial listings of Sanrio character costumes</p>
+        <p>
+          Unofficial listings of Sanrio character costumes
+        </p>
         <Button component={RouterLink} to="/statistics" data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="homeTile" data-ga-event-label="statistics">
-          <EditorShowChart />Statistics
+          <EditorShowChart />
+          Statistics
         </Button>
-        <h2>Featured characters</h2>
+        <h2>
+          Featured characters
+        </h2>
         {this.renderGallery(featured, 'featured')}
-        <h2>All characters</h2>
+        <h2>
+          All characters
+        </h2>
         {this.renderGallery(DataFile.all, 'all')}
-        <h2>License</h2>
+        <h2>
+          License
+        </h2>
         <ul>
-          <li>Sanrio characters are registered trademarks of <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a></li>
-          <li>Each photo was taken by respective author</li>
-          <li>This software is provided under <a href="https://opensource.org/licenses/MIT">MIT License</a></li>
-          <li><a href="assets/licenses.txt">Attribution notices for third party software</a></li>
+          <li>
+            Sanrio characters are registered trademarks of
+            {' '}
+            <a href="https://www.sanrio.co.jp/">
+              Sanrio Co., Ltd.
+            </a>
+          </li>
+          <li>
+            Each photo was taken by respective author
+          </li>
+          <li>
+            This software is provided under
+            {' '}
+            <a href="https://opensource.org/licenses/MIT">
+              MIT License
+            </a>
+          </li>
+          <li>
+            <a href="assets/licenses.txt">
+              Attribution notices for third party software
+            </a>
+          </li>
         </ul>
-        <h2>Documents and reports</h2>
+        <h2>
+          Documents and reports
+        </h2>
         <ul>
-          <li><a href="assets/esdoc/index.html">ESDoc</a></li>
-          <li><a href="coverage/lcov-report/index.html">LCOV code coverage</a></li>
-          <li><a href="assets/sme.html">Source map explorer</a></li>
+          <li>
+            <a href="assets/esdoc/index.html">
+              ESDoc
+            </a>
+          </li>
+          <li>
+            <a href="coverage/lcov-report/index.html">
+              LCOV code coverage
+            </a>
+          </li>
+          <li>
+            <a href="assets/sme.html">
+              Source map explorer
+            </a>
+          </li>
         </ul>
       </React.Fragment>
     );

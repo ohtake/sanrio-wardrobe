@@ -51,6 +51,7 @@ export class FlickrSrcsetProvider {
     const suffix2 = suffix ? `_${suffix}` : '';
     return `https://farm${farmId}.staticflickr.com/${serverId}/${photoId}_${secret}${suffix2}.jpg`;
   }
+
   /**
    * @param {Photo} photo
    * @returns {array.<{url: string, width: number, height: number, max: number}>}
@@ -111,6 +112,7 @@ export class PicasaSrcsetProvider {
   static createUrl(lh, dirs, file, size) {
     return `https://lh${lh}.googleusercontent.com/${dirs}/s${size}/${file}`;
   }
+
   /**
    * @param {Photo} photo
    * @returns {array.<{url: string, width: number, height: number, max: number}>}
@@ -155,6 +157,7 @@ export class InstagramSrcsetProvider {
   static createUrl(shortcode, size) {
     return `https://instagram.com/p/${shortcode}/media/?size=${size}`;
   }
+
   /**
    * @param {Photo} photo
    * @returns {array.<{url: string, width: number, height: number, max: number}>}

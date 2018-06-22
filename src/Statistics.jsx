@@ -21,8 +21,10 @@ class Statistics extends React.Component {
     super();
     this.state = { statistics: null, message: 'Loading statistics...' };
   }
+
   componentDidMount() {
-    this.context.setTitle();
+    const { setTitle } = this.context;
+    setTitle();
     window.fetch('assets/statistics.json').then((res) => {
       if (res.ok) {
         return res.json();
@@ -34,99 +36,164 @@ class Statistics extends React.Component {
       this.setState({ message: err.toString() });
     });
   }
+
   renderAvatarCell(df, gaEventName) {
+    const { classes } = this.props;
     return (
       <TableCell>
-        <Button component={RouterLink} to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventName} data-ga-event-label={df.name} className={this.props.classes.charaButton}>
-          {df.picUrl ? <Avatar src={df.picUrl} className={this.props.classes.avatar} /> : <Avatar className={this.props.classes.avatar}>{df.seriesSymbol}</Avatar>}
+        <Button component={RouterLink} to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventName} data-ga-event-label={df.name} className={classes.charaButton}>
+          {df.picUrl ? <Avatar src={df.picUrl} className={classes.avatar} /> : (
+            <Avatar className={classes.avatar}>
+              {df.seriesSymbol}
+            </Avatar>
+          )}
           {df.name}
         </Button>
       </TableCell>);
   }
+
   renderCount() {
-    const totalCount = DataFile.all.map(df => this.state.statistics.count[df.name]).reduce((acc, current) => acc + current);
+    const { statistics } = this.state;
+    const totalCount = DataFile.all.map(df => statistics.count[df.name]).reduce((acc, current) => acc + current);
     return (
       <React.Fragment>
-        <h2>Count (total={totalCount})</h2>
+        <h2>
+          Count (total=
+          {totalCount}
+          )
+        </h2>
         <Paper>
           <Table selectable={false}>
             <TableHead>
               <TableRow>
-                <TableCell>Character</TableCell>
-                <TableCell>Series</TableCell>
-                <TableCell>Name (ja)</TableCell>
-                <TableCell>Name (en)</TableCell>
-                <TableCell>Count</TableCell>
+                <TableCell>
+                  Character
+                </TableCell>
+                <TableCell>
+                  Series
+                </TableCell>
+                <TableCell>
+                  Name (ja)
+                </TableCell>
+                <TableCell>
+                  Name (en)
+                </TableCell>
+                <TableCell>
+                  Count
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
               {DataFile.all.map(df => (
                 <TableRow hover>
                   {this.renderAvatarCell(df, 'statCount')}
-                  <TableCell>{df.seriesSymbol}</TableCell>
-                  <TableCell>{df.nameJa}</TableCell>
-                  <TableCell>{df.nameEn}</TableCell>
-                  <TableCell numeric>{this.state.statistics.count[df.name]}</TableCell>
+                  <TableCell>
+                    {df.seriesSymbol}
+                  </TableCell>
+                  <TableCell>
+                    {df.nameJa}
+                  </TableCell>
+                  <TableCell>
+                    {df.nameEn}
+                  </TableCell>
+                  <TableCell numeric>
+                    {statistics.count[df.name]}
+                  </TableCell>
                 </TableRow>))}
             </TableBody>
           </Table>
         </Paper>
       </React.Fragment>);
   }
+
   renderColor() {
+    const { statistics } = this.state;
     return (
       <React.Fragment>
-        <h2>Color (requires wide screen to display correctly)</h2>
+        <h2>
+          Color (requires wide screen to display correctly)
+        </h2>
         <Paper>
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell>Character</TableCell>
-                {Colors.all.map(c => <TableCell>{c.name}</TableCell>)}
+                <TableCell>
+                  Character
+                </TableCell>
+                {Colors.all.map(c => (
+                  <TableCell>
+                    {c.name}
+                  </TableCell>
+                ))}
               </TableRow>
             </TableHead>
             <TableBody>
               {DataFile.all.map(df => (
                 <TableRow hover>
                   {this.renderAvatarCell(df, 'statColor')}
-                  {Colors.all.map(c => <TableCell numeric>{this.state.statistics.color[df.name][c.id]}</TableCell>)}
+                  {Colors.all.map(c => (
+                    <TableCell numeric>
+                      {statistics.color[df.name][c.id]}
+                    </TableCell>
+                  ))}
                 </TableRow>))}
             </TableBody>
           </Table>
         </Paper>
       </React.Fragment>);
   }
+
   renderAuthor() {
-    const sortedAuthor = toPairs(this.state.statistics.author).sort((x, y) => {
+    const { statistics } = this.state;
+    const sortedAuthor = toPairs(statistics.author).sort((x, y) => {
       const countDiff = y[1] - x[1];
       if (countDiff !== 0) return countDiff;
       return x[0].localeCompare(y[0]);
     });
     return (
       <React.Fragment>
-        <h2>Author ({sortedAuthor.length} authors)</h2>
+        <h2>
+          Author (
+          {sortedAuthor.length}
+          {' '}
+          authors)
+        </h2>
         <Paper>
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell>Name</TableCell>
-                <TableCell>Count</TableCell>
+                <TableCell>
+                  Name
+                </TableCell>
+                <TableCell>
+                  Count
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
               {sortedAuthor.map(a => (
                 <TableRow hover>
-                  <TableCell>{a[0]}</TableCell>
-                  <TableCell numeric>{a[1]}</TableCell>
+                  <TableCell>
+                    {a[0]}
+                  </TableCell>
+                  <TableCell numeric>
+                    {a[1]}
+                  </TableCell>
                 </TableRow>))}
             </TableBody>
           </Table>
         </Paper>
       </React.Fragment>);
   }
+
   render() {
-    if (!this.state.statistics) {
-      return <div>{this.state.message}</div>;
+    const { statistics, message } = this.state;
+    if (!statistics) {
+      return (
+        <div>
+          {message}
+        </div>
+      );
     }
     return (
       <React.Fragment>

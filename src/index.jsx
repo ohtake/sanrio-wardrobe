@@ -12,5 +12,12 @@ import * as themes from './themes';
 // objectFit does not work on IE and Edge http://caniuse.com/#search=object-fit
 objectFitImages();
 
-ReactDOM.render(<MuiThemeProvider theme={themes.themeDarkV1}><HashRouter><Route component={App} /></HashRouter></MuiThemeProvider>, document.getElementById('app'));
+ReactDOM.render((
+  <MuiThemeProvider theme={themes.themeDarkV1}>
+    <HashRouter>
+      <Route component={App} />
+    </HashRouter>
+  </MuiThemeProvider>
+),
+document.getElementById('app'));
 themes.applyThemeToBody(themes.themeDarkV1);

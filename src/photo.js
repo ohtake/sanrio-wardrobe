@@ -1,6 +1,8 @@
 import findLast from 'lodash/findLast';
 
-import { FlickrSrcsetProvider, PicasaSrcsetProvider, InstagramSrcsetProvider, Instagram2SrcsetProvider } from './srcset_providers';
+import {
+  FlickrSrcsetProvider, PicasaSrcsetProvider, InstagramSrcsetProvider, Instagram2SrcsetProvider,
+} from './srcset_providers';
 
 export default class Photo {
   /**
@@ -47,6 +49,7 @@ export default class Photo {
     }
     return images;
   }
+
   /**
    * @param {number} upperWidth
    * @param {number} upperHeight
@@ -60,6 +63,7 @@ export default class Photo {
     // Nothing matches. Return smallest one.
     return images[0];
   }
+
   /**
    * @param {{url: string, width: ?number, height: ?number, max: ?number}} image
    * @returns {{url: string, width: number, height: number, max: number}}
@@ -71,6 +75,7 @@ export default class Photo {
     ret.max = Math.max(ret.width, ret.height);
     return ret;
   }
+
   /**
    * @param {{url: string, width: ?number, height: ?number, max: ?number}} image
    * @param {boolean} isWidth
@@ -88,18 +93,21 @@ export default class Photo {
     }
     throw new Error('Cannot calc image width/height');
   }
+
   /**
    * @returns {string}
    */
   getSrcSet() {
     return this.getSrcsetModel().map(i => `${i.url} ${i.width}w`).join(', ');
   }
+
   /**
    * @returns {number}
    */
   getAspectRatio() {
     return this.data.size.width_o / this.data.size.height_o;
   }
+
   /**
    * @param {RegExp} re
    * @returns {boolean}

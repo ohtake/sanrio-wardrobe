@@ -11,22 +11,28 @@ import justifiedLayout from 'justified-layout';
  * @returns {React.Element}
  */
 export default function JustifiedLayout(props) {
-  const aspectRatios = props.childObjects.map(props.mapperToAspectRatio);
+  const {
+    childObjects, mapperToAspectRatio, mapperToElement, containerWidth, targetRowHeight,
+  } = props;
+  const aspectRatios = childObjects.map(mapperToAspectRatio);
   const layoutConfig = {
-    containerWidth: props.containerWidth,
-    targetRowHeight: props.targetRowHeight,
+    containerWidth,
+    targetRowHeight,
     containerPadding: 0,
     boxSpacing: 6,
   };
   const layout = justifiedLayout(aspectRatios, layoutConfig);
-  const childElems = zip(props.childObjects.map(props.mapperToElement), layout.boxes).map((e) => {
+  const childElems = zip(childObjects.map(mapperToElement), layout.boxes).map((e) => {
     const elem = e[0];
     const box = e[1];
     const style = assign({}, elem.props.style, box, { position: 'absolute', overflow: 'hidden' });
     const childProps = assign({}, elem.props, { style });
     return React.cloneElement(elem, childProps);
   });
-  return <div style={{ height: layout.containerHeight, width: props.containerWidth }}>{childElems}</div>;
+  return (
+    <div style={{ height: layout.containerHeight, width: containerWidth }}>
+      {childElems}
+    </div>);
 }
 
 JustifiedLayout.propTypes = {

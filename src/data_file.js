@@ -13,6 +13,7 @@ export default class DataFile {
     this.nameEn = nameEn;
     this.picUrl = picUrl;
   }
+
   /**
    * @returns {string}
    */

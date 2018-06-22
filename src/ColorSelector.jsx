@@ -42,40 +42,49 @@ class ColorSelector extends React.Component {
     this.toggle = this.toggle.bind(this);
     this.clear = this.clear.bind(this);
   }
+
   componentDidUpdate(prevProps, prevState) {
-    if (prevState.enabled !== this.state.enabled || prevState.actives !== this.state.actives) {
-      const f = this.props.onChanged;
-      if (f) f(this);
+    const { enabled, actives } = this.state;
+    const { onChanged } = this.props;
+    if (prevState.enabled !== enabled || prevState.actives !== actives) {
+      if (onChanged) onChanged(this);
     }
   }
+
   /**
    * @param {ColorItem} c
    * @returns {object}
    */
   styleColor(c) {
+    const { actives } = this.state;
+    const isActive = actives[c.id];
     const style = clone(styleBase);
-    const isActive = this.state.actives[c.id];
     if (isActive) style.color = 'black';
     style.borderStyle = 'solid';
     style.borderColor = isActive ? c.strong : c.weak;
     if (isActive) style.backgroundColor = c.weak;
     return style;
   }
+
   /** @returns {void} */
   start() {
-    this.setState({ enabled: !this.state.enabled });
+    const { enabled } = this.state;
+    this.setState({ enabled: !enabled });
   }
+
   /**
    * @param {object} e Event args
    * @returns {void}
    */
   toggle(e) {
     e.preventDefault();
+    const { actives } = this.state;
     const id = e.currentTarget.getAttribute('data');
-    const actives = clone(this.state.actives);
-    actives[id] = !actives[id];
-    this.setState({ actives });
+    const newActives = clone(actives);
+    newActives[id] = !actives[id];
+    this.setState({ actives: newActives });
   }
+
   /**
    * @param {?object} e Event args
    * @returns {void}
@@ -84,32 +93,52 @@ class ColorSelector extends React.Component {
     if (e) e.preventDefault();
     this.setState({ actives: {} });
   }
+
   /** @returns {string[]} */
   listActiveIds() {
-    if (!this.state.enabled) return [];
-    return this.props.colors.filter(c => this.state.actives[c.id]).map(c => c.id);
+    const { enabled, actives } = this.state;
+    const { colors } = this.props;
+    if (!enabled) return [];
+    return colors.filter(c => actives[c.id]).map(c => c.id);
   }
+
   /** @returns {boolean} */
   isFilterEnabled() {
-    return this.state.enabled && Object.keys(this.state.actives).length > 0;
+    const { enabled, actives } = this.state;
+    return enabled && Object.keys(actives).length > 0;
   }
+
   /**
    * @private
    * @returns {React.Node}
    */
   listButtons() {
+    const { colors } = this.props;
     return (
       <React.Fragment>
-        {this.props.colors.map(c => <Button key={c.name} onClick={this.toggle} data={c.id} style={this.styleColor(c)}>{c.name}</Button>)}
-        <Button key="clear" onClick={this.clear} data="" style={styleBase} disabled={!this.isFilterEnabled()}>CLEAR</Button>
+        {colors.map(c => (
+          <Button key={c.name} onClick={this.toggle} data={c.id} style={this.styleColor(c)}>
+            {c.name}
+          </Button>
+        ))}
+        <Button key="clear" onClick={this.clear} data="" style={styleBase} disabled={!this.isFilterEnabled()}>
+          CLEAR
+        </Button>
       </React.Fragment>
     );
   }
+
   render() {
+    const { classes } = this.props;
+    const { enabled } = this.state;
     return (
       <div>
-        <Button style={styleBase} onClick={this.start}><ContentFilterList className={this.props.classes.leftIcon} /> Color filter</Button>
-        {this.state.enabled ? this.listButtons() : null}
+        <Button style={styleBase} onClick={this.start}>
+          <ContentFilterList className={classes.leftIcon} />
+          {' '}
+          Color filter
+        </Button>
+        {enabled ? this.listButtons() : null}
       </div>);
   }
 }
