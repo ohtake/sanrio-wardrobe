@@ -58,9 +58,14 @@ class Statistics extends React.Component {
     return (
       <React.Fragment>
         <h2>
-          Count (total=
+          Count (
+          {DataFile.all.length}
+          {' '}
+          characters,
+          {' '}
           {totalCount}
-          )
+          {' '}
+          photos)
         </h2>
         <Paper>
           <Table selectable={false}>
@@ -111,7 +116,7 @@ class Statistics extends React.Component {
     return (
       <React.Fragment>
         <h2>
-          Color (requires wide screen to display correctly)
+          Colors
         </h2>
         <Paper>
           <Table>
@@ -153,7 +158,7 @@ class Statistics extends React.Component {
     return (
       <React.Fragment>
         <h2>
-          Author (
+          Authors (
           {sortedAuthor.length}
           {' '}
           authors)
