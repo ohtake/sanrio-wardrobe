@@ -62,9 +62,9 @@
   notes:
   - ピューロランドパレード『Miracle Gift Parade』
 - title: 虹色のパーティ2
-  source: { author: "hyouna", license: "", url: "https://www.flickr.com/photos/hyouna0229/36562908786/"}
-  images_flickr: { photo: "36562908786", farm: 5, server: 4397, secret: "ebfd2dac5c", secret_h: "44841307b0", secret_k: "8b58a2b120", secret_o: "3bcbe81d14", format_o: "jpg" }
-  size: { width_o: 1536, height_o: 2048 }
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/42151989344/"}
+  images_flickr: { photo: "42151989344", farm: 2, server: 1728, secret: "e3377d14d3", secret_h: "1a05430bb1", secret_k: "8cb24f80d8", secret_o: "c6e0832bed", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
   colors: [red, pink, orange, yellow, green, blue, purple, white]
   notes:
   - 知恵の木ステージ『ウサハナの虹色のパーティ』2着目
