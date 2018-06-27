@@ -47,7 +47,7 @@ class DetailView extends React.Component {
 
     this.state = { showInfo: true, swipingRatio: 0 };
 
-    this.handleResize = this.updateMenuWidth.bind(this);
+    this.handleResize = this.updateViewWidth.bind(this);
     this.handleSwiping = throttle(this.handleSwiping.bind(this), 50);
     this.handleSwiped = this.handleSwiped.bind(this);
     this.closeDetailView = this.closeDetailView.bind(this);
@@ -61,7 +61,7 @@ class DetailView extends React.Component {
   }
 
   componentDidMount() {
-    this.updateMenuWidth();
+    this.updateViewWidth();
     window.addEventListener('resize', this.handleResize);
     window.addEventListener('keydown', this.handleKeyDown);
   }
@@ -71,11 +71,11 @@ class DetailView extends React.Component {
     window.removeEventListener('keydown', this.handleKeyDown, false);
   }
 
-  updateMenuWidth() {
-    const { menuWidth } = this.state;
+  updateViewWidth() {
+    const { viewWidth } = this.state;
     const newWidth = verge.viewportW();
-    if (newWidth !== menuWidth) {
-      this.setState({ menuWidth: newWidth });
+    if (newWidth !== viewWidth) {
+      this.setState({ viewWidth: newWidth });
     }
   }
 
@@ -128,8 +128,8 @@ class DetailView extends React.Component {
   }
 
   handleSwiping(e, deltaX/* , deltaY, absX, absY, velocity */) {
-    const { menuWidth } = this.state;
-    const swipingRatio = deltaX / menuWidth;
+    const { viewWidth } = this.state;
+    const swipingRatio = deltaX / viewWidth;
     this.setState({ swipingRatio });
   }
 
@@ -276,19 +276,16 @@ class DetailView extends React.Component {
       </AppBar>);
   }
 
-  render() {
+  renderContent() {
     const { photos, index, theme } = this.props;
-    const { menuWidth, swipingRatio, showInfo } = this.state;
-    if (index === undefined || index < 0 || !photos) {
-      return <Dialog open={false} fullScreen onClose={this.closeDetailView} TransitionComponent={Transition} />;
-    }
+    const { viewWidth, swipingRatio, showInfo } = this.state;
     const len = photos.length;
     const main = photos[index];
     const next = photos[(index + 1) % len];
     const prev = photos[((index + len) - 1) % len];
     const imgBaseStyle = { position: 'absolute', width: '100%', height: '100%' };
     const imgMainStyle = assign(clone(imgBaseStyle), { opacity: (Math.abs(swipingRatio) <= swipingRatioThreshold) ? 1 : 0.5 });
-    const imgPosition = menuWidth + theme.spacing.unit;
+    const imgPosition = viewWidth + theme.spacing.unit;
     // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
     const imgPrevStyle = assign(clone(imgBaseStyle), { left: -imgPosition, objectPosition: '100% 50%', opacity: (swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
     const imgNextStyle = assign(clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
@@ -307,11 +304,11 @@ class DetailView extends React.Component {
     }
 
     return (
-      <Dialog open fullScreen onClose={this.closeDetailView} TransitionComponent={Transition} PaperProps={{ style: { overflow: 'hidden', backgroundColor: fade(theme.palette.background.paper, 0.8) } }}>
+      <React.Fragment>
         {showInfo ? this.renderAppBar(main) : null}
         <Swipeable
           style={{
-            position: 'absolute', top: (showInfo ? '64px' : 0), bottom: 0, left: (-swipingRatio * menuWidth), width: menuWidth,
+            position: 'absolute', top: (showInfo ? '64px' : 0), bottom: 0, left: (-swipingRatio * viewWidth), width: viewWidth,
           }}
           onTap={this.toggleInfo}
           onSwiping={this.handleSwiping}
@@ -337,6 +334,16 @@ class DetailView extends React.Component {
         {floatingIcon(<NavigationChevronRight />, false, false, this.moveNext)}
         {showInfo ? null : floatingIcon(<NavigationArrowBack />, true, true, this.closeDetailView)}
         {showInfo ? null : floatingIcon(<NavigationFullscreenExit />, true, false, this.toggleInfo)}
+      </React.Fragment>
+    );
+  }
+
+  render() {
+    const { index, theme } = this.props;
+    const isOpen = index >= 0;
+    return (
+      <Dialog open={isOpen} fullScreen onClose={this.closeDetailView} TransitionComponent={Transition} PaperProps={{ style: { overflow: 'hidden', backgroundColor: fade(theme.palette.background.paper, 0.8) } }}>
+        {isOpen ? this.renderContent() : null}
       </Dialog>
     );
   }
