@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
+import Dialog from '@material-ui/core/Dialog';
 import Divider from '@material-ui/core/Divider';
-import Drawer from '@material-ui/core/Drawer';
 import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+import Slide from '@material-ui/core/Slide';
 import Typography from '@material-ui/core/Typography';
 import { withTheme } from '@material-ui/core/styles';
 
@@ -35,6 +36,10 @@ import Photo from './photo';
 import * as utils from './utils';
 
 const swipingRatioThreshold = 0.3;
+
+function Transition(props) {
+  return <Slide direction="left" {...props} />;
+}
 
 class DetailView extends React.Component {
   constructor() {
@@ -275,7 +280,7 @@ class DetailView extends React.Component {
     const { photos, index, theme } = this.props;
     const { menuWidth, swipingRatio, showInfo } = this.state;
     if (index === undefined || index < 0 || !photos) {
-      return <Drawer open={false} anchor="right" />;
+      return <Dialog open={false} fullScreen onClose={this.closeDetailView} TransitionComponent={Transition} />;
     }
     const len = photos.length;
     const main = photos[index];
@@ -302,48 +307,37 @@ class DetailView extends React.Component {
     }
 
     return (
-      <Drawer
-        open
-        anchor="right"
-      >
-        <div style={{
-          position: 'relative',
-          width: menuWidth,
-          height: '100%',
-          overflow: 'hidden',
-        }}
+      <Dialog open fullScreen onClose={this.closeDetailView} TransitionComponent={Transition} PaperProps={{ style: { overflow: 'hidden', backgroundColor: fade(theme.palette.background.paper, 0.8) } }}>
+        {showInfo ? this.renderAppBar(main) : null}
+        <Swipeable
+          style={{
+            position: 'absolute', top: (showInfo ? '64px' : 0), bottom: 0, left: (-swipingRatio * menuWidth), width: menuWidth,
+          }}
+          onTap={this.toggleInfo}
+          onSwiping={this.handleSwiping}
+          onSwiped={this.handleSwiped}
         >
-          {showInfo ? this.renderAppBar(main) : null}
-          <Swipeable
-            style={{
-              position: 'absolute', top: (showInfo ? '72px' : 0), bottom: 0, left: (-swipingRatio * menuWidth), width: '100%',
+          <img key={main.data.title} style={imgMainStyle} className="image-fit" src={main.getLargestImageAtMost(1080, 1350).url} alt="*" />
+          <img key={next.data.title} style={imgNextStyle} className="image-fit" src={next.getLargestImageAtMost(1080, 1350).url} alt="*" />
+          <img key={prev.data.title} style={imgPrevStyle} className="image-fit" src={prev.getLargestImageAtMost(1080, 1350).url} alt="*" />
+        </Swipeable>
+        {showInfo
+          ? (
+            <div style={{
+              position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.background.default, 0.4),
             }}
-            onTap={this.toggleInfo}
-            onSwiping={this.handleSwiping}
-            onSwiped={this.handleSwiped}
-          >
-            <img key={main.data.title} style={imgMainStyle} className="image-fit" src={main.getLargestImageAtMost(1080, 1350).url} alt="*" />
-            <img key={next.data.title} style={imgNextStyle} className="image-fit" src={next.getLargestImageAtMost(1080, 1350).url} alt="*" />
-            <img key={prev.data.title} style={imgPrevStyle} className="image-fit" src={prev.getLargestImageAtMost(1080, 1350).url} alt="*" />
-          </Swipeable>
-          {showInfo
-            ? (
-              <div style={{
-                position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.background.default, 0.4),
-              }}
-              >
-                <ul style={{ margin: `${theme.spacing.unit}px ${theme.spacing.unit * 5}px`, padding: '0 0 0 1.5em' }}>
-                  {this.createNotesElement(main)}
-                </ul>
-              </div>
-            )
-            : null}
-          {floatingIcon(<NavigationChevronLeft />, false, true, this.movePrev)}
-          {floatingIcon(<NavigationChevronRight />, false, false, this.moveNext)}
-          {showInfo ? null : floatingIcon(<NavigationArrowBack />, true, true, this.closeDetailView)}
-          {showInfo ? null : floatingIcon(<NavigationFullscreenExit />, true, false, this.toggleInfo)}
-        </div>
-      </Drawer>
+            >
+              <ul style={{ margin: `${theme.spacing.unit}px ${theme.spacing.unit * 5}px`, padding: '0 0 0 1.5em' }}>
+                {this.createNotesElement(main)}
+              </ul>
+            </div>
+          )
+          : null}
+        {floatingIcon(<NavigationChevronLeft />, false, true, this.movePrev)}
+        {floatingIcon(<NavigationChevronRight />, false, false, this.moveNext)}
+        {showInfo ? null : floatingIcon(<NavigationArrowBack />, true, true, this.closeDetailView)}
+        {showInfo ? null : floatingIcon(<NavigationFullscreenExit />, true, false, this.toggleInfo)}
+      </Dialog>
     );
   }
 }
