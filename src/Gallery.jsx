@@ -5,10 +5,12 @@ import RouterLink from 'react-router-dom/Link';
 import LazyLoad from 'react-lazy-load';
 
 import { withTheme } from '@material-ui/core/styles';
+import { fade } from '@material-ui/core/styles/colorManipulator';
 
 import FullWidthContainer from './FullWidthContainer';
 import JustifiedLayout from './JustifiedLayout';
 import Photo from './photo';
+import Colors from './colors';
 
 const styleTitleOuter = {
   position: 'absolute',
@@ -38,8 +40,9 @@ class Gallery extends React.Component {
   photoToElement(p) {
     const { theme, chara } = this.props;
     const { thumbnailSize } = this.context;
+    const placeholderBackground = (p.data.colors.length > 0) ? fade(Colors.findById(p.data.colors[0]).value, 0.4) : theme.palette.background.paper;
     return (
-      <div key={p.data.title} style={{ backgroundColor: theme.palette.background.paper }}>
+      <div key={p.data.title} style={{ backgroundColor: placeholderBackground }}>
         <RouterLink to={`/chara/${chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${chara} ${p.data.title}`}>
           <div style={styleTitleOuter}>
             <div style={styleTitleInner} title={p.data.title}>

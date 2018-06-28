@@ -172,7 +172,7 @@ class App extends React.Component {
     const { theme } = this.props;
     const { menuOpened, menuDocked } = this.state;
     const activeStyle = {
-      borderLeft: `8px solid ${theme.palette.primary.main}`,
+      backgroundColor: theme.palette.action.selected,
     };
     return (
       <Drawer open={menuOpened} variant={menuDocked ? 'persistent' : 'temporary'} onClose={this.handleMenuClose}>
