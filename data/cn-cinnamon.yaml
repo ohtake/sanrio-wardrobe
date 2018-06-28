@@ -82,7 +82,7 @@
   - ディスカバリシアター『シナモンのひみつの扉』ファッションショー
 # ひみつの扉・ミュージカルスター
 - title: ひみつの扉・シナモンホワイト
-  source: { author: "ohtake", license: "", url: "https://www.instagram.com/p/BXpOwBSH5ua/"}
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BXpOwBSH5ua/"}
   images_instagram2: { shortcode: "BXpOwBSH5ua", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/7386d8a44d9db7e413b9f1343fae7253/5BB017A0/t51.2885-15/s150x150/e15/20686794_126526617968882_1736143407312535552_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/5f63945cd6f83e5911b3454247ec92f9/5BC357E7/t51.2885-15/s320x320/e15/20686794_126526617968882_1736143407312535552_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/3d143a64dec791b80f62bc276f7cc6a7/5BB874C4/t51.2885-15/s1080x1080/e15/fr/20686794_126526617968882_1736143407312535552_n.jpg" }
   size: { width_o: 1080, height_o: 1080 }
   colors: [blue, silver, gold]
@@ -370,9 +370,15 @@
   colors: [gold, black, white, blue, red]
   notes:
   - 外部イベント『ハローキティのすてきな物語』マントあり
-- title: 53AD2383
-  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32531384384/"}
-  images_flickr: { photo: "32531384384", farm: 4, server: 3823, secret: "11874c6dc4", secret_h: "d0e66280fa", secret_k: "48f89c285e", secret_o: "74307a1d00", format_o: "jpg" }
+- title: 53AL6224
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/29189159528/"}
+  images_flickr: { photo: "29189159528", farm: 2, server: 1766, secret: "1258a88614", secret_h: "a36f659232", secret_k: "706d183311", secret_o: "a3fe85ed4f", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [silver, gold]
+  notes: []
+- title: デコレーションゲーム
+  source: { author: "ohtake", license: "CC BY 2.0", url: "https://flickr.com/photos/ohtake_tomohiro/29189208108/"}
+  images_flickr: { photo: "29189208108", farm: 2, server: 1770, secret: "886d90e80b", secret_h: "45215f5733", secret_k: "e251f1c611", secret_o: "165f5a4785", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
   colors: [blue, green, white, yellow, pink]
   notes:
