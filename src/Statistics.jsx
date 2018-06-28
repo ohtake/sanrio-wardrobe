@@ -12,6 +12,8 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 
 import Colors from './colors';
 import DataFile from './data_file';
@@ -19,7 +21,8 @@ import DataFile from './data_file';
 class Statistics extends React.Component {
   constructor() {
     super();
-    this.state = { statistics: null, message: 'Loading statistics...' };
+    this.state = { statistics: null, message: 'Loading statistics...', tabIndex: 0 };
+    this.handleTabChange = this.handleTabChange.bind(this);
   }
 
   componentDidMount() {
@@ -35,6 +38,10 @@ class Statistics extends React.Component {
     }).catch((err) => {
       this.setState({ message: err.toString() });
     });
+  }
+
+  handleTabChange(event, value) {
+    this.setState({ tabIndex: value });
   }
 
   renderAvatarCell(df, gaEventName) {
@@ -57,16 +64,15 @@ class Statistics extends React.Component {
     const totalCount = DataFile.all.map(df => statistics.count[df.name]).reduce((acc, current) => acc + current);
     return (
       <React.Fragment>
-        <h2>
-          Count (
+        <p>
           {DataFile.all.length}
           {' '}
           characters,
           {' '}
           {totalCount}
           {' '}
-          photos)
-        </h2>
+          photos
+        </p>
         <Paper>
           <Table selectable={false}>
             <TableHead>
@@ -115,9 +121,6 @@ class Statistics extends React.Component {
     const { statistics } = this.state;
     return (
       <React.Fragment>
-        <h2>
-          Colors
-        </h2>
         <Paper>
           <Table>
             <TableHead>
@@ -157,12 +160,11 @@ class Statistics extends React.Component {
     });
     return (
       <React.Fragment>
-        <h2>
-          Authors (
+        <p>
           {sortedAuthor.length}
           {' '}
-          authors)
-        </h2>
+          authors
+        </p>
         <Paper>
           <Table>
             <TableHead>
@@ -192,19 +194,23 @@ class Statistics extends React.Component {
   }
 
   render() {
-    const { statistics, message } = this.state;
-    if (!statistics) {
-      return (
-        <div>
-          {message}
-        </div>
-      );
-    }
+    const { statistics, message, tabIndex } = this.state;
     return (
       <React.Fragment>
-        {this.renderCount()}
-        {this.renderColor()}
-        {this.renderAuthor()}
+        <Tabs value={tabIndex} indicatorColor="primary" onChange={this.handleTabChange}>
+          <Tab label="Count" />
+          <Tab label="Colors" />
+          <Tab label="Authors" />
+        </Tabs>
+        {statistics ? (
+          (tabIndex === 0 && this.renderCount())
+          || (tabIndex === 1 && this.renderColor())
+          || (tabIndex === 2 && this.renderAuthor())
+        ) : (
+          <p>
+            {message}
+          </p>
+        )}
       </React.Fragment>
     );
   }
