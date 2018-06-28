@@ -310,7 +310,7 @@ class DetailView extends React.Component {
           style={{
             position: 'absolute', top: (showInfo ? '64px' : 0), bottom: 0, left: (-swipingRatio * viewWidth), width: viewWidth,
           }}
-          onTap={this.toggleInfo}
+          onClick={this.toggleInfo}
           onSwiping={this.handleSwiping}
           onSwiped={this.handleSwiped}
         >
