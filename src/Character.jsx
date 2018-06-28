@@ -215,7 +215,7 @@ export default class Character extends React.Component {
         <ColorSelector innerRef={this.refColor} onChanged={this.colorChanged} />
         <Grid container alignItems="flex-end">
           <Grid item>
-            <ActionSearch style={{ padding: '0 8px 0 12px' }} />
+            <ActionSearch style={{ padding: '0 8px' }} onClick={this.handleSearchIconClick} />
           </Grid>
           <Grid item>
             <TextField inputRef={this.refText} placeholder="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
