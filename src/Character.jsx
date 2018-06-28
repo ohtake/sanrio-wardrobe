@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import CircularProgress from '@material-ui/core/CircularProgress';
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 
@@ -47,8 +48,7 @@ class SearchParams {
 export default class Character extends React.Component {
   constructor() {
     super();
-    this.allPhotos = [];
-    this.state = { message: 'Initializing', photos: [] };
+    this.state = { allPhotos: null, photos: [], error: null };
     this.searchParams = new SearchParams();
 
     this.refColor = React.createRef();
@@ -67,14 +67,14 @@ export default class Character extends React.Component {
 
   shouldComponentUpdate(nextProps, nextState, nextContext) {
     const {
-      photos, chara, title, message, index,
+      photos, chara, title, index, error,
     } = this.state;
     const { thumbnailSize } = this.context; // Workaround to unofficial old React Context API
     return photos !== nextState.photos
       || chara !== nextState.chara
       || title !== nextState.title
-      || message !== nextState.message
       || index !== nextState.index
+      || error !== nextState.error
       || thumbnailSize !== nextContext.thumbnailSize;
   }
 
@@ -102,8 +102,8 @@ export default class Character extends React.Component {
     const df = DataFile.findByName(chara);
     setTitle(df.getDisplayName());
     this.setState({
+      allPhotos: null,
       photos: [],
-      message: `Loading ${chara}`,
     });
     this.loadPhotosAsync();
   }
@@ -112,17 +112,15 @@ export default class Character extends React.Component {
     const { chara, title } = this.state;
     try {
       const photos = await Photo.loadPhotos(chara);
-      this.allPhotos = photos;
       this.setState({
-        photos: photos.slice(0),
-        message: null,
+        allPhotos: photos,
+        photos,
       });
       this.clearSearch();
       this.updateLightbox(title);
     } catch (err) {
       this.setState({
-        photos: [],
-        message: err.toString(),
+        error: err,
       });
     }
   }
@@ -150,12 +148,13 @@ export default class Character extends React.Component {
   }
 
   execSearch() {
-    if (!this.allPhotos) return;
+    const { allPhotos } = this.state;
+    if (!allPhotos) return;
     if (this.searchParams.isEmpty()) {
-      this.setState({ photos: this.allPhotos, message: null });
+      this.setState({ photos: allPhotos });
     } else {
-      const photos = this.allPhotos.filter(p => this.searchParams.match(p));
-      this.setState({ photos, message: `Displaying ${photos.length} of ${this.allPhotos.length} items` });
+      const photos = allPhotos.filter(p => this.searchParams.match(p));
+      this.setState({ photos });
     }
   }
 
@@ -205,8 +204,12 @@ export default class Character extends React.Component {
 
   render() {
     const {
-      message, photos, chara, index,
+      error, allPhotos, photos, chara, index,
     } = this.state;
+    const message = (allPhotos === null && [<CircularProgress />, `Loading ${chara}...`])
+      || (!this.searchParams.isEmpty() && `Displaying ${photos.length} of ${allPhotos.length} items`)
+      || null;
+    if (error) throw error;
     return (
       <React.Fragment>
         <ColorSelector innerRef={this.refColor} onChanged={this.colorChanged} />

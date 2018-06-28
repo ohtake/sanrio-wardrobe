@@ -6,6 +6,7 @@ import RouterLink from 'react-router-dom/Link';
 import { withStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
+import CircularProgress from '@material-ui/core/CircularProgress';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -21,7 +22,7 @@ import DataFile from './data_file';
 class Statistics extends React.Component {
   constructor() {
     super();
-    this.state = { statistics: null, message: 'Loading statistics...', tabIndex: 0 };
+    this.state = { statistics: null, error: null, tabIndex: 0 };
     this.handleTabChange = this.handleTabChange.bind(this);
   }
 
@@ -36,7 +37,7 @@ class Statistics extends React.Component {
     }).then((stat) => {
       this.setState({ statistics: stat });
     }).catch((err) => {
-      this.setState({ message: err.toString() });
+      this.setState({ error: err });
     });
   }
 
@@ -194,7 +195,8 @@ class Statistics extends React.Component {
   }
 
   render() {
-    const { statistics, message, tabIndex } = this.state;
+    const { statistics, error, tabIndex } = this.state;
+    if (error) throw error;
     return (
       <React.Fragment>
         <Tabs value={tabIndex} indicatorColor="primary" onChange={this.handleTabChange}>
@@ -208,7 +210,8 @@ class Statistics extends React.Component {
           || (tabIndex === 2 && this.renderAuthor())
         ) : (
           <p>
-            {message}
+            <CircularProgress />
+            Loading statistics...
           </p>
         )}
       </React.Fragment>

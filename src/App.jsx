@@ -6,6 +6,7 @@ import Switch from 'react-router-dom/Switch';
 
 import AppBar from '@material-ui/core/AppBar';
 import Avatar from '@material-ui/core/Avatar';
+import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import IconButton from '@material-ui/core/IconButton';
@@ -17,6 +18,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
+import Paper from '@material-ui/core/Paper';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/lab/Slider';
@@ -49,12 +51,13 @@ class App extends React.Component {
     super();
 
     this.state = {
-      menuOpened: false, menuDocked: false, thumbnailSize: 120, title: appDefaultTitle,
+      menuOpened: false, menuDocked: false, thumbnailSize: 120, title: appDefaultTitle, errorObject: null, errorInfo: null,
     };
 
     this.refSliderThumbnailSize = React.createRef();
 
     this.setTitle = this.setTitle.bind(this);
+    this.clearError = this.clearError.bind(this);
     this.handleMenuOpen = this.handleMenuOpen.bind(this);
     this.handleMenuClick = this.handleMenuClick.bind(this);
     this.handleMenuPinned = this.handleMenuPinned.bind(this);
@@ -85,6 +88,15 @@ class App extends React.Component {
     }
   }
 
+  componentDidCatch(error, info) {
+    const { errorObject } = this.state;
+    if (!errorObject) this.setState({ errorObject: error, errorInfo: info });
+  }
+
+  clearError() {
+    this.setState({ errorObject: null, errorInfo: null });
+  }
+
   handleMenuOpen() {
     this.setState({ menuOpened: true });
   }
@@ -100,6 +112,7 @@ class App extends React.Component {
 
   handleMenuClick() {
     const { menuDocked } = this.state;
+    this.clearError();
     if (menuDocked) return;
     window.setTimeout(() => this.setState({ menuOpened: false }), 200);
   }
@@ -232,9 +245,29 @@ class App extends React.Component {
       </Drawer>);
   }
 
+  renderError() {
+    const { theme } = this.props;
+    const { errorObject, errorInfo } = this.state;
+    return (
+      <Paper style={{ border: `2px solid ${theme.palette.error.main}`, padding: theme.spacing.unit }}>
+        <p>
+          {errorObject.toString()}
+        </p>
+        <pre>
+          {errorInfo.componentStack}
+        </pre>
+        <Button onClick={this.clearError}>
+          Retry
+        </Button>
+        <Button component={NavLink} onClick={this.clearError} to="/">
+          Back to Home
+        </Button>
+      </Paper>);
+  }
+
   render() {
     const { theme } = this.props;
-    const { menuOpened, menuDocked } = this.state;
+    const { menuOpened, menuDocked, errorObject } = this.state;
     const containerStyle = {
       backgroundColor: theme.palette.background.default,
       padding: theme.spacing.unit,
@@ -244,11 +277,13 @@ class App extends React.Component {
         {this.renderAppBar()}
         {this.renderDrawer()}
         <div style={containerStyle}>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/chara/:chara/:title?" component={Character} />
-            <Route path="/statistics" component={Statistics} />
-          </Switch>
+          {errorObject ? this.renderError() : (
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/chara/:chara/:title?" component={Character} />
+              <Route path="/statistics" component={Statistics} />
+            </Switch>
+          )}
         </div>
       </div>);
   }
