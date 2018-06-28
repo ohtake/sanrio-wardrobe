@@ -13,6 +13,18 @@
   colors: [blue, black, white, gold]
   notes:
   - メルヘンシアター『ハローキティのくるみ割り人形』
+- title: flickr-41248176195
+  source: { author: "noel", license: "", url: "https://flickr.com/photos/142783127@N08/41248176195/"}
+  images_flickr: { photo: "41248176195", farm: 1, server: 970, secret: "857dc5aa06", secret_h: "7b152e555f", secret_k: "62dd0eaebf", secret_o: "abd3566c06", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [silver, blue, red]
+  notes: []
+- title: チャイナ服
+  source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/28276826368/"}
+  images_flickr: { photo: "28276826368", farm: 1, server: 955, secret: "8f0fedc569", secret_h: "5d5ddf295f", secret_k: "70f8950a2d", secret_o: "d101616396", format_o: "jpg" }
+  size: { width_o: 3244, height_o: 4452 }
+  colors: [blue, gold, black]
+  notes: []
 - title: IMG_6288
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/23705642434/"}
   images_flickr: { photo: "23705642434", farm: 2, server: 1516, secret: "1b2f1ced7a", secret_h: "580ba3cfd9", secret_k: "50cb9b3714", secret_o: "ed739f72b0", format_o: "jpg" }

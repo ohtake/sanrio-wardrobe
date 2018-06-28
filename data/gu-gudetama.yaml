@@ -95,3 +95,15 @@
   colors: [red, white]
   notes:
   - クリスマス
+- title: ぎゅでちゃま
+  source: { author: "noel", license: "", url: "https://flickr.com/photos/142783127@N08/26926148057/"}
+  images_flickr: { photo: "26926148057", farm: 1, server: 959, secret: "59fb160a66", secret_h: "943aeffc51", secret_k: "af0ea86a95", secret_o: "9edfce26d1", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [white]
+  notes: []
+- title: しゃきぴよ
+  source: { author: "peridot yamada", license: "", url: "https://flickr.com/photos/110019246@N08/28105463307/"}
+  images_flickr: { photo: "28105463307", farm: 2, server: 1835, secret: "443408863e", secret_h: "536a5d56ce", secret_k: "51c7a1b0ec", secret_o: "2530249437", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [brown]
+  notes: []

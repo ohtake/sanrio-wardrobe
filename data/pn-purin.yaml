@@ -298,6 +298,13 @@
   colors: [red, green, white, orange, yellow]
   notes:
   - マフラーグリ
+- title: キティパラPLUS
+  source: { author: "ぴた", license: "", url: "https://flickr.com/photos/129114569@N06/41716779775/"}
+  images_flickr: { photo: "41716779775", farm: 2, server: 1722, secret: "419b8f7f31", secret_h: "52cdec33a5", secret_k: "0700a80fbc" }
+  size: { width_o: 2048, height_o: 1365 }
+  colors: [green, red, white, yellow]
+  notes:
+  - キティズパラダイスPLUS
 - title: マフラー2
   source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/37051991762/"}
   images_flickr: { photo: "37051991762", farm: 5, server: 4388, secret: "533cb059db", secret_h: "f1eaeb2409", secret_k: "c0032b94dd", secret_o: "908d0cc299", format_o: "jpg" }
@@ -383,6 +390,12 @@
   images_flickr: { photo: "12612219925", farm: 4, server: 3788, secret: "3e94a649c9", secret_h: "a69f5e58b1", secret_k: "5c369bb282", secret_o: "30d2bcc89d", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
   colors: [blue, white, red]
+  notes: []
+- title: flickr-40624139465
+  source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/40624139465/"}
+  images_flickr: { photo: "40624139465", farm: 1, server: 918, secret: "0573d5927e", secret_h: "f3f5663817", secret_k: "d32a6c95b9", secret_o: "c8769cc080", format_o: "jpg" }
+  size: { width_o: 3840, height_o: 5760 }
+  colors: [silver, blue, green, yellow, red, purple]
   notes: []
 - title: 雨合羽
   source: { author: "Chu H", license: "", url: "https://www.flickr.com/photos/113478073@N02/16525847101/"}

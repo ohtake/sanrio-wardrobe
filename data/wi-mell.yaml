@@ -92,6 +92,13 @@
   notes:
   - Angelic Pretty のジャンパースカートその2
   - Angelic Pretty、ロリータ、リボン、ウサミミ
+- title: Angelic Pretty 3
+  source: { author: "mono", license: "", url: "https://www.flickr.com/photos/mono0x/27822679357/"}
+  images_flickr: { photo: "27822679357", farm: 2, server: 1744, secret: "56f75713a1", secret_h: "39e2ab83c3", secret_k: "458aefa231", secret_o: "b684a98452", format_o: "jpg" }
+  size: { width_o: 3888, height_o: 5184 }
+  colors: [pink, white, blue]
+  notes:
+  - Angelic Pretty のジャンパースカートその3
 - title: ハロウィンケープ
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/10249162114/"}
   images_flickr: { photo: "10249162114", farm: 4, server: 3799, secret: "2a846327df", secret_h: "dfcfe81680", secret_k: "760839d1d9", secret_o: "cbde55db73", format_o: "jpg" }

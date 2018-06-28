@@ -1205,6 +1205,7 @@
   colors: [blue, white, pink]
   notes:
   - 日焼け、帽子、ハイビスカス
+  - カリビアンカーニバル
 - title: 5D3P6743
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14892779477/"}
   images_flickr: { photo: "14892779477", farm: 6, server: 5552, secret: "61c3ecd5f5", secret_h: "c8a30593b3", secret_k: "eaf9acfb72", secret_o: "3b54d4cc0d", format_o: "jpg" }
@@ -1876,6 +1877,7 @@
   colors: [pink, white, yellow, green, purple]
   notes:
   - 外部イベント『It's a Wonderland』ではメロディの2着目
+  - 外部イベント『カリビアンドリーム』の頭飾りなし版
 - title: 想い出を売る店
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/24302238358/"}
   images_flickr: { photo: "24302238358", farm: 5, server: 4482, secret: "fdcc238bd6", secret_h: "2f90447447", secret_k: "f0cb640e6b", secret_o: "ca3db0d4be", format_o: "jpg" }
@@ -2077,6 +2079,12 @@
   notes:
   - ハーモニーランド26周年
   - バラ
+- title: flickr-42643692371
+  source: { author: "ぴた", license: "", url: "https://flickr.com/photos/129114569@N06/42643692371/"}
+  images_flickr: { photo: "42643692371", farm: 2, server: 1755, secret: "e0097351aa", secret_h: "1dd7fe3ad3", secret_k: "f9f2568b2d" }
+  size: { width_o: 1365, height_o: 2048 }
+  colors: [pink, red, yellow, white]
+  notes: []
 - title: キティカフェ
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36121456242/"}
   images_flickr: { photo: "36121456242", farm: 5, server: 4295, secret: "be69622355", secret_h: "86a9cb5c25", secret_k: "caaf7cec30", secret_o: "896d31c8f4", format_o: "jpg" }
@@ -2273,6 +2281,14 @@
   notes:
   - 2017年2月のSANRIO EXPOでの表記は「フコク オリジナル」
   - フコク生命
+- title: ジョイフルパーティ
+  source: { author: "ぴた", license: "", url: "https://flickr.com/photos/129114569@N06/41925050984/"}
+  images_flickr: { photo: "41925050984", farm: 2, server: 1748, secret: "cceb2effd2", secret_h: "d83d759ec1", secret_k: "136d7756a0" }
+  size: { width_o: 1365, height_o: 2048 }
+  colors: [pink, white, red, green]
+  notes:
+  - 外部イベント『ハローキティとウサハナのジョイフルパーティ！』
+  - フコクオリジナルとはリボンが異なる
 - title: BLTKLxLjM1R
   source: { author: "mamapopo0730", license: "", url: "https://www.instagram.com/p/BLTKLxLjM1R/"}
   images_instagram2: { shortcode: "BLTKLxLjM1R", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/865bb577310670860f524c452545e178/5BB29880/t51.2885-15/s150x150/e35/14624428_660734527438424_8902875791906308096_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/d4497d13e75b9d5fe2f4b053728a65f2/5BB7ACC7/t51.2885-15/s320x320/e35/14624428_660734527438424_8902875791906308096_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/f85cbe3d760a38d7ed038744d904f4b4/5BB5C9E5/t51.2885-15/e35/14624428_660734527438424_8902875791906308096_n.jpg" }
@@ -2325,6 +2341,13 @@
   notes:
   - 三菱自動車
   - 帽子、リュックサック
+- title: 横浜DeNAベイスターズ
+  source: { author: "noel", license: "", url: "https://flickr.com/photos/142783127@N08/42149246531/"}
+  images_flickr: { photo: "42149246531", farm: 1, server: 909, secret: "e047c37b4b", secret_h: "824fb34710", secret_k: "03841fcdad", secret_o: "4ba1695f58", format_o: "jpg" }
+  size: { width_o: 5760, height_o: 3840 }
+  colors: [blue, white, pink, red]
+  notes:
+  - 横浜DeNAベイスターズ
 - title: 5D3S9860
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/16028627509/"}
   images_flickr: { photo: "16028627509", farm: 8, server: 7529, secret: "e0105b64ec", secret_h: "519e774f04", secret_k: "fa88366350", secret_o: "64aabd2b11", format_o: "jpg" }

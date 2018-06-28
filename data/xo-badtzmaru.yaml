@@ -386,6 +386,13 @@
   colors: [white, blue, silver]
   notes:
   - 白タキシード
+- title: flickr-26647383697
+  source: { author: "noel", license: "", url: "https://www.flickr.com/photos/142783127@N08/26647383697/"}
+  images_flickr: { photo: "26647383697", farm: 1, server: 898, secret: "5c1d0f6213", secret_h: "4c3a3359c7", secret_k: "3737f747c2", secret_o: "78a2cea104", format_o: "jpg" }
+  size: { width_o: 2981, height_o: 4411 }
+  colors: [red, gold, grey, green, yellow, black]
+  notes:
+  - ニット帽
 - title: 雨合羽
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/15113862871/"}
   images_flickr: { photo: "15113862871", farm: 4, server: 3876, secret: "cf3a4a3f7a", secret_h: "de4d6cf8d6", secret_k: "40bae7d1a4", secret_o: "eb68b71aea", format_o: "jpg" }

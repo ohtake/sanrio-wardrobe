@@ -62,6 +62,13 @@
   colors: [purple, pink, blue, white]
   notes:
   - ピューロランドパレード『ARIGATO EVERYONE!』
+- title: クララ編集長
+  source: { author: "ぴた", license: "", url: "https://flickr.com/photos/129114569@N06/41737546552/"}
+  images_flickr: { photo: "41737546552", farm: 1, server: 967, secret: "1d62bd343f", secret_h: "9fb0df3918", secret_k: "782b50e106" }
+  size: { width_o: 2048, height_o: 1365 }
+  colors: [purple, pink, blue, white, black]
+  notes:
+  - 新書館のバレエ雑誌「クララ」編集長
 - title: ARIGATO EVERYONE クリスマス
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15440910574/"}
   images_flickr: { photo: "15440910574", farm: 8, server: 7464, secret: "a9300764e4", secret_h: "b292005342", secret_k: "7a6fd0b9f0", secret_o: "5eae5d8ccd", format_o: "jpg" }
