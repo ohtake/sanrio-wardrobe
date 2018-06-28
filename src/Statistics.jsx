@@ -19,6 +19,17 @@ import Tab from '@material-ui/core/Tab';
 import Colors from './colors';
 import DataFile from './data_file';
 
+function sum(arr) {
+  return arr.reduce((acc, current) => acc + current);
+}
+
+function renderCell(content, props = {}) {
+  return (
+    <TableCell {...props} style={{ padding: 4 }}>
+      {content}
+    </TableCell>);
+}
+
 class Statistics extends React.Component {
   constructor() {
     super();
@@ -47,70 +58,46 @@ class Statistics extends React.Component {
 
   renderAvatarCell(df, gaEventName) {
     const { classes } = this.props;
-    return (
-      <TableCell>
-        <Button component={RouterLink} to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventName} data-ga-event-label={df.name} className={classes.charaButton}>
-          {df.picUrl ? <Avatar src={df.picUrl} className={classes.avatar} /> : (
-            <Avatar className={classes.avatar}>
-              {df.seriesSymbol}
-            </Avatar>
-          )}
-          {df.name}
-        </Button>
-      </TableCell>);
+    return renderCell(
+      <Button size="small" component={RouterLink} to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventName} data-ga-event-label={df.name} className={classes.charaButton}>
+        {df.picUrl ? <Avatar src={df.picUrl} className={classes.avatar} /> : (
+          <Avatar className={classes.avatar}>
+            {df.seriesSymbol}
+          </Avatar>
+        )}
+        {df.name}
+      </Button>,
+    );
   }
 
   renderCount() {
+    const { classes } = this.props;
     const { statistics } = this.state;
-    const totalCount = DataFile.all.map(df => statistics.count[df.name]).reduce((acc, current) => acc + current);
+    const totalCount = sum(DataFile.all.map(df => statistics.count[df.name]));
     return (
       <React.Fragment>
         <p>
-          {DataFile.all.length}
-          {' '}
-          characters,
-          {' '}
-          {totalCount}
-          {' '}
-          photos
+          {`${DataFile.all.length} characters, ${totalCount} photos`}
         </p>
-        <Paper>
-          <Table selectable={false}>
+        <Paper className={classes.tableWraper}>
+          <Table>
             <TableHead>
               <TableRow>
-                <TableCell>
-                  Character
-                </TableCell>
-                <TableCell>
-                  Series
-                </TableCell>
-                <TableCell>
-                  Name (ja)
-                </TableCell>
-                <TableCell>
-                  Name (en)
-                </TableCell>
-                <TableCell>
-                  Count
-                </TableCell>
+                {renderCell('Character')}
+                {renderCell('Count')}
+                {renderCell('Series')}
+                {renderCell('Name (ja)')}
+                {renderCell('Name (en)')}
               </TableRow>
             </TableHead>
             <TableBody>
               {DataFile.all.map(df => (
                 <TableRow hover>
                   {this.renderAvatarCell(df, 'statCount')}
-                  <TableCell>
-                    {df.seriesSymbol}
-                  </TableCell>
-                  <TableCell>
-                    {df.nameJa}
-                  </TableCell>
-                  <TableCell>
-                    {df.nameEn}
-                  </TableCell>
-                  <TableCell numeric>
-                    {statistics.count[df.name]}
-                  </TableCell>
+                  {renderCell(statistics.count[df.name], { numeric: true })}
+                  {renderCell(df.seriesSymbol)}
+                  {renderCell(df.nameJa)}
+                  {renderCell(df.nameEn)}
                 </TableRow>))}
             </TableBody>
           </Table>
@@ -119,32 +106,27 @@ class Statistics extends React.Component {
   }
 
   renderColor() {
+    const { classes } = this.props;
     const { statistics } = this.state;
+    const totalCount = sum(DataFile.all.map(df => sum(Colors.all.map(c => statistics.color[df.name][c.id]))));
     return (
       <React.Fragment>
-        <Paper>
+        <p>
+          {`${totalCount} colors`}
+        </p>
+        <Paper className={classes.tableWraper}>
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell>
-                  Character
-                </TableCell>
-                {Colors.all.map(c => (
-                  <TableCell>
-                    {c.name}
-                  </TableCell>
-                ))}
+                {renderCell('Character')}
+                {Colors.all.map(c => renderCell(c.name))}
               </TableRow>
             </TableHead>
             <TableBody>
               {DataFile.all.map(df => (
                 <TableRow hover>
                   {this.renderAvatarCell(df, 'statColor')}
-                  {Colors.all.map(c => (
-                    <TableCell numeric>
-                      {statistics.color[df.name][c.id]}
-                    </TableCell>
-                  ))}
+                  {Colors.all.map(c => renderCell(statistics.color[df.name][c.id], { numeric: true }))}
                 </TableRow>))}
             </TableBody>
           </Table>
@@ -153,6 +135,7 @@ class Statistics extends React.Component {
   }
 
   renderAuthor() {
+    const { classes } = this.props;
     const { statistics } = this.state;
     const sortedAuthor = toPairs(statistics.author).sort((x, y) => {
       const countDiff = y[1] - x[1];
@@ -162,31 +145,21 @@ class Statistics extends React.Component {
     return (
       <React.Fragment>
         <p>
-          {sortedAuthor.length}
-          {' '}
-          authors
+          {`${sortedAuthor.length} authors`}
         </p>
-        <Paper>
+        <Paper className={classes.tableWraper}>
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell>
-                  Name
-                </TableCell>
-                <TableCell>
-                  Count
-                </TableCell>
+                {renderCell('Name')}
+                {renderCell('Count')}
               </TableRow>
             </TableHead>
             <TableBody>
               {sortedAuthor.map(a => (
                 <TableRow hover>
-                  <TableCell>
-                    {a[0]}
-                  </TableCell>
-                  <TableCell numeric>
-                    {a[1]}
-                  </TableCell>
+                  {renderCell(a[0])}
+                  {renderCell(a[1], { numeric: true })}
                 </TableRow>))}
             </TableBody>
           </Table>
@@ -233,5 +206,8 @@ export default withStyles({
   },
   charaButton: {
     textTransform: 'none',
+  },
+  tableWraper: {
+    overflowX: 'auto',
   },
 })(Statistics);
