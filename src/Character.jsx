@@ -7,6 +7,7 @@ import TextField from '@material-ui/core/TextField';
 
 import ActionSearch from '@material-ui/icons/Search';
 
+import isEqual from 'lodash/isEqual';
 import throttle from 'lodash/throttle';
 
 import ColorSelector from './ColorSelector';
@@ -65,31 +66,14 @@ export default class Character extends React.Component {
     this.loadPhotos();
   }
 
-  shouldComponentUpdate(nextProps, nextState, nextContext) {
-    const {
-      photos, chara, title, index, error,
-    } = this.state;
-    const { thumbnailSize } = this.context; // Workaround to unofficial old React Context API
-    return photos !== nextState.photos
-      || chara !== nextState.chara
-      || title !== nextState.title
-      || index !== nextState.index
-      || error !== nextState.error
-      || thumbnailSize !== nextContext.thumbnailSize;
-  }
-
-  componentDidUpdate(prevProps, prevState) {
-    const { chara, title } = this.state;
-    if (prevState.chara !== chara) {
+  componentDidUpdate(prevProps) {
+    const { match } = this.props;
+    const { chara, title } = match.params;
+    if (prevProps.match.params.chara !== chara) {
       this.loadPhotos();
-    } else if (prevState.title !== title) {
+    } else if (prevProps.match.params.title !== title) {
       this.updateLightbox(title);
     }
-  }
-
-  static getDerivedStateFromProps(nextProps) {
-    const { chara, title } = nextProps.match.params;
-    return { chara, title };
   }
 
   /**
@@ -97,7 +81,8 @@ export default class Character extends React.Component {
    * @returns {void}
    */
   loadPhotos() {
-    const { chara } = this.state;
+    const { match } = this.props;
+    const { chara } = match.params;
     const { setTitle } = this.context;
     const df = DataFile.findByName(chara);
     setTitle(df.getDisplayName());
@@ -109,7 +94,8 @@ export default class Character extends React.Component {
   }
 
   async loadPhotosAsync() {
-    const { chara, title } = this.state;
+    const { match } = this.props;
+    const { chara, title } = match.params;
     try {
       const photos = await Photo.loadPhotos(chara);
       this.setState({
@@ -148,13 +134,17 @@ export default class Character extends React.Component {
   }
 
   execSearch() {
-    const { allPhotos } = this.state;
+    const { allPhotos, photos } = this.state;
     if (!allPhotos) return;
     if (this.searchParams.isEmpty()) {
-      this.setState({ photos: allPhotos });
+      if (allPhotos !== photos) {
+        this.setState({ photos: allPhotos });
+      }
     } else {
-      const photos = allPhotos.filter(p => this.searchParams.match(p));
-      this.setState({ photos });
+      const filtered = allPhotos.filter(p => this.searchParams.match(p));
+      if (!isEqual(filtered, photos)) {
+        this.setState({ photos: filtered });
+      }
     }
   }
 
@@ -190,8 +180,9 @@ export default class Character extends React.Component {
 
   handleSearchTextBlur() {
     const text = this.refText.current.value.trim();
-    const { chara } = this.state;
     if (text) {
+      const { match } = this.props;
+      const { chara } = match.params;
       utils.sendGoogleAnalyticsEvent('textsearch', 'blur', `${chara} ${text}`);
     }
   }
@@ -203,8 +194,10 @@ export default class Character extends React.Component {
   }
 
   render() {
+    const { match } = this.props;
+    const { chara } = match.params;
     const {
-      error, allPhotos, photos, chara, index,
+      error, allPhotos, photos, index,
     } = this.state;
     const message = (allPhotos === null && [<CircularProgress />, `Loading ${chara}...`])
       || (!this.searchParams.isEmpty() && `Displaying ${photos.length} of ${allPhotos.length} items`)
@@ -233,8 +226,6 @@ export default class Character extends React.Component {
   }
 }
 Character.propTypes = {
-  // https://github.com/yannickcr/eslint-plugin-react/issues/1751
-  // eslint-disable-next-line react/no-unused-prop-types
   match: PropTypes.shape({
     params: PropTypes.shape({
       chara: PropTypes.string,
@@ -245,5 +236,4 @@ Character.propTypes = {
 Character.contextTypes = {
   router: PropTypes.shape({ history: PropTypes.shape({ replace: PropTypes.func }) }).isRequired,
   setTitle: PropTypes.func,
-  thumbnailSize: PropTypes.number,
 };
