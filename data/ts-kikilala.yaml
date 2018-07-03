@@ -236,6 +236,13 @@
   colors: [blue, pink, red, green, yellow, purple, gold]
   notes:
   - ピューロランドパレード『Miracle Gift Parade』
+- title: 七夕甚平
+  source: { author: "amy_kilakilaboshi", license: "", url: "https://www.instagram.com/p/BknQRlgHUHs/"}
+  images_instagram2: { shortcode: "BknQRlgHUHs", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/68ccf41a90b44d1e0c57f46f26c46cba/5BE4AD89/t51.2885-15/s150x150/e35/35174081_1081557265315716_5639399270621642752_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/05e95eff226d69c26a4edf87b580e5d9/5BD17DB9/t51.2885-15/s320x320/e35/35174081_1081557265315716_5639399270621642752_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/7b8002b2fa49fa699dabd314ef07cea2/5BDC26DE/t51.2885-15/e35/35174081_1081557265315716_5639399270621642752_n.jpg" }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [blue, pink, purple, yellow, white]
+  notes:
+  - 七夕甚平
 # パレードパラレル オリジナル1
 - title: パレードパラレル オリジナル2
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.instagram.com/p/BY_KUukHUzj/"}

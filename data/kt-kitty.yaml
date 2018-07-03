@@ -531,7 +531,7 @@
   notes:
   - 2017年2月のSANRIO EXPOでの表記は「2014 NEW」
   - チェック、リボン
-- title: 53AA5580
+- title: 川崎市バス
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/30657258482/"}
   images_flickr: { photo: "30657258482", farm: 6, server: 5665, secret: "bb75f8b038", secret_h: "f0d0039e05", secret_k: "5b7b468e33", secret_o: "6b95259349", format_o: "jpg" }
   size: { width_o: 5760, height_o: 3840 }
@@ -539,7 +539,15 @@
   notes:
   - 川崎市バス
   - チェック、リボン
-- title: 5D3Q8342
+- title: 新幹線
+  source: { author: "takahiro.s41", license: "", url: "https://instagram.com/p/BkoBC-uDGK8/"}
+  images_instagram2: { shortcode: "BkoAndLlXrp", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/da25b1e1e366c5d1bc9e26167b868fc8/5BE40CFA/t51.2885-15/s150x150/e35/36136563_212028122765892_3573673387412684800_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/5a700cbcf532692821cf0edfbc31a625/5BEB72BD/t51.2885-15/s320x320/e35/36136563_212028122765892_3573673387412684800_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/592f008243d5ebc63932ae8bc7631a09/5BE83D9F/t51.2885-15/e35/36136563_212028122765892_3573673387412684800_n.jpg" }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [pink, white, blue]
+  notes:
+  - JR西日本、ハローキティ新幹線
+  - チェック、リボン
+- title: 京王多摩センター駅一日駅長
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/15608954220/"}
   images_flickr: { photo: "15608954220", farm: 8, server: 7513, secret: "5127e88cd6", secret_h: "7f086da5f9", secret_k: "994258dd85", secret_o: "6146878e88", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
