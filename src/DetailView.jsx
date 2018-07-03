@@ -202,7 +202,7 @@ class DetailView extends React.Component {
    * @param {Photo} photo
    * @returns {React.Node}
    */
-  createCreditElement(photo) {
+  renderCreditElement(photo) {
     const { theme } = this.props;
     const texts = [];
     if (photo.data.source.author) texts.push(`by ${photo.data.source.author}`);
@@ -212,6 +212,16 @@ class DetailView extends React.Component {
         {texts.join(' ') || 'no credit info'}
       </a>
     );
+  }
+
+  static renderMenuItem(handler, icon, primaryText, secondaryText = '') {
+    return (
+      <MenuItem onClick={handler}>
+        <ListItemIcon>
+          {icon}
+        </ListItemIcon>
+        <ListItemText primary={primaryText} secondary={secondaryText} />
+      </MenuItem>);
   }
 
   renderAppBar(main) {
@@ -230,7 +240,7 @@ class DetailView extends React.Component {
             </div>
             <div>
               <Typography variant="subheading">
-                {this.createCreditElement(main)}
+                {this.renderCreditElement(main)}
               </Typography>
             </div>
           </div>
@@ -239,41 +249,29 @@ class DetailView extends React.Component {
               <NavigationMoreVert />
             </IconButton>
             <Menu open={Boolean(menuAnchorEl)} anchorEl={menuAnchorEl} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }} transformOrigin={{ horizontal: 'right', vertical: 'bottom' }} onClose={this.handleMenuClose}>
-              <MenuItem onClick={this.openImageSource}>
-                <ListItemIcon>
-                  <ActionOpenInBrowser />
-                </ListItemIcon>
-                <ListItemText primary="Open image source" secondary="Tap the credit" />
-              </MenuItem>
-              <MenuItem onClick={this.toggleInfo}>
-                <ListItemIcon>
-                  <NavigationFullscreen />
-                </ListItemIcon>
-                <ListItemText primary="Fullscreen" secondary="Tap the image" />
-              </MenuItem>
-              <MenuItem onClick={this.movePrev}>
-                <ListItemIcon>
-                  <NavigationChevronLeft />
-                </ListItemIcon>
-                <ListItemText primary="Move Previous" secondary="Swipe right / Left key" />
-              </MenuItem>
-              <MenuItem onClick={this.moveNext}>
-                <ListItemIcon>
-                  <NavigationChevronRight />
-                </ListItemIcon>
-                <ListItemText primary="Move Next" secondary="Swipe left / Right key" />
-              </MenuItem>
+              {DetailView.renderMenuItem(this.openImageSource, <ActionOpenInBrowser />, 'Open image source', 'Tap the credit')}
+              {DetailView.renderMenuItem(this.toggleInfo, <NavigationFullscreen />, 'Fullscreen', 'Tap the image')}
+              {DetailView.renderMenuItem(this.movePrev, <NavigationChevronLeft />, 'Move Previous', 'Swipe right / Left key')}
+              {DetailView.renderMenuItem(this.moveNext, <NavigationChevronRight />, 'Move Next', 'Swipe left / Right key')}
               <Divider />
-              <MenuItem onClick={utils.openFeedback}>
-                <ListItemIcon>
-                  <ActionFeedback />
-                </ListItemIcon>
-                <ListItemText primary="Feedback" />
-              </MenuItem>
+              {DetailView.renderMenuItem(utils.openFeedback, <ActionFeedback />, 'Feedback')}
             </Menu>
           </div>
         </Toolbar>
       </AppBar>);
+  }
+
+  static renderFloatingIcon(iconElement, isTop, isLeft, handler) {
+    const containerStyle = { position: 'absolute' };
+    if (isTop) { containerStyle.top = 0; } else { containerStyle.bottom = 0; }
+    if (isLeft) { containerStyle.left = 0; } else { containerStyle.right = 0; }
+    return (
+      <div style={containerStyle}>
+        <IconButton onClick={handler}>
+          {iconElement}
+        </IconButton>
+      </div>
+    );
   }
 
   renderContent() {
@@ -289,19 +287,6 @@ class DetailView extends React.Component {
     // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
     const imgPrevStyle = assign(clone(imgBaseStyle), { left: -imgPosition, objectPosition: '100% 50%', opacity: (swipingRatio < -swipingRatioThreshold) ? 1 : 0.5 });
     const imgNextStyle = assign(clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
-
-    function floatingIcon(iconElement, isTop, isLeft, handler) {
-      const containerStyle = { position: 'absolute' };
-      if (isTop) { containerStyle.top = 0; } else { containerStyle.bottom = 0; }
-      if (isLeft) { containerStyle.left = 0; } else { containerStyle.right = 0; }
-      return (
-        <div style={containerStyle}>
-          <IconButton onClick={handler}>
-            {iconElement}
-          </IconButton>
-        </div>
-      );
-    }
 
     return (
       <React.Fragment>
@@ -330,10 +315,10 @@ class DetailView extends React.Component {
             </div>
           )
           : null}
-        {floatingIcon(<NavigationChevronLeft />, false, true, this.movePrev)}
-        {floatingIcon(<NavigationChevronRight />, false, false, this.moveNext)}
-        {showInfo ? null : floatingIcon(<NavigationArrowBack />, true, true, this.closeDetailView)}
-        {showInfo ? null : floatingIcon(<NavigationFullscreenExit />, true, false, this.toggleInfo)}
+        {DetailView.renderFloatingIcon(<NavigationChevronLeft />, false, true, this.movePrev)}
+        {DetailView.renderFloatingIcon(<NavigationChevronRight />, false, false, this.moveNext)}
+        {showInfo ? null : DetailView.renderFloatingIcon(<NavigationArrowBack />, true, true, this.closeDetailView)}
+        {showInfo ? null : DetailView.renderFloatingIcon(<NavigationFullscreenExit />, true, false, this.toggleInfo)}
       </React.Fragment>
     );
   }

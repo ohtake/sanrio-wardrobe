@@ -22,7 +22,7 @@ import Paper from '@material-ui/core/Paper';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/lab/Slider';
-import { withTheme } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 
 import ActionFeedback from '@material-ui/icons/Feedback';
 import ActionHome from '@material-ui/icons/Home';
@@ -157,11 +157,7 @@ class App extends React.Component {
                   <ImagePhotoSizeSelectLarge />
                 </ListItemIcon>
                 <ListItemText>
-                  <span>
-                    Thumbnail size:
-                    {' '}
-                    {thumbnailSize}
-                  </span>
+                  {`Thumbnail size: ${thumbnailSize}`}
                   <Slider ref={this.refSliderThumbnailSize} value={thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
                 </ListItemText>
               </MenuItem>
@@ -181,12 +177,38 @@ class App extends React.Component {
     );
   }
 
+  renderNavLink(to, icon, text, gaLabel) {
+    const { classes } = this.props;
+    return (
+      <ListItem button component={NavLink} to={to} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label={gaLabel}>
+        <ListItemIcon>
+          {icon}
+        </ListItemIcon>
+        <ListItemText>
+          {text}
+        </ListItemText>
+      </ListItem>);
+  }
+
+  renderNavChara(chara) {
+    const { classes } = this.props;
+    const avatar = chara.picUrl ? <Avatar src={chara.picUrl} /> : (
+      <Avatar>
+        {chara.seriesSymbol}
+      </Avatar>);
+    return (
+      <ListItem button component={NavLink} to={`/chara/${chara.name}`} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={chara.name}>
+        <ListItemAvatar>
+          {avatar}
+        </ListItemAvatar>
+        <ListItemText>
+          {chara.getDisplayName()}
+        </ListItemText>
+      </ListItem>);
+  }
+
   renderDrawer() {
-    const { theme } = this.props;
     const { menuOpened, menuDocked } = this.state;
-    const activeStyle = {
-      backgroundColor: theme.palette.action.selected,
-    };
     return (
       <Drawer open={menuOpened} variant={menuDocked ? 'persistent' : 'temporary'} onClose={this.handleMenuClose}>
         <div style={{ width: this.menuWidth, overflowX: 'hidden' }}>
@@ -201,22 +223,8 @@ class App extends React.Component {
           </Toolbar>
           <Divider />
           <List>
-            <ListItem button component={NavLink} to="/" exact onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="home">
-              <ListItemIcon>
-                <ActionHome />
-              </ListItemIcon>
-              <ListItemText>
-                Home
-              </ListItemText>
-            </ListItem>
-            <ListItem button component={NavLink} to="/statistics" onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label="statistics">
-              <ListItemIcon>
-                <EditorShowChart />
-              </ListItemIcon>
-              <ListItemText>
-                Statistics
-              </ListItemText>
-            </ListItem>
+            {this.renderNavLink('/', <ActionHome />, 'Home', 'home')}
+            {this.renderNavLink('/statistics', <EditorShowChart />, 'Statistics', 'statistics')}
           </List>
           <Divider />
           <List subheader={(
@@ -225,31 +233,17 @@ class App extends React.Component {
             </ListSubheader>
           )}
           >
-            {DataFile.all.map(c => (
-              <ListItem button component={NavLink} key={c.name} to={`/chara/${c.name}`} onClick={this.handleMenuClick} activeStyle={activeStyle} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={c.name}>
-                <ListItemAvatar>
-                  {c.picUrl
-                    ? <Avatar src={c.picUrl} />
-                    : (
-                      <Avatar>
-                        {c.seriesSymbol}
-                      </Avatar>
-                    )}
-                </ListItemAvatar>
-                <ListItemText>
-                  {c.getDisplayName()}
-                </ListItemText>
-              </ListItem>))}
+            {DataFile.all.map(c => this.renderNavChara(c)) }
           </List>
         </div>
       </Drawer>);
   }
 
   renderError() {
-    const { theme } = this.props;
+    const { classes } = this.props;
     const { errorObject, errorInfo } = this.state;
     return (
-      <Paper style={{ border: `2px solid ${theme.palette.error.main}`, padding: theme.spacing.unit }}>
+      <Paper className={classes.errorBox}>
         <p>
           {errorObject.toString()}
         </p>
@@ -266,17 +260,13 @@ class App extends React.Component {
   }
 
   render() {
-    const { theme } = this.props;
     const { menuOpened, menuDocked, errorObject } = this.state;
-    const containerStyle = {
-      backgroundColor: theme.palette.background.default,
-      padding: theme.spacing.unit,
-    };
+    const { classes } = this.props;
     return (
       <div style={{ marginLeft: menuOpened && menuDocked ? this.menuWidth : 0 }}>
         {this.renderAppBar()}
         {this.renderDrawer()}
-        <div style={containerStyle}>
+        <div className={classes.container}>
           {errorObject ? this.renderError() : (
             <Switch>
               <Route exact path="/" component={Home} />
@@ -290,10 +280,22 @@ class App extends React.Component {
 }
 App.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
-  theme: PropTypes.object.isRequired,
+  classes: PropTypes.object.isRequired,
 };
 App.childContextTypes = {
   thumbnailSize: PropTypes.number,
   setTitle: PropTypes.func,
 };
-export default withTheme()(App);
+export default withStyles(theme => ({
+  container: {
+    backgroundColor: theme.palette.background.default,
+    padding: theme.spacing.unit,
+  },
+  errrorBox: {
+    border: `2px solid ${theme.palette.error.main}`,
+    padding: theme.spacing.unit,
+  },
+  activeNavLink: {
+    backgroundColor: theme.palette.action.selected,
+  },
+}))(App);
