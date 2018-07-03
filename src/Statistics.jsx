@@ -73,7 +73,12 @@ class Statistics extends React.Component {
   renderCount() {
     const { classes } = this.props;
     const { statistics } = this.state;
-    const totalCount = sum(DataFile.all.map(df => statistics.count[df.name]));
+    const sortedNameCountPairs = toPairs(statistics.count).sort((x, y) => {
+      const countDiff = y[1] - x[1];
+      if (countDiff !== 0) return countDiff;
+      return x[0].localeCompare(y[0]);
+    });
+    const totalCount = sum(sortedNameCountPairs.map(p => p[1]));
     return (
       <React.Fragment>
         <p>
@@ -91,14 +96,17 @@ class Statistics extends React.Component {
               </TableRow>
             </TableHead>
             <TableBody>
-              {DataFile.all.map(df => (
-                <TableRow hover>
-                  {this.renderAvatarCell(df, 'statCount')}
-                  {renderCell(statistics.count[df.name], { numeric: true })}
-                  {renderCell(df.seriesSymbol)}
-                  {renderCell(df.nameJa)}
-                  {renderCell(df.nameEn)}
-                </TableRow>))}
+              {sortedNameCountPairs.map((p) => {
+                const df = DataFile.findByName(p[0]);
+                return (
+                  <TableRow hover>
+                    {this.renderAvatarCell(df, 'statCount')}
+                    {renderCell(statistics.count[df.name], { numeric: true })}
+                    {renderCell(df.seriesSymbol)}
+                    {renderCell(df.nameJa)}
+                    {renderCell(df.nameEn)}
+                  </TableRow>);
+              })}
             </TableBody>
           </Table>
         </Paper>
