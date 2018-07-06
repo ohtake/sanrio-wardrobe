@@ -43,3 +43,29 @@ test('withFullWidth should set custom width prop', t => {
   mount(<HOC />);
   t.true(widthReceived > 0);
 });
+
+/** @test {withFullWidth} */
+test('withFullWidth should forward ref', t => {
+  const ref = React.createRef();
+  class Component extends React.Component {
+    getText() {
+      const { text } = this.props;
+      return text;
+    }
+
+    render() {
+      return <br />;
+    }
+  }
+  Component.propTypes = {
+    text: PropTypes.string.isRequired,
+  };
+  const HOC = withFullWidth(Component);
+  mount((
+    // TODO why wrapping element is required?
+    <div>
+      <HOC ref={ref} text="hello" />
+    </div>));
+  t.not(ref.current, null);
+  t.is(ref.current.getText(), 'hello');
+});
