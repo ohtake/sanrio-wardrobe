@@ -24,6 +24,9 @@ const js = {
         include: path.resolve('src'),
         loader: 'eslint-loader',
         enforce: 'pre',
+        options: {
+          emitWarning: !isProduction,
+        },
       },
       {
         test: /\.js$/,
