@@ -105,7 +105,7 @@ class ColorSelector extends React.Component {
   /** @returns {boolean} */
   isFilterEnabled() {
     const { enabled, actives } = this.state;
-    return enabled && Object.keys(actives).length > 0;
+    return enabled && Object.values(actives).findIndex(v => v) >= 0;
   }
 
   /**
