@@ -1,16 +1,16 @@
 import { createMuiTheme } from '@material-ui/core/styles';
-import * as Colors from '@material-ui/core/colors';
+import indigo from '@material-ui/core/colors/indigo';
 
 export const themeLightV1 = createMuiTheme({
   palette: {
-    primary: Colors.indigo,
+    primary: indigo,
   },
 });
 
 export const themeDarkV1 = createMuiTheme({
   palette: {
     type: 'dark',
-    primary: Colors.indigo,
+    primary: indigo,
   },
 });
 
