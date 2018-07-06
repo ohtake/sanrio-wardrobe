@@ -8,22 +8,7 @@ import ContentFilterList from '@material-ui/icons/FilterList';
 
 import clone from 'lodash/clone';
 
-import Colors from './colors';
-
-class ColorItem {
-  /**
-   * @param {string} id
-   * @param {string} name
-   * @param {string} strong
-   * @param {string} weak
-   */
-  constructor(id, name, strong, weak) {
-    this.id = id;
-    this.name = name;
-    this.strong = strong;
-    this.weak = weak;
-  }
-}
+import Colors, { ColorData } from './colors';
 
 const styleBase = {
   margin: '0.2em 0',
@@ -61,8 +46,8 @@ class ColorSelector extends React.Component {
     const style = clone(styleBase);
     if (isActive) style.color = 'black';
     style.borderStyle = 'solid';
-    style.borderColor = isActive ? c.strong : c.weak;
-    if (isActive) style.backgroundColor = c.weak;
+    style.borderColor = isActive ? c.dark : c.light;
+    if (isActive) style.backgroundColor = c.light;
     return style;
   }
 
@@ -145,11 +130,11 @@ class ColorSelector extends React.Component {
 ColorSelector.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   classes: PropTypes.object.isRequired,
-  colors: PropTypes.arrayOf(PropTypes.instanceOf(ColorItem)),
+  colors: PropTypes.arrayOf(PropTypes.instanceOf(ColorData)),
   onChanged: PropTypes.func,
 };
 ColorSelector.defaultProps = {
-  colors: Colors.all.map(c => new ColorItem(c.id, c.name, c.standard, c.light)),
+  colors: Colors.all,
   onChanged: null,
 };
 

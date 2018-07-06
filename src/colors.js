@@ -5,14 +5,14 @@ export class ColorData {
    * @param {string} id
    * @param {string} name
    * @param {string} value
-   * @param {string} standard
+   * @param {string} dark
    * @param {string} light
    */
-  constructor(id, name, value, standard, light) {
+  constructor(id, name, value, dark, light) {
     this.id = id;
     this.name = name;
     this.value = value;
-    this.standard = standard;
+    this.dark = dark;
     this.light = light;
   }
 }
@@ -28,11 +28,11 @@ RepresentiveColors.all = [
   RepresentiveColors.Blue = new ColorData('blue', 'Blue', Colors.blue['500'], Colors.blue['500'], Colors.blue['200']),
   RepresentiveColors.Purple = new ColorData('purple', 'Purple', Colors.purple['500'], Colors.purple['500'], Colors.purple['200']),
   RepresentiveColors.Brown = new ColorData('brown', 'Brown', Colors.brown['500'], Colors.brown['500'], Colors.brown['200']),
-  RepresentiveColors.Black = new ColorData('black', 'Black', Colors.common.black, Colors.grey['500'], Colors.grey['300']),
-  RepresentiveColors.Grey = new ColorData('grey', 'Grey', Colors.grey['700'], Colors.grey['500'], Colors.grey['300']),
-  RepresentiveColors.White = new ColorData('white', 'White', Colors.common.white, Colors.grey['500'], Colors.grey['300']),
+  RepresentiveColors.Black = new ColorData('black', 'Black', Colors.common.black, Colors.grey['800'], Colors.grey['700']),
+  RepresentiveColors.Grey = new ColorData('grey', 'Grey', Colors.grey['700'], Colors.grey['600'], Colors.grey['500']),
+  RepresentiveColors.White = new ColorData('white', 'White', Colors.common.white, Colors.grey['200'], Colors.grey['100']),
   RepresentiveColors.Gold = new ColorData('gold', 'Gold', Colors.amber['300'], Colors.amber['500'], Colors.amber['200']),
-  RepresentiveColors.Silver = new ColorData('silver', 'Silver', Colors.grey['400'], Colors.grey['500'], Colors.grey['300']),
+  RepresentiveColors.Silver = new ColorData('silver', 'Silver', Colors.grey['400'], Colors.grey['400'], Colors.grey['300']),
 ];
 
 const map = {};
