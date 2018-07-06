@@ -16,6 +16,8 @@ import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 
+import clone from 'lodash/clone';
+
 import Colors from './colors';
 import DataFile from './data_file';
 
@@ -23,9 +25,12 @@ function sum(arr) {
   return arr.reduce((acc, current) => acc + current);
 }
 
-function renderCell(content, props = {}) {
+function renderCell(content, propsForCell = {}) {
+  const { style } = propsForCell;
+  const cellStyle = clone(style) || {};
+  cellStyle.padding = 4;
   return (
-    <TableCell {...props} style={{ padding: 4 }}>
+    <TableCell {...propsForCell} style={cellStyle}>
       {content}
     </TableCell>);
 }
@@ -127,14 +132,14 @@ class Statistics extends React.Component {
             <TableHead>
               <TableRow>
                 {renderCell('Character')}
-                {Colors.all.map(c => renderCell(c.name))}
+                {Colors.all.map(c => renderCell(c.name, { style: { color: 'black', backgroundColor: c.light } }))}
               </TableRow>
             </TableHead>
             <TableBody>
               {DataFile.all.map(df => (
                 <TableRow hover>
                   {this.renderAvatarCell(df, 'statColor')}
-                  {Colors.all.map(c => renderCell(statistics.color[df.name][c.id], { numeric: true }))}
+                  {Colors.all.map(c => renderCell(statistics.color[df.name][c.id], { numeric: true, style: { color: 'black', backgroundColor: c.light } }))}
                 </TableRow>))}
             </TableBody>
           </Table>
