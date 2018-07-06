@@ -7,8 +7,7 @@ import LazyLoad from 'react-lazy-load';
 import { withTheme } from '@material-ui/core/styles';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 
-import FullWidthContainer from './FullWidthContainer';
-import JustifiedLayout from './JustifiedLayout';
+import JustifiedLayoutFull from './JustifiedLayoutFull';
 import Photo from './photo';
 import Colors from './colors';
 
@@ -59,13 +58,7 @@ class Gallery extends React.Component {
   render() {
     const { thumbnailSize } = this.context;
     const { photos } = this.props;
-    return (
-      <FullWidthContainer
-        renderElement={width => (
-          <JustifiedLayout targetRowHeight={thumbnailSize} containerWidth={width} childObjects={photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />
-        )}
-      />
-    );
+    return <JustifiedLayoutFull targetRowHeight={thumbnailSize} childObjects={photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />;
   }
 }
 Gallery.propTypes = {

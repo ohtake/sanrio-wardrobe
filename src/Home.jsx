@@ -9,8 +9,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 import curry from 'lodash/curry';
 
-import JustifiedLayout from './JustifiedLayout';
-import FullWidthContainer from './FullWidthContainer';
+import JustifiedLayoutFull from './JustifiedLayoutFull';
 import DataFile from './data_file';
 
 class Home extends React.Component {
@@ -52,12 +51,7 @@ class Home extends React.Component {
 
   renderGallery(dataFiles, tileRenderer) {
     const { thumbnailSize } = this.context;
-    return (
-      <FullWidthContainer
-        renderElement={width => (
-          <JustifiedLayout targetRowHeight={thumbnailSize} containerWidth={width} childObjects={dataFiles} mapperToElement={tileRenderer} />
-        )}
-      />);
+    return <JustifiedLayoutFull targetRowHeight={thumbnailSize} childObjects={dataFiles} mapperToElement={tileRenderer} />;
   }
 
   render() {
