@@ -1210,9 +1210,17 @@
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14560072296/"}
   images_flickr: { photo: "14560072296", farm: 6, server: 5552, secret: "6c89d1f1d0", secret_h: "1b7a6be78e", secret_k: "ded26f44fc", secret_o: "a8c079c3d8", format_o: "jpg" }
   size: { width_o: 3840, height_o: 5760 }
-  colors: [blue, white, pink]
+  colors: [blue, white, pink, green, brown, yellow]
   notes:
   - 日焼け、帽子、ハイビスカス
+  - カリビアンカーニバル
+- title: Bk6wJRMArM7
+  source: { author: "asako_kittychanfanclub", license: "", url: "https://instagram.com/p/Bk6wJRMArM7/"}
+  images_instagram2: { shortcode: "Bk6wJRMArM7", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/fe5cabac52f4cbeddca71e9532b496ed/5BDB16AB/t51.2885-15/e35/c0.135.1080.1080/s150x150/34983588_639475523096648_3629472017679384576_n.jpg", m_width: 320, m_height: 400, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/51df0d2d4e52c4b22e16930ff2ebfd41/5BC8C752/t51.2885-15/e35/p320x320/34983588_639475523096648_3629472017679384576_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/eed988ca2fa072660a13481e09781b65/5BE262F3/t51.2885-15/e35/34983588_639475523096648_3629472017679384576_n.jpg" }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [pink, blue, yellow, green, brown, white]
+  notes:
+  - 日焼け、帽子
   - カリビアンカーニバル
 - title: 5D3P6743
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/14892779477/"}
