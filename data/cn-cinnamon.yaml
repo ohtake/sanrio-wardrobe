@@ -383,6 +383,13 @@
   colors: [blue, green, white, yellow, pink]
   notes:
   - 2017年『シナモロールおとこまつり』と『シナモロールのバースデーパーティ』のデコレーションゲーム
+- title: スイカ割り
+  source: { author: "mimmi47jin", license: "", url: "https://instagram.com/p/BlU35aygxuv/"}
+  images_instagram2: { shortcode: "BlU35aygxuv", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/f7cdb2570dd0bdbeab93ce4e46e1b46b/5BFD4BB5/t51.2885-15/e35/s150x150/36525886_900742156790960_6846804844854902784_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/ed5aacb4d817d0c06a099667c682bf90/5BEF1B45/t51.2885-15/e35/s320x320/36525886_900742156790960_6846804844854902784_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/76f587bfe403a495ed153ea31f5b4060/5BF2B9F7/t51.2885-15/e35/36525886_900742156790960_6846804844854902784_n.jpg" }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [green]
+  notes:
+  - シナモンクルーズ
 - title: 15周年・マントあり
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/32773144521/"}
   images_flickr: { photo: "32773144521", farm: 3, server: 2711, secret: "4beae466b6", secret_h: "41650307b3", secret_k: "378a5d0d45", secret_o: "2aa5736fb6", format_o: "jpg" }
