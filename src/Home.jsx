@@ -34,16 +34,10 @@ class Home extends React.Component {
     return (
       <RouterLink key={c.name} to={`/chara/${c.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventAction} data-ga-event-label={c.name}>
         {image}
-        <div className={classes.symbol}>
-          {c.seriesSymbol}
-        </div>
+        <div className={classes.symbol}>{c.seriesSymbol}</div>
         <div className={classes.titleOuter}>
-          <div className={classes.titleInner}>
-            {c.nameJa}
-          </div>
-          <div className={classes.titleInner}>
-            {c.nameEn}
-          </div>
+          <div className={classes.titleInner}>{c.nameJa}</div>
+          <div className={classes.titleInner}>{c.nameEn}</div>
         </div>
       </RouterLink>
     );
@@ -75,31 +69,21 @@ class Home extends React.Component {
             />
           </a>
         </div>
-        <p>
-          Unofficial listings of Sanrio character costumes
-        </p>
+        <p>Unofficial listings of Sanrio character costumes</p>
         <Button component={RouterLink} to="/statistics" data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="homeTile" data-ga-event-label="statistics">
           <EditorShowChart />
           Statistics
         </Button>
-        <h2>
-          Featured characters
-        </h2>
+        <h2>Featured characters</h2>
         {this.renderGallery(featured, this.renderTileFeatured)}
-        <h2>
-          All characters
-        </h2>
+        <h2>All characters</h2>
         {this.renderGallery(DataFile.all, this.renderTileAll)}
-        <h2>
-          License
-        </h2>
+        <h2>License</h2>
         <ul>
           <li>
             Sanrio characters are registered trademarks of
             {' '}
-            <a href="https://www.sanrio.co.jp/">
-              Sanrio Co., Ltd.
-            </a>
+            <a href="https://www.sanrio.co.jp/">Sanrio Co., Ltd.</a>
           </li>
           <li>
             Each photo was taken by respective author
@@ -107,34 +91,22 @@ class Home extends React.Component {
           <li>
             This software is provided under
             {' '}
-            <a href="https://opensource.org/licenses/MIT">
-              MIT License
-            </a>
+            <a href="https://opensource.org/licenses/MIT">MIT License</a>
           </li>
           <li>
-            <a href="assets/licenses.txt">
-              Attribution notices for third party software
-            </a>
+            <a href="assets/licenses.txt">Attribution notices for third party software</a>
           </li>
         </ul>
-        <h2>
-          Documents and reports
-        </h2>
+        <h2>Documents and reports</h2>
         <ul>
           <li>
-            <a href="assets/esdoc/index.html">
-              ESDoc
-            </a>
+            <a href="assets/esdoc/index.html">ESDoc</a>
           </li>
           <li>
-            <a href="coverage/lcov-report/index.html">
-              LCOV code coverage
-            </a>
+            <a href="coverage/lcov-report/index.html">LCOV code coverage</a>
           </li>
           <li>
-            <a href="assets/sme.html">
-              Source map explorer
-            </a>
+            <a href="assets/sme.html">Source map explorer</a>
           </li>
         </ul>
       </React.Fragment>

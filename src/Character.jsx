@@ -214,11 +214,7 @@ export default class Character extends React.Component {
             <TextField inputRef={this.refText} placeholder="Search text" onChange={this.handleSearchTextChanged} onKeyDown={this.handleSearchTextKeyDown} onBlur={this.handleSearchTextBlur} />
           </Grid>
         </Grid>
-        {message ? (
-          <div>
-            {message}
-          </div>
-        ) : <div style={{ height: 8 }} /> }
+        {message ? <div>{message}</div> : <div style={{ height: 8 }} /> }
         <Gallery photos={photos} chara={chara} />
         <DetailView chara={chara} photos={photos} index={index} />
       </React.Fragment>

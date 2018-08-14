@@ -29,10 +29,7 @@ function renderCell(content, propsForCell = {}) {
   const { style } = propsForCell;
   const cellStyle = clone(style) || {};
   cellStyle.padding = 4;
-  return (
-    <TableCell {...propsForCell} style={cellStyle}>
-      {content}
-    </TableCell>);
+  return <TableCell {...propsForCell} style={cellStyle}>{content}</TableCell>;
 }
 
 class Statistics extends React.Component {
@@ -66,9 +63,7 @@ class Statistics extends React.Component {
     return renderCell(
       <Button size="small" component={RouterLink} to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventName} data-ga-event-label={df.name} className={classes.charaButton}>
         {df.picUrl ? <Avatar src={df.picUrl} className={classes.avatar} /> : (
-          <Avatar className={classes.avatar}>
-            {df.seriesSymbol}
-          </Avatar>
+          <Avatar className={classes.avatar}>{df.seriesSymbol}</Avatar>
         )}
         {df.name}
       </Button>,
@@ -86,9 +81,7 @@ class Statistics extends React.Component {
     const totalCount = sum(sortedNameCountPairs.map(p => p[1]));
     return (
       <React.Fragment>
-        <p>
-          {`${DataFile.all.length} characters, ${totalCount} photos`}
-        </p>
+        <p>{`${DataFile.all.length} characters, ${totalCount} photos`}</p>
         <Paper className={classes.tableWraper}>
           <Table>
             <TableHead>
@@ -124,9 +117,7 @@ class Statistics extends React.Component {
     const totalCount = sum(DataFile.all.map(df => sum(Colors.all.map(c => statistics.color[df.name][c.id]))));
     return (
       <React.Fragment>
-        <p>
-          {`${totalCount} colors`}
-        </p>
+        <p>{`${totalCount} colors`}</p>
         <Paper className={classes.tableWraper}>
           <Table>
             <TableHead>
@@ -157,9 +148,7 @@ class Statistics extends React.Component {
     });
     return (
       <React.Fragment>
-        <p>
-          {`${sortedAuthor.length} authors`}
-        </p>
+        <p>{`${sortedAuthor.length} authors`}</p>
         <Paper className={classes.tableWraper}>
           <Table>
             <TableHead>

@@ -44,9 +44,7 @@ class Gallery extends React.Component {
       <div key={p.data.title} style={{ backgroundColor: placeholderBackground }}>
         <RouterLink to={`/chara/${chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${chara} ${p.data.title}`}>
           <div style={styleTitleOuter}>
-            <div style={styleTitleInner} title={p.data.title}>
-              {p.data.title}
-            </div>
+            <div style={styleTitleInner} title={p.data.title}>{p.data.title}</div>
           </div>
           <LazyLoad offset={thumbnailSize}>
             <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={{ width: '100%', height: '100%' }} />

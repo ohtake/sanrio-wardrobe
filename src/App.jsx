@@ -137,25 +137,16 @@ class App extends React.Component {
       <AppBar position="static">
         <Toolbar>
           {!menuOpened || !menuDocked
-            ? (
-              <IconButton onClick={this.handleMenuOpen}>
-                <MenuIcon />
-              </IconButton>
-            ) : null }
+            ? <IconButton onClick={this.handleMenuOpen}><MenuIcon /></IconButton>
+            : null }
           <div style={{ flexGrow: 1 }}>
-            <Typography variant="title">
-              {title}
-            </Typography>
+            <Typography variant="title">{title}</Typography>
           </div>
           <div>
-            <IconButton onClick={this.handleSettingsOpen}>
-              <ActionSettings />
-            </IconButton>
+            <IconButton onClick={this.handleSettingsOpen}><ActionSettings /></IconButton>
             <Menu open={Boolean(menuSettingsAnchorEl)} anchorEl={menuSettingsAnchorEl} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }} transformOrigin={{ horizontal: 'right', vertical: 'top' }} onClose={this.handleSettingsClose}>
               <MenuItem>
-                <ListItemIcon>
-                  <ImagePhotoSizeSelectLarge />
-                </ListItemIcon>
+                <ListItemIcon><ImagePhotoSizeSelectLarge /></ListItemIcon>
                 <ListItemText>
                   {`Thumbnail size: ${thumbnailSize}`}
                   <Slider ref={this.refSliderThumbnailSize} value={thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} />
@@ -163,12 +154,8 @@ class App extends React.Component {
               </MenuItem>
               <Divider />
               <MenuItem onClick={utils.openFeedback}>
-                <ListItemIcon>
-                  <ActionFeedback />
-                </ListItemIcon>
-                <ListItemText>
-                  Feedback
-                </ListItemText>
+                <ListItemIcon><ActionFeedback /></ListItemIcon>
+                <ListItemText>Feedback</ListItemText>
               </MenuItem>
             </Menu>
           </div>
@@ -181,29 +168,18 @@ class App extends React.Component {
     const { classes } = this.props;
     return (
       <ListItem button component={NavLink} to={to} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label={gaLabel}>
-        <ListItemIcon>
-          {icon}
-        </ListItemIcon>
-        <ListItemText>
-          {text}
-        </ListItemText>
+        <ListItemIcon>{icon}</ListItemIcon>
+        <ListItemText>{text}</ListItemText>
       </ListItem>);
   }
 
   renderNavChara(chara) {
     const { classes } = this.props;
-    const avatar = chara.picUrl ? <Avatar src={chara.picUrl} /> : (
-      <Avatar>
-        {chara.seriesSymbol}
-      </Avatar>);
+    const avatar = chara.picUrl ? <Avatar src={chara.picUrl} /> : <Avatar>{chara.seriesSymbol}</Avatar>;
     return (
       <ListItem button component={NavLink} to={`/chara/${chara.name}`} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={chara.name}>
-        <ListItemAvatar>
-          {avatar}
-        </ListItemAvatar>
-        <ListItemText>
-          {chara.getDisplayName()}
-        </ListItemText>
+        <ListItemAvatar>{avatar}</ListItemAvatar>
+        <ListItemText>{chara.getDisplayName()}</ListItemText>
       </ListItem>);
   }
 
@@ -217,9 +193,7 @@ class App extends React.Component {
             <IconButton onClick={this.handleMenuPinned}>
               {menuDocked ? <ActionTurnedIn color="action" /> : <ActionTurnedInNot color="action" />}
             </IconButton>
-            <IconButton onClick={this.handleMenuClose}>
-              <NavigationClose color="action" />
-            </IconButton>
+            <IconButton onClick={this.handleMenuClose}><NavigationClose color="action" /></IconButton>
           </Toolbar>
           <Divider />
           <List>
@@ -227,12 +201,7 @@ class App extends React.Component {
             {this.renderNavLink('/statistics', <EditorShowChart />, 'Statistics', 'statistics')}
           </List>
           <Divider />
-          <List subheader={(
-            <ListSubheader>
-              Characters
-            </ListSubheader>
-          )}
-          >
+          <List subheader={<ListSubheader>Characters</ListSubheader>}>
             {DataFile.all.map(c => this.renderNavChara(c)) }
           </List>
         </div>
@@ -244,18 +213,10 @@ class App extends React.Component {
     const { errorObject, errorInfo } = this.state;
     return (
       <Paper className={classes.errorBox}>
-        <p>
-          {errorObject.toString()}
-        </p>
-        <pre>
-          {errorInfo.componentStack}
-        </pre>
-        <Button onClick={this.clearError}>
-          Retry
-        </Button>
-        <Button component={NavLink} onClick={this.clearError} to="/">
-          Back to Home
-        </Button>
+        <p>{errorObject.toString()}</p>
+        <pre>{errorInfo.componentStack}</pre>
+        <Button onClick={this.clearError}>Retry</Button>
+        <Button component={NavLink} onClick={this.clearError} to="/">Back to Home</Button>
       </Paper>);
   }
 

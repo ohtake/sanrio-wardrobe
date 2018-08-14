@@ -102,13 +102,9 @@ class ColorSelector extends React.Component {
     return (
       <React.Fragment>
         {colors.map(c => (
-          <Button key={c.name} onClick={this.toggle} data={c.id} style={this.styleColor(c)}>
-            {c.name}
-          </Button>
+          <Button key={c.name} onClick={this.toggle} data={c.id} style={this.styleColor(c)}>{c.name}</Button>
         ))}
-        <Button key="clear" onClick={this.clear} data="" style={styleBase} disabled={!this.isFilterEnabled()}>
-          CLEAR
-        </Button>
+        <Button key="clear" onClick={this.clear} data="" style={styleBase} disabled={!this.isFilterEnabled()}>CLEAR</Button>
       </React.Fragment>
     );
   }
@@ -120,7 +116,6 @@ class ColorSelector extends React.Component {
       <div>
         <Button style={styleBase} onClick={this.start}>
           <ContentFilterList className={classes.leftIcon} />
-          {' '}
           Color filter
         </Button>
         {enabled ? this.listButtons() : null}

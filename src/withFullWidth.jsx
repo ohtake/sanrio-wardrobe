@@ -53,10 +53,7 @@ export default function withFullWidth(Component, propNameForWidth = 'width') {
       const widthProp = {
         [propNameForWidth]: containerWidth,
       };
-      return (
-        <div ref={this.refContainer}>
-          <Component {...this.props} {...widthProp} />
-        </div>);
+      return <div ref={this.refContainer}><Component {...this.props} {...widthProp} /></div>;
     }
   }
   FullWidthComponent.displayName = `withFullWidth(${Component.displayName || Component.name || 'Component'})`;

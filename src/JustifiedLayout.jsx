@@ -29,10 +29,7 @@ export default function JustifiedLayout(props) {
     const childProps = assign({}, elem.props, { style });
     return React.cloneElement(elem, childProps);
   });
-  return (
-    <div style={{ height: layout.containerHeight, width: containerWidth }}>
-      {childElems}
-    </div>);
+  return <div style={{ height: layout.containerHeight, width: containerWidth }}>{childElems}</div>;
 }
 
 JustifiedLayout.propTypes = {

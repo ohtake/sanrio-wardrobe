@@ -189,11 +189,7 @@ class DetailView extends React.Component {
               })}
             </li>
           ) : null }
-        {photo.data.notes.map(n => (
-          <li>
-            {n}
-          </li>
-        ))}
+        {photo.data.notes.map(n => <li>{n}</li>)}
       </React.Fragment>);
   }
 
@@ -217,9 +213,7 @@ class DetailView extends React.Component {
   static renderMenuItem(handler, icon, primaryText, secondaryText = '') {
     return (
       <MenuItem onClick={handler}>
-        <ListItemIcon>
-          {icon}
-        </ListItemIcon>
+        <ListItemIcon>{icon}</ListItemIcon>
         <ListItemText primary={primaryText} secondary={secondaryText} />
       </MenuItem>);
   }
@@ -229,25 +223,17 @@ class DetailView extends React.Component {
     return (
       <AppBar position="static">
         <Toolbar>
-          <IconButton onClick={this.closeDetailView}>
-            <NavigationArrowBack />
-          </IconButton>
+          <IconButton onClick={this.closeDetailView}><NavigationArrowBack /></IconButton>
           <div style={{ flexGrow: 1 }}>
             <div>
-              <Typography variant="title">
-                {main.data.title}
-              </Typography>
+              <Typography variant="title">{main.data.title}</Typography>
             </div>
             <div>
-              <Typography variant="subheading">
-                {this.renderCreditElement(main)}
-              </Typography>
+              <Typography variant="subheading">{this.renderCreditElement(main)}</Typography>
             </div>
           </div>
           <div>
-            <IconButton onClick={this.handleMenuOpen}>
-              <NavigationMoreVert />
-            </IconButton>
+            <IconButton onClick={this.handleMenuOpen}><NavigationMoreVert /></IconButton>
             <Menu open={Boolean(menuAnchorEl)} anchorEl={menuAnchorEl} anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }} transformOrigin={{ horizontal: 'right', vertical: 'bottom' }} onClose={this.handleMenuClose}>
               {DetailView.renderMenuItem(this.openImageSource, <ActionOpenInBrowser />, 'Open image source', 'Tap the credit')}
               {DetailView.renderMenuItem(this.toggleInfo, <NavigationFullscreen />, 'Fullscreen', 'Tap the image')}
@@ -267,9 +253,7 @@ class DetailView extends React.Component {
     if (isLeft) { containerStyle.left = 0; } else { containerStyle.right = 0; }
     return (
       <div style={containerStyle}>
-        <IconButton onClick={handler}>
-          {iconElement}
-        </IconButton>
+        <IconButton onClick={handler}>{iconElement}</IconButton>
       </div>
     );
   }
@@ -309,9 +293,7 @@ class DetailView extends React.Component {
               position: 'absolute', bottom: 0, width: '100%', backgroundColor: fade(theme.palette.background.default, 0.4),
             }}
             >
-              <ul style={{ margin: `${theme.spacing.unit}px ${theme.spacing.unit * 5}px`, padding: '0 0 0 1.5em' }}>
-                {this.createNotesElement(main)}
-              </ul>
+              <ul style={{ margin: `${theme.spacing.unit}px ${theme.spacing.unit * 5}px`, padding: '0 0 0 1.5em' }}>{this.createNotesElement(main)}</ul>
             </div>
           )
           : null}
