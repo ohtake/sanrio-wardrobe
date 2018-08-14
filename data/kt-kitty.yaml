@@ -2800,6 +2800,14 @@
   colors: [pink, yellow, blue, white, black]
   notes:
   - イタリア Save My Bag
+- title: tokidoki
+  source: { author: "sanriojapanesevillage", license: "", url: "https://www.instagram.com/p/BmT_qQxju9b/"}
+  images_instagram2: { shortcode: "BmT_qQxju9b", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/655e1f211338e64e78b23464b898e708/5C0C6F77/t51.2885-15/e35/s150x150/37798014_446183652543705_964368566251945984_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/360e03332a38062d961d1aaae87f46d4/5BFFF57A/t51.2885-15/e35/s320x320/37798014_446183652543705_964368566251945984_n.jpg?_nc_eui2=AeHHNxm8CAD2ECSB3XoFDLkYHXqSo7ScfxXtKgIzQoxmkd3jTIsb0w2OcA0pnQdY_0hiWEIsEFL5kgAeoiEDajMs", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/5440f7690664b8fe4295b30194e450b6/5C02A3E5/t51.2885-15/e35/37798014_446183652543705_964368566251945984_n.jpg" }
+  size: { width_o: 768, height_o: 768 }
+  colors: [yellow, pink, red, white, purple, blue, orange]
+  notes:
+  - アメリカ tokidori
+  - Unicorno
 - title: Torrid 2016
   source: { author: "tessholliday", license: "", url: "https://www.instagram.com/p/BH5zZ-5Bii4/"}
   images_instagram2: { shortcode: "BH5zZ-5Bii4", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/12468026190c503e4528090e625f0887/5BB15DF4/t51.2885-15/s150x150/e35/c0.51.841.841/13735833_1065250703540579_1795224550_n.jpg", m_width: 320, m_height: 359, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/78ec22dd7061a9e33ca3cb53d82ccaa5/5BB57DF9/t51.2885-15/e35/p320x320/13735833_1065250703540579_1795224550_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/b346f4b5c883a0450315ee10375c3a6d/5BB966DF/t51.2885-15/e35/13735833_1065250703540579_1795224550_n.jpg" }
@@ -3151,6 +3159,13 @@
   colors: [black, red, silver, white]
   notes:
   - イタリア GCDS
+- title: Bl0sStCBwId
+  source: { author: "oohlala_mummy", license: "", url: "https://www.instagram.com/p/Bl0sStCBwId/"}
+  images_instagram2: { shortcode: "Bl0sStCBwId", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/e58cf85d68beeefb1d8800b89fc0b91e/5C01A310/t51.2885-15/e35/s150x150/37368148_2040961062581924_9043072956195930112_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/ae1648b5110597cabe0229b55b421e79/5BF86268/t51.2885-15/e35/s320x320/37368148_2040961062581924_9043072956195930112_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/d048c3868e5521ba423af26ab31e0a3a/5C03262F/t51.2885-15/e35/37368148_2040961062581924_9043072956195930112_n.jpg" }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [pink, red, white, purple, black]
+  notes:
+  - イギリス
 - title: BRrMCjbFuPG
   source: { author: "Hello Kitty Mexico", license: "", url: "https://www.instagram.com/p/BRrMCjbFuPG/"}
   images_instagram2: { shortcode: "BRrMCjbFuPG", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/2cd489995e01491db4add88109b38685/5BC20D81/t51.2885-15/s150x150/e35/c216.0.648.648/17333144_205039399979202_2041359455701958656_n.jpg", m_width: 320, m_height: 192, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/1410ca56db0773b1503660171da910fd/5BA2B2AB/t51.2885-15/s320x320/e35/17333144_205039399979202_2041359455701958656_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/543de4b84935e0ce5a98f33a62fc0813/5BBBE589/t51.2885-15/e35/17333144_205039399979202_2041359455701958656_n.jpg" }
@@ -3316,6 +3331,14 @@
   colors: [red, yellow, gold, white, pink]
   notes:
   - 香港
+- title: Ocean Park
+  source: { author: "hkoceanpark", license: "", url: "https://www.instagram.com/p/BmQp6cQF23S/"}
+  images_instagram2: { shortcode: "BmQp6cQF23S", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/8e239e83cae3d01c21d8812da23cfb98/5C11FF76/t51.2885-15/e35/c0.135.1080.1080/s150x150/38527796_2100707696845098_7505598784487817216_n.jpg", m_width: 320, m_height: 400, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/36150d308c0a52ea8ebfe0f07fd844e4/5BFFFCEE/t51.2885-15/e35/p320x320/38527796_2100707696845098_7505598784487817216_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/f4f4237d16f2d26fdc07db345904dc76/5C09DC79/t51.2885-15/e35/38527796_2100707696845098_7505598784487817216_n.jpg" }
+  size: { width_o: 1080, height_o: 1350 }
+  colors: [orange, black, purple, red, white]
+  notes:
+  - 香港 Ocean Park
+  - ハロウィン
 - title: Bek3lDdnm64
   source: { author: "elanakhong", license: "", url: "https://www.instagram.com/p/Bek3lDdnm64/"}
   images_instagram2: { shortcode: "Bek3lDdnm64", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/ad777a2f23987535025f9085e72cdb7a/5BAE2643/t51.2885-15/s150x150/e35/26863322_266116040590646_36383746001207296_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/1aa7be4559781aadec1226322efa4b5a/5BAA7954/t51.2885-15/s320x320/e35/26863322_266116040590646_36383746001207296_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/9f2420ab20e751bf5b4379dcbbca112b/5BA5081D/t51.2885-15/e35/26863322_266116040590646_36383746001207296_n.jpg" }

@@ -404,6 +404,13 @@
   colors: [blue, purple, gold, white, pink, brown, yellow]
   notes:
   - 15周年・マントなし
+- title: キング
+  source: { author: "shinajiro0306", license: "", url: "https://www.instagram.com/p/Bltkgfsgwoj/"}
+  images_instagram2: { shortcode: "Bltkgfsgwoj", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/79073a7368436d613351cf0a37d15eac/5BF47850/t51.2885-15/e35/c0.91.1080.1080/s150x150/37224894_1886405111416446_1727385530909327360_n.jpg", m_width: 320, m_height: 373, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/b53858956e0b30915ec20e8ac729cb2b/5BF085E4/t51.2885-15/e35/p320x320/37224894_1886405111416446_1727385530909327360_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/e8bc85706552c6e594fde97aef0e6ca5/5C0C7873/t51.2885-15/e35/37224894_1886405111416446_1727385530909327360_n.jpg" }
+  size: { width_o: 1080, height_o: 1262 }
+  colors: [red, blue, gold, white, silver]
+  notes:
+  - シナモロール王国
 - title: しながわ観光大使
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/34940510691/"}
   images_flickr: { photo: "34940510691", farm: 5, server: 4232, secret: "e403cb5012", secret_h: "7960b69b70", secret_k: "f8a14f3106", secret_o: "72670922f9", format_o: "jpg" }

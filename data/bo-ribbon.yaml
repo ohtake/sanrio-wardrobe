@@ -90,6 +90,12 @@
   colors: [red, blue, yellow, pink, white, purple, green]
   notes:
   - ピューロランドパレード『Miracle Gift Parade』
+- title: flickr-43957222632
+  source: { author: "hai ne", license: "CC BY 2.0", url: "https://www.flickr.com/photos/128857482@N02/43957222632/"}
+  images_flickr: { photo: "43957222632", farm: 2, server: 1776, secret: "d433b30c3d", secret_h: "79faf1a640", secret_k: "65471e6066", secret_o: "97e2582e58", format_o: "jpg" }
+  size: { width_o: 2998, height_o: 1992 }
+  colors: [white, purple, blue, silver]
+  notes: []
 - title: パレードパラレル オリジナル
   source: { author: "ohtake", license: "CC BY 2.0", url: "https://www.flickr.com/photos/ohtake_tomohiro/36236035222/"}
   images_flickr: { photo: "36236035222", farm: 5, server: 4362, secret: "eecb27c87a", secret_h: "d0a9d9d49f", secret_k: "65c3cdc99b", secret_o: "7ee2a8e557", format_o: "jpg" }
