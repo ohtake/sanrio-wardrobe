@@ -150,8 +150,8 @@ export default class Character extends React.Component {
 
   clearSearch() {
     this.searchParams.clear();
-    this.refText.current.value = '';
-    this.refColor.current.clear();
+    if (this.refText.current) this.refText.current.value = '';
+    if (this.refColor.current) this.refColor.current.clear();
   }
 
   handleSearchIconClick() {

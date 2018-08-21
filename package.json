@@ -37,7 +37,7 @@
     "codecov": "^3.0.4",
     "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
-    "enzyme": "3.4.2",
+    "enzyme": "^3.4.4",
     "enzyme-adapter-react-16": "^1.2.0",
     "esdoc": "^1.1.0",
     "esdoc-jsx-plugin": "^1.0.0",

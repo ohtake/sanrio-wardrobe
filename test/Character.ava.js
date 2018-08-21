@@ -1,7 +1,7 @@
 import React from 'react';
 
 import test from 'ava';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import sinon from 'sinon';
 import yaml from 'js-yaml';
 import fs from 'fs';
@@ -39,7 +39,7 @@ test.cb('<Character /> should be loaded with kt-kitty', t => {
     return arr.map(obj => new Photo(obj));
   });
   try {
-    const wrapper = mount(<Character match={{ params: { chara: 'kt-kitty' } }} />, { context });
+    const wrapper = shallow(<Character match={{ params: { chara: 'kt-kitty' } }} />, { context });
     t.is(null, wrapper.state('allPhotos'));
     t.deepEqual([], wrapper.state('photos'));
     setTimeout(() => { // setImmediate does not work?
