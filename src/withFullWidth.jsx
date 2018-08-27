@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ResizeSensor from 'css-element-queries/src/ResizeSensor';
 
 /**
@@ -53,9 +54,16 @@ export default function withFullWidth(Component, propNameForWidth = 'width') {
       const widthProp = {
         [propNameForWidth]: containerWidth,
       };
-      return <div ref={this.refContainer}><Component {...this.props} {...widthProp} /></div>;
+      const { forwardedRef, ...rest } = this.props;
+      return <div ref={this.refContainer}><Component ref={forwardedRef} {...rest} {...widthProp} /></div>;
     }
   }
+  FullWidthComponent.propTypes = {
+    forwardedRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
+  };
+  FullWidthComponent.defaultProps = {
+    forwardedRef: null,
+  };
   FullWidthComponent.displayName = `withFullWidth(${Component.displayName || Component.name || 'Component'})`;
-  return FullWidthComponent;
+  return React.forwardRef((props, ref) => <FullWidthComponent {...props} forwardedRef={ref} />);
 }
