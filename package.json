@@ -7,9 +7,9 @@
   "private": true,
   "main": "src/index.jsx",
   "dependencies": {
-    "@material-ui/core": "^1.5.1",
-    "@material-ui/icons": "^2.0.3",
-    "@material-ui/lab": "^1.0.0-alpha.11",
+    "@material-ui/core": "^3.0.1",
+    "@material-ui/icons": "^3.0.1",
+    "@material-ui/lab": "^3.0.0-alpha.13",
     "css-element-queries": "^1.0.2",
     "justified-layout": "^2.1.1",
     "lodash": "^4.17.10",
