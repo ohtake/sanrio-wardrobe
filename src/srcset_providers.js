@@ -1,4 +1,3 @@
-import findIndex from 'lodash/findIndex';
 import take from 'lodash/take';
 
 const flickrSizes = [
@@ -120,7 +119,7 @@ export class PicasaSrcsetProvider {
   static getImages(photo) {
     const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
     const imgsP = photo.data.images_picasa;
-    const indexExceeding = findIndex(picasaSizes, size => size >= maxO);
+    const indexExceeding = picasaSizes.findIndex(size => size >= maxO);
     const sizesLength = indexExceeding !== -1 ? indexExceeding + 1 : picasaSizes.length;
     const sizes = take(picasaSizes, sizesLength);
     return sizes.map((size) => {

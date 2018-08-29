@@ -34,7 +34,9 @@ const js = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env'],
+            presets: [
+              ['@babel/preset-env', { useBuiltIns: 'usage' }],
+            ],
           },
         },
       },
@@ -44,7 +46,7 @@ const js = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-react', '@babel/preset-env'],
+            presets: ['@babel/preset-react', ['@babel/preset-env', { useBuiltIns: 'usage' }]],
             plugins: [
               ...(isProduction ? [
                 'transform-react-remove-prop-types',
