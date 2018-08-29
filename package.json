@@ -24,15 +24,17 @@
   },
   "peerDependencies": {},
   "devDependencies": {
-    "ava": "^0.25.0",
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-istanbul": "^4.1.6",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "ava": "^1.0.0-beta.8",
+    "babel-loader": "^8.0.0",
+    "babel-plugin-istanbul": "^5.0.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.15",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "codacy-coverage": "^3.0.0",
     "codeclimate-test-reporter": "^0.5.0",
     "codecov": "^3.0.4",
@@ -56,7 +58,7 @@
     "js-yaml": "^3.12.0",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.1.3",
-    "nyc": "^12.0.2",
+    "nyc": "^13.0.1",
     "react-test-renderer": "^16.4.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
@@ -70,11 +72,10 @@
   },
   "ava": {
     "require": [
-      "babel-register",
-      "babel-polyfill",
+      "@babel/register",
+      "@babel/polyfill",
       "./test/setup-enzyme.js"
-    ],
-    "babel": "inherit"
+    ]
   },
   "scripts": {
     "clean": "rimraf assets/ coverage/ .nyc_output/",
