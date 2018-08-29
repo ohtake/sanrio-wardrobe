@@ -179,7 +179,7 @@ class DetailView extends React.Component {
    */
   createNotesElement(photo) {
     return (
-      <React.Fragment>
+      <>
         {photo.data.colors.length > 0
           ? (
             <li>
@@ -190,7 +190,7 @@ class DetailView extends React.Component {
             </li>
           ) : null }
         {photo.data.notes.map(n => <li>{n}</li>)}
-      </React.Fragment>);
+      </>);
   }
 
   /**
@@ -273,7 +273,7 @@ class DetailView extends React.Component {
     const imgNextStyle = assign(clone(imgBaseStyle), { left: +imgPosition, objectPosition: '  0% 50%', opacity: (swipingRatio > +swipingRatioThreshold) ? 1 : 0.5 });
 
     return (
-      <React.Fragment>
+      <>
         {showInfo ? this.renderAppBar(main) : null}
         <Swipeable
           style={{
@@ -301,7 +301,7 @@ class DetailView extends React.Component {
         {DetailView.renderFloatingIcon(<NavigationChevronRight />, false, false, this.moveNext)}
         {showInfo ? null : DetailView.renderFloatingIcon(<NavigationArrowBack />, true, true, this.closeDetailView)}
         {showInfo ? null : DetailView.renderFloatingIcon(<NavigationFullscreenExit />, true, false, this.toggleInfo)}
-      </React.Fragment>
+      </>
     );
   }
 

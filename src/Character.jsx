@@ -204,7 +204,7 @@ export default class Character extends React.Component {
       || null;
     if (error) throw error;
     return (
-      <React.Fragment>
+      <>
         <ColorSelector innerRef={this.refColor} onChanged={this.colorChanged} />
         <Grid container alignItems="flex-end">
           <Grid item>
@@ -217,7 +217,7 @@ export default class Character extends React.Component {
         {message ? <div>{message}</div> : <div style={{ height: 8 }} /> }
         <Gallery photos={photos} chara={chara} />
         <DetailView chara={chara} photos={photos} index={index} />
-      </React.Fragment>
+      </>
     );
   }
 }

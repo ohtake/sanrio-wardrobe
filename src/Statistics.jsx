@@ -80,7 +80,7 @@ class Statistics extends React.Component {
     });
     const totalCount = sum(sortedNameCountPairs.map(p => p[1]));
     return (
-      <React.Fragment>
+      <>
         <p>{`${DataFile.all.length} characters, ${totalCount} photos`}</p>
         <Paper className={classes.tableWraper}>
           <Table>
@@ -108,7 +108,7 @@ class Statistics extends React.Component {
             </TableBody>
           </Table>
         </Paper>
-      </React.Fragment>);
+      </>);
   }
 
   renderColor() {
@@ -116,7 +116,7 @@ class Statistics extends React.Component {
     const { statistics } = this.state;
     const totalCount = sum(DataFile.all.map(df => sum(Colors.all.map(c => statistics.color[df.name][c.id]))));
     return (
-      <React.Fragment>
+      <>
         <p>{`${totalCount} colors`}</p>
         <Paper className={classes.tableWraper}>
           <Table>
@@ -135,7 +135,7 @@ class Statistics extends React.Component {
             </TableBody>
           </Table>
         </Paper>
-      </React.Fragment>);
+      </>);
   }
 
   renderAuthor() {
@@ -147,7 +147,7 @@ class Statistics extends React.Component {
       return x[0].localeCompare(y[0]);
     });
     return (
-      <React.Fragment>
+      <>
         <p>{`${sortedAuthor.length} authors`}</p>
         <Paper className={classes.tableWraper}>
           <Table>
@@ -166,14 +166,14 @@ class Statistics extends React.Component {
             </TableBody>
           </Table>
         </Paper>
-      </React.Fragment>);
+      </>);
   }
 
   render() {
     const { statistics, error, tabIndex } = this.state;
     if (error) throw error;
     return (
-      <React.Fragment>
+      <>
         <Tabs value={tabIndex} indicatorColor="primary" onChange={this.handleTabChange}>
           <Tab label="Count" />
           <Tab label="Colors" />
@@ -189,7 +189,7 @@ class Statistics extends React.Component {
             Loading statistics...
           </p>
         )}
-      </React.Fragment>
+      </>
     );
   }
 }

@@ -59,7 +59,7 @@ class Home extends React.Component {
       DataFile.pnPurin,
     ];
     return (
-      <React.Fragment>
+      <>
         <div className={classes.forkMeContainer}>
           <a href="https://github.com/ohtake/sanrio-wardrobe">
             <img
@@ -109,7 +109,7 @@ class Home extends React.Component {
             <a href="assets/sme.html">Source map explorer</a>
           </li>
         </ul>
-      </React.Fragment>
+      </>
     );
   }
 }

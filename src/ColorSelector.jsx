@@ -100,12 +100,12 @@ class ColorSelector extends React.Component {
   listButtons() {
     const { colors } = this.props;
     return (
-      <React.Fragment>
+      <>
         {colors.map(c => (
           <Button key={c.name} onClick={this.toggle} data={c.id} style={this.styleColor(c)}>{c.name}</Button>
         ))}
         <Button key="clear" onClick={this.clear} data="" style={styleBase} disabled={!this.isFilterEnabled()}>CLEAR</Button>
-      </React.Fragment>
+      </>
     );
   }
 
