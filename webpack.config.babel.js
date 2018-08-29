@@ -34,7 +34,7 @@ const js = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env'],
+            presets: ['@babel/preset-env'],
           },
         },
       },
@@ -44,7 +44,7 @@ const js = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['react', 'env'],
+            presets: ['@babel/preset-react', '@babel/preset-env'],
             plugins: [
               ...(isProduction ? [
                 'transform-react-remove-prop-types',
