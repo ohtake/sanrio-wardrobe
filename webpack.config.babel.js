@@ -1,6 +1,6 @@
 /* eslint import/no-extraneous-dependencies: [error, {devDependencies: true}] */
 
-import path from 'path';
+const path = require('path');
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -64,4 +64,4 @@ const js = {
   },
 };
 
-export default js;
+module.exports = js;
