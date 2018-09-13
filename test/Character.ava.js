@@ -29,7 +29,7 @@ test('<Character /> should be loaded', t => {
 });
 
 /** @test {Character} */
-test.cb('<Character /> should be loaded with kt-kitty', t => {
+test.cb('<Character /> should be loaded with ar-retsuko', t => {
   let photoCount = -1;
   const loadPhotosDouble = sinon.stub(Photo, 'loadPhotos');
   loadPhotosDouble.callsFake(async arg => {
@@ -38,15 +38,21 @@ test.cb('<Character /> should be loaded with kt-kitty', t => {
     photoCount = arr.length;
     return arr.map(obj => new Photo(obj));
   });
-  try {
-    const wrapper = shallow(<Character match={{ params: { chara: 'kt-kitty' } }} />, { context });
-    t.is(null, wrapper.state('allPhotos'));
-    t.deepEqual([], wrapper.state('photos'));
-    setTimeout(() => { // setImmediate does not work?
-      t.not(null, wrapper.state('allPhotos'));
+  function checkLoaded(wrapper, interval, retry) {
+    if (wrapper.state('allPhotos')) {
       t.is(photoCount, wrapper.state('photos').length);
       t.end();
-    }, 100);
+    } else if (retry > 0) {
+      setTimeout(() => checkLoaded(wrapper, interval, retry - 1), interval);
+    } else {
+      t.fail('did not load photos');
+    }
+  }
+  try {
+    const wrapper = shallow(<Character match={{ params: { chara: 'ar-retsuko' } }} />, { context });
+    t.is(null, wrapper.state('allPhotos'));
+    t.deepEqual([], wrapper.state('photos'));
+    checkLoaded(wrapper, 100, 10);
   } finally {
     loadPhotosDouble.restore();
   }
