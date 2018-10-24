@@ -57,6 +57,13 @@
   colors: [blue, gold]
   notes:
   - エバー航空、機長
+- title: アジア版 Hello Kitty Live
+  source: { author: "harambearl", license: "", url: "https://www.instagram.com/p/BOUH6Acg-WT/"}
+  images_instagram2: { shortcode: "BOUH6Acg-WT", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/031fb8211ca2884561dff04fbd791230/5C4DC7CF/t51.2885-15/e35/s150x150/15534948_1624937644478042_2357823370604576768_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/26eb06e2cd664ee38d841f6216947f4c/5C80A1B7/t51.2885-15/e35/s320x320/15534948_1624937644478042_2357823370604576768_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/df5829fc5656c96945e7f95340019399/5C67E3F0/t51.2885-15/e35/15534948_1624937644478042_2357823370604576768_n.jpg" }
+  size: { width_o: 1080, height_o: 1080 }
+  colors: [blue, red, black, silver]
+  notes:
+  - アジア Hello Kitty Live
 - title: 3XDQJ1lwbc
   source: { author: "sanrio", license: "", url: "https://www.instagram.com/p/3XDQJ1lwbc/"}
   images_instagram2: { shortcode: "3XDQJ1lwbc", t_width: 150, t_height: 150, t_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/88bf3e86b5f1fb1fdee09264f9f4e65b/5C877FE8/t51.2885-15/e15/s150x150/11374741_1588299388117496_1168518148_n.jpg", m_width: 320, m_height: 320, m_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/82d4d25e365b909a94874e87655b7f4f/5C56F7F0/t51.2885-15/e15/s320x320/11374741_1588299388117496_1168518148_n.jpg", l_url: "https://instagram.fcbr1-1.fna.fbcdn.net/vp/8e5efb67d63b463d2f9af9e7a665eb68/5C49C597/t51.2885-15/e15/11374741_1588299388117496_1168518148_n.jpg" }
