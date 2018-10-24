@@ -393,6 +393,12 @@
   colors: [red, gold, grey, green, yellow, black]
   notes:
   - ニット帽
+- title: flickr-29974459448
+  source: { author: "ぴた", license: "", url: "https://www.flickr.com/photos/129114569@N06/29974459448/"}
+  images_flickr: { photo: "29974459448", farm: 2, server: 1837, secret: "66aefb02dc", secret_h: "393cc19902", secret_k: "87b85ab4e6" }
+  size: { width_o: 2048, height_o: 1365 }
+  colors: [purple, gold, red, silver, brown]
+  notes: []
 - title: 雨合羽
   source: { author: "のぶお", license: "", url: "https://www.flickr.com/photos/113011809@N08/15113862871/"}
   images_flickr: { photo: "15113862871", farm: 4, server: 3876, secret: "cf3a4a3f7a", secret_h: "de4d6cf8d6", secret_k: "40bae7d1a4", secret_o: "eb68b71aea", format_o: "jpg" }
