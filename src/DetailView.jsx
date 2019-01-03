@@ -190,7 +190,8 @@ class DetailView extends React.Component {
             </li>
           ) : null }
         {photo.data.notes.map(n => <li>{n}</li>)}
-      </React.Fragment>);
+      </React.Fragment>
+    );
   }
 
   /**
@@ -215,7 +216,8 @@ class DetailView extends React.Component {
       <MenuItem onClick={handler}>
         <ListItemIcon>{icon}</ListItemIcon>
         <ListItemText primary={primaryText} secondary={secondaryText} />
-      </MenuItem>);
+      </MenuItem>
+    );
   }
 
   renderAppBar(main) {
@@ -244,7 +246,8 @@ class DetailView extends React.Component {
             </Menu>
           </div>
         </Toolbar>
-      </AppBar>);
+      </AppBar>
+    );
   }
 
   static renderFloatingIcon(iconElement, isTop, isLeft, handler) {

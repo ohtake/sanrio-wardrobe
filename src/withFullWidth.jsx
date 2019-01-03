@@ -65,5 +65,6 @@ export default function withFullWidth(Component, propNameForWidth = 'width') {
     forwardedRef: null,
   };
   FullWidthComponent.displayName = `withFullWidth(${Component.displayName || Component.name || 'Component'})`;
+  // eslint-disable-next-line react/no-multi-comp
   return React.forwardRef((props, ref) => <FullWidthComponent {...props} forwardedRef={ref} />);
 }

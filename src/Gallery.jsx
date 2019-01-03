@@ -50,7 +50,8 @@ class Gallery extends React.Component {
             <img alt={p.data.title} src={p.getLargestImageAtMost(320, 320).url} style={{ width: '100%', height: '100%' }} />
           </LazyLoad>
         </RouterLink>
-      </div>);
+      </div>
+    );
   }
 
   render() {

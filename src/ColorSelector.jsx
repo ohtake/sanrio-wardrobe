@@ -119,7 +119,8 @@ class ColorSelector extends React.Component {
           Color filter
         </Button>
         {enabled ? this.listButtons() : null}
-      </div>);
+      </div>
+    );
   }
 }
 ColorSelector.propTypes = {

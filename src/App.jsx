@@ -170,7 +170,8 @@ class App extends React.Component {
       <ListItem button component={NavLink} to={to} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label={gaLabel}>
         <ListItemIcon>{icon}</ListItemIcon>
         <ListItemText>{text}</ListItemText>
-      </ListItem>);
+      </ListItem>
+    );
   }
 
   renderNavChara(chara) {
@@ -180,7 +181,8 @@ class App extends React.Component {
       <ListItem button component={NavLink} to={`/chara/${chara.name}`} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={chara.name}>
         <ListItemAvatar>{avatar}</ListItemAvatar>
         <ListItemText>{chara.getDisplayName()}</ListItemText>
-      </ListItem>);
+      </ListItem>
+    );
   }
 
   renderDrawer() {
@@ -205,7 +207,8 @@ class App extends React.Component {
             {DataFile.all.map(c => this.renderNavChara(c)) }
           </List>
         </div>
-      </Drawer>);
+      </Drawer>
+    );
   }
 
   renderError() {
@@ -217,7 +220,8 @@ class App extends React.Component {
         <pre>{errorInfo.componentStack}</pre>
         <Button onClick={this.clearError}>Retry</Button>
         <Button component={NavLink} onClick={this.clearError} to="/">Back to Home</Button>
-      </Paper>);
+      </Paper>
+    );
   }
 
   render() {
@@ -236,7 +240,8 @@ class App extends React.Component {
             </Switch>
           )}
         </div>
-      </div>);
+      </div>
+    );
   }
 }
 App.propTypes = {

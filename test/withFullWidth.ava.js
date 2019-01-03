@@ -15,7 +15,8 @@ test('withFullWidth should set default width prop and pass other props', t => {
     return (
       <span>
         {text}
-      </span>);
+      </span>
+    );
   }
   Component.propTypes = {
     width: PropTypes.number.isRequired,

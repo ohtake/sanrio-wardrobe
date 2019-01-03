@@ -103,12 +103,14 @@ class Statistics extends React.Component {
                     {renderCell(df.seriesSymbol)}
                     {renderCell(df.nameJa)}
                     {renderCell(df.nameEn)}
-                  </TableRow>);
+                  </TableRow>
+                );
               })}
             </TableBody>
           </Table>
         </Paper>
-      </React.Fragment>);
+      </React.Fragment>
+    );
   }
 
   renderColor() {
@@ -131,11 +133,13 @@ class Statistics extends React.Component {
                 <TableRow hover>
                   {this.renderAvatarCell(df, 'statColor')}
                   {Colors.all.map(c => renderCell(statistics.color[df.name][c.id], { numeric: true, style: { color: 'black', backgroundColor: c.light } }))}
-                </TableRow>))}
+                </TableRow>
+              ))}
             </TableBody>
           </Table>
         </Paper>
-      </React.Fragment>);
+      </React.Fragment>
+    );
   }
 
   renderAuthor() {
@@ -162,11 +166,13 @@ class Statistics extends React.Component {
                 <TableRow hover>
                   {renderCell(a[0])}
                   {renderCell(a[1], { numeric: true })}
-                </TableRow>))}
+                </TableRow>
+              ))}
             </TableBody>
           </Table>
         </Paper>
-      </React.Fragment>);
+      </React.Fragment>
+    );
   }
 
   render() {
