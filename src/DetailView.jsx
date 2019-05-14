@@ -80,9 +80,8 @@ class DetailView extends React.Component {
   }
 
   closeDetailView() {
-    const { router } = this.context;
     const { chara } = this.props;
-    router.history.replace(`/chara/${chara}`);
+    utils.getRouterHistory().replace(`/chara/${chara}`);
     this.setState({ showInfo: true });
   }
 
@@ -103,9 +102,8 @@ class DetailView extends React.Component {
   moveToIndex(index) {
     const { photos } = this.props;
     const { chara } = this.props;
-    const { router } = this.context;
     const photo = photos[index];
-    router.history.replace(`/chara/${chara}/${window.encodeURIComponent(photo.data.title)}`);
+    utils.getRouterHistory().replace(`/chara/${chara}/${window.encodeURIComponent(photo.data.title)}`);
     utils.sendGoogleAnalyticsEvent('lightbox', 'navigate', `${chara} ${photo.data.title}`);
   }
 
@@ -328,8 +326,5 @@ DetailView.propTypes = {
 DetailView.defaultProps = {
   photos: [],
   index: -1,
-};
-DetailView.contextTypes = {
-  router: PropTypes.shape({ history: PropTypes.shape({ replace: PropTypes.func }) }).isRequired,
 };
 export default withTheme()(DetailView);
