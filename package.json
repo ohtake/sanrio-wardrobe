@@ -85,7 +85,7 @@
     "lint": "eslint webpack.*.js src/* test/* scripts/*.js --color --report-unused-disable-directives",
     "test": "run-p -l test:*",
     "test:ava": "cross-env NODE_ENV=test ava test/**/*.ava.js",
-    "cover": "cross-env NODE_ENV=test nyc ---extension .jsx --reporter lcov --reporter text yarn test",
+    "cover": "cross-env NODE_ENV=test nyc ---extension .jsx --reporter lcov --reporter text npm run test",
     "watch:ava": "yarn run test:ava -- --watch",
     "build": "cross-env NODE_ENV=production npm-run-all -l -p build:app build:esdoc build:statistics -p build:licenses build:sme",
     "build:app": "webpack --mode production --progress --colors --config webpack.config.babel.js",
