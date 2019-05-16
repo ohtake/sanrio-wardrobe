@@ -14,11 +14,6 @@ const readFilePromisified = util.promisify(fs.readFile);
 
 const context = {
   setTitle: () => {},
-  router: {
-    history: {
-      replace: () => {},
-    },
-  },
 };
 
 /** @test {Character} */

@@ -118,14 +118,13 @@ export default class Character extends React.Component {
    */
   updateLightbox(title) {
     const { photos, chara } = this.state;
-    const { router } = this.context;
     if (title) {
       if (photos) {
         const index = photos.findIndex(p => title === p.data.title);
         if (index >= 0) {
           this.setState({ index });
         } else {
-          router.history.replace(`/chara/${chara}`);
+          utils.getRouterHistory().replace(`/chara/${chara}`);
         }
       }
     } else {
@@ -230,6 +229,5 @@ Character.propTypes = {
   }).isRequired,
 };
 Character.contextTypes = {
-  router: PropTypes.shape({ history: PropTypes.shape({ replace: PropTypes.func }) }).isRequired,
   setTitle: PropTypes.func,
 };
