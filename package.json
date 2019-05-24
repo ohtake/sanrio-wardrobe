@@ -37,7 +37,6 @@
     "babel-plugin-istanbul": "^5.1.4",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "codacy-coverage": "^3.4.0",
-    "codeclimate-test-reporter": "^0.5.1",
     "codecov": "^3.4.0",
     "core-js": "^2.6.5",
     "coveralls": "^3.0.3",
