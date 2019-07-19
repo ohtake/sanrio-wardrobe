@@ -32,7 +32,7 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.5.5",
-    "ava": "^1.4.1",
+    "ava": "^2.2.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-istanbul": "^5.1.4",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
@@ -79,13 +79,16 @@
       "@babel/register",
       "@babel/polyfill",
       "./test/setup-enzyme.js"
+    ],
+    "files": [
+      "test/**/*.ava.js"
     ]
   },
   "scripts": {
     "clean": "rimraf assets/ coverage/ .nyc_output/",
     "lint": "eslint webpack.*.js src/* test/* scripts/*.js --color --report-unused-disable-directives",
     "test": "run-p -l test:*",
-    "test:ava": "cross-env NODE_ENV=test ava test/**/*.ava.js",
+    "test:ava": "cross-env NODE_ENV=test ava",
     "cover": "cross-env NODE_ENV=test nyc ---extension .jsx --reporter lcov --reporter text npm run test",
     "watch:ava": "yarn run test:ava -- --watch",
     "build": "cross-env NODE_ENV=production npm-run-all -l -p build:app build:esdoc build:statistics -p build:licenses build:sme",
