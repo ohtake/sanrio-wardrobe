@@ -145,12 +145,15 @@ test('Photo#getAspectRatio should return a number', t => {
 /** @test {Photo#match} */
 test('Photo#match', t => {
   const photo = new Photo(photoSrcsetLandscape);
+  /* eslint-disable ava/prefer-t-regex */
+  // photo.match is not String#match but Photo#match
   t.true(photo.match(/landscape/), 'should match title');
   t.false(photo.match(/placehold/), 'should not match url');
   t.true(photo.match(/brent/), 'should match author');
   t.false(photo.match(/red/), 'should not match color');
   t.true(photo.match(/note1/), 'should match notes');
   t.true(photo.match(/note2/), 'should match notes');
+  /* eslint-enable ava/prefer-t-regex */
 });
 
 /** @test {Photo#calcWidthOrHeight} */
