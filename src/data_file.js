@@ -426,4 +426,4 @@ DataFile.all.forEach((df) => {
  * @param {string} name e.g. kt-kitty
  * @returns {DataFile}
  */
-DataFile.findByName = name => map[name];
+DataFile.findByName = (name) => map[name];

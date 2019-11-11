@@ -76,6 +76,11 @@ class App extends React.Component {
     };
   }
 
+  componentDidCatch(error, info) {
+    const { errorObject } = this.state;
+    if (!errorObject) this.setState({ errorObject: error, errorInfo: info });
+  }
+
   /**
    * @param {string} title
    * @returns {void}
@@ -86,11 +91,6 @@ class App extends React.Component {
     } else {
       this.setState({ title: appDefaultTitle });
     }
-  }
-
-  componentDidCatch(error, info) {
-    const { errorObject } = this.state;
-    if (!errorObject) this.setState({ errorObject: error, errorInfo: info });
   }
 
   clearError() {
@@ -204,7 +204,7 @@ class App extends React.Component {
           </List>
           <Divider />
           <List subheader={<ListSubheader>Characters</ListSubheader>}>
-            {DataFile.all.map(c => this.renderNavChara(c)) }
+            {DataFile.all.map((c) => this.renderNavChara(c)) }
           </List>
         </div>
       </Drawer>
@@ -252,7 +252,7 @@ App.childContextTypes = {
   thumbnailSize: PropTypes.number,
   setTitle: PropTypes.func,
 };
-export default withStyles(theme => ({
+export default withStyles((theme) => ({
   container: {
     backgroundColor: theme.palette.background.default,
     padding: theme.spacing.unit,

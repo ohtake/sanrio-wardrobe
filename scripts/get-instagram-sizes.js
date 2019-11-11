@@ -63,7 +63,7 @@ async function main() {
         console.log(mediaInfo.__typename);
         break;
       case 'GraphSidecar':
-        console.log(`GraphSidecar: ${mediaInfo.edge_sidecar_to_children.edges.map(e => e.node.shortcode)}`);
+        console.log(`GraphSidecar: ${mediaInfo.edge_sidecar_to_children.edges.map((e) => e.node.shortcode)}`);
         break;
       default:
         throw new Error(`Unknown typename: ${mediaInfo.__typename}`);
@@ -75,9 +75,9 @@ async function main() {
 
   const sizes = ['t', 'm', 'l'];
   const shortcode = args[0];
-  const endpoints = sizes.map(s => `https://www.instagram.com/p/${shortcode}/media/?size=${s}`);
-  const urls = await Promise.all(endpoints.map(e => getRedirectLocation(e)));
-  const jpegs = await Promise.all(urls.map(u => fetchAndDecode(u)));
+  const endpoints = sizes.map((s) => `https://www.instagram.com/p/${shortcode}/media/?size=${s}`);
+  const urls = await Promise.all(endpoints.map((e) => getRedirectLocation(e)));
+  const jpegs = await Promise.all(urls.map((u) => fetchAndDecode(u)));
   const params = [];
   const params2 = [];
   params.push(`shortcode: "${shortcode}"`);

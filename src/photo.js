@@ -26,7 +26,7 @@ export default class Photo {
       throw new Error(`${res.statusText}: ${res.url}`);
     }
     const arr = await res.json();
-    return arr.map(obj => new Photo(obj));
+    return arr.map((obj) => new Photo(obj));
   }
 
   /**
@@ -35,15 +35,15 @@ export default class Photo {
   getSrcsetModel() {
     let images;
     if (this.data.images) {
-      images = this.data.images.map(i => this.prepareSize(i));
+      images = this.data.images.map((i) => this.prepareSize(i));
     } else if (this.data.images_flickr) {
-      images = FlickrSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
+      images = FlickrSrcsetProvider.getImages(this).map((i) => this.prepareSize(i));
     } else if (this.data.images_picasa) {
-      images = PicasaSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
+      images = PicasaSrcsetProvider.getImages(this).map((i) => this.prepareSize(i));
     } else if (this.data.images_instagram2) {
-      images = Instagram2SrcsetProvider.getImages(this).map(i => this.prepareSize(i));
+      images = Instagram2SrcsetProvider.getImages(this).map((i) => this.prepareSize(i));
     } else if (this.data.images_instagram) {
-      images = InstagramSrcsetProvider.getImages(this).map(i => this.prepareSize(i));
+      images = InstagramSrcsetProvider.getImages(this).map((i) => this.prepareSize(i));
     } else {
       throw new Error('images not specified');
     }
@@ -58,7 +58,7 @@ export default class Photo {
   getLargestImageAtMost(upperWidth, upperHeight) {
     const images = this.getSrcsetModel().slice(0);
     images.sort((a, b) => a.max - b.max);
-    const largest = findLast(images, img => img.width <= upperWidth && img.height <= upperHeight);
+    const largest = findLast(images, (img) => img.width <= upperWidth && img.height <= upperHeight);
     if (largest) return largest;
     // Nothing matches. Return smallest one.
     return images[0];
@@ -98,7 +98,7 @@ export default class Photo {
    * @returns {string}
    */
   getSrcSet() {
-    return this.getSrcsetModel().map(i => `${i.url} ${i.width}w`).join(', ');
+    return this.getSrcsetModel().map((i) => `${i.url} ${i.width}w`).join(', ');
   }
 
   /**
@@ -115,7 +115,7 @@ export default class Photo {
   match(re) {
     if (this.data.title.match(re)) return true;
     if (this.data.source.author.match(re)) return true;
-    if (this.data.notes.find(note => note.match(re))) return true;
+    if (this.data.notes.find((note) => note.match(re))) return true;
     return false;
   }
 }
