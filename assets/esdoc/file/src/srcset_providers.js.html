@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/srcset_providers.js | sanrio-wardrobe</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Character.jsx~Character.html">Character</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/colors.js~ColorData.html">ColorData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/data_file.js~DataFile.html">DataFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/photo.js~Photo.html">Photo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~FlickrSrcsetProvider.html">FlickrSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~Instagram2SrcsetProvider.html">Instagram2SrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~InstagramSrcsetProvider.html">InstagramSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~PicasaSrcsetProvider.html">PicasaSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-JustifiedLayout">JustifiedLayout</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyThemeToBody">applyThemeToBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRouterHistory">getRouterHistory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-openFeedback">openFeedback</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendGoogleAnalyticsEvent">sendGoogleAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-withFullWidth">withFullWidth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RepresentiveColors">RepresentiveColors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeDarkV1">themeDarkV1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeLightV1">themeLightV1</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/srcset_providers.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import take from &apos;lodash/take&apos;;
+
+const flickrSizes = [
+  /* eslint-disable object-curly-newline */
+  { suffix: &apos;s&apos;, longest: 75, square: true, label: &apos;Square&apos; },
+  { suffix: &apos;q&apos;, longest: 150, square: true, label: &apos;Large Square&apos; },
+  { suffix: &apos;t&apos;, longest: 100, label: &apos;Thumbnail&apos; },
+  { suffix: &apos;m&apos;, longest: 240, label: &apos;Small&apos; },
+  { suffix: &apos;n&apos;, longest: 320, label: &apos;Small 320&apos; },
+  { suffix: &apos;&apos;, longest: 500, label: &apos;Medium&apos; },
+  { suffix: &apos;z&apos;, longest: 640, label: &apos;Medium 640&apos; },
+  { suffix: &apos;c&apos;, longest: 800, since: &apos;20120301&apos;, label: &apos;Medium 800&apos; },
+  { suffix: &apos;b&apos;, longest: 1024, since: &apos;20100525&apos;, label: &apos;Large&apos; },
+  { suffix: &apos;h&apos;, longest: 1600, since: &apos;20120301&apos;, label: &apos;Large 1600&apos; },
+  { suffix: &apos;k&apos;, longest: 2048, since: &apos;20120301&apos;, label: &apos;Large 2048&apos; },
+  { suffix: &apos;o&apos;, customExtention: true, label: &apos;Original&apos; },
+  /* eslint-enable */
+];
+
+/**
+ * It provides srcset for Flickr images.
+ *
+ * @example
+ * images_flickr: { photo: &quot;15605014039&quot;, farm: 6, server: 5604, secret: &quot;3aa65f125e&quot;, secret_h: &quot;2c5f7cc664&quot;, secret_k: &quot;31513b8bf6&quot; }
+ *
+ * Parameters:
+ *   photo: string required
+ *   farm: number/string required
+ *   server: number/string required
+ *   secret: string required
+ *   secret_h: string optional
+ *   secret_k: string optional
+ *   before: enum(&apos;20100525&apos; | &apos;20120301&apos;) optional
+ *     If &apos;20100525&apos;, c, b, h, and k are not available.
+ *     If &apos;20120301&apos;, c, h, and k are not available.
+ * Parmeters not supported:
+ *   secret_o: string optional
+ *   format_o: enum(&apos;jpg&apos; | &apos;gif&apos; | &apos;png&apos;) optional
+ */
+export class FlickrSrcsetProvider {
+  /**
+   * @param {string} photoId
+   * @param {number} farmId
+   * @param {number} serverId
+   * @param {string} secret
+   * @param {string} suffix
+   * @returns {string}
+   */
+  static createUrl(photoId, farmId, serverId, secret, suffix) {
+    const suffix2 = suffix ? `_${suffix}` : &apos;&apos;;
+    return `https://farm${farmId}.staticflickr.com/${serverId}/${photoId}_${secret}${suffix2}.jpg`;
+  }
+
+  /**
+   * @param {Photo} photo
+   * @returns {array.&lt;{url: string, width: number, height: number, max: number}&gt;}
+   */
+  static getImages(photo) {
+    const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
+    const imgsF = photo.data.images_flickr;
+    const result = [];
+    const availableSizes = flickrSizes.filter((s) =&gt; {
+      if (imgsF.before &amp;&amp; s.since &amp;&amp; imgsF.before &lt;= s.since) return false;
+      if (s.suffix === &apos;h&apos; &amp;&amp; !imgsF.secret_h) return false;
+      if (s.suffix === &apos;k&apos; &amp;&amp; !imgsF.secret_k) return false;
+      if (s.square) return false; // Skip square size because it trims images.
+      if (s.suffix === &apos;o&apos;) return false; // Skip original size because it may be too huge.
+      return true;
+    });
+    availableSizes.forEach((size) =&gt; {
+      let secretStr;
+      switch (size.suffix) {
+        case &apos;h&apos;:
+          secretStr = imgsF.secret_h;
+          break;
+        case &apos;k&apos;:
+          secretStr = imgsF.secret_k;
+          break;
+        default:
+          secretStr = imgsF.secret;
+          break;
+      }
+      const url = FlickrSrcsetProvider.createUrl(imgsF.photo, imgsF.farm, imgsF.server, secretStr, size.suffix);
+      const max = Math.min(maxO, size.longest);
+      result.push({ url, max });
+    });
+    return result;
+  }
+}
+
+const picasaSizes = flickrSizes.filter((s) =&gt; !s.square).filter((s) =&gt; s.longest).map((s) =&gt; s.longest);
+/**
+ * It provides srcset for Picasa images.
+ *
+ * @example
+ * images_picasa: { lh: 4, dirs: &quot;-_rqggmnuF6k/UWF0fBPaTnI/AAAAAAAAO2w/5KIyFyTmkIA&quot;, file: &quot;5D3D8863%2520%25281280x1920%2529.jpg&quot; }
+ *
+ * Parameters:
+ *   lh: number required
+ *   dirs: string required
+ *   file: string required
+ */
+export class PicasaSrcsetProvider {
+  /**
+   * @param {number} lh
+   * @param {string} dirs
+   * @param {string} file
+   * @param {number} size
+   * @returns {string}
+   */
+  static createUrl(lh, dirs, file, size) {
+    return `https://lh${lh}.googleusercontent.com/${dirs}/s${size}/${file}`;
+  }
+
+  /**
+   * @param {Photo} photo
+   * @returns {array.&lt;{url: string, width: number, height: number, max: number}&gt;}
+   */
+  static getImages(photo) {
+    const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
+    const imgsP = photo.data.images_picasa;
+    const indexExceeding = picasaSizes.findIndex((size) =&gt; size &gt;= maxO);
+    const sizesLength = indexExceeding !== -1 ? indexExceeding + 1 : picasaSizes.length;
+    const sizes = take(picasaSizes, sizesLength);
+    return sizes.map((size) =&gt; {
+      const max = size &lt; maxO ? size : maxO;
+      const url = PicasaSrcsetProvider.createUrl(imgsP.lh, imgsP.dirs, imgsP.file, max);
+      return { url, max };
+    });
+  }
+}
+
+/**
+ * It provides srcset for Instagram images.
+ *
+ * @example
+ * images_instagram: { shortcode: &quot;fA9uwTtkSN&quot;, width_t: 150, width_m: 320, width_l: 640 }
+ *
+ * Parameters:
+ *   shortcode: string required
+ *   width_t: number required
+ *   width_m: number required
+ *   width_l: number required
+ */
+export class InstagramSrcsetProvider {
+  /**
+   * Creates a URL for image.
+   *
+   * https://www.instagram.com/developer/embedding/#media_redirect
+   * If you embed an Instagram image this way, you must provide clear attribution next to the image, including attribution to the original author and to Instagram, and a link to the Instagram media page.
+   *
+   * @param {!string} shortcode Instagram&apos;s shortcode
+   * @param {!string} size Disired size of image. Value must be either of &apos;t&apos; (thumbnail), &apos;m&apos; (medium), or &apos;l&apos; (large).
+   * @returns {string}
+   */
+  static createUrl(shortcode, size) {
+    return `https://instagram.com/p/${shortcode}/media/?size=${size}`;
+  }
+
+  /**
+   * @param {Photo} photo
+   * @returns {array.&lt;{url: string, width: number, height: number, max: number}&gt;}
+   */
+  static getImages(photo) {
+    const imgsI = photo.data.images_instagram;
+    // &apos;t&apos; has square aspect ratio. Do not use &apos;t&apos; for non-square images.
+    const sizes = photo.getAspectRatio() === 1 ? [&apos;t&apos;, &apos;m&apos;, &apos;l&apos;] : [&apos;m&apos;, &apos;l&apos;];
+    return sizes.map((size) =&gt; {
+      const url = InstagramSrcsetProvider.createUrl(imgsI.shortcode, size);
+      return { url, width: imgsI[`width_${size}`] };
+    });
+  }
+}
+
+/**
+ * It provides srcset for Instagram images (v2).
+ *
+ * @example
+ * images_instagram2: { shortcode: &quot;fA9uwTtkSN&quot;,
+ *   t_width: 150, t_height: 150, t_url: &quot;https://scontent-nrt1-1.cdninstagram.com/vp/66fc31d63e4335207abe9c678a0a3f0b/5A88DA9A/t51.2885-15/s150x150/e15/11358196_1472850273007829_614249870_n.jpg&quot;,
+ *   m_width: 320, m_height: 320, m_url: &quot;https://scontent-nrt1-1.cdninstagram.com/vp/640bc9bd24ad9f049fd7528fd06a9868/5A88E889/t51.2885-15/s320x320/e15/11358196_1472850273007829_614249870_n.jpg&quot;,
+ *   l_url: &quot;https://scontent-nrt1-1.cdninstagram.com/vp/685ca756ed8ce187b242d0041734fe76/5A88CC04/t51.2885-15/e15/11358196_1472850273007829_614249870_n.jpg&quot; }
+ *
+ * Parameters:
+ *   shortcode: string required
+ *   t_width: number required
+ *   t_height: number required
+ *   t_url: string required
+ *   m_width: number required
+ *   m_height: number requiredm
+ *   m_url: string required
+ *   l_url: string required
+ */
+export class Instagram2SrcsetProvider {
+  /**
+   * @param {Photo} photo
+   * @returns {array.&lt;{url: string, width: number, height: number, max: number}&gt;}
+   */
+  static getImages(photo) {
+    const imgsI = photo.data.images_instagram2;
+    // &apos;t&apos; has square aspect ratio. Do not use &apos;t&apos; for non-square images.
+    const sizes = photo.getAspectRatio() === 1 ? [&apos;t&apos;, &apos;m&apos;, &apos;l&apos;] : [&apos;m&apos;, &apos;l&apos;];
+    return sizes.map((size) =&gt; {
+      const url = imgsI[`${size}_url`];
+      const width = size === &apos;l&apos; ? photo.data.size.width_o : imgsI[`${size}_width`];
+      return { url, width };
+    });
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

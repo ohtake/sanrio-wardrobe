@@ -1,0 +1,69 @@
+[
+	{
+		"title": "標準",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/28893458361/"
+		},
+		"images_flickr": {
+			"photo": "28893458361",
+			"farm": 9,
+			"server": 8675,
+			"secret": "7eb85505ea",
+			"secret_h": "1e1312367a",
+			"secret_k": "710059eb43",
+			"secret_o": "828fc860d4",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"pink",
+			"white",
+			"green",
+			"yellow",
+			"blue",
+			"purple"
+		],
+		"notes": [
+			"知恵の木ステージ『リルリルフェアリル大行進 ~リトルフェアリルへようこそ~』"
+		]
+	},
+	{
+		"title": "初期",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/28050459705/"
+		},
+		"images_flickr": {
+			"photo": "28050459705",
+			"farm": 8,
+			"server": 7790,
+			"secret": "6897db4af5",
+			"secret_h": "4d7b18d889",
+			"secret_k": "919511da4f",
+			"secret_o": "6c1422139d",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"pink",
+			"white",
+			"green",
+			"yellow",
+			"blue",
+			"purple"
+		],
+		"notes": [
+			"服の生地が異なる",
+			"2016年2月から5月まで"
+		]
+	}
+]

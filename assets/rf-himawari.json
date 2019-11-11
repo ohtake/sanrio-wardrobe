@@ -1,0 +1,34 @@
+[
+	{
+		"title": "標準",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/36740670703/"
+		},
+		"images_flickr": {
+			"photo": "36740670703",
+			"farm": 5,
+			"server": 4367,
+			"secret": "b5eb3caa1f",
+			"secret_h": "71b5edfbe0",
+			"secret_k": "3eee3e9b10",
+			"secret_o": "c9d18c18a9",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"yellow",
+			"orange",
+			"green",
+			"blue",
+			"purple"
+		],
+		"notes": [
+			"知恵の木ステージ『リルリルフェアリル大行進 ~リトルフェアリルへようこそ~』"
+		]
+	}
+]

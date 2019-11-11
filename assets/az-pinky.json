@@ -1,0 +1,32 @@
+[
+	{
+		"title": "標準",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/34513056833/"
+		},
+		"images_flickr": {
+			"photo": "34513056833",
+			"farm": 5,
+			"server": 4255,
+			"secret": "24d9c3ebcb",
+			"secret_h": "204102d681",
+			"secret_k": "7779249aba",
+			"secret_o": "192a2648b8",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"pink",
+			"white",
+			"purple"
+		],
+		"notes": [
+			"BSフジ『サンリオキャラクターズ ポンポンジャンプ！』"
+		]
+	}
+]

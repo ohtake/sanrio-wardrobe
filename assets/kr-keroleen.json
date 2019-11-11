@@ -1,0 +1,66 @@
+[
+	{
+		"title": "ARIGATO EVERYONE!",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/12146452854/"
+		},
+		"images_flickr": {
+			"photo": "12146452854",
+			"farm": 4,
+			"server": 3769,
+			"secret": "7f98aaf58e",
+			"secret_h": "bdaf768b20",
+			"secret_k": "b44e002de7",
+			"secret_o": "0fbcf054e8",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 5760,
+			"height_o": 3840
+		},
+		"colors": [
+			"red",
+			"white",
+			"brown",
+			"black"
+		],
+		"notes": [
+			"ピューロランドパレード『ARIGATO EVERYONE!』",
+			"イチゴ"
+		]
+	},
+	{
+		"title": "ARIGATO EVERYONE! クリスマス",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/11529775806/"
+		},
+		"images_flickr": {
+			"photo": "11529775806",
+			"farm": 4,
+			"server": 3789,
+			"secret": "c7ec5d96c7",
+			"secret_h": "acc5aae275",
+			"secret_k": "622f6b6019",
+			"secret_o": "48e903c638",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 5760,
+			"height_o": 3840
+		},
+		"colors": [
+			"red",
+			"white",
+			"brown",
+			"green",
+			"gold"
+		],
+		"notes": [
+			"ピューロランドパレード『ARIGATO EVERYONE!』クリスマス版（『ハッピークリスマス』ではない）"
+		]
+	}
+]

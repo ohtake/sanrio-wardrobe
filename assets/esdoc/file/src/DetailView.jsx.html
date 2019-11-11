@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/DetailView.jsx | sanrio-wardrobe</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Character.jsx~Character.html">Character</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/colors.js~ColorData.html">ColorData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/data_file.js~DataFile.html">DataFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/photo.js~Photo.html">Photo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~FlickrSrcsetProvider.html">FlickrSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~Instagram2SrcsetProvider.html">Instagram2SrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~InstagramSrcsetProvider.html">InstagramSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~PicasaSrcsetProvider.html">PicasaSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-JustifiedLayout">JustifiedLayout</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyThemeToBody">applyThemeToBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRouterHistory">getRouterHistory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-openFeedback">openFeedback</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendGoogleAnalyticsEvent">sendGoogleAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-withFullWidth">withFullWidth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RepresentiveColors">RepresentiveColors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeDarkV1">themeDarkV1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeLightV1">themeLightV1</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/DetailView.jsx</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &apos;react&apos;;
+import PropTypes from &apos;prop-types&apos;;
+
+import AppBar from &apos;@material-ui/core/AppBar&apos;;
+import Toolbar from &apos;@material-ui/core/Toolbar&apos;;
+import Dialog from &apos;@material-ui/core/Dialog&apos;;
+import Divider from &apos;@material-ui/core/Divider&apos;;
+import IconButton from &apos;@material-ui/core/IconButton&apos;;
+import Menu from &apos;@material-ui/core/Menu&apos;;
+import MenuItem from &apos;@material-ui/core/MenuItem&apos;;
+import ListItemIcon from &apos;@material-ui/core/ListItemIcon&apos;;
+import ListItemText from &apos;@material-ui/core/ListItemText&apos;;
+import Slide from &apos;@material-ui/core/Slide&apos;;
+import Typography from &apos;@material-ui/core/Typography&apos;;
+import { withTheme } from &apos;@material-ui/core/styles&apos;;
+
+import ActionFeedback from &apos;@material-ui/icons/Feedback&apos;;
+import ActionOpenInBrowser from &apos;@material-ui/icons/OpenInBrowser&apos;;
+import NavigationArrowBack from &apos;@material-ui/icons/ArrowBack&apos;;
+import NavigationChevronLeft from &apos;@material-ui/icons/ChevronLeft&apos;;
+import NavigationChevronRight from &apos;@material-ui/icons/ChevronRight&apos;;
+import NavigationFullscreen from &apos;@material-ui/icons/Fullscreen&apos;;
+import NavigationFullscreenExit from &apos;@material-ui/icons/FullscreenExit&apos;;
+import NavigationMoreVert from &apos;@material-ui/icons/MoreVert&apos;;
+
+import Swipeable from &apos;react-swipeable&apos;;
+
+import { fade } from &apos;@material-ui/core/styles/colorManipulator&apos;;
+import assign from &apos;lodash/assign&apos;;
+import clone from &apos;lodash/clone&apos;;
+import throttle from &apos;lodash/throttle&apos;;
+import verge from &apos;verge&apos;;
+
+import Colors from &apos;./colors&apos;;
+import Photo from &apos;./photo&apos;;
+import * as utils from &apos;./utils&apos;;
+
+const swipingRatioThreshold = 0.3;
+
+function Transition(props) {
+  // eslint-disable-next-line react/jsx-props-no-spreading
+  return &lt;Slide direction=&quot;left&quot; {...props} /&gt;;
+}
+
+class DetailView extends React.Component {
+  constructor() {
+    super();
+
+    this.state = { showInfo: true, swipingRatio: 0 };
+
+    this.handleResize = this.updateViewWidth.bind(this);
+    this.handleSwiping = throttle(this.handleSwiping.bind(this), 50);
+    this.handleSwiped = this.handleSwiped.bind(this);
+    this.closeDetailView = this.closeDetailView.bind(this);
+    this.handleMenuOpen = this.handleMenuOpen.bind(this);
+    this.handleMenuClose = this.handleMenuClose.bind(this);
+    this.openImageSource = this.openImageSource.bind(this);
+    this.toggleInfo = this.toggleInfo.bind(this);
+    this.moveNext = this.moveNext.bind(this);
+    this.movePrev = this.movePrev.bind(this);
+    this.handleKeyDown = this.handleKeyDown.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateViewWidth();
+    window.addEventListener(&apos;resize&apos;, this.handleResize);
+    window.addEventListener(&apos;keydown&apos;, this.handleKeyDown);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener(&apos;resize&apos;, this.handleResize, false);
+    window.removeEventListener(&apos;keydown&apos;, this.handleKeyDown, false);
+  }
+
+  updateViewWidth() {
+    const { viewWidth } = this.state;
+    const newWidth = verge.viewportW();
+    if (newWidth !== viewWidth) {
+      this.setState({ viewWidth: newWidth });
+    }
+  }
+
+  closeDetailView() {
+    const { chara } = this.props;
+    utils.getRouterHistory().replace(`/chara/${chara}`);
+    this.setState({ showInfo: true });
+  }
+
+  handleMenuOpen(ev) {
+    this.setState({ menuAnchorEl: ev.currentTarget });
+  }
+
+  handleMenuClose() {
+    this.setState({ menuAnchorEl: null });
+  }
+
+  toggleInfo() {
+    const { showInfo } = this.state;
+    this.handleMenuClose();
+    this.setState({ showInfo: !showInfo });
+  }
+
+  moveToIndex(index) {
+    const { photos } = this.props;
+    const { chara } = this.props;
+    const photo = photos[index];
+    utils.getRouterHistory().replace(`/chara/${chara}/${window.encodeURIComponent(photo.data.title)}`);
+    utils.sendGoogleAnalyticsEvent(&apos;lightbox&apos;, &apos;navigate&apos;, `${chara} ${photo.data.title}`);
+  }
+
+  moveNext(e) {
+    e.preventDefault();
+    const { photos, index } = this.props;
+    this.moveToIndex((index + 1) % photos.length);
+  }
+
+  movePrev(e) {
+    e.preventDefault();
+    const { photos, index } = this.props;
+    this.moveToIndex(((index + photos.length) - 1) % photos.length);
+  }
+
+  openImageSource() {
+    const { photos, index } = this.props;
+    const photo = photos[index];
+    window.open(photo.data.source.url);
+  }
+
+  handleSwiping(e, deltaX/* , deltaY, absX, absY, velocity */) {
+    const { viewWidth } = this.state;
+    const swipingRatio = deltaX / viewWidth;
+    this.setState({ swipingRatio });
+  }
+
+  handleSwiped(e/* , deltaX, deltaY, isFlick */) {
+    this.handleSwiping.flush();
+    const { swipingRatio } = this.state;
+    if (swipingRatio &gt; swipingRatioThreshold) {
+      this.moveNext(e);
+    } else if (swipingRatio &lt; -swipingRatioThreshold) {
+      this.movePrev(e);
+    }
+    this.setState({ swipingRatio: 0 });
+  }
+
+  handleKeyDown(e) {
+    const { photos } = this.props;
+    if (photos == null) return; // Don&apos;t handle any unless opened
+    if (e.altKey || e.ctrlKey || e.shiftKey) return; // Don&apos;t handle keyboard shortcuts
+    switch (e.keyCode) {
+      case 37: // left
+        this.movePrev(e);
+        break;
+      case 39: // right
+        this.moveNext(e);
+        break;
+      default:
+        break;
+    }
+  }
+
+  createColorSampleStyle(colorValue) {
+    const { theme } = this.props;
+    return {
+      display: &apos;inline-block&apos;,
+      width: &apos;0.8em&apos;,
+      height: &apos;0.8em&apos;,
+      margin: &apos;0 0.2em 0&apos;,
+      border: `${theme.palette.divider} 1px solid`,
+      backgroundColor: colorValue,
+    };
+  }
+
+  /**
+   * @private
+   * @param {Photo} photo
+   * @returns {React.Node}
+   */
+  createNotesElement(photo) {
+    return (
+      &lt;React.Fragment&gt;
+        {photo.data.colors.length &gt; 0
+          ? (
+            &lt;li&gt;
+              {photo.data.colors.map((c) =&gt; {
+                const color = Colors.findById(c);
+                return &lt;span style={this.createColorSampleStyle(color.value)} title={color.name} /&gt;;
+              })}
+            &lt;/li&gt;
+          ) : null }
+        {photo.data.notes.map((n) =&gt; &lt;li&gt;{n}&lt;/li&gt;)}
+      &lt;/React.Fragment&gt;
+    );
+  }
+
+  /**
+   * @private
+   * @param {Photo} photo
+   * @returns {React.Node}
+   */
+  renderCreditElement(photo) {
+    const { theme } = this.props;
+    const texts = [];
+    if (photo.data.source.author) texts.push(`by ${photo.data.source.author}`);
+    if (photo.data.source.license) texts.push(`under ${photo.data.source.license}`);
+    return (
+      &lt;a href={photo.data.source.url} target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; style={{ color: theme.palette.text.primary }}&gt;
+        {texts.join(&apos; &apos;) || &apos;no credit info&apos;}
+      &lt;/a&gt;
+    );
+  }
+
+  static renderMenuItem(handler, icon, primaryText, secondaryText = &apos;&apos;) {
+    return (
+      &lt;MenuItem onClick={handler}&gt;
+        &lt;ListItemIcon&gt;{icon}&lt;/ListItemIcon&gt;
+        &lt;ListItemText primary={primaryText} secondary={secondaryText} /&gt;
+      &lt;/MenuItem&gt;
+    );
+  }
+
+  renderAppBar(main) {
+    const { menuAnchorEl } = this.state;
+    return (
+      &lt;AppBar position=&quot;static&quot;&gt;
+        &lt;Toolbar&gt;
+          &lt;IconButton onClick={this.closeDetailView}&gt;&lt;NavigationArrowBack /&gt;&lt;/IconButton&gt;
+          &lt;div style={{ flexGrow: 1 }}&gt;
+            &lt;div&gt;
+              &lt;Typography variant=&quot;title&quot;&gt;{main.data.title}&lt;/Typography&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;Typography variant=&quot;subheading&quot;&gt;{this.renderCreditElement(main)}&lt;/Typography&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;IconButton onClick={this.handleMenuOpen}&gt;&lt;NavigationMoreVert /&gt;&lt;/IconButton&gt;
+            &lt;Menu open={Boolean(menuAnchorEl)} anchorEl={menuAnchorEl} anchorOrigin={{ horizontal: &apos;right&apos;, vertical: &apos;bottom&apos; }} transformOrigin={{ horizontal: &apos;right&apos;, vertical: &apos;bottom&apos; }} onClose={this.handleMenuClose}&gt;
+              {DetailView.renderMenuItem(this.openImageSource, &lt;ActionOpenInBrowser /&gt;, &apos;Open image source&apos;, &apos;Tap the credit&apos;)}
+              {DetailView.renderMenuItem(this.toggleInfo, &lt;NavigationFullscreen /&gt;, &apos;Fullscreen&apos;, &apos;Tap the image&apos;)}
+              {DetailView.renderMenuItem(this.movePrev, &lt;NavigationChevronLeft /&gt;, &apos;Move Previous&apos;, &apos;Swipe right / Left key&apos;)}
+              {DetailView.renderMenuItem(this.moveNext, &lt;NavigationChevronRight /&gt;, &apos;Move Next&apos;, &apos;Swipe left / Right key&apos;)}
+              &lt;Divider /&gt;
+              {DetailView.renderMenuItem(utils.openFeedback, &lt;ActionFeedback /&gt;, &apos;Feedback&apos;)}
+            &lt;/Menu&gt;
+          &lt;/div&gt;
+        &lt;/Toolbar&gt;
+      &lt;/AppBar&gt;
+    );
+  }
+
+  static renderFloatingIcon(iconElement, isTop, isLeft, handler) {
+    const containerStyle = { position: &apos;absolute&apos; };
+    if (isTop) { containerStyle.top = 0; } else { containerStyle.bottom = 0; }
+    if (isLeft) { containerStyle.left = 0; } else { containerStyle.right = 0; }
+    return (
+      &lt;div style={containerStyle}&gt;
+        &lt;IconButton onClick={handler}&gt;{iconElement}&lt;/IconButton&gt;
+      &lt;/div&gt;
+    );
+  }
+
+  renderContent() {
+    const { photos, index, theme } = this.props;
+    const { viewWidth, swipingRatio, showInfo } = this.state;
+    const len = photos.length;
+    const main = photos[index];
+    const next = photos[(index + 1) % len];
+    const prev = photos[((index + len) - 1) % len];
+    const imgBaseStyle = { position: &apos;absolute&apos;, width: &apos;100%&apos;, height: &apos;100%&apos; };
+    const imgMainStyle = assign(clone(imgBaseStyle), { opacity: (Math.abs(swipingRatio) &lt;= swipingRatioThreshold) ? 1 : 0.5 });
+    const imgPosition = viewWidth + theme.spacing.unit;
+    // objectPosion should be declared in stylesheet so that object-fit-images polyfill works. Since IE and Edge do not handle swipe, no need to do it.
+    const imgPrevStyle = assign(clone(imgBaseStyle), { left: -imgPosition, objectPosition: &apos;100% 50%&apos;, opacity: (swipingRatio &lt; -swipingRatioThreshold) ? 1 : 0.5 });
+    const imgNextStyle = assign(clone(imgBaseStyle), { left: +imgPosition, objectPosition: &apos;  0% 50%&apos;, opacity: (swipingRatio &gt; +swipingRatioThreshold) ? 1 : 0.5 });
+
+    return (
+      &lt;React.Fragment&gt;
+        {showInfo ? this.renderAppBar(main) : null}
+        &lt;Swipeable
+          style={{
+            position: &apos;absolute&apos;, top: (showInfo ? &apos;64px&apos; : 0), bottom: 0, left: (-swipingRatio * viewWidth), width: viewWidth,
+          }}
+          onClick={this.toggleInfo}
+          onSwiping={this.handleSwiping}
+          onSwiped={this.handleSwiped}
+        &gt;
+          &lt;img key={main.data.title} style={imgMainStyle} className=&quot;image-fit&quot; src={main.getLargestImageAtMost(1080, 1350).url} alt=&quot;*&quot; /&gt;
+          &lt;img key={next.data.title} style={imgNextStyle} className=&quot;image-fit&quot; src={next.getLargestImageAtMost(1080, 1350).url} alt=&quot;*&quot; /&gt;
+          &lt;img key={prev.data.title} style={imgPrevStyle} className=&quot;image-fit&quot; src={prev.getLargestImageAtMost(1080, 1350).url} alt=&quot;*&quot; /&gt;
+        &lt;/Swipeable&gt;
+        {showInfo
+          ? (
+            &lt;div style={{
+              position: &apos;absolute&apos;, bottom: 0, width: &apos;100%&apos;, backgroundColor: fade(theme.palette.background.default, 0.4),
+            }}
+            &gt;
+              &lt;ul style={{ margin: `${theme.spacing.unit}px ${theme.spacing.unit * 5}px`, padding: &apos;0 0 0 1.5em&apos; }}&gt;{this.createNotesElement(main)}&lt;/ul&gt;
+            &lt;/div&gt;
+          )
+          : null}
+        {DetailView.renderFloatingIcon(&lt;NavigationChevronLeft /&gt;, false, true, this.movePrev)}
+        {DetailView.renderFloatingIcon(&lt;NavigationChevronRight /&gt;, false, false, this.moveNext)}
+        {showInfo ? null : DetailView.renderFloatingIcon(&lt;NavigationArrowBack /&gt;, true, true, this.closeDetailView)}
+        {showInfo ? null : DetailView.renderFloatingIcon(&lt;NavigationFullscreenExit /&gt;, true, false, this.toggleInfo)}
+      &lt;/React.Fragment&gt;
+    );
+  }
+
+  render() {
+    const { index, theme } = this.props;
+    const isOpen = index &gt;= 0;
+    return (
+      &lt;Dialog open={isOpen} fullScreen onClose={this.closeDetailView} TransitionComponent={Transition} PaperProps={{ style: { overflow: &apos;hidden&apos;, backgroundColor: fade(theme.palette.background.paper, 0.8) } }}&gt;
+        {isOpen ? this.renderContent() : null}
+      &lt;/Dialog&gt;
+    );
+  }
+}
+DetailView.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  theme: PropTypes.object.isRequired,
+  chara: PropTypes.string.isRequired,
+  photos: PropTypes.arrayOf(PropTypes.instanceOf(Photo)),
+  index: PropTypes.number,
+};
+DetailView.defaultProps = {
+  photos: [],
+  index: -1,
+};
+export default withTheme()(DetailView);
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
