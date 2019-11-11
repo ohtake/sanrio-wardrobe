@@ -88,7 +88,7 @@ export class FlickrSrcsetProvider {
   }
 }
 
-const picasaSizes = flickrSizes.filter(s => !s.square).filter(s => s.longest).map(s => s.longest);
+const picasaSizes = flickrSizes.filter((s) => !s.square).filter((s) => s.longest).map((s) => s.longest);
 /**
  * It provides srcset for Picasa images.
  *
@@ -119,7 +119,7 @@ export class PicasaSrcsetProvider {
   static getImages(photo) {
     const maxO = Math.max(photo.data.size.width_o, photo.data.size.height_o);
     const imgsP = photo.data.images_picasa;
-    const indexExceeding = picasaSizes.findIndex(size => size >= maxO);
+    const indexExceeding = picasaSizes.findIndex((size) => size >= maxO);
     const sizesLength = indexExceeding !== -1 ? indexExceeding + 1 : picasaSizes.length;
     const sizes = take(picasaSizes, sizesLength);
     return sizes.map((size) => {

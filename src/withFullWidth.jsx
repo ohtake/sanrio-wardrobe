@@ -55,6 +55,7 @@ export default function withFullWidth(Component, propNameForWidth = 'width') {
         [propNameForWidth]: containerWidth,
       };
       const { forwardedRef, ...rest } = this.props;
+      // eslint-disable-next-line react/jsx-props-no-spreading
       return <div ref={this.refContainer}><Component ref={forwardedRef} {...rest} {...widthProp} /></div>;
     }
   }
@@ -65,5 +66,6 @@ export default function withFullWidth(Component, propNameForWidth = 'width') {
     forwardedRef: null,
   };
   FullWidthComponent.displayName = `withFullWidth(${Component.displayName || Component.name || 'Component'})`;
+  // eslint-disable-next-line react/jsx-props-no-spreading
   return React.forwardRef((props, ref) => <FullWidthComponent {...props} forwardedRef={ref} />);
 }

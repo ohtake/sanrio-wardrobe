@@ -57,7 +57,7 @@ class Gallery extends React.Component {
   render() {
     const { thumbnailSize } = this.context;
     const { photos } = this.props;
-    return <JustifiedLayoutFull targetRowHeight={thumbnailSize} childObjects={photos} mapperToElement={this.photoToElement} mapperToAspectRatio={p => p.getAspectRatio()} />;
+    return <JustifiedLayoutFull targetRowHeight={thumbnailSize} childObjects={photos} mapperToElement={this.photoToElement} mapperToAspectRatio={(p) => p.getAspectRatio()} />;
   }
 }
 Gallery.propTypes = {

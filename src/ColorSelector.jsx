@@ -84,13 +84,13 @@ class ColorSelector extends React.Component {
     const { enabled, actives } = this.state;
     const { colors } = this.props;
     if (!enabled) return [];
-    return colors.filter(c => actives[c.id]).map(c => c.id);
+    return colors.filter((c) => actives[c.id]).map((c) => c.id);
   }
 
   /** @returns {boolean} */
   isFilterEnabled() {
     const { enabled, actives } = this.state;
-    return enabled && Object.values(actives).findIndex(v => v) >= 0;
+    return enabled && Object.values(actives).findIndex((v) => v) >= 0;
   }
 
   /**
@@ -101,7 +101,7 @@ class ColorSelector extends React.Component {
     const { colors } = this.props;
     return (
       <React.Fragment>
-        {colors.map(c => (
+        {colors.map((c) => (
           <Button key={c.name} onClick={this.toggle} data={c.id} style={this.styleColor(c)}>{c.name}</Button>
         ))}
         <Button key="clear" onClick={this.clear} data="" style={styleBase} disabled={!this.isFilterEnabled()}>CLEAR</Button>
@@ -134,7 +134,7 @@ ColorSelector.defaultProps = {
   onChanged: null,
 };
 
-export default withStyles(theme => ({
+export default withStyles((theme) => ({
   leftIcon: {
     marginRight: theme.spacing.unit,
   },

@@ -40,8 +40,8 @@ class SearchParams {
    * @returns {boolean}
    */
   match(photo) {
-    if (!this.regexps.every(re => photo.match(re))) return false;
-    if (!this.colorIds.every(c => photo.data.colors.indexOf(c) >= 0)) return false;
+    if (!this.regexps.every((re) => photo.match(re))) return false;
+    if (!this.colorIds.every((c) => photo.data.colors.indexOf(c) >= 0)) return false;
     return true;
   }
 }
@@ -120,7 +120,7 @@ export default class Character extends React.Component {
     const { photos, chara } = this.state;
     if (title) {
       if (photos) {
-        const index = photos.findIndex(p => title === p.data.title);
+        const index = photos.findIndex((p) => title === p.data.title);
         if (index >= 0) {
           this.setState({ index });
         } else {
@@ -140,7 +140,7 @@ export default class Character extends React.Component {
         this.setState({ photos: allPhotos });
       }
     } else {
-      const filtered = allPhotos.filter(p => this.searchParams.match(p));
+      const filtered = allPhotos.filter((p) => this.searchParams.match(p));
       if (!isEqual(filtered, photos)) {
         this.setState({ photos: filtered });
       }
@@ -159,9 +159,9 @@ export default class Character extends React.Component {
 
   handleSearchTextChanged() {
     const text = this.refText.current.value;
-    const terms = text.split(/[ \u3000]/).filter(t => t.length > 0); // U+3000 = full width space
-    const termsEscaped = terms.map(t => t.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'));
-    const res = termsEscaped.map(te => new RegExp(te, 'i'));
+    const terms = text.split(/[ \u3000]/).filter((t) => t.length > 0); // U+3000 = full width space
+    const termsEscaped = terms.map((t) => t.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'));
+    const res = termsEscaped.map((te) => new RegExp(te, 'i'));
     this.searchParams.regexps = res;
     this.execSearch();
   }

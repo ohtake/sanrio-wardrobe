@@ -29,7 +29,7 @@ function renderCell(content, propsForCell = {}) {
   const { style } = propsForCell;
   const cellStyle = clone(style) || {};
   cellStyle.padding = 4;
-  return <TableCell {...propsForCell} style={cellStyle}>{content}</TableCell>;
+  return <TableCell numeric={propsForCell.numeric} style={cellStyle}>{content}</TableCell>;
 }
 
 class Statistics extends React.Component {
@@ -78,7 +78,7 @@ class Statistics extends React.Component {
       if (countDiff !== 0) return countDiff;
       return x[0].localeCompare(y[0]);
     });
-    const totalCount = sum(sortedNameCountPairs.map(p => p[1]));
+    const totalCount = sum(sortedNameCountPairs.map((p) => p[1]));
     return (
       <React.Fragment>
         <p>{`${DataFile.all.length} characters, ${totalCount} photos`}</p>
@@ -116,7 +116,7 @@ class Statistics extends React.Component {
   renderColor() {
     const { classes } = this.props;
     const { statistics } = this.state;
-    const totalCount = sum(DataFile.all.map(df => sum(Colors.all.map(c => statistics.color[df.name][c.id]))));
+    const totalCount = sum(DataFile.all.map((df) => sum(Colors.all.map((c) => statistics.color[df.name][c.id]))));
     return (
       <React.Fragment>
         <p>{`${totalCount} colors`}</p>
@@ -125,14 +125,14 @@ class Statistics extends React.Component {
             <TableHead>
               <TableRow>
                 {renderCell('Character')}
-                {Colors.all.map(c => renderCell(c.name, { style: { color: 'black', backgroundColor: c.light } }))}
+                {Colors.all.map((c) => renderCell(c.name, { style: { color: 'black', backgroundColor: c.light } }))}
               </TableRow>
             </TableHead>
             <TableBody>
-              {DataFile.all.map(df => (
+              {DataFile.all.map((df) => (
                 <TableRow hover>
                   {this.renderAvatarCell(df, 'statColor')}
-                  {Colors.all.map(c => renderCell(statistics.color[df.name][c.id], { numeric: true, style: { color: 'black', backgroundColor: c.light } }))}
+                  {Colors.all.map((c) => renderCell(statistics.color[df.name][c.id], { numeric: true, style: { color: 'black', backgroundColor: c.light } }))}
                 </TableRow>
               ))}
             </TableBody>
@@ -162,7 +162,7 @@ class Statistics extends React.Component {
               </TableRow>
             </TableHead>
             <TableBody>
-              {sortedAuthor.map(a => (
+              {sortedAuthor.map((a) => (
                 <TableRow hover>
                   {renderCell(a[0])}
                   {renderCell(a[1], { numeric: true })}

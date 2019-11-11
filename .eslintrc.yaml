@@ -3,9 +3,11 @@ root: true
 extends:
   - airbnb
 rules:
+  max-classes-per-file: off
   max-len: off
   valid-jsdoc:
     - warn
     -
       requireParamDescription: false
       requireReturnDescription: false
+  react/jsx-fragments: off # Compatibility for esdoc

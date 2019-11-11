@@ -38,6 +38,7 @@ import * as utils from './utils';
 const swipingRatioThreshold = 0.3;
 
 function Transition(props) {
+  // eslint-disable-next-line react/jsx-props-no-spreading
   return <Slide direction="left" {...props} />;
 }
 
@@ -187,7 +188,7 @@ class DetailView extends React.Component {
               })}
             </li>
           ) : null }
-        {photo.data.notes.map(n => <li>{n}</li>)}
+        {photo.data.notes.map((n) => <li>{n}</li>)}
       </React.Fragment>
     );
   }

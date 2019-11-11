@@ -122,7 +122,7 @@ Home.contextTypes = {
   thumbnailSize: PropTypes.number,
 };
 
-export default withStyles(theme => ({
+export default withStyles((theme) => ({
   symbol: {
     position: 'absolute',
     top: 0,
