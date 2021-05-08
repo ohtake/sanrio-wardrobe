@@ -13,7 +13,7 @@
     "css-element-queries": "^1.2.1",
     "history": "^4.10.1",
     "justified-layout": "^3.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "object-fit-images": "^3.2.4",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
