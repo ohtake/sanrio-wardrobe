@@ -164,10 +164,10 @@ class App extends React.Component {
     );
   }
 
-  renderNavLink(to, icon, text, gaLabel) {
+  renderNavLink(to, icon, text) {
     const { classes } = this.props;
     return (
-      <ListItem button component={NavLink} to={to} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink} data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="appMenu" data-ga-event-label={gaLabel}>
+      <ListItem button component={NavLink} to={to} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink}>
         <ListItemIcon>{icon}</ListItemIcon>
         <ListItemText>{text}</ListItemText>
       </ListItem>
@@ -178,7 +178,7 @@ class App extends React.Component {
     const { classes } = this.props;
     const avatar = chara.picUrl ? <Avatar src={chara.picUrl} /> : <Avatar>{chara.seriesSymbol}</Avatar>;
     return (
-      <ListItem button component={NavLink} to={`/chara/${chara.name}`} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action="appMenu" data-ga-event-label={chara.name}>
+      <ListItem button component={NavLink} to={`/chara/${chara.name}`} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink}>
         <ListItemAvatar>{avatar}</ListItemAvatar>
         <ListItemText>{chara.getDisplayName()}</ListItemText>
       </ListItem>
@@ -199,8 +199,8 @@ class App extends React.Component {
           </Toolbar>
           <Divider />
           <List>
-            {this.renderNavLink('/', <ActionHome />, 'Home', 'home')}
-            {this.renderNavLink('/statistics', <EditorShowChart />, 'Statistics', 'statistics')}
+            {this.renderNavLink('/', <ActionHome />, 'Home')}
+            {this.renderNavLink('/statistics', <EditorShowChart />, 'Statistics')}
           </List>
           <Divider />
           <List subheader={<ListSubheader>Characters</ListSubheader>}>

@@ -32,7 +32,7 @@ class Home extends React.Component {
       </Avatar>
     );
     return (
-      <RouterLink key={c.name} to={`/chara/${c.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventAction} data-ga-event-label={c.name}>
+      <RouterLink key={c.name} to={`/chara/${c.name}`}>
         {image}
         <div className={classes.symbol}>{c.seriesSymbol}</div>
         <div className={classes.titleOuter}>
@@ -70,7 +70,7 @@ class Home extends React.Component {
           </a>
         </div>
         <p>Unofficial listings of Sanrio character costumes</p>
-        <Button component={RouterLink} to="/statistics" data-ga-on="click" data-ga-event-category="navigation" data-ga-event-action="homeTile" data-ga-event-label="statistics">
+        <Button component={RouterLink} to="/statistics">
           <EditorShowChart />
           Statistics
         </Button>

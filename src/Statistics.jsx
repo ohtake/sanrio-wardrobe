@@ -58,10 +58,10 @@ class Statistics extends React.Component {
     this.setState({ tabIndex: value });
   }
 
-  renderAvatarCell(df, gaEventName) {
+  renderAvatarCell(df) {
     const { classes } = this.props;
     return renderCell(
-      <Button size="small" component={RouterLink} to={`/chara/${df.name}`} data-ga-on="click" data-ga-event-category="chara" data-ga-event-action={gaEventName} data-ga-event-label={df.name} className={classes.charaButton}>
+      <Button size="small" component={RouterLink} to={`/chara/${df.name}`}>
         {df.picUrl ? <Avatar src={df.picUrl} className={classes.avatar} /> : (
           <Avatar className={classes.avatar}>{df.seriesSymbol}</Avatar>
         )}
@@ -98,7 +98,7 @@ class Statistics extends React.Component {
                 const df = DataFile.findByName(p[0]);
                 return (
                   <TableRow hover>
-                    {this.renderAvatarCell(df, 'statCount')}
+                    {this.renderAvatarCell(df)}
                     {renderCell(statistics.count[df.name], { numeric: true })}
                     {renderCell(df.seriesSymbol)}
                     {renderCell(df.nameJa)}
@@ -131,7 +131,7 @@ class Statistics extends React.Component {
             <TableBody>
               {DataFile.all.map((df) => (
                 <TableRow hover>
-                  {this.renderAvatarCell(df, 'statColor')}
+                  {this.renderAvatarCell(df)}
                   {Colors.all.map((c) => renderCell(statistics.color[df.name][c.id], { numeric: true, style: { color: 'black', backgroundColor: c.light } }))}
                 </TableRow>
               ))}

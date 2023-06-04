@@ -42,7 +42,7 @@ class Gallery extends React.Component {
     const placeholderBackground = (p.data.colors.length > 0) ? fade(Colors.findById(p.data.colors[0]).value, 0.4) : theme.palette.background.paper;
     return (
       <div key={p.data.title} style={{ backgroundColor: placeholderBackground }}>
-        <RouterLink to={`/chara/${chara}/${window.encodeURIComponent(p.data.title)}`} data-ga-on="click" data-ga-event-category="lightbox" data-ga-event-action="open" data-ga-event-label={`${chara} ${p.data.title}`}>
+        <RouterLink to={`/chara/${chara}/${window.encodeURIComponent(p.data.title)}`}>
           <div style={styleTitleOuter}>
             <div style={styleTitleInner} title={p.data.title}>{p.data.title}</div>
           </div>
