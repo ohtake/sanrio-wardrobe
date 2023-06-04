@@ -49,7 +49,7 @@
     "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-loader": "^3.0.2",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-ava": "^9.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
@@ -69,9 +69,9 @@
     "serve-static": "^1.14.1",
     "sinon": "^7.5.0",
     "source-map-explorer": "^2.1.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.2",
+    "webpack-dev-server": "^4.15.0",
     "yaml-loader": "^0.5.0"
   },
   "ava": {
@@ -92,13 +92,13 @@
     "cover": "cross-env NODE_ENV=test nyc ---extension .jsx --reporter lcov --reporter text npm run test",
     "watch:ava": "yarn run test:ava -- --watch",
     "build": "cross-env NODE_ENV=production npm-run-all -l -p build:app build:esdoc build:statistics -p build:licenses build:sme",
-    "build:app": "webpack --mode production --progress --colors --config webpack.config.babel.js",
+    "build:app": "webpack --mode production --progress  --config webpack.config.babel.mjs",
     "build:esdoc": "esdoc -c esdoc.json",
     "build:licenses": "yarn licenses generate-disclaimer --prod > assets/licenses.txt",
     "build:sme": "source-map-explorer assets/bundle.js assets/bundle.js.map --html > assets/sme.html",
     "build:statistics": "babel-node ./scripts/build-statistics.js",
     "start": "run-p -l build:statistics start:devserver",
-    "start:devserver": "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --colors --config webpack.config.babel.js",
+    "start:devserver": "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --config webpack.config.babel.mjs",
     "server": "cross-env NODE_ENV=production babel-node ./scripts/server.js"
   }
 }
