@@ -1,0 +1,62 @@
+[
+	{
+		"title": "標準",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/11267934446/"
+		},
+		"images_flickr": {
+			"photo": "11267934446",
+			"farm": 4,
+			"server": 3717,
+			"secret": "d7fae3d1ac",
+			"secret_h": "7e8da2ea13",
+			"secret_k": "99fe2eb1dc",
+			"secret_o": "abcdfa1ec2",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"green",
+			"red",
+			"white",
+			"grey",
+			"brown",
+			"black"
+		],
+		"notes": []
+	},
+	{
+		"title": "ボートライドスタッフ",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/12146304723/"
+		},
+		"images_flickr": {
+			"photo": "12146304723",
+			"farm": 3,
+			"server": 2842,
+			"secret": "ab1a7c25ef",
+			"secret_h": "f2b35769b4",
+			"secret_k": "141da97b56",
+			"secret_o": "8ac9f2bdf8",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"white",
+			"brown",
+			"blue",
+			"red"
+		],
+		"notes": []
+	}
+]

@@ -1,0 +1,217 @@
+[
+	{
+		"title": "ピューロ標準",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/10495737916/"
+		},
+		"images_flickr": {
+			"photo": "10495737916",
+			"farm": 4,
+			"server": 3721,
+			"secret": "6fe4060d36",
+			"secret_h": "1ea3339336",
+			"secret_k": "3fc9ac4177",
+			"secret_o": "acc056ec16",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"white",
+			"pink",
+			"red",
+			"brown"
+		],
+		"notes": []
+	},
+	{
+		"title": "ケープ",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://picasaweb.google.com/lh/photo/dySk4TMkVndgw64WDVPPS9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"
+		},
+		"images_picasa": {
+			"lh": 5,
+			"dirs": "-Qvfm7xdVE4o/URj3WQVPfkI/AAAAAAAAJyQ/SJEoQkGSoSg",
+			"file": "5D3C7170%2520%2528960x1440%2529.jpg"
+		},
+		"size": {
+			"width_o": 960,
+			"height_o": 1440
+		},
+		"colors": [
+			"white",
+			"pink",
+			"red",
+			"brown",
+			"silver"
+		],
+		"notes": []
+	},
+	{
+		"title": "雨合羽",
+		"source": {
+			"author": "のぶお",
+			"license": "",
+			"url": "https://www.flickr.com/photos/113011809@N08/16006291598/"
+		},
+		"images_flickr": {
+			"photo": "16006291598",
+			"farm": 8,
+			"server": 7571,
+			"secret": "3bbb88f6e9",
+			"secret_h": "22c26314b4",
+			"secret_k": "e1d55d4e7b",
+			"secret_o": "74fcfa5634",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3456,
+			"height_o": 5184
+		},
+		"colors": [
+			"pink",
+			"green",
+			"yellow",
+			"blue",
+			"orange",
+			"red",
+			"brown"
+		],
+		"notes": []
+	},
+	{
+		"title": "コスミックファンタジー",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/9332063690/"
+		},
+		"images_flickr": {
+			"photo": "9332063690",
+			"farm": 6,
+			"server": 5503,
+			"secret": "264175c859",
+			"secret_h": "578940981a",
+			"secret_k": "2250bdb38c",
+			"secret_o": "903736c823",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"orange",
+			"green",
+			"yellow",
+			"white",
+			"pink",
+			"red",
+			"gold"
+		],
+		"notes": [
+			"ピューロランドパレード『コズミックファンタジー』"
+		]
+	},
+	{
+		"title": "リリーボンボンズ",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/13666254755/"
+		},
+		"images_flickr": {
+			"photo": "13666254755",
+			"farm": 4,
+			"server": 3824,
+			"secret": "b012da10d1",
+			"secret_h": "638e293af0",
+			"secret_k": "b0cacf8764",
+			"secret_o": "155de55f77",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"orange",
+			"green",
+			"yellow",
+			"white",
+			"pink",
+			"red",
+			"gold"
+		],
+		"notes": [
+			"ピューロランドパレード『リリーボンボンズのマーチングパレード』"
+		]
+	},
+	{
+		"title": "ILLUMINANT",
+		"source": {
+			"author": "Steve",
+			"license": "",
+			"url": "https://www.flickr.com/photos/japan-life/447117736/"
+		},
+		"images_flickr": {
+			"photo": "447117736",
+			"farm": 1,
+			"server": 180,
+			"secret": "66dc08c079",
+			"before": "20120301"
+		},
+		"size": {
+			"width_o": 682,
+			"height_o": 1024
+		},
+		"colors": [
+			"silver",
+			"gold",
+			"pink",
+			"blue",
+			"yellow"
+		],
+		"notes": [
+			"ピューロランドパレード『ILLUMINANT』"
+		]
+	},
+	{
+		"title": "バーニーズ",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/16171682075/"
+		},
+		"images_flickr": {
+			"photo": "16171682075",
+			"farm": 8,
+			"server": 7553,
+			"secret": "6861802128",
+			"secret_h": "81178b4668",
+			"secret_k": "15e9ae7e42",
+			"secret_o": "59471632ba",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"blue",
+			"white",
+			"red",
+			"pink",
+			"brown"
+		],
+		"notes": [
+			"『夜を楽しまナイト!』バーニーズ"
+		]
+	}
+]

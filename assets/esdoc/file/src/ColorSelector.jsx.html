@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/ColorSelector.jsx | sanrio-wardrobe</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Character.jsx~Character.html">Character</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/colors.js~ColorData.html">ColorData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/data_file.js~DataFile.html">DataFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/photo.js~Photo.html">Photo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~FlickrSrcsetProvider.html">FlickrSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~Instagram2SrcsetProvider.html">Instagram2SrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~InstagramSrcsetProvider.html">InstagramSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~PicasaSrcsetProvider.html">PicasaSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-JustifiedLayout">JustifiedLayout</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyThemeToBody">applyThemeToBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRouterHistory">getRouterHistory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-openFeedback">openFeedback</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendGoogleAnalyticsEvent">sendGoogleAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-withFullWidth">withFullWidth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RepresentiveColors">RepresentiveColors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeDarkV1">themeDarkV1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeLightV1">themeLightV1</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/ColorSelector.jsx</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &apos;react&apos;;
+import PropTypes from &apos;prop-types&apos;;
+
+import Button from &apos;@material-ui/core/Button&apos;;
+import { withStyles } from &apos;@material-ui/core/styles&apos;;
+
+import ContentFilterList from &apos;@material-ui/icons/FilterList&apos;;
+
+import clone from &apos;lodash/clone&apos;;
+
+import Colors, { ColorData } from &apos;./colors&apos;;
+
+const styleBase = {
+  margin: &apos;0.2em 0&apos;,
+  padding: &apos;0.2em 0.5em&apos;,
+  borderWidth: &apos;0 0 0.25em&apos;,
+  minWidth: 0,
+  textTransform: &apos;none&apos;,
+};
+
+class ColorSelector extends React.Component {
+  constructor() {
+    super();
+    this.state = { enabled: false, actives: {} };
+
+    this.start = this.start.bind(this);
+    this.toggle = this.toggle.bind(this);
+    this.clear = this.clear.bind(this);
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    const { enabled, actives } = this.state;
+    const { onChanged } = this.props;
+    if (prevState.enabled !== enabled || prevState.actives !== actives) {
+      if (onChanged) onChanged(this);
+    }
+  }
+
+  /**
+   * @param {ColorItem} c
+   * @returns {object}
+   */
+  styleColor(c) {
+    const { actives } = this.state;
+    const isActive = actives[c.id];
+    const style = clone(styleBase);
+    if (isActive) style.color = &apos;black&apos;;
+    style.borderStyle = &apos;solid&apos;;
+    style.borderColor = isActive ? c.dark : c.light;
+    if (isActive) style.backgroundColor = c.light;
+    return style;
+  }
+
+  /** @returns {void} */
+  start() {
+    const { enabled } = this.state;
+    this.setState({ enabled: !enabled });
+  }
+
+  /**
+   * @param {object} e Event args
+   * @returns {void}
+   */
+  toggle(e) {
+    e.preventDefault();
+    const { actives } = this.state;
+    const id = e.currentTarget.getAttribute(&apos;data&apos;);
+    const newActives = clone(actives);
+    newActives[id] = !actives[id];
+    this.setState({ actives: newActives });
+  }
+
+  /**
+   * @param {?object} e Event args
+   * @returns {void}
+   */
+  clear(e) {
+    if (e) e.preventDefault();
+    this.setState({ actives: {} });
+  }
+
+  /** @returns {string[]} */
+  listActiveIds() {
+    const { enabled, actives } = this.state;
+    const { colors } = this.props;
+    if (!enabled) return [];
+    return colors.filter((c) =&gt; actives[c.id]).map((c) =&gt; c.id);
+  }
+
+  /** @returns {boolean} */
+  isFilterEnabled() {
+    const { enabled, actives } = this.state;
+    return enabled &amp;&amp; Object.values(actives).findIndex((v) =&gt; v) &gt;= 0;
+  }
+
+  /**
+   * @private
+   * @returns {React.Node}
+   */
+  listButtons() {
+    const { colors } = this.props;
+    return (
+      &lt;React.Fragment&gt;
+        {colors.map((c) =&gt; (
+          &lt;Button key={c.name} onClick={this.toggle} data={c.id} style={this.styleColor(c)}&gt;{c.name}&lt;/Button&gt;
+        ))}
+        &lt;Button key=&quot;clear&quot; onClick={this.clear} data=&quot;&quot; style={styleBase} disabled={!this.isFilterEnabled()}&gt;CLEAR&lt;/Button&gt;
+      &lt;/React.Fragment&gt;
+    );
+  }
+
+  render() {
+    const { classes } = this.props;
+    const { enabled } = this.state;
+    return (
+      &lt;div&gt;
+        &lt;Button style={styleBase} onClick={this.start}&gt;
+          &lt;ContentFilterList className={classes.leftIcon} /&gt;
+          Color filter
+        &lt;/Button&gt;
+        {enabled ? this.listButtons() : null}
+      &lt;/div&gt;
+    );
+  }
+}
+ColorSelector.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  classes: PropTypes.object.isRequired,
+  colors: PropTypes.arrayOf(PropTypes.instanceOf(ColorData)),
+  onChanged: PropTypes.func,
+};
+ColorSelector.defaultProps = {
+  colors: Colors.all,
+  onChanged: null,
+};
+
+export default withStyles((theme) =&gt; ({
+  leftIcon: {
+    marginRight: theme.spacing.unit,
+  },
+}))(ColorSelector);
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

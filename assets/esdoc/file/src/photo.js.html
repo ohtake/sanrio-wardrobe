@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/photo.js | sanrio-wardrobe</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Character.jsx~Character.html">Character</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/colors.js~ColorData.html">ColorData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/data_file.js~DataFile.html">DataFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/photo.js~Photo.html">Photo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~FlickrSrcsetProvider.html">FlickrSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~Instagram2SrcsetProvider.html">Instagram2SrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~InstagramSrcsetProvider.html">InstagramSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~PicasaSrcsetProvider.html">PicasaSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-JustifiedLayout">JustifiedLayout</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyThemeToBody">applyThemeToBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRouterHistory">getRouterHistory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-openFeedback">openFeedback</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendGoogleAnalyticsEvent">sendGoogleAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-withFullWidth">withFullWidth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RepresentiveColors">RepresentiveColors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeDarkV1">themeDarkV1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeLightV1">themeLightV1</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/photo.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import findLast from &apos;lodash/findLast&apos;;
+
+import {
+  FlickrSrcsetProvider, PicasaSrcsetProvider, InstagramSrcsetProvider, Instagram2SrcsetProvider,
+} from &apos;./srcset_providers&apos;;
+
+export default class Photo {
+  /**
+   * @param {object} data An element of data array.
+   */
+  constructor(data) {
+    this.data = data;
+  }
+
+  /**
+   * @param {string} file filename to load. e.g. kt-kitty
+   * @returns {Promise.&lt;Photo[]&gt;} array of photos
+   */
+  static async loadPhotos(file) {
+    /* eslint-disable global-require, import/no-dynamic-require */
+    const actualFilename = require(`file-loader?name=[name].json!./../data/${file}.yaml`);
+    /* eslint-enable */
+
+    const res = await window.fetch(actualFilename);
+    if (!res.ok) {
+      throw new Error(`${res.statusText}: ${res.url}`);
+    }
+    const arr = await res.json();
+    return arr.map((obj) =&gt; new Photo(obj));
+  }
+
+  /**
+   * @returns {array.&lt;{url: string, width: number, height: number, max: number}&gt;}
+   */
+  getSrcsetModel() {
+    let images;
+    if (this.data.images) {
+      images = this.data.images.map((i) =&gt; this.prepareSize(i));
+    } else if (this.data.images_flickr) {
+      images = FlickrSrcsetProvider.getImages(this).map((i) =&gt; this.prepareSize(i));
+    } else if (this.data.images_picasa) {
+      images = PicasaSrcsetProvider.getImages(this).map((i) =&gt; this.prepareSize(i));
+    } else if (this.data.images_instagram2) {
+      images = Instagram2SrcsetProvider.getImages(this).map((i) =&gt; this.prepareSize(i));
+    } else if (this.data.images_instagram) {
+      images = InstagramSrcsetProvider.getImages(this).map((i) =&gt; this.prepareSize(i));
+    } else {
+      throw new Error(&apos;images not specified&apos;);
+    }
+    return images;
+  }
+
+  /**
+   * @param {number} upperWidth
+   * @param {number} upperHeight
+   * @returns {{url: string, width: number, height: number, max: number}}
+   */
+  getLargestImageAtMost(upperWidth, upperHeight) {
+    const images = this.getSrcsetModel().slice(0);
+    images.sort((a, b) =&gt; a.max - b.max);
+    const largest = findLast(images, (img) =&gt; img.width &lt;= upperWidth &amp;&amp; img.height &lt;= upperHeight);
+    if (largest) return largest;
+    // Nothing matches. Return smallest one.
+    return images[0];
+  }
+
+  /**
+   * @param {{url: string, width: ?number, height: ?number, max: ?number}} image
+   * @returns {{url: string, width: number, height: number, max: number}}
+   */
+  prepareSize(image) {
+    const ret = { url: image.url };
+    ret.width = this.calcWidthOrHeight(image, true);
+    ret.height = this.calcWidthOrHeight(image, false);
+    ret.max = Math.max(ret.width, ret.height);
+    return ret;
+  }
+
+  /**
+   * @param {{url: string, width: ?number, height: ?number, max: ?number}} image
+   * @param {boolean} isWidth
+   * @returns {number}
+   */
+  calcWidthOrHeight(image, isWidth) {
+    const wanted = isWidth ? &apos;width&apos; : &apos;height&apos;;
+    if (image[wanted]) return image[wanted];
+    const other = isWidth ? &apos;height&apos; : &apos;width&apos;;
+    const ratio = isWidth ? this.getAspectRatio() : 1 / this.getAspectRatio();
+    if (image[other]) return Math.round(image[other] * ratio);
+    if (image.max) {
+      if (ratio &gt;= 1) return image.max;
+      return Math.round(image.max * ratio);
+    }
+    throw new Error(&apos;Cannot calc image width/height&apos;);
+  }
+
+  /**
+   * @returns {string}
+   */
+  getSrcSet() {
+    return this.getSrcsetModel().map((i) =&gt; `${i.url} ${i.width}w`).join(&apos;, &apos;);
+  }
+
+  /**
+   * @returns {number}
+   */
+  getAspectRatio() {
+    return this.data.size.width_o / this.data.size.height_o;
+  }
+
+  /**
+   * @param {RegExp} re
+   * @returns {boolean}
+   */
+  match(re) {
+    if (this.data.title.match(re)) return true;
+    if (this.data.source.author.match(re)) return true;
+    if (this.data.notes.find((note) =&gt; note.match(re))) return true;
+    return false;
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

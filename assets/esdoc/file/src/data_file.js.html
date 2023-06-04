@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/data_file.js | sanrio-wardrobe</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Character.jsx~Character.html">Character</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/colors.js~ColorData.html">ColorData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/data_file.js~DataFile.html">DataFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/photo.js~Photo.html">Photo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~FlickrSrcsetProvider.html">FlickrSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~Instagram2SrcsetProvider.html">Instagram2SrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~InstagramSrcsetProvider.html">InstagramSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~PicasaSrcsetProvider.html">PicasaSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-JustifiedLayout">JustifiedLayout</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyThemeToBody">applyThemeToBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRouterHistory">getRouterHistory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-openFeedback">openFeedback</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendGoogleAnalyticsEvent">sendGoogleAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-withFullWidth">withFullWidth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RepresentiveColors">RepresentiveColors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeDarkV1">themeDarkV1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeLightV1">themeLightV1</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/data_file.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default class DataFile {
+  /**
+   * @param {string} name File name of data File
+   * @param {string} seriesSymbol
+   * @param {string} nameJa
+   * @param {string} nameEn
+   * @param {string} picUrl URL of the image. Use Flickr&apos;s Square 150 format.
+   */
+  constructor(name, seriesSymbol, nameJa, nameEn, picUrl) {
+    this.name = name;
+    this.seriesSymbol = seriesSymbol;
+    this.nameJa = nameJa;
+    this.nameEn = nameEn;
+    this.picUrl = picUrl;
+  }
+
+  /**
+   * @returns {string}
+   */
+  getDisplayName() {
+    return `${this.seriesSymbol} ${this.nameJa} (${this.nameEn})`;
+  }
+}
+
+DataFile.all = [
+  DataFile.arRetsuko = new DataFile(
+    &apos;ar-retsuko&apos;, &apos;AR&apos;, &apos;&#x70C8;&#x5B50;&apos;, &apos;Aggretsuko&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/27566187616/
+    &apos;https://c2.staticflickr.com/8/7138/27566187616_3d205ce5f6_q.jpg&apos;,
+  ),
+  DataFile.azClara = new DataFile(
+    &apos;az-clara&apos;, &apos;AZ&apos;, &apos;&#x30AF;&#x30E9;&#x30E9;&apos;, &apos;Clara&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/15764814980/
+    &apos;https://c2.staticflickr.com/8/7499/15764814980_e84d364549_q.jpg&apos;,
+  ),
+  DataFile.azKyle = new DataFile(
+    &apos;az-kyle&apos;, &apos;AZ&apos;, &apos;&#x30AB;&#x30A4;&#x30EB;&apos;, &apos;Kyle&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/35873908813/
+    &apos;https://c1.staticflickr.com/5/4368/35873908813_78317ae374_q.jpg&apos;,
+  ),
+  DataFile.azDokidoki = new DataFile(
+    &apos;az-dokidoki&apos;, &apos;AZ&apos;, &apos;&#x30C9;&#x30AD;&#x30C9;&#x30AD;&#x30E4;&#x30DF;&#x30FC;&#x30C1;&#x30E3;&#x30E0;&#x30BA;&apos;, &apos;DokidokiYummychums&apos;,
+    &apos;&apos;,
+  ),
+  DataFile.azPinky = new DataFile(
+    &apos;az-pinky&apos;, &apos;AZ&apos;, &apos;&#x30D4;&#x30F3;&#x30AD;&#x30FC;&#x30FB;&#x30EA;&#x30EB;&#x30ED;&#x30FC;&#x30BA;&apos;, &apos;Pinky Lilrose&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/35156445182/
+    &apos;https://c1.staticflickr.com/5/4257/35156445182_1a476e0dd9_q.jpg&apos;,
+  ),
+  DataFile.azLio = new DataFile(
+    &apos;az-lio&apos;, &apos;AZ&apos;, &apos;&#x30EA;&#x30AA;&#x30FB;&#x30B9;&#x30AB;&#x30A4;&#x30D4;&#x30FC;&#x30B9;&apos;, &apos;Lio Skypeace&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/35283176916/
+    &apos;https://c1.staticflickr.com/5/4246/35283176916_72406f1d31_q.jpg&apos;,
+  ),
+  DataFile.bnButtonNose = new DataFile(
+    &apos;bn-button_nose&apos;, &apos;BN&apos;, &apos;&#x30C8;&#x30EA;&#x30B7;&#x30E5;&apos;, &apos;Button Nose&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9471261149/
+    &apos;https://c2.staticflickr.com/4/3743/9471261149_df68d034d2_q.jpg&apos;,
+  ),
+  DataFile.boRibbon = new DataFile(
+    &apos;bo-ribbon&apos;, &apos;BO&apos;, &apos;&#x308A;&#x307C;&#x3093;&apos;, &apos;Bonbonribbon&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/26615555253/
+    &apos;https://c2.staticflickr.com/8/7356/26615555253_f77c7410de_q.jpg&apos;,
+  ),
+  DataFile.boMimi = new DataFile(
+    &apos;bo-mimi&apos;, &apos;BO&apos;, &apos;&#x30DF;&#x30DF;&apos;, &apos;Milkeemimi&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/35379377232/
+    &apos;https://c1.staticflickr.com/5/4242/35379377232_7ec5af77e4_q.jpg&apos;,
+  ),
+  DataFile.boFlora = new DataFile(
+    &apos;bo-flora&apos;, &apos;BO&apos;, &apos;&#x30D5;&#x30ED;&#x30FC;&#x30E9;&apos;, &apos;Lalalafrola&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/16737597941/
+    &apos;https://c1.staticflickr.com/9/8594/16737597941_cbdee4a609_q.jpg&apos;,
+  ),
+  DataFile.boLulu = new DataFile(
+    &apos;bo-lulu&apos;, &apos;BO&apos;, &apos;&#x30EB;&#x30EB;&apos;, &apos;Roonroonlulu&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/28310489531/
+    &apos;https://c2.staticflickr.com/8/7755/28310489531_9cbb5a0199_q.jpg&apos;,
+  ),
+  DataFile.caAzuki = new DataFile(
+    &apos;ca-azuki&apos;, &apos;CA&apos;, &apos;&#x30A2;&#x30BA;&#x30AD;&apos;, &apos;Azuki&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/34737908083/
+    &apos;https://c1.staticflickr.com/5/4234/34737908083_a3978cc5d6_q.jpg&apos;,
+  ),
+  DataFile.ckKuririn = new DataFile(
+    &apos;ck-kuririn&apos;, &apos;CK&apos;, &apos;&#x30AF;&#x30EA;&#x30EA;&#x30F3;&apos;, &apos;Corocorokuririn&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/10495547335/
+    &apos;https://c2.staticflickr.com/4/3765/10495547335_f87ec7ebbc_q.jpg&apos;,
+  ),
+  DataFile.cnCinnamon = new DataFile(
+    &apos;cn-cinnamon&apos;, &apos;CN&apos;, &apos;&#x30B7;&#x30CA;&#x30E2;&#x30F3;&apos;, &apos;Cinnamon&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9544085163/
+    &apos;https://c1.staticflickr.com/3/2818/9544085163_5092625ee9_q.jpg&apos;,
+  ),
+  DataFile.coChococat = new DataFile(
+    &apos;co-chococat&apos;, &apos;CO&apos;, &apos;&#x30C1;&#x30E7;&#x30B3;&#x30AD;&#x30E3;&#x30C3;&#x30C8;&apos;, &apos;Chococat&apos;,
+    &apos;&apos;,
+  ),
+  DataFile.cyCharmmy = new DataFile(
+    &apos;cy-charmmy&apos;, &apos;CY&apos;, &apos;&#x30C1;&#x30E3;&#x30FC;&#x30DF;&#x30FC;&apos;, &apos;Charmmy Kitty&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/10671752346/
+    &apos;https://c2.staticflickr.com/8/7451/10671752346_15ebdc7e66_q.jpg&apos;,
+  ),
+  DataFile.cyHoneucute = new DataFile(
+    &apos;cy-honeycute&apos;, &apos;CY&apos;, &apos;&#x30CF;&#x30CB;&#x30FC;&#x30AD;&#x30E5;&#x30FC;&#x30C8;&apos;, &apos;Honeycute&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9899556945/
+    &apos;https://c1.staticflickr.com/3/2867/9899556945_9a52b72a12_q.jpg&apos;,
+  ),
+  DataFile.dgDarkGrapeMan = new DataFile(
+    &apos;dg-dark_grape_man&apos;, &apos;DG&apos;, &apos;&#x30C0;&#x30FC;&#x30AF;&#x30B0;&#x30EC;&#x30FC;&#x30D7;&#x30DE;&#x30F3;&apos;, &apos;Dark Grape Man&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9052039805/
+    &apos;https://c2.staticflickr.com/4/3797/9052039805_dc4eeb0c18_q.jpg&apos;,
+  ),
+  DataFile.dnDaniel = new DataFile(
+    &apos;dn-daniel&apos;, &apos;DN&apos;, &apos;&#x30C0;&#x30CB;&#x30A8;&#x30EB;&apos;, &apos;Daniel&apos;,
+    &apos;&apos;,
+  ),
+  DataFile.gpGochan = new DataFile(
+    &apos;gp-gochan&apos;, &apos;GP&apos;, &apos;&#x30B4;&#x30FC;&#x3061;&#x3083;&#x3093;&#x3002;&apos;, &apos;Go-chan.&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/8784705396/
+    &apos;https://c2.staticflickr.com/8/7401/8784705396_669ef592b3_q.jpg&apos;,
+  ),
+  DataFile.gpGochan = new DataFile(
+    &apos;gp-moffun&apos;, &apos;GP&apos;, &apos;&#x30E2;&#x30C3;&#x30D5;&#x30F3;&apos;, &apos;Moffy&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/33950392394/
+    &apos;https://c1.staticflickr.com/5/4276/33950392394_c422e36b05_q.jpg&apos;,
+  ),
+  DataFile.guGudetama = new DataFile(
+    &apos;gu-gudetama&apos;, &apos;GU&apos;, &apos;&#x3050;&#x3067;&#x305F;&#x307E;&apos;, &apos;Gudetama&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14834955654/
+    &apos;https://c2.staticflickr.com/6/5556/14834955654_c2887b9976_q.jpg&apos;,
+  ),
+  DataFile.hgHangyodon = new DataFile(
+    &apos;hg-hangyodon&apos;, &apos;HG&apos;, &apos;&#x30CF;&#x30F3;&#x30AE;&#x30E7;&#x30C9;&#x30F3;&apos;, &apos;Hangyodon&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9866207046/
+    &apos;https://c2.staticflickr.com/6/5487/9866207046_2f55befe93_q.jpg&apos;,
+  ),
+  DataFile.hmHoneyMomo = new DataFile(
+    &apos;hm-honey_momo&apos;, &apos;HM&apos;, &apos;&#x30CF;&#x30CB;&#x30FC;&#x30E2;&#x30E2;&apos;, &apos;Honey Momo&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9054267360/
+    &apos;https://c1.staticflickr.com/3/2815/9054267360_4293f933fa_q.jpg&apos;,
+  ),
+  DataFile.jlRuby = new DataFile(
+    &apos;jl-ruby&apos;, &apos;JL&apos;, &apos;&#x30EB;&#x30D3;&#x30FC;&apos;, &apos;Ruby&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/30901115623/
+    &apos;https://c1.staticflickr.com/1/756/30901115623_e7cf5c0feb_q.jpg&apos;,
+  ),
+  DataFile.jlSapphie = new DataFile(
+    &apos;jl-sapphie&apos;, &apos;JL&apos;, &apos;&#x30B5;&#x30D5;&#x30A3;&#x30FC;&apos;, &apos;Sapphie&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9949531066/
+    &apos;https://c2.staticflickr.com/6/5447/9949531066_f8208d0926_q.jpg&apos;,
+  ),
+  DataFile.jlGarnet = new DataFile(
+    &apos;jl-garnet&apos;, &apos;JL&apos;, &apos;&#x30AC;&#x30FC;&#x30CD;&#x30C3;&#x30C8;&apos;, &apos;Garnet&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14661129166/
+    &apos;https://c2.staticflickr.com/4/3898/14661129166_8fbb0740de_q.jpg&apos;,
+  ),
+  DataFile.jlLabra = new DataFile(
+    &apos;jl-labra&apos;, &apos;JL&apos;, &apos;&#x30E9;&#x30D6;&#x30E9;&apos;, &apos;Labra&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/11613918416/
+    &apos;https://c1.staticflickr.com/3/2823/11613918416_9f08436c62_q.jpg&apos;,
+  ),
+  DataFile.jlAngela = new DataFile(
+    &apos;jl-angela&apos;, &apos;JL&apos;, &apos;&#x30A8;&#x30F3;&#x30B8;&#x30A7;&#x30E9;&apos;, &apos;Angela&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9656279138/
+    &apos;https://c1.staticflickr.com/3/2864/9656279138_488a2fc3ea_q.jpg&apos;,
+  ),
+  DataFile.jlJasper = new DataFile(
+    &apos;jl-jasper&apos;, &apos;JL&apos;, &apos;&#x30B8;&#x30E3;&#x30B9;&#x30D1;&#x30FC;&apos;, &apos;Jasper&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/8783847357/
+    &apos;https://c2.staticflickr.com/4/3822/8783847357_3ac439a015_q.jpg&apos;,
+  ),
+  DataFile.jlCharotte = new DataFile(
+    &apos;jl-charotte&apos;, &apos;JL&apos;, &apos;&#x30C1;&#x30E3;&#x30ED;&#x30C3;&#x30C8;&apos;, &apos;Charotte&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/13899465871/
+    &apos;https://c1.staticflickr.com/3/2927/13899465871_44857c623f_q.jpg&apos;,
+  ),
+  DataFile.jlRosa = new DataFile(
+    &apos;jl-rosa&apos;, &apos;JL&apos;, &apos;&#x30ED;&#x30FC;&#x30B5;&apos;, &apos;Rosa&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/8784665190/
+    &apos;https://c2.staticflickr.com/8/7294/8784665190_9f00aa10ca_q.jpg&apos;,
+  ),
+  DataFile.jlLuea = new DataFile(
+    &apos;jl-luea&apos;, &apos;JL&apos;, &apos;&#x30EB;&#x30FC;&#x30A2;&apos;, &apos;Luea&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14834580258/
+    &apos;https://c2.staticflickr.com/6/5566/14834580258_1bae608a62_q.jpg&apos;,
+  ),
+  DataFile.jlLuna = new DataFile(
+    &apos;jl-luna&apos;, &apos;JL&apos;, &apos;&#x30EB;&#x30CA;&apos;, &apos;Luna&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/21704083916/
+    &apos;https://c1.staticflickr.com/1/755/21704083916_c4541ac66a_q.jpg&apos;,
+  ),
+  DataFile.jlLarimar = new DataFile(
+    &apos;jl-larimar&apos;, &apos;JL&apos;, &apos;&#x30E9;&#x30EA;&#x30DE;&#x30FC;&apos;, &apos;Larimar&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/27947731372/
+    &apos;https://c2.staticflickr.com/8/7478/27947731372_c2342408de_q.jpg&apos;,
+  ),
+  DataFile.kiKirimi = new DataFile(
+    &apos;ki-kirimi&apos;, &apos;KI&apos;, &apos;&#x304D;&#x308A;&#x307F;&#x3061;&#x3083;&#x3093;&apos;, &apos;Kirimi-chan&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/22245218264/
+    &apos;https://c2.staticflickr.com/6/5758/22245218264_3b78fd1f86_q.jpg&apos;,
+  ),
+  DataFile.kiSaba = new DataFile(
+    &apos;ki-saba&apos;, &apos;KI&apos;, &apos;&#x3055;&#x3070;&#x304F;&#x3093;&apos;, &apos;Saba-kun&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/16516747738/
+    &apos;https://c1.staticflickr.com/9/8581/16516747738_3b48875288_q.jpg&apos;,
+  ),
+  DataFile.kiSame = new DataFile(
+    &apos;ki-same&apos;, &apos;KI&apos;, &apos;&#x30B5;&#x30E1;&#x305B;&#x3093;&#x3071;&#x3044;&apos;, &apos;Same-senpai&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/21062320769/
+    &apos;https://c2.staticflickr.com/6/5628/21062320769_9cfaa521bd_q.jpg&apos;,
+  ),
+  DataFile.krKeroppi = new DataFile(
+    &apos;kr-keroppi&apos;, &apos;KR&apos;, &apos;&#x3051;&#x308D;&#x3063;&#x3074;&apos;, &apos;Keroppi&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9899607996/
+    &apos;https://c2.staticflickr.com/4/3665/9899607996_06ac4f8fa0_q.jpg&apos;,
+  ),
+  DataFile.krKeroleen = new DataFile(
+    &apos;kr-keroleen&apos;, &apos;KR&apos;, &apos;&#x3051;&#x308D;&#x308A;&#x30FC;&#x306C;&apos;, &apos;Keroleen&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/12146042775/
+    &apos;https://c2.staticflickr.com/4/3833/12146042775_2db875c152_q.jpg&apos;,
+  ),
+  DataFile.ktKitty = new DataFile(
+    &apos;kt-kitty&apos;, &apos;KT&apos;, &apos;&#x30AD;&#x30C6;&#x30A3;&apos;, &apos;Kitty&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/16492066909/
+    &apos;https://c1.staticflickr.com/9/8575/16492066909_3fcda0e4e4_q.jpg&apos;,
+  ),
+  DataFile.ktMimmy = new DataFile(
+    &apos;kt-mimmy&apos;, &apos;KT&apos;, &apos;&#x30DF;&#x30DF;&#x30A3;&apos;, &apos;Mimmy&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/12611815833/
+    &apos;https://c2.staticflickr.com/4/3669/12611815833_3b5df2b753_q.jpg&apos;,
+  ),
+  DataFile.ktGeorge = new DataFile(
+    &apos;kt-george&apos;, &apos;KT&apos;, &apos;&#x30B8;&#x30E7;&#x30FC;&#x30B8;&apos;, &apos;George&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/11267932706/
+    &apos;https://c2.staticflickr.com/8/7412/11267932706_0fa0c3be17_q.jpg&apos;,
+  ),
+  DataFile.ktTinyChum = new DataFile(
+    &apos;kt-tiny_chum&apos;, &apos;KT&apos;, &apos;&#x30BF;&#x30A4;&#x30CB;&#x30FC;&#x30C1;&#x30E3;&#x30E0;&apos;, &apos;Tiny Chum&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14914616744/
+    &apos;https://c2.staticflickr.com/6/5615/14914616744_f9dbf8bb21_q.jpg&apos;,
+  ),
+  DataFile.lfMeroo = new DataFile(
+    &apos;lf-meroo&apos;, &apos;LF&apos;, &apos;&#x3081;&#x308D;&#x3049;&apos;, &apos;Little Forest Fellow&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/37013106492/
+    &apos;https://c1.staticflickr.com/5/4345/37013106492_29e0189365_q.jpg&apos;,
+  ),
+  DataFile.maMarron = new DataFile(
+    &apos;ma-marron&apos;, &apos;MA&apos;, &apos;&#x30DE;&#x30ED;&#x30F3;&apos;, &apos;Marroncream&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/8920484088/
+    &apos;https://c2.staticflickr.com/8/7399/8920484088_2cc2d90ac8_q.jpg&apos;,
+  ),
+  DataFile.mfMoppu = new DataFile(
+    &apos;mf-moppu&apos;, &apos;MF&apos;, &apos;&#x30E2;&#x30C3;&#x30D7;&apos;, &apos;Marumofubiyori&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/34310073122/
+    &apos;https://c1.staticflickr.com/5/4168/34310073122_913cbfdd04_q.jpg&apos;,
+  ),
+  DataFile.mmMelody = new DataFile(
+    &apos;mm-melody&apos;, &apos;MM&apos;, &apos;&#x30E1;&#x30ED;&#x30C7;&#x30A3;&apos;, &apos;My Melody&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/36403930305/
+    &apos;https://c1.staticflickr.com/5/4403/36403930305_046b88a615_q.jpg&apos;,
+  ),
+  DataFile.mmUsamimiKamen = new DataFile(
+    &apos;mm-usamimi_kamen&apos;, &apos;MM&apos;, &apos;&#x30A6;&#x30B5;&#x30DF;&#x30DF;&#x4EEE;&#x9762;&apos;, &apos;Usamimi Kamen&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14546836441/
+    &apos;https://c2.staticflickr.com/4/3860/14546836441_3867651b8c_q.jpg&apos;,
+  ),
+  DataFile.mpPiano = new DataFile(
+    &apos;mp-piano&apos;, &apos;MP&apos;, &apos;&#x30D4;&#x30A2;&#x30CE;&apos;, &apos;Piano&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14516998051/
+    &apos;https://c2.staticflickr.com/4/3858/14516998051_193a041d57_q.jpg&apos;,
+  ),
+  DataFile.mrMrMen = new DataFile(
+    &apos;mr-mr_men&apos;, &apos;MR&apos;, &apos;&#x30DF;&#x30B9;&#x30BF;&#x30FC;&#x30E1;&#x30F3; &#x30EA;&#x30C8;&#x30EB;&#x30DF;&#x30B9;&apos;, &apos;Mr. Men Little Miss&apos;,
+    &apos;&apos;,
+  ),
+  DataFile.mwMewkledreamy = new DataFile(
+    &apos;mw-mewkledreamy&apos;, &apos;MW&apos;, &apos;&#x307F;&#x3085;&#x30FC;&apos;, &apos;Mewkledreamy&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/38933531210/
+    &apos;https://c1.staticflickr.com/5/4798/38933531210_0db06e8b02_q.jpg&apos;,
+  ),
+  DataFile.nnNoraneko = new DataFile(
+    &apos;nn-noraneko&apos;, &apos;NN&apos;, &apos;&#x30AF;&#x30ED;&#x30FB;&#x30C8;&#x30E9;&#x30FB;&#x30DF;&#x30B1;&apos;, &apos;Noranekoland&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/9329259725/
+    &apos;https://c1.staticflickr.com/3/2879/9329259725_57c2a9c460_q.jpg&apos;,
+  ),
+  DataFile.omMonkichi = new DataFile(
+    &apos;om-monkichi&apos;, &apos;OM&apos;, &apos;&#x3082;&#x3093;&#x304D;&#x3061;&apos;, &apos;Monkichi&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/8815679895/
+    &apos;https://c2.staticflickr.com/8/7321/8815679895_2d371a9d73_q.jpg&apos;,
+  ),
+  DataFile.pcPochacco = new DataFile(
+    &apos;pc-pochacco&apos;, &apos;PC&apos;, &apos;&#x30DD;&#x30C1;&#x30E3;&#x30C3;&#x30B3;&apos;, &apos;Pochacco&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14753386901/
+    &apos;https://c1.staticflickr.com/3/2901/14753386901_f334102638_q.jpg&apos;,
+  ),
+  DataFile.pjPattyJimmy = new DataFile(
+    &apos;pj-patty_jimmy&apos;, &apos;PJ&apos;, &apos;&#x30D1;&#x30C6;&#x30A3;&#x30FB;&#x30B8;&#x30DF;&#x30FC;&apos;, &apos;Patty &amp; Jimmy&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/15332619513/
+    &apos;https://c2.staticflickr.com/8/7472/15332619513_850410db88_q.jpg&apos;,
+  ),
+  DataFile.pkPokopon = new DataFile(
+    &apos;pk-pokopon&apos;, &apos;PK&apos;, &apos;&#x307D;&#x3053;&#x307D;&#x3093;&apos;, &apos;Pokopon&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/11486587094/
+    &apos;https://c2.staticflickr.com/4/3687/11486587094_569f84f7ca_q.jpg&apos;,
+  ),
+  DataFile.pkHana = new DataFile(
+    &apos;pk-hana&apos;, &apos;PK&apos;, &apos;&#x82B1;&apos;, &apos;Hana&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/8784935598/
+    &apos;https://c1.staticflickr.com/9/8271/8784935598_eccdc89f9b_q.jpg&apos;,
+  ),
+  DataFile.pnPurin = new DataFile(
+    &apos;pn-purin&apos;, &apos;PN&apos;, &apos;&#x30D7;&#x30EA;&#x30F3;&apos;, &apos;Pompompurin&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14771707617/
+    &apos;https://c2.staticflickr.com/4/3861/14771707617_2f9f4d367e_q.jpg&apos;,
+  ),
+  DataFile.rfLip = new DataFile(
+    &apos;rf-lip&apos;, &apos;RF&apos;, &apos;&#x308A;&#x3063;&#x3077;&apos;, &apos;Lip&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/28684162480/
+    &apos;https://c1.staticflickr.com/9/8053/28684162480_2a328e0696_q.jpg&apos;,
+  ),
+  DataFile.rfHimawari = new DataFile(
+    &apos;rf-himawari&apos;, &apos;RF&apos;, &apos;&#x3072;&#x307E;&#x308F;&#x308A;&apos;, &apos;Himawari&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/30741534082/
+    &apos;https://c2.staticflickr.com/6/5797/30741534082_5a6d12ccee_q.jpg&apos;,
+  ),
+  DataFile.rfSumire = new DataFile(
+    &apos;rf-sumire&apos;, &apos;RF&apos;, &apos;&#x3059;&#x307F;&#x308C;&apos;, &apos;Sumire&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/36166420492/
+    &apos;https://c1.staticflickr.com/5/4375/36166420492_728617e8a8_q.jpg&apos;,
+  ),
+  DataFile.rfRose = new DataFile(
+    &apos;rf-rose&apos;, &apos;RF&apos;, &apos;&#x30ED;&#x30FC;&#x30BA;&apos;, &apos;Rose&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/33939672851/
+    &apos;https://c2.staticflickr.com/4/3955/33939672851_a0dff27489_q.jpg&apos;,
+  ),
+  DataFile.rfRin = new DataFile(
+    &apos;rf-rin&apos;, &apos;RF&apos;, &apos;&#x308A;&#x3093;&apos;, &apos;Rin&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/34443923456/
+    &apos;https://c1.staticflickr.com/5/4185/34443923456_5343fb4a94_q.jpg&apos;,
+  ),
+  DataFile.rfSpica = new DataFile(
+    &apos;rf-spica&apos;, &apos;RF&apos;, &apos;&#x30B9;&#x30D4;&#x30AB;&apos;, &apos;Spica&apos;,
+    &apos;&apos;,
+  ),
+  DataFile.siShirokuro = new DataFile(
+    &apos;si-shirokuro&apos;, &apos;SI&apos;, &apos;&#x3057;&#x308D;&#x3046;&#x3055;&#x30FB;&#x304F;&#x308D;&#x3046;&#x3055;&apos;, &apos;Shirousa &amp; Kurousa&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14387901891/
+    &apos;https://c2.staticflickr.com/4/3916/14387901891_c3b756812b_q.jpg&apos;,
+  ),
+  DataFile.siMomohana = new DataFile(
+    &apos;si-momohana&apos;, &apos;SI&apos;, &apos;&#x3082;&#x3082;&#x3046;&#x3055;&#x30FB;&#x306F;&#x306A;&#x3046;&#x3055;&apos;, &apos;Momousa &amp; Hanausa&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/10113617364/
+    &apos;https://c2.staticflickr.com/4/3672/10113617364_3746095a60_q.jpg&apos;,
+  ),
+  DataFile.skStrawberryKing = new DataFile(
+    &apos;sk-strawberry_king&apos;, &apos;SK&apos;, &apos;&#x3044;&#x3061;&#x3054;&#x306E;&#x738B;&#x3055;&#x307E;&apos;, &apos;Strawberry King&apos;,
+    &apos;&apos;,
+  ),
+  DataFile.szMenta = new DataFile(
+    &apos;sz-menta&apos;, &apos;SZ&apos;, &apos;&#x30E1;&#x30F3;&#x30BF;&apos;, &apos;Shinkaizoku&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/27518650642/
+    &apos;https://c2.staticflickr.com/8/7317/27518650642_3d631c2bf9_q.jpg&apos;,
+  ),
+  DataFile.taTabo = new DataFile(
+    &apos;ta-tabo&apos;, &apos;TA&apos;, &apos;&#x305F;&#x3042;&#x574A;&apos;, &apos;Tabo&apos;,
+    &apos;&apos;,
+  ),
+  DataFile.tfTurfy = new DataFile(
+    &apos;tf-turfy&apos;, &apos;TF&apos;, &apos;&#x30BF;&#x30FC;&#x30D5;&#x30A3;&#x30FC;&apos;, &apos;Turfy&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/26537496203/
+    &apos;https://c2.staticflickr.com/8/7723/26537496203_32e46680ca_q.jpg&apos;,
+  ),
+  DataFile.tpTinyPoem = new DataFile(
+    &apos;tp-tiny_poem&apos;, &apos;TP&apos;, &apos;&#x3055;&#x3063;&#x3061;&#x3083;&#x3093;&apos;, &apos;Tiny Poem&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/10495659564/
+    &apos;https://c2.staticflickr.com/8/7390/10495659564_ab4960f63f_q.jpg&apos;,
+  ),
+  DataFile.tsKikiLala = new DataFile(
+    &apos;ts-kikilala&apos;, &apos;TS&apos;, &apos;&#x30AD;&#x30AD;&#x30FB;&#x30E9;&#x30E9;&apos;, &apos;Kiki &amp; Lala&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/34278547216/
+    &apos;https://c1.staticflickr.com/3/2853/34278547216_91403ea35f_q.jpg&apos;,
+  ),
+  DataFile.txSam = new DataFile(
+    &apos;tx-sam&apos;, &apos;TX&apos;, &apos;&#x30B5;&#x30E0;&apos;, &apos;Tuxedo Sam&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/8794417176/
+    &apos;https://c2.staticflickr.com/6/5466/8794417176_313c011089_q.jpg&apos;,
+  ),
+  DataFile.usUsahana = new DataFile(
+    &apos;us-usahana&apos;, &apos;US&apos;, &apos;&#x30A6;&#x30B5;&#x30CF;&#x30CA;&apos;, &apos;Usahana&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/35231231671/
+    &apos;https://c1.staticflickr.com/5/4245/35231231671_32d4e72ea1_q.jpg&apos;,
+  ),
+  DataFile.usUsahana = new DataFile(
+    &apos;va-eddy_emmy&apos;, &apos;VA&apos;, &apos;&#x30A8;&#x30C7;&#x30A3;&#x30FB;&#x30A8;&#x30DF;&#x30A3;&apos;, &apos;Eddy &amp; Emmy&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/11267998663/
+    &apos;https://c2.staticflickr.com/6/5472/11267998663_4c1c04d0b0_q.jpg&apos;,
+  ),
+  DataFile.wiMell = new DataFile(
+    &apos;wi-mell&apos;, &apos;WI&apos;, &apos;&#x30E1;&#x30EB;&apos;, &apos;Mell&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/15033242479/
+    &apos;https://c2.staticflickr.com/4/3883/15033242479_45ded95457_q.jpg&apos;,
+  ),
+  DataFile.xoBadtzmaru = new DataFile(
+    &apos;xo-badtzmaru&apos;, &apos;XO&apos;, &apos;&#x3070;&#x3064;&#x4E38;&apos;, &apos;Badtz-Maru&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/11150739286/
+    &apos;https://c2.staticflickr.com/6/5477/11150739286_bc5251bf3d_q.jpg&apos;,
+  ),
+  DataFile.xoTsunko = new DataFile(
+    &apos;xo-tsunko&apos;, &apos;XO&apos;, &apos;&#x3064;&#x3093;&#x5B50;&apos;, &apos;Tsunko&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/14045681142/
+    &apos;https://c2.staticflickr.com/6/5270/14045681142_bb5acc9708_q.jpg&apos;,
+  ),
+  DataFile.xoPandaba = new DataFile(
+    &apos;xo-pandaba&apos;, &apos;XO&apos;, &apos;&#x30D1;&#x30F3;&#x30C0;&#x30D0;&apos;, &apos;Pandaba&apos;,
+    // https://www.flickr.com/photos/ohtake_tomohiro/11486667956/
+    &apos;https://c2.staticflickr.com/4/3686/11486667956_5bddc54c75_q.jpg&apos;,
+  ),
+];
+
+const map = {};
+DataFile.all.forEach((df) =&gt; {
+  map[df.name] = df;
+});
+/**
+ * @param {string} name e.g. kt-kitty
+ * @returns {DataFile}
+ */
+DataFile.findByName = (name) =&gt; map[name];
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

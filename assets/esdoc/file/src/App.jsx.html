@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/App.jsx | sanrio-wardrobe</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Character.jsx~Character.html">Character</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/colors.js~ColorData.html">ColorData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/data_file.js~DataFile.html">DataFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/photo.js~Photo.html">Photo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~FlickrSrcsetProvider.html">FlickrSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~Instagram2SrcsetProvider.html">Instagram2SrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~InstagramSrcsetProvider.html">InstagramSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~PicasaSrcsetProvider.html">PicasaSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-JustifiedLayout">JustifiedLayout</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyThemeToBody">applyThemeToBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRouterHistory">getRouterHistory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-openFeedback">openFeedback</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendGoogleAnalyticsEvent">sendGoogleAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-withFullWidth">withFullWidth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RepresentiveColors">RepresentiveColors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeDarkV1">themeDarkV1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeLightV1">themeLightV1</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/App.jsx</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &apos;react&apos;;
+import PropTypes from &apos;prop-types&apos;;
+import NavLink from &apos;react-router-dom/NavLink&apos;;
+import Route from &apos;react-router-dom/Route&apos;;
+import Switch from &apos;react-router-dom/Switch&apos;;
+
+import AppBar from &apos;@material-ui/core/AppBar&apos;;
+import Avatar from &apos;@material-ui/core/Avatar&apos;;
+import Button from &apos;@material-ui/core/Button&apos;;
+import Divider from &apos;@material-ui/core/Divider&apos;;
+import Drawer from &apos;@material-ui/core/Drawer&apos;;
+import IconButton from &apos;@material-ui/core/IconButton&apos;;
+import List from &apos;@material-ui/core/List&apos;;
+import ListItem from &apos;@material-ui/core/ListItem&apos;;
+import ListItemAvatar from &apos;@material-ui/core/ListItemAvatar&apos;;
+import ListItemIcon from &apos;@material-ui/core/ListItemIcon&apos;;
+import ListItemText from &apos;@material-ui/core/ListItemText&apos;;
+import ListSubheader from &apos;@material-ui/core/ListSubheader&apos;;
+import Menu from &apos;@material-ui/core/Menu&apos;;
+import MenuItem from &apos;@material-ui/core/MenuItem&apos;;
+import Paper from &apos;@material-ui/core/Paper&apos;;
+import Toolbar from &apos;@material-ui/core/Toolbar&apos;;
+import Typography from &apos;@material-ui/core/Typography&apos;;
+import Slider from &apos;@material-ui/lab/Slider&apos;;
+import { withStyles } from &apos;@material-ui/core/styles&apos;;
+
+import ActionFeedback from &apos;@material-ui/icons/Feedback&apos;;
+import ActionHome from &apos;@material-ui/icons/Home&apos;;
+import ActionSettings from &apos;@material-ui/icons/Settings&apos;;
+import ActionTurnedIn from &apos;@material-ui/icons/TurnedIn&apos;;
+import ActionTurnedInNot from &apos;@material-ui/icons/TurnedInNot&apos;;
+import EditorShowChart from &apos;@material-ui/icons/ShowChart&apos;;
+import ImagePhotoSizeSelectLarge from &apos;@material-ui/icons/PhotoSizeSelectLarge&apos;;
+import NavigationClose from &apos;@material-ui/icons/Close&apos;;
+import MenuIcon from &apos;@material-ui/icons/Menu&apos;;
+
+import Home from &apos;./Home&apos;;
+import Character from &apos;./Character&apos;;
+import Statistics from &apos;./Statistics&apos;;
+
+import DataFile from &apos;./data_file&apos;;
+import * as utils from &apos;./utils&apos;;
+
+const appDefaultTitle = &apos;Sanrio Wardrobe&apos;;
+
+/**
+ * Application root component
+ */
+class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      menuOpened: false, menuDocked: false, thumbnailSize: 120, title: appDefaultTitle, errorObject: null, errorInfo: null,
+    };
+
+    this.refSliderThumbnailSize = React.createRef();
+
+    this.setTitle = this.setTitle.bind(this);
+    this.clearError = this.clearError.bind(this);
+    this.handleMenuOpen = this.handleMenuOpen.bind(this);
+    this.handleMenuClick = this.handleMenuClick.bind(this);
+    this.handleMenuPinned = this.handleMenuPinned.bind(this);
+    this.handleMenuClose = this.handleMenuClose.bind(this);
+    this.handleSettingsOpen = this.handleSettingsOpen.bind(this);
+    this.handleSettingsClose = this.handleSettingsClose.bind(this);
+    this.handleThumbnailSizeChange = this.handleThumbnailSizeChange.bind(this);
+    this.menuWidth = 250;
+  }
+
+  getChildContext() {
+    const { thumbnailSize } = this.state;
+    return {
+      thumbnailSize,
+      setTitle: this.setTitle,
+    };
+  }
+
+  componentDidCatch(error, info) {
+    const { errorObject } = this.state;
+    if (!errorObject) this.setState({ errorObject: error, errorInfo: info });
+  }
+
+  /**
+   * @param {string} title
+   * @returns {void}
+   */
+  setTitle(title) {
+    if (title) {
+      this.setState({ title });
+    } else {
+      this.setState({ title: appDefaultTitle });
+    }
+  }
+
+  clearError() {
+    this.setState({ errorObject: null, errorInfo: null });
+  }
+
+  handleMenuOpen() {
+    this.setState({ menuOpened: true });
+  }
+
+  handleMenuPinned() {
+    const { menuDocked } = this.state;
+    this.setState({ menuDocked: !menuDocked });
+  }
+
+  handleMenuClose() {
+    this.setState({ menuOpened: false });
+  }
+
+  handleMenuClick() {
+    const { menuDocked } = this.state;
+    this.clearError();
+    if (menuDocked) return;
+    window.setTimeout(() =&gt; this.setState({ menuOpened: false }), 200);
+  }
+
+  handleSettingsOpen(ev) {
+    this.setState({ menuSettingsAnchorEl: ev.currentTarget });
+  }
+
+  handleSettingsClose() {
+    this.setState({ menuSettingsAnchorEl: null });
+  }
+
+  handleThumbnailSizeChange(event, value) {
+    this.setState({ thumbnailSize: value });
+  }
+
+  renderAppBar() {
+    const {
+      menuOpened, menuDocked, title, menuSettingsAnchorEl, thumbnailSize,
+    } = this.state;
+    return (
+      &lt;AppBar position=&quot;static&quot;&gt;
+        &lt;Toolbar&gt;
+          {!menuOpened || !menuDocked
+            ? &lt;IconButton onClick={this.handleMenuOpen}&gt;&lt;MenuIcon /&gt;&lt;/IconButton&gt;
+            : null }
+          &lt;div style={{ flexGrow: 1 }}&gt;
+            &lt;Typography variant=&quot;title&quot;&gt;{title}&lt;/Typography&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;IconButton onClick={this.handleSettingsOpen}&gt;&lt;ActionSettings /&gt;&lt;/IconButton&gt;
+            &lt;Menu open={Boolean(menuSettingsAnchorEl)} anchorEl={menuSettingsAnchorEl} anchorOrigin={{ horizontal: &apos;right&apos;, vertical: &apos;bottom&apos; }} transformOrigin={{ horizontal: &apos;right&apos;, vertical: &apos;top&apos; }} onClose={this.handleSettingsClose}&gt;
+              &lt;MenuItem&gt;
+                &lt;ListItemIcon&gt;&lt;ImagePhotoSizeSelectLarge /&gt;&lt;/ListItemIcon&gt;
+                &lt;ListItemText&gt;
+                  {`Thumbnail size: ${thumbnailSize}`}
+                  &lt;Slider ref={this.refSliderThumbnailSize} value={thumbnailSize} min={30} max={360} step={1} onChange={this.handleThumbnailSizeChange} /&gt;
+                &lt;/ListItemText&gt;
+              &lt;/MenuItem&gt;
+              &lt;Divider /&gt;
+              &lt;MenuItem onClick={utils.openFeedback}&gt;
+                &lt;ListItemIcon&gt;&lt;ActionFeedback /&gt;&lt;/ListItemIcon&gt;
+                &lt;ListItemText&gt;Feedback&lt;/ListItemText&gt;
+              &lt;/MenuItem&gt;
+            &lt;/Menu&gt;
+          &lt;/div&gt;
+        &lt;/Toolbar&gt;
+      &lt;/AppBar&gt;
+    );
+  }
+
+  renderNavLink(to, icon, text) {
+    const { classes } = this.props;
+    return (
+      &lt;ListItem button component={NavLink} to={to} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink}&gt;
+        &lt;ListItemIcon&gt;{icon}&lt;/ListItemIcon&gt;
+        &lt;ListItemText&gt;{text}&lt;/ListItemText&gt;
+      &lt;/ListItem&gt;
+    );
+  }
+
+  renderNavChara(chara) {
+    const { classes } = this.props;
+    const avatar = chara.picUrl ? &lt;Avatar src={chara.picUrl} /&gt; : &lt;Avatar&gt;{chara.seriesSymbol}&lt;/Avatar&gt;;
+    return (
+      &lt;ListItem button component={NavLink} to={`/chara/${chara.name}`} exact onClick={this.handleMenuClick} activeClassName={classes.activeNavLink}&gt;
+        &lt;ListItemAvatar&gt;{avatar}&lt;/ListItemAvatar&gt;
+        &lt;ListItemText&gt;{chara.getDisplayName()}&lt;/ListItemText&gt;
+      &lt;/ListItem&gt;
+    );
+  }
+
+  renderDrawer() {
+    const { menuOpened, menuDocked } = this.state;
+    return (
+      &lt;Drawer open={menuOpened} variant={menuDocked ? &apos;persistent&apos; : &apos;temporary&apos;} onClose={this.handleMenuClose}&gt;
+        &lt;div style={{ width: this.menuWidth, overflowX: &apos;hidden&apos; }}&gt;
+          &lt;Toolbar&gt;
+            &lt;div style={{ flexGrow: 1 }} /&gt;
+            &lt;IconButton onClick={this.handleMenuPinned}&gt;
+              {menuDocked ? &lt;ActionTurnedIn color=&quot;action&quot; /&gt; : &lt;ActionTurnedInNot color=&quot;action&quot; /&gt;}
+            &lt;/IconButton&gt;
+            &lt;IconButton onClick={this.handleMenuClose}&gt;&lt;NavigationClose color=&quot;action&quot; /&gt;&lt;/IconButton&gt;
+          &lt;/Toolbar&gt;
+          &lt;Divider /&gt;
+          &lt;List&gt;
+            {this.renderNavLink(&apos;/&apos;, &lt;ActionHome /&gt;, &apos;Home&apos;)}
+            {this.renderNavLink(&apos;/statistics&apos;, &lt;EditorShowChart /&gt;, &apos;Statistics&apos;)}
+          &lt;/List&gt;
+          &lt;Divider /&gt;
+          &lt;List subheader={&lt;ListSubheader&gt;Characters&lt;/ListSubheader&gt;}&gt;
+            {DataFile.all.map((c) =&gt; this.renderNavChara(c)) }
+          &lt;/List&gt;
+        &lt;/div&gt;
+      &lt;/Drawer&gt;
+    );
+  }
+
+  renderError() {
+    const { classes } = this.props;
+    const { errorObject, errorInfo } = this.state;
+    return (
+      &lt;Paper className={classes.errorBox}&gt;
+        &lt;p&gt;{errorObject.toString()}&lt;/p&gt;
+        &lt;pre&gt;{errorInfo.componentStack}&lt;/pre&gt;
+        &lt;Button onClick={this.clearError}&gt;Retry&lt;/Button&gt;
+        &lt;Button component={NavLink} onClick={this.clearError} to=&quot;/&quot;&gt;Back to Home&lt;/Button&gt;
+      &lt;/Paper&gt;
+    );
+  }
+
+  render() {
+    const { menuOpened, menuDocked, errorObject } = this.state;
+    const { classes } = this.props;
+    return (
+      &lt;div style={{ marginLeft: menuOpened &amp;&amp; menuDocked ? this.menuWidth : 0 }}&gt;
+        {this.renderAppBar()}
+        {this.renderDrawer()}
+        &lt;div className={classes.container}&gt;
+          {errorObject ? this.renderError() : (
+            &lt;Switch&gt;
+              &lt;Route exact path=&quot;/&quot; component={Home} /&gt;
+              &lt;Route path=&quot;/chara/:chara/:title?&quot; component={Character} /&gt;
+              &lt;Route path=&quot;/statistics&quot; component={Statistics} /&gt;
+            &lt;/Switch&gt;
+          )}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+App.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  classes: PropTypes.object.isRequired,
+};
+App.childContextTypes = {
+  thumbnailSize: PropTypes.number,
+  setTitle: PropTypes.func,
+};
+export default withStyles((theme) =&gt; ({
+  container: {
+    backgroundColor: theme.palette.background.default,
+    padding: theme.spacing.unit,
+  },
+  errrorBox: {
+    border: `2px solid ${theme.palette.error.main}`,
+    padding: theme.spacing.unit,
+  },
+  activeNavLink: {
+    backgroundColor: theme.palette.action.selected,
+  },
+}))(App);
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

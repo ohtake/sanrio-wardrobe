@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/colors.js | sanrio-wardrobe</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Character.jsx~Character.html">Character</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/colors.js~ColorData.html">ColorData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/data_file.js~DataFile.html">DataFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/photo.js~Photo.html">Photo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~FlickrSrcsetProvider.html">FlickrSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~Instagram2SrcsetProvider.html">Instagram2SrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~InstagramSrcsetProvider.html">InstagramSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~PicasaSrcsetProvider.html">PicasaSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-JustifiedLayout">JustifiedLayout</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyThemeToBody">applyThemeToBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRouterHistory">getRouterHistory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-openFeedback">openFeedback</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendGoogleAnalyticsEvent">sendGoogleAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-withFullWidth">withFullWidth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RepresentiveColors">RepresentiveColors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeDarkV1">themeDarkV1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeLightV1">themeLightV1</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/colors.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import red from &apos;@material-ui/core/colors/red&apos;;
+import pink from &apos;@material-ui/core/colors/pink&apos;;
+import orange from &apos;@material-ui/core/colors/orange&apos;;
+import yellow from &apos;@material-ui/core/colors/yellow&apos;;
+import green from &apos;@material-ui/core/colors/green&apos;;
+import blue from &apos;@material-ui/core/colors/blue&apos;;
+import purple from &apos;@material-ui/core/colors/purple&apos;;
+import brown from &apos;@material-ui/core/colors/brown&apos;;
+import grey from &apos;@material-ui/core/colors/grey&apos;;
+import amber from &apos;@material-ui/core/colors/amber&apos;;
+import common from &apos;@material-ui/core/colors/common&apos;;
+
+export class ColorData {
+  /**
+   * @param {string} id
+   * @param {string} name
+   * @param {string} value
+   * @param {string} dark
+   * @param {string} light
+   */
+  constructor(id, name, value, dark, light) {
+    this.id = id;
+    this.name = name;
+    this.value = value;
+    this.dark = dark;
+    this.light = light;
+  }
+}
+
+const RepresentiveColors = {};
+
+RepresentiveColors.all = [
+  RepresentiveColors.Red = new ColorData(&apos;red&apos;, &apos;Red&apos;, red[800], red[500], red[200]),
+  RepresentiveColors.Pink = new ColorData(&apos;pink&apos;, &apos;Pink&apos;, pink[300], pink[500], pink[200]),
+  RepresentiveColors.Orange = new ColorData(&apos;orange&apos;, &apos;Orange&apos;, orange[500], orange[500], orange[200]),
+  RepresentiveColors.Yellow = new ColorData(&apos;yellow&apos;, &apos;Yellow&apos;, yellow[500], yellow[500], yellow[200]),
+  RepresentiveColors.Green = new ColorData(&apos;green&apos;, &apos;Green&apos;, green[500], green[500], green[200]),
+  RepresentiveColors.Blue = new ColorData(&apos;blue&apos;, &apos;Blue&apos;, blue[500], blue[500], blue[200]),
+  RepresentiveColors.Purple = new ColorData(&apos;purple&apos;, &apos;Purple&apos;, purple[500], purple[500], purple[200]),
+  RepresentiveColors.Brown = new ColorData(&apos;brown&apos;, &apos;Brown&apos;, brown[500], brown[500], brown[200]),
+  RepresentiveColors.Black = new ColorData(&apos;black&apos;, &apos;Black&apos;, common.black, grey[800], grey[700]),
+  RepresentiveColors.Grey = new ColorData(&apos;grey&apos;, &apos;Grey&apos;, grey[700], grey[600], grey[500]),
+  RepresentiveColors.White = new ColorData(&apos;white&apos;, &apos;White&apos;, common.white, grey[200], grey[100]),
+  RepresentiveColors.Gold = new ColorData(&apos;gold&apos;, &apos;Gold&apos;, amber[300], amber[500], amber[200]),
+  RepresentiveColors.Silver = new ColorData(&apos;silver&apos;, &apos;Silver&apos;, grey[400], grey[400], grey[300]),
+];
+
+const map = {};
+RepresentiveColors.all.forEach((c) =&gt; {
+  map[c.id] = c;
+});
+RepresentiveColors.findById = (id) =&gt; map[id];
+
+export default RepresentiveColors;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

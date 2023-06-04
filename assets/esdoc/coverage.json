@@ -1,0 +1,221 @@
+{
+  "coverage": "25%",
+  "expectCount": 168,
+  "actualCount": 42,
+  "files": {
+    "src/App.jsx": {
+      "expectCount": 23,
+      "actualCount": 2,
+      "undocumentLines": [
+        44,
+        50,
+        53,
+        57,
+        68,
+        71,
+        79,
+        96,
+        100,
+        104,
+        109,
+        113,
+        120,
+        124,
+        128,
+        132,
+        167,
+        177,
+        188,
+        214,
+        227
+      ]
+    },
+    "src/Character.jsx": {
+      "expectCount": 26,
+      "actualCount": 4,
+      "undocumentLines": [
+        21,
+        22,
+        33,
+        34,
+        35,
+        49,
+        50,
+        52,
+        53,
+        55,
+        56,
+        65,
+        69,
+        96,
+        135,
+        150,
+        156,
+        160,
+        169,
+        180,
+        189,
+        195
+      ]
+    },
+    "src/colors.js": {
+      "expectCount": 9,
+      "actualCount": 1,
+      "undocumentLines": [
+        13,
+        22,
+        23,
+        24,
+        25,
+        26,
+        48,
+        30
+      ]
+    },
+    "src/ColorSelector.jsx": {
+      "expectCount": 13,
+      "actualCount": 7,
+      "undocumentLines": [
+        13,
+        21,
+        22,
+        24,
+        31,
+        112
+      ]
+    },
+    "src/data_file.js": {
+      "expectCount": 9,
+      "actualCount": 2,
+      "undocumentLines": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        421
+      ]
+    },
+    "src/DetailView.jsx": {
+      "expectCount": 28,
+      "actualCount": 2,
+      "undocumentLines": [
+        38,
+        40,
+        45,
+        46,
+        49,
+        51,
+        64,
+        70,
+        75,
+        83,
+        89,
+        93,
+        97,
+        103,
+        111,
+        117,
+        123,
+        129,
+        135,
+        146,
+        162,
+        213,
+        222,
+        252,
+        263,
+        310
+      ]
+    },
+    "src/Gallery.jsx": {
+      "expectCount": 6,
+      "actualCount": 1,
+      "undocumentLines": [
+        14,
+        22,
+        29,
+        30,
+        57
+      ]
+    },
+    "src/Home.jsx": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        15,
+        16,
+        18,
+        19,
+        22,
+        27,
+        46,
+        51
+      ]
+    },
+    "src/JustifiedLayout.jsx": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/photo.js": {
+      "expectCount": 11,
+      "actualCount": 9,
+      "undocumentLines": [
+        7,
+        12
+      ]
+    },
+    "src/srcset_providers.js": {
+      "expectCount": 13,
+      "actualCount": 11,
+      "undocumentLines": [
+        3,
+        91
+      ]
+    },
+    "src/Statistics.jsx": {
+      "expectCount": 12,
+      "actualCount": 0,
+      "undocumentLines": [
+        24,
+        28,
+        35,
+        36,
+        38,
+        42,
+        57,
+        61,
+        73,
+        116,
+        145,
+        178
+      ]
+    },
+    "src/themes.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        10,
+        17,
+        18
+      ]
+    },
+    "src/utils.js": {
+      "expectCount": 4,
+      "actualCount": 1,
+      "undocumentLines": [
+        16,
+        21,
+        23
+      ]
+    },
+    "src/withFullWidth.jsx": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    }
+  }
+}

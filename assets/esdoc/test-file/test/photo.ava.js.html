@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">test/photo.ava.js | sanrio-wardrobe</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Character.jsx~Character.html">Character</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/colors.js~ColorData.html">ColorData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/data_file.js~DataFile.html">DataFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/photo.js~Photo.html">Photo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~FlickrSrcsetProvider.html">FlickrSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~Instagram2SrcsetProvider.html">Instagram2SrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~InstagramSrcsetProvider.html">InstagramSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/srcset_providers.js~PicasaSrcsetProvider.html">PicasaSrcsetProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-JustifiedLayout">JustifiedLayout</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-applyThemeToBody">applyThemeToBody</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRouterHistory">getRouterHistory</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-openFeedback">openFeedback</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendGoogleAnalyticsEvent">sendGoogleAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-withFullWidth">withFullWidth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RepresentiveColors">RepresentiveColors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeDarkV1">themeDarkV1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-themeLightV1">themeLightV1</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">test/photo.ava.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import test from &apos;ava&apos;;
+import cloneDeep from &apos;lodash/cloneDeep&apos;;
+
+import Photo from &apos;../src/photo&apos;;
+
+const photoSrcsetLandscape = {
+  title: &apos;srcset landscape&apos;,
+  images: [
+    { url: &apos;https://placehold.it/600x400&apos;, height: 400 },
+    { url: &apos;https://placehold.it/900x600&apos;, width: 900 },
+    { url: &apos;https://placehold.it/1200x800&apos;, max: 1200 },
+  ],
+  source: { author: &apos;brent&apos;, license: &apos;&apos;, url: &apos;https://placehold.it/&apos; },
+  size: { width_o: 1200, height_o: 800 },
+  colors: [&apos;red&apos;],
+  notes: [&apos;note1&apos;, &apos;note2&apos;],
+};
+const photoSrcsetPortrait = {
+  title: &apos;srcset portrait&apos;,
+  images: [
+    { url: &apos;https://placehold.it/400x600&apos;, height: 600 },
+    { url: &apos;https://placehold.it/600x900&apos;, width: 600 },
+    { url: &apos;https://placehold.it/800x1200&apos;, max: 1200 },
+  ],
+  source: { author: &apos;brent&apos;, license: &apos;&apos;, url: &apos;https://placehold.it/&apos; },
+  size: { width_o: 800, height_o: 1200 },
+  colors: [],
+  notes: [],
+};
+const photoSrcsetSquare = {
+  title: &apos;srcset square&apos;,
+  images: [
+    { url: &apos;https://placehold.it/600x600&apos;, height: 600 },
+    { url: &apos;https://placehold.it/900x900&apos;, width: 900 },
+    { url: &apos;https://placehold.it/1200x1200&apos;, max: 1200 },
+  ],
+  source: { author: &apos;brent&apos;, license: &apos;&apos;, url: &apos;https://placehold.it/&apos; },
+  size: { width_o: 1200, height_o: 1200 },
+  colors: [],
+  notes: [],
+};
+const photoFlickrLandscape = {
+  title: &apos;flickr images landscape&apos;,
+  images_flickr: {
+    photo: &apos;15605014039&apos;, farm: 6, server: 5604, secret: &apos;3aa65f125e&apos;, secret_h: &apos;2c5f7cc664&apos;, secret_k: &apos;31513b8bf6&apos;,
+  },
+  source: { author: &apos;ohtake&apos;, license: &apos;CC BY-SA 2.0&apos;, url: &apos;https://www.flickr.com/photos/ohtake_tomohiro/15605014039&apos; },
+  size: { width_o: 5760, height_o: 3840 },
+  colors: [],
+  notes: [],
+};
+const photoFlickrPortrait = {
+  title: &apos;flickr images portrait&apos;,
+  images_flickr: {
+    photo: &apos;24326364382&apos;, farm: 2, server: 1623, secret: &apos;2a00bf3387&apos;, secret_h: &apos;988fe74e0e&apos;, secret_k: &apos;1d900d84de&apos;,
+  },
+  source: { author: &apos;ohtake&apos;, license: &apos;CC BY-SA 2.0&apos;, url: &apos;https://www.flickr.com/photos/ohtake_tomohiro/24326364382&apos; },
+  size: { width_o: 3840, height_o: 5760 },
+  colors: [],
+  notes: [],
+};
+const photoFlickrTooSmall = {
+  title: &apos;24214891894&apos;,
+  images_flickr: {
+    photo: &apos;24214891894&apos;, farm: 2, server: 1457, secret: &apos;fb5e07fc69&apos;, before: &apos;20100525&apos;,
+  },
+  source: { author: &apos;jj lai&apos;, license: &apos;&apos;, url: &apos;https://www.flickr.com/photos/laijj/24214891894/&apos; },
+  size: { width_o: 538, height_o: 404 },
+  colors: [],
+  notes: [],
+};
+const photoPicasa = {
+  title: &apos;5D3D4777 (1920x1280)&apos;,
+  images_picasa: { lh: 5, dirs: &apos;-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk&apos;, file: &apos;5D3D4777%2520%25281920x1280%2529.jpg&apos; },
+  source: { author: &apos;ohtake&apos;, license: &apos;CC BY-SA 2.0&apos;, url: &apos;https://picasaweb.google.com/lh/photo/0PFa4BsUBZFjugZvBmr8QNMTjNZETYmyPJy0liipFm0?feat=embedwebsite&apos; },
+  size: { width_o: 1920, height_o: 1280 },
+  colors: [],
+  notes: [],
+};
+const photoInstagramSquare = {
+  title: &apos;Wii Gato (Lipe Sleep)&apos;,
+  images_instagram: {
+    shortcode: &apos;fA9uwTtkSN&apos;, width_t: 150, width_m: 320, width_l: 640,
+  },
+  source: { author: &apos;diegoquinteiro&apos;, license: &apos;&apos;, url: &apos;http://instagr.am/p/fA9uwTtkSN/&apos; },
+  size: { width_o: 640, height_o: 640 },
+  colors: [],
+  notes: [],
+};
+const photoInstagramPortrait = {
+  title: &apos;SI Kitto 1&apos;,
+  images_instagram: {
+    shortcode: &apos;BXo13ZBngas&apos;, width_t: 150, width_m: 320, width_l: 720,
+  },
+  source: { author: &apos;diegoquinteiro&apos;, license: &apos;&apos;, url: &apos;https://www.instagram.com/p/BXo13ZBngas/&apos; },
+  size: { width_o: 720, height_o: 900 },
+  colors: [],
+  notes: [],
+};
+const photoInstagram2Square = {
+  title: &apos;Wii Gato (Lipe Sleep)&apos;,
+  images_instagram2: {
+    shortcode: &apos;fA9uwTtkSN&apos;,
+    t_width: 150,
+    t_height: 150,
+    t_url: &apos;https://scontent-nrt1-1.cdninstagram.com/vp/66fc31d63e4335207abe9c678a0a3f0b/5A88DA9A/t51.2885-15/s150x150/e15/11358196_1472850273007829_614249870_n.jpg&apos;,
+    m_width: 320,
+    m_height: 320,
+    m_url: &apos;https://scontent-nrt1-1.cdninstagram.com/vp/640bc9bd24ad9f049fd7528fd06a9868/5A88E889/t51.2885-15/s320x320/e15/11358196_1472850273007829_614249870_n.jpg&apos;,
+    l_url: &apos;https://scontent-nrt1-1.cdninstagram.com/vp/685ca756ed8ce187b242d0041734fe76/5A88CC04/t51.2885-15/e15/11358196_1472850273007829_614249870_n.jpg&apos;,
+  },
+  source: { author: &apos;diegoquinteiro&apos;, license: &apos;&apos;, url: &apos;http://instagr.am/p/fA9uwTtkSN/&apos; },
+  size: { width_o: 640, height_o: 640 },
+  colors: [],
+  notes: [],
+};
+const photoInstagram2Portrait = {
+  title: &apos;SI Kitto 1&apos;,
+  images_instagram2: {
+    shortcode: &apos;BXo13ZBngas&apos;,
+    t_width: 150,
+    t_height: 150,
+    t_url: &apos;https://scontent-nrt1-1.cdninstagram.com/vp/ac99123caabe97e1bf65216978e08b27/5B0A1F5E/t51.2885-15/s150x150/e15/c0.90.720.720/20766680_1780144428942534_1180693944258789376_n.jpg&apos;,
+    m_width: 320,
+    m_height: 400,
+    m_url: &apos;https://scontent-nrt1-1.cdninstagram.com/vp/f1c0f16656b453b3620b1b3b276141d4/5AFF94C8/t51.2885-15/e15/p320x320/20766680_1780144428942534_1180693944258789376_n.jpg&apos;,
+    l_url: &apos;https://scontent-nrt1-1.cdninstagram.com/vp/474170aa8bbbc28ed9981047bc8ea2a9/5B16558B/t51.2885-15/e15/20766680_1780144428942534_1180693944258789376_n.jpg&apos;,
+  },
+  source: { author: &apos;diegoquinteiro&apos;, license: &apos;&apos;, url: &apos;https://www.instagram.com/p/BXo13ZBngas/&apos; },
+  size: { width_o: 720, height_o: 900 },
+  colors: [],
+  notes: [],
+};
+
+/** @test {Photo#getAspectRatio} */
+test(&apos;Photo#getAspectRatio should return a number&apos;, t =&gt; {
+  const photoL = new Photo(photoSrcsetLandscape);
+  t.true(photoL.getAspectRatio() &gt; 1);
+  const photoP = new Photo(photoSrcsetPortrait);
+  t.true(photoP.getAspectRatio() &lt; 1);
+  const photoS = new Photo(photoSrcsetSquare);
+  t.true(photoS.getAspectRatio() === 1);
+});
+
+/** @test {Photo#match} */
+test(&apos;Photo#match&apos;, t =&gt; {
+  const photo = new Photo(photoSrcsetLandscape);
+  /* eslint-disable ava/prefer-t-regex */
+  // photo.match is not String#match but Photo#match
+  t.true(photo.match(/landscape/), &apos;should match title&apos;);
+  t.false(photo.match(/placehold/), &apos;should not match url&apos;);
+  t.true(photo.match(/brent/), &apos;should match author&apos;);
+  t.false(photo.match(/red/), &apos;should not match color&apos;);
+  t.true(photo.match(/note1/), &apos;should match notes&apos;);
+  t.true(photo.match(/note2/), &apos;should match notes&apos;);
+  /* eslint-enable ava/prefer-t-regex */
+});
+
+/** @test {Photo#calcWidthOrHeight} */
+test(&apos;Photo#calcWidthOrHeight should calculate width from either width, height, or max&apos;, t =&gt; {
+  const photoL = new Photo(photoSrcsetLandscape);
+  const photoP = new Photo(photoSrcsetPortrait);
+  const photoS = new Photo(photoSrcsetSquare);
+  t.is(photoL.calcWidthOrHeight(photoL.data.images[0], true), 600);
+  t.is(photoL.calcWidthOrHeight(photoL.data.images[1], true), 900);
+  t.is(photoL.calcWidthOrHeight(photoL.data.images[2], true), 1200);
+  t.is(photoP.calcWidthOrHeight(photoP.data.images[0], true), 400);
+  t.is(photoP.calcWidthOrHeight(photoP.data.images[1], true), 600);
+  t.is(photoP.calcWidthOrHeight(photoP.data.images[2], true), 800);
+  t.is(photoS.calcWidthOrHeight(photoS.data.images[0], true), 600);
+  t.is(photoS.calcWidthOrHeight(photoS.data.images[1], true), 900);
+  t.is(photoS.calcWidthOrHeight(photoS.data.images[2], true), 1200);
+});
+
+/** @test {Photo#calcWidthOrHeight} */
+test(&apos;Photo#calcWidthOrHeight calculate height from either width, height, or max&apos;, t =&gt; {
+  const photoL = new Photo(photoSrcsetLandscape);
+  const photoP = new Photo(photoSrcsetPortrait);
+  const photoS = new Photo(photoSrcsetSquare);
+  t.is(photoL.calcWidthOrHeight(photoL.data.images[0], false), 400);
+  t.is(photoL.calcWidthOrHeight(photoL.data.images[1], false), 600);
+  t.is(photoL.calcWidthOrHeight(photoL.data.images[2], false), 800);
+  t.is(photoP.calcWidthOrHeight(photoP.data.images[0], false), 600);
+  t.is(photoP.calcWidthOrHeight(photoP.data.images[1], false), 900);
+  t.is(photoP.calcWidthOrHeight(photoP.data.images[2], false), 1200);
+  t.is(photoS.calcWidthOrHeight(photoS.data.images[0], false), 600);
+  t.is(photoS.calcWidthOrHeight(photoS.data.images[1], false), 900);
+  t.is(photoS.calcWidthOrHeight(photoS.data.images[2], false), 1200);
+});
+
+/** @test {Photo#getSrcSet} */
+test(&apos;Photo#getSrcSet should not modify original data&apos;, t =&gt; {
+  const original = cloneDeep(photoSrcsetLandscape);
+  const photo = new Photo(photoSrcsetLandscape);
+  photo.getSrcSet();
+  t.deepEqual(photo.data, original);
+});
+
+/** @test {Photo#getSrcSet} */
+test(&apos;Photo#getSrcSet should return for srcset&apos;, t =&gt; {
+  const photo = new Photo(photoSrcsetLandscape);
+  t.is(photo.getSrcSet(), &apos;https://placehold.it/600x400 600w, https://placehold.it/900x600 900w, https://placehold.it/1200x800 1200w&apos;);
+});
+
+/** @test {Photo#getSrcSet} */
+test(&apos;Photo#getSrcSet should return for flickr landscape images&apos;, t =&gt; {
+  const photo = new Photo(photoFlickrLandscape);
+  t.is(photo.getSrcSet(), [
+    &apos;https://farm6.staticflickr.com/5604/15605014039_3aa65f125e_t.jpg 100w&apos;,
+    &apos;https://farm6.staticflickr.com/5604/15605014039_3aa65f125e_m.jpg 240w&apos;,
+    &apos;https://farm6.staticflickr.com/5604/15605014039_3aa65f125e_n.jpg 320w&apos;,
+    &apos;https://farm6.staticflickr.com/5604/15605014039_3aa65f125e.jpg 500w&apos;,
+    &apos;https://farm6.staticflickr.com/5604/15605014039_3aa65f125e_z.jpg 640w&apos;,
+    &apos;https://farm6.staticflickr.com/5604/15605014039_3aa65f125e_c.jpg 800w&apos;,
+    &apos;https://farm6.staticflickr.com/5604/15605014039_3aa65f125e_b.jpg 1024w&apos;,
+    &apos;https://farm6.staticflickr.com/5604/15605014039_2c5f7cc664_h.jpg 1600w&apos;,
+    &apos;https://farm6.staticflickr.com/5604/15605014039_31513b8bf6_k.jpg 2048w&apos;,
+  ].join(&apos;, &apos;));
+});
+
+/** @test {Photo#getSrcSet} */
+test(&apos;Photo#getSrcSet should return for flickr portrait images&apos;, t =&gt; {
+  const photo = new Photo(photoFlickrPortrait);
+  t.is(photo.getSrcSet(), [
+    &apos;https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_t.jpg 67w&apos;,
+    &apos;https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_m.jpg 160w&apos;,
+    &apos;https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_n.jpg 213w&apos;,
+    &apos;https://farm2.staticflickr.com/1623/24326364382_2a00bf3387.jpg 333w&apos;,
+    &apos;https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_z.jpg 427w&apos;,
+    &apos;https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_c.jpg 533w&apos;, // BUG: 534 is corrent in Flickr. See &lt;https://twitter.com/ohtaket/status/750318571926859776&gt;
+    &apos;https://farm2.staticflickr.com/1623/24326364382_2a00bf3387_b.jpg 683w&apos;,
+    &apos;https://farm2.staticflickr.com/1623/24326364382_988fe74e0e_h.jpg 1067w&apos;,
+    &apos;https://farm2.staticflickr.com/1623/24326364382_1d900d84de_k.jpg 1365w&apos;,
+  ].join(&apos;, &apos;));
+});
+
+/** @test {Photo#getSrcSet} */
+test(&apos;Photo#getSrcSet should return for flickr too small&apos;, t =&gt; {
+  const photo = new Photo(photoFlickrTooSmall);
+  t.is(photo.getSrcSet(), [
+    &apos;https://farm2.staticflickr.com/1457/24214891894_fb5e07fc69_t.jpg 100w&apos;,
+    &apos;https://farm2.staticflickr.com/1457/24214891894_fb5e07fc69_m.jpg 240w&apos;,
+    &apos;https://farm2.staticflickr.com/1457/24214891894_fb5e07fc69_n.jpg 320w&apos;,
+    &apos;https://farm2.staticflickr.com/1457/24214891894_fb5e07fc69.jpg 500w&apos;,
+    &apos;https://farm2.staticflickr.com/1457/24214891894_fb5e07fc69_z.jpg 538w&apos;,
+  ].join(&apos;, &apos;));
+});
+
+/** @test {Photo#getSrcSet} */
+test(&apos;Photo#getSrcSet should return for picasa&apos;, t =&gt; {
+  const photo = new Photo(photoPicasa);
+  t.is(photo.getSrcSet(), [
+    &apos;https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s100/5D3D4777%2520%25281920x1280%2529.jpg 100w&apos;,
+    &apos;https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s240/5D3D4777%2520%25281920x1280%2529.jpg 240w&apos;,
+    &apos;https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s320/5D3D4777%2520%25281920x1280%2529.jpg 320w&apos;,
+    &apos;https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s500/5D3D4777%2520%25281920x1280%2529.jpg 500w&apos;,
+    &apos;https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s640/5D3D4777%2520%25281920x1280%2529.jpg 640w&apos;,
+    &apos;https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s800/5D3D4777%2520%25281920x1280%2529.jpg 800w&apos;,
+    &apos;https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s1024/5D3D4777%2520%25281920x1280%2529.jpg 1024w&apos;,
+    &apos;https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s1600/5D3D4777%2520%25281920x1280%2529.jpg 1600w&apos;,
+    &apos;https://lh5.googleusercontent.com/-faW8atAcpVg/UUUpf0lwHdI/AAAAAAAANkw/YkGKWFcgyIk/s1920/5D3D4777%2520%25281920x1280%2529.jpg 1920w&apos;,
+  ].join(&apos;, &apos;));
+});
+
+/** @test {Photo#getSrcSet} */
+test(&apos;Photo#getSrcSet should return for instagram&apos;, t =&gt; {
+  const photoS = new Photo(photoInstagramSquare);
+  t.is(photoS.getSrcSet(), [
+    &apos;https://instagram.com/p/fA9uwTtkSN/media/?size=t 150w&apos;,
+    &apos;https://instagram.com/p/fA9uwTtkSN/media/?size=m 320w&apos;,
+    &apos;https://instagram.com/p/fA9uwTtkSN/media/?size=l 640w&apos;,
+  ].join(&apos;, &apos;));
+  const photoP = new Photo(photoInstagramPortrait);
+  t.is(photoP.getSrcSet(), [
+    // should not contain &apos;t&apos; for non-square image
+    &apos;https://instagram.com/p/BXo13ZBngas/media/?size=m 320w&apos;,
+    &apos;https://instagram.com/p/BXo13ZBngas/media/?size=l 720w&apos;,
+  ].join(&apos;, &apos;));
+});
+
+/** @test {Photo#getSrcSet} */
+test(&apos;Photo#getSrcSet should return for instagram v2&apos;, t =&gt; {
+  const photoS = new Photo(photoInstagram2Square);
+  t.is(photoS.getSrcSet(), [
+    &apos;https://scontent-nrt1-1.cdninstagram.com/vp/66fc31d63e4335207abe9c678a0a3f0b/5A88DA9A/t51.2885-15/s150x150/e15/11358196_1472850273007829_614249870_n.jpg 150w&apos;,
+    &apos;https://scontent-nrt1-1.cdninstagram.com/vp/640bc9bd24ad9f049fd7528fd06a9868/5A88E889/t51.2885-15/s320x320/e15/11358196_1472850273007829_614249870_n.jpg 320w&apos;,
+    &apos;https://scontent-nrt1-1.cdninstagram.com/vp/685ca756ed8ce187b242d0041734fe76/5A88CC04/t51.2885-15/e15/11358196_1472850273007829_614249870_n.jpg 640w&apos;,
+  ].join(&apos;, &apos;));
+  const photoP = new Photo(photoInstagram2Portrait);
+  t.is(photoP.getSrcSet(), [
+    // should not contain &apos;t&apos; for non-square image
+    &apos;https://scontent-nrt1-1.cdninstagram.com/vp/f1c0f16656b453b3620b1b3b276141d4/5AFF94C8/t51.2885-15/e15/p320x320/20766680_1780144428942534_1180693944258789376_n.jpg 320w&apos;,
+    &apos;https://scontent-nrt1-1.cdninstagram.com/vp/474170aa8bbbc28ed9981047bc8ea2a9/5B16558B/t51.2885-15/e15/20766680_1780144428942534_1180693944258789376_n.jpg 720w&apos;,
+  ].join(&apos;, &apos;));
+});
+
+/** @test {Photo#prepareSize} */
+test(&apos;Photo#prepareSize should fill all of width, height, or max&apos;, t =&gt; {
+  const photoL = new Photo(photoSrcsetLandscape);
+  let r;
+  r = photoL.prepareSize(photoL.data.images[0]);
+  t.is(typeof r.url, &apos;string&apos;);
+  t.is(r.width, 600);
+  t.is(r.height, 400);
+  t.is(r.max, 600);
+  r = photoL.prepareSize(photoL.data.images[1]);
+  t.is(typeof r.url, &apos;string&apos;);
+  t.is(r.width, 900);
+  t.is(r.height, 600);
+  t.is(r.max, 900);
+  r = photoL.prepareSize(photoL.data.images[2]);
+  t.is(typeof r.url, &apos;string&apos;);
+  t.is(r.width, 1200);
+  t.is(r.height, 800);
+  t.is(r.max, 1200);
+});
+
+/** @test {Photo#getLargestImageAtMost} */
+test(&apos;Photo#getLargestImageAtMost should return the most suitable one&apos;, t =&gt; {
+  const photoL = new Photo(photoSrcsetLandscape);
+  t.is(photoL.getLargestImageAtMost(100, 100).url, &apos;https://placehold.it/600x400&apos;);
+  t.is(photoL.getLargestImageAtMost(600, 400).url, &apos;https://placehold.it/600x400&apos;);
+  t.is(photoL.getLargestImageAtMost(10000, 400).url, &apos;https://placehold.it/600x400&apos;);
+  t.is(photoL.getLargestImageAtMost(600, 10000).url, &apos;https://placehold.it/600x400&apos;);
+  t.is(photoL.getLargestImageAtMost(900, 599).url, &apos;https://placehold.it/600x400&apos;);
+  t.is(photoL.getLargestImageAtMost(899, 600).url, &apos;https://placehold.it/600x400&apos;);
+  t.is(photoL.getLargestImageAtMost(900, 600).url, &apos;https://placehold.it/900x600&apos;);
+  t.is(photoL.getLargestImageAtMost(10000, 10000).url, &apos;https://placehold.it/1200x800&apos;);
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

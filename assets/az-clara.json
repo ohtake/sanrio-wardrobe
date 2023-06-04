@@ -1,0 +1,32 @@
+[
+	{
+		"title": "標準",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/15984220778/"
+		},
+		"images_flickr": {
+			"photo": "15984220778",
+			"farm": 8,
+			"server": 7546,
+			"secret": "eb28e68137",
+			"secret_h": "3c671c681d",
+			"secret_k": "3e0470375d",
+			"secret_o": "d3570f500c",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"pink",
+			"red",
+			"white"
+		],
+		"notes": [
+			"ピューロランドパレード『ARIGATO EVERYONE! ハッピークリスマス』"
+		]
+	}
+]

@@ -1,0 +1,36 @@
+[
+	{
+		"title": "りぼん隊",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/13002400905/"
+		},
+		"images_flickr": {
+			"photo": "13002400905",
+			"farm": 8,
+			"server": 7368,
+			"secret": "3123a72330",
+			"secret_h": "001c6a16a3",
+			"secret_k": "b94556ed7f",
+			"secret_o": "12a3542be9",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 3840,
+			"height_o": 5760
+		},
+		"colors": [
+			"pink",
+			"red",
+			"white",
+			"blue",
+			"yellow",
+			"purple"
+		],
+		"notes": [
+			"知恵の木ステージ『集まれ！めちゃカワっ★ぼんぼんりぼん隊 ミラクル』",
+			"ピューロランドパレード『リリーボンボンズのマーチングパレード』"
+		]
+	}
+]

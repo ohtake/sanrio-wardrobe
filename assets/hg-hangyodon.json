@@ -1,0 +1,28 @@
+[
+	{
+		"title": "標準",
+		"source": {
+			"author": "ohtake",
+			"license": "CC BY 2.0",
+			"url": "https://www.flickr.com/photos/ohtake_tomohiro/10249514475/"
+		},
+		"images_flickr": {
+			"photo": "10249514475",
+			"farm": 8,
+			"server": 7344,
+			"secret": "06b7025340",
+			"secret_h": "45ebcdbd83",
+			"secret_k": "7fc156eb5a",
+			"secret_o": "9d8a77cf40",
+			"format_o": "jpg"
+		},
+		"size": {
+			"width_o": 5760,
+			"height_o": 3840
+		},
+		"colors": [
+			"red"
+		],
+		"notes": []
+	}
+]
